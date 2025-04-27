@@ -14,10 +14,11 @@ model = MllamaForConditionalGeneration.from_pretrained(
 )
 processor = AutoProcessor.from_pretrained(model_id)
 
-with open('./SciVQA/validation_2025-03-27_18-34-44.json', 'r') as f:
+with open('../../SciVQA/validation_2025-03-27_18-34-44.json', 'r') as f:
     data = json.load(f)
 
 data = data[:10]
+
 
 def generate_inner(question, image, caption, qa_pair_type, answer_options):
     kwargs = {
@@ -37,23 +38,25 @@ def generate_inner(question, image, caption, qa_pair_type, answer_options):
     }
     messages = [
         {
-            'role': 'user', 
+            'role': 'user',
             'content': [
                 {'type': 'image'},
-                {'type': 'text', 'text': question+"\nSummarize how you will approach the problem and explain the steps you will take to reach the answer."}
+                {'type': 'text', 'text': question +
+                    "\nSummarize how you will approach the problem and explain the steps you will take to reach the answer."}
             ],
         }
     ]
 
     def infer(messages: dict) -> str:
-        input_text = processor.apply_chat_template(messages, add_generation_prompt=True)
+        input_text = processor.apply_chat_template(
+            messages, add_generation_prompt=True)
 
         device = model.device
 
         inputs = processor(image, input_text, return_tensors='pt').to(device)
         output = model.generate(**inputs, **kwargs)
         return processor.decode(output[0][inputs['input_ids'].shape[1]:]).replace('<|eot_id|>', '').replace("<|end_of_text|>", "")
-    
+
     def tmp(inp, out):
         return [
             {
@@ -122,14 +125,16 @@ def generate_inner(question, image, caption, qa_pair_type, answer_options):
 
     messages.extend(tmp(out, final_prompt))
     out = infer(messages)
-    
+
     # messages = add_turn(messages, final_prompt, conclusion)
     with torch.no_grad():
         final_answer = infer(messages)
-    
-    return final_answer.strip().replace(".", ""), reasoning # can we do summarization or BERT-based model for returning just the important part of the answer?
 
-images_dir = './SciVQA/images_validation'
+    # can we do summarization or BERT-based model for returning just the important part of the answer?
+    return final_answer.strip().replace(".", ""), reasoning
+
+
+images_dir = '../../SciVQA/images_validation'
 
 for entry in data:
     image_file = entry['image_file']
@@ -141,6 +146,6 @@ for entry in data:
     image_path = os.path.join(images_dir, image_file)
     image = Image.open(image_path)
 
-    result, reasoning = generate_inner(question, image, caption, qa_pair_type, answer_options)
+    result, reasoning = generate_inner(
+        question, image, caption, qa_pair_type, answer_options)
     print(result)
-
