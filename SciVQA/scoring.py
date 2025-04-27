@@ -50,7 +50,7 @@ def main():
     output_file = open(output_filename, 'w')
 
     gold_df = pd.read_json(args.gold_file)
-    pred_df = pd.read_csv(args.pred_file, index_col=0)
+    pred_df = pd.read_json(args.pred_file)
 
     if len(gold_df) != len(pred_df):
         raise ValueError(

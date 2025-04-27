@@ -178,6 +178,6 @@ for data in tqdm(ds):
         print("Error :", e)
         continue
 
-# model_pref = model_id.replace("/", "_")
-# with open(f"results_llamaVo1_beams{num_beams}.json", "w") as json_file:
-#     json.dump(all_data, json_file, indent=4)
+model_pref = model_id.replace("/", "_")
+with open(f"results_llamaVo1_beams{num_beams}.json", "w") as json_file:
+    json.dump(all_data, json_file, indent=4)
