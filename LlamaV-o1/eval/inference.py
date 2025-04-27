@@ -170,9 +170,9 @@ for data in tqdm(ds):
         all_data.append({
             "idx": idx,
             "question": question,
-            "final_answer": final_answer,
-            "answer": reasoning,
-            "answer_pred": reasoning+"\n\n\n"+result,
+            "answer": final_answer,
+            "answer_pred": result,
+            "reasoning": reasoning,
         })
     except Exception as e:
         print("Error :", e)
