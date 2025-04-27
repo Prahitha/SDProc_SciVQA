@@ -28,6 +28,8 @@ summary_prompt = "\nSummarize how you will approach the problem and explain the 
 caption_prompt = "Provide a detailed description of the image, particularly emphasizing the aspects related to the question."
 reasoning_prompt = "Provide a chain-of-thought, logical explanation of the problem. This should outline step-by-step reasoning."
 conclusion_prompt = "State the final answer in a clear and direct format. It must match the correct answer exactly."
+
+
 def generate_inner(question, image):
     kwargs = {
         'max_new_tokens': max_new_tokens,
@@ -47,7 +49,7 @@ def generate_inner(question, image):
     }
     messages = [
         {
-            'role': 'user', 
+            'role': 'user',
             'content': [
                 {'type': 'image'},
                 {'type': 'text', 'text': question+summary_prompt}
@@ -56,8 +58,10 @@ def generate_inner(question, image):
     ]
 
     def infer(messages: dict) -> str:
-        input_text = processor.apply_chat_template(messages, add_generation_prompt=True)
-        inputs = processor(image, input_text, return_tensors='pt').to(model.device)
+        input_text = processor.apply_chat_template(
+            messages, add_generation_prompt=True)
+        inputs = processor(image, input_text,
+                           return_tensors='pt').to(model.device)
         output = model.generate(**inputs, **kwargs)
         return processor.decode(output[0][inputs['input_ids'].shape[1]:]).replace('<|eot_id|>', '').replace("<|end_of_text|>", "")
 
@@ -85,13 +89,14 @@ def generate_inner(question, image):
     kwargs['max_new_tokens'] = 50
     out = infer(messages)
     print(f"Question: {question}\nAnswer: {out}")
-    return out, reasoning    
+    return out, reasoning
 
 
 def reasoning_steps_answer(img, question, choices):
-    
+
     predicted_answer, reasoning = generate_inner(question, img)
     return predicted_answer, reasoning
+
 
 print(f"Evaluating with {num_beams=}")
 print("="*50)
@@ -105,30 +110,44 @@ def get_old_results(idx):
             return d
 
 
-ds = load_dataset("omkarthawakar/VRC-Bench", split="test")
+ds = load_dataset("katebor/SciVQA", split="train")
+
+images_dir = "../train"
 
 all_data = []
 for data in tqdm(ds):
     try:
-        image = data["image"]
-        question = data["question"]
-        final_answer = data["final_answer"]
-        idx = data["idx"]
-        reasoning_answer = data["steps"]
-        question += "\nPlease select the correct option by its letter." if "Choices" in question else ""
-        model_answer, reasoning = generate_inner(question, image)
-        
+        # image = data["image"]
+        # question = data["question"]
+        # final_answer = data["final_answer"]
+        # idx = data["idx"]
+        # reasoning_answer = data["steps"]
+        # question += "\nPlease select the correct option by its letter." if "Choices" in question else ""
+        # model_answer, reasoning = generate_inner(question, image)
+        image_file = data['image_file']
+        question = data['question']
+        caption = data['caption']
+        idx = data["instance_id"]
+        qa_pair_type = data['qa_pair_type']
+        answer_options = data['answer_options']
+        final_answer = data["answer"]
+
+        image_path = os.path.join(images_dir, image_file)
+        image = Image.open(image_path)
+        result, reasoning = generate_inner(
+            question, image, caption, qa_pair_type, answer_options)
+
         all_data.append({
             "idx": idx,
             "question": question,
             "final_answer": final_answer,
-            "answer": reasoning_answer,
-            "llm_response": reasoning+"\n\n\n"+model_answer,
+            "answer": reasoning,
+            "answer_pred": reasoning+"\n\n\n"+result,
         })
     except Exception as e:
         print("Error :", e)
         continue
 
-model_pref = model_id.replace("/", "_")
-with open(f"results_llamaVo1_beams{num_beams}.json", "w") as json_file:
-    json.dump(all_data, json_file, indent=4)
+# model_pref = model_id.replace("/", "_")
+# with open(f"results_llamaVo1_beams{num_beams}.json", "w") as json_file:
+#     json.dump(all_data, json_file, indent=4)

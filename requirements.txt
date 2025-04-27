@@ -1,0 +1,6 @@
+torch
+transformers
+accelerate
+evaluate
+rouge_score
+bert_score
