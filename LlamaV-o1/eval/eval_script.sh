@@ -5,5 +5,5 @@
 #SBATCH --time=00:30:00
 #SBATCH --mem=100G
 
-source ../bin/activate
-python llamav-o1.py
+source ../LlamaV-o1-env/bin/activate
+python inference.py

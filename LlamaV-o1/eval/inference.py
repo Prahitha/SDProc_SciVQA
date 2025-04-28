@@ -1,4 +1,5 @@
 from PIL import Image
+from dotenv import load_dotenv
 import os
 import torch
 import json
@@ -6,6 +7,10 @@ from tqdm import tqdm
 from transformers import MllamaForConditionalGeneration, AutoProcessor
 from datasets import load_dataset
 import argparse
+import openai
+
+load_dotenv()
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--num_beams", type=int, default=4)
@@ -25,12 +30,14 @@ output_path = f"results_llamaVo1_beams{num_beams}.json"
 
 max_new_tokens = 1024
 summary_prompt = "\nSummarize how you will approach the problem and explain the steps you will take to reach the answer."
+
+# do we need these here? or keep them here and remove them below?
 caption_prompt = "Provide a detailed description of the image, particularly emphasizing the aspects related to the question."
 reasoning_prompt = "Provide a chain-of-thought, logical explanation of the problem. This should outline step-by-step reasoning."
 conclusion_prompt = "State the final answer in a clear and direct format. It must match the correct answer exactly."
 
 
-def generate_inner(question, image):
+def generate_inner(question, image, caption, qa_pair_type, answer_options):
     kwargs = {
         'max_new_tokens': max_new_tokens,
         "top_p": 0.9,
@@ -42,7 +49,7 @@ def generate_inner(question, image):
             128008,
             128009
         ],
-        "temperature": 0.6,
+        "temperature": 0.4,
         "num_beams": num_beams,
         "use_cache": True,
 
@@ -102,11 +109,7 @@ def generate_inner(question, image):
         final_prompt = "Return exactly this sentence: 'It is not possible to answer this question based only on the provided data.'"
     elif "closed-ended" in qa_pair_type and "finite answer set" in qa_pair_type:
         if "non-binary" in qa_pair_type and answer_options:
-            final_prompt = f"Based on the reasoning above, match it to one of the provided answer options: {{{answer_options}}}. You are given with options A, B, C, D as answer_options: \
-            A: The blue line, \
-            B: The red line, \
-            C: The gray line, \
-            D: All of the above. If C: The gray line is correct, then return C. Choose the one that best fits. Only return the letter in the final answer. Do not add anything else."
+            final_prompt = f"Based on the reasoning above, match it to one of the provided answer options: {{{answer_options}}}. Choose only the options that best fits. There could be multiple correct. Only return the letter(s) in the final answer. Do not add anything else."
         elif "binary" in qa_pair_type:
             final_prompt = "Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
         else:
@@ -120,6 +123,28 @@ def generate_inner(question, image):
 
     print(f"Question: {question}\nAnswer: {out}")
     return out, reasoning
+
+client = openai.OpenAI()
+
+def summarize_answer(question, generated_output, length="short"):
+    if length == "short":
+        prompt = f"Question: {{{question}}}\n\nAnswer:\n{{{generated_output}}}\n\nReturn only the keywords that answer the question. Make it as short, direct, and concise as possible. Do not add any extra explanation or reasoning in the final output. It does not have to be a full sentence."
+    elif length == "medium":
+        prompt = f"Question: {{{question}}}\n\nAnswer:\n{{{generated_output}}}\n\nReturn only the keywords that answer the question. Do not add any extra explanation or reasoning in the final output. It does not have to be a full sentence."
+    elif length == "long":
+        prompt = f"Question: {{{question}}}\n\nAnswer:\n{{{generated_output}}}\n\nReturn only the keywords that answer the question. It does not have to be a full sentence."
+
+    try:
+        response = client.chat.completions.create(
+            model = "gpt-4", # change to gpt-3.5-turbo for cheaper option?
+            messages = [{"role": "user", "content": prompt}],
+            max_tokens = 300,
+            temperature = 0.3,
+        )
+        return response.choices[0].message.content.strip()
+    except Exception as e:
+        print(f"Error during summarization: {e}")
+        return generated_output
 
 
 def reasoning_steps_answer(img, question, choices):
@@ -142,9 +167,11 @@ def get_old_results(idx):
 
 ds = load_dataset("katebor/SciVQA", split="train")
 
-images_dir = "../train"
+images_dir = "../../SciVQA/images_train"
 
 all_data = []
+samples = 0
+
 for data in tqdm(ds):
     try:
         # image = data["image"]
@@ -154,26 +181,41 @@ for data in tqdm(ds):
         # reasoning_answer = data["steps"]
         # question += "\nPlease select the correct option by its letter." if "Choices" in question else ""
         # model_answer, reasoning = generate_inner(question, image)
+        
+        if samples >= 10:
+            break
+        
         image_file = data['image_file']
         question = data['question']
         caption = data['caption']
-        idx = data["instance_id"]
+        idx = data['instance_id']
         qa_pair_type = data['qa_pair_type']
         answer_options = data['answer_options']
-        final_answer = data["answer"]
+        final_answer = data['answer']
 
         image_path = os.path.join(images_dir, image_file)
         image = Image.open(image_path)
         result, reasoning = generate_inner(
             question, image, caption, qa_pair_type, answer_options)
 
+        generated_output = f"{{{reasoning}}}\n\nFinal Answer: {{{result}}}"
+        short_summary = summarize_answer(question, generated_output, length="short")
+        medium_summary = summarize_answer(question, generated_output, length="medium")
+        long_summary = summarize_answer(question, generated_output, length="long")
+        
+        # do we want to keep all these columns in the final JSON?
         all_data.append({
             "idx": idx,
             "question": question,
             "answer": final_answer,
             "answer_pred": result,
             "reasoning": reasoning,
+            "short_summary": short_summary,
+            "medium_summary": medium_summary,
+            "long_summary": long_summary,
         })
+
+        samples += 1
     except Exception as e:
         print("Error :", e)
         continue
