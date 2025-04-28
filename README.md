@@ -3,4 +3,4 @@
 - File Structure 
 - SDProc_SciVQA
   - LlamaV-o1
-  - SciQVA: dataset from shared tasks 
+  - SciVQA: dataset from shared tasks 

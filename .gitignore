@@ -3,5 +3,8 @@ LlamaV-o1/lib/
 LlamaV-o1/lib64/
 LlamaV-o1/include/
 LlamaV-o1/share/
+LlamaV-o1/eval/slurm-*
+LlamaV-o1/.env
+LlamaV-o1/LlamaV-o1-env/
 SciVQA/*
 !SciVQA/scoring.py

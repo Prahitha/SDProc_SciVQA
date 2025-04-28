@@ -4,3 +4,5 @@ accelerate
 evaluate
 rouge_score
 bert_score
+openai
+python-dotenv
