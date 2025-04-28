@@ -111,11 +111,7 @@ def generate_inner(question, image, caption, qa_pair_type, answer_options):
         final_prompt = "Return exactly this sentence: 'It is not possible to answer this question based only on the provided data.'"
     elif "closed-ended" in qa_pair_type and "finite answer set" in qa_pair_type:
         if "non-binary" in qa_pair_type and answer_options:
-            final_prompt = f"Based on the reasoning above, match it to one of the provided answer options: {{{answer_options}}}. You are given with options A, B, C, D as answer_options: \
-            A: The blue line, \
-            B: The red line, \
-            C: The gray line, \
-            D: All of the above. If C: The gray line is correct, then return C. Choose the one that best fits. Only return the letter in the final answer. Do not add anything else."
+            final_prompt = f"Based on the reasoning above, match it to one of the provided answer options: {{{answer_options}}}. Choose only the options that best fits. There could be multiple correct. Only return the letter(s) in the final answer. Do not add anything else."
         elif "binary" in qa_pair_type:
             final_prompt = "Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
         else:
