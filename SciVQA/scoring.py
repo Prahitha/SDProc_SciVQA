@@ -58,9 +58,9 @@ def main():
 
     merged = gold_df.merge(pred_df, on='instance_id', how='left')
     merged["answer"] = merged["answer"].astype(str)
-    merged["answer_pred"] = merged["answer_pred"].astype(str)
+    merged["short_summary"] = merged["short_summary"].astype(str)
     references = merged["answer"].tolist()
-    predictions = merged["answer_pred"].tolist()
+    predictions = merged["short_summary"].tolist()
 
     rouge1_score_f1, rouge1_score_precision, rouge1_score_recall = rouge(
         predictions, references, "rouge1")

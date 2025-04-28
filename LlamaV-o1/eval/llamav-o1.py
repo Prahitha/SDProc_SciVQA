@@ -14,10 +14,10 @@ model = MllamaForConditionalGeneration.from_pretrained(
 )
 processor = AutoProcessor.from_pretrained(model_id)
 
-with open('../../SciVQA/validation_2025-03-27_18-34-44.json', 'r') as f:
+with open('../../SciVQA/test_without_answers_2025-04-14_15-30.json', 'r') as f:
     data = json.load(f)
 
-data = data[:10]
+data = data[:1]
 
 
 def generate_inner(question, image, caption, qa_pair_type, answer_options):
@@ -127,10 +127,10 @@ def generate_inner(question, image, caption, qa_pair_type, answer_options):
         final_answer = infer(messages)
 
     # can we do summarization or BERT-based model for returning just the important part of the answer?
-    return final_answer.strip().replace(".", ""), reasoning
+    return final_answer, reasoning
 
 
-images_dir = '../../SciVQA/images_validation'
+images_dir = '../../SciVQA/images_test'
 
 for entry in data:
     image_file = entry['image_file']

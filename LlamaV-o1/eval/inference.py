@@ -8,6 +8,7 @@ from transformers import MllamaForConditionalGeneration, AutoProcessor
 from datasets import load_dataset
 import argparse
 import openai
+import time
 
 load_dotenv()
 openai.api_key = os.getenv("OPENAI_API_KEY")
@@ -29,6 +30,8 @@ num_beams = args.num_beams
 output_path = f"results_llamaVo1_beams{num_beams}.json"
 
 max_new_tokens = 1024
+
+# tree-of thought
 summary_prompt = "\nSummarize how you will approach the problem and explain the steps you will take to reach the answer."
 
 # do we need these here? or keep them here and remove them below?
@@ -105,11 +108,17 @@ def generate_inner(question, image, caption, qa_pair_type, answer_options):
     messages.extend(tmp(out, conclusion_prompt))
 
     out = infer(messages)
-    if "unanswerable" in qa_pair_type:
-        final_prompt = "Return exactly this sentence: 'It is not possible to answer this question based only on the provided data.'"
-    elif "closed-ended" in qa_pair_type and "finite answer set" in qa_pair_type:
+    if "closed-ended" in qa_pair_type and "finite answer set" in qa_pair_type:
         if "non-binary" in qa_pair_type and answer_options:
-            final_prompt = f"Based on the reasoning above, match it to one of the provided answer options: {{{answer_options}}}. Choose only the options that best fits. There could be multiple correct. Only return the letter(s) in the final answer. Do not add anything else."
+            final_prompt = (
+                f"Based on the reasoning above, match it to one or more of the provided answer options: {answer_options}. "
+                "Return only the corresponding letter(s) of the correct answer(s). "
+                "Do not explain your choice, do not rephrase the answer, and do not repeat the option text. "
+                "Only output the letter(s) corresponding to the correct choice. "
+                "If multiple letters are correct, separate them by commas without spaces (for example: B,C). "
+                "If all options are correct, return A,B,C,D. "
+                "Do not add anything else."
+            )
         elif "binary" in qa_pair_type:
             final_prompt = "Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
         else:
@@ -126,17 +135,53 @@ def generate_inner(question, image, caption, qa_pair_type, answer_options):
 
 client = openai.OpenAI()
 
+def should_override_with_unanswerable(reasoning: str) -> bool:
+    reasoning_lower = reasoning.lower()
+    keywords = [
+        "cannot be determined",
+        "cannot determine",
+        "not possible to determine",
+        "insufficient information",
+        "not enough information",
+        "unanswerable",
+        "data is missing",
+        "lack of information",
+        "figure is not provided"
+    ]
+    return any(keyword in reasoning_lower for keyword in keywords)
+
 def summarize_answer(question, generated_output, length="short"):
     if length == "short":
-        prompt = f"Question: {{{question}}}\n\nAnswer:\n{{{generated_output}}}\n\nReturn only the keywords that answer the question. Make it as short, direct, and concise as possible. Do not add any extra explanation or reasoning in the final output. It does not have to be a full sentence."
+        prompt = (
+            f"Question: {{{question}}}\n\nAnswer:\n{{{generated_output}}}\n\n"
+            "If the answer is given in the form of options (such as A, B, C, etc.), keep it in the option format and do not rewrite or expand it into text. "
+            "Check the reasoning carefully: if it indicates that the answer cannot be determined, is unanswerable, or mentions insufficient information, "
+            "then return exactly this sentence: 'It is not possible to answer this question based only on the provided data.' "
+            "Otherwise, return only the keywords that answer the question, making it as short, direct, and concise as possible. "
+            "Do not add any extra explanation or reasoning in the final output. It does not have to be a full sentence."
+        )
     elif length == "medium":
-        prompt = f"Question: {{{question}}}\n\nAnswer:\n{{{generated_output}}}\n\nReturn only the keywords that answer the question. Do not add any extra explanation or reasoning in the final output. It does not have to be a full sentence."
+        prompt = (
+            f"Question: {{{question}}}\n\nAnswer:\n{{{generated_output}}}\n\n"
+            "If the answer is given in the form of options (such as A, B, C, etc.), keep it in the option format and do not rewrite or expand it into text. "
+            "Check the reasoning carefully: if it indicates that the answer cannot be determined, is unanswerable, or mentions insufficient information, "
+            "then return exactly this sentence: 'It is not possible to answer this question based only on the provided data.' "
+            "Otherwise, return only the keywords that answer the question. "
+            "Do not add any extra explanation or reasoning in the final output. It does not have to be a full sentence."
+        )
     elif length == "long":
-        prompt = f"Question: {{{question}}}\n\nAnswer:\n{{{generated_output}}}\n\nReturn only the keywords that answer the question. It does not have to be a full sentence."
+        prompt = (
+            f"Question: {{{question}}}\n\nAnswer:\n{{{generated_output}}}\n\n"
+            "If the answer is given in the form of options (such as A, B, C, etc.), keep it in the option format and do not rewrite or expand it into text. "
+            "Check the reasoning carefully: if it indicates that the answer cannot be determined, is unanswerable, or mentions insufficient information, "
+            "then return exactly this sentence: 'It is not possible to answer this question based only on the provided data.' "
+            "Otherwise, return only the keywords that answer the question. "
+            "It does not have to be a full sentence."
+        )
 
     try:
         response = client.chat.completions.create(
-            model = "gpt-4", # change to gpt-3.5-turbo for cheaper option?
+            model = "gpt-3.5-turbo", # change to gpt-3.5-turbo for cheaper option?
             messages = [{"role": "user", "content": prompt}],
             max_tokens = 300,
             temperature = 0.3,
@@ -182,6 +227,7 @@ for data in tqdm(ds):
         # question += "\nPlease select the correct option by its letter." if "Choices" in question else ""
         # model_answer, reasoning = generate_inner(question, image)
         
+        start_time = time.time()
         if samples >= 10:
             break
         
@@ -191,7 +237,6 @@ for data in tqdm(ds):
         idx = data['instance_id']
         qa_pair_type = data['qa_pair_type']
         answer_options = data['answer_options']
-        final_answer = data['answer']
 
         image_path = os.path.join(images_dir, image_file)
         image = Image.open(image_path)
@@ -199,21 +244,30 @@ for data in tqdm(ds):
             question, image, caption, qa_pair_type, answer_options)
 
         generated_output = f"{{{reasoning}}}\n\nFinal Answer: {{{result}}}"
-        short_summary = summarize_answer(question, generated_output, length="short")
-        medium_summary = summarize_answer(question, generated_output, length="medium")
-        long_summary = summarize_answer(question, generated_output, length="long")
+
+        if should_override_with_unanswerable(reasoning):
+            summary_text = "It is not possible to answer this question based only on the provided data."
+            short_summary = summary_text
+            medium_summary = summary_text
+            long_summary = summary_text
+        else:
+            short_summary = summarize_answer(question, generated_output, length="short")
+            medium_summary = summarize_answer(question, generated_output, length="medium")
+            long_summary = summarize_answer(question, generated_output, length="long")
         
-        # do we want to keep all these columns in the final JSON?
+        elapsed_time = time.time() - start_time
+
         all_data.append({
-            "idx": idx,
+            "instance_id": idx,
             "question": question,
-            "answer": final_answer,
             "answer_pred": result,
             "reasoning": reasoning,
             "short_summary": short_summary,
             "medium_summary": medium_summary,
             "long_summary": long_summary,
         })
+
+        print(f"Processed sample {samples + 1} in {elapsed_time:.2f} seconds")
 
         samples += 1
     except Exception as e:
