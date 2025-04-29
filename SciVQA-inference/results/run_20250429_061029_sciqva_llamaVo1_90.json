@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "40538da7374d4eacbb91ad8a0fd423b5",
+        "question": "Which line on the graph represents the epsilon value of 0.75?",
+        "answer_pred": "D",
+        "reasoning": "To determine which line represents the epsilon value of 0.75, I will:\n1. Examine the legend at the top of the graph, which associates each line with a specific epsilon value.\n2. Locate the line labeled \"eps0.75\" in the legend.\n3. Identify the corresponding line on the graph that matches the color and pattern described in the legend.\n4. Verify that this line aligns with the correct epsilon value by checking its position relative to other lines."
+    },
+    {
+        "instance_id": "532940008f6b6510941fa1e98a592a8e",
+        "question": "For which of the following epsilon values is the performance the highest when the cumulative cost is 5000?",
+        "answer_pred": "D",
+        "reasoning": "To determine which epsilon value has the highest performance at a cumulative cost of 5000, I will:\n\n1. Locate the cumulative cost of 5000 on the x-axis.\n2. Observe the corresponding BLEU scores on the y-axis for each epsilon value.\n3. Compare the BLEU scores for each epsilon value at the cumulative cost of 5000.\n4. Identify the epsilon value with the highest BLEU score at this point."
+    },
+    {
+        "instance_id": "06b5ae31537219d350e7f216d8d2747d",
+        "question": "What is the specific dataset used for training Reg3 and -greedy models in Figure 5?",
+        "answer_pred": "IWSLT",
+        "reasoning": "To identify the dataset used for training Reg3 and -greedy models, I will focus on the lines in the plot that correspond to these models. The lines are labeled with different colors and values of \\(\\epsilon\\). I will look for any annotations or labels in the image that specify the dataset name. Additionally, I will consider the context provided in the question to ensure the correct dataset is identified."
+    },
+    {
+        "instance_id": "2743b35599ba36a55a51140819888b38",
+        "question": "What is the approximate value of the dotted line at 6 sentences in left graph?",
+        "answer_pred": "0.18",
+        "reasoning": "To determine the approximate value of the dotted line at 6 sentences in the left graph, I will follow these steps:\n\n1. Identify the dotted line in the left graph, which represents \"Graph Centrality Summary.\"\n2. Locate the 6-sentence mark on the x-axis of the left graph.\n3. Trace vertically from the 6-sentence mark to the dotted line.\n4. Read the corresponding value on the y-axis, which represents redundancy as a percentage.\n5. The dotted line at the 6-sentence mark appears to be slightly above the 0.15 mark on the y-axis."
+    },
+    {
+        "instance_id": "99245580177e57b78189e3a23acc4682",
+        "question": "What is the approximate value of Coverage (%) at 5 sentences for the graph centrality method?",
+        "answer_pred": "0.15",
+        "reasoning": "To determine the Coverage (%) at 5 sentences for the graph centrality method, I will:\n\n1. Focus on the graph on the right (Fig. 5).\n2. Locate the point on the x-axis corresponding to 5 sentences.\n3. Trace vertically from this point to the line representing the graph centrality method.\n4. Read the value on the y-axis where this vertical line intersects the graph centrality line.\n5. This value represents the Coverage (%) at 5 sentences for the graph centrality method."
+    },
+    {
+        "instance_id": "6259f7179d4f0971f4a668323eb7c90d",
+        "question": "Is the dotted line consistently above the solid line in both graphs?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the dotted line is consistently above the solid line in both graphs, I will:\n\n1. Examine the graph on the left (Fig. 4) where the y-axis represents redundancy percentage and the x-axis represents the number of sentences. The solid line represents \"Powered by Post-Processing,\" and the dotted line represents \"Graph Centrality Summary.\"\n\n2. Observe that the dotted line is consistently above the solid line throughout the range of the x-axis from 0 to 6 sentences.\n\n3. Examine the graph on the right (Fig. 5) where the y-axis represents coverage percentage and the x-axis represents the number of sentences. The solid line represents \"Powered by Post-Processing,\" and the dotted line represents \"Graph Centrality.\"\n\n4. Observe that the dotted line is consistently above the solid line throughout the range of the x-axis from 0 to 6 sentences.\n\n5. Conclude that in both graphs, the dotted line representing \"Graph Centrality\" is consistently above the solid line representing \"Powered by Post-Processing.\""
+    },
+    {
+        "instance_id": "e49e31d9cd6c5a57564efda2266d98e7",
+        "question": "Does the mean coverage increase as the number of sentences increases for both 'Powered by Post-Processing' and 'Graph Centrality'?",
+        "answer_pred": "Yes",
+        "reasoning": "To solve the problem, I will focus on the right graph (Fig. 5), which shows the coverage percentage against the number of sentences. I will examine the trend lines for 'Powered by Post-Processing' and 'Graph Centrality' to determine if the mean coverage increases as the number of sentences increases. I will look for a consistent upward trend in both lines as the sentence count rises."
+    },
+    {
+        "instance_id": "70fd58b6497db8d031b8d11f334da03d",
+        "question": "At what number of sentences does the solid line reach a value higher than 0.15 in the left plot?",
+        "answer_pred": "D",
+        "reasoning": "First, I will focus on the left plot, \"Mean Redundancy,\" where the solid line represents \"Powered by Post-Processing\" and the dotted line represents \"Graph Centrality Summary.\" I need to find where the solid line crosses the 0.15 threshold on the y-axis. Observing the graph, the solid line starts below 0.15 and gradually increases. It crosses the 0.15 line at approximately 5 sentences."
+    },
+    {
+        "instance_id": "61a1b331a0be28f86d1b364bfcae5489",
+        "question": "Which of the approximate reception value for 'Powered by Post-Processing' at 3 sentences?",
+        "answer_pred": "D",
+        "reasoning": "To find the reception value for 'Powered by Post-Processing' at 3 sentences, I will focus on the left graph (Fig. 4). The x-axis represents the number of sentences, and the y-axis represents reception percentage. The line for 'Powered by Post-Processing' is solid. I will locate the point on this line corresponding to 3 sentences on the x-axis and read the reception value from the y-axis."
+    },
+    {
+        "instance_id": "7d09f51b88a0314c0fca33afffa58ee6",
+        "question": "What specific task or domain does this experiment focus on?",
+        "answer_pred": "Mean Redundancy and Mean Coverage",
+        "reasoning": "To determine the specific task or domain the experiment focuses on, I will examine the labels and axes of the graphs. The left graph, \"Mean Redundancy,\" shows repetition percentage against the number of sentences, with lines for \"Powered by Post-Processing\" and \"Graph Centrality Summary.\" The right graph, \"Mean Coverage,\" shows coverage percentage against the number of sentences, with lines for \"Powered by Post-Processing\" and \"Graph Centrality Summary.\" Both graphs compare these two entities, indicating a focus on evaluating their performance in terms of redundancy and coverage."
+    }
+]

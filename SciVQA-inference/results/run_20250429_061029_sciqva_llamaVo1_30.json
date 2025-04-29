@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "a9aabfe2880b2e317a028240f597b5bb",
+        "question": "What is the approximate value of relative IC accuracy for the green line at an average entropy of 6?",
+        "answer_pred": "0.95",
+        "reasoning": "To determine the relative IC accuracy for the green line at an average entropy of 6:\n\n1. Identify the green line on the graph, which represents the \"Model in [9] - Unfreeze Word Layer.\"\n2. Locate the point on the green line corresponding to an average entropy of 6 on the x-axis.\n3. Trace vertically from this point to find the relative IC accuracy on the y-axis.\n4. Read the approximate value of relative IC accuracy from the y-axis at this point."
+    },
+    {
+        "instance_id": "f8eb4162479102f4fe8176be08ecb4bb",
+        "question": "How many training strategies are shown in the graph?",
+        "answer_pred": "4",
+        "reasoning": "To solve the problem, I will:\n1. Examine the graph to identify the number of distinct lines, each representing a different training strategy.\n2. Refer to the legend to match each line with its corresponding training strategy.\n3. Count the number of unique lines in the graph.\n4. Verify that each line corresponds to a different strategy as indicated by the legend.\n5. Conclude with the total number of distinct training strategies shown in the graph."
+    },
+    {
+        "instance_id": "9aac3c5b3b175e0d0c46a4b87ef2f5c3",
+        "question": "Is the purple line representing the 'Multi-task Model in [10]' consistently above the red line representing the 'Model in [9] - No Unfreezing'?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the purple line is consistently above the red line, I will:\n\n1. Identify the red line as representing 'Model in [9] - No Unfreezing' and the purple line as representing 'Multi-task Model in [10]'.\n2. Observe the relative IC accuracy values on the y-axis for both lines across the range of average entropies on the x-axis.\n3. Note that the purple line remains above the red line throughout the entire range of average entropies, indicating that the 'Multi-task Model in [10]' consistently has higher relative IC accuracy than the 'Model in [9] - No Unfreezing'."
+    },
+    {
+        "instance_id": "614da39b77210bc992512a7fddb6e9b2",
+        "question": "Is the relative IC accuracy of the 'Multi-task Model [10]' lower than the accuracy of the 'Model in [9] - Unfreeze all layers' when the average entropy is 8?",
+        "answer_pred": "The relative IC accuracy of the 'Multi-task Model [10]' is lower than the accuracy of the 'Model in [9] - Unfreeze all layers' when the average entropy is 8.",
+        "reasoning": "To determine if the relative IC accuracy of the 'Multi-task Model [10]' is lower than that of the 'Model in [9] - Unfreeze all layers' at an average entropy of 8, I will:\n\n1. Locate the average entropy value of 8 on the x-axis.\n2. Identify the relative IC accuracy values on the y-axis for both the 'Multi-task Model [10]' (purple line) and the 'Model in [9] - Unfreeze all layers' (blue line) at this average entropy.\n3. Compare these two values to see if the relative IC accuracy of the 'Multi-task Model [10]' is lower than that of the 'Model in [9] - Unfreeze all layers'."
+    },
+    {
+        "instance_id": "d6616be735e75934a62c7b90f0a06d01",
+        "question": "Which line represents the training strategy 'Unfreeze All Layers'?",
+        "answer_pred": "D",
+        "reasoning": "To find the line representing 'Unfreeze All Layers,' I will:\n1. Look at the legend in the graph to identify the color associated with 'Model in [9] - Unfreeze All Layers.'\n2. Match this color to the corresponding line on the graph.\n3. Verify that this line is distinct from the other lines representing different strategies."
+    },
+    {
+        "instance_id": "1888d868b87f60174e10129f0083a996",
+        "question": "What is the starting value of Relative IC Accuracy shown on the graph?",
+        "answer_pred": "D",
+        "reasoning": "To determine the starting value of Relative IC Accuracy, I will focus on the leftmost point of the graph. This point corresponds to the lowest value on the x-axis (Average Entropy) and the highest value on the y-axis (Relative IC Accuracy). The y-axis starts at 0.65, indicating that the starting value of Relative IC Accuracy is 0.65."
+    },
+    {
+        "instance_id": "7243c2017a77b011a51752ab145c847e",
+        "question": "On which task are models being evaluated on?",
+        "answer_pred": "Intent classification",
+        "reasoning": "To determine the task on which the models are being evaluated, I will focus on the legend provided in the image. The legend indicates that the models are related to intent classification, as it mentions \"intent classification accuracy.\" This suggests that the models are being evaluated based on their performance in this specific task."
+    },
+    {
+        "instance_id": "5fe86db41d235af229b308fa74bcfab3",
+        "question": "What is the approximate value of the solid black line at a training size of 200?",
+        "answer_pred": "0.46",
+        "reasoning": "To find the approximate value of the solid black line at a training size of 200, I will:\n1. Locate the solid black line on the graph, which represents the overall performance.\n2. Identify the point on the x-axis corresponding to a training size of 200.\n3. Trace vertically from this point to intersect with the solid black line.\n4. Read the approximate F1 positive value from the y-axis at this intersection."
+    },
+    {
+        "instance_id": "85e1371d1faa12bdc6c64c4abf927d46",
+        "question": "What is the approximate F1 score for 'Chemistry' when using full datasets?",
+        "answer_pred": "0.66",
+        "reasoning": "To determine the approximate F1 score for 'Chemistry' when using full datasets, I will:\n\n1. Locate the 'Chemistry' line on the graph, which is represented by the red dashed line.\n2. Observe the x-axis to find the point where the training size is at its maximum, which is 500.\n3. Follow the red dashed line to the corresponding point on the y-axis to determine the F1 score.\n4. Note that the F1 score for 'Chemistry' at a training size of 500 is approximately 0.66."
+    },
+    {
+        "instance_id": "decec01e4c9022e301e7bd08e576a583",
+        "question": "Does the dashed line representing 'Overall' fall above the dashed line representing 'Chemistry' at the training size of 500?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the 'Overall' line is above the 'Chemistry' line at a training size of 500, I will locate both lines on the graph. The 'Overall' line is represented by a dark dashed line, while the 'Chemistry' line is represented by a red dashed line. At a training size of 500, I observe that the 'Overall' line is positioned above the 'Chemistry' line."
+    }
+]

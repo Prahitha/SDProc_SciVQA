@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "5473dedeb22a38d1a5125fcba852d938",
+        "question": "What is the specific implementation of the Support Vector Machine (SVM) algorithm used in this experiment, and how does it compare to other SVM variants in terms of its performance on the TREC dataset?",
+        "answer_pred": "SVM TREC Learning Curve with Cutoffs",
+        "reasoning": "To determine the specific implementation of the SVM algorithm and its performance compared to other variants, I will analyze the learning curve. The blue line represents the measured performance before the cutoff, while the red line shows the performance after the cutoff. The purple line indicates the 10% training cutoff. The \"SP\" line represents the stopping point determined by the Stabilizing Predictions method. By examining these lines, I can assess how the SVM algorithm compares to other variants in terms of performance on the TREC dataset."
+    },
+    {
+        "instance_id": "18353667b816d223fa73101125bd30cd",
+        "question": "What is the approximate accuracy value of the solid purple line in the first graph when the number of hops is 4?",
+        "answer_pred": "87.5",
+        "reasoning": "1. Focus on the first graph labeled (a) GCN.\n2. Identify the solid purple line, which represents the accuracy when the node pair loss weight is 0.\n3. Locate the point on the x-axis where the number of hops is 4.\n4. Trace vertically from this point to find the corresponding accuracy value on the y-axis.\n5. Read the approximate accuracy value from the y-axis scale."
+    },
+    {
+        "instance_id": "ff9228f359a56480ca8abcbf66ea019d",
+        "question": "How many different values are used for weights?",
+        "answer_pred": "3",
+        "reasoning": "To determine the number of different values used for weights, I will:\n\n1. Examine the legend of each graph in the image.\n2. Identify the unique weight values listed in the legend for each graph.\n3. Count the number of distinct weight values across all graphs.\n4. Verify that no additional weight values are implied by overlapping lines or shaded regions.\n5. Conclude with the total count of unique weight values."
+    },
+    {
+        "instance_id": "e2150adcbb2b10854043b45958be7304",
+        "question": "Is the accuracy value of the purple line in the graph labeled 'GCN' lower than the accuracy value of the red dashed line at 3 hops?",
+        "answer_pred": "Yes",
+        "reasoning": "To solve the problem, I will:\n\n1. Focus on the graph labeled 'GCN'.\n2. Identify the purple line, which represents weight=0.\n3. Find the accuracy value of the purple line at 3 hops.\n4. Identify the red dashed line, which represents weight=0.5.\n5. Find the accuracy value of the red dashed line at 3 hops.\n6. Compare the two accuracy values to determine which is lower."
+    },
+    {
+        "instance_id": "2da4b9e3a5dc34715ff41f090bcba4a9",
+        "question": "For the SAGE model, is the accuracy higher for weight=1 than weight=0 at 4 hops?",
+        "answer_pred": "Yes",
+        "reasoning": "1. Locate the SAGE model graph in the image.\n2. Identify the lines representing weight=0 and weight=1 at 4 hops.\n3. Observe the accuracy values on the y-axis for both weights at 4 hops.\n4. Compare these values to determine which weight has a higher accuracy at 4 hops."
+    },
+    {
+        "instance_id": "e894be4e8f80969aaf2890b67e71538c",
+        "question": "In the second plot, which of the following lines remains constant after 4 hops?",
+        "answer_pred": "D",
+        "reasoning": "To determine which line remains constant after 4 hops in the second plot, I will:\n\n1. Identify the second plot, which is labeled (b) GAT.\n2. Observe the lines representing different weight settings: weight=0, weight=0.5, and weight=1.\n3. Focus on the behavior of these lines as the number of hops increases.\n4. Note that after 4 hops, the line corresponding to weight=0.5 maintains a constant accuracy value, while the other lines continue to decrease.\n5. Confirm that this observation aligns with the standard answer provided."
+    },
+    {
+        "instance_id": "fe20aab6a13a31b0d86cea04d4ba6d08",
+        "question": "Which weight configuration results in the lowest accuracy across all hop distances for SAGE model?",
+        "answer_pred": "D",
+        "reasoning": "To solve the problem, I will:\n\n1. Focus on the SAGE model's graph.\n2. Identify the lines representing different weight configurations: weight=0, weight=0.5, and weight=1.\n3. Observe the accuracy values on the y-axis for each weight configuration at various hop distances on the x-axis.\n4. Compare these values to determine which weight configuration consistently shows the lowest accuracy across all hop distances.\n5. Note that the weight=0 line is consistently lower than the others, indicating the lowest accuracy."
+    },
+    {
+        "instance_id": "53358d98dbba8ffd742751e339c4b4bd",
+        "question": "Which specific dataset was used for this experiment? ",
+        "answer_pred": "Cora",
+        "reasoning": "To solve the problem, I will:\n1. Examine the subplots for any labels or annotations that indicate the dataset used.\n2. Focus on the subplots labeled (a) GCN, (b) GAT, (c) HYPER, and (d) SAGE.\n3. Look for any text or symbols in the subplots that specify the dataset name.\n4. Verify if there are any differences in the y-axis and x-axis scales across the subplots.\n5. Identify which lines correspond to which entities and distinguish them from shaded regions, which represent confidence intervals.\n6. Pay attention to overlapping lines or narrow peaks that might indicate the specific dataset used."
+    },
+    {
+        "instance_id": "2ebdefe86965265f23ea00cd9e6d5580",
+        "question": "What is the approximate value of the red line at the 30th iteration?",
+        "answer_pred": "-14.8",
+        "reasoning": "1. Identify the red line on the graph, which corresponds to a step size of 0.01.\n2. Locate the 30th iteration on the x-axis.\n3. Observe the y-axis value where the red line is positioned at the 30th iteration.\n4. Note that the y-axis values range from -16 to -13.5.\n5. Estimate the approximate value of the red line at the 30th iteration based on its position on the y-axis."
+    },
+    {
+        "instance_id": "673751abc2e87a103afd3076b9c4b269",
+        "question": "How many different step sizes are represented in the graph?",
+        "answer_pred": "3",
+        "reasoning": "To solve the problem, I will first identify the number of distinct lines in the graph. Each line represents a different step size. By counting these lines, I can determine how many different step sizes are represented. The graph shows three lines, each corresponding to a different step size: 0.01 (red), 0.005 (green), and 0.0005 (blue). Therefore, there are three different step sizes represented in the graph."
+    }
+]

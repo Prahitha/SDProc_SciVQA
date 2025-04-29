@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "3a2abc0ce149b56182dde60adfc3edbf",
+        "question": "What is the approximate UAS value for the red line at 6 iterations?",
+        "answer_pred": "91.8",
+        "reasoning": "1. Identify the red line on the graph, which represents the L2 method.\n2. Locate the point on the red line corresponding to 6 iterations on the x-axis.\n3. Read the UAS value from the y-axis at this point."
+    },
+    {
+        "instance_id": "a49bb654500ff3d972b34262bbd95e1f",
+        "question": "Which training method reaches the lowest UAS value at 8 iterations?",
+        "answer_pred": "L2",
+        "reasoning": "To determine which training method reaches the lowest UAS value at 8 iterations, I will:\n\n1. Locate the point on the graph corresponding to 8 iterations on the x-axis.\n2. Identify the UAS values for each training method at this point.\n3. Compare the UAS values for CLL, L2, and L2+AR at 8 iterations.\n4. Determine which method has the lowest UAS value at this point.\n\nAt 8 iterations, the UAS values are:\n- CLL: approximately 91.8\n- L2: approximately 92.0\n- L2+AR: approximately 92.0\n\nComparing these values, CLL has the lowest UAS value at 8 iterations."
+    },
+    {
+        "instance_id": "deae3248bc82258e3443e986c3655404",
+        "question": "Is the value of the red square at iteration 4 higher than the value of the blue diamond at iteration 7?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the value of the red square at iteration 4 is higher than the value of the blue diamond at iteration 7, I will:\n\n1. Locate the red square at iteration 4 on the graph, which corresponds to the L2 method.\n2. Identify the y-axis value of the red square at iteration 4.\n3. Locate the blue diamond at iteration 7 on the graph, which corresponds to the CLL method.\n4. Identify the y-axis value of the blue diamond at iteration 7.\n5. Compare the y-axis values of the red square at iteration 4 and the blue diamond at iteration 7.\n6. Determine if the value of the red square at iteration 4 is higher than the value of the blue diamond at iteration 7."
+    },
+    {
+        "instance_id": "8c852f4cb76f51d69c3956b1b9829a65",
+        "question": "Does the UAS value for L2+AR training consistently surpass the UAS value for CLL training throughout the iterations?",
+        "answer_pred": "Yes",
+        "reasoning": "1. Identify the lines on the graph: CLL (blue), L2 (red), and L2+AR (green).\n2. Observe the position of the L2+AR line relative to the CLL line across all iterations.\n3. Note that the L2+AR line consistently stays above the CLL line, indicating that the UAS value for L2+AR is higher than for CLL at each iteration.\n4. Conclude that the UAS value for L2+AR training consistently surpasses the UAS value for CLL training throughout the iterations."
+    },
+    {
+        "instance_id": "1818093c7795414a5e84fb0d810eea75",
+        "question": "Which line represents the UAS value for approximation-aware training with an L2 objective?",
+        "answer_pred": "A, B, C, D",
+        "reasoning": "To find the line representing the UAS value for approximation-aware training with an L2 objective, I will:\n1. Examine the graph's legend to identify which line corresponds to L2+AR.\n2. Note that the green line in the graph is labeled as L2+AR according to the legend.\n3. Confirm that the green line consistently represents the L2+AR method across the range of BP iterations on the x-axis."
+    },
+    {
+        "instance_id": "546e2a87c89866198548e72a1c67519d",
+        "question": "Which of the following shows the highest UAS value at 5 iterations?",
+        "answer_pred": "A, B, C, D",
+        "reasoning": "To determine which method has the highest UAS value at 5 iterations, I will:\n\n1. Locate the point on the graph corresponding to 5 iterations on the x-axis.\n2. Observe the UAS values for each method at this point.\n3. Compare the UAS values for CLL, L2, and L2+AR at 5 iterations.\n4. Identify the method with the highest UAS value at 5 iterations.\n\nAt 5 iterations, the UAS values are:\n- CLL: approximately 91.8\n- L2: approximately 92.0\n- L2+AR: approximately 92.0\n\nComparing these values, L2 and L2+AR both have the highest UAS value of approximately 92.0 at 5 iterations."
+    },
+    {
+        "instance_id": "8d8a300d653ce0c53a656c8e6a7583fd",
+        "question": "What is the specific task or domain that this UAS metric represents, and how does it relate to the Grand.+Sib. factors mentioned in the caption?",
+        "answer_pred": "2nd-order model with Grand.+Sib. factors",
+        "reasoning": "To determine the specific task or domain represented by the UAS metric and its relation to the Grand.+Sib. factors, I will:\n\n1. Identify the UAS metric on the y-axis, which typically represents a measure of accuracy or performance.\n2. Examine the x-axis, which indicates the number of BP iterations used for both training and testing.\n3. Note the three lines representing different training methods: CLL, L2, and L2+AR.\n4. Recognize that the caption mentions a 2nd-order model with Grand.+Sib. factors, suggesting a specific task or domain related to these factors.\n5. Relate the UAS metric to the Grand.+Sib. factors by considering how these factors might influence the accuracy or performance measured by UAS."
+    },
+    {
+        "instance_id": "4cbd4bce6c3e196b154f19f8bd948ba8",
+        "question": "What is the approximate value of the dashed line labeled 'Irreg' on the left graph at 20 epochs?",
+        "answer_pred": "95",
+        "reasoning": "To find the approximate value of the dashed line labeled 'Irreg' at 20 epochs on the left graph, follow these steps:\n\n1. Locate the dashed line labeled 'Irreg' on the left graph.\n2. Identify the position of the dashed line at 20 epochs on the x-axis.\n3. Trace vertically from this point to the y-axis to determine the accuracy percentage.\n4. Estimate the accuracy value based on the y-axis scale, which ranges from 0 to 100.\n5. Ensure that the estimated value aligns with the position of the dashed line at 20 epochs."
+    },
+    {
+        "instance_id": "584c79b47d1a0f606375f1f181c3fb48",
+        "question": "Which training sets are shown in the figure?",
+        "answer_pred": "A&H training data, K&C training data",
+        "reasoning": "To solve the problem, I will first identify the labels on the plots. The left plot is labeled \"A&H training data,\" and the right plot is labeled \"K&C training data.\" The lines within each plot are labeled as \"Reg,\" \"All,\" and \"Irreg.\" I will focus on these labels to determine which training sets they correspond to. Since the question asks for the names of the training sets shown in the figure, I will directly use the labels provided in the image."
+    },
+    {
+        "instance_id": "a9b2cef6b32b33654d3f41d644441c19",
+        "question": "Does the solid line in the graph labeled 'A&H training data' represent the 'Reg' model?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the solid line in the 'A&H training data' graph represents the 'Reg' model, I will follow these steps:\n\n1. Examine the legend in the 'A&H training data' graph to identify which line corresponds to 'Reg'. The legend shows that the solid line is labeled as 'Reg'.\n2. Compare the solid line in the 'A&H training data' graph to the line labeled 'Reg' in the legend.\n3. Since the solid line in the 'A&H training data' graph matches the line labeled 'Reg' in the legend, it can be concluded that the solid line represents the 'Reg' model."
+    }
+]

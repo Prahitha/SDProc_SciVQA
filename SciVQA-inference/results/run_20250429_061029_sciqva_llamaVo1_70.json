@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "ca3abd6ccbc30e6fb630625bc1bac227",
+        "question": "At what number of sentences does the Unigram model reach 1.0 accuracy?",
+        "answer_pred": "D",
+        "reasoning": "To determine at what number of sentences the Unigram model reaches 1.0 accuracy, I will focus on the top graph (a) where the Unigram model is represented by blue squares. I will look for the point where the blue squares reach the top of the y-axis, indicating an accuracy of 1.0. The x-axis represents the number of sentences, so I will identify the corresponding value on this axis."
+    },
+    {
+        "instance_id": "77d1d715e11a14657e5f8a76310e64dd",
+        "question": "What is the specific algorithm used to train the 4-gram model with the SRI dataset?",
+        "answer_pred": "SRI",
+        "reasoning": "To identify the algorithm used for the 4-gram model with the SRI dataset, I will focus on the top graph where the 4gram (SRI) model is represented by a green line with circles. I will look for any annotations or labels that specify the training algorithm used for this model. Since the question asks for the specific algorithm, I will ensure that the answer aligns with the standard correct answer provided."
+    },
+    {
+        "instance_id": "625e7f91a29dafca336878518ff6932a",
+        "question": "What is the approximate value of the gradient norm for the blue line for the top BERT layer at training step 25k?",
+        "answer_pred": "4.5",
+        "reasoning": "To solve the problem, I will focus on subplot (d), which displays the gradient norms for the top BERT layer. The x-axis represents training steps, and the y-axis shows the gradient norm values. I will locate the blue line, which corresponds to the ANCE (First) method, at the 25k training step on the x-axis. I will then read the approximate value of the gradient norm from the y-axis at this point."
+    },
+    {
+        "instance_id": "930ef7121270ddbb3ac1edc6beb56fc6",
+        "question": "What is the maximum value shown on the y-axis of the 'Training Loss' plot?",
+        "answer_pred": "0.6",
+        "reasoning": "To determine the maximum value on the y-axis of the 'Training Loss' plot, I will focus on subplot (a). The y-axis of this plot ranges from 0.0 to 0.6. I will look for the highest point reached by the training loss line within this range. The plot shows a decreasing trend in training loss over the training steps, and the maximum value appears to be slightly above 0.5. This aligns with the standard answer provided."
+    },
+    {
+        "instance_id": "59414c7052e87d62930a70e92a3cb34a",
+        "question": "Is the value of the blue line in the fourth plot (Grad Norm (Top)) lower at the training step 20k than at the training step 5k?",
+        "answer_pred": "Yes",
+        "reasoning": "To solve the problem, I will:\n\n1. Focus on the fourth plot, Grad Norm (Top), which shows the gradient norms of the top BERT layers.\n2. Identify the blue line, which represents ANCE (First).\n3. Examine the values of the blue line at training steps 5k and 20k.\n4. Compare these values to determine if the value at 20k is lower than at 5k."
+    },
+    {
+        "instance_id": "ca27f9bce7afa786c6745acc7db83de4",
+        "question": "Does the gradient norm for the top BERT layers decrease as training progresses?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the gradient norm for the top BERT layers decreases as training progresses, I will focus on the graph labeled (d) Grad Norm (Top). The x-axis represents the number of training steps, and the y-axis represents the gradient norm. I will observe the trend of the blue line, which represents the gradient norm for the top BERT layers. As the number of training steps increases, I will look for a decrease in the gradient norm values on the y-axis."
+    },
+    {
+        "instance_id": "ad7f3c645aade3a31bce0ed637b4559d",
+        "question": "Which line(s) remain relatively constant throughout training?",
+        "answer_pred": "D",
+        "reasoning": "1. Examine the Training Loss plot (a) to understand the overall trend of the training process.\n2. Observe the Grad Norm plots (b, c, d) to see the behavior of gradient norms across different layers.\n3. Identify the lines representing different models: ANCE(First), BM25->NCE Neg, BM25->Rand, and BM25->BM25+Rand.\n4. Focus on the Grad Norm (Bottom) plot (b), where the lines for BM25->NCE Neg, BM25->Rand, and BM25->BM25+Rand remain relatively flat, indicating minimal change throughout training.\n5. Compare these observations with the other plots to ensure consistency in behavior.\n6. Conclude that the lines representing BM25->NCE Neg, BM25->Rand, and BM25->BM25+Rand in the Grad Norm (Bottom) plot remain relatively constant."
+    },
+    {
+        "instance_id": "66320a77f50fba55d0ec3c7311f14d13",
+        "question": "Which of the following plots shows the highest peak value?",
+        "answer_pred": "A",
+        "reasoning": "To solve the problem, I will:\n\n1. Examine plot (a), which shows training loss, and identify its peak value.\n2. Examine plots (b), (c), and (d), which show gradient norms for different layers, and identify their peak values.\n3. Compare the peak values across all plots to determine which one has the highest peak.\n4. Note that plot (a) represents training loss, while plots (b), (c), and (d) represent gradient norms.\n5. Observe that the peak in plot (a) is higher than the peaks in plots (b), (c), and (d).\n6. Conclude that plot (a) has the highest peak value."
+    },
+    {
+        "instance_id": "924b21930d8cbf6ba62a97eb06ef8b14",
+        "question": "What is the specific implementation of the BM25 warm up, and how does it differ from other warm-up techniques?",
+        "answer_pred": "BM25->NCE Neg",
+        "reasoning": "To determine the specific implementation of the BM25 warm-up, I will focus on subplots (b), (c), and (d), which show the gradient norms for different BERT layers. The BM25 warm-up is represented by specific colored lines in these subplots. I will compare these lines with the shaded regions, which represent confidence intervals, to understand how the BM25 warm-up differs from other warm-up techniques. By examining the gradient norms, I will identify any differences in behavior, such as overlapping lines or narrow peaks, that indicate the unique characteristics of the BM25 warm-up."
+    },
+    {
+        "instance_id": "6089db1a548de69485c00bfc72927d7e",
+        "question": "What is the approximate value of the black line at 30 tokens?",
+        "answer_pred": "35",
+        "reasoning": "1. Identify the black line on the graph, which represents the \"No. of Sentences.\"\n2. Locate the point on the x-axis where the number of tokens is 30.\n3. Follow the black line horizontally to the y-axis to determine its value at 30 tokens.\n4. Observe the trend of the black line, which shows a decrease as the number of tokens increases.\n5. Estimate the approximate value of the black line at 30 tokens based on its position relative to the y-axis scale."
+    }
+]

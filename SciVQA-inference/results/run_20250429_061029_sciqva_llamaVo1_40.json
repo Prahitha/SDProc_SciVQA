@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "5d3b4558e1076ef01f316f40a3f960c4",
+        "question": "Is the performance of 'Computer science' on full datasets lower than that of 'Political science'?",
+        "answer_pred": "Yes",
+        "reasoning": "1. Identify the lines for 'Computer science' and 'Political science' in the graph.\n2. Observe the F1 positive scores for both fields across different training sizes.\n3. Note that the dashed lines represent performance on full datasets.\n4. Compare the F1 positive scores for 'Computer science' and 'Political science' at each training size.\n5. Determine if 'Computer science' consistently has lower F1 positive scores than 'Political science' across all training sizes."
+    },
+    {
+        "instance_id": "e8b4daa26e1fdd45d0550cf3f072ab05",
+        "question": "Which solid line is constantly higher than other solid lines?",
+        "answer_pred": "C",
+        "reasoning": "To determine which solid line is constantly higher than the others, I will compare the positions of the four solid lines (Chemistry, Computer science, Political science, and Overall) across the range of training sizes on the x-axis. I will focus on their relative positions on the y-axis, which represents F1 positive values. By observing the graph, I can see that the red line (Chemistry) consistently remains above the other solid lines throughout the entire range of training sizes. This indicates that the F1 positive values for Chemistry are higher than those for Computer science, Political science, and Overall across all training sizes."
+    },
+    {
+        "instance_id": "f1e3092c2f9180fefb9d4e35262f5428",
+        "question": "Which of the following datasets have a dashed line representing the result obtained on full datasets?",
+        "answer_pred": "D",
+        "reasoning": "To determine which dataset has a dashed line representing the result obtained on full datasets, I will:\n\n1. Identify the lines in the graph: Chemistry (red), Computer Science (blue), Political Science (purple), and Overall (gray).\n2. Note that the dashed lines represent the results on full datasets.\n3. Observe that the dashed line for the Chemistry dataset is above the dashed line for the Overall dataset.\n4. Conclude that the dashed line for the Chemistry dataset represents the result obtained on full datasets."
+    },
+    {
+        "instance_id": "42b0547335dcb9443039fd439340c2c1",
+        "question": "What is the specific research question that this figure aims to address?",
+        "answer_pred": "How does the F1 score change as the training size increases?",
+        "reasoning": "1. Examine the x-axis, which represents the training size, and the y-axis, which represents the F1 score on the positive class.\n2. Identify the lines corresponding to different areas: Chemistry (red), Computer Science (blue), Political Science (purple), and Overall (gray).\n3. Note that the dashed lines represent results on full datasets.\n4. Observe the learning curves for each area, focusing on how the F1 score changes as the training size increases.\n5. Look for overlapping lines or narrow peaks, which may indicate differences in performance across areas.\n6. Consider the shaded regions, representing confidence intervals, to assess variability in performance.\n7. Synthesize these observations to formulate the research question."
+    },
+    {
+        "instance_id": "b29e428236d7fe34ff06501887af1c60",
+        "question": "What is the approximate value of the purple vertical line on the x-axis?",
+        "answer_pred": "10",
+        "reasoning": "To find the approximate value of the purple vertical line on the x-axis, I will:\n1. Identify the purple line on the graph, which represents the 10% training cutoff.\n2. Observe its position on the x-axis, which ranges from 0 to 100.\n3. Note that the purple line aligns with the 10% mark on the x-axis.\n4. Conclude that the approximate value of the purple vertical line is 10%."
+    },
+    {
+        "instance_id": "56518be1b97e909a4969f8145e9a95e3",
+        "question": "At approximately what training percentage does the F-Measure first reach 1.0?",
+        "answer_pred": "20",
+        "reasoning": "To determine at what training percentage the F-Measure first reaches 1.0, I will focus on the blue line labeled \"Measured Performance Points Before Cutoff.\" This line represents the F-Measure values before any cutoff is applied. I will look for the point on the x-axis where the blue line first reaches the y-axis value of 1.0."
+    },
+    {
+        "instance_id": "99b3965d3b3cebac2a597928c7a51997",
+        "question": "Is the cyan vertical line on the graph representing the SP method located at a training percentage value of 10?",
+        "answer_pred": "No",
+        "reasoning": "To determine if the cyan vertical line representing the SP method is at a training percentage of 10%, I will:\n\n1. Locate the cyan vertical line on the graph.\n2. Observe its position relative to the x-axis, which represents the training percentage.\n3. Check if the cyan line aligns with the 10% mark on the x-axis.\n4. Verify that no other lines or shaded regions overlap with the cyan line at the 10% mark."
+    },
+    {
+        "instance_id": "87b83bb1bb503a00efe71673d8d43062",
+        "question": "Does the performance remain stable after the cutoff?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the performance remains stable after the cutoff, I will compare the \"Measured Performance Points Before Cutoff\" and \"Measured Performance Points After Cutoff\" lines. The \"Measured Performance Points Before Cutoff\" are represented by blue stars, and the \"Measured Performance Points After Cutoff\" are represented by a red triangle. Both lines are plotted against the F-Measure on the y-axis and the Training Percent on the x-axis. The \"10% Training Cutoff\" is marked by a vertical line at 10% on the x-axis, and the \"SP\" is represented by a horizontal line. I will check if the \"Measured Performance Points After Cutoff\" line overlaps with or closely follows the \"Measured Performance Points Before Cutoff\" line after the 10% cutoff, indicating stability in performance."
+    },
+    {
+        "instance_id": "ffeb1c9a68ac19fac9bdecf44a5d3e0d",
+        "question": "What shape is used to represent the performance points before the cutoff in the graph?",
+        "answer_pred": "D",
+        "reasoning": "To determine the shape representing the performance points before the cutoff, I will examine the legend in the graph. The legend indicates that \"Measured Performance Points Before Cutoff\" is represented by a blue star. I will confirm this by observing the graph where the blue stars are plotted before the vertical cutoff line at 10% training percent."
+    },
+    {
+        "instance_id": "66063feb7a8c7bf9d4e68cf716e8ec84",
+        "question": "Which of the following labels are found in the legend?",
+        "answer_pred": "D",
+        "reasoning": "To determine which labels are found in the legend, I will focus on the legend section of the image. The legend lists the following labels: \"Measured Performance Points Before Cutoff,\" \"Measured Performance Points After Cutoff,\" \"10% Training Cutoff,\" and \"SP.\" These labels correspond to different aspects of the learning curve, such as performance points before and after a cutoff, a specific training cutoff percentage, and the stopping point determined by the Stabilizing Predictions method."
+    }
+]

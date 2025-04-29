@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "9e5e740fbc34c0624a32d72173df3b9e",
+        "question": "What is the approximate number of sentences at 40 tokens?",
+        "answer_pred": "20",
+        "reasoning": "To find the approximate number of sentences at 40 tokens, I will focus on the \"No. of Sentences\" line, which is represented by a dashed black line. I will locate the point on this line corresponding to 40 tokens on the x-axis. Then, I will read the value on the \"Number of Sentences\" y-axis to determine the approximate number of sentences."
+    },
+    {
+        "instance_id": "bc68de12c1553fef3353fef980c2d59e",
+        "question": "Is the value of the dotted red line higher than the dashed blue line at the token value 30?",
+        "answer_pred": "No",
+        "reasoning": "To determine if the value of the dotted red line is higher than the dashed blue line at the token value of 30, I will:\n\n1. Locate the token value of 30 on the x-axis of the graph.\n2. Identify the positions of the dashed blue line (representing \"Better\") and the dotted red line (representing \"Worse\") at this token value.\n3. Compare the y-values of these two lines at the token value of 30.\n4. Determine which line has a higher y-value at this point."
+    },
+    {
+        "instance_id": "121ea724690c1e0d5a68173e1da96c02",
+        "question": "Does the number of sentences generally decrease as the number of tokens per sentence increases?",
+        "answer_pred": "Yes",
+        "reasoning": "1. Identify the \"Number of Sentences\" line on the graph.\n2. Observe the trend of this line as the \"Number of Tokens\" increases.\n3. Note that the \"Number of Sentences\" line generally decreases as the \"Number of Tokens\" increases.\n4. This indicates that as the number of tokens per sentence increases, the number of sentences generally decreases."
+    },
+    {
+        "instance_id": "990439e08c6e5201b3aa15417c3a09e3",
+        "question": "At 10 tokens, which of the lines is the highest?",
+        "answer_pred": "D",
+        "reasoning": "To solve the problem, I will first locate the x-axis value of 10 tokens on the graph. Then, I will identify the position of each line at this point. The \"Better\" line is in blue, the \"Worse\" line is in red, the \"No Change\" line is in black, and the \"No. of Sentences\" line is in a dashed black line. I will compare the heights of these lines at the x-axis value of 10 to determine which line is the highest."
+    },
+    {
+        "instance_id": "2cb3c7fe30cf62be11a37df6dfe07d03",
+        "question": "Which of these are represented in the figure?",
+        "answer_pred": "A, B, C, D",
+        "reasoning": "To determine which entities are represented in the figure, I will first identify each line based on its color and label. The blue line is labeled \"Better,\" the red line is labeled \"Worse,\" the black line is labeled \"No Change,\" and the dashed black line is labeled \"No. of Sentences.\" I will then match these labels with the options provided in the question: \"Better,\" \"Worse,\" \"No Change,\" and \"No. of Sentences.\""
+    },
+    {
+        "instance_id": "ed5bf651c746b3649ebbbc3aafbf3c32",
+        "question": "What is the specific DLM approach used in the experiment?",
+        "answer_pred": "DLM approach used in the experiment is \"Better\" and \"Worse\".",
+        "reasoning": "To identify the specific DLM approach, I will focus on the trends and labels in the graph. The \"Better\" and \"Worse\" lines increase as the number of tokens increases, suggesting an improvement with more tokens. The \"No Change\" line decreases, indicating fewer instances of no change with more tokens. The \"No. of Sentences\" line shows a decrease, suggesting fewer sentences with more tokens. These trends align with the characteristics of the DLM approach used in the experiment."
+    },
+    {
+        "instance_id": "ce5210873886847d790d1d73abd3f637",
+        "question": "What is the approximate value of the blue line at a cumulative cost of 20000?",
+        "answer_pred": "28.6",
+        "reasoning": "1. Identify the blue line on the graph, which represents the \"full/weak/self\" type.\n2. Locate the cumulative cost of 20,000 on the x-axis.\n3. Follow the blue line horizontally to the point where it intersects with the cumulative cost of 20,000.\n4. Read the corresponding value on the y-axis to determine the BLEU score at this point.\n5. Ensure that the identified value corresponds to the blue line and not any other line or shaded region."
+    },
+    {
+        "instance_id": "bd538c2d161672f3527cf6b9f6e6b4d2",
+        "question": "For which epsilon value does the performance stabilize the most after 15000 of cumulative cost?",
+        "answer_pred": "eps0.5",
+        "reasoning": "To determine which epsilon value stabilizes the most after 15,000 cumulative cost, I will:\n\n1. Identify the lines corresponding to each epsilon value: eps0.1, eps0.25, eps0.5, eps0.75, and eps0.9.\n2. Observe the trend of each line after 15,000 cumulative cost.\n3. Look for the line that shows the least fluctuation or variation in BLEU scores after this point.\n4. eps0.9 shows a relatively stable trend compared to others, indicating it stabilizes the most after 15,000 cumulative cost."
+    },
+    {
+        "instance_id": "c7092be7cdcaddee1870da5ff19c774c",
+        "question": "Is the green dotted line representing eps0.25 consistently higher than the orange dashed line representing eps0.1?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the green dotted line (eps0.25) is consistently higher than the orange dashed line (eps0.1), I will:\n\n1. Locate the green dotted line and the orange dashed line on the graph.\n2. Observe their positions relative to each other across the cumulative cost range from 0 to 40,000.\n3. Check if the green dotted line remains above the orange dashed line throughout the entire range or if there are any instances where they intersect or the orange dashed line surpasses the green dotted line.\n4. If the green dotted line is consistently above the orange dashed line, conclude that eps0.25 is consistently higher than eps0.1."
+    },
+    {
+        "instance_id": "71ddc4df69ad4386294e842a3e248788",
+        "question": "Does the BLEU score for eps0.9 generally increase with cumulative cost?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the BLEU score for eps0.9 generally increases with cumulative cost, I will:\n\n1. Identify the line corresponding to eps0.9, which is in brown.\n2. Observe the starting and ending points of this line on the graph.\n3. Check if the line generally trends upwards from left to right, indicating an increase in BLEU score with cumulative cost.\n4. Note if there are any significant dips or plateaus in the line that might suggest a lack of consistent increase.\n\nBy following these steps, I can assess whether the BLEU score for eps0.9 generally increases with cumulative cost."
+    }
+]
