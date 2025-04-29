@@ -15,7 +15,7 @@ from datasets import load_dataset
 import argparse
 import openai
 
-from pydantic import BaseModel, Field, HttpUrl
+from pydantic import BaseModel, Field, HttpUrl, model_validator
 from typing import List, Optional
 from PIL import Image
 import os
@@ -55,7 +55,7 @@ class QAImageData(BaseModel):
     qa_pair_type: str
     question: str
     answer: str
-    answer_options: List[dict]
+    answer_options: dict
     venue: str
     categories: str
     source_dataset: str
@@ -66,6 +66,16 @@ class QAImageData(BaseModel):
         """Loads and returns the image given the directory path."""
         image_path = os.path.join(args.image_dir_path, self.image_file)
         return Image.open(image_path)
+
+    @model_validator(mode="before")
+    def merge_answer_options(cls, values):
+        options = values.get('answer_options')
+        if isinstance(options, list):
+            merged = {}
+            for item in options:
+                merged.update(item)
+            values['answer_options'] = merged
+        return values
 
 
 class SciQVALlamaVO1Inference():
@@ -110,7 +120,7 @@ class SciQVALlamaVO1Inference():
         return device_map
 
     def __init__(self, model_path='omkarthawakar/LlamaV-o1'):
-        self.device_map = self._split_model()
+        self.device_map = 'cpu' if not torch.cuda.is_available() else self._split_model()
         self.model = MllamaForConditionalGeneration.from_pretrained(
             model_path,
             torch_dtype=torch.bfloat16,
@@ -130,7 +140,7 @@ class SciQVALlamaVO1Inference():
                 128009
             ],
             "temperature": 0.4,
-            "num_beams": args.num_beams,
+            "num_beams": 1,
             "use_cache": True,
         }
         self.outputs = []
