@@ -264,7 +264,8 @@ class SciQVALlamaVO1Inference():
         dataset = load_dataset("katebor/SciVQA", split=args.data_type)
 
         for idx, data in enumerate(tqdm(dataset)):
-            if idx == samples: break
+            if idx == args.samples:
+                break
 
             try:
                 input = QAImageData(**data)
