@@ -149,7 +149,7 @@ class SciQVALlamaVO1Inference():
             "Return a short, exact answer, no more than a few words. Do not explain or describe. The answer does not have to be a full sentence."
         )
 
-    def _get_non_binary_qa_pair_prompt(self):
+    def _get_non_binary_qa_pair_prompt(self, answer_options):
         return (
             f"Based on the reasoning above, match it to one or more of the provided answer options: {answer_options}. "
             "Return only the corresponding letter(s) of the correct answer(s). "
@@ -219,7 +219,8 @@ class SciQVALlamaVO1Inference():
 
         if "closed-ended" in input.qa_pair_type and "finite answer set" in input.qa_pair_type:
             if "non-binary" in input.qa_pair_type and input.answer_options:
-                qa_pair_prompt = self._get_non_binary_qa_pair_prompt()
+                qa_pair_prompt = self._get_non_binary_qa_pair_prompt(
+                    input.answer_options)
             elif "binary" in input.qa_pair_type:
                 qa_pair_prompt = self._get_binary_qa_pair_prompt()
         else:
