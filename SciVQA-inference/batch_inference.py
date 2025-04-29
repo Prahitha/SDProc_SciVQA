@@ -27,6 +27,7 @@ parser.add_argument(
     "--image_dir_path",
     type=str,
     help="Path to the images",
+    required=True
 )
 
 parser.add_argument(
@@ -38,7 +39,14 @@ parser.add_argument(
 parser.add_argument(
     "--samples",
     type=int,
+    default=10,
     help="No of samples from the selected data type"
+)
+parser.add_argument(
+    "--num_beams", 
+    type=int, 
+    default=4,
+    help="Number of beams for beam search"
 )
 
 args = parser.parse_args()
@@ -128,6 +136,7 @@ class SciQVALlamaVO1Inference():
         ).eval()
         self.run_name = datetime.now().strftime("run_%Y%m%d_%H%M%S")
         self.processor = AutoProcessor.from_pretrained(model_path)
+        os.makedirs("results", exist_ok=True)
         self.kwargs = {
             'max_new_tokens': 1024,
             "top_p": 0.9,
@@ -140,7 +149,7 @@ class SciQVALlamaVO1Inference():
                 128009
             ],
             "temperature": 0.4,
-            "num_beams": 4,
+            "num_beams": args.num_beams,
             "use_cache": True,
         }
         self.outputs = []
@@ -150,7 +159,7 @@ class SciQVALlamaVO1Inference():
 
     def _get_summary_prompt(self, question):
         return (
-            question,
+            question +
             "\nSummarize how you will approach the problem and explain the steps you will take to reach the answer."
         )
 
@@ -187,6 +196,12 @@ class SciQVALlamaVO1Inference():
         return "Give the exact correct answer, with no extra explanation."
 
     def generate_inner(self, input: QAImageData):
+        question = input_data.question
+        image = input_data.load_image(args.image_dir_path)
+        caption = input_data.caption
+        qa_pair_type = input_data.qa_pair_type
+        answer_options = input_data.answer_options
+        
         def __infer(messages: dict) -> str:
             input_text = self.processor.apply_chat_template(
                 messages, add_generation_prompt=True)
@@ -225,7 +240,7 @@ class SciQVALlamaVO1Inference():
 
         caption_prompt = self._get_caption_prompt(input.caption)
         messages.extend(__tmp(summary_qa, caption_prompt))
-        # caption_qa = __infer(messages)
+        summary_qa = __infer(messages)
 
         reasoning_prompt = self._get_reasoning_prompt()
         messages.extend(__tmp(summary_qa, reasoning_prompt))
@@ -233,7 +248,7 @@ class SciQVALlamaVO1Inference():
 
         conclusion_prompt = self._get_conclusion_prompt()
         messages.extend(__tmp(summary_qa, conclusion_prompt))
-        # conclusion_qa = __infer(messages)
+        summary_qa = __infer(messages)
         qa_pair_prompt = ""
 
         if "closed-ended" in input.qa_pair_type and "finite answer set" in input.qa_pair_type:
