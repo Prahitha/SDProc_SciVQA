@@ -153,7 +153,7 @@ class SciQVALlamaVO1Inference():
             question,
             "\nSummarize how you will approach the problem and explain the steps you will take to reach the answer."
         )
-    
+
     def _get_reasoning_prompt(self):
         return (
             "Provide a chain-of-thought, logical explanation of the problem. "
@@ -253,7 +253,7 @@ class SciQVALlamaVO1Inference():
     def evaluate(self):
         pass
 
-    def _should_override_with_unanswerable(reasoning: str) -> bool:
+    def _should_override_with_unanswerable(self, reasoning: str) -> bool:
         reasoning_lower = reasoning.lower()
         keywords = [
             "cannot be determined",
