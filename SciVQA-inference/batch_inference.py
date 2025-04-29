@@ -120,7 +120,7 @@ class SciQVALlamaVO1Inference():
         return device_map
 
     def __init__(self, model_path='omkarthawakar/LlamaV-o1'):
-        self.device_map = 'cpu' if not torch.cuda.is_available() else self._split_model()
+        self.device_map = "auto" if torch.cuda.device_count() < 2 else self._split_model()
         self.model = MllamaForConditionalGeneration.from_pretrained(
             model_path,
             torch_dtype=torch.bfloat16,
@@ -245,13 +245,33 @@ class SciQVALlamaVO1Inference():
     def evaluate(self):
         pass
 
+    def _should_override_with_unanswerable(reasoning: str) -> bool:
+        reasoning_lower = reasoning.lower()
+        keywords = [
+            "cannot be determined",
+            "cannot determine",
+            "not possible to determine",
+            "insufficient information",
+            "not enough information",
+            "unanswerable",
+            "data is missing",
+            "lack of information",
+            "figure is not provided"
+        ]
+        return any(keyword in reasoning_lower for keyword in keywords)
+
     def _process_input(self):
         dataset = load_dataset("katebor/SciVQA", split=args.data_type)
 
         for idx, data in enumerate(tqdm(dataset)):
+            if idx == samples: break
+
             try:
                 input = QAImageData(**data)
                 result, reasoning = self.generate_inner(input)
+
+                if self._should_override_with_unanswerable(reasoning):
+                    result = "It is not possible to answer this question based only on the provided data."
 
                 self.outputs.append({
                     "instance_id": input.instance_id,
