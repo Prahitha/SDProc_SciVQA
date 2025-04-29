@@ -153,6 +153,14 @@ class SciQVALlamaVO1Inference():
             question,
             "\nSummarize how you will approach the problem and explain the steps you will take to reach the answer."
         )
+    
+    def _get_reasoning_prompt(self):
+        return (
+            "Provide a chain-of-thought, logical explanation of the problem. "
+            "In case of multiple plots, carefully compare the y-axis and x-axis scales across plots and note any differences. "
+            "Identify which lines correspond to which entities and distinguish them from shaded regions, which represent confidence intervals. "
+            "Pay attention to overlapping lines or narrow peaks. Provide a step-by-step reasoning to reach the answer."
+        )
 
     def _get_conclusion_prompt(self):
         return (
