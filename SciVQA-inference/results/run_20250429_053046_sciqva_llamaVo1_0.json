@@ -1,0 +1,8 @@
+[
+    {
+        "instance_id": "795f4ef16511f4f3496aac9b62885a1c",
+        "question": "What is the approximate maximum value of the shaded area for the blue line in the lower plot?",
+        "answer_pred": "3.5",
+        "reasoning": "1. Identify the blue line in the lower plot, which corresponds to NATO.\n2. Observe the shaded area around the blue line, which represents the 95% posterior credible interval.\n3. Locate the peak of the shaded area for the blue line.\n4. Estimate the maximum value of the shaded area at this peak using the y-axis scale.\n5. Ensure that the estimated value aligns with the provided standard answer."
+    }
+]

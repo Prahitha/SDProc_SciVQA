@@ -196,11 +196,11 @@ class SciQVALlamaVO1Inference():
         return "Give the exact correct answer, with no extra explanation."
 
     def generate_inner(self, input: QAImageData):
-        question = input_data.question
-        image = input_data.load_image(args.image_dir_path)
-        caption = input_data.caption
-        qa_pair_type = input_data.qa_pair_type
-        answer_options = input_data.answer_options
+        #question = input.question
+        #image = input.load_image(args.image_dir_path)
+        #caption = input.caption
+        #qa_pair_type = input.qa_pair_type
+        #answer_options = input.answer_options
         
         def __infer(messages: dict) -> str:
             input_text = self.processor.apply_chat_template(

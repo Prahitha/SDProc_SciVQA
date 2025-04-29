@@ -1,0 +1,8 @@
+[
+    {
+        "instance_id": "795f4ef16511f4f3496aac9b62885a1c",
+        "question": "What is the approximate maximum value of the shaded area for the blue line in the lower plot?",
+        "answer_pred": "15",
+        "reasoning": "In the lower plot, the blue line represents the posterior mean for NATO. The shaded area around the blue line indicates the 95% posterior credible interval. To find the approximate maximum value of the shaded area for the blue line, I will look for the highest point of the shaded region around the blue line in the lower plot. The y-axis scale ranges from 0 to 15, and I will estimate the maximum value based on this scale."
+    }
+]
