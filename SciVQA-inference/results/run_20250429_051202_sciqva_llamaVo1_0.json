@@ -1,0 +1,8 @@
+[
+    {
+        "instance_id": "795f4ef16511f4f3496aac9b62885a1c",
+        "question": "What is the approximate maximum value of the shaded area for the blue line in the lower plot?",
+        "answer_pred": "13",
+        "reasoning": "1. Identify the blue line in the lower plot, which represents the mean for Serbia/Yugo and NATO.\n2. Examine the shaded area around the blue line, which indicates the 95% posterior credible interval.\n3. Focus on the peaks of the blue line and the shaded area to determine the maximum value.\n4. Compare the peaks to the y-axis scale, which ranges from 0 to 15, to estimate the approximate maximum value of the shaded area.\n5. Note that the shaded area reaches its highest point around 13, indicating the maximum value."
+    }
+]

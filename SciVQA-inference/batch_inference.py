@@ -140,7 +140,7 @@ class SciQVALlamaVO1Inference():
                 128009
             ],
             "temperature": 0.4,
-            "num_beams": 1,
+            "num_beams": 4,
             "use_cache": True,
         }
         self.outputs = []
@@ -292,7 +292,7 @@ class SciQVALlamaVO1Inference():
                     "reasoning": reasoning,
                 })
                 if idx % 10 == 0:
-                    with open(f"results/{self.run_name}/sciqva_llamaVo1_{idx}.json", "w") as json_file:
+                    with open(f"results/{self.run_name}_sciqva_llamaVo1_{idx}.json", "w") as json_file:
                         json.dump(self.outputs, json_file, indent=4)
                         self.outputs = []
 
