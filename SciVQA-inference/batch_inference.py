@@ -225,15 +225,15 @@ class SciQVALlamaVO1Inference():
 
         caption_prompt = self._get_caption_prompt(input.caption)
         messages.extend(__tmp(summary_qa, caption_prompt))
-        caption_qa = __infer(messages)
+        # caption_qa = __infer(messages)
 
         reasoning_prompt = self._get_reasoning_prompt()
-        messages.extend(__tmp(caption_qa, reasoning_prompt))
+        messages.extend(__tmp(summary_qa, reasoning_prompt))
         reasoning_qa = __infer(messages)
 
         conclusion_prompt = self._get_conclusion_prompt()
-        messages.extend(__tmp(reasoning_qa, conclusion_prompt))
-        conclusion_qa = __infer(messages)
+        messages.extend(__tmp(summary_qa, conclusion_prompt))
+        # conclusion_qa = __infer(messages)
         qa_pair_prompt = ""
 
         if "closed-ended" in input.qa_pair_type and "finite answer set" in input.qa_pair_type:
@@ -247,7 +247,7 @@ class SciQVALlamaVO1Inference():
         else:
             qa_pair_prompt = self._get_qa_pair_prompt()
 
-        messages.extend(__tmp(conclusion_qa, qa_pair_prompt))
+        messages.extend(__tmp(summary_qa, qa_pair_prompt))
         output = __infer(messages)
 
         print(f"Question: {input.question}\nAnswer: {output}")
