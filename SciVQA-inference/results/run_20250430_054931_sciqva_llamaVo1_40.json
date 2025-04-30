@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "55763b7826096e95a31d9c30a704d74f",
+        "question": "Do websites and users start at the same number of threads for a given average emotional response?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if websites and users start at the same number of threads for a given average emotional response, I will:\n\n1. Locate the point on the graph where the average emotional response is 0.\n2. Observe the y-axis values for both the line representing websites (squares) and the line representing users (circles) at this point.\n3. Compare these y-axis values to see if they are the same, indicating that both websites and users start with the same number of threads when the emotional response is 0."
+    },
+    {
+        "instance_id": "7ecac9c46c0b62aa4e4ba93506998bef",
+        "question": "What is the peak value and the lowest value for the green line?",
+        "answer_pred": "B",
+        "reasoning": "To determine the peak value and the lowest value for the green line, I will follow these steps: 1. Identify the green line, which represents the average number of threads initiated by users. 2. Locate the highest point on the green line to find the peak value. 3. Locate the lowest point on the green line to find the lowest value."
+    },
+    {
+        "instance_id": "1e2178e771e2417e37bc85aa4284235a",
+        "question": "What is the range of the average number of threads?",
+        "answer_pred": "D",
+        "reasoning": "To determine the range of the average number of threads, I will examine the y-axis of the graph. The minimum value on the y-axis is 0, and the maximum value is 20. The range is calculated by subtracting the minimum value from the maximum value: 20 - 0 = 20."
+    },
+    {
+        "instance_id": "36c419cde3ca2e26a013feb32a70cc61",
+        "question": "What is the average emotional response that corresponds to the peak of the blue line representing websites, and how is it presented in the figure?",
+        "answer_pred": "0.0",
+        "reasoning": "To find the average emotional response corresponding to the peak of the blue line, I will:\n\n1. Locate the peak of the blue line on the graph.\n2. Identify the x-axis value at which this peak occurs.\n3. This x-axis value represents the average emotional response corresponding to the peak of the blue line."
+    },
+    {
+        "instance_id": "233e3a6694b9c3b51a5b374f6b2bc892",
+        "question": "In the leftmost plot, what is the value of the red line with x-axis 0.7?",
+        "answer_pred": "0.5",
+        "reasoning": "1. Identify the leftmost plot in the image.\n2. Locate the red line, which represents \"recall,\" in the leftmost plot.\n3. Follow the red line horizontally to the point where it intersects the x-axis value of 0.7.\n4. Observe the y-axis value at this intersection point to determine the value of the red line at x-axis 0.7."
+    },
+    {
+        "instance_id": "63ed8de0518c18b5b1efb5ad7e9b9d23",
+        "question": "What is the classification result measured by F-measure at the threshold 0.7, in the second plot?",
+        "answer_pred": "0.5",
+        "reasoning": "1. Identify the second plot in the sequence, which is the middle one.\n2. Locate the threshold value of 0.7 on the x-axis of the second plot.\n3. Follow the green line, which represents the F-measure, to the point where it intersects with the threshold value of 0.7.\n4. Read the corresponding value on the y-axis to determine the classification result for the F-measure at this threshold."
+    },
+    {
+        "instance_id": "3965c230b4b6ec2079eb166497fbefdd",
+        "question": "In all subplots, is the value of the red square higher than 0.6 when the threshold is 0.6?",
+        "answer_pred": "Yes",
+        "reasoning": "To solve the problem, I will:\n\n1. Identify the red square line in each subplot, which represents recall.\n2. Locate the position of the red square at the threshold value of 0.6 in each subplot.\n3. Compare the y-axis value of the red square at the threshold of 0.6 to 0.6.\n4. Repeat this process for all three subplots.\n5. Determine if the value of the red square is higher than 0.6 at the threshold of 0.6 in all subplots."
+    },
+    {
+        "instance_id": "2a0769147b2417fdadaa382353f00777",
+        "question": "Does the F-measure consistently decrease as the threshold increases?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the F-measure consistently decreases as the threshold increases, I will:\n\n1. Examine the F-measure line (green) in each of the three graphs.\n2. Observe the starting and ending points of the F-measure line for each graph.\n3. Check if the F-measure line consistently decreases from left to right across all three graphs.\n4. Note any deviations or changes in the trend of the F-measure line.\n\nIn the first graph, the F-measure starts at approximately 0.8 and decreases to around 0.5 as the threshold increases from 0.3 to 0.7.\n\nIn the second graph, the F-measure starts at approximately 0.7 and decreases to around 0.4 as the threshold increases from 0.3 to 0.7.\n\nIn the third graph, the F-measure starts at approximately 0.6 and decreases to around 0.3 as the threshold increases from 0.3 to 0.7.\n\nIn all three graphs, the F-measure consistently decreases as the threshold increases."
+    },
+    {
+        "instance_id": "2902c663ec443a66cca63806e2e124b6",
+        "question": "Which line in the first plot of the figure is increasing?",
+        "answer_pred": "C",
+        "reasoning": "To solve the problem, I will:\n\n1. Focus on the first plot of the figure.\n2. Observe the three lines: blue (precision), red (recall), and green (F-measure).\n3. Examine the trend of each line from left to right on the x-axis.\n4. Note that the blue line (precision) consistently increases as the x-axis value increases.\n5. The red line (recall) and green line (F-measure) show decreasing trends.\n6. Conclude that the blue line is the one increasing in the first plot."
+    },
+    {
+        "instance_id": "55b03b0f9408194955db99a4b565c13c",
+        "question": "Which of the following classification performance metrics decreases as the threshold increases?",
+        "answer_pred": "A, B, C, D",
+        "reasoning": "To solve the problem, I will:\n\n1. Examine the graph to identify the lines representing precision, recall, and F-measure.\n2. Observe the trend of each line as the threshold increases from 0.3 to 0.7.\n3. Determine which line consistently shows a decrease in value as the threshold increases.\n4. Confirm that the identified line corresponds to the metric that decreases as the threshold increases."
+    }
+]

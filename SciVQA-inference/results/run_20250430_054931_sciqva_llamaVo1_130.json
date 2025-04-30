@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "4fe20c77710ee6fb11e5ca93e0fe318a",
+        "question": "Does the line representing the model performance in the bottom rightmost plot show a consistent increase in accuracy over time?",
+        "answer_pred": "No",
+        "reasoning": "To determine if the line in the bottom rightmost plot shows a consistent increase in accuracy over time, I will:\n\n1. Examine the trend of the line in the bottom rightmost plot.\n2. Observe the starting point and ending point of the line to see if there is an overall increase in accuracy.\n3. Check if there are any fluctuations or dips in the line that might indicate a lack of consistency in the increase.\n4. Compare the line to the other plots to ensure it is distinct and not overlapping with other lines.\n\nThe line in the bottom rightmost plot starts at a low accuracy and shows a gradual increase over time. There are no significant dips or fluctuations, indicating a consistent increase in accuracy."
+    },
+    {
+        "instance_id": "ffed9cab8804fcbfadbc40dbd93f1d42",
+        "question": "Is the model accuracy for input 'two cities.txt' consistently higher than that of 'holmes.txt' at 600 epochs?",
+        "answer_pred": "No",
+        "reasoning": "To determine if the model accuracy for 'two cities.txt' is consistently higher than that of 'holmes.txt' at 600 epochs, I will:\n\n1. Identify the plots corresponding to 'two cities.txt' and 'holmes.txt' from the image.\n2. Locate the accuracy values on the y-axis for both inputs at 600 epochs.\n3. Compare these values to see if the accuracy for 'two cities.txt' is higher than that of 'holmes.txt' at this point.\n4. Note that 'two cities.txt' has an accuracy of approximately 0.9, while 'holmes.txt' has an accuracy of around 0.95 at 600 epochs.\n5. Conclude whether 'two cities.txt' has a consistently higher accuracy than 'holmes.txt' based on these observations."
+    },
+    {
+        "instance_id": "9672ab6c1d52a388eaddd4414779fdae",
+        "question": "Which of the four plots has a line with the lowest final accuracy?",
+        "answer_pred": "D",
+        "reasoning": "To solve the problem, I will:\n1. Examine the y-axis values at the end of each line in the four plots.\n2. Compare these values to determine which plot has the lowest final accuracy.\n3. Specifically, I will look at the accuracy values for alice.txt, holmes.txt, nietzsche.txt, and two cities.txt at the 1000th epoch.\n4. The plot with the lowest y-axis value at the 1000th epoch will be identified as having the lowest final accuracy."
+    },
+    {
+        "instance_id": "5eca719d8e6cc816bdd6670d18a37820",
+        "question": "What are the maximum number of epochs for all plots?",
+        "answer_pred": "A",
+        "reasoning": "To determine the maximum number of epochs for all plots, I will:\n1. Examine the x-axis of each plot to identify the range of epochs.\n2. Note that all plots have an x-axis ranging from 0 to 1000 epochs.\n3. Since the question asks for the maximum number of epochs across all plots, I will identify the highest value on the x-axis, which is 1000 epochs.\n4. Confirm that this value is consistent across all four plots."
+    },
+    {
+        "instance_id": "276040226fadcfd9b8e645509581ce38",
+        "question": "Which input text resulted in the highest model accuracy after 500 epochs, and how is it depicted in the figure?",
+        "answer_pred": "holmes.txt",
+        "reasoning": "1. Observe the accuracy plots for each input text.\n2. Focus on the accuracy at the 500-epoch mark for each plot.\n3. Compare the accuracy values at 500 epochs for \"alice.txt,\" \"holmes.txt,\" \"nietzsche.txt,\" and \"two cities.txt.\"\n4. Identify the plot with the highest accuracy at 500 epochs.\n5. Note that \"holmes.txt\" has the highest accuracy at 500 epochs compared to the others."
+    },
+    {
+        "instance_id": "68521af5c11f8f28a31dba2cc65214b3",
+        "question": "What is the approximate value of the green dotted line at a hidden layer dimension of 10?",
+        "answer_pred": "0.042",
+        "reasoning": "To determine the approximate value of the green dotted line at a hidden layer dimension of 10, I will:\n\n1. Locate the green dotted line on the graph, which represents \"I-MISC weights (false tag).\"\n2. Identify the point on the x-axis corresponding to a hidden layer dimension of 10.\n3. Observe the y-axis value of the green dotted line at this point.\n4. Note that the y-axis values are normalized, so the value will be between 0 and 1."
+    },
+    {
+        "instance_id": "bbe18f2ff9b9a71b53ebd0aa841b3f72",
+        "question": "What are the two types of weights represented in this figure?",
+        "answer_pred": "I-LOC weights (true tag), I-MISC weights (false tag)",
+        "reasoning": "To determine the two types of weights represented in the figure, I will examine the labels and colors of the lines in the graph. The lines are labeled as \"Hidden Representation,\" \"I-LOC weights (true tag),\" and \"I-MISC weights (false tag).\" The \"I-LOC weights (true tag)\" line is orange, and the \"I-MISC weights (false tag)\" line is green. These labels directly indicate the two types of weights."
+    },
+    {
+        "instance_id": "b4e0cc57b702cbeaf9ec8c8946b2cd1d",
+        "question": "Is the green dotted line always higher than the orange line?",
+        "answer_pred": "No",
+        "reasoning": "To solve the problem, I will:\n\n1. Examine the graph and identify the lines representing \"I-LOC weights (true tag)\" and \"I-MISC weights (false tag),\" which are the orange and green dotted lines, respectively.\n2. Compare the y-values of these two lines across different x-values (hidden layer dimensions from 5 to 50).\n3. Look for any instances where the orange line (I-LOC weights) is higher than the green dotted line (I-MISC weights).\n4. If such instances are found, conclude that the green dotted line is not always higher than the orange line.\n5. If no such instances are found, conclude that the green dotted line is always higher than the orange line."
+    },
+    {
+        "instance_id": "70ba93cd1c1ef4d76978821ebf054582",
+        "question": "Do the weights corresponding to the true tag (I-LOC) have a higher normalized value than the weights corresponding to the false tag (I-MISC) at any point along the hidden layer dimension?",
+        "answer_pred": "Yes",
+        "reasoning": "To solve the problem, I will first identify the lines representing I-LOC and I-MISC weights. The orange line corresponds to I-LOC, and the green line corresponds to I-MISC. I will then compare the normalized values of these lines across the hidden layer dimension. I will look for any points where the orange line (I-LOC) is higher than the green line (I-MISC) to determine if the true tag has a higher normalized value than the false tag at any point."
+    },
+    {
+        "instance_id": "17b599c42d8d9cd0fb74c41e5bd8e433",
+        "question": "Which line has a value around 0.035 at the hidden layer dimension of 25?",
+        "answer_pred": "C",
+        "reasoning": "1. Identify the lines in the graph: \"Hidden Representation\" (blue), \"I-LOC weights (true tag)\" (orange), and \"I-MISC weights (false tag)\" (green).\n2. Locate the hidden layer dimension of 25 on the x-axis.\n3. Observe the values of each line at this dimension:\n   - The blue line (\"Hidden Representation\") has a value slightly above 0.035.\n   - The orange line (\"I-LOC weights (true tag)\") has a value around 0.035.\n   - The green line (\"I-MISC weights (false tag)\") has a value slightly below 0.035.\n4. Determine which line has a value closest to 0.035 at the hidden layer dimension of 25."
+    }
+]

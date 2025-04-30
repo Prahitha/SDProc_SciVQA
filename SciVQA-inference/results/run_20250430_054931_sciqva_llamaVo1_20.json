@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "d570cbc2d1291226fb0a693dafbdbff9",
+        "question": "What is the color and the label of the smallest slice?",
+        "answer_pred": "D",
+        "reasoning": "To find the smallest slice in the pie chart, I will compare the numerical values associated with each section. The values are 634 for Sentence depth 0, 249 for Sentence depth 1, 88 for Sentence depth 2, and 6 for Sentence depth 3. The smallest value is 6, which corresponds to Sentence depth 3. The color associated with this slice is brown."
+    },
+    {
+        "instance_id": "fcd2e7c677e66864c61ef529d52a2805",
+        "question": "Which of the following sentence depths are represented in the figure?",
+        "answer_pred": "A, B, C, D",
+        "reasoning": "To determine which sentence depths are represented in the figure, I will examine the labels and colors associated with each section of the pie chart. The pie chart is divided into four sections, each representing a different sentence depth. The sections are labeled as follows: \"Sentence depth 0\" in blue, \"Sentence depth 1\" in light blue, \"Sentence depth 2\" in yellow, and \"Sentence depth 3\" in brown. The chart shows that \"Sentence depth 0\" accounts for 634 sentences, \"Sentence depth 1\" accounts for 249 sentences, \"Sentence depth 2\" accounts for 88 sentences, and \"Sentence depth 3\" accounts for 6 sentences. Therefore, the sentence depths represented in the figure are 0, 1, 2, and 3."
+    },
+    {
+        "instance_id": "912a4cc2587f4fb68c4ac798b4f88589",
+        "question": "What is the average sentence depth of the 977 CoNLL test sentences, and how is it presented in the figure?",
+        "answer_pred": "2.3",
+        "reasoning": "To find the average sentence depth, I will first identify the number of sentences for each depth level from the pie chart: 634 for depth 0, 249 for depth 1, 88 for depth 2, and 6 for depth 3. The total number of sentences is 977. I will then calculate the weighted average by multiplying each sentence depth by its frequency and summing these products. Finally, I will divide this sum by the total number of sentences to find the average sentence depth."
+    },
+    {
+        "instance_id": "290dbeb896bd06f3955d607a3cc10156",
+        "question": "What is the accuracy on Yelp reviews for the blue line at its highest point?",
+        "answer_pred": "71.8",
+        "reasoning": "To determine the accuracy on Yelp reviews at the highest point of the blue line, I will:\n\n1. Identify the highest point of the blue line on the graph.\n2. Read the corresponding value on the y-axis, which represents the accuracy on Yelp reviews.\n3. Note that the highest point of the blue line is at an F1 score of 62 on the RST Discourse Treebank.\n4. Check the y-axis value at this point, which is approximately 71.8.\n5. Conclude that the accuracy on Yelp reviews at the highest point of the blue line is 71.8."
+    },
+    {
+        "instance_id": "f372e3f6ad05397f97b030f9c80b0330",
+        "question": "What is the macro-label of the x-axis?",
+        "answer_pred": "F1 on RST Discourse Treebank",
+        "reasoning": "To determine the macro-label of the x-axis, I will examine the graph for any text or labels directly associated with the x-axis. The x-axis is labeled \"F1 on RST Discourse Treebank,\" indicating that it represents the F1 score of the discourse parser on the RST Discourse Treebank."
+    },
+    {
+        "instance_id": "95427a20e5cd43dbbae102cc002dadbe",
+        "question": "Is the blue line always decreasing?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the blue line is always decreasing, I will observe the direction of the line from left to right. Starting at an F1 score of 50, the accuracy is 70.8. As the F1 score increases to 54, the accuracy increases to 71.2. Continuing to an F1 score of 58, the accuracy further increases to 71.6. Finally, at an F1 score of 62, the accuracy reaches 71.8. The line consistently slopes upward, indicating that the accuracy increases as the F1 score on the RST Discourse Treebank increases."
+    },
+    {
+        "instance_id": "1ade3768a000c139b5ad6bcb997b9e8b",
+        "question": "Does increasing the amount of training data for the discourse parser improve accuracy on the Yelp review task?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if increasing the amount of training data for the discourse parser improves accuracy on the Yelp review task, I will analyze the trend shown in the scatter plot. The x-axis represents the F1 score on the RST Discourse Treebank, and the y-axis represents the accuracy on Yelp reviews. As the F1 score increases from 50 to 62, the accuracy on Yelp reviews also increases from 70.8 to 71.8. This indicates a positive correlation between the amount of training data for the discourse parser and the accuracy on the Yelp review task."
+    },
+    {
+        "instance_id": "37262522fc9ab6ad4e8c85f728455c54",
+        "question": "How many triangles are presented in the line and what is their color?",
+        "answer_pred": "D",
+        "reasoning": "To determine the number and color of triangles in the line graph, I will:\n\n1. Observe the line graph and identify the points marked by triangles.\n2. Count the total number of triangles visible on the graph.\n3. Note the color of the triangles, which appears to be blue.\n4. Verify that no additional triangles are hidden or obscured by the line itself.\n\nBy following these steps, I can accurately determine the number and color of the triangles in the graph."
+    },
+    {
+        "instance_id": "2fbc13ae7d6aef21a2a7f891e08b203f",
+        "question": "What is the range of the accuracy values?",
+        "answer_pred": "D",
+        "reasoning": "To determine the range of accuracy values, I will first identify the minimum and maximum accuracy values on the y-axis of the graph. The minimum accuracy value is 70.8, and the maximum accuracy value is 71.8. The range is calculated by subtracting the minimum value from the maximum value: 71.8 - 70.8 = 1."
+    },
+    {
+        "instance_id": "67ea316f6ae0265d00a2e7f2b1381951",
+        "question": "What is the amount of training data used to achieve the accuracy of 71.2 on the Yelp review task, and how does it affect the accuracy results?",
+        "answer_pred": "58",
+        "reasoning": "To find the amount of training data used to achieve an accuracy of 71.2 on the Yelp review task, I will locate the point on the graph where the accuracy on Yelp reviews is 71.2. I will then determine the corresponding F1 score on the RST Discourse Treebank, which represents the amount of training data used. The graph shows a positive correlation between the F1 score and accuracy, indicating that as the F1 score increases, so does the accuracy. The point where accuracy is 71.2 corresponds to an F1 score of 58 on the RST Discourse Treebank."
+    }
+]

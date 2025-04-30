@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "96a721c0ceefcafbde75995125ca4112",
+        "question": "What is the dataset used in this study and what is the exact implementation of the classification method?",
+        "answer_pred": "The dataset used in this study is CIFAR-10, and the classification method implemented is ResNet-18.",
+        "reasoning": "To determine the dataset and classification method, I will:\n\n1. Examine the legend in the graph to identify which lines correspond to precision, recall, F-measure, and recall.\n2. Look at the x-axis, which represents the threshold, and the y-axis, which represents performance metrics like precision, recall, and F-measure.\n3. Compare the y-axis and x-axis scales across the three plots to identify any differences.\n4. Identify the shaded regions, which represent confidence intervals, and distinguish them from the lines.\n5. Note any overlapping lines or narrow peaks, which may indicate specific characteristics of the dataset or classification method.\n\nBy following these steps, I can deduce the dataset and classification method used in the study."
+    },
+    {
+        "instance_id": "b6400a3a78885aaf601fa23db9b6679d",
+        "question": "What is the approximate perplexity value of the red line in the third plot at iteration 100?",
+        "answer_pred": "1500",
+        "reasoning": "To determine the perplexity value of the red line in the third plot at iteration 100, I will:\n\n1. Locate the third plot, which is labeled (c) MR3.\n2. Identify the red line in this plot, which represents \"Ppl with Sentiment.\"\n3. Follow the red line to the point corresponding to iteration 100 on the x-axis.\n4. Read the approximate perplexity value from the y-axis at this point."
+    },
+    {
+        "instance_id": "0cab5e18f9771931481dca5cb2f1b910",
+        "question": "What is the dataset name associated with the middle graph?",
+        "answer_pred": "MR2",
+        "reasoning": "To solve the problem, I will first identify the middle graph among the three provided. The middle graph is labeled as (b) MR2. Next, I will examine the labels and annotations on this graph to determine the dataset name associated with it. The graph shows two lines: one for \"Ppl without Sentiment\" and another for \"Ppl with Sentiment.\" Since the question asks for the dataset name associated with the middle graph, I will focus on the label (b) MR2."
+    },
+    {
+        "instance_id": "0cfcb9194f4f565267f7685d923cd181",
+        "question": "Is the red line in MR3 consistently lower than the blue dashed line?",
+        "answer_pred": "No",
+        "reasoning": "I will focus on the graph labeled (c) MR3. The blue dashed line represents \"Ppl without Sentiment,\" and the red line represents \"Ppl with Sentiment.\" Observing the graph, the red line is consistently lower than the blue dashed line across the entire range of the x-axis. This indicates that the perplexity for \"Ppl with Sentiment\" is lower than for \"Ppl without Sentiment\" throughout the training iterations in MR3."
+    },
+    {
+        "instance_id": "876720eacf77ce6812aeb9971b6e5c55",
+        "question": "Does the perplexity of the MR1 dataset decrease with more training iterations?",
+        "answer_pred": "Yes",
+        "reasoning": "1. Focus on the plot labeled (a) MR1.\n2. Observe the blue line labeled \"Ppl without Sentiment\" and the red line labeled \"Ppl with Sentiment.\"\n3. Note that both lines show a decreasing trend in perplexity as the number of iterations increases from 0 to 1000.\n4. The perplexity values decrease consistently for both lines, indicating that the perplexity of the MR1 dataset decreases with more training iterations."
+    },
+    {
+        "instance_id": "9625ad38d206d1dbdabd71219ae6c226",
+        "question": "Which of the graphs show a final perplexity value that is higher for  blue line than red line?",
+        "answer_pred": "C",
+        "reasoning": "To determine which graph shows a higher perplexity value for the blue line than the red line, I will examine each graph individually:\n\n1. **Graph (a) MR1**: The blue line (\"Ppl without Sentiment\") starts higher than the red line (\"Ppl with Sentiment\") and remains above it throughout the iterations. The perplexity values for the blue line are consistently higher than those for the red line.\n\n2. **Graph (b) MR2**: The red line (\"Ppl with Sentiment\") starts higher than the blue line (\"Ppl without Sentiment\") and remains above it throughout the iterations. The perplexity values for the red line are consistently higher than those for the blue line.\n\n3. **Graph (c) MR3**: The blue line (\"Ppl without Sentiment\") starts higher than the red line (\"Ppl with Sentiment\") and remains above it throughout the iterations. The perplexity values for the blue line are consistently higher than those for the red line.\n\nBased on these observations, only graph (a) MR1 shows a higher perplexity value for the blue line than the red line."
+    },
+    {
+        "instance_id": "24c25027e02893e73b3a04ff2bd0cb54",
+        "question": "What is the range of the values in x-axis?",
+        "answer_pred": "A, B, C, D",
+        "reasoning": "To find the range of the values on the x-axis, I will focus on the x-axis of each subplot in the image. The x-axis represents the number of iterations, which ranges from 0 to 1000 across all subplots (a), (b), and (c). There are no variations in the x-axis range across the subplots. Therefore, the range of the values on the x-axis is from 0 to 1000."
+    },
+    {
+        "instance_id": "39a0628cac72dbc2037a49e11e0a3644",
+        "question": "Which of the three MR datasets performed better during training, considering both the perplexity without sentiment and the perplexity with sentiment, and how is it presented in the figures?",
+        "answer_pred": "MR3",
+        "reasoning": "1. Observe the perplexity values for \"Ppl without Sentiment\" (blue line) and \"Ppl with Sentiment\" (red line) for each dataset.\n2. For MR1 (a), both perplexity lines start high and decrease over iterations, with \"Ppl without Sentiment\" slightly lower than \"Ppl with Sentiment.\"\n3. For MR2 (b), \"Ppl without Sentiment\" and \"Ppl with Sentiment\" both start high but decrease rapidly, with \"Ppl without Sentiment\" slightly lower.\n4. For MR3 (c), \"Ppl without Sentiment\" and \"Ppl with Sentiment\" both start high but decrease rapidly, with \"Ppl without Sentiment\" lower than \"Ppl with Sentiment.\"\n5. Compare the starting perplexity values and the rate of decrease for both metrics across the datasets.\n6. MR3 shows lower perplexity values for both \"Ppl without Sentiment\" and \"Ppl with Sentiment\" compared to MR1 and MR2, indicating better performance."
+    },
+    {
+        "instance_id": "911ded09d70fa146e1cb91016a341c77",
+        "question": "In the bottom plot, at a noise ratio of 4%, what is the approximate change in BLEU score for the red line representing the encoder input?",
+        "answer_pred": "-7.5",
+        "reasoning": "To determine the change in BLEU score for the encoder input at a noise ratio of 4%, I will:\n\n1. Focus on the bottom plot (b), which shows the change in BLEU score against the ratio of added noise.\n2. Identify the red line, which represents the encoder input.\n3. Locate the point on the red line corresponding to a noise ratio of 4%.\n4. Read the change in BLEU score from the vertical axis at this point."
+    },
+    {
+        "instance_id": "debd0c30b110da746611d682795742df",
+        "question": "In subplot (a), what is the BLEU score for the Decoder at 2M steps?",
+        "answer_pred": "22.5",
+        "reasoning": "To determine the BLEU score for the Decoder at 2M steps, I will focus on the graph in subplot (a). The x-axis represents the number of steps, and the y-axis represents the BLEU score. I will locate the point on the red line (representing the Decoder) at 2M steps on the x-axis and read the corresponding value on the y-axis. This value will be the BLEU score for the Decoder at 2M steps."
+    }
+]

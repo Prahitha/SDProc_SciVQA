@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "6d87cead899129c2deefab1e9da5547b",
+        "question": "In the top left plot, what is the training time of the yellow line at 100 features?",
+        "answer_pred": "2.1",
+        "reasoning": "1. Identify the top left plot, which corresponds to the Random Forest algorithm.\n2. Locate the yellow line in this plot, which represents the ReliefF feature selection method.\n3. Follow the yellow line to the point where the number of selected features is 100.\n4. Read the training time from the vertical axis at this point.\n5. The yellow line at 100 features reaches approximately 2.1 seconds on the vertical axis."
+    },
+    {
+        "instance_id": "6ba709f5ab3a2a55d264de25a5668fd4",
+        "question": "How many ML algorithms are compared in Figure 24?",
+        "answer_pred": "4",
+        "reasoning": "To solve the problem, I will first identify the number of distinct lines in each plot, as each line represents a different ML algorithm or feature selection method. I will then count these lines across all the plots to determine the total number of algorithms being compared. I will ensure that I do not count any overlapping lines or shaded regions, as these represent confidence intervals rather than separate algorithms. By following these steps, I can accurately determine the total number of ML algorithms compared in Figure 24."
+    },
+    {
+        "instance_id": "0c7f00deb5ae88c1ca77aa162d85329d",
+        "question": "Is the purple line higher than the red line for at the point where the number of selected features is 40 in the 'Bagging' chart?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the purple line is higher than the red line at the point where the number of selected features is 40 in the 'Bagging' chart, I will:\n\n1. Locate the 'Bagging' chart in the image.\n2. Identify the purple line, which represents SVM, and the red line, which represents Anova.\n3. Find the point on the x-axis where the number of selected features is 40.\n4. Compare the y-values of the purple and red lines at this point.\n5. Determine if the y-value of the purple line is higher than that of the red line."
+    },
+    {
+        "instance_id": "f87429617b831506d07b3751d7d61cfe",
+        "question": "Is the training time for the Random Forest algorithm consistently higher than that of the Adaptive Boosting algorithm?",
+        "answer_pred": "No",
+        "reasoning": "To solve the problem, I will:\n1. Identify the lines representing the Random Forest and Adaptive Boosting algorithms in each graph.\n2. Observe the position of these lines relative to each other across different numbers of selected features.\n3. Check if the Random Forest line is consistently above the Adaptive Boosting line for all values of the number of selected features.\n4. Note if there are any instances where the lines overlap or the Random Forest line dips below the Adaptive Boosting line.\n5. Based on these observations, determine if the training time for Random Forest is consistently higher than that of Adaptive Boosting."
+    },
+    {
+        "instance_id": "084983c7cb2990c451c41122a384a024",
+        "question": "In the top right plot, which line has the highest training time with a number of selected features of 80?",
+        "answer_pred": "B",
+        "reasoning": "1. Identify the top right plot, which corresponds to the Multilayer Perceptron algorithm.\n2. Locate the point on the x-axis where the number of selected features is 80.\n3. Observe the lines at this point: ReliefF, SVM, Anova, and Correlation.\n4. Compare the y-values (training times) of these lines at x = 80.\n5. Determine which line has the highest y-value, indicating the highest training time."
+    },
+    {
+        "instance_id": "8daff804c1622107a601f3bd8d9bbb04",
+        "question": "Which ML algorithm has the highest training time when the number of selected features is 100?",
+        "answer_pred": "D",
+        "reasoning": "To solve the problem, I will:\n1. Examine the graph for the Random Forest algorithm.\n2. Identify the lines representing ReliefF, SVM, Anova, and Correlation.\n3. Observe which line reaches the highest point on the y-axis when the number of selected features is 100.\n4. Repeat this process for the Multilayer Perceptron, Bagging, Adaptive Boosting, and Logistic Regression algorithms.\n5. Compare the training times for each algorithm at 100 selected features.\n6. Determine which algorithm consistently has the highest training time across different feature selection methods."
+    },
+    {
+        "instance_id": "81acb52e353cbb12c26df662a3c8e242",
+        "question": "What dataset was used for training, and how does it influence the results?",
+        "answer_pred": "Correlation",
+        "reasoning": "To solve the problem, I will:\n\n1. Examine the graph legends to identify the dataset used for training.\n2. Observe the performance of each machine learning algorithm across different feature selection methods.\n3. Note how the training time changes as the number of selected features increases for each algorithm.\n4. Compare the performance across algorithms and feature selection methods to understand the influence of the dataset on the results.\n5. Identify any patterns, such as overlapping lines or narrow peaks, that indicate the dataset's impact on the algorithms' performance."
+    },
+    {
+        "instance_id": "b9a160dacc7e27c514ea7eb7f8ed6606",
+        "question": "What is the approximate value of the highest red line at 10^4 training pairs in the rightmost plot?",
+        "answer_pred": "21",
+        "reasoning": "To solve the problem, I will focus on the rightmost plot in the image. The x-axis represents the number of training pairs, ranging from 10^3 to 10^5. The y-axis represents the BLEU score, ranging from 0 to 28. The red line represents the translation from German to English (De\u2192En). At 10^4 training pairs, the red line is slightly above the 14 mark on the y-axis."
+    },
+    {
+        "instance_id": "0424ecfcd61a9a6c7aa7299249bbcdf0",
+        "question": "Which languages are presented in the plot?",
+        "answer_pred": "De-En, En-De",
+        "reasoning": "To solve the problem, I will:\n\n1. Examine the legend in each plot to identify which line corresponds to which language pair.\n2. Note that the red line is labeled as De-En, and the blue line is labeled as En-De in both plots.\n3. Observe the trend of the lines in each plot to see how the BLEU scores change with the number of training pairs.\n4. Compare the scales of the x-axis and y-axis across the two plots to understand the differences in the number of training pairs and BLEU scores for each language pair.\n5. Conclude that the language pairs presented in the plots are De-En and En-De."
+    },
+    {
+        "instance_id": "76afd084f2879181eabf48c3d5f547a0",
+        "question": "In the rightmost plot, is the red line  higher than the blue line representing at the point where the number of training pairs is approximately 10^4?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the red line is higher than the blue line at the point where the number of training pairs is approximately 10^4, I will:\n\n1. Focus on the rightmost plot.\n2. Identify the red line, which represents the De-En model.\n3. Identify the blue line, which represents the En-De model.\n4. Locate the point on the x-axis where the number of training pairs is approximately 10^4.\n5. Compare the y-values of the red and blue lines at this point.\n6. Observe that the red line is higher than the blue line at this point."
+    }
+]

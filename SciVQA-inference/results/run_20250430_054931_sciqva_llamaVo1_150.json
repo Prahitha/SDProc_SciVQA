@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "cbcb4c3ddca79f5a9dfb1abff9d57468",
+        "question": "How many spectrograms are presented in the figure?",
+        "answer_pred": "2",
+        "reasoning": "To determine the number of spectrograms, I will focus on sections (a) and (b) of the image, as these are labeled as spectrograms. Section (a) shows a clean spectrogram, while section (b) shows a partially noise-corrupted spectrogram. The other sections, (c), (d), and (e), display predicted frame-level scores and do not represent spectrograms. Therefore, the total number of spectrograms in the image is two."
+    },
+    {
+        "instance_id": "219733eaf6bef806d087a217169ef5b1",
+        "question": "Is the red vertical line in the spectrogram labelled (b) located at approximately in the 75th frame?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine the position of the red vertical line in spectrogram (b), I will:\n\n1. Identify the x-axis, which represents the number of frames.\n2. Locate the red vertical line in spectrogram (b).\n3. Estimate its position along the x-axis.\n4. Compare this position to the 75th frame mark on the x-axis.\n5. Conclude whether the red line is approximately at the 75th frame."
+    },
+    {
+        "instance_id": "963efa02b8f44a719b768d673ad61bf5",
+        "question": "For spectrograms (c), (d), and (e), is the y-axis label 'Predicted frame score'?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the y-axis label for spectrograms (c), (d), and (e) is 'Predicted frame score', I will:\n\n1. Identify the y-axis labels for spectrograms (c), (d), and (e).\n2. Compare these labels to the standard answer.\n3. Confirm that the y-axis label for spectrograms (c), (d), and (e) is indeed 'Predicted frame score'.\n\nThe y-axis label for spectrograms (c), (d), and (e) is 'Predicted frame score', which matches the standard answer."
+    },
+    {
+        "instance_id": "6ca4e08a2cd9eaac9ee065aff65fb2dc",
+        "question": "Which of the top two spectrograms presenting normalized frequency has a red line?",
+        "answer_pred": "B",
+        "reasoning": "To determine which spectrogram contains a red line, I will examine the top two spectrograms labeled (a) and (b). Spectrogram (a) is clean, while spectrogram (b) is partially noise-corrupted. I will look for the presence of a red line in each spectrogram. Spectrogram (a) does not have a red line, whereas spectrogram (b) does. Therefore, spectrogram (b) is the one with the red line."
+    },
+    {
+        "instance_id": "7cdf08367ebbd6b3ad0fcfb501a14675",
+        "question": "What is the range of the number of frames presented?",
+        "answer_pred": "D",
+        "reasoning": "To determine the range of the number of frames, I will focus on the x-axis of the graph. The x-axis represents the number of frames, and it spans from 0 to 400. This indicates that the range of the number of frames is from 0 to 400."
+    },
+    {
+        "instance_id": "83980a151e23751a65442f9f290fc014",
+        "question": "What is the time resolution of the spectrograms, and how is it depicted in the figure?",
+        "answer_pred": "1 frame every 10 seconds",
+        "reasoning": "1. Examine the x-axis of the spectrograms (a and b) to determine the number of frames represented.\n2. Calculate the time resolution by dividing the total duration by the number of frames.\n3. Observe the plots (c, d, and e) to see how the predicted frame-level scores change over time.\n4. Note that the x-axis of the plots (c, d, and e) also represents the number of frames.\n5. Compare the x-axis scales of the spectrograms and the plots to ensure consistency.\n6. Identify which lines correspond to which methods (LC ATT, L ATT, and Baseline1) and distinguish them from shaded regions representing confidence intervals."
+    },
+    {
+        "instance_id": "270b72e481f9abfd808a68697d00a73e",
+        "question": "What is the approximate absolute improvements value of the green line at its peak?",
+        "answer_pred": "0.049",
+        "reasoning": "1. Identify the green line on the graph, which represents Abs_Test_Unseen.\n2. Locate the peak of the green line on the graph.\n3. Read the y-axis value corresponding to the peak of the green line.\n4. The y-axis represents absolute improvements, so the value at the peak of the green line is the approximate absolute improvements value."
+    },
+    {
+        "instance_id": "63055f3434144f7f488c1e1954e757c2",
+        "question": "What is the maximum relative improvement for unseen data?",
+        "answer_pred": "0.05",
+        "reasoning": "To find the maximum relative improvement for unseen data, I will focus on the green line labeled \"Rel_Test_Unseen.\" This line represents the relative improvements for unseen data. By examining the graph, I will identify the peak point of this line on the y-axis, which indicates the maximum relative improvement. The y-axis shows relative improvements in percentage, so I will read the value at the peak of the \"Rel_Test_Unseen\" line."
+    },
+    {
+        "instance_id": "c70823cbd81a076e6aead597fbc042bb",
+        "question": "Does the green line has a higher value for its peak compared to the blue line?",
+        "answer_pred": "Yes",
+        "reasoning": "1. Identify the lines on the graph: the green line represents \"Rel_Tes_Unknown,\" the blue line represents \"Rel_Tes_Seen,\" and the red line represents \"Abs_Tes_Unknown\" and \"Abs_Tes_Seen.\"\n2. Focus on the peak values of the green and blue lines.\n3. Observe that the green line reaches its peak at a higher relative improvement percentage compared to the blue line.\n4. Compare the peak values of the green and blue lines on the y-axis.\n5. Conclude that the green line has a higher peak value than the blue line."
+    },
+    {
+        "instance_id": "b853793729db0974f5a3d2e88ce4a1cf",
+        "question": "Does the relative test improvement for seen data consistently increase as the Bleu value increases?",
+        "answer_pred": "Yes",
+        "reasoning": "1. Identify the line corresponding to \"Rel_Test_Seen,\" which is in blue.\n2. Observe the trend of this line as it moves along the x-axis, which represents the Bleu value.\n3. Note that as the Bleu value increases, the line for \"Rel_Test_Seen\" consistently moves upward, indicating an increase in relative improvements.\n4. Compare this trend with the other lines to ensure that \"Rel_Test_Seen\" is the only one showing a consistent upward trend.\n5. Conclude that the relative test improvement for seen data consistently increases as the Bleu value increases."
+    }
+]

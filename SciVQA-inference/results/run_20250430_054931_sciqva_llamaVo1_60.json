@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "b4c02dc7a824c137b52178f11fd5f148",
+        "question": "In the bottom subplot,  is the red line always lower than the green dashed line across all shown noise ratios?",
+        "answer_pred": "Yes",
+        "reasoning": "In the bottom subplot, the red line represents the Encoder Input, the blue dotted line represents the Encoder Output, and the green dashed line represents the Decoder Input. To determine if the red line is always lower than the green dashed line across all shown noise ratios, I will compare their positions at each noise ratio on the x-axis. Starting from 0% noise ratio, the red line is below the green dashed line. As the noise ratio increases, both lines decrease, but the red line consistently remains below the green dashed line at all noise ratios from 0% to 10%."
+    },
+    {
+        "instance_id": "d5477e539b26ff4f50f8fa345a3786dd",
+        "question": "In subplot b, is the maximum value of Change of Bleu Score 0?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the maximum value of the Change of BLEU Score is 0, I will examine the graph in subplot b. The x-axis represents the ratio of added noise, and the y-axis represents the Change of BLEU Score. The graph shows three lines: one for the encoder input, one for the encoder output, and one for the decoder input. I will look for the highest point on these lines and compare it to the value 0 on the y-axis."
+    },
+    {
+        "instance_id": "b6dc68e293ed630d3eb57525099ec2db",
+        "question": "In the bottom subplot, which line represents Decoder Input?",
+        "answer_pred": "B",
+        "reasoning": "To determine which line represents \"Decoder Input\" in subplot (b), I will refer to the legend provided in the image. The legend indicates that the green dashed line corresponds to \"Decoder Input.\" This line is distinct from the red line for \"Encoder Input\" and the blue dotted line for \"Encoder Output.\""
+    },
+    {
+        "instance_id": "7e67cfbe2b4f02fcd12ed248a6ac7dad",
+        "question": "What is the range of steps presented in the x-axis of plot (a)?",
+        "answer_pred": "A, B, C, D",
+        "reasoning": "To determine the range of steps on the x-axis of plot (a), I will first identify the starting and ending points of the x-axis. The x-axis is labeled as \"Steps\" and ranges from 0 to 2 million. This indicates that the range of steps is from 0 to 2,000,000."
+    },
+    {
+        "instance_id": "55bf344f5653aa69ed56e72325e05a14",
+        "question": "What is the exact BLEU score at 1 million steps for the encoder and decoder, and how does the difference in BLEU scores between the encoder and decoder at this point compare to the difference at 2 million steps?",
+        "answer_pred": "Encoder: 22.5, Decoder: 23.5, Difference at 1M: 1, Difference at 2M: 0.5",
+        "reasoning": "To solve the problem, I will:\n\n1. Identify the BLEU scores for the encoder and decoder at 1 million steps from graph (a).\n2. Calculate the difference in BLEU scores between the encoder and decoder at 1 million steps.\n3. Identify the BLEU scores for the encoder and decoder at 2 million steps from graph (a).\n4. Calculate the difference in BLEU scores between the encoder and decoder at 2 million steps.\n5. Compare the difference at 1 million steps to the difference at 2 million steps."
+    },
+    {
+        "instance_id": "7c7da65e03fb8156bde47f98c056b2fe",
+        "question": "What is the accuracy of the green line at 1M parallel sentences for the second subplot on the left?",
+        "answer_pred": "0.7",
+        "reasoning": "1. Identify the second subplot on the left, which corresponds to the translation direction \"es \u2192 en.\"\n2. Locate the green line in this subplot, which represents the FastText (sent) model.\n3. Observe the accuracy of the green line at the 1M parallel sentences mark on the x-axis.\n4. Note that the green line reaches an accuracy of approximately 0.8 at 1M parallel sentences."
+    },
+    {
+        "instance_id": "93c7ddf0b89769104858abd6b24839e6",
+        "question": "What is the accuracy of the FastText(dict) model in the de-->es plot with all parallel sentences?",
+        "answer_pred": "57.45",
+        "reasoning": "To solve the problem, I will:\n\n1. Identify the plot corresponding to the de-->es language pair.\n2. Locate the dashed black line representing the FastText(dict) model in this plot.\n3. Read the accuracy value from the y-axis where the FastText(dict) line intersects with the x-axis at 1M parallel sentences.\n4. Verify that this value matches the average accuracy provided in the legend for the FastText(dict) model.\n\nBy following these steps, I can accurately determine the accuracy of the FastText(dict) model in the de-->es plot with all parallel sentences."
+    },
+    {
+        "instance_id": "fb2c20af3e5156df4ce1579fb1fd05a4",
+        "question": "In the top right plot, does the blue line with circles reach an accuracy of approximately 0.8 at the x-axis value of 1M?",
+        "answer_pred": "Yes",
+        "reasoning": "1. Identify the top right plot, which corresponds to the translation direction en \u2192 es.\n2. Locate the blue line with circles in the top right plot, which represents the SDAE (transfer) model.\n3. Observe the position of the blue line with circles at the x-axis value of 1M.\n4. Determine if the blue line with circles reaches an accuracy of approximately 0.8 at the x-axis value of 1M."
+    },
+    {
+        "instance_id": "cb011292989a941ad61a251535aeebc3",
+        "question": "In en-->de plot, does the model SDAE (sent) have an accuracy of over 75% when trained on 1 million parallel sentences?",
+        "answer_pred": "Yes",
+        "reasoning": "To solve the problem, I will:\n1. Locate the en-->de plot in the image.\n2. Identify the line corresponding to SDAE (sent) in the en-->de plot.\n3. Find the data point for SDAE (sent) when the number of parallel sentences is 1 million.\n4. Read the accuracy value from the y-axis corresponding to this data point.\n5. Compare this accuracy value to 75% to determine if it is over 75%."
+    },
+    {
+        "instance_id": "4889440da40d939a8a905d9e31539797",
+        "question": "Which line represents the model with the highest accuracy at 1 million parallel sentences in the middle right plot?",
+        "answer_pred": "D",
+        "reasoning": "1. Identify the middle right plot from the image, which corresponds to the translation direction \"en \u2192 de.\"\n2. Examine the lines in this plot: SDAE (transfer), SDAE (sent), SDAE/NT (joint), FastText (sent), and FastText (dict).\n3. Observe the accuracy values on the y-axis at 1 million parallel sentences on the x-axis for each line.\n4. Compare these values to determine which line has the highest accuracy at 1 million parallel sentences.\n5. According to the legend, SDAE (transfer) has an average accuracy of 75.92%, SDAE (sent) has 67.57%, SDAE/NT (joint) has 93.42%, FastText (sent) has 69.18%, and FastText (dict) has 57.45%.\n6. Among these, SDAE/NT (joint) has the highest accuracy of 93.42% at 1 million parallel sentences."
+    }
+]

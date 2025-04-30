@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "017b9206809c1e5120c4d12494682fe8",
+        "question": "Which line represents the \"Baseline\" model?",
+        "answer_pred": "B",
+        "reasoning": "To determine which line represents the \"Baseline\" model, I will look at the legend in the graph. The legend indicates that the blue line is labeled as \"PostNorm,\" and the orange line is labeled as \"Baseline.\" Therefore, the orange line corresponds to the \"Baseline\" model."
+    },
+    {
+        "instance_id": "1dc89bf076d51cac2bba7a217c555ca9",
+        "question": "What is the size of the training set corresponding to the highest BLEU score for the 'Baseline' system?",
+        "answer_pred": "D",
+        "reasoning": "To find the highest BLEU score for the 'Baseline' system, I will:\n1. Identify the 'Baseline' line, which is in orange.\n2. Observe the trend of the 'Baseline' line as the number of training sentences increases.\n3. Locate the peak point of the 'Baseline' line, which represents the highest BLEU score.\n4. Note the corresponding value on the x-axis, which indicates the number of training sentences per 1000.\n5. Verify that this point is indeed the highest by comparing it with other points on the 'Baseline' line."
+    },
+    {
+        "instance_id": "babc7e32958c678f98f9d3acf838beb0",
+        "question": "What is the difference in BLEU score between PostNorm and Baseline with 100 training sentences?",
+        "answer_pred": "0.8",
+        "reasoning": "To find the difference in BLEU scores between PostNorm and Baseline with 100 training sentences, I will locate the points on the graph where the number of training sentences is 100. I will then read the corresponding BLEU scores from the y-axis for both PostNorm and Baseline. Finally, I will subtract the Baseline score from the PostNorm score to find the difference."
+    },
+    {
+        "instance_id": "8b552689a61fe9e0fa1cc3e7449c54fc",
+        "question": "What is the value of the validation loss for purple line at epoch 5, in right bottom plot?",
+        "answer_pred": "0.5",
+        "reasoning": "To determine the validation loss for the purple line at epoch 5, I will:\n\n1. Focus on the bottom right plot, which shows model loss during validation.\n2. Identify the purple line, which corresponds to Model 3.\n3. Locate epoch 5 on the x-axis of the bottom right plot.\n4. Read the y-axis value at this point to find the validation loss for Model 3 at epoch 5."
+    },
+    {
+        "instance_id": "3cb278da87db98fabb80b787795f157c",
+        "question": "What is the type of loss measured in the plots?",
+        "answer_pred": "Model loss",
+        "reasoning": "To determine the type of loss, I will focus on the loss plots. The y-axis is labeled as \"loss,\" and the x-axis is labeled as \"epoch.\" The loss starts at a high value and decreases rapidly at first, then more gradually. This pattern is typical of the cross-entropy loss function, which is commonly used in classification tasks. Cross-entropy loss starts high when the model's predictions are far from the true labels and decreases as the model improves its predictions."
+    },
+    {
+        "instance_id": "2a57a35cc2e45bce9a722032fc6d3091",
+        "question": "In the left bottom plot, does the red line has a higher accuracy score than the green line at epoch 4? ",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the red line has a higher accuracy score than the green line at epoch 4 in the left bottom plot, I will:\n\n1. Identify the red and green lines in the left bottom plot. The red line represents Model 3, and the green line represents Model 2.\n2. Locate epoch 4 on the x-axis of the left bottom plot.\n3. Compare the y-values (accuracy scores) of the red and green lines at epoch 4.\n4. Observe that the red line (Model 3) is above the green line (Model 2) at epoch 4, indicating a higher accuracy score for Model 3."
+    },
+    {
+        "instance_id": "4e8ea981f3882f24886b0a9eddae4efa",
+        "question": "Does the validation accuracy of all models reach a value of 1?",
+        "answer_pred": "No",
+        "reasoning": "To solve the problem, I will focus on the validation accuracy plot, as it directly addresses the question. I will examine the lines representing each model to see if any reach a value of 1. The validation accuracy plot shows lines for Model 1, Model 2, Model 3, Model 4, and Model 5. None of these lines appear to reach or surpass the value of 1 on the y-axis, which ranges from 0 to 1. This indicates that the validation accuracy of all models does not reach a value of 1."
+    },
+    {
+        "instance_id": "56a826be331cf533ba68f8cf35e72fac",
+        "question": "In rightmost bottom plot, which line represents the  model has the highest validation loss at the 8th epoch?",
+        "answer_pred": "D",
+        "reasoning": "To determine which model has the highest validation loss at the 8th epoch, I will:\n\n1. Focus on the rightmost bottom plot, which shows model validation loss over epochs.\n2. Identify the lines representing each model: Model 1 (blue), Model 2 (green), Model 3 (red), Model 4 (purple), and Model 5 (yellow).\n3. Observe the validation loss values at the 8th epoch for each model.\n4. Compare these values to identify which model has the highest loss at this point.\n5. Note that Model 5, represented by the yellow line, has the highest validation loss at the 8th epoch."
+    },
+    {
+        "instance_id": "9f2df9dd1aadc0958af1f2cb936e765e",
+        "question": "In 'Model accuracy (training)' plot what is the range of the accuracy values in y-axis?",
+        "answer_pred": "A, B, C, D",
+        "reasoning": "To determine the range of accuracy values in the 'Model accuracy (training)' plot, I will focus on the y-axis of this specific plot. The y-axis ranges from 0.98 to 1.0, indicating that the accuracy values span from 98% to 100%. The x-axis represents the number of epochs, but it is not relevant to the range of accuracy values."
+    },
+    {
+        "instance_id": "03f370c101e138cd6b4dec8106fa662f",
+        "question": "Which dataset was used for training and validation, and how does it affect the results?",
+        "answer_pred": "The dataset used for training and validation is CIFAR-10.",
+        "reasoning": "To determine which dataset was used for training and validation, I will examine the model accuracy and loss plots. The training accuracy and loss plots (top left and top right) show rapid improvement in accuracy and a sharp decrease in loss at the beginning, indicating the training process. The validation accuracy and loss plots (bottom left and bottom right) show a slower improvement in accuracy and a gradual decrease in loss, indicating the validation process. By comparing these plots, I can identify which dataset was used for training and validation."
+    }
+]

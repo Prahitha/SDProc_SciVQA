@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "3c1131a33d4dc6e45315f7d46fe0ff3c",
+        "question": "Which line represents 'Real_Test_Seen'?",
+        "answer_pred": "D",
+        "reasoning": "To determine which line represents 'Real_Test_Seen,' I will refer to the legend in the graph. The legend indicates that 'Real_Test_Seen' is represented by the red line. I will verify this by checking the color of the line labeled 'Real_Test_Seen' on the graph."
+    },
+    {
+        "instance_id": "ef6d7235882701fe5730932aa2a5a9d4",
+        "question": "Which of the following are shown in the graph?",
+        "answer_pred": "A, B, C, D",
+        "reasoning": "To determine which entities are shown in the graph, I will first identify the lines and their corresponding labels from the legend. The blue line is labeled as \"Alix_Tesi_seen,\" the red line as \"Alix_Tesi_unseen,\" and the green and yellow lines as \"Rel_Tesi_seen\" and \"Rel_Tesi_unseen,\" respectively. I will then match these labels with the options provided in the question."
+    },
+    {
+        "instance_id": "86612e2b2a5b87c7cb086e87d3d97ac6",
+        "question": "What is the exact value of the Bleu improvement for the 'Rel_Test_Seen' dataset at K=2, and how is it presented in the figure?",
+        "answer_pred": "0.045",
+        "reasoning": "To determine the Bleu improvement for 'Rel_Test_Seen' at K=2, I will locate the red line on the graph, which represents 'Rel_Test_Seen.' I will then find the point on this line corresponding to K=2 on the x-axis. By tracing vertically from this point to the y-axis, I can read the exact value of the Bleu improvement."
+    },
+    {
+        "instance_id": "cfc0be4eb651ffb9376ad254a6579707",
+        "question": "What is the approximate accuracy of blue solid line with crosses when the training percentage is 0.2?",
+        "answer_pred": "0.75",
+        "reasoning": "To find the accuracy of the blue solid line with crosses (TextING) at a training percentage of 0.2, I will locate the point on the x-axis where the training percentage is 0.2. Then, I will trace this point horizontally to the blue solid line with crosses. Finally, I will read the corresponding accuracy value on the y-axis."
+    },
+    {
+        "instance_id": "e2b25aa9a85854b40126c3a5b8bdd7e4",
+        "question": "What is the maximum value in the x-axis?",
+        "answer_pred": "1",
+        "reasoning": "To find the maximum value on the x-axis, I will look at the endpoint of the x-axis on the graph. The x-axis represents the training percentage, which ranges from 0.005 to 1. The endpoint of this range is 1. Therefore, the maximum value on the x-axis is 1."
+    },
+    {
+        "instance_id": "4fd5dcf5a5e996e13a2b2f65e1b9daae",
+        "question": "Does the accuracy of the blue line with crosses is always higher than the accuracy of blue line with squares across all training percentages shown in the graph?",
+        "answer_pred": "No",
+        "reasoning": "1. Identify the two blue lines: one with crosses (TextING) and one with squares (TextGCN).\n2. Observe the accuracy values on the left y-axis for both lines at various training percentages.\n3. Compare the accuracy of TextING and TextGCN at each training percentage from 0.005 to 1.\n4. Determine if the accuracy of TextING is consistently higher than that of TextGCN across all training percentages."
+    },
+    {
+        "instance_id": "6296dcc7f97ae7ac418c82f7a9eca03f",
+        "question": "Does the gain consistently decrease as the training percentage increases?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the gain consistently decreases as the training percentage increases, I will focus on the dashed orange line representing the gain percentage. As the training percentage increases from 0.005 to 1, the gain percentage line shows a downward trend. This indicates that the gain consistently decreases as the training percentage increases."
+    },
+    {
+        "instance_id": "1aa9cddae771f9ad88fdb6bc8a6e871e",
+        "question": "Which line represents Gain?",
+        "answer_pred": "D",
+        "reasoning": "To determine which line represents Gain, I will look at the legend in the graph. The legend indicates that the orange dashed line corresponds to Gain. This line is distinct from the other two lines, which are blue and represent TextGCN and TextING. The Gain line shows a decreasing trend as the training percentage increases, which is different from the increasing trends of the TextGCN and TextING lines."
+    },
+    {
+        "instance_id": "c38dadf72e1d790382a7a2b6aae12eb3",
+        "question": "Which are the labels of the y-axis?",
+        "answer_pred": "B",
+        "reasoning": "To determine the labels of the y-axis, I will examine the graph for any text or markings that indicate what the y-axis represents. The graph shows three lines: TextGCN, TextING, and Gain. The y-axis values range from 0.5 to 0.8, suggesting that it represents accuracy or gain percentage. The x-axis shows the training percentage from 0 to 1, indicating the proportion of data used for training."
+    },
+    {
+        "instance_id": "ceadf82156e4023abc9a0b4eeefde9aa",
+        "question": "What is the exact size of the dataset used for the experiment described in Figure 2, and how does it affect the results?",
+        "answer_pred": "0.005",
+        "reasoning": "To determine the dataset size, I will focus on the training percentage on the x-axis, which ranges from 0.005 to 1. The accuracy and gain percentage are plotted on the left and right y-axes, respectively. The graph shows that as the training percentage increases, both accuracy and gain percentage increase for TextGCN, TextING, and Gain. This suggests that the dataset size increases as the training percentage increases. Since the training percentage starts at 0.005, the dataset size is likely small at the beginning and increases as more data is used for training."
+    }
+]

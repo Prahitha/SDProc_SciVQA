@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "626b75a1410ec363ae04ebc13e83e2ca",
+        "question": "Is the performance of the JOINT model consistently better than ORACLE across different numbers of training pairs?",
+        "answer_pred": "No",
+        "reasoning": "1. Examine the left graph (a) for IAPR-TC12. The horizontal lines represent the JOINT model, while the increasing lines represent the ORACLE model.\n2. Note that the BLEU scores for the JOINT model are consistently higher than those for the ORACLE model as the number of training pairs increases.\n3. Examine the right graph (b) for Multi30K. Again, the horizontal lines represent the JOINT model, while the increasing lines represent the ORACLE model.\n4. Observe that the BLEU scores for the JOINT model are consistently higher than those for the ORACLE model as the number of training pairs increases.\n5. Conclude that the performance of the JOINT model is consistently better than the ORACLE model across both datasets."
+    },
+    {
+        "instance_id": "b85df166bc20b89514ab24208a2fa0cc",
+        "question": "Which of the following represents the trend of the JOINT model in the right graph (b)?",
+        "answer_pred": "A, B, C, D",
+        "reasoning": "In the right graph (b), the JOINT model is represented by horizontal lines. These lines indicate that the BLEU score remains constant regardless of the number of training pairs. This suggests that the JOINT model does not improve with more training data, maintaining a consistent performance level."
+    },
+    {
+        "instance_id": "cde3923dfe5dc47f0499413ac53255ed",
+        "question": "What is the range of the values presented in y-axis in plot (a)?",
+        "answer_pred": "D",
+        "reasoning": "To find the range of values on the y-axis in plot (a), observe that the y-axis is labeled from 0 to 60. The range is calculated by subtracting the minimum value (0) from the maximum value (60). Therefore, the range is 60 - 0 = 60."
+    },
+    {
+        "instance_id": "f776d07de0adb73715e3bb77b167f9ee",
+        "question": "What is the specific performance of the JOINT model on the 'IAPR-TC12' dataset with 1,000 training pairs for the De-En translation, and how is it depicted in the figures?",
+        "answer_pred": "20",
+        "reasoning": "To determine the specific performance of the JOINT model on the 'IAPR-TC12' dataset with 1,000 training pairs for the De-En translation, I will:\n\n1. Identify the graph related to the 'IAPR-TC12' dataset.\n2. Locate the horizontal line representing the JOINT model.\n3. Observe the BLEU score on the y-axis where this line intersects.\n4. Note that the JOINT model's performance is depicted as a horizontal line at a BLEU score of approximately 20 for the De-En translation with 1,000 training pairs."
+    },
+    {
+        "instance_id": "863a8dc05e538ee7358d84489353c6a1",
+        "question": "In the bottom left plot, what is the value of the red line at the WE training size of 10^5?",
+        "answer_pred": "27.5",
+        "reasoning": "To determine the value of the red line at the WE training size of 10^5 in the bottom left plot, I will:\n\n1. Locate the bottom left plot in the image, which corresponds to the \"Test ACC\" for the \"ZH (isolating)\" category.\n2. Identify the red line in this plot, which represents the \"bpe1e4\" segmentation method.\n3. Follow the red line to the WE training size of 10^5 on the x-axis.\n4. Observe the y-axis value where the red line intersects with the WE training size of 10^5."
+    },
+    {
+        "instance_id": "3d687574fd3fae78a9c33d5f54d5f98b",
+        "question": "In the TR subplot with FGET training size=2000, what is the WE value of the 'bpe1e3' at 35?",
+        "answer_pred": "32.5",
+        "reasoning": "1. Identify the TR subplot with FGET training size = 2000.\n2. Locate the line corresponding to 'bpe1e3' in this subplot.\n3. Observe the y-axis value of 'bpe1e3' at the 35 mark on the x-axis.\n4. Note that the y-axis represents Test ACC, and the x-axis represents WE training size.\n5. Carefully read the y-axis value where 'bpe1e3' intersects the 35 mark on the x-axis."
+    },
+    {
+        "instance_id": "ee1d5efe7ab78fffbcc6fdb9ab62402f",
+        "question": "In the bottom right plot, does the blue line have a higher value than the red line at the highest WE training size?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the blue line has a higher value than the red line at the highest WE training size in the bottom right plot, I will:\n\n1. Identify the bottom right plot, which corresponds to the ZH (isolating) language type.\n2. Locate the blue and red lines within this plot.\n3. Observe the values of both lines at the highest WE training size on the x-axis.\n4. Compare the y-values of the blue and red lines at this point.\n5. Determine which line has the higher value."
+    },
+    {
+        "instance_id": "fe6dcc0ffd422402183d5a61aa24e657",
+        "question": "Does the performance of the 'bpe1e3' segmentation method improve with an increase in the FGET training size?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the performance of 'bpe1e3' improves with an increase in the FGET training size, I will:\n\n1. Identify the green line representing 'bpe1e3' in each graph.\n2. Observe the trend of this line as the FGET training size increases on the x-axis.\n3. Check if the line shows an upward trend, indicating improved performance.\n4. Compare the performance of 'bpe1e3' across different morphological types (T, TR, EN, HE, ZH) to see if the improvement is consistent.\n5. Note any differences in the y-axis and x-axis scales across the plots to ensure accurate comparison.\n\nBy following these steps, I can assess whether 'bpe1e3' consistently shows improved performance as the FGET training size increases."
+    },
+    {
+        "instance_id": "6faad11ee16ebef768e9972139decdc4",
+        "question": "In the top right plot, which line represents the model with the lowest test accuracy score?",
+        "answer_pred": "D",
+        "reasoning": "1. Identify the top right plot labeled \"TR (agglutinative)\" from the image.\n2. Observe the lines representing different segmentation methods: morf, charn, bpe1e3, bpe1e4, bpe1e5, ft, w2v, bert, and FGET training sizes of 200, 2000, and 20000.\n3. Note that the y-axis represents test accuracy scores, and the x-axis represents the WE training size.\n4. Compare the positions of the lines to determine which one is consistently at the lowest point on the y-axis across different WE training sizes.\n5. Recognize that the line corresponding to the FGET training size of 20000 is consistently positioned at the lowest point on the y-axis compared to other lines.\n6. Conclude that this line represents the model with the lowest test accuracy score in the top right plot."
+    },
+    {
+        "instance_id": "f8c4a378607d36f6104eda9bc95e1c85",
+        "question": "Which segmentation methods are presented in the figure?",
+        "answer_pred": "A, B, C, D",
+        "reasoning": "To determine the segmentation methods presented in the figure, I will examine the legend at the top of the image. The legend lists the segmentation methods as morf, charn, bpe13, bpe14, bpe15, ft, w2v, bert, and FGET training sizes of 200, 2000, and 20000. I will ensure that the list of segmentation methods matches the standard answer exactly."
+    }
+]

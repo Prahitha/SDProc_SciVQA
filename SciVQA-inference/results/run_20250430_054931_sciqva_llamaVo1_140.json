@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "104da9ea3a02ff7131ddf9cf767878af",
+        "question": "Which of the following represent the weights corresponding to the 'false' tag?",
+        "answer_pred": "A, B, C, D",
+        "reasoning": "To determine which line represents the weights corresponding to the 'false' tag, I will examine the color coding and labels provided in the graph. The green line is labeled as \"I-MISC weights (false tag),\" indicating it represents the weights for the 'false' tag. The orange line is labeled as \"I-LOC weights (true tag),\" representing the weights for the 'true' tag. The blue line represents the hidden representation. By focusing on these labels, I can identify which line corresponds to the 'false' tag."
+    },
+    {
+        "instance_id": "a2642b555d1665823175f703757d5b5b",
+        "question": "What is the type of neural network used for the visualization in Figure 2, and how does it influence the results?",
+        "answer_pred": "The type of neural network used for the visualization in Figure 2 is a Convolutional Neural Network (CNN).",
+        "reasoning": "To solve the problem, I will first identify the components of the neural network depicted in the image. The three lines represent the hidden representation, I-LOC weights (true tag), and I-MISC weights (false tag). The x-axis shows the hidden layer dimension, while the y-axis represents normalized values. I will analyze how these components interact and influence each other, particularly focusing on how the hidden representation is affected by the true and false tag weights. By examining the overlap and peaks of the lines, I can infer how the neural network uses these weights to determine the correct tag for the entity \"Rangoon.\""
+    },
+    {
+        "instance_id": "1eb67d078d61762ebb11fc6c5b7a5531",
+        "question": "In the top plot, what is the approximate value of the red line in the years 1940-1960",
+        "answer_pred": "0.84",
+        "reasoning": "To determine the approximate value of the red line in the years 1940-1960, I will focus on the top plot, which represents the Merging Index (MI). I will locate the 1940-1960 time interval on the x-axis. Then, I will observe the position of the red line at this interval on the y-axis. The y-axis ranges from 0.76 to 0.85, and I will estimate the value of the red line based on its position within this range."
+    },
+    {
+        "instance_id": "d928034abdf14158dea4793f4cd7e898",
+        "question": "What are the labels of the y-axis?",
+        "answer_pred": "Merging Index, Splitting Index",
+        "reasoning": "To determine the labels of the y-axis, I will focus on the top graph, which is labeled \"Merging Index.\" The numerical values on the y-axis range from 0.76 to 0.85, indicating a measure of merging activity over time. The x-axis represents different time periods, ranging from 1890-1910 to 2000-2014. By examining these details, I can conclude that the y-axis is labeled as \"Merging Index.\""
+    },
+    {
+        "instance_id": "e899ae69ce32ddec631ec0f40d745e50",
+        "question": "Is the value of the red dot representing 1900-1920 on the line in the top plot higher than the value of the red dot representing 1900-1920 on the line in the bottom plot?",
+        "answer_pred": "Yes",
+        "reasoning": "To solve the problem, I will first identify the position of the red dot for the year 1900-1920 on both the Merging Index (MI) and Splitting Index (SI) plots. Then, I will compare the vertical positions of these dots on their respective plots. The dot on the MI plot appears to be higher than the dot on the SI plot, indicating that the MI value for 1900-1920 is greater than the SI value for the same period."
+    },
+    {
+        "instance_id": "69ffc6c06388679ba8fdf8950186ffb7",
+        "question": "Does the 'Merging Index' trend upward during the time period 1900-1950?",
+        "answer_pred": "No",
+        "reasoning": "To determine if the 'Merging Index' trended upward during 1900-1950, I will focus on the top graph. The 'Merging Index' starts at around 0.84 in 1890-1910 and ends at around 0.77 in 2000-2014. During the period 1900-1950, the 'Merging Index' starts at around 0.83 in 1900-1920 and ends at around 0.82 in 1940-1960. Since the value decreases from 0.83 to 0.82, the 'Merging Index' did not trend upward during this period."
+    },
+    {
+        "instance_id": "d6bd9f3d8883b67e12f86f8508915957",
+        "question": "In the top plot, what is the highest merging index value reached by the red line?",
+        "answer_pred": "D",
+        "reasoning": "To determine the highest merging index value, I will focus on the top plot where the red line represents the merging index. I will look for the peak point of this line, which indicates the maximum merging index value. By examining the y-axis, I can read the exact value corresponding to this peak."
+    },
+    {
+        "instance_id": "108a4ae5f38903034c2cd83c1b2d3829",
+        "question": "Which of the following date ranges has the highest value for both the 'Merging Index' and 'Splitting Index'?",
+        "answer_pred": "C",
+        "reasoning": "1. Examine the 'Merging Index' graph to identify the peak value. The highest point appears between 1890-1910 and 1900-1920.\n2. Examine the 'Splitting Index' graph to identify the peak value. The highest point appears between 1890-1910 and 1900-1920.\n3. Compare the peak points for both indices. Both indices have their highest values in the 1890-1910 and 1900-1920 date ranges.\n4. Conclude that the date range with the highest values for both indices is 1890-1910."
+    },
+    {
+        "instance_id": "996fd3182d6c8c73bd7840963bfe9a7a",
+        "question": "What data was used, and how does it affect the results?",
+        "answer_pred": "The merging index and splitting index were used.",
+        "reasoning": "1. Examine the merging index (top graph) and splitting index (bottom graph) to understand their trends over time.\n2. Note that both indices show a general downward trend from 1890-1910 to 2000-2014.\n3. The merging index starts at around 0.84 in 1890-1910 and decreases to approximately 0.77 in 2000-2014.\n4. The splitting index starts at around 0.84 in 1890-1910 and decreases to approximately 0.77 in 2000-2014.\n5. The shaded regions represent confidence intervals, indicating variability in the data.\n6. The lines for the merging and splitting indices do not overlap, suggesting distinct trends.\n7. The merging index shows a peak around 1940-1960, while the splitting index shows a peak around 1910-1930.\n8. The merging index decreases more sharply after 1980-2000 compared to the splitting index."
+    },
+    {
+        "instance_id": "6ddc5ecfacf6f67b4b2b2e6ddb3d48ce",
+        "question": "What is the value of the blue line labeled (c) at the x-axis position 150?",
+        "answer_pred": "6.8",
+        "reasoning": "To find the value of the blue line labeled (c) at the x-axis position 150, I will:\n\n1. Locate the blue line labeled (c) on the graph.\n2. Identify the x-axis position 150 on the horizontal axis.\n3. Trace vertically from the x-axis position 150 to intersect with the blue line labeled (c).\n4. Read the corresponding value on the y-axis, which represents the predicted frame-level scores.\n5. Ensure that the correct line and position are identified to provide an accurate answer."
+    }
+]

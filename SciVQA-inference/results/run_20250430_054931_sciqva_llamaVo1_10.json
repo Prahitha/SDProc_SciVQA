@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "a73335d8352c93f9ac1956c190bd8cbe",
+        "question": "What are all the labels for the slices of the pie chart?",
+        "answer_pred": "1, 2, 3, 4, 5",
+        "reasoning": "To determine the labels for the slices of the pie chart, I will follow these steps:\n\n1. Observe the pie chart and identify the different sections.\n2. Note the percentage values associated with each section.\n3. Match the percentage values with the corresponding labels (1 to 5).\n4. Verify that the largest section is labeled \"Not humor\" with 53.9%.\n5. Confirm that the remaining sections are labeled with numbers 1 through 5 in descending order of their percentage values.\n\nBy following these steps, I can accurately identify the labels for each slice of the pie chart."
+    },
+    {
+        "instance_id": "caac73b5ab6a6d3354be6ebe1b43a96b",
+        "question": "Is the green slice labeled '3' smaller than the green slice labeled '5'?",
+        "answer_pred": "Yes",
+        "reasoning": "To solve the problem, I will compare the percentage values of the green slices labeled '3' and '5'. Slice '3' has a percentage of 9.5%, while slice '5' has a percentage of 1.3%. Since 1.3% is less than 9.5%, slice '5' is smaller than slice '3'."
+    },
+    {
+        "instance_id": "c551d1f0a7b2c5a68d02abc3be1eed41",
+        "question": "Is the percentage of tweets considered 'not humor' greater than the percentage of tweets with a score of 2?",
+        "answer_pred": "Yes",
+        "reasoning": "1. Identify the percentage of tweets labeled as 'not humor' from the pie chart, which is 53.9%.\n2. Identify the percentage of tweets with a score of 2 from the pie chart, which is 13.6%.\n3. Compare these two percentages to determine which is greater.\n4. Since 53.9% is greater than 13.6%, the percentage of tweets considered 'not humor' is greater than the percentage of tweets with a score of 2."
+    },
+    {
+        "instance_id": "e5fe50886ea6512fd2e13ebbc43289cf",
+        "question": "Which section of the pie chart represents the highest percentage?",
+        "answer_pred": "B",
+        "reasoning": "To determine which section of the pie chart represents the highest percentage, I will compare the numerical values associated with each section. The red section labeled \"Not humor\" has a percentage of 53.9%, which is higher than the percentages of the green sections: 17.6% for section 1, 13.6% for section 2, 9.5% for section 3, 4.1% for section 4, and 1.2% for section 5. Therefore, the red section \"Not humor\" represents the highest percentage."
+    },
+    {
+        "instance_id": "3cf8604eff230ce0530582a2203a5d53",
+        "question": "Which score was given most often by annotators?",
+        "answer_pred": "A, B, C, D",
+        "reasoning": "To determine which score was given most often by annotators, I need to identify the section of the pie chart with the largest percentage. The pie chart is divided into five sections, each representing a score from 1 to 5. The section labeled \"Not humor\" has the largest percentage at 53.9%. However, since the question asks for the score given most often, I will focus on the scores 1 through 5. Among these, score 1 has the highest percentage at 17.6%, followed by score 2 at 13.6%, score 3 at 9.5%, score 4 at 4.1%, and score 5 at 1.2%. Therefore, score 1 was given most often by annotators."
+    },
+    {
+        "instance_id": "e404565c67a4037a36f41c11aed3a894",
+        "question": "What is the mean score assigned by the annotators to the humorous tweets, and how is it presented in the figure?",
+        "answer_pred": "53.9",
+        "reasoning": "To solve the problem, I will follow these steps:\n\n1. Identify the percentage of humorous tweets in the pie chart, which is 53.9% for score 5.\n2. Identify the percentage of non-humorous tweets, which is 46.1% combined for scores 1, 2, 3, and 4.\n3. Calculate the mean score for the humorous tweets by multiplying each score by its respective percentage and summing these products:\n   - Score 1: 1 \u00d7 0.176 = 0.176\n   - Score 2: 2 \u00d7 0.136 = 0.272\n   - Score 3: 3 \u00d7 0.095 = 0.285\n   - Score 4: 4 \u00d7 0.041 = 0.164\n   - Score 5: 5 \u00d7 0.539 = 2.695\n4. Sum these products: 0.176 + 0.272 + 0.285 + 0.164 + 2.695 = 3.392\n5. Divide the sum by the total percentage of humorous tweets (53.9%) to find the mean score: 3.392 \u00f7 0.539 = 6.3."
+    },
+    {
+        "instance_id": "633bb6a028f8633f9c06ce6cbd8079a4",
+        "question": "What is the value of the light blue slice?",
+        "answer_pred": "249",
+        "reasoning": "To find the value of the light blue slice, I first identify the section of the pie chart that is colored light blue. This section is labeled as \"Sentence depth 1.\" The numerical value inside this section is 249. Therefore, the value of the light blue slice is 249."
+    },
+    {
+        "instance_id": "54439f3c8296012d879d62e502452270",
+        "question": "How many CoNLL test sentences have a depth of 0?",
+        "answer_pred": "634",
+        "reasoning": "To find the number of CoNLL test sentences with a depth of 0, I will focus on the segment of the pie chart labeled as \"Sentence depth 0.\" This segment is colored blue and marked with the number 634. The pie chart visually represents the distribution of sentences across different depths, and the number within the blue segment directly indicates the count of sentences with a depth of 0."
+    },
+    {
+        "instance_id": "67c52a24842af023ddb4f72335e300e1",
+        "question": "Is the smallest slice of the pie chart labeled 'Sentence depth 0'?",
+        "answer_pred": "No",
+        "reasoning": "To determine if the smallest slice of the pie chart is labeled 'Sentence depth 0', I will compare the sizes of the slices. The slice labeled 'Sentence depth 0' is the largest, while the slice labeled 'Sentence depth 3' is the smallest. Therefore, the smallest slice is not labeled 'Sentence depth 0'."
+    },
+    {
+        "instance_id": "aae7ab943a464200d8fe5dba0faafc36",
+        "question": "Are more than half of the CoNLL test sentences allocated to sentence depth 0?",
+        "answer_pred": "Yes",
+        "reasoning": "To solve the problem, I will:\n1. Identify the number of sentences at each sentence depth from the pie chart: 634 at depth 0, 249 at depth 1, 88 at depth 2, and 6 at depth 3.\n2. Calculate the total number of sentences: 634 + 249 + 88 + 6 = 977.\n3. Calculate the percentage of sentences at depth 0: (634 / 977) * 100.\n4. Compare this percentage to 50% to determine if more than half of the sentences are at depth 0."
+    }
+]

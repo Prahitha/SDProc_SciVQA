@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "c3ff866f19c7d21b8b9c0fd015547e82",
+        "question": "How many models are presented in the figure?",
+        "answer_pred": "D",
+        "reasoning": "To solve the problem, I will:\n1. Examine each subplot in the image to identify distinct lines representing different models.\n2. Note the colors and line styles used for each model in the legend.\n3. Count the number of unique lines in each subplot.\n4. Sum the counts from all subplots to determine the total number of models presented in the figure.\n5. Verify that no model is counted more than once by ensuring each line corresponds to a unique entry in the legend."
+    },
+    {
+        "instance_id": "058d1ae4ab1a093d24b2f227e06eb740",
+        "question": "What is the data used for training, and how does it influence the accuracy results for each language pair?",
+        "answer_pred": "SDAE (transfer), SDAE (sent), SDAE/NT (joint), FastText (sent), FastText (dict)",
+        "reasoning": "To determine the data used for training and its influence on accuracy, I will:\n\n1. Examine the legend to identify which lines correspond to which models: SDAE (transfer), SDAE (sent), SDAE/NT (joint), FastText (sent), and FastText (dict).\n2. Observe the x-axis, which represents the number of parallel sentences, and the y-axis, which represents accuracy.\n3. Compare the accuracy curves for each model across the four language pairs: es \u2192 en, en \u2192 es, de \u2192 en, and de \u2192 es.\n4. Note that the SDAE (transfer) model consistently shows the highest accuracy across all language pairs.\n5. Recognize that the SDAE (sent) and SDAE/NT (joint) models have lower accuracy compared to SDAE (transfer).\n6. Observe that FastText (sent) and FastText (dict) have lower accuracy than SDAE (transfer) and SDAE (sent).\n7. Conclude that the SDAE (transfer) model achieves the highest accuracy for all language pairs, indicating its effectiveness in nearest neighbor translation tasks."
+    },
+    {
+        "instance_id": "3796989767c48d01f46310aabee7d155",
+        "question": "What is the accuracy of the green line at relation length 9 in rightmost plot?",
+        "answer_pred": "0.4",
+        "reasoning": "To determine the accuracy of the green line at relation length 9 in the rightmost plot, I will follow these steps:\n\n1. Identify the green line in the rightmost plot, which represents the BERT-LSTM model.\n2. Locate relation length 9 on the x-axis of the rightmost plot.\n3. Trace vertically from relation length 9 to the green line.\n4. Read the accuracy value from the y-axis where the green line intersects at relation length 9.\n5. Note that the green line shows a peak at relation length 9, indicating the highest accuracy at this point."
+    },
+    {
+        "instance_id": "7515aea8731ed64f3c245c86f9be0e51",
+        "question": "Which model presents a decrease in accuracy after 5 relation length when trained on k=2,3,4?",
+        "answer_pred": "BERT-LSTM",
+        "reasoning": "To determine which model shows a decrease in accuracy after a relation length of 5 when trained on k=2, 3, and 4, I will:\n\n1. Examine the right graph where models are trained on clauses of length k=2, 3, and 4.\n2. Focus on the accuracy trends for each model as the relation length increases.\n3. Identify the model with a noticeable decrease in accuracy after a relation length of 5.\n4. Verify that this decrease is not present in the left graph where models are trained on clauses of length k=2 and k=3."
+    },
+    {
+        "instance_id": "28386730f95e03538ffd8ad0ecaff171",
+        "question": "Is the accuracy value of the green line consistently higher than the accuracy of the orange line for the left figure?",
+        "answer_pred": "Yes",
+        "reasoning": "To solve the problem, I will first identify the green and orange lines in the left graph. The green line represents the GAT model, and the orange line represents the BERT - LSTM model. I will then compare the accuracy values of these two lines across the range of relation lengths from 2 to 10. If the green line consistently has higher accuracy values than the orange line, then the answer is affirmative."
+    },
+    {
+        "instance_id": "c7ed2717ce238dc3b9d6b18dff0a89ec",
+        "question": "Is the accuracy of the model 'BERT - LSTM' consistently higher than the model 'RN' when trained on clauses of length k=2, 3?",
+        "answer_pred": "No",
+        "reasoning": "To determine if 'BERT - LSTM' consistently outperforms 'RN' when trained on clauses of length k=2 and k=3, I will:\n\n1. Identify the lines corresponding to 'BERT - LSTM' and 'RN' in the left graph.\n2. Observe the accuracy values on the y-axis for both models across the range of relation lengths on the x-axis.\n3. Compare the positions of the lines for 'BERT - LSTM' and 'RN' to see if 'BERT - LSTM' is consistently above 'RN' for k=2 and k=3.\n4. Note if there are any instances where the lines overlap or 'RN' surpasses 'BERT - LSTM'."
+    },
+    {
+        "instance_id": "9d4b20c0dcfbb420196ec70ad1880237",
+        "question": "In rightmost plot, which model has the highest accuracy at a relation length of 3?",
+        "answer_pred": "C",
+        "reasoning": "To solve the problem, I will:\n\n1. Focus on the rightmost plot, which shows models trained on clauses of length k = 2, 3, and 4.\n2. Identify the lines corresponding to each model: BERI, BERT - LSTM, GAT, MAC, RN, BILSTM Mean, and BILSTM Attention.\n3. Examine the accuracy values at a relation length of 3 for each model.\n4. Compare these values to determine which model has the highest accuracy at relation length 3.\n5. Note that the shaded regions represent confidence intervals, but they are not directly relevant to identifying the highest accuracy at a specific relation length."
+    },
+    {
+        "instance_id": "feb4e6691a5301f4a226277e69ed7e19",
+        "question": "What is the maximum clause length used for training the models in Figure 5?",
+        "answer_pred": "D",
+        "reasoning": "To find the maximum clause length used for training, I will look at the x-axis of both graphs. The x-axis represents relation length, and the highest value on this axis indicates the maximum clause length used for training. In the left graph, the relation length ranges from 2 to 10. In the right graph, the relation length also ranges from 2 to 10. Therefore, the maximum clause length used for training in both cases is 10."
+    },
+    {
+        "instance_id": "27b9ae65d5629318a46e8cf05e0c2bf0",
+        "question": "What is the dataset used to train these models, and how does it affect the results?",
+        "answer_pred": "BERT-LSTM",
+        "reasoning": "To determine the dataset used to train the models, I will examine the legends in the image. The left graph shows models trained on clauses of length k = 2 and k = 3, while the right graph shows models trained on clauses of length k = 2, 3, and 4. The models include BERI, BERT-LSTM, GAT, MAC, RN, BILSTM Mean, and BILSTM Attention, with different colored lines representing each model. The shaded regions represent confidence intervals. By comparing the accuracy trends for different relation lengths, I can assess how the training dataset affects the results."
+    },
+    {
+        "instance_id": "442a68ee1ffceef6fd844828f8af8211",
+        "question": "What is the value of the orange line at 10 segments?",
+        "answer_pred": "0.74",
+        "reasoning": "1. Identify the orange line on the graph, which represents LCSeg.\n2. Locate the point on the orange line corresponding to 10 segments on the x-axis.\n3. Read the y-axis value at this point to determine the average F-measure for LCSeg at 10 segments."
+    }
+]

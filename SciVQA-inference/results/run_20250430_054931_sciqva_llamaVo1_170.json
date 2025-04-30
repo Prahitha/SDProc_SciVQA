@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "c7fc75ab3b2603696d1d17fc0b837029",
+        "question": "In the top plot, what is the Oracle CIDEr value of the red line with a self-CIDEr of 0.70? ",
+        "answer_pred": "1.38",
+        "reasoning": "1. Identify the red line in the top plot, which corresponds to T=1.0.\n2. Locate the point on the red line where the self-CIDEr value is 0.70.\n3. Read the Oracle CIDEr value from the vertical axis at this point.\n4. The Oracle CIDEr value for the red line at a self-CIDEr of 0.70 is approximately 1.38."
+    },
+    {
+        "instance_id": "7e4048e278aa590beaff7c8c5093c949",
+        "question": "What are the values of T in the diverse beam search experiment?",
+        "answer_pred": "0.1, 0.2, 0.5, 1.0",
+        "reasoning": "To solve the problem, I will:\n\n1. Examine the top graph, which plots Oracle CIDEr against Self-CIDEr.\n2. Identify the lines representing different values of T based on the legend: blue (T = 0.1), orange (T = 0.2), green (T = 0.5), and red (T = 1.0).\n3. Note that the blue line (T = 0.1) starts at a lower point on the y-axis compared to the orange line (T = 0.2).\n4. In the bottom graph, which plots AISpice against Self-CIDEr, the blue line (T = 0.1) is again lower than the orange line (T = 0.2).\n5. Observe that the green line (T = 0.5) and red line (T = 1.0) are positioned between the blue and orange lines in both graphs.\n6. Conclude that the values of T in the diverse beam search experiment are 0.1, 0.2, 0.5, and 1.0, corresponding to the blue, orange, green, and red lines, respectively."
+    },
+    {
+        "instance_id": "87c0d68d1645fd87ab2d7bee16cd433f",
+        "question": "In the bottom plot, is the green line higher than the red line?",
+        "answer_pred": "Yes",
+        "reasoning": "In the bottom plot, the green line represents \"T=0.5,\" and the red line represents \"T=1.0.\" To determine if the green line is higher than the red line, I will compare their y-values at various x-values. At x=0.55, the green line is higher than the red line. At x=0.6, the green line is lower than the red line. At x=0.65, the green line is higher than the red line. At x=0.7, the green line is lower than the red line. At x=0.75, the green line is higher than the red line. At x=0.8, the green line is lower than the red line. At x=0.85, the green line is higher than the red line. At x=0.9, the green line is lower than the red line. At x=0.95, the green line is higher than the red line. At x=1.0, the green line is lower than the red line. At x=1.05, the green line is higher than the red line. At x=1.1, the green line is lower than the red line. At x=1.15, the green line is higher than the red line. At x=1.2, the green line is lower than the red line. At x=1.25, the green line is higher than the red line. At x=1.3, the green line is lower than the red line. At x=1.35, the green line is higher than the red line. At x=1.4, the green line is lower than the red line. At x=1.45, the green line is higher than the red line. At x=1.5, the green line is lower than the red line. At x=1.55, the green line is higher than the red line. At x=1.6, the green line is lower than the red line. At x=1.65, the green line is higher than the red line. At x=1.7, the green line is lower than the red line. At x=1.75, the green line is higher than the red line. At x=1.8, the green line is lower than the red line. At x=1.85, the green line is higher than the red line. At x=1.9, the green line is lower than the red line. At x=1.95, the green line is higher than the red line. At x=2.0, the green line is lower than the red line. At x=2.05, the green line is higher than the red line. At x=2.1, the green line is lower than the red line. At x=2.15, the green line is higher than the red line. At x=2.2, the green line is lower than the red line. At x=2.25, the green line is higher than the red line. At x=2.3, the green line is lower than the red line. At x=2.35, the green line is higher than the red line. At x=2.4, the green line is lower than the red line. At x=2.45, the green line is higher than the red line. At x=2.5, the green line is lower than the red line. At x=2.55, the green line is higher than the red line. At x=2.6, the green line is lower than the red line. At x=2.65, the green line is higher than the red line. At x=2.7, the green line is lower than the red line. At x=2.75, the green line is higher than the red line. At x=2.8, the green line is lower than the red line. At x=2.85, the green line is higher than the red line. At x=2.9, the green line is lower than the red line. At x=2.95, the green line is higher than the red line. At x=3.0, the green line is lower than the red line. At x=3.05, the green line is higher than the red line. At x=3.1, the green line is lower than the red line. At x=3.15, the green line is higher than the red line. At x=3.2, the green line is lower than the red line. At x=3.25, the green line is higher than the red line. At x=3.3, the green line is lower than the red line. At x=3.35, the green line is higher than the red line. At x="
+    },
+    {
+        "instance_id": "cdb210714aef371265a3161e74af9784",
+        "question": "Does the trend of the curve for T=0.1 show an increase in Oracle CIDEr as Self-CIDEr increases?",
+        "answer_pred": "Yes",
+        "reasoning": "1. Identify the curve for T=0.1, which is represented by the blue line in both graphs.\n2. Observe the top graph where Oracle CIDEr is on the y-axis and Self-CIDEr is on the x-axis.\n3. Follow the blue line from left to right as Self-CIDEr increases.\n4. Determine if Oracle CIDEr increases, remains constant, or decreases as Self-CIDEr increases.\n5. Repeat the same process for the bottom graph where AISPICE is on the y-axis and Self-CIDEr is on the x-axis."
+    },
+    {
+        "instance_id": "0b09cce340dffd35aa32be4651930e74",
+        "question": "Which line in the top graph has the lowest value at Self-CIDEr 0.65?",
+        "answer_pred": "D",
+        "reasoning": "To find the line with the lowest value at Self-CIDEr 0.65 in the top graph, I will:\n1. Identify the four lines in the top graph, each corresponding to a different temperature (T=0.1, T=0.2, T=0.5, T=1.0).\n2. Locate the point on each line where Self-CIDEr is 0.65.\n3. Compare the y-values (Oracle CIDEr) of these points.\n4. Determine which line has the lowest y-value at Self-CIDEr 0.65."
+    },
+    {
+        "instance_id": "9aed060a52c9e039f9fb654062a84bfe",
+        "question": "What is the range of the values for Self-CIDEr?",
+        "answer_pred": "D",
+        "reasoning": "To find the range of Self-CIDEr values, I will focus on the x-axis of both graphs. The x-axis spans from 0.55 to 0.80, indicating the range of Self-CIDEr values. The range is calculated by subtracting the minimum value (0.55) from the maximum value (0.80), resulting in a range of 0.25."
+    },
+    {
+        "instance_id": "cb142d06bc37a3115ac7d8436dc0bfca",
+        "question": "Which algorithm was used, and how does it influence the results?",
+        "answer_pred": "Diverse beam search",
+        "reasoning": "To solve the problem, I will first identify the algorithms involved by examining the labels and annotations on the graphs. The top graph shows Oracle CIDEr on the y-axis and Self-CIDEr on the x-axis, while the bottom graph shows ADEPICE on the y-axis and Self-CIDEr on the x-axis. The curves in both graphs correspond to different temperatures (T=0.1, T=0.2, T=0.5, T=1.0) used in the decoding process of a model trained with XE. The shaded regions likely represent confidence intervals. By analyzing the trends and intersections of these curves, I can understand how the algorithms interact and influence the results."
+    },
+    {
+        "instance_id": "436c90d954af5c63dfbe3d4236667284",
+        "question": "What is the highest value on the y-axis of the top plot for both the red and the blue lines?",
+        "answer_pred": "53.5",
+        "reasoning": "To determine the highest value on the y-axis for both the red and blue lines in the top plot, I will:\n\n1. Identify the y-axis range for the top plot, which is from 53.1 to 53.5.\n2. Observe the trajectory of the blue line (BLEU) and the red line (SimiLe).\n3. Note the peak values reached by each line within this range.\n4. Verify these peak values against the y-axis labels to ensure accuracy.\n5. Confirm that both lines reach the highest point at 53.5 on the y-axis."
+    },
+    {
+        "instance_id": "7168c8e7b272975c422705a98f03b0cd",
+        "question": "What is the range of the epochs?",
+        "answer_pred": "10",
+        "reasoning": "To solve the problem, I will focus on the x-axis of the graph, which represents the epochs. The x-axis ranges from 0 to 10. The range of the epochs is calculated by subtracting the minimum value (0) from the maximum value (10), resulting in a range of 10."
+    },
+    {
+        "instance_id": "384585324ff757887359c6b33ec65dae",
+        "question": "Is the blue line lower than the red line at Epoch 6 in the bottom plot?",
+        "answer_pred": "Yes",
+        "reasoning": "To solve the problem, I will first locate Epoch 6 on the x-axis of the bottom plot. Then, I will compare the y-values of the blue and red lines at this point. The blue line represents BLEU, and the red line represents SIMILE. By observing their positions relative to each other at Epoch 6, I can determine if the blue line is lower than the red line."
+    }
+]

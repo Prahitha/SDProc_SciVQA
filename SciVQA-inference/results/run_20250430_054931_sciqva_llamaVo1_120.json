@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "8559d5e49a2f55a98ae368a93e717521",
+        "question": "What is the specific subword model used for the Chinese language in the FGET task with a segmentation size of 200, and how does it influence the results?",
+        "answer_pred": "bpe15",
+        "reasoning": "To determine the specific subword model used for the Chinese language in the FGET task with a segmentation size of 200, I will:\n\n1. Identify the section of the image related to the Chinese language (ZH).\n2. Look for the line corresponding to a segmentation size of 200.\n3. Determine which subword model is represented by this line.\n4. Analyze how this subword model influences the results by examining the trends and accuracy levels across different WE training sizes.\n5. Note any differences in performance compared to other subword models or languages."
+    },
+    {
+        "instance_id": "2e15144a7bbae94c00877ce9e28b4c20",
+        "question": "What is the accuracy of the pink line transformer strategy when the edit distance is 20?",
+        "answer_pred": "The accuracy of the pink line transformer strategy when the edit distance is 20 is 30.",
+        "reasoning": "1. Identify the pink line on the graph, which represents the Deletion strategy.\n2. Locate the edit distance of 20 on the x-axis.\n3. Follow the pink line horizontally to the point where it intersects with the y-axis at an edit distance of 20.\n4. Read the accuracy value from the y-axis at this intersection point."
+    },
+    {
+        "instance_id": "0d49d0582f80632c85c7aaa0ef5adf7d",
+        "question": "What is the model's accuracy when using the 'Swapping' strategy with an edit distance of 30?",
+        "answer_pred": "32.5",
+        "reasoning": "To determine the model's accuracy when using the 'Swapping' strategy with an edit distance of 30, I will follow these steps:\n\n1. Identify the line corresponding to the 'Swapping' strategy, which is represented by the blue line.\n2. Locate the point on the blue line where the edit distance is 30 on the x-axis.\n3. Read the accuracy value from the y-axis at this point."
+    },
+    {
+        "instance_id": "7f6dbed775e550d724a48eb94cb56a26",
+        "question": "Does the accuracy of the blue line increase as the edit distance increases?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the accuracy of the blue line increases as the edit distance increases, I will:\n\n1. Identify the blue line on the graph, which represents the Swapping strategy.\n2. Observe the starting point of the blue line at an edit distance of 0.\n3. Follow the blue line as the edit distance increases from 0 to 30.\n4. Note the trend of the blue line in terms of accuracy on the y-axis.\n5. Determine whether the accuracy of the blue line increases, decreases, or remains constant as the edit distance increases.\n\nUpon examining the graph, the blue line starts at a high accuracy point at an edit distance of 0 and gradually decreases as the edit distance increases to 30. This indicates that the accuracy of the Swapping strategy decreases as the edit distance increases."
+    },
+    {
+        "instance_id": "a807045a944be757ab018ec74076fada",
+        "question": "Does the model accuracy decrease for all transformer functions as the edit distance increases?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the model accuracy decreases for all transformer functions as the edit distance increases, I will examine the trend of each line on the graph. Starting with Insertion (black), Swapping (blue), Substitution (cyan), and Deletion (magenta), I will observe how the accuracy changes as the edit distance increases from 0 to 30. For each function, I will check if the accuracy consistently decreases or if there are any points where the accuracy increases or remains stable. By comparing these trends across all functions, I can conclude whether all functions show a decrease in accuracy with increasing edit distance."
+    },
+    {
+        "instance_id": "213199f7d50214a361ba6b0fb51821b6",
+        "question": "Which line has the lowest accuracy at an edit distance of 25?",
+        "answer_pred": "C",
+        "reasoning": "To determine which line has the lowest accuracy at an edit distance of 25, I will:\n1. Locate the edit distance of 25 on the x-axis.\n2. Identify the corresponding accuracy values for each line at this edit distance.\n3. Compare these accuracy values to find the lowest one.\n4. The line with the lowest accuracy at edit distance 25 is the answer."
+    },
+    {
+        "instance_id": "3e646d7bc9ab387ab8e671593c658976",
+        "question": "What is the accuracy range presented in the y-axis?",
+        "answer_pred": "D",
+        "reasoning": "To determine the accuracy range, I will focus on the y-axis of the graph. The y-axis is labeled as \"Accuracy\" and ranges from 20% to 100%. The graph shows four lines representing different token transformer strategies: Insertion, Swapping, Substitution, and Deletion. Each line shows how the accuracy of the BILSTM model changes as the edit distance increases from 0 to 30. By observing the y-axis, I can see that the accuracy values span from 20% to 100%, indicating the range of accuracy presented in the graph."
+    },
+    {
+        "instance_id": "ed1f23a5dbdd97acdd4c02a17ca6e290",
+        "question": "What is the type of adversarial attacks used to generate this graph, and how does it influence the results?",
+        "answer_pred": "Adversarial attacks influence the accuracy of the BILSTM model on the AG's News Dataset by decreasing it as the edit distance increases.",
+        "reasoning": "To determine the type of adversarial attacks and their influence on the BILSTM model's accuracy, I will:\n\n1. Examine the graph's legend to identify which line corresponds to each type of attack: Insertion, Swapping, Substitution, and Deletion.\n2. Observe how the accuracy decreases as the edit distance increases for each type of attack.\n3. Note that the Insertion attack starts with the highest accuracy at 0 edit distance, followed by Swapping, Substitution, and Deletion.\n4. Analyze how each type of attack affects the model's accuracy at different edit distances.\n5. Recognize that as the edit distance increases, the accuracy of all attacks decreases, with Insertion maintaining the highest accuracy.\n6. Conclude that the type of adversarial attack influences the model's accuracy, with Insertion being the most effective in reducing accuracy."
+    },
+    {
+        "instance_id": "e18521cf7f2a39c2f6a06fffaef3a846",
+        "question": "In the bottom right plot, what is the maximum value of the blue line in the graph labeled?",
+        "answer_pred": "0.9",
+        "reasoning": "To solve the problem, I will focus on the bottom right plot labeled \"Model accuracy over time. Input: two cities.txt.\" I will look at the y-axis to determine the maximum value reached by the blue line. The y-axis ranges from 0.3 to 1.0, and I will identify the highest point on the blue line within this range."
+    },
+    {
+        "instance_id": "dd7622654bfa153852e0ea89713cce3a",
+        "question": "What is the model performance metric shown in the figure?",
+        "answer_pred": "Model accuracy over time",
+        "reasoning": "To solve the problem, I will:\n\n1. Identify the y-axis label, which indicates the performance metric being measured. In this case, it is \"accuracy.\"\n2. Note the x-axis label, which represents the progression of the model over time or epochs.\n3. Observe the lines in each subplot to see how the model's accuracy changes over time.\n4. Recognize that each subplot corresponds to a different input: alice.txt, holmes.txt, nietzsche.txt, and two cities.txt.\n5. Understand that the shaded regions represent confidence intervals, but they are not relevant to identifying the performance metric.\n6. Conclude that the model performance metric shown in the figure is \"accuracy,\" as indicated by the y-axis label."
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "c4fed97546e2280f2e1932d4df5aa8bc",
+        "question": "What is the Cohen's Kappa value for the black solid line with triangles at its highest triangle?",
+        "answer_pred": "0.74",
+        "reasoning": "To find the Cohen's Kappa value for the black solid line with triangles at its highest point, follow these steps:\n\n1. Identify the black solid line with triangles on the graph.\n2. Observe that this line represents a threshold of 1.0.\n3. Locate the highest point of this line, which occurs at approximately 9 workers per expert.\n4. Read the corresponding Cohen's Kappa value from the y-axis at this highest point.\n5. Note that the Cohen's Kappa value at this point is slightly above 0.7."
+    },
+    {
+        "instance_id": "99f7e8687723b3f3a8c6d4a2867f935c",
+        "question": "What is the macro-label of the x-axis?",
+        "answer_pred": "Workers per \"expert\"",
+        "reasoning": "To determine the macro-label of the x-axis, I will examine the graph for any labels or annotations directly associated with the x-axis. The x-axis appears to represent the number of workers per \"expert,\" with values ranging from 1 to 9. The graph includes multiple lines representing different MACE thresholds (0.85, 0.9, 0.95, and 1.0), each showing the relationship between the number of workers and Cohen's kappa."
+    },
+    {
+        "instance_id": "fb9ae6b3886c08f35bf9db2c06fd0a57",
+        "question": "Does the black dashed line with circles represents MACE Threshold of 1?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the black dashed line with circles represents a MACE Threshold of 1, I will follow these steps:\n\n1. Examine the legend in the graph to identify which line corresponds to a MACE Threshold of 1. The legend indicates that the black dashed line with circles corresponds to a MACE Threshold of 1.\n\n2. Observe the graph to confirm that the black dashed line with circles aligns with the description in the legend.\n\n3. Note that the black dashed line with circles is distinct from the shaded regions, which represent confidence intervals.\n\nBy following these steps, I can confirm that the black dashed line with circles indeed represents a MACE Threshold of 1."
+    },
+    {
+        "instance_id": "80337bc61b1547c88d1539a565501dc6",
+        "question": "Is the Cohen's \u03ba agreement higher for 5 annotators with a threshold of 0.95 than for 5 annotators with a threshold of 0.85?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if Cohen's \u03ba agreement is higher for 5 annotators with a threshold of 0.95 than for 5 annotators with a threshold of 0.85, I will locate the points on the graph corresponding to 5 annotators for both thresholds. The line for a threshold of 0.95 is marked with circles, and the line for a threshold of 0.85 is marked with crosses. I will compare the y-values (Cohen's \u03ba agreement) at the x-value of 5 annotators for both lines. If the y-value for the threshold of 0.95 is higher than the y-value for the threshold of 0.85, then Cohen's \u03ba agreement is higher for 5 annotators with a threshold of 0.95."
+    },
+    {
+        "instance_id": "735becea342da7c933918e8d33241dc8",
+        "question": "Which line represents MACE Threshold 0.85?",
+        "answer_pred": "B",
+        "reasoning": "To determine which line represents MACE Threshold 0.85, I will follow these steps:\n\n1. Locate the legend in the image, which lists the MACE Threshold values: 0.85, 0.9, 0.95, and 1.0.\n2. Identify the line in the graph that corresponds to the MACE Threshold 0.85 according to the legend.\n3. Verify that this line is distinct from the shaded regions, which represent error bars or confidence intervals.\n4. Confirm that the line for MACE Threshold 0.85 aligns with the correct data points on the graph.\n\nBy following these steps, I can accurately identify the line representing MACE Threshold 0.85."
+    },
+    {
+        "instance_id": "73cc71b26ac8b203a8c9a4ae8ef0a883",
+        "question": "What is maximum Cohen's Kappa value in y-axis?",
+        "answer_pred": "D",
+        "reasoning": "To find the maximum Cohen's Kappa value on the y-axis, I will:\n1. Identify the lines representing different MACE Thresholds: 0.85, 0.9, 0.95, and 1.0.\n2. Observe the trend of each line as the number of workers increases from 1 to 9.\n3. Note the highest point reached by any of the lines on the y-axis.\n4. Verify this point against the y-axis scale to ensure it is the maximum value.\n5. Confirm that no other line reaches a higher point on the y-axis."
+    },
+    {
+        "instance_id": "f21489a1f78b2067fadcfafe69ae6517",
+        "question": "How was Cohen's  Kappa calculated and how does it affect the results? ",
+        "answer_pred": "Cohen's Kappa is calculated as the proportion of agreement between two raters minus the proportion of agreement expected by chance, divided by 1 minus the proportion of agreement expected by chance.",
+        "reasoning": "Cohen's Kappa is a measure of inter-rater agreement for categorical data. It calculates the proportion of agreement beyond what would be expected by chance. The graph shows how Cohen's Kappa changes with the number of workers per \"expert\" for different MACE thresholds (0.85, 0.9, 0.95, and 1.0). As the number of workers increases, Cohen's Kappa generally increases for all thresholds, indicating better agreement. The threshold of 0.95 results in the highest Cohen's Kappa values, suggesting it is the optimal choice for balancing cost and reliability."
+    },
+    {
+        "instance_id": "8798887b79cacaeeef9e562501d9a338",
+        "question": "What is the average number of threads for the green circle with average emotional response of 0?",
+        "answer_pred": "1.5",
+        "reasoning": "To find the average number of threads for the green circle with an average emotional response of 0, I will:\n\n1. Locate the x-axis value of 0 on the graph.\n2. Identify the green circle data point at this x-axis value.\n3. Read the corresponding y-axis value, which represents the average number of threads.\n4. Verify that this data point specifically corresponds to the green circle line representing users."
+    },
+    {
+        "instance_id": "724c348e5cd3acde6c28a7f725d072db",
+        "question": "What is the range of the average emotional response?",
+        "answer_pred": "1.0",
+        "reasoning": "1. Identify the x-axis, which represents the average emotional response, ranging from -1.0 to 1.0.\n2. Identify the y-axis, which represents the average number of threads, ranging from 0 to 20.\n3. Determine the range of the average emotional response by identifying the minimum and maximum values on the x-axis.\n4. The minimum value on the x-axis is -1.0, and the maximum value is 1.0.\n5. Calculate the range by subtracting the minimum value from the maximum value: 1.0 - (-1.0) = 2.0."
+    },
+    {
+        "instance_id": "8ce379fa6d15ed95d18e892bdd6d0977",
+        "question": "Is there a blue and green line in the figure?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if there is a blue and green line in the figure, I will first identify the colors of the lines in the graph. The graph shows two lines: one is blue with squares, and the other is green with circles. These lines represent the average number of discussions initiated by websites and users, respectively. The presence of these lines confirms that there is indeed a blue and green line in the figure."
+    }
+]

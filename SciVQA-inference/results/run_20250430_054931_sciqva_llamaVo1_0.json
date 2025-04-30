@@ -1,0 +1,8 @@
+[
+    {
+        "instance_id": "21b0f38822e386f952d628dce0d5006b",
+        "question": "What percentage of the votes corresponds to the smallest slice of the pie chart?",
+        "answer_pred": "1.2",
+        "reasoning": "To find the percentage corresponding to the smallest slice of the pie chart, I will first identify all the slices and their respective percentages. The slices are labeled with scores from 1 to 5. I will then compare these percentages to determine which one is the smallest. According to the chart, the smallest slice corresponds to score 5, with a percentage of 1.2%."
+    }
+]
