@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "c8f58e0ae01b925c076933a96c6a79e6",
+        "question": "What two functions are presented in the first subplot?",
+        "answer_pred": "D",
+        "reasoning": "To identify the two functions in the first subplot (A), I will examine the labels and characteristics of the lines. The dashed line is labeled as \"exponential,\" and the solid line is labeled as \"power-law.\" These labels directly indicate the functions represented by the lines. The exponential function is typically represented by a dashed line, while the power-law function is represented by a solid line."
+    },
+    {
+        "instance_id": "5bae11086e1d88ebc884a872bb2677fa",
+        "question": "What is the value of the fitting errors of the ten functions used in Fig. 4 for Mexican presidents\u2019 speech to congress, and how is it depicted in the figure?",
+        "answer_pred": "[-0.02, 0.02]",
+        "reasoning": "To determine the value of the fitting errors, I will focus on the y-axis of the graph. The y-axis ranges from -0.02 to 0.02, indicating that the fitting errors are within this range. By examining the graph, I can see that the lines representing the fitting errors for each function do not exceed this range. Therefore, the value of the fitting errors for the ten functions used in Fig. 4 is within the range of -0.02 to 0.02."
+    },
+    {
+        "instance_id": "ee49e8e79aed4b4a78ef868e3e83aa2b",
+        "question": "What is the value of MCD on the evaluation set for the blue line when the amount of training data is 1 shard?",
+        "answer_pred": "19.5",
+        "reasoning": "1. Identify the blue line on the graph, which represents the T-Base method.\n2. Locate the point on the blue line where the amount of training data is 1 shard.\n3. Observe the corresponding MCD value on the y-axis for this point.\n4. The MCD value at 1 shard for the blue line is approximately 18."
+    },
+    {
+        "instance_id": "49bc4eced53ff7b3e45e28f8670eac5e",
+        "question": "What is the maximum amount of training data used in the experiment?",
+        "answer_pred": "25",
+        "reasoning": "To solve the problem, I will focus on the x-axis of the graph, which represents the amount of training data. The x-axis ranges from 0.5 to 25. I will identify the highest value on this axis, which indicates the maximum amount of training data used in the experiment."
+    },
+    {
+        "instance_id": "fa57001c5934499d889917a2e266d87d",
+        "question": "Does the blue line represent the T-Base results?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the blue line represents the T-Base results, I will follow these steps:\n\n1. Examine the legend in the graph to identify which color corresponds to T-Base.\n2. Observe the graph and locate the blue line.\n3. Check if the blue line aligns with the T-Base label in the legend.\n4. Confirm that the blue line consistently represents T-Base across different amounts of training data.\n\nBy following these steps, I can accurately determine if the blue line represents the T-Base results."
+    },
+    {
+        "instance_id": "2973e4b154f835594ed94592de349025",
+        "question": "Does the MCD on evaluation set decrease as the amount of paired data increases?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the MCD on the evaluation set decreases as the amount of paired data increases, I will examine the trend of the lines on the graph. The x-axis represents the amount of training data, and the y-axis represents the MCD on the evaluation set. As the amount of training data increases from 0.5 to 25, all lines show a downward trend, indicating a decrease in MCD. The lines for T-Base, T-Enc, T-Dec, and T-Enc-Dec all decrease, suggesting that more training data leads to lower MCD values for all methods."
+    },
+    {
+        "instance_id": "dd62760a8218bfcd88a6f570cf5e05a9",
+        "question": "Which of the lines in the graph are below 10 at the point marked 25 on the x-axis?",
+        "answer_pred": "A,B,C,D",
+        "reasoning": "To determine which lines are below 10 at the point marked 25 on the x-axis, I will:\n\n1. Locate the point marked 25 on the x-axis.\n2. Observe the corresponding y-axis values for each line at this point.\n3. Identify which lines have a y-axis value below 10.\n4. Note that the lines are labeled as T-Base, T-Enc, T-Dec, and T-Enc-Dec.\n\nAt the point marked 25 on the x-axis:\n\n- The T-Base line is below 10.\n- The T-Enc line is below 10.\n- The T-Dec line is below 10.\n- The T-Enc-Dec line is below 10.\n\nAll four lines are below the 10 mark at this point."
+    },
+    {
+        "instance_id": "53d6b2704a757d2df4b7baf913d41743",
+        "question": "What is the label of the values presented in the y-axis?",
+        "answer_pred": "B",
+        "reasoning": "To determine the label of the values on the y-axis, I will focus on the graph's y-axis label. The y-axis is labeled as \"MCD on evaluation set,\" indicating that it measures the Mean Cosine Distance (MCD) on the evaluation set. The values on the y-axis range from 0.5 to 30, showing the variation in MCD as the amount of training data increases from 0.5 to 25 shards."
+    },
+    {
+        "instance_id": "02d66edfdf436cf6fb78d603124e9381",
+        "question": "What is the dataset used for training, and how does it affect the results?",
+        "answer_pred": "T-Base",
+        "reasoning": "To determine the dataset used for training, I will focus on the x-axis, which indicates the amount of training data in shards. The x-axis ranges from 0.5 to 25, suggesting that the training data increases as the value on the x-axis increases. The y-axis represents the MCD on the evaluation set, showing a decrease in MCD values as the amount of training data increases. This indicates that more training data leads to better model performance. The four lines represent different models: T-Base, T-Enc, T-Dec, and T-Enc-Dec. The graph shows that all models benefit from increased training data, with T-Base and T-Enc-Dec performing slightly better than T-Enc and T-Dec."
+    },
+    {
+        "instance_id": "571886c75f4d173b116393c760c22b6b",
+        "question": "What is the micro f-measure achieved by the red line system in BioASQ4?",
+        "answer_pred": "0.65",
+        "reasoning": "To find the micro f-measure for the red line system in BioASQ4, I will:\n1. Locate the section of the graph corresponding to BioASQ4 on the x-axis.\n2. Identify the red line in this section, which represents the top-performing system.\n3. Read the micro f-measure value from the y-axis where the red line peaks in BioASQ4."
+    }
+]

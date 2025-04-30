@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "2016d580b9e39a7b99212f31dbc030cb",
+        "question": "Do all the green lines in the rightmost plot approach a value of 1 as n increases?",
+        "answer_pred": "Yes",
+        "reasoning": "1. Focus on the rightmost plot, which contains the green lines.\n2. Observe the trend of the green lines as n increases.\n3. Note that the green lines appear to converge towards a value close to 1 as n increases.\n4. Compare the y-axis and x-axis scales of the rightmost plot with the other plots to ensure consistency.\n5. Verify that the green lines do not overlap with shaded regions, which represent confidence intervals.\n6. Conclude based on the observed trend that the green lines approach a value of 1 as n increases."
+    },
+    {
+        "instance_id": "c7b4455f9d6228ce933d2a6d26651579",
+        "question": "Do all plots present only 2 lines?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if all plots present only 2 lines, I will:\n\n1. Examine each plot individually.\n2. Count the number of distinct lines in each plot.\n3. Verify if the number of lines in each plot is consistent across all three plots.\n4. Note that the lines represent different power law exponents, while shaded regions indicate confidence intervals.\n5. Conclude based on the count of lines in each plot."
+    },
+    {
+        "instance_id": "acf39d9a1a6f3de6a8a7173031803bfe",
+        "question": "Which graph shows lines that are all increasing towards the value 1 from the bottom up?",
+        "answer_pred": "C",
+        "reasoning": "To determine which graph shows lines that are all increasing towards the value 1 from the bottom up, I will examine each graph individually. In the left graph, the lines with exponents {0.2, 0.4, 0.6, 0.8} from top to bottom show an increasing trend towards 1. In the middle graph, the lines with exponents {1.2, 1.4, 1.6, 1.8} from top to bottom also show an increasing trend towards 1. In the right graph, the lines with exponents {2.5, 3.0, 3.5, 4.0} from bottom to top do not show an increasing trend towards 1. Therefore, the left and middle graphs show lines that are all increasing towards the value 1 from the bottom up."
+    },
+    {
+        "instance_id": "9e14059d88001e15102c8bd4b81028cd",
+        "question": "What is the label of the values presented in the x-axis?",
+        "answer_pred": "B",
+        "reasoning": "To determine the label of the values on the x-axis, I will focus on the numerical markings provided. The x-axis ranges from 0 to 100 in increments of 20, as indicated by the major tick marks. The minor tick marks further divide each increment into smaller units, suggesting a more detailed measurement scale."
+    },
+    {
+        "instance_id": "32113cead0b7005e65e66a402af1c07d",
+        "question": "How were the ratios calculated, and how does it influence the results?",
+        "answer_pred": "The ratios were calculated using power law exponents.",
+        "reasoning": "To determine how the ratios were calculated and how it influences the results, I will:\n\n1. Examine each graph to understand the relationship between \\( \\frac{rt}{RT_1} \\) and \\( n \\) for different power law exponents \\( k \\).\n2. Note that the y-axis represents the ratio \\( \\frac{rt}{RT_1} \\), and the x-axis represents \\( n \\).\n3. Observe that as \\( n \\) increases, the ratio approaches 1 for all exponents in each graph.\n4. Compare the scales of the y-axis and x-axis across the three graphs to identify any differences.\n5. Identify which lines correspond to which values of \\( k \\) and distinguish them from the shaded regions representing confidence intervals.\n6. Analyze overlapping lines or narrow peaks to understand how different values of \\( k \\) affect the ratio over time.\n7. Conclude that the calculation of the ratio \\( \\frac{rt}{RT_1} \\) is influenced by the power law exponent \\( k \\), which affects the rate at which the ratio approaches 1 as \\( n \\) increases."
+    },
+    {
+        "instance_id": "193a004575fb6c2370b82adc00959575",
+        "question": "What is the approximate frequency value of the red line at rank 10?",
+        "answer_pred": "0.0001",
+        "reasoning": "1. Identify the red line on the graph, which corresponds to TB.\n2. Locate rank 10 on the x-axis.\n3. Follow the red line to the point where it intersects with the y-axis at rank 10.\n4. Read the approximate frequency value from the y-axis where the red line intersects at rank 10."
+    },
+    {
+        "instance_id": "e8cbf3ca14f2be4a5422602d8a7bc66a",
+        "question": "How many different threshold concept groups are represented in the figure?",
+        "answer_pred": "8",
+        "reasoning": "To determine the number of different threshold concept groups, I will focus on the legend provided in the image. The legend lists the following groups: TB, ZEIT-All, SZ-Eco, SZ-All, WP-Eco, WP-Top-1, WP-Top-3, and WP-All. Each group is associated with a specific color in the scatter plot. By counting the distinct entries in the legend, I can ascertain the number of different threshold concept groups represented in the figure."
+    },
+    {
+        "instance_id": "66fc836706d0f7a623004818efe2c189",
+        "question": "Is the green line  higher than the orange line at rank 10?",
+        "answer_pred": "Yes",
+        "reasoning": "1. Identify the green line, which represents \"WP-Eco.\"\n2. Identify the orange line, which represents \"WP-All.\"\n3. Locate rank 10 on the x-axis.\n4. Observe the y-values of the green and orange lines at rank 10.\n5. Compare the y-values to determine if the green line is higher than the orange line at rank 10."
+    },
+    {
+        "instance_id": "2e83d0205bd6905dcfd5cefb381ee087",
+        "question": "Is the frequency of TB greater than the frequency of WP-All at rank 10?",
+        "answer_pred": "No",
+        "reasoning": "To solve the problem, I will:\n1. Locate the red line representing TB and the orange line representing WP-All on the graph.\n2. Identify their positions at rank 10 on the x-axis.\n3. Compare the y-values (frequencies) of TB and WP-All at rank 10.\n4. Determine if the frequency of TB is greater than that of WP-All at rank 10."
+    },
+    {
+        "instance_id": "c3c985a5742a685f20a15c07e5ce6e15",
+        "question": "Which line is the highest at a rank of 50?",
+        "answer_pred": "D",
+        "reasoning": "To determine which line is the highest at a rank of 50, I will:\n\n1. Locate the rank of 50 on the x-axis of the graph.\n2. Observe the y-axis values for each line at this rank.\n3. Identify which line has the highest y-axis value at rank 50.\n4. Confirm that the identified line corresponds to the correct entity based on the legend.\n\nBy following these steps, I can accurately determine which line is the highest at rank 50."
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "711f3a815b131e5915d92fbf4b72b032",
+        "question": "Does the mean anger level for males consistently increase as grade increases?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the mean anger level for males consistently increases as grade increases, I will focus on the orange line representing males in the anger graph. I will observe the slope of this line from left to right. If the line consistently slopes upward, it indicates a consistent increase in anger levels as grade increases."
+    },
+    {
+        "instance_id": "c205dc81a2e304513d519d24623b05a6",
+        "question": "Which color represents females?",
+        "answer_pred": "D",
+        "reasoning": "To determine which color represents females, I will look at the legend provided in the image. The legend indicates that females are represented by a blue line, while males are represented by an orange line. This distinction is consistent across all four emotion plots: anger, fear, sadness, and joy. Therefore, based on the legend, females are represented by the blue line."
+    },
+    {
+        "instance_id": "3d59c2df5258080f0454408237f035b5",
+        "question": "Which of the following emotions show a trend where mean values increase with grade for males?",
+        "answer_pred": "D",
+        "reasoning": "To determine which emotion shows a trend where mean values increase with grade for males, I will:\n\n1. Examine the orange line representing males for each emotion.\n2. Observe the trend of the orange line across the grade levels on the x-axis.\n3. Check if the orange line consistently rises from left to right, indicating an increase in mean values with grade.\n4. Repeat this process for each emotion: anger, fear, sadness, and joy.\n5. Identify the emotion where the orange line shows a consistent upward trend."
+    },
+    {
+        "instance_id": "9cb09753c50c4105933ad3f4911214f8",
+        "question": "What is the average level of sadness experienced by male students in 6th grade, and how is it depicted in the figure?",
+        "answer_pred": "0.42",
+        "reasoning": "To find the average level of sadness experienced by male students in 6th grade, I will:\n\n1. Locate the section of the graph labeled \"Sadness.\"\n2. Identify the orange line, which represents male students.\n3. Find the point on the orange line corresponding to the 6th grade on the x-axis.\n4. Read the y-axis value at this point to determine the average level of sadness for male students in 6th grade."
+    },
+    {
+        "instance_id": "9dc3e987cc5d203972604b9545fed106",
+        "question": "What is the value of total meeting time, of the red line, when 90 meetings have been held in the top plot?",
+        "answer_pred": "38",
+        "reasoning": "To find the value of the total meeting time when 90 meetings have been held, I will focus on the red line in the top plot. This line represents the total meeting time. I will locate the point on the red line corresponding to 90 meetings on the x-axis. Then, I will read the value on the y-axis to determine the total meeting time in minutes."
+    },
+    {
+        "instance_id": "f7ae9492e9ca9d6e1f4a14059edcdcf3",
+        "question": "What is being measured by the blue line in the first graph?",
+        "answer_pred": "Time decisions made",
+        "reasoning": "To determine what the blue line in the first graph represents, I will examine the graph's legend and axis labels. The legend indicates that the blue line corresponds to \"Time decisions made,\" while the red line corresponds to \"Total meeting time.\" The x-axis represents the number of meetings, and the y-axis represents time in minutes. The blue line shows an upward trend as the number of meetings increases, indicating that more time is spent making decisions as the number of meetings grows."
+    },
+    {
+        "instance_id": "a189a3dc68609ed1d600f64459f27c6b",
+        "question": "In the top plot, is the blue line  consistently above the red line '?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the blue line is consistently above the red line, I will:\n\n1. Observe the starting points of both lines on the y-axis. The blue line starts below the red line.\n2. Examine the trend of both lines as the number of meetings increases on the x-axis.\n3. Note that the blue line rises and appears to maintain a position above the red line throughout the range of meetings.\n4. There are no instances where the red line surpasses the blue line, indicating that the blue line remains consistently above the red line."
+    },
+    {
+        "instance_id": "15d3774c3a9236f94cf3d77c02f489b6",
+        "question": "Is the total meeting time always longer than the time decisions are made?",
+        "answer_pred": "Yes",
+        "reasoning": "In the top graph, the blue line represents the time decisions are made, and the red line represents the total meeting time. Both lines show an upward trend as the number of meetings increases. The red line is consistently above the blue line, indicating that the total meeting time is always longer than the time decisions are made. The bottom graph shows the time spent until all decisions are made versus the time spent until meeting dismissals. The blue line represents the time decisions are made, and the red line represents the total meeting time. Again, the red line is above the blue line, confirming that the total meeting time is longer than the time decisions are made."
+    },
+    {
+        "instance_id": "39f5316e7aa269c8e64b6aa50d478b9e",
+        "question": "What is the maximum value of the blue line in the bottom figure?",
+        "answer_pred": "B",
+        "reasoning": "In the bottom graph, the blue line represents the time decisions were made. To find the maximum value of this line, I will look for the peak point of the blue line on the graph. The x-axis represents the time spent until all decisions are made, and the y-axis represents the time spent until meeting dismissals. The peak of the blue line occurs at approximately 14 minutes on the x-axis. I will then read the corresponding value on the y-axis to determine the maximum value of the blue line."
+    },
+    {
+        "instance_id": "9cdbf4b81b1c9b5aa11d3650bb27189b",
+        "question": "In plot (b), what is the label of the y-axis?",
+        "answer_pred": "B",
+        "reasoning": "To determine the label of the y-axis in plot (b), I will focus on the y-axis of the second graph. The y-axis is labeled as \"Time spent until meeting dismisses (min).\" This label indicates that the y-axis measures the time it takes for meetings to conclude."
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "bb41911548c513591c940b2cc42b95c7",
+        "question": "What is the CER value of the black line with black circles when the average SNR is 10 dB?",
+        "answer_pred": "14.5",
+        "reasoning": "To find the CER value for the black line with black circles (Engine 2) at an average SNR of 10 dB, I will:\n1. Locate the black line with black circles on the graph.\n2. Identify the point on this line that corresponds to an average SNR of 10 dB on the x-axis.\n3. Trace vertically from this point to the y-axis to determine the CER value.\n4. Ensure that the correct line and point are identified to avoid confusion with other lines or shaded regions."
+    },
+    {
+        "instance_id": "e77be91702ec25704695bf6e8133f3c1",
+        "question": "What is the Character Error Rate (CER) for Engine 4 at an SNR of 5 dB?",
+        "answer_pred": "14.5",
+        "reasoning": "To find the CER for Engine 4 at an SNR of 5 dB, I will locate the line corresponding to Engine 4 on the graph, which is marked with a triangle. I will then find the point on this line where the SNR is 5 dB. Finally, I will read the CER value from the y-axis at this point."
+    },
+    {
+        "instance_id": "35d1f7660a8442f2113f2d81c88f47e0",
+        "question": "Is the black line with circles always higher than the black line with triangles?",
+        "answer_pred": "Yes",
+        "reasoning": "To solve the problem, I will:\n\n1. Identify the black line with circles, which represents Engine 2.\n2. Identify the black line with triangles, which represents Engine 4.\n3. Compare the positions of these two lines across the range of average SNR (dB) values on the x-axis.\n4. Observe whether the line for Engine 2 (circles) is consistently higher than the line for Engine 4 (triangles) for all SNR values.\n5. Note if there are any instances where the lines intersect or overlap, which would indicate that Engine 2 is not always higher than Engine 4.\n\nBy following these steps, I will determine if the black line with circles is always higher than the black line with triangles."
+    },
+    {
+        "instance_id": "b1c918740a6c53e064f467d50c894a50",
+        "question": "Does the Character Error Rate (CER) consistently increase with decreasing SNR?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the CER consistently increases with decreasing SNR, I will:\n\n1. Observe the trend of each engine's CER as the SNR decreases from clean to 0.0 dB.\n2. Note that all three engines (Engine 4, Engine 2, and the Kaldi chain) show an upward trend in CER as SNR decreases.\n3. Compare the CER values at different SNR points for each engine. For example, at 20.0 dB SNR, the CER for Engine 4 is lower than at 10.0 dB SNR. Similarly, Engine 2 and the Kaldi chain show an increase in CER as SNR decreases.\n4. Conclude that the CER consistently increases with decreasing SNR for all three engines."
+    },
+    {
+        "instance_id": "e673792c87b606de13a9ff6ba006b201",
+        "question": "Which data point corresponds to the 'Engine 4' model with an average SNR of 10 dB?",
+        "answer_pred": "B",
+        "reasoning": "To find the data point for 'Engine 4' at an average SNR of 10 dB, follow these steps:\n\n1. Identify the line corresponding to 'Engine 4' on the graph. This line is marked with a triangle.\n2. Locate the x-axis value of 10 dB.\n3. Find the data point on the 'Engine 4' line that aligns with the 10 dB mark on the x-axis.\n4. Note the y-axis value corresponding to this data point, which represents the CER percentage."
+    },
+    {
+        "instance_id": "49a2c0994e93aa343ed871383822a9f1",
+        "question": "Which model has the lowest Character Error Rate (CER) at a SNR of 10?",
+        "answer_pred": "B",
+        "reasoning": "To find the model with the lowest CER at an SNR of 10, I will:\n\n1. Locate the SNR value of 10 on the x-axis.\n2. Identify the points on the graph corresponding to an SNR of 10 for each model.\n3. Compare the y-values (CER percentages) for these points.\n4. Determine which model has the lowest y-value at SNR = 10.\n\nAt an SNR of 10, Engine 4 has a CER of approximately 18%, Engine 2 has a CER of approximately 20%, and Kaldi chain, multi-condition noise has a CER of approximately 10%. Therefore, Kaldi chain, multi-condition noise has the lowest CER at this SNR."
+    },
+    {
+        "instance_id": "ae2d97d9ff92f8df2c555154459d8ae3",
+        "question": "How was the CER value calculated, and how does it affect the results?",
+        "answer_pred": "CER is calculated as the percentage of incorrectly recognized characters divided by the total number of characters, multiplied by 100. As the SNR increases, the CER decreases, indicating improved recognition accuracy.",
+        "reasoning": "To solve the problem, I will analyze the graph to understand how the CER value is calculated based on the SNR. The graph shows three lines representing different models: Engine 4, Engine 2, and Kaldi chain with multi-condition noise. The x-axis represents the average SNR in dB, and the y-axis represents the CER percentage. As the SNR increases, the CER decreases for all models, indicating better performance at higher SNR levels. The lines show Engine 4 and Engine 2 performing similarly, while the Kaldi chain with multi-condition noise has a higher CER across all SNR levels."
+    },
+    {
+        "instance_id": "a105a119fce8529e782cda59c4d5f826",
+        "question": "What is the approximate value of the orange square at grade 10 for the bottom right plot?",
+        "answer_pred": "0.46",
+        "reasoning": "To find the approximate value of the orange square at grade 10 for the bottom right plot, follow these steps:\n\n1. Identify the bottom right plot, which represents joy.\n2. Locate grade 10 on the x-axis of this plot.\n3. Find the orange square corresponding to grade 10.\n4. Estimate the y-axis value of this orange square based on its position relative to the y-axis scale."
+    },
+    {
+        "instance_id": "8bc358954c358fc522f8cc47ac19d7c9",
+        "question": "What is the range of values presented in the y-axis?",
+        "answer_pred": "0.2",
+        "reasoning": "To find the range of values on the y-axis, I will:\n1. Identify the minimum and maximum values marked on the y-axis.\n2. Note that the y-axis ranges from 0.30 to 0.50.\n3. Calculate the range by subtracting the minimum value from the maximum value: 0.50 - 0.30 = 0.20."
+    },
+    {
+        "instance_id": "6dd2c5c82630d5f75c0de4daa54ef5ab",
+        "question": "In the top leftmost subplot, is the blue diamond marker at grade 12 positioned above the orange square marker at the same grade?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine the position of the blue diamond marker relative to the orange square marker at grade 12 in the \"Anger\" subplot, I will:\n\n1. Focus on the top leftmost subplot labeled \"Anger.\"\n2. Identify the blue line with diamond markers, which represents females.\n3. Identify the orange line with square markers, which represents males.\n4. Locate grade 12 on the x-axis.\n5. Compare the y-axis positions of the blue diamond marker and the orange square marker at grade 12.\n6. Observe that the blue diamond marker is positioned above the orange square marker at grade 12."
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "9ffefdfee918d01d4ffcd9772e7b7b77",
+        "question": "What is the value of the casual probability in the middle plot when the black line is at its peak?",
+        "answer_pred": "B",
+        "reasoning": "To solve the problem, I will focus on the middle plot labeled \"Seldom adverb representation.\" I will identify the peak of the black line, which represents the casual probability. By examining the x-axis, I will determine the value at which the black line reaches its peak. This value will be the casual probability when the black line is at its peak."
+    },
+    {
+        "instance_id": "643b67f9e03e1516c03a6065d8b2c548",
+        "question": "What is the range of the values for casual probability?",
+        "answer_pred": "B",
+        "reasoning": "To find the range of casual probability values, I will focus on the x-axis of the PDFs. The x-axis spans from 0.0 to 1.0, indicating the full range of casual probability. I will identify the minimum and maximum values on this axis, which are 0.0 and 1.0, respectively. The range is calculated by subtracting the minimum value from the maximum value: 1.0 - 0.0 = 1.0."
+    },
+    {
+        "instance_id": "19ea8ee233638100c13403e51b58a250",
+        "question": "What is the scientific context or experiment that led to the generation of these distributions, and how does it influence the results?",
+        "answer_pred": "The scientific context and experiment that led to the generation of these distributions are related to a synthetic causal relation experiment. This experiment involves comparing the causal probabilities associated with different adverb representations, such as \"usually\" and \"seldom.\" The probability density functions (PDFs) shown in the image represent the distribution of causal probabilities for these adverb representations. The \"Usually adverb representation\" PDF is centered around a higher causal probability, while the \"Seldom adverb representation\" PDF is centered around a lower causal probability. This suggests that the adverb \"usually\" is associated with a higher likelihood of a causal relationship, whereas the adverb \"seldom\" is associated with a lower likelihood.",
+        "reasoning": "To determine the scientific context and experiment that led to these distributions, I will examine the characteristics of the PDFs. The \"Usually adverb representation\" PDF is centered around a higher causal probability, indicating a stronger association between the variables. In contrast, the \"Seldom adverb representation\" PDF is centered around a lower causal probability, suggesting a weaker association. The presence of confidence intervals (shaded regions) around the lines indicates uncertainty in the estimates. The significant difference between the two distributions suggests that the adverb representation affects the perceived causal relationship."
+    },
+    {
+        "instance_id": "78e6e93fe109fc0aae3e3c43f15c9b4a",
+        "question": "In the leftmost plot, what is the approximate identification rate of the black line when Alpha is 0.8?",
+        "answer_pred": "87.5",
+        "reasoning": "To determine the identification rate when Alpha is 0.8, I will locate the point on the horizontal axis where Alpha equals 0.8. Then, I will trace vertically upward to the black line to find the corresponding identification rate on the vertical axis. This will give me the approximate identification rate at Alpha = 0.8."
+    },
+    {
+        "instance_id": "36b9e52b016fc3c8846a4b4783be5730",
+        "question": "What is the identification rate when Beta is 0.2?",
+        "answer_pred": "50",
+        "reasoning": "To solve the problem, I will focus on the graph on the right, which shows the identification rate as a function of Beta. I will locate Beta = 0.2 on the x-axis of this graph. Then, I will trace vertically upward to find the corresponding identification rate on the y-axis. This will give me the identification rate when Beta is 0.2."
+    },
+    {
+        "instance_id": "1ee1ac4ac31532072109f1e18baee243",
+        "question": "In the leftmost plot, is the highest identification rate reached by the black line when alpha is 0.6?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the highest identification rate is reached when alpha is 0.6, I will follow these steps:\n\n1. Examine the leftmost plot, focusing on the black line that represents the identification rate as a function of alpha.\n2. Observe the trend of the black line across the range of alpha values from 0 to 1.\n3. Identify the point where the black line reaches its highest value on the y-axis (identification rate).\n4. Check if this highest point corresponds to alpha being 0.6."
+    },
+    {
+        "instance_id": "b5b388ecf27863afdc79a8f11c3921c8",
+        "question": "Does the identification rate increase as both alpha and beta increase?",
+        "answer_pred": "Yes",
+        "reasoning": "1. Examine the left graph, which shows the identification rate as a function of alpha. The identification rate increases as alpha increases from 0 to 1.\n2. Examine the right graph, which shows the identification rate as a function of beta. The identification rate also increases as beta increases from 0 to 1.\n3. Compare the trends in both graphs. In both cases, as alpha and beta increase, the identification rate increases.\n4. Conclude that the identification rate increases as both alpha and beta increase based on the observed trends in the graphs."
+    },
+    {
+        "instance_id": "62ce64aaccd059b276bfe651cb58012d",
+        "question": "In the rightmost figure, what is the lowest identification rate value reached by the black line?",
+        "answer_pred": "B",
+        "reasoning": "To solve the problem, I will focus on the rightmost graph, which shows the identification rate as a function of \u03b2. The black line represents the identification rate as \u03b2 increases from 0 to 1. I will identify the lowest point on this black line by observing where it reaches its minimum value on the y-axis, which represents the identification rate percentage."
+    },
+    {
+        "instance_id": "6820404d4f81bd4d71aa3c55b451f19e",
+        "question": "Which are the labels in the x-axis of both subplots?",
+        "answer_pred": "B",
+        "reasoning": "To determine the labels on the x-axis of both subplots, I will focus on the left and right sides of the image. The left subplot has an x-axis labeled as \"Alpha,\" while the right subplot has an x-axis labeled as \"Beta.\" Both subplots share the same y-axis label, \"Identification rate (%).\" By examining these labels, I can conclude that the x-axis labels for both subplots are \"Alpha\" and \"Beta,\" respectively."
+    },
+    {
+        "instance_id": "ff61d5e90e0155e93479c7fa53e8b975",
+        "question": "How was the identification rate calculated, and how does it affect the results?",
+        "answer_pred": "The identification rate is calculated by combining the first and second eigenresiduals (\u00b51(n) and \u00b52(n)) according to Equations (5) and (6). As Alpha and Beta increase, the identification rate also increases.",
+        "reasoning": "The identification rate is calculated using Equations (5) and (6), which combine the first and second eigenresiduals (\u00b51(n) and \u00b52(n)) based on the values of Alpha and Beta. The left graph shows that as Alpha increases from 0 to 1, the identification rate also increases. Similarly, the right graph shows that as Beta increases from 0 to 1, the identification rate increases. This indicates that both Alpha and Beta have a positive impact on the identification rate. The graphs suggest that higher values of Alpha and Beta lead to higher identification rates."
+    }
+]
