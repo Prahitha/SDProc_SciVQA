@@ -62,7 +62,7 @@ class QAImageData(BaseModel):
     figs_numb: str
     qa_pair_type: str
     question: str
-    answer: str
+    answer: Optional[str]
     answer_options: dict
     venue: str
     categories: str

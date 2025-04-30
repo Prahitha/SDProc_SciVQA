@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "4e702e3edeb6145d182e79914d6a8e50",
+        "question": "What is the value of the horizontal red dashed line in the rightmost plot?",
+        "answer_pred": "89.93",
+        "reasoning": "1. Identify the rightmost plot, which corresponds to the hotel service task.\n2. Locate the horizontal red dashed line in this plot, which represents the performance of the proposed approach using 200 examples with human rationales.\n3. Observe the y-axis of the rightmost plot to determine the accuracy value of the red dashed line.\n4. Note that the y-axis is labeled with accuracy values ranging from 80.00 to 92.00.\n5. The red dashed line in the rightmost plot aligns with the accuracy value of 89.93."
+    },
+    {
+        "instance_id": "bbee63d9d443b4bdc85812ef58a5b445",
+        "question": "What is the label of the y-axis in all subplots?",
+        "answer_pred": "Accuracy",
+        "reasoning": "To determine the label of the y-axis in all subplots, I will:\n\n1. Examine each subplot individually.\n2. Identify the label on the y-axis of each subplot.\n3. Confirm that the y-axis label is consistent across all three subplots.\n4. Note that the y-axis label in each subplot is \"Accuracy.\"\n5. Conclude that the y-axis label is the same for all subplots."
+    },
+    {
+        "instance_id": "e21e1080595cab3bbd06a765f7537547",
+        "question": "Is the red dot on the rightmost graph located between 1700 and 2000 training examples?",
+        "answer_pred": "Yes",
+        "reasoning": "1. Identify the rightmost graph, which corresponds to the hotel service task.\n2. Locate the red dot on this graph, which represents our approach trained on 200 examples with human rationales.\n3. Observe the x-axis, which represents the number of training examples.\n4. Determine the position of the red dot on the x-axis.\n5. Check if this position falls within the range of 1700 to 2000 training examples."
+    },
+    {
+        "instance_id": "6884488e7c7142841269fb91f4696831",
+        "question": "Does the performance of the 'attention-based classifier' exceed the performance of 'Ours' between 1800 and 2000 training examples in the 'hotel location' plot?",
+        "answer_pred": "No",
+        "reasoning": "1. Identify the 'hotel location' plot on the left side of the image.\n2. Observe the accuracy of the 'attention-based classifier' and 'Ours' within the range of 1800 to 2000 training examples.\n3. Note that 'Ours' is represented by a red dashed line, while the 'attention-based classifier' is shown as a blue line.\n4. Compare the accuracy values of the 'attention-based classifier' and 'Ours' within the specified range.\n5. Determine if the accuracy of the 'attention-based classifier' is higher than that of 'Ours' between 1800 and 2000 training examples."
+    },
+    {
+        "instance_id": "920f021a2391664a76ea3658e8df1d29",
+        "question": "What is the accuracy value of the red horizontal dashed line in the middle plot?",
+        "answer_pred": "D",
+        "reasoning": "1. Identify the middle plot, which corresponds to the \"hotel cleanliness\" task.\n2. Locate the red horizontal dashed line in the middle plot.\n3. Observe the y-axis to determine the accuracy value of the red dashed line.\n4. Note that the red dashed line represents the performance of the proposed approach using 200 examples with human rationales.\n5. Read the accuracy value directly from the y-axis where the red dashed line intersects."
+    },
+    {
+        "instance_id": "ba7d6515df5225c593093feebf25be50",
+        "question": "What is the maximum accuracy value presented in the y-axis of the 'hotel service' plot?",
+        "answer_pred": "B",
+        "reasoning": "1. Identify the 'hotel service' plot, which is the rightmost plot in the image.\n2. Examine the y-axis of the 'hotel service' plot to find the maximum accuracy value.\n3. Note that the y-axis ranges from 80.00 to 92.00.\n4. Look for the highest data point on the y-axis for the 'hotel service' plot.\n5. Observe that the maximum accuracy value is at the top of the y-axis scale, which is 92.00."
+    },
+    {
+        "instance_id": "3aac17b94de9b7dbef540611907b45df",
+        "question": "What is the type of attention-based classifier used in the experiment, and how does it affect the results?",
+        "answer_pred": "Attention-based classifier",
+        "reasoning": "To determine the type of attention-based classifier and its effect on the results, I will:\n\n1. Identify the attention-based classifier in the image, which is represented by the blue circles.\n2. Compare the performance of the attention-based classifier (blue circles) with the baseline \"Ours (using 200)\" (red dashed line) across the three tasks.\n3. Observe how the accuracy of the attention-based classifier changes as the number of training examples increases.\n4. Note any differences in performance between the attention-based classifier and the baseline, especially at lower numbers of training examples.\n5. Conclude by summarizing the type of attention-based classifier and its impact on the results."
+    },
+    {
+        "instance_id": "f26616c7ffbf98c45b6b71d75d2f6201",
+        "question": "What is the range of the x-axis values on the leftmost plot when the w(t)=10?",
+        "answer_pred": "[4000, 8000]",
+        "reasoning": "1. Identify the leftmost plot, which represents the function w(t).\n2. Observe that w(t) starts at 0, increases to a maximum of 10, and then decreases back to 0.\n3. Note that the interval where w(t) = 10 is between 4,000 and 8,000 on the x-axis.\n4. Conclude that the range of the x-axis values when w(t) = 10 is from 4,000 to 8,000."
+    },
+    {
+        "instance_id": "e12eb617b1f8648c93fc229a95aa85cf",
+        "question": "What is the learning rate range?",
+        "answer_pred": "[0.001, 0.6]",
+        "reasoning": "To find the learning rate range, I will focus on the graph on the right. The x-axis represents time, and the y-axis represents the learning rate. The graph shows that the learning rate starts at a high value and decreases over time, eventually approaching zero. I will identify the minimum and maximum values on the y-axis to determine the range of the learning rate."
+    },
+    {
+        "instance_id": "6c97f9976a428a1f172bf1c9b230ce99",
+        "question": "Is the learning rate value of the blue line 6 when it is at its peak? ",
+        "answer_pred": "Yes",
+        "reasoning": "1. Identify the peak of the blue line on the left graph, where \\( w(t) \\) reaches its maximum value of 10.\n2. Observe the right graph, which shows the learning rate.\n3. Note that the peak of the blue line on the right graph corresponds to a learning rate of 6.\n4. Confirm that the peak of the blue line on the left graph aligns with the peak of the blue line on the right graph.\n5. Conclude that the learning rate value at the peak of the blue line is 6."
+    }
+]
