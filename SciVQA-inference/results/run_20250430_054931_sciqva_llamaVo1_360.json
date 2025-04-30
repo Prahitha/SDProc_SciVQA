@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "68472d369f9b9dc3092d45706fa236fe",
+        "question": "What is the number of iterations for the 'Aggregated Loss' when the y-axis value is 13.5?",
+        "answer_pred": "15000",
+        "reasoning": "1. Identify the 'Aggregated Loss' curve in the 'Visual Loss' graph, which is represented by the blue line.\n2. Locate the y-axis value of 13.5 on the 'Visual Loss' graph.\n3. Trace horizontally from the y-axis value of 13.5 to the 'Aggregated Loss' curve.\n4. Find the intersection point of the horizontal line with the 'Aggregated Loss' curve.\n5. Read the corresponding x-axis value, which represents the number of iterations."
+    },
+    {
+        "instance_id": "d21d1919c84c45cdf29cfe9e0c8ece62",
+        "question": "Does the red line in the bottom plot represent the stochastic loss?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the red line in the bottom plot represents the stochastic loss, I will follow these steps:\n\n1. Examine the legend in the image, which indicates that the red line corresponds to \"Stochastic Loss\" and the blue line corresponds to \"Aggregated Loss.\"\n2. Look at the bottom plot, which shows caption loss over iterations.\n3. Identify the color of the line in the bottom plot that corresponds to \"Stochastic Loss\" according to the legend.\n4. Confirm that the red line in the bottom plot matches the description in the legend.\n5. Conclude that the red line in the bottom plot represents the stochastic loss."
+    },
+    {
+        "instance_id": "90332c50755bfd351407e260d0e651d8",
+        "question": "Is the Caption Loss for Stochastic Loss higher than that of Aggregated Loss at the beginning of training?",
+        "answer_pred": "Yes",
+        "reasoning": "To solve the problem, I will focus on the Caption Loss graph. The red line represents Stochastic Loss, and the blue line represents Aggregated Loss. At the beginning of the training process, the red line is higher than the blue line. This indicates that the Caption Loss for Stochastic Loss is higher than that of Aggregated Loss at the start of training."
+    },
+    {
+        "instance_id": "46ba72a922887c95bf9c5a7e3647b077",
+        "question": "In the top plot, which line has a higher value in the y-axis after 25000 iterations?",
+        "answer_pred": "D",
+        "reasoning": "To solve the problem, I will:\n\n1. Focus on the top plot titled \"Visual Loss.\"\n2. Identify the two lines in the plot: the red line labeled \"Stochastic Loss\" and the blue line labeled \"Aggregated Loss.\"\n3. Observe the y-axis values for both lines after 25000 iterations.\n4. Compare the y-axis values of the two lines at this point.\n5. Determine which line has a higher value after 25000 iterations.\n\nAfter examining the plot, the blue line (Aggregated Loss) appears to have a higher value than the red line (Stochastic Loss) after 25000 iterations."
+    },
+    {
+        "instance_id": "90027bfcae5a1070a5cde143762ff5de",
+        "question": "In the 'Visual Loss' plot, what is the range of the values in the y-axis?",
+        "answer_pred": "B",
+        "reasoning": "To determine the range of values on the y-axis of the 'Visual Loss' plot, I will first identify the minimum and maximum values marked on the y-axis. The y-axis starts at 12 and ends at 15, indicating that the range of values is from 12 to 15."
+    },
+    {
+        "instance_id": "8124bfec71d193e9d15c2640694cd585",
+        "question": "How were caption and visual loss calculated, and how does it influence the results?",
+        "answer_pred": "The caption and visual loss were calculated using stochastic and aggregated loss methods.",
+        "reasoning": "To determine how caption and visual loss are calculated, I will analyze the trends in the graphs. The visual loss graph shows that the red line (stochastic loss) starts high and decreases rapidly, while the blue line (aggregated loss) starts lower and decreases more gradually. The caption loss graph shows that the red line (stochastic loss) starts lower and remains relatively stable, while the blue line (aggregated loss) starts higher and fluctuates more. These trends suggest that the stochastic loss calculation is more aggressive in reducing loss, while the aggregated loss calculation is more conservative. The influence of these calculations on the results is evident in the differing rates of decrease and stability in the loss values over iterations."
+    },
+    {
+        "instance_id": "961bec12c181749c3c9edb6e00e5c186",
+        "question": "Which line in the graph is labeled 'DQN + HER started with 2000 samples'?",
+        "answer_pred": "Orange",
+        "reasoning": "To determine which line corresponds to 'DQN + HER started with 2000 samples,' I will:\n1. Examine the legend to find the label 'DQN + HER started with 2000 samples.'\n2. Identify the color associated with this label, which is orange.\n3. Locate the orange line on the graph.\n4. Confirm that the orange line represents 'DQN + HER started with 2000 samples.'"
+    },
+    {
+        "instance_id": "3098f352d63d57588051cb223a97d117",
+        "question": "What is the final success rate of the DQN+HER model?",
+        "answer_pred": "0.38",
+        "reasoning": "To find the final success rate of the DQN+HER model, I will:\n\n1. Identify the line corresponding to the DQN+HER model, which is represented by the blue line.\n2. Observe the endpoint of this line on the graph.\n3. Note the value on the y-axis that corresponds to this endpoint, which represents the final success rate of the DQN+HER model.\n4. Ensure that this value is distinct from the shaded regions, which represent confidence intervals.\n\nBy following these steps, I can accurately determine the final success rate of the DQN+HER model."
+    },
+    {
+        "instance_id": "8bf821d9c79e4a63673e5a998315c417",
+        "question": "Does the success rate of the blue line exceed 0.4 at approximately 3 million environment steps?",
+        "answer_pred": "Yes",
+        "reasoning": "To solve the problem, I will:\n\n1. Identify the blue line on the graph, which represents \"DQN+HER\" starting from scratch.\n2. Locate the x-axis value of approximately 3 million environment steps.\n3. Observe the corresponding y-axis value for the blue line at this point.\n4. Determine if the y-axis value exceeds 0.4.\n5. Conclude whether the success rate of \"DQN+HER\" exceeds 0.4 at approximately 3 million environment steps."
+    },
+    {
+        "instance_id": "4dd103d597a162b75d6a1396a62c0f0a",
+        "question": "Does the final success rate of DQN+THER started with 2000 samples outperform that of DQN?",
+        "answer_pred": "Yes",
+        "reasoning": "To solve the problem, I will first identify the lines corresponding to DQN and DQN+THER started with 2000 samples. The purple line represents DQN, and the orange line represents DQN+THER started with 2000 samples. I will then compare the final success rates of these two lines at the end of the environment steps. The graph shows that the orange line (DQN+THER started with 2000 samples) reaches a higher success rate than the purple line (DQN). This indicates that DQN+THER started with 2000 samples outperforms DQN in terms of final success rate."
+    }
+]

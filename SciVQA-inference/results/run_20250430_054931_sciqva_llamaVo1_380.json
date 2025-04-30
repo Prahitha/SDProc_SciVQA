@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "d7d0cb1141ea1e96cd307e64ef977f3e",
+        "question": "What is the approximate WER (%) of the green line in 1991?",
+        "answer_pred": "4.5",
+        "reasoning": "1. Identify the green line on the graph, which represents \"Air Travel Planning Kiosk Speech.\"\n2. Locate the year 1991 on the x-axis.\n3. Find the point on the green line corresponding to the year 1991.\n4. Read the WER (%) value from the y-axis at this point.\n5. The green line shows a WER (%) of approximately 4% in 1991."
+    },
+    {
+        "instance_id": "10332c8718a9a42e48d57c61b21ba713",
+        "question": "What is the range of WER values?",
+        "answer_pred": "1% to 10%",
+        "reasoning": "To find the range of WER values, I will:\n1. Look at the vertical axis labeled \"WER (%)\" on the graph.\n2. Identify the lowest and highest WER percentages marked on this axis.\n3. Note that the graph spans from 1% to 100% on the vertical axis.\n4. Determine the range by subtracting the minimum WER from the maximum WER."
+    },
+    {
+        "instance_id": "8ed5e126fb654f033ba84762017714be",
+        "question": "Is the green line representing 'Air Travel Planning Kiosk Speech' consistently below the 'Range of Human Error in Transcription' line?",
+        "answer_pred": "Yes",
+        "reasoning": "1. Identify the green line on the graph, which represents 'Air Travel Planning Kiosk Speech.'\n2. Locate the horizontal line labeled 'Range of Human Error in Transcription.'\n3. Observe the position of the green line in relation to the horizontal line across the timeline from 1985 to 2009.\n4. Determine if the green line remains consistently below the horizontal line throughout the timeline."
+    },
+    {
+        "instance_id": "ddf2f3894016517a1b05aa6d74db88e0",
+        "question": "Is 'Broadcast speech' always higher than 'Conversational Speech'?",
+        "answer_pred": "Yes",
+        "reasoning": "1. Identify the trend lines for 'Broadcast speech' and 'Conversational Speech' on the graph.\n2. Observe the positions of these lines over the years from 1988 to 2009.\n3. Note that 'Broadcast speech' is represented by a red line, while 'Conversational Speech' is represented by a red dashed line.\n4. Compare the positions of the two lines year by year to see if 'Broadcast speech' consistently remains above 'Conversational Speech'.\n5. Check for any years where the lines intersect or where 'Conversational Speech' surpasses 'Broadcast speech'.\n6. Conclude based on these observations whether 'Broadcast speech' is always higher than 'Conversational Speech'."
+    },
+    {
+        "instance_id": "ced0582bea3d403d5e657f56d3e8f184",
+        "question": "Which of the following lines shows the lowest value at the year 1994?",
+        "answer_pred": "D",
+        "reasoning": "To determine which line shows the lowest value at the year 1994, I will first locate the year 1994 on the x-axis of the graph. Then, I will examine the y-axis values for each line at this point in time. The line with the lowest y-axis value at 1994 will be the answer."
+    },
+    {
+        "instance_id": "c3a45761e299f1a6bd6eaaf6232c9e24",
+        "question": "What is the range of the years presented in x-axis?",
+        "answer_pred": "D",
+        "reasoning": "To determine the range of years on the x-axis, I will first identify the earliest and latest years marked on the axis. The x-axis starts at 1988 and ends at 2009. By calculating the difference between these two years, I can find the range of years presented."
+    },
+    {
+        "instance_id": "9518648bf5c1fba1be5c430df1c20d17",
+        "question": "What is the benchmark test that resulted in a Word Error Rate (WER) of 15% for the News English unlimitted dataset in May 2009, and how is it depicted in the figure?",
+        "answer_pred": "News English unlimitted",
+        "reasoning": "To determine the benchmark test that resulted in a WER of 15% for the News English unlimitted dataset in May 2009, I will follow these steps:\n\n1. Identify the News English unlimitted dataset on the graph, which is represented by a blue line.\n2. Locate the point on the blue line corresponding to May 2009.\n3. Observe the WER value at this point, which is marked at 15%.\n4. Identify the benchmark test associated with this WER value.\n5. Verify that the WER of 15% corresponds to the correct benchmark test by cross-referencing with other datasets and their respective WER values.\n\nBy following these steps, I can accurately determine the benchmark test that resulted in a WER of 15% for the News English unlimitted dataset in May 2009."
+    },
+    {
+        "instance_id": "afb1c8b17dfb4eef0d32d6e9c60c6972",
+        "question": "What is the approximate value of the relative improvement of the blue line  for sentences between 11 and 15 words?",
+        "answer_pred": "0.01",
+        "reasoning": "1. Identify the sentence length range of interest: 11-15 words.\n2. Locate this range on the x-axis of the graph.\n3. Find the corresponding point on the blue line that represents the relative improvement for this sentence length range.\n4. Read the relative improvement value from the y-axis at this point."
+    },
+    {
+        "instance_id": "095e3b195735fddb4d7460f80371772e",
+        "question": "What is the maximum value presented in y-axis?",
+        "answer_pred": "0.02",
+        "reasoning": "To find the maximum value on the y-axis, I will look at the topmost point on the graph. The y-axis ranges from -0.03 to 0.03, and the graph shows a line that peaks at approximately 0.02. This indicates that the maximum value on the y-axis is 0.02."
+    },
+    {
+        "instance_id": "07cdd25cfedc23fb99a1a539c2744a38",
+        "question": "Does the blue line  show an overall downward trend as the sentence length increases?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the blue line shows an overall downward trend as sentence length increases, I will:\n\n1. Observe the starting point of the blue line at the shortest sentence length (1-5 words) and note its position on the y-axis.\n2. Follow the blue line as it progresses to longer sentence lengths, noting any changes in direction.\n3. Examine the endpoint of the blue line at the longest sentence length (over 50 words) and note its position on the y-axis.\n4. Assess whether the line generally slopes downward from the beginning to the end, indicating a decrease in relative improvement as sentence length increases."
+    }
+]

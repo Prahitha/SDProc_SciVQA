@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "742c9a987d2157cdf38d62739aba362f",
+        "question": "Which dataset was used during training, and how does it affect the results?",
+        "answer_pred": "SST",
+        "reasoning": "To solve the problem, I will:\n\n1. Examine the correlation plots for each dataset (Yelp, SST, and Deception).\n2. Focus on the Spearman correlation values on the y-axis and the number of important features (k) on the x-axis.\n3. Identify the lines representing different models: built-in, LIME, and SHAP using XGB, LSTM, and BERT.\n4. Observe how the correlation changes as k increases for each model.\n5. Note any differences in correlation trends between models and datasets.\n6. Determine which dataset was used during training based on the correlation trends and model performance.\n7. Assess how the choice of dataset affects the results by comparing correlation values and trends across datasets."
+    },
+    {
+        "instance_id": "3878ea37e9d6d26d22f0fa6dcfe1147a",
+        "question": "What is the approximate value on the y-axis of the black dot in the bottom graph?",
+        "answer_pred": "22.5",
+        "reasoning": "1. Focus on the bottom graph labeled \"BLEU \u2191.\"\n2. Identify the black dot, which represents the \"Reported RL model (CW=5 Fig.2).\"\n3. Observe the position of the black dot in relation to the y-axis.\n4. Estimate the approximate value on the y-axis where the black dot is located.\n5. The y-axis ranges from 0 to 25, and the black dot appears slightly above the 20 mark."
+    },
+    {
+        "instance_id": "4f3a6fe120fd15440575631d9f25056d",
+        "question": "What is the AL value of 'RL Training; with 10 training steps?",
+        "answer_pred": "9.5",
+        "reasoning": "To find the AL value of 'RL Training' at 10 training steps, I will:\n1. Locate the 10th step on the x-axis of the AL graph.\n2. Identify the position of the red line (RL training) at this step.\n3. Read the corresponding AL value from the y-axis where the red line intersects at the 10th step."
+    },
+    {
+        "instance_id": "4786852a8d09858acc4ec0118326c784",
+        "question": "In top plot, is the blue line always higher than the red line?",
+        "answer_pred": "Yes",
+        "reasoning": "1. Examine the top plot labeled \"AL.\"\n2. Identify the red line as \"RL training\" and the blue line as \"SL training.\"\n3. Observe the positions of both lines over the training steps on the x-axis.\n4. Note that the blue line remains consistently above the red line throughout the training steps.\n5. There are no instances where the red line surpasses the blue line.\n6. Conclude that the blue line is always higher than the red line in the top plot."
+    },
+    {
+        "instance_id": "881317e62b363e542b62252c688c79a8",
+        "question": "Are BLEU and AL scores presented in y-axis?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if BLEU and AL scores are on the y-axis, I will first identify the labels on the y-axis of each graph. The top graph has \"AL\" on the y-axis, and the bottom graph has \"BLEU\" on the y-axis. The x-axis in both graphs represents training steps. The red line represents RL training, and the blue line represents SL training. The shaded regions indicate confidence intervals. Since the labels on the y-axis are \"AL\" and \"BLEU,\" these scores are indeed presented on the y-axis."
+    },
+    {
+        "instance_id": "7fcbd728f9817fc7efda2f0ac7baf161",
+        "question": "Which line represents the RL training in the bottom graph?",
+        "answer_pred": "A, B, C, D",
+        "reasoning": "To determine which line represents RL training in the bottom graph, I will follow these steps:\n\n1. Examine the legend in the bottom graph, which indicates that RL training is represented by a red line and SL training by a blue line.\n2. Identify the red line in the bottom graph, as it corresponds to RL training according to the legend.\n3. Confirm that the red line is distinct from the blue line, which represents SL training.\n4. Note that the shaded regions around the lines represent confidence intervals, but they do not affect the identification of the RL training line.\n\nBy following these steps, I can accurately identify the line representing RL training in the bottom graph."
+    },
+    {
+        "instance_id": "04062609897e796d72715dbd4fb05ee3",
+        "question": "Which training methods are represented in the figure?",
+        "answer_pred": "A, B, C, D",
+        "reasoning": "To solve the problem, I will:\n\n1. Identify the lines in the graph: The red line is labeled \"RL training,\" the blue line is labeled \"SL training,\" and the black line is labeled \"Reported RL model (CW=5 Fig.2).\"\n2. Observe the shaded regions: These represent the confidence intervals for each training method.\n3. Note that the RL training (red line) and SL training (blue line) both start lower than the reported RL model (black line).\n4. Observe how the RL training (red line) and SL training (blue line) converge and surpass the reported RL model (black line) over time.\n5. Conclude that the red line represents RL training and the blue line represents SL training."
+    },
+    {
+        "instance_id": "5ef1dd382f1bfe5eb916460f57100e3b",
+        "question": "What is the dataset used for the reported RL model, and how does it affect the results?",
+        "answer_pred": "DE\u2192EN",
+        "reasoning": "To determine the dataset used for the reported RL model, I will compare the learning curves of RL training, SL training, and the reported RL model. The reported RL model consistently outperforms RL training and SL training, suggesting it uses a different or enhanced dataset. The black line for the reported RL model is higher than the red and blue lines, indicating better performance. This implies that the dataset used for the reported RL model is more effective, leading to improved results."
+    },
+    {
+        "instance_id": "2ad99ae7ecd34aece9c7a434cd77cc1f",
+        "question": "What is the lowest value on the y-axis of the left plot?",
+        "answer_pred": "45",
+        "reasoning": "To determine the lowest value on the y-axis of the left plot, I will first identify the y-axis scale, which ranges from 45 to 80. I will then look for the minimum point on this scale. The lowest value on the y-axis of the left plot is 45."
+    },
+    {
+        "instance_id": "e635b966087488370e019ad12c374052",
+        "question": "Which activation mechanism results in the lowest perplexity?",
+        "answer_pred": "GLU",
+        "reasoning": "1. Examine the left graph, which shows perplexity over epochs for WikiText-103.\n2. Identify the lines representing different activation mechanisms: Tanh (purple), ReLU (blue), GTU (orange), and GLU (red).\n3. Observe that GLU consistently has the lowest perplexity across all epochs.\n4. Examine the right graph, which shows perplexity over hours for Google Billion Word.\n5. Again, identify the lines: ReLU (blue), GTU (orange), and GLU (red).\n6. Note that GLU maintains the lowest perplexity throughout the training hours.\n7. Conclude that GLU is the activation mechanism with the lowest perplexity in both datasets."
+    }
+]

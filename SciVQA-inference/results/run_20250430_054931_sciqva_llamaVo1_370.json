@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "448bf695368fee59224f46dedd7af442",
+        "question": "Which line represents the performance of DQN+THER started from scratch?",
+        "answer_pred": "B",
+        "reasoning": "To find the line representing DQN+THER started from scratch, I will:\n1. Examine the legend to identify the color associated with \"DQN+THER started from scratch.\"\n2. Locate the line on the graph that matches this color.\n3. Verify that this line is distinct from the others, especially focusing on the initial part of the graph where the lines diverge."
+    },
+    {
+        "instance_id": "98dd1d9baef4a72919244ff76b2904dd",
+        "question": "What is the y-axis label?",
+        "answer_pred": "D",
+        "reasoning": "To determine the y-axis label, I will examine the graph for any text or labels directly associated with the y-axis. The y-axis represents the \"success rate,\" as indicated by the label on the left side of the graph. This label is consistent across all lines and scenarios depicted in the graph, confirming that the y-axis is indeed labeled as \"success rate.\""
+    },
+    {
+        "instance_id": "a93e73e07f1a5708798ac13167b3925b",
+        "question": "What is the value of the final success rate of the DQN+HER algorithm starting from scratch, and how does it compare to the DQN algorithm?",
+        "answer_pred": "0.34",
+        "reasoning": "To determine the final success rate of the DQN+HER algorithm starting from scratch and compare it to the DQN algorithm, I will:\n\n1. Identify the blue line on the graph, which represents the DQN+HER algorithm starting from scratch.\n2. Observe the endpoint of this line on the y-axis to find the final success rate.\n3. Identify the purple line, which represents the DQN algorithm.\n4. Compare the final success rate of the DQN+HER starting from scratch to the DQN algorithm.\n5. Note any differences or similarities in their performance."
+    },
+    {
+        "instance_id": "29e228a68a6d1ce3e0e6ff64ab868898",
+        "question": "What is the maximum value of the green line in the top left panel?",
+        "answer_pred": "80",
+        "reasoning": "1. Identify the top left panel labeled \"NMT En-Fr - BiLSTM-max.\"\n2. Locate the green line in this panel, which represents \"TreeDepth.\"\n3. Observe the trajectory of the green line over the epochs on the x-axis.\n4. Determine the highest point reached by the green line on the y-axis, which represents accuracy.\n5. Note that the y-axis ranges from 0 to 100, and identify the peak value of the green line within this range."
+    },
+    {
+        "instance_id": "8dc3c1c9cfa6bbfc1f9b84eaba7b61d1",
+        "question": "What is the accuracy value for 'Tense' in 'NMT En-De - BiLSTM-max' at epoxh 10?",
+        "answer_pred": "80",
+        "reasoning": "1. Identify the correct subplot for 'NMT En-De - BiLSTM-max'.\n2. Locate the line corresponding to 'Tense' in this subplot.\n3. Observe the accuracy value of the 'Tense' line at epoch 10 on the x-axis.\n4. Read the accuracy value from the y-axis where the 'Tense' line intersects at epoch 10."
+    },
+    {
+        "instance_id": "c82d606f842832a52f9889ee27d5e7fe",
+        "question": "Is the orange line in the top left graph consistently higher than the gray line?",
+        "answer_pred": "Yes",
+        "reasoning": "To solve the problem, I will focus on the top left graph labeled \"NMT En-Fr - BiLSTM-max.\" I will identify the orange line, which represents \"WordContent,\" and the gray line, which represents \"TopConst.\" I will then compare their positions on the y-axis over the range of the x-axis (Epochs) to determine if the orange line remains consistently higher than the gray line."
+    },
+    {
+        "instance_id": "e84cb01bf1392cf8d9200b07320939c4",
+        "question": "Does the BLEU score for NMT increase over time during training?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the BLEU score for NMT increases over time, I will:\n\n1. Identify the BLEU (or PPL) line in each subplot, which is represented by the purple line.\n2. Observe the trend of the BLEU (or PPL) line over the training epochs on the x-axis.\n3. Check if the BLEU (or PPL) line shows an upward trend, indicating an increase in the BLEU score over time.\n4. Compare the BLEU (or PPL) lines across all subplots to see if the trend is consistent across different NMT models."
+    },
+    {
+        "instance_id": "e207ff389a9463ff8b96ad9cbc5bee4c",
+        "question": "Which of the following lines reaches the highest accuracy value for the 'NMT En-Fr - BiLSTM-max' model?",
+        "answer_pred": "D",
+        "reasoning": "1. Focus on the 'NMT En-Fr - BiLSTM-max' subplot.\n2. Identify the lines representing different metrics: SentLen, WordContent, TreeDepth, Tense, BLEU (or PPL), TopConst, and SOMO.\n3. Observe the accuracy values on the y-axis and the number of epochs on the x-axis.\n4. Look for the line that reaches the highest accuracy value.\n5. Note that SentLen is represented by a pink line, which appears to peak at a higher accuracy compared to other lines."
+    },
+    {
+        "instance_id": "55252c4d011a8c359e5f0b3a66b71f9f",
+        "question": "In 'SkipThrough - BiLSTM-max' plot, which is the number of epoch where 'BLEU (or PPL)' reaches 100?",
+        "answer_pred": "D",
+        "reasoning": "To find the number of epochs where 'BLEU (or PPL)' reaches 100 in the SkipThought - BiLSTM-max plot, I will:\n1. Locate the SkipThought - BiLSTM-max subplot in the image.\n2. Identify the line corresponding to 'BLEU (or PPL)', which is shown in purple.\n3. Observe the trajectory of the 'BLEU (or PPL)' line across the epochs on the x-axis.\n4. Determine the point where the 'BLEU (or PPL)' line reaches 100 on the y-axis.\n5. Note the corresponding x-axis value, which represents the number of epochs."
+    },
+    {
+        "instance_id": "3e3704b22ef8ce8bcb4f9b05153dfc35",
+        "question": "What is the training data used for the NMT En-Fr - BiLSTM-max model in Figure 1, and how does it influence the results??",
+        "answer_pred": "NMT En-Fr - BiLSTM-max",
+        "reasoning": "To determine the training data used for the NMT En-Fr - BiLSTM-max model, I will focus on the top-left plot in Figure 1. The lines in this plot represent different probing tasks. I will identify which line corresponds to the NMT En-Fr - BiLSTM-max model based on its position and color. I will then analyze how the training data influences the results by examining the accuracy trends over epochs. The training data's influence is reflected in how the accuracy of each probing task changes over time."
+    }
+]

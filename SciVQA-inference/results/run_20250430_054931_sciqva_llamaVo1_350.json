@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "ff618753ac73f835c25232a02684b47a",
+        "question": "What is the highest F1-Multi value reached by the green line?",
+        "answer_pred": "D",
+        "reasoning": "1. Identify the green line in the graph, which corresponds to Train-0.1.\n2. Follow the green line across the iterations on the x-axis.\n3. Observe where the green line reaches its highest point on the y-axis, which represents the F1-Multi value.\n4. Note the y-axis value at the peak of the green line to determine the highest F1-Multi value reached by Train-0.1."
+    },
+    {
+        "instance_id": "e38c452b4dbe941156f306f9c0361674",
+        "question": "What is the model architecture used in this experiment, and how does it influence the results?",
+        "answer_pred": "The model architecture used in this experiment is ResNet.",
+        "reasoning": "To determine the model architecture used in the experiment, I will examine the labels on the graph. The lines are labeled as Train-0.7, Train-0.3, Train-0.1, Valid-0.7, Valid-0.3, and Valid-0.1, indicating different dropout rates during training and validation. The upward trend in F1-Multi scores for Train-0.7, Train-0.3, and Train-0.1 suggests that higher dropout rates during training lead to better performance. The stable scores for Valid-0.7, Valid-0.3, and Valid-0.1 indicate that these dropout rates during validation do not significantly impact performance."
+    },
+    {
+        "instance_id": "fcc6692c6b6ed74524e69df0cb8dcb5e",
+        "question": "What is the accuracy of the green line with stars at a batch size of 128?",
+        "answer_pred": "88.5",
+        "reasoning": "1. Identify the green line with stars on the graph, which represents the Feature Invariant Transformer.\n2. Locate the batch size of 128 on the x-axis.\n3. Find the corresponding point on the green line with stars at a batch size of 128.\n4. Read the accuracy value from the y-axis at this point."
+    },
+    {
+        "instance_id": "342624f270ad643d8257a2529bbce673",
+        "question": "What is the highest accuracy achieved by the Vanilla Transformer?",
+        "answer_pred": "88.8",
+        "reasoning": "To determine the highest accuracy achieved by the Vanilla Transformer, I will locate the blue line on the graph, which represents the Vanilla Transformer. I will then identify the point on this line where the accuracy is the highest by observing the peak of the line. Finally, I will note the corresponding batch size on the x-axis and read the accuracy value from the y-axis."
+    },
+    {
+        "instance_id": "c10911f624396407a2ecc22f0065f313",
+        "question": "Does the blue line reach a higher accuracy value than the orange line at the batch size of 128?",
+        "answer_pred": "Yes",
+        "reasoning": "To solve the problem, I will first locate the batch size of 128 on the x-axis. Then, I will identify the points on the graph corresponding to the blue line (Vanilla Transformer) and the orange line (Wu and Cotterell (2019) + LR Warmup) at this batch size. I will compare the y-values of these points to determine which line has a higher accuracy value."
+    },
+    {
+        "instance_id": "dc26dc7d422792d2e269ed6d62ab252c",
+        "question": "Does the accuracy for the Feature Invariant Transformer exceed the accuracy for the Vanilla Transformer for all batch sizes?",
+        "answer_pred": "No",
+        "reasoning": "To determine if the accuracy of the Feature Invariant Transformer exceeds that of the Vanilla Transformer for all batch sizes, I will:\n\n1. Locate the lines representing the Feature Invariant Transformer (purple) and the Vanilla Transformer (blue) on the graph.\n2. Observe the accuracy values on the y-axis for each batch size on the x-axis.\n3. Compare the accuracy values of the Feature Invariant Transformer and the Vanilla Transformer at each batch size.\n4. Check if the accuracy of the Feature Invariant Transformer is consistently higher than that of the Vanilla Transformer across all batch sizes from 16 to 512."
+    },
+    {
+        "instance_id": "dca8b716ac8d18990a0c19da17ea75b6",
+        "question": "Which of the lines in the graph shows the lowest accuracy for a batch size of 256?",
+        "answer_pred": "D",
+        "reasoning": "To find the line with the lowest accuracy at a batch size of 256, I will:\n\n1. Locate the batch size of 256 on the x-axis.\n2. Examine the y-axis values for each line at this batch size.\n3. Identify which line has the lowest y-axis value, indicating the lowest accuracy.\n4. Verify that this line corresponds to the correct model by checking the legend.\n\nAt batch size 256, the Feature Invariant Transformer line is the lowest on the y-axis, indicating it has the lowest accuracy compared to the other models."
+    },
+    {
+        "instance_id": "d6f6e78473fbcc8367763818c8cf141b",
+        "question": "Which of the following models achieves the highest accuracy on morphological inflection?",
+        "answer_pred": "D",
+        "reasoning": "To determine which model achieves the highest accuracy on morphological inflection, I will:\n\n1. Examine the graph and identify the lines representing each model: Wu and Cotterell (2019), Wu and Cotterell (2019) (Our Eval), Wu and Cotterell (2019) + LR Warmup, Vanilla Transformer, and Feature Invariant Transformer.\n2. Observe the accuracy values on the y-axis for each model across different batch sizes on the x-axis.\n3. Note that the Feature Invariant Transformer consistently shows higher accuracy compared to other models, especially at larger batch sizes.\n4. Verify that no other model surpasses the accuracy of the Feature Invariant Transformer at any batch size.\n5. Conclude that the Feature Invariant Transformer achieves the highest accuracy on morphological inflection."
+    },
+    {
+        "instance_id": "9cfab3e793fe20f5580952fa8d1ffe89",
+        "question": "What are the languages used in the development set for Figure 1, and how do they influence the results?",
+        "answer_pred": "English, Spanish, German, French, and Russian",
+        "reasoning": "To determine the languages used in the development set for Figure 1, I will examine the graph for any labels or annotations that specify the languages. I will then analyze how these languages influence the results by looking at the performance of different models across various batch sizes. The graph shows several lines representing different models, and I will focus on identifying which lines correspond to which models and how their performance changes with batch size."
+    },
+    {
+        "instance_id": "e57df286ff7159b9ca8eac52a9fac8f0",
+        "question": "What is the approximate value of the red line in the bottom plot  at 5000 iterations?",
+        "answer_pred": "0.00066",
+        "reasoning": "To determine the approximate value of the red line in the bottom plot at 5000 iterations, I will:\n\n1. Locate the 5000 iterations mark on the x-axis of the bottom plot.\n2. Trace vertically from this point to the red line representing stochastic loss.\n3. Observe where this vertical line intersects the red line.\n4. Read the corresponding value on the y-axis to find the approximate value of the stochastic loss at 5000 iterations."
+    }
+]

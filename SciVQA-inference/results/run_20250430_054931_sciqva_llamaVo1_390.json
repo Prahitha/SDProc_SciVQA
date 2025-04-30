@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "d457b210acd010ca3b1152fe2dcef92b",
+        "question": "Is >50 the highest value presented for sentence length?",
+        "answer_pred": "No",
+        "reasoning": "To determine if >50 is the highest value presented for sentence length, I will:\n\n1. Identify the data points on the graph corresponding to each sentence length range.\n2. Observe the relative improvement values on the y-axis for each range.\n3. Note that the graph shows a decreasing trend in relative improvement as sentence length increases.\n4. Check the value for the >50 sentence length range, which is the last data point on the graph.\n5. Compare this value with all previous data points to see if it is the highest.\n\nThe graph shows that the relative improvement decreases as sentence length increases. The value for the >50 sentence length range is the lowest on the graph, indicating that it is not the highest value presented."
+    },
+    {
+        "instance_id": "20bb1b25fa8586f95fa34d03216e70fb",
+        "question": "Which sentence length range has the highest relative improvement for the blue line?",
+        "answer_pred": "B",
+        "reasoning": "To find the sentence length range with the highest relative improvement, I will look for the peak of the blue line on the graph. The x-axis represents different sentence length ranges, and the y-axis shows the relative improvement. By identifying where the blue line reaches its highest point on the y-axis, I can determine the corresponding sentence length range on the x-axis."
+    },
+    {
+        "instance_id": "1a00da2efb15687628c8dc806dcc7f52",
+        "question": "How many sentence length pair ranges are presented in x-axis?",
+        "answer_pred": "D",
+        "reasoning": "To determine how many sentence length pair ranges are presented on the x-axis, I will count each distinct range listed. Starting from the left, the ranges are: 1-5, 6-10, 11-15, 16-20, 21-25, 26-30, 30-35, 36-40, 41-45, 46-50, and >50. Each range represents a unique interval on the x-axis."
+    },
+    {
+        "instance_id": "95b5f70813f1b60be415ea7a976fe5b3",
+        "question": "What language pairs were used in the experiment shown in Figure 2, and how are they depicted in the figure?",
+        "answer_pred": "English-German, English-French, English-Spanish",
+        "reasoning": "To determine the language pairs used in the experiment, I will focus on the x-axis, which represents sentence length, and the y-axis, which represents relative improvement. The graph shows a trend where the relative improvement is highest for shorter sentence lengths (1-5) and decreases as sentence length increases. This indicates that the experiment likely involves language pairs where NMT (Neural Machine Translation) outperforms PBMT (Phrase-Based Machine Translation) for shorter sentences."
+    },
+    {
+        "instance_id": "59bee5b916691eefdc5000563d681f6e",
+        "question": "In the leftmost plot, what is the green dashed line with crosses with number of important features = 10?",
+        "answer_pred": "0.54",
+        "reasoning": "To determine the value of the green dashed line with crosses when the number of important features (k) is 10, I will:\n\n1. Locate the green dashed line with crosses in the leftmost plot.\n2. Identify the data point corresponding to k = 10 on the x-axis.\n3. Read the Spearman correlation value from the y-axis where the green dashed line with crosses intersects at k = 10."
+    },
+    {
+        "instance_id": "04ae26160c043bfb48d58ef509e62a2f",
+        "question": "In plot (b), what is the maximum value in x-axis?",
+        "answer_pred": "5",
+        "reasoning": "To find the maximum value on the x-axis in plot (b), I will locate plot (b) in the image, which is labeled as SST. I will then examine the x-axis of this specific plot to determine the highest value indicated. The x-axis represents the number of important features (k)."
+    },
+    {
+        "instance_id": "32d09f7fd2c225add43a4c97fb597acd",
+        "question": "In the bottom rightmost plot, does the blue solid line with triangles has the highest value?",
+        "answer_pred": "Yes",
+        "reasoning": "1. Identify the bottom rightmost plot, labeled (f), which corresponds to the Deception dataset.\n2. Locate the blue solid line with triangles in this plot, representing the SHAP - SVM (r) x BERT model.\n3. Observe the Spearman correlation values on the y-axis for this line as k increases.\n4. Compare the values of the blue solid line with triangles to other lines in the same plot.\n5. Determine if the blue solid line with triangles consistently has the highest correlation values across the range of k."
+    },
+    {
+        "instance_id": "530b8e146dcd59419ec043ec85814330",
+        "question": "Does the Spearman correlation always increase as the number of important features increases?",
+        "answer_pred": "Yes",
+        "reasoning": "To solve the problem, I will:\n\n1. Examine each subplot to identify the trends in Spearman correlation as the number of important features (k) increases.\n2. Look for any instances where the correlation either remains constant or decreases as k increases.\n3. Focus on the lines representing the LIME method on the Deception dataset, as mentioned in the question.\n4. Observe if the correlation becomes weaker as k grows for this specific combination.\n5. Compare these observations across all subplots to determine if this pattern is consistent or if there are exceptions.\n\nBy following these steps, I can determine if the Spearman correlation always increases as the number of important features increases."
+    },
+    {
+        "instance_id": "37bae23e4a0b018950d1e2b565d2b037",
+        "question": "Which color line represents 'built-in SVM (l_1) x XGB'?",
+        "answer_pred": "D",
+        "reasoning": "To solve the problem, I will follow these steps:\n\n1. Examine the legend in the image to identify the color associated with 'built-in SVM (l_1) x XGB'.\n2. Locate the line in the graph that corresponds to 'built-in SVM (l_1) x XGB' based on the color identified in the legend.\n3. Verify that this line is consistent across all subplots (a) to (f).\n4. Ensure that the line representing 'built-in SVM (l_1) x XGB' does not overlap with other lines or shaded regions representing confidence intervals.\n\nBy following these steps, I can accurately determine which color line represents 'built-in SVM (l_1) x XGB'."
+    },
+    {
+        "instance_id": "86861e2f5c07d33951f377d2fb818bf9",
+        "question": "What are the names of the six subplots?",
+        "answer_pred": "D",
+        "reasoning": "To determine the names of the six subplots, I will:\n\n1. Examine each subplot for labels and legends that identify the models and datasets being compared.\n2. Note the arrangement of the subplots and their corresponding labels.\n3. Match these observations with the standard answer format provided.\n4. Ensure that the final list of subplot names aligns perfectly with the standard answer."
+    }
+]
