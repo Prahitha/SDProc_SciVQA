@@ -43,8 +43,8 @@ parser.add_argument(
     help="No of samples from the selected data type"
 )
 parser.add_argument(
-    "--num_beams", 
-    type=int, 
+    "--num_beams",
+    type=int,
     default=4,
     help="Number of beams for beam search"
 )
@@ -157,10 +157,22 @@ class SciQVALlamaVO1Inference():
     def _get_caption_prompt(self, caption):
         return f"Provide a detailed description of the image titled {{{caption}}}, particularly emphasizing the aspects related to the question."
 
-    def _get_summary_prompt(self, question):
+    def _get_summary_prompt(self, qa_pair_type, question):
         return (
-            question +
-            "\nSummarize how you will approach the problem and explain the steps you will take to reach the answer."
+            "You are provided with metadata and an image (a scientific figure) from a scholarly paper.\n"
+            f"Based on the question type — {qa_pair_type} — and the given question, provide a valid answer using only the figure and its caption.\n"
+            "Refer to the QA pair type definitions below for guidance:\n\n"
+            "- **Closed-ended**: The question can be answered solely from the image and caption.\n"
+            "- **Unanswerable**: The answer cannot be inferred based on the image and caption alone.\n"
+            "- **Infinite answer set**: The answer is open-ended (e.g., a numerical value).\n"
+            "- **Finite answer set**:\n"
+            "   - *Binary*: Requires a Yes/No or True/False answer.\n"
+            "   - *Non-binary*: Choose one or more correct answers from four predefined options.\n"
+            "- **Visual**: The question involves visual features such as shape, size, position, color, direction, or height.\n"
+            "- **Non-visual**: The question focuses on content that does not involve visual attributes.\n\n"
+            "Ensure your answer is grounded in the visual data and caption alone — do not rely on any external information.\n\n"
+            f"Question: {question}\n"
+            "Now, summarize how you will approach the problem and explain the steps you will take to reach the answer."
         )
 
     def _get_reasoning_prompt(self):
@@ -222,14 +234,14 @@ class SciQVALlamaVO1Inference():
         )
 
         return base_prompt
-    
+
     def generate_inner(self, input: QAImageData):
-        #question = input.question
-        #image = input.load_image(args.image_dir_path)
-        #caption = input.caption
-        #qa_pair_type = input.qa_pair_type
-        #answer_options = input.answer_options
-        
+        # question = input.question
+        # image = input.load_image(args.image_dir_path)
+        # caption = input.caption
+        # qa_pair_type = input.qa_pair_type
+        # answer_options = input.answer_options
+
         def __infer(messages: dict) -> str:
             input_text = self.processor.apply_chat_template(
                 messages, add_generation_prompt=True)
@@ -260,7 +272,7 @@ class SciQVALlamaVO1Inference():
                 'content': [
                     {'type': 'image'},
                     {'type': 'text',
-                        'text': self._get_summary_prompt(input.question)}
+                        'text': self._get_summary_prompt(input.qa_pair_type, input.question)}
                 ],
             }
         ]
