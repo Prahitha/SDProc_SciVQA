@@ -142,13 +142,13 @@ class SciQVALlamaVO1Inference():
             "top_p": 0.9,
             "pad_token_id": 128004,
             "bos_token_id": 128000,
-            "do_sample": True,
+            "do_sample": False,
             "eos_token_id": [
                 128001,
                 128008,
                 128009
             ],
-            "temperature": 0.4,
+            "temperature": 0.1,
             "num_beams": args.num_beams,
             "use_cache": True,
         }
@@ -178,7 +178,7 @@ class SciQVALlamaVO1Inference():
 
     def _get_non_binary_qa_pair_prompt(self, answer_options):
         return (
-            f"Based on the reasoning above, match it to one or more of the provided answer options: {answer_options}. "
+            f"Based on the reasoning above, match it to one or more of the provided answer options: {{{answer_options}}}. "
             "Return only the corresponding letter(s) of the correct answer(s). "
             "Do not explain your choice, do not rephrase the answer, and do not repeat the option text. "
             "Only output the letter(s) corresponding to the correct choice. "
@@ -195,6 +195,34 @@ class SciQVALlamaVO1Inference():
     def _get_qa_pair_prompt(self):
         return "Give the exact correct answer, with no extra explanation."
 
+    def _get_reasoning_aligned_final_answer_prompt(self, question: str, answer_options: Optional[dict] = None):
+        base_prompt = (
+            f"Question: {{{question}}}\n\n"
+            "Based on the reasoning above, return only the final answer. "
+            "Make sure the answer exactly reflects the logic explained in the reasoning step. "
+            "Only use information that is clearly visible or logically deducible from the graph, image, or caption. "
+            "Do not infer or hallucinate information from other knowledge or examples. "
+        )
+
+        if answer_options:
+            base_prompt += (
+                f"Here are the answer options: {{{answer_options}}}. "
+                "Return only the letter(s) of the correct option(s). "
+                "If multiple letters are correct, separate them by commas without spaces (e.g., A,C). "
+                "If all are correct, return A,B,C,D. Do not repeat or explain the text."
+            )
+        else:
+            base_prompt += (
+                "If the answer is text-based, return a short exact phrase — no full sentences or descriptions. "
+            )
+
+        base_prompt += (
+            "If the reasoning says the answer cannot be determined or that the information is insufficient, "
+            "return exactly: 'It is not possible to answer this question based only on the provided data.'"
+        )
+
+        return base_prompt
+    
     def generate_inner(self, input: QAImageData):
         #question = input.question
         #image = input.load_image(args.image_dir_path)
@@ -249,20 +277,12 @@ class SciQVALlamaVO1Inference():
         conclusion_prompt = self._get_conclusion_prompt()
         messages.extend(__tmp(summary_qa, conclusion_prompt))
         summary_qa = __infer(messages)
-        qa_pair_prompt = ""
+        qa_pair_prompt = self._get_reasoning_aligned_final_answer_prompt(
+            input.question,
+            input.answer_options if "non-binary" in input.qa_pair_type else None
+        )
 
-        if "closed-ended" in input.qa_pair_type and "finite answer set" in input.qa_pair_type:
-            if "non-binary" in input.qa_pair_type and input.answer_options:
-                qa_pair_prompt = self._get_non_binary_qa_pair_prompt(
-                    input.answer_options)
-            elif "binary" in input.qa_pair_type:
-                qa_pair_prompt = self._get_binary_qa_pair_prompt()
-            else:
-                qa_pair_prompt = self._get_qa_pair_prompt()
-        else:
-            qa_pair_prompt = self._get_qa_pair_prompt()
-
-        messages.extend(__tmp(summary_qa, qa_pair_prompt))
+        messages.extend(__tmp(reasoning_qa, qa_pair_prompt))
         output = __infer(messages)
 
         print(f"Question: {input.question}\nAnswer: {output}")
@@ -271,9 +291,11 @@ class SciQVALlamaVO1Inference():
     def evaluate(self):
         pass
 
-    def _should_override_with_unanswerable(self, reasoning: str) -> bool:
+    def _should_override_with_unanswerable(self, reasoning: str, question: str) -> bool:
         reasoning_lower = reasoning.lower()
-        keywords = [
+        question_lower = question.lower()
+
+        reasoning_keywords = [
             "cannot be determined",
             "cannot determine",
             "not possible to determine",
@@ -282,9 +304,30 @@ class SciQVALlamaVO1Inference():
             "unanswerable",
             "data is missing",
             "lack of information",
-            "figure is not provided"
+            "figure is not provided",
+            "no information available",
+            "missing data"
         ]
-        return any(keyword in reasoning_lower for keyword in keywords)
+
+        question_keywords = [
+            "specific task",
+            "specific method",
+            "specific algorithm",
+            "specific implementation",
+            "specific contribution",
+            "subjective",
+            "depends on interpretation"
+        ]
+
+        # If reasoning indicates no answer
+        if any(k in reasoning_lower for k in reasoning_keywords):
+            return True
+
+        # If the question itself asks for vague/meta content
+        if any(k in question_lower for k in question_keywords):
+            return True
+
+        return False
 
     def _process_input(self):
         dataset = load_dataset("katebor/SciVQA", split=args.data_type)
@@ -297,7 +340,7 @@ class SciQVALlamaVO1Inference():
                 input = QAImageData(**data)
                 result, reasoning = self.generate_inner(input)
 
-                if self._should_override_with_unanswerable(reasoning):
+                if self._should_override_with_unanswerable(reasoning, input.question):
                     result = "It is not possible to answer this question based only on the provided data."
 
                 self.outputs.append({

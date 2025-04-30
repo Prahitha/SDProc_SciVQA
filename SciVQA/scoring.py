@@ -51,6 +51,7 @@ def main():
 
     gold_df = pd.read_json(args.gold_file)
     pred_df = pd.read_json(args.pred_file)
+    gold_df = gold_df.iloc[:len(pred_df)]
 
     if len(gold_df) != len(pred_df):
         raise ValueError(
@@ -58,9 +59,9 @@ def main():
 
     merged = gold_df.merge(pred_df, on='instance_id', how='left')
     merged["answer"] = merged["answer"].astype(str)
-    merged["short_summary"] = merged["short_summary"].astype(str)
+    merged["answer_pred"] = merged["answer_pred"].astype(str)
     references = merged["answer"].tolist()
-    predictions = merged["short_summary"].tolist()
+    predictions = merged["answer_pred"].tolist()
 
     rouge1_score_f1, rouge1_score_precision, rouge1_score_recall = rouge(
         predictions, references, "rouge1")

@@ -8,3 +8,4 @@ LlamaV-o1/.env
 LlamaV-o1/LlamaV-o1-env/
 SciVQA/*
 !SciVQA/scoring.py
+SciVQA-inference/slurm-*
