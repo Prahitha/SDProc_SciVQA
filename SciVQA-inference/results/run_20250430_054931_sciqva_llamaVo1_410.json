@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "0abe1992aa3e40e30ebd29357a83880e",
+        "question": "Does the red line in the left plot reach a lower test perplexity than the orange line?",
+        "answer_pred": "Yes",
+        "reasoning": "To solve the problem, I will first identify the red and orange lines in the left plot. The red line represents GLU, and the orange line represents GTU. I will then compare their test perplexity values over the epochs. By observing the graph, I can see that the red line (GLU) consistently stays below the orange line (GTU) throughout the epochs. This indicates that GLU achieves a lower test perplexity than GTU."
+    },
+    {
+        "instance_id": "a5c5086898190dc31e3d804a022aa5de",
+        "question": "Are Tahn and Relu presented in the figure?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if Tahn and Relu are presented in the figure, I will first identify the lines corresponding to Tahn and Relu. In the left graph, Tahn is represented by a purple line, and Relu is represented by a blue line. Both lines are clearly visible, indicating that Tahn and Relu are presented in the figure."
+    },
+    {
+        "instance_id": "6fc2a734532b5b767f712c675c14f684",
+        "question": "Which lines represent Tahn and GLU?",
+        "answer_pred": "A, B, C, D",
+        "reasoning": "To determine which lines represent Tanh and GLU, I will refer to the legend provided in the image. The legend indicates that Tanh is represented by the purple line, and GLU is represented by the red line. By matching these colors to the lines in the graph, I can identify which line corresponds to Tanh and which to GLU."
+    },
+    {
+        "instance_id": "ae815dde97f9aa59cee3790145e8fef6",
+        "question": "In Google Billion Word plot, which activation mechanism shows the highest perplexity at 100 hours?",
+        "answer_pred": "D",
+        "reasoning": "To determine which activation mechanism shows the highest perplexity at 100 hours on the Google Billion Word dataset, I will:\n\n1. Focus on the right side of the graph, where the x-axis represents hours and the y-axis represents test perplexity.\n2. Identify the lines corresponding to each activation mechanism: ReLU, GTU, and GLU.\n3. Observe the y-values of these lines at the 100-hour mark.\n4. Compare these y-values to identify which line reaches the highest point on the y-axis at 100 hours.\n5. Note that the line for ReLU reaches the highest point compared to GTU and GLU at 100 hours."
+    },
+    {
+        "instance_id": "3da1f4ba964fd4ed94636d4b4bdd3bfa",
+        "question": "What are the hyperparameters used in the experiments for each activation mechanism, and how do they affect the results?",
+        "answer_pred": "Tanh, ReLU, GTU, GLU",
+        "reasoning": "1. Identify the activation mechanisms in the image: Tanh, ReLU, GTU, and GLU.\n2. Observe the left graph, which shows test perplexity over epochs on the WikiText-103 dataset.\n3. Note that the GLU line converges faster and to a lower perplexity compared to other mechanisms.\n4. Examine the right graph, which shows test perplexity over hours on the Google Billion Word dataset.\n5. Again, observe that the GLU line converges faster and to a lower perplexity compared to other mechanisms.\n6. Conclude that GLU consistently outperforms other activation mechanisms in terms of convergence speed and perplexity."
+    },
+    {
+        "instance_id": "bbcb35dad2fc126df9d26f71ecb2b462",
+        "question": "In the rightmost plot, what is the decoding time for the blue dot at a LM score of 1.7?",
+        "answer_pred": "10.1",
+        "reasoning": "To find the decoding time for the blue dot at an LM score of 1.7, I will:\n\n1. Focus on the rightmost plot titled \"Decoding time and quality.\"\n2. Locate the x-axis value of 1.7, which corresponds to the LM score.\n3. Identify the position of the blue dot at this LM score on the y-axis, which represents the decoding time in seconds.\n4. Read the decoding time value directly from the y-axis where the blue dot aligns."
+    },
+    {
+        "instance_id": "21a7f3aae83254a65f276895347de60e",
+        "question": "How many methods are presented in the plots?",
+        "answer_pred": "3",
+        "reasoning": "To solve the problem, I will first identify the number of distinct lines in each plot. In the left plot, there are three lines representing different methods: Temperature, Generator Rejection, and Beam Search. Similarly, in the right plot, there are also three lines representing the same methods. Therefore, the total number of methods presented in the plots is three."
+    },
+    {
+        "instance_id": "9b395db070f9501240d0a18a3e7c1deb",
+        "question": "Is the green line on the right plot consistently lower than the red line?",
+        "answer_pred": "Yes",
+        "reasoning": "In the right plot, the green line represents Generator Rejection, and the red line represents Temperature. To determine if the green line is consistently lower than the red line, I will compare their positions across the range of LM scores on the x-axis. The green line starts lower than the red line and remains below it throughout the range of LM scores from 1.5 to 3.5. Therefore, the green line is consistently lower than the red line."
+    },
+    {
+        "instance_id": "baaea709706e3cfb7482bcb2e976872f",
+        "question": "In plot (b), is the range of LM score between 1 and 2?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the range of LM score between 1 and 2 is present in plot (b), I will examine the x-axis of plot (b). The x-axis ranges from 1.5 to 3.5, which includes values between 1 and 2. Therefore, the range of LM score between 1 and 2 is indeed present in plot (b)."
+    },
+    {
+        "instance_id": "51eaef57db39f99c440819aea07c54b8",
+        "question": "Which line represents 'Temperature'?",
+        "answer_pred": "B",
+        "reasoning": "To solve the problem, I will follow these steps:\n1. Examine the legend in the image to identify which color corresponds to 'Temperature'.\n2. Look at the left graph to find the red line, as indicated by the legend.\n3. Confirm that the red line consistently represents 'Temperature' across both graphs.\n4. Verify that no other lines overlap with the red line, ensuring clarity in identification.\n5. Conclude that the red line in both graphs represents 'Temperature'."
+    }
+]

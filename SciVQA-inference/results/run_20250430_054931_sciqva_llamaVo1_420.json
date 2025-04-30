@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "bdfb09a599f35d8f54c203ec8c3f0ab1",
+        "question": "Which method provides the best trade-off between quality/diversity?",
+        "answer_pred": "B",
+        "reasoning": "To solve the problem, I will follow these steps:\n\n1. Examine graph (a) to identify which method has the highest LM score, indicating better quality and diversity.\n2. Look at graph (b) to determine which method has the lowest decoding time, indicating efficiency.\n3. Compare the results from both graphs to find the method that provides the best trade-off between quality/diversity and decoding time.\n\nIn graph (a), the Beam Search method has the highest LM score, indicating better quality and diversity. In graph (b), Beam Search also has the lowest decoding time, indicating efficiency. Therefore, Beam Search provides the best trade-off between quality/diversity and decoding time."
+    },
+    {
+        "instance_id": "b58c17756c3b4da721cabc02fc27eea5",
+        "question": "What is the specific dataset used in this study, and how does it affect the results? ",
+        "answer_pred": "The specific dataset used in this study is the WikiText-103 dataset.",
+        "reasoning": "To solve the problem, I will first identify the lines in the graphs and their corresponding methods: Temperature, Generator Rejection, and Beam Search. I will then analyze the trends in both graphs. In the left graph, I will observe how diversity and quality change with LM score for each method. In the right graph, I will examine how decoding time changes with LM score for each method. By comparing these trends, I will determine the specific dataset used and how it affects the results."
+    },
+    {
+        "instance_id": "3e16cb9e65ade64053e7f6f8a1d00379",
+        "question": "What is the approximate value of the red line at 45 epochs?",
+        "answer_pred": "0.5",
+        "reasoning": "1. Identify the red line on the graph, which represents the train loss (wiki).\n2. Observe the starting point of the red line, which is around 6.5 at epoch 0.\n3. Note the trend of the red line as it decreases over time.\n4. Estimate the value of the red line at 45 epochs based on its decreasing trend.\n5. The red line reaches approximately 0.5 at 45 epochs."
+    },
+    {
+        "instance_id": "f137398528beb2e744ade5a96918f7d1",
+        "question": "How many losses are presented in the figure?",
+        "answer_pred": "4",
+        "reasoning": "To solve the problem, I will:\n1. Identify the distinct lines on the graph, each representing a different type of loss.\n2. Count the number of these lines to determine the total number of losses presented.\n3. Verify that each line corresponds to a specific type of loss as labeled in the legend.\n4. Confirm that no additional losses are represented by overlapping lines or shaded regions."
+    },
+    {
+        "instance_id": "40552859c7f143d6f07b06e5be7f6e36",
+        "question": "Does the red line consistently decrease in value across the x-axis?",
+        "answer_pred": "Yes",
+        "reasoning": "To solve the problem, I will focus on the red line, which represents the train loss for the wiki dataset. I will observe the trend of this line across the x-axis, which ranges from 0 to 40 epochs. The red line starts at a higher value on the y-axis, around 6.5, and consistently decreases as the number of epochs increases. By the end of the 40 epochs, the red line reaches a value close to 0.5. This consistent downward trend indicates that the train loss for the wiki dataset decreases over time."
+    },
+    {
+        "instance_id": "531f3dccc3d10ad3724181b9efd7b0e7",
+        "question": "Is the loss value of the validation loss (domain) 12 at 40 epochs?",
+        "answer_pred": "No",
+        "reasoning": "To determine if the validation loss (domain) reaches 12 at 40 epochs, I will focus on the green line representing the validation loss (domain). I will trace this line from the beginning to the endpoint at 40 epochs. By observing the y-axis, I will check if the endpoint of the green line aligns with the value of 12."
+    },
+    {
+        "instance_id": "3112d6fb131079cb74d5114ac306f786",
+        "question": "Which line represents the 'Train Loss (wiki)'?",
+        "answer_pred": "B",
+        "reasoning": "To solve the problem, I will follow these steps:\n\n1. Examine the legend in the graph to identify the color associated with 'Train Loss (wiki)'.\n2. Locate the line on the graph that corresponds to the color identified in step 1.\n3. Verify that the line representing 'Train Loss (wiki)' aligns with the description provided in the legend.\n4. Confirm that the identified line is distinct from the other lines representing different types of losses.\n\nBy following these steps, I can accurately determine which line represents 'Train Loss (wiki)'."
+    },
+    {
+        "instance_id": "5bb401d02a55a587c1821c41834594dd",
+        "question": "What is the range of the loss values presented in the y-axis?",
+        "answer_pred": "D",
+        "reasoning": "To find the range of the loss values, I will look at the y-axis of the graph. The y-axis starts at 0 and goes up to 12. This indicates that the range of the loss values is from 0 to 12. I will then calculate the range by subtracting the minimum value (0) from the maximum value (12), resulting in a range of 12."
+    },
+    {
+        "instance_id": "da4d4dbd67f9d99b7a2bafff3ec698a4",
+        "question": "What is the difference in loss between the training loss of the 'wiki' domain and the validation loss of the 'domain' at all epochs, and how is it depicted in the figure?",
+        "answer_pred": "0.5",
+        "reasoning": "To find the difference in loss between the training loss of the 'wiki' domain and the validation loss of the 'domain' at all epochs, I will:\n\n1. Identify the blue line, which represents the training loss for the 'domain'.\n2. Identify the green line, which represents the validation loss for the 'domain'.\n3. Identify the red line, which represents the training loss for the 'wiki'.\n4. Identify the purple line, which represents the validation loss for the 'wiki'.\n5. Compare the y-values of the blue line (training loss for 'domain') and the green line (validation loss for 'domain') at each epoch.\n6. Compare the y-values of the red line (training loss for 'wiki') and the purple line (validation loss for 'wiki') at each epoch.\n7. Calculate the difference between the y-values of the blue line and the green line at each epoch.\n8. Calculate the difference between the y-values of the red line and the purple line at each epoch."
+    },
+    {
+        "instance_id": "9b98d4d529331192ec6458bd5539ff6b",
+        "question": "What is the F1 score of the green line in the right figure when the number of authors is 1000?",
+        "answer_pred": "40",
+        "reasoning": "To find the F1 score of the green line in the right figure when the number of authors is 1000, follow these steps:\n\n1. Identify the green line in the right graph, which corresponds to the SCAP method.\n2. Locate the point on the green line where the number of authors is 1000.\n3. Read the F1 score value from the vertical axis at this point."
+    }
+]

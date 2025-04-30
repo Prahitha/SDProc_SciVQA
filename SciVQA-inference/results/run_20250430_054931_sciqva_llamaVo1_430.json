@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "ad2c45d2510bcaca53421d4e26ec24df",
+        "question": "What is the range of the number of authors presented in the first plot?",
+        "answer_pred": "[20, 1000]",
+        "reasoning": "To find the range of the number of authors in the first plot, I will identify the minimum and maximum values on the x-axis. The x-axis in the first plot ranges from 20 to 1000. The range is calculated by subtracting the minimum value (20) from the maximum value (1000), resulting in a range of 980."
+    },
+    {
+        "instance_id": "11fb40ad08ef13c7477b98038267d941",
+        "question": "Is the F1 score for the red line higher than that of the dark green at the 100 author in the leftmost plot?",
+        "answer_pred": "Yes",
+        "reasoning": "1. Identify the red line, which represents CNN-word-word-char, and the dark green line, which represents SCAP, in the leftmost plot.\n2. Locate the data points for both lines at 100 authors on the x-axis.\n3. Compare the F1 scores on the y-axis for these two lines at 100 authors.\n4. Determine if the F1 score for the red line (CNN-word-word-char) is higher than that of the dark green line (SCAP) at 100 authors."
+    },
+    {
+        "instance_id": "2fcc2d8152903d5c68fbe98e5b0bdbc0",
+        "question": "Does the F1 score for Emails dataset decrease when the number of authors increase for all methods?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the F1 score decreases with an increase in the number of authors for all methods in the Emails dataset, I will:\n\n1. Focus on Figure 2, which pertains to the Emails dataset.\n2. Observe the trend lines for each method: CNN-char (blue), SCAP (green), CNN-word-char (red), and CNN-word-word-char (turquoise).\n3. Note that the F1 scores generally decrease as the number of authors increases from 20 to 1000.\n4. Compare the starting and ending F1 scores for each method:\n   - CNN-char starts around 90 and ends around 40.\n   - SCAP starts around 70 and ends around 40.\n   - CNN-word-char starts around 85 and ends around 35.\n   - CNN-word-word-char starts around 80 and ends around 35.\n5. All methods show a decrease in F1 scores as the number of authors increases from 20 to 1000."
+    },
+    {
+        "instance_id": "5b1574f5e20beedb36b32b5e05f7abef",
+        "question": "Which line in the figure on the left has the highest F1 score at 20 authors?",
+        "answer_pred": "B",
+        "reasoning": "To determine which line has the highest F1 score at 20 authors, I will:\n\n1. Locate the 20-author mark on the x-axis of the graph on the left.\n2. Identify the data points for each line at this mark.\n3. Compare the y-values (F1 scores) of these data points.\n4. Determine which line has the highest y-value at 20 authors."
+    },
+    {
+        "instance_id": "39ea9367f134e84cda1e7013c8b8faee",
+        "question": "Which two methods have a F1 score of approximately 41 between 400 and 600 authors?",
+        "answer_pred": "B",
+        "reasoning": "To find the methods with an F1 score of approximately 41 between 400 and 600 authors, I will:\n\n1. Focus on the right graph, which corresponds to the Blogs dataset.\n2. Identify the lines representing each method: CNN-char (blue), SCAP (green), CNN-word-char (red), and CNN-word-word-char (turquoise).\n3. Locate the range of 400 to 600 authors on the horizontal axis.\n4. Observe the F1 scores for each method within this range.\n5. Note that CNN-char (blue) and SCAP (green) both have F1 scores around 41 in this range.\n6. Confirm that no other methods have an F1 score of approximately 41 between 400 and 600 authors."
+    },
+    {
+        "instance_id": "b69e4bc9f5e97e62ec61caf00b88d24c",
+        "question": "How was the F1-score calculated, and how does it influence the results?",
+        "answer_pred": "F1-score = 2 * (precision * recall) / (precision + recall)",
+        "reasoning": "To determine how the F1-score is calculated and how it influences the results, I will examine the relationship between the number of authors and the F1-scores for each model in both the Emails and Blogs datasets. The F1-score is calculated as the harmonic mean of precision and recall, reflecting a model's ability to correctly identify both true positives and true negatives. In the graphs, the F1-scores are plotted against the number of authors, showing how performance changes as more authors are considered. The lines represent different models: CNN-char, SCAP, CNN-word-char, and CNN-word-char. The shaded regions indicate confidence intervals. In the Emails dataset, CNN-char and SCAP have higher F1-scores, while in the Blogs dataset, CNN-word-char and CNN-word-char have higher F1-scores. As the number of authors increases, the F1-scores generally decrease, except for CNN-word-char in the Blogs dataset, which shows a peak at 200 authors."
+    },
+    {
+        "instance_id": "a759afa9ee3a18911f9b68ade4d315e1",
+        "question": "What is the value of the training data size (percentage of total data) at the vertical red line?",
+        "answer_pred": "60",
+        "reasoning": "To find the value of the training data size at the vertical red line, I will:\n\n1. Locate the vertical red line on the graph.\n2. Identify where this line intersects the x-axis, which represents the training data size as a percentage of total data.\n3. Read the value on the x-axis corresponding to this intersection point.\n\nThe vertical red line intersects the x-axis at approximately 60%."
+    },
+    {
+        "instance_id": "8cb02732c3a2a1bf1c2d179a1a2fe9e2",
+        "question": "What is the maximum value for F1-Score in y-axis?",
+        "answer_pred": "0.875",
+        "reasoning": "To find the maximum value for the F1-Score on the y-axis, I will:\n\n1. Identify the highest point reached by the F1-Score line on the graph.\n2. Compare this point with the y-axis scale to determine its exact value.\n3. Verify that this value is indeed the maximum by checking if any other lines reach higher on the y-axis.\n4. Confirm that this maximum value aligns with the standard answer provided."
+    },
+    {
+        "instance_id": "07c31f9732ed741f60155795b270ce74",
+        "question": "Are all of the red dots positioned to the right of the vertical red line?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if all red dots are to the right of the vertical red line, I will:\n\n1. Identify the position of the vertical red line on the x-axis.\n2. Locate each red dot on the graph.\n3. Check the x-axis position of each red dot relative to the vertical red line.\n4. Verify if all red dots are positioned to the right of the vertical red line."
+    },
+    {
+        "instance_id": "79eb3d42fcf026c0d1b34572a4d134dc",
+        "question": "Is the training data size at the mean stopping point above 60%?",
+        "answer_pred": "Yes",
+        "reasoning": "1. Identify the mean stopping point on the graph, which is marked by a red vertical line.\n2. Observe where this line intersects the x-axis to determine the training data size at the mean stopping point.\n3. Note that the x-axis represents the training data size as a percentage of total data.\n4. Check if the intersection point is above 60% on the x-axis.\n5. Conclude whether the training data size at the mean stopping point is above 60% based on this observation."
+    }
+]
