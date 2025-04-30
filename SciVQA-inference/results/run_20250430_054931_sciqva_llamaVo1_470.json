@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "b356470a1442b2f3d40f9a178be4a0b5",
+        "question": "What are the keywords, and how do they influence the results?",
+        "answer_pred": "Keywords: 100, 250, 500, 750, 1000",
+        "reasoning": "1. Examine the left graph, which shows the relationship between the number of vertices and the size of the graph and KIC-tree. The turquoise line represents the graph size, and the magenta line represents the KIC-tree size.\n2. Observe that as the number of vertices increases, both the graph size and the KIC-tree size increase, but the KIC-tree size increases at a slower rate.\n3. Examine the right graph, which shows the relationship between the number of keywords and the size of the graph and KIC-tree. Again, the turquoise line represents the graph size, and the magenta line represents the KIC-tree size.\n4. Note that as the number of keywords increases, both the graph size and the KIC-tree size increase, but the KIC-tree size increases at a slower rate compared to the graph size.\n5. Compare the two graphs to see how the number of vertices and keywords affect the size of the graph and KIC-tree. Both graphs show that the KIC-tree size increases at a slower rate than the graph size as the number of vertices or keywords increases."
+    },
+    {
+        "instance_id": "25a68cf49a395fe80dbb74522a524478",
+        "question": "What is the approximate value of the black line at 200 on the x-axis in the bottom plot?",
+        "answer_pred": "150",
+        "reasoning": "1. Focus on the bottom plot, PV 01: \"English_J0104G-Argentina\".\n2. Identify the black line, which represents the F0 (pitch) curve.\n3. Locate the x-axis value of 200.\n4. Observe the position of the black line at this x-axis value.\n5. Estimate the y-axis value of the black line at x = 200.\n6. The black line appears to be close to the 150 mark on the y-axis at x = 200."
+    },
+    {
+        "instance_id": "da9a103b47f8da8f5e7c2d8289de8962",
+        "question": "What is the label of y-axis?",
+        "answer_pred": "F0",
+        "reasoning": "To determine the label of the y-axis, I will examine the graph's legend and axis labels. The y-axis is labeled as \"F0,\" indicating it represents the fundamental frequency in Hz. The x-axis shows time in 10.0 ms intervals. The graph displays the F0 over time for a male voice, with different lines representing different voices and shaded regions indicating confidence intervals."
+    },
+    {
+        "instance_id": "2ebb6e97f15ba4e41862400f513814d0",
+        "question": "Does the black line value in the second graph increase from x-axis value 100 to x-axis value 200?",
+        "answer_pred": "Yes",
+        "reasoning": "To solve the problem, I will focus on the second graph labeled \"English J0104G-Argentina-Banswer.\" I will identify the black line, which represents the F0 values, and examine its values at x-axis positions 100 and 200. By comparing these values, I can determine if there is an increase in the black line from x-axis value 100 to x-axis value 200."
+    },
+    {
+        "instance_id": "cd730e437e3daa074d6c80f6244840a1",
+        "question": "Is the first plot presenting the information regarding the question?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the first plot is presenting information regarding the question, I will:\n1. Examine the labels and annotations in the first plot to see if they relate to a question.\n2. Note the phonetic transcriptions and time markers to understand the context.\n3. Compare the content of the first plot with the question to see if there is a match.\n4. Conclude based on these observations whether the first plot is related to the question."
+    },
+    {
+        "instance_id": "d9c68707320e7905d1c8f312a931531f",
+        "question": "Which of the following lines are labelled as 'local mps' in the figure?",
+        "answer_pred": "D",
+        "reasoning": "1. Examine the legend in the top right corner of each spectrogram to identify which line corresponds to 'local mps'. The legend shows that 'local mps' is represented by a light gray line.\n2. Look at each spectrogram and identify the light gray line, which represents 'local mps'.\n3. In the first spectrogram (PV 01: \"English_J0104G-Argentina-Aquestion\"), the light gray line represents 'local mps'.\n4. In the second spectrogram (PV 01: \"English_J0104G-Argentina-Banswer\"), the light gray line represents 'local mps'.\n5. In the third spectrogram (PV 01: \"English_J0104G-Argentina\"), the light gray line represents 'local mps'."
+    },
+    {
+        "instance_id": "76663426848ccb8731b63dc4483f10b2",
+        "question": "In the plot \"English_J0104G-Argentina, tier \"Syllables\"\" what is the maximum value presented in the x-axis?",
+        "answer_pred": "D",
+        "reasoning": "To determine the maximum value on the x-axis for the plot \"English_J0104G-Argentina, tier 'Syllables',\" I will focus on the x-axis scale. The x-axis is labeled with time in milliseconds, ranging from 0 to 500 ms. The increments are marked at 100 ms intervals, indicating that the maximum value on the x-axis is 500 ms."
+    },
+    {
+        "instance_id": "585c3f5176577d272bde8bfb510b3823",
+        "question": "How many speakers are involved in the interview, and how does it influence the results?",
+        "answer_pred": "2",
+        "reasoning": "To determine the number of speakers, I will examine the spectrograms and transcriptions for distinct speech patterns, such as variations in pitch, rhythm, or phonetic features. The presence of multiple lines in the spectrogram or different phonetic transcriptions can indicate different speakers. I will then assess how these differences might affect the interpretation of the interview content, such as understanding the dynamics of the conversation and the roles of each speaker."
+    },
+    {
+        "instance_id": "92acf589c9f76e76bb5cd9cc13eef9ab",
+        "question": "What is the maximum value reached by the blue line on the right plot?",
+        "answer_pred": "0.38",
+        "reasoning": "To find the maximum value of the blue line on the right plot (Micro_F1 Score), I will:\n1. Identify the blue line, which represents the \"Normal Classifier.\"\n2. Observe the trajectory of the blue line across the x-axis.\n3. Locate the highest point on the blue line.\n4. Read the corresponding y-axis value to determine the maximum F1 score reached by the blue line."
+    },
+    {
+        "instance_id": "9d745950211725e3606b125e738389f6",
+        "question": "What are the two types of classifiers being compared in the figure?",
+        "answer_pred": "Normal Classifier, Embeded Classifier",
+        "reasoning": "To determine the two types of classifiers being compared, I will examine the labels on the lines in the graph. The \"Normal Classifier\" is represented by a blue line, and the \"Embeded Classifier\" is represented by a red line. These labels are consistent across both the Macro_F1 Score and Micro_F1 Score graphs, indicating that the same two classifiers are being compared in both metrics."
+    }
+]

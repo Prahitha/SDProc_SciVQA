@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "a642755d690b7ae9068d5ab0f88b7191",
+        "question": "Is the label of y-axis 'classification precision'?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the y-axis label is 'classification precision,' I will analyze the graph. The y-axis is labeled \"Classification accuracy,\" which typically refers to the proportion of correctly classified instances. The x-axis represents the length of the discriminated sub-sequences. The graph shows two lines: one for a discriminator with context and another for one without context. The shaded region likely represents a confidence interval or uncertainty around the data points. The question asks if the y-axis label is 'classification precision.' Since the y-axis is labeled \"Classification accuracy,\" it indicates the proportion of correct classifications, which aligns with the concept of precision in classification tasks."
+    },
+    {
+        "instance_id": "7e045cc686098f3bf59ae4d1aefd1bf6",
+        "question": "What is the accuracy value of the blue line at t=120?",
+        "answer_pred": "D",
+        "reasoning": "1. Identify the blue line on the graph, which represents the discriminator with context.\n2. Locate the point on the blue line corresponding to t=120 on the x-axis.\n3. Trace vertically from this point to the y-axis to determine the accuracy value.\n4. Read the accuracy value from the y-axis where the blue line intersects at t=120."
+    },
+    {
+        "instance_id": "0bf99552b78a8baeecd6ea3497e93746",
+        "question": "What is the range of values for t?",
+        "answer_pred": "B",
+        "reasoning": "To find the range of values for t, I will focus on the x-axis of the graph. The x-axis represents the length of the discriminated sub-sequences, denoted as t. Observing the graph, the x-axis starts at approximately 20 and ends at about 130. These are the minimum and maximum values on the x-axis, indicating the range of t."
+    },
+    {
+        "instance_id": "3ea0395cba052d9149fd27e112275d60",
+        "question": "What is the exact value of the accuracy of the discriminator with context at t=75?",
+        "answer_pred": "0.96",
+        "reasoning": "To find the accuracy of the discriminator with context at t=75, I will locate the point on the blue line corresponding to t=75 on the x-axis. I will then read the accuracy value from the y-axis at this point. The blue line represents the accuracy of the discriminator with context, while the orange line represents the accuracy of the discriminator without context."
+    },
+    {
+        "instance_id": "ac89d97c9df115b3f1b1f6f255dfc6e2",
+        "question": "What is the size of the blue line when the number of keywords is 500, in the rightmost plot?",
+        "answer_pred": "750",
+        "reasoning": "To solve the problem, I will focus on the rightmost plot, which shows the relationship between the number of keywords and the size in MB. The blue line represents the graph size, and I need to find its value when the number of keywords is 500. I will locate the point on the blue line corresponding to 500 keywords on the x-axis and read the value on the y-axis. This will give me the size of the graph when the number of keywords is 500."
+    },
+    {
+        "instance_id": "d7d6eb7377118c5f130d49b6438a3070",
+        "question": "What are the two index sizes being compared in Figure 7?",
+        "answer_pred": "Graph size, KIC-tree size",
+        "reasoning": "To determine the two index sizes being compared in Figure 7, I will:\n\n1. Examine the left subplot, which shows the relationship between the number of vertices and index size.\n2. Identify the two lines in the left subplot: one labeled \"Graph size\" and the other labeled \"KIC-tree size.\"\n3. Observe the right subplot, which shows the relationship between the number of keywords and index size.\n4. Identify the two lines in the right subplot: one labeled \"Graph size\" and the other labeled \"KIC-tree size.\"\n5. Note that both subplots compare the same two index sizes: \"Graph size\" and \"KIC-tree size.\"\n\nThus, the two index sizes being compared in Figure 7 are \"Graph size\" and \"KIC-tree size.\""
+    },
+    {
+        "instance_id": "319f1b8c9e27cf277c488e38b94d592b",
+        "question": "Is the blue dashed line in the left graph consistently increasing as the number of vertices increases?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the blue dashed line consistently increases as the number of vertices increases, I will focus on the left graph. The blue dashed line represents the graph size, while the magenta line represents the KIC-tree size. As the number of vertices increases from 300K to 1M, the blue dashed line shows an upward trend, indicating that the graph size consistently increases with the number of vertices."
+    },
+    {
+        "instance_id": "8a0e9cb0a3f2394fcb972d93ba4fe575",
+        "question": "Is the size of the KIC-tree consistently lower than the size of the graph for all values of vertices and keywords?",
+        "answer_pred": "Yes",
+        "reasoning": "To solve the problem, I will:\n\n1. Examine the left graph, which shows the relationship between the number of vertices and the size of the graph and KIC-tree.\n2. Note that the KIC-tree size is consistently lower than the graph size across all values of vertices.\n3. Examine the right graph, which shows the relationship between the number of keywords and the size of the graph and KIC-tree.\n4. Observe that the KIC-tree size remains consistently lower than the graph size across all values of keywords.\n5. Conclude that the size of the KIC-tree is consistently lower than the size of the graph for all values of vertices and keywords."
+    },
+    {
+        "instance_id": "cbcba0f0e3ff6ae79e06ea1fcc2bce22",
+        "question": "Which line represents the KIC-tree size?",
+        "answer_pred": "D",
+        "reasoning": "To determine which line represents the KIC-tree size, I will follow these steps:\n\n1. Examine the legend in the graph, which indicates that the turquoise line represents the graph size and the magenta line represents the KIC-tree size.\n2. Look at the left subplot, where the x-axis represents the number of vertices and the y-axis represents the size in MB. The magenta line corresponds to the KIC-tree size.\n3. In the right subplot, the x-axis represents the number of keywords, and the y-axis represents the size in MB. Again, the magenta line corresponds to the KIC-tree size.\n4. Verify that the magenta line consistently represents the KIC-tree size across both subplots."
+    },
+    {
+        "instance_id": "0de9b8454d76c8807d6e57771230fe6d",
+        "question": "What is the range of the size values in the vertices plot?",
+        "answer_pred": "B",
+        "reasoning": "To find the range of size values in the vertices plot, I will examine the y-axis of the left plot. The y-axis ranges from 0 to 3000 MB. The minimum value on the y-axis is 0 MB, and the maximum value is 3000 MB. The range is calculated by subtracting the minimum value from the maximum value: 3000 MB - 0 MB = 3000 MB."
+    }
+]

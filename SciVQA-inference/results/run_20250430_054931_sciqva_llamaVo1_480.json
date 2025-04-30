@@ -1,0 +1,62 @@
+[
+    {
+        "instance_id": "6fe7a4735cfb5521019cac60c39e3f52",
+        "question": "Does the blue line, on the left graph, reach a higher value than the red line at the x-axis value of 10,000?",
+        "answer_pred": "No",
+        "reasoning": "To solve the problem, I will focus on the left graph, which represents the Macro_F1 Score. I need to compare the y-values of the blue and red lines at the x-axis value of 10,000. The blue line represents the \"Normal Classifier,\" and the red line represents the \"Embeded Classifier.\" At the x-axis value of 10,000, the y-value of the blue line is slightly above 0.2, while the y-value of the red line is slightly below 0.2. Therefore, the blue line reaches a higher value than the red line at this point."
+    },
+    {
+        "instance_id": "fe550c3b18fadde715e80f172dacd787",
+        "question": "Does the Embedded Classifier consistently outperform the Normal Classifier in the Micro F1 Score?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the Embedded Classifier consistently outperforms the Normal Classifier in the Micro F1 Score, I will:\n\n1. Focus on the graph labeled \"Micro F1 Score.\"\n2. Identify the lines representing the two classifiers: the Normal Classifier (blue line) and the Embedded Classifier (red line).\n3. Observe the trend of both lines across the range of iterations from 0 to 10,000.\n4. Note that the Embedded Classifier line remains consistently above the Normal Classifier line throughout the iterations.\n5. Conclude that the Embedded Classifier maintains a higher Micro F1 Score than the Normal Classifier across all iterations."
+    },
+    {
+        "instance_id": "0930a0eb3fce83b191769c294e2b342c",
+        "question": "In the leftmost plot, which of the following lines show the highest score by the end of the graph?",
+        "answer_pred": "C",
+        "reasoning": "1. Identify the two lines in the leftmost plot: the blue line for the \"Normal Classifier\" and the red line for the \"Embeded Classifier.\"\n2. Observe the y-axis values for both lines at the final point on the x-axis.\n3. Compare the y-values of the two lines at the end of the graph.\n4. Determine which line has the higher y-value, indicating the higher Macro_F1 Score."
+    },
+    {
+        "instance_id": "cc9c54971f2e5accb167f6b0fdc9f308",
+        "question": "Which of the following are plotted on the Y-axis in the figure?",
+        "answer_pred": "A, B, C, D",
+        "reasoning": "To determine what is plotted on the Y-axis, I will first identify the labels on the Y-axis of each graph. The left graph is labeled \"Macro_F1 Score,\" and the right graph is labeled \"Micro_F1 Score.\" The Y-axis values range from 0.0 to 0.5 for both graphs. This indicates that the Y-axis represents F1 scores, which are metrics used to evaluate the performance of classification models."
+    },
+    {
+        "instance_id": "3edb42ed0644f7ad94d1aeaaeb143a5c",
+        "question": "What is the dataset used to generate the results depicted in Figure 6, and how does it influence the results? ",
+        "answer_pred": "BlogCatalog",
+        "reasoning": "To determine the dataset used, I will examine the labels and annotations in the image. The plots are labeled \"Macro_F1 Score\" and \"Micro_F1 Score,\" which are metrics used to evaluate the performance of classification models. The x-axis represents the number of iterations or samples, while the y-axis shows the F1 score. The lines in the plots represent the performance of two classifiers: \"Normal Classifier\" and \"Embeded Classifier.\" The \"Embeded Classifier\" consistently outperforms the \"Normal Classifier\" in both macro and micro F1 scores. This suggests that the dataset is related to blog classification, as indicated by the title \"Blogcatalog classify result1.\""
+    },
+    {
+        "instance_id": "3370ae4d9deb43d2842cfeb7a0df8737",
+        "question": "What is the value of the accuracy at the top 1000 examples with highest MCD for the blue line?",
+        "answer_pred": "0.9",
+        "reasoning": "To determine the accuracy at the top 1000 examples with the highest MCD for the blue line, I will locate the point on the graph where the x-axis value is 1000. Then, I will read the corresponding accuracy value from the y-axis. The graph shows a decreasing trend in accuracy as the number of top examples increases, so the accuracy at 1000 examples will be lower than at 0 examples."
+    },
+    {
+        "instance_id": "c5941515af46fd93260fb2c139f32651",
+        "question": "What is the accuracy of the teacher's predictions on the top 2000 target domain examples with the highest MCD value?",
+        "answer_pred": "0.75",
+        "reasoning": "To determine the accuracy of the teacher's predictions on the top 2000 target domain examples with the highest MCD value, I will locate the point on the graph where n equals 2000. I will then read the corresponding accuracy value from the y-axis. The graph shows a decreasing trend in accuracy as the number of examples increases, so the accuracy for 2000 examples will be the lowest point on the graph."
+    },
+    {
+        "instance_id": "b8c36e0a384cc0c8bd9cccccd9c09383",
+        "question": "Does the accuracy of the blue line consistently decrease as the number of top n examples with highest MCD increases?",
+        "answer_pred": "Yes",
+        "reasoning": "1. Observe the starting point of the blue line, which is at an accuracy of approximately 1.00 at 0 examples.\n2. Note that as the number of top n examples increases, the accuracy of the blue line consistently decreases.\n3. The graph shows a continuous downward trend in accuracy as the number of examples increases from 0 to 2000.\n4. This indicates that the accuracy of the blue line decreases as the number of top n examples with the highest MCD increases."
+    },
+    {
+        "instance_id": "6851972a335370179eaade42c0b03221",
+        "question": "Does the accuracy of the teacher's predictions decrease as the number of target domain examples increases?",
+        "answer_pred": "Yes",
+        "reasoning": "To determine if the accuracy of the teacher's predictions decreases as the number of target domain examples increases, I will examine the trend of the line on the graph. The line starts at a high accuracy of approximately 1.00 at 0 examples and decreases steadily as the number of examples increases to 2000. This indicates a negative correlation between the number of examples and accuracy. Therefore, the accuracy does decrease as the number of target domain examples increases."
+    },
+    {
+        "instance_id": "9f0e6d93a24af2c8ae8d780d6e8feb47",
+        "question": "What is the color of the line in the figure?",
+        "answer_pred": "D",
+        "reasoning": "To determine the color of the line in the graph, I will focus on the visual characteristics of the line itself. The line starts at a high accuracy value and decreases as the number of top examples increases. The color of the line appears to be a shade of blue. By observing the hue and saturation, I can conclude that the line is blue."
+    }
+]
