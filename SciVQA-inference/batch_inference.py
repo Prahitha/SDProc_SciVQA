@@ -37,6 +37,18 @@ parser.add_argument(
     help="train, test, validation",
 )
 parser.add_argument(
+    "--start_idx",
+    type=int,
+    required=True,
+    help="Start index of the range to process."
+)
+parser.add_argument(
+    "--end_idx",
+    type=int,
+    required=True,
+    help="End index of the range to process."
+)
+parser.add_argument(
     "--samples",
     type=int,
     default=10,
@@ -290,8 +302,12 @@ class SciQVALlamaVO1Inference():
         dataset = load_dataset("katebor/SciVQA", split=args.data_type)
 
         for idx, data in enumerate(tqdm(dataset)):
-            if idx == args.samples:
+            if idx < args.start_idx:
+                continue
+            if idx > args.end_idx:
                 break
+            # if idx == args.samples:
+            #     break
 
             try:
                 input = QAImageData(**data)
