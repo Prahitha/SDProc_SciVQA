@@ -232,12 +232,12 @@ class SciQVAEvoChartInference():
         qa_pair_prompt = self._get_visual_prompt()
         if "closed-ended" in input.qa_pair_type and "finite answer set" in input.qa_pair_type:
             if "non-binary" in input.qa_pair_type and input.answer_options:
-                qa_pair_prompt = self._get_non_binary_qa_pair_prompt(
+                qa_pair_prompt += self._get_non_binary_qa_pair_prompt(
                     input.answer_options)
             elif "binary" in input.qa_pair_type:
-                qa_pair_prompt = self._get_binary_qa_pair_prompt()
+                qa_pair_prompt += self._get_binary_qa_pair_prompt()
         else:
-            qa_pair_prompt = self._get_qa_pair_prompt()
+            qa_pair_prompt += self._get_qa_pair_prompt()
 
         messages = [
             {
