@@ -214,6 +214,9 @@ class SciQVAEvoChartInference():
             "Do not add anything else."
         )
 
+    def _get_visual_prompt(self):
+        return "Rely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+
     def _get_binary_qa_pair_prompt(self):
         return (
             "Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
@@ -235,6 +238,11 @@ class SciQVAEvoChartInference():
                 qa_pair_prompt = self._get_binary_qa_pair_prompt()
             else:
                 qa_pair_prompt = self._get_qa_pair_prompt()
+
+            if "non-visual" in input.qa_pair_type:
+                pass
+            elif "visual" in input.qa_pair_prompt:
+                qa_pair_prompt += self._get_visual_prompt()
         else:
             qa_pair_prompt = self._get_qa_pair_prompt()
 
