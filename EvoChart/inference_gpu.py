@@ -236,6 +236,8 @@ class SciQVAEvoChartInference():
                     input.answer_options)
             elif "binary" in input.qa_pair_type:
                 qa_pair_prompt += self._get_binary_qa_pair_prompt()
+            else:
+                qa_pair_prompt += self._get_qa_pair_prompt()
         else:
             qa_pair_prompt += self._get_qa_pair_prompt()
 
