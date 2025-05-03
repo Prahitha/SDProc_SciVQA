@@ -223,7 +223,7 @@ class SciQVAEvoChartInference():
         )
 
     def _get_qa_pair_prompt(self):
-        return "Give the exact correct answer, with no extra explanation."
+        return "If the graph is too complicated, take approximations from the axis scale. Give the answer, with no extra explanation."
 
     def direct_qa(self, input):
         """Direct question answering with single call"""
