@@ -215,7 +215,7 @@ class SciQVAEvoChartInference():
         )
 
     def _get_visual_prompt(self):
-        return "Rely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+        return "\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
 
     def _get_binary_qa_pair_prompt(self):
         return (
@@ -241,7 +241,7 @@ class SciQVAEvoChartInference():
 
             if "non-visual" in input.qa_pair_type:
                 pass
-            elif "visual" in input.qa_pair_prompt:
+            elif "visual" in input.qa_pair_type:
                 qa_pair_prompt += self._get_visual_prompt()
         else:
             qa_pair_prompt = self._get_qa_pair_prompt()
@@ -406,10 +406,13 @@ class SciQVAEvoChartInference():
 
             try:
                 input = QAImageData(**data)
-                result, reasoning = self.direct_qa(input)
 
-                if self._should_override_with_unanswerable(result):
-                    result = "It is not possible to answer this question based only on the provided data."
+                if input.qa_pair_type == "unanswerable":
+                    result, reasoning = "It is not possible to answer this question based only on the provided data.", input.qa_pair_type
+                else:
+                    result, reasoning = self.direct_qa(input)
+                # if self._should_override_with_unanswerable(result):
+                #     result = "It is not possible to answer this question based only on the provided data."
                 print(input.question)
                 print(result)
                 self.outputs.append({
