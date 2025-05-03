@@ -106,30 +106,45 @@ class QAImageData(BaseModel):
 
 class SciQVAEvoChartInference():
 
+    import os
+
+
+class EvoChartModel:
     def __init__(self, model_path='EvoChart'):
-        self.device_map = "auto"
-        offload_folder = "model_offload"
+        self.device = "cuda" if torch.cuda.is_available() else "cpu"
+        self.device_map = "auto"  # Better for multi-GPU; use "cuda:0" for single
+        self.offload_folder = "model_offload"
+
         self.model = AutoModelForCausalLM.from_pretrained(
             model_path,
             device_map=self.device_map,
-            offload_folder=offload_folder,
+            offload_folder=self.offload_folder,
             trust_remote_code=True,
             use_safetensors=True,
             local_files_only=True,
-            torch_dtype="auto",
-            _attn_implementation='flash_attention_2'
+            torch_dtype=torch.bfloat16,  # or torch.float16 based on support
+            _attn_implementation="flash_attention_2"  # ensure flash-attn is installed
         )
+
+        self.processor = AutoProcessor.from_pretrained(
+            model_path,
+            trust_remote_code=True,
+            num_crops=4
+        )
+
         self.run_name = datetime.now().strftime("evochart_run_%Y%m%d_%H%M%S")
-        self.processor = AutoProcessor.from_pretrained(model_path, trust_remote_code=True,
-                                                       num_crops=4)
         os.makedirs("results", exist_ok=True)
+
         self.kwargs = {
             "max_new_tokens": 512,
             "temperature": 0.0,
             "do_sample": False,
             "use_cache": False,
         }
+
         self.outputs = []
+
+        print(f"✅ Model loaded on: {self.device_map}")
 
     def _generate_response(self, messages, images):
         """Helper function to generate a single response"""
@@ -349,7 +364,8 @@ class SciQVAEvoChartInference():
 
                 # if self._should_override_with_unanswerable(reasoning):
                 #     result = "It is not possible to answer this question based only on the provided data."
-
+                print(input.question)
+                print(result)
                 self.outputs.append({
                     "instance_id": input.instance_id,
                     "question": input.question,
