@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "956f3a549f55b19ffc900911ec4fdf29",
+        "question": "What is the classification accuracy of the blue rectangle in the bottom leftmost part?",
+        "answer_pred": "91.2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 18: POS-based classification accuracy on states from the ENDE decoder.\n\nQuestion: What is the classification accuracy of the blue rectangle in the bottom leftmost part?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "ba4e99379c0ba7ef3d6fd6a2502a08d8",
+        "question": "What is the classification accuracy for layer 6 on states from the ENDE decoder for the category 'OTHER'?",
+        "answer_pred": "0.02",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 18: POS-based classification accuracy on states from the ENDE decoder.\n\nQuestion: What is the classification accuracy for layer 6 on states from the ENDE decoder for the category 'OTHER'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c21affcb0af4e475e6b3896da68dcc61",
+        "question": "Are there 4 blue rectangles?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 18: POS-based classification accuracy on states from the ENDE decoder.\n\nQuestion: Are there 4 blue rectangles?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "dea22e8ebd5b21d2c6cfadb68e02daeb",
+        "question": "Does the classification accuracy for layer 6 on NOUNS have a lower accuracy than that of layer 5 on NOUNS?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 18: POS-based classification accuracy on states from the ENDE decoder.\n\nQuestion: Does the classification accuracy for layer 6 on NOUNS have a lower accuracy than that of layer 5 on NOUNS?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "072cf4596194d776145527be156f10ba",
+        "question": "Which layer has more red rectangles across all categories?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 18: POS-based classification accuracy on states from the ENDE decoder.\n\nQuestion: Which layer has more red rectangles across all categories?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'layer 6'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "80ff7eb12c030ba74379cfc16b59ba22",
+        "question": "Which of the following POS categories has the highest classification accuracy on the ENDE decoder across all layers?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 18: POS-based classification accuracy on states from the ENDE decoder.\n\nQuestion: Which of the following POS categories has the highest classification accuracy on the ENDE decoder across all layers?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'OTHER'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8591802b9cb4274e4f1c7473d6155a7a",
+        "question": "What is the specific task the ENDE decoder was trained on, and how does it relate to the POS-based classification accuracy shown in Figure 18?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "f80ff574bb7b1c9f484db83817856d88",
+        "question": "What is the value represented by the white cell in the confusion matrix shown in Figure 4?",
+        "answer_pred": "0.02",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Confusion Matrix shows results for Sub-task B using Bidirectional GRU\n\nQuestion: What is the value represented by the white cell in the confusion matrix shown in Figure 4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "04e9dd7b4da332cee6d13fbb09c2be4a",
+        "question": "What is the value for the case that correctly predicts and labels TIN?",
+        "answer_pred": "0.95",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Confusion Matrix shows results for Sub-task B using Bidirectional GRU\n\nQuestion: What is the value for the case that correctly predicts and labels TIN?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "a426cc23ee1fd3750d16aadc1fc814fc",
+        "question": "Is the red cell in the confusion matrix located in the bottom right quadrant?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Confusion Matrix shows results for Sub-task B using Bidirectional GRU\n\nQuestion: Is the red cell in the confusion matrix located in the bottom right quadrant?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

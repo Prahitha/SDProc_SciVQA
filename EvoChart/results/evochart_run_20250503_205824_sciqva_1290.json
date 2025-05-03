@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "62a053118565f9d97e01e684ee58a82b",
+        "question": "How many dashed lines are in the leftmost tree?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The composition operation\n\nQuestion: How many dashed lines are in the leftmost tree?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "734bceeb66467c17f49d24b7dbba4e04",
+        "question": "How many nodes are in the tree that contains 2 'Anne' nodes as leaves?",
+        "answer_pred": "3",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The composition operation\n\nQuestion: How many nodes are in the tree that contains 2 'Anne' nodes as leaves?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c6669f1d429d4836552086ab1f9b9d4e",
+        "question": "Is there a dashed line connecting the two 'S' nodes in the first tree?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The composition operation\n\nQuestion: Is there a dashed line connecting the two 'S' nodes in the first tree?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "23e7b8cd720798981ba51822d9211720",
+        "question": "Is the node 'S' present in all trees examples?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The composition operation\n\nQuestion: Is the node 'S' present in all trees examples?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "56bddb8774b03a1e8c894b0d481ea7f3",
+        "question": "What is the lowest leaf in the leftmost tree?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The composition operation\n\nQuestion: What is the lowest leaf in the leftmost tree?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'S'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "c6de40028c76a4f708db56660d9d78cc",
+        "question": "What is minimum number of child nodes does VP have in all the trees shown in figure 3?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The composition operation\n\nQuestion: What is minimum number of child nodes does VP have in all the trees shown in figure 3?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '4'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "7e7d0cecc4da27906b6f7fdc138f11ea",
+        "question": "What is the time complexity of the composition operation?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "fe7a731d96e7a9d864fd399697789583",
+        "question": "What is the value of TEXT-LEVEL for the bottom-most NUCLEUS node?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Domain assignments\n\nQuestion: What is the value of TEXT-LEVEL for the bottom-most NUCLEUS node?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f99a7b812c34b913e448d7c70b6aaccd",
+        "question": "What is the value of CONNECTIVE for the satellite 'cause'?",
+        "answer_pred": "0.02",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Domain assignments\n\nQuestion: What is the value of CONNECTIVE for the satellite 'cause'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "50f00107250d29b466ec69ddf3b17e45",
+        "question": "Is the value of 'TEXT-LEVEL' equal to {1,2} for the 'SATELLITE' node at the bottom right of the figure?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Domain assignments\n\nQuestion: Is the value of 'TEXT-LEVEL' equal to {1,2} for the 'SATELLITE' node at the bottom right of the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

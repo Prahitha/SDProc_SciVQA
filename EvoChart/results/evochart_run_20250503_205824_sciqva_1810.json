@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "c01315882852ac2d8fdc752386b57c67",
+        "question": "Is the number of correctly identified PP-attachments for the black line at 60 iteration higher than 30?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Iterations Vs. Correct PP-attachments\n\nQuestion: Is the number of correctly identified PP-attachments for the black line at 60 iteration higher than 30?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "c9fd8cf13342448395f7ba9cff35f4ed",
+        "question": "Does the number of correctly identified PP-attachments consistently decrease with increasing iterations?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Iterations Vs. Correct PP-attachments\n\nQuestion: Does the number of correctly identified PP-attachments consistently decrease with increasing iterations?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "80582b4b5edea2cd8a9f1370dabd0299",
+        "question": "What is the shape of the line in Figure 8?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Iterations Vs. Correct PP-attachments\n\nQuestion: What is the shape of the line in Figure 8?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Flat'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "562970d6cab1c2b1eae73b0c48fba9ba",
+        "question": "Which of the following are true about the number of iterations and the number of correctly identified PP-attachments?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Iterations Vs. Correct PP-attachments\n\nQuestion: Which of the following are true about the number of iterations and the number of correctly identified PP-attachments?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The number of correctly identified PP-attachments has no clear trend with the number of iterations.'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "da9fe6d171bad361d319ab705bdca76d",
+        "question": "What is the specific algorithm used for identifying PP-attachments in this experiment?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "0aa15062de0aae3899552b47716583f1",
+        "question": "What is the approximate value of the orange circle at 384k oracle requests (Budget B) on the bottom graph?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Top: Accuracy during training (solid lines) and chance level (dashed lines) per answer type. Bottom: Normalized informative scores per answer type, averaged over 10k questions. See Section 5.4 for details.\n\nQuestion: What is the approximate value of the orange circle at 384k oracle requests (Budget B) on the bottom graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "21db1329c7bdf36aa5dcf078ab9c3086",
+        "question": "Which answer type has the lowest informative score at 512k oracle requests?",
+        "answer_pred": "yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Top: Accuracy during training (solid lines) and chance level (dashed lines) per answer type. Bottom: Normalized informative scores per answer type, averaged over 10k questions. See Section 5.4 for details.\n\nQuestion: Which answer type has the lowest informative score at 512k oracle requests?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "6d40d3b5514ae213ac2747566e7aa647",
+        "question": "Is the solid purple line in the top plot consistently above the green line?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Top: Accuracy during training (solid lines) and chance level (dashed lines) per answer type. Bottom: Normalized informative scores per answer type, averaged over 10k questions. See Section 5.4 for details.\n\nQuestion: Is the solid purple line in the top plot consistently above the green line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "bc4dabdcc90dac88457182b9a2a0639c",
+        "question": "Does the accuracy for the 'count' answer type show an increase during training?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Top: Accuracy during training (solid lines) and chance level (dashed lines) per answer type. Bottom: Normalized informative scores per answer type, averaged over 10k questions. See Section 5.4 for details.\n\nQuestion: Does the accuracy for the 'count' answer type show an increase during training?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "f0d74fbdec89ac963ca0946392705739",
+        "question": "What does the blue line in the top graph represent?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Top: Accuracy during training (solid lines) and chance level (dashed lines) per answer type. Bottom: Normalized informative scores per answer type, averaged over 10k questions. See Section 5.4 for details.\n\nQuestion: What does the blue line in the top graph represent?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'size'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

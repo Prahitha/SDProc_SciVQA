@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "5fce4f97390a48567773062c68ba215c",
+        "question": "What is the highest density achieved?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Density of D estimates for binary biphone characters. Dotted lines mark D = 0, the phylogenetic expectation, and D = 1, the random expectation. Mean D for all characters is 0.43, marked in red.\n\nQuestion: What is the highest density achieved?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0.4'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "d4d78590ae5d2fc3a167b83f38d1d38f",
+        "question": "What is the specific type of biphone characters used in this study?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "69c8fa5702e163ae4fe819647964aa08",
+        "question": "What is the value of the solid black line at Top k = 50?",
+        "answer_pred": "0.99",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Accuracy vs. latency of DNNC-joint.\n\nQuestion: What is the value of the solid black line at Top k = 50?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "d3aee8cbc7f301060350f0e073043d59",
+        "question": "What is the maximum latency value shown on the graph?",
+        "answer_pred": "100",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Accuracy vs. latency of DNNC-joint.\n\nQuestion: What is the maximum latency value shown on the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "11ef9e3e8a1725bdfca12230fa35ed81",
+        "question": "Does the black line representing latency increase with the value on the x-axis?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Accuracy vs. latency of DNNC-joint.\n\nQuestion: Does the black line representing latency increase with the value on the x-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "c0a42de28bf676d133a800a5df4feb4d",
+        "question": "Does the latency of the model increase as the value of Top k increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Accuracy vs. latency of DNNC-joint.\n\nQuestion: Does the latency of the model increase as the value of Top k increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "1acf20b3d74f8fc162ff3bc5f78869a4",
+        "question": "Which line has the lowest value at Top k = 1?",
+        "answer_pred": "Black Line",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Accuracy vs. latency of DNNC-joint.\n\nQuestion: Which line has the lowest value at Top k = 1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Black Line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "e1d5117964bad4cfa6a603d8f39e5427",
+        "question": "Which of the following metrics are represented in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Accuracy vs. latency of DNNC-joint.\n\nQuestion: Which of the following metrics are represented in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Recall'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "09add910e65285101ab4ba93eba15616",
+        "question": "What is the specific task or application that the DNNC-joint model is being used for?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "feac505759f697dafcb25abd1f8ce7ee",
+        "question": "How many circles are formed with a solid black line?",
+        "answer_pred": "8",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The update rule (Equation 2) can be understood as choosing a minimal edge-cut, thereby greedily maximizing intra-cluster similarity and minimizing intercluster similarity. Assuming equal weight for all edges above, label 3 is chosen for the vertex being updated such that the sum of weights of edges crossing the cut is minimal.\n\nQuestion: How many circles are formed with a solid black line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

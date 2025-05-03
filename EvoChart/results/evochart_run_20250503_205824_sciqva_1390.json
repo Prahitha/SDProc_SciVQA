@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "e91c341203470bc97ca626b5587deb5d",
+        "question": "Is the tallest bar in the left histogram located at a length of 100 tokens?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Number of white space separated tokens in training questions (title plus body.) and answers (for answerable questions only). The bin at 200 also contains all questions longer than 200 tokens.\n\nQuestion: Is the tallest bar in the left histogram located at a length of 100 tokens?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "c65cd59360652ac67614bec7c24bdc79",
+        "question": "Are there more training questions with a length of less than 150 tokens than there are training answers with a length of less than 25tokens?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Number of white space separated tokens in training questions (title plus body.) and answers (for answerable questions only). The bin at 200 also contains all questions longer than 200 tokens.\n\nQuestion: Are there more training questions with a length of less than 150 tokens than there are training answers with a length of less than 25tokens?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "143d80f171dfba62f7b9707d5a990684",
+        "question": "Which of the following bins has the tallest purple bar in the right graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Number of white space separated tokens in training questions (title plus body.) and answers (for answerable questions only). The bin at 200 also contains all questions longer than 200 tokens.\n\nQuestion: Which of the following bins has the tallest purple bar in the right graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '75'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "057f635f7b558f9832220d9092355a0b",
+        "question": "Which of these token lengths are found in the training questions?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Number of white space separated tokens in training questions (title plus body.) and answers (for answerable questions only). The bin at 200 also contains all questions longer than 200 tokens.\n\nQuestion: Which of these token lengths are found in the training questions?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '200'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "fc414d245cdc84da3d786043cc77edd1",
+        "question": "What is the average length of answerable questions in the training set?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "5ddbd5916364dfce6e14ef42844473f8",
+        "question": "What is the approximate value of the blue bar for Long 1 dataset?",
+        "answer_pred": "0.52",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: SeqAcc for the Location Attender and best baseline on the Long Lookup Tables task (10 runs).\n\nQuestion: What is the approximate value of the blue bar for Long 1 dataset?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "1060f2a8491eae1ea2ec7f4c1996fef4",
+        "question": "How many datasets were used for the Location Attender and Transformer Attention experiment?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: SeqAcc for the Location Attender and best baseline on the Long Lookup Tables task (10 runs).\n\nQuestion: How many datasets were used for the Location Attender and Transformer Attention experiment?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "2bf2aecb9825c933b504fb0966b50f1c",
+        "question": "Is the value of the orange bar in the \"Long 1\" dataset higher than the value of the blue bar in the \"Long 2\" dataset?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: SeqAcc for the Location Attender and best baseline on the Long Lookup Tables task (10 runs).\n\nQuestion: Is the value of the orange bar in the \"Long 1\" dataset higher than the value of the blue bar in the \"Long 2\" dataset?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "b77e078d10dce839260814f81dded61c",
+        "question": "Does the Location Attender always perform better than the Transformer Attention on the Long Lookup Tables task?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: SeqAcc for the Location Attender and best baseline on the Long Lookup Tables task (10 runs).\n\nQuestion: Does the Location Attender always perform better than the Transformer Attention on the Long Lookup Tables task?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "55215f3d30066961b1e92fc097bdc10e",
+        "question": "Which dataset shows the lowest value for blue bar?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: SeqAcc for the Location Attender and best baseline on the Long Lookup Tables task (10 runs).\n\nQuestion: Which dataset shows the lowest value for blue bar?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Long 3'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

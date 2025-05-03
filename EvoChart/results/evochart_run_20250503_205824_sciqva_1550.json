@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "7227e98fb3698079ead342efa31b77c6",
+        "question": "What is the maximum value shown on the y-axis?",
+        "answer_pred": "100",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5.2: Frequencies of the most frequent 100 words in a corpus of length 1 000 000 and vocabulary of size 56 000. A wider step means more words with the same frequency.\n\nQuestion: What is the maximum value shown on the y-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "51d8fb7edc8f3c89ed55bde92c739d96",
+        "question": "Is the value of the blue line at the end of the graph 1?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5.2: Frequencies of the most frequent 100 words in a corpus of length 1 000 000 and vocabulary of size 56 000. A wider step means more words with the same frequency.\n\nQuestion: Is the value of the blue line at the end of the graph 1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "f07f1352320cdca52a75882cd5ed714b",
+        "question": "Is the frequency of word consistently increasing according to the graph?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5.2: Frequencies of the most frequent 100 words in a corpus of length 1 000 000 and vocabulary of size 56 000. A wider step means more words with the same frequency.\n\nQuestion: Is the frequency of word consistently increasing according to the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "4c953786dc8f148ff79445814fe151f9",
+        "question": "What is the overall shape of the curve in the graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5.2: Frequencies of the most frequent 100 words in a corpus of length 1 000 000 and vocabulary of size 56 000. A wider step means more words with the same frequency.\n\nQuestion: What is the overall shape of the curve in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Wavy'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "ca92040345861b6da5b12834bd6d0e74",
+        "question": "Which of the following are true about the data displayed in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5.2: Frequencies of the most frequent 100 words in a corpus of length 1 000 000 and vocabulary of size 56 000. A wider step means more words with the same frequency.\n\nQuestion: Which of the following are true about the data displayed in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The frequency of the most frequent word is greater than 500000.'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "e7108ac152b344acb24668f0b759da38",
+        "question": "What are the 5 most frequent words in the corpus?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "1beadf8609b6fcff6ede4f2f51f16ee4",
+        "question": "What is the approximate value of lambda when the blue dashed line in the left graph reaches its peak?",
+        "answer_pred": "0.01",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Results on IWSLT14 De\u2192En and WMT14 En\u2192De with different \u03bb.\n\nQuestion: What is the approximate value of lambda when the blue dashed line in the left graph reaches its peak?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "07417cf30d8c4c809761c14e1da10e0f",
+        "question": "What does the graph (a) represent?",
+        "answer_pred": "I'm sorry, but I am not able to provide an analysis or interpretation of the graph based on the information given. Could you please provide more details or clarify your question?",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Results on IWSLT14 De\u2192En and WMT14 En\u2192De with different \u03bb.\n\nQuestion: What does the graph (a) represent?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c8887a1d8d0a5352a4f1b5cfb117df75",
+        "question": "Does the blue line on the right graph have a higher peak than the blue line on the left graph?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Results on IWSLT14 De\u2192En and WMT14 En\u2192De with different \u03bb.\n\nQuestion: Does the blue line on the right graph have a higher peak than the blue line on the left graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "31146aea2f7f2e755ab4124111240aa2",
+        "question": "Is the maximum BLEU score achieved in IWSLT14 De\u2192En higher than 35.7?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Results on IWSLT14 De\u2192En and WMT14 En\u2192De with different \u03bb.\n\nQuestion: Is the maximum BLEU score achieved in IWSLT14 De\u2192En higher than 35.7?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

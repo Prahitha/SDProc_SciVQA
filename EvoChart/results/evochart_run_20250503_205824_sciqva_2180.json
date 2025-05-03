@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "b79734cb9af35a6e68fb5e439ccec756",
+        "question": "What is the maximum error for English reported in figure 12?",
+        "answer_pred": "0.22",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIG. 12: Neural network learning. Error vs epoch of training. Upper panel: English vs Italian. Lower panel: French vs Swedish. Notice that the error on English (namely the percentage of English sentences that are mistakenly classified as Italian) is higher than the error on Italian. By contrast, the error of French vs Swedish is almost symmetric.\n\nQuestion: What is the maximum error for English reported in figure 12?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "fd29ea2d57487140bbc6d0b1cc0d367c",
+        "question": "Do the blue or red lines in either graph consistently decrease with epochs?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIG. 12: Neural network learning. Error vs epoch of training. Upper panel: English vs Italian. Lower panel: French vs Swedish. Notice that the error on English (namely the percentage of English sentences that are mistakenly classified as Italian) is higher than the error on Italian. By contrast, the error of French vs Swedish is almost symmetric.\n\nQuestion: Do the blue or red lines in either graph consistently decrease with epochs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8c43080047042608c5f9de6d2bac5efc",
+        "question": "Are language errors reported for as many epochs as training and validation errors?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIG. 12: Neural network learning. Error vs epoch of training. Upper panel: English vs Italian. Lower panel: French vs Swedish. Notice that the error on English (namely the percentage of English sentences that are mistakenly classified as Italian) is higher than the error on Italian. By contrast, the error of French vs Swedish is almost symmetric.\n\nQuestion: Are language errors reported for as many epochs as training and validation errors?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "c6fd31a10595c3ebc91678d8b1d42e09",
+        "question": "In which corner of the graphs is the legend located?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIG. 12: Neural network learning. Error vs epoch of training. Upper panel: English vs Italian. Lower panel: French vs Swedish. Notice that the error on English (namely the percentage of English sentences that are mistakenly classified as Italian) is higher than the error on Italian. By contrast, the error of French vs Swedish is almost symmetric.\n\nQuestion: In which corner of the graphs is the legend located?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Bottom right'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "6028bef6e0818a49ac9aea2dc76dcc0b",
+        "question": "Which language pair was trained for at least 80 epochs?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIG. 12: Neural network learning. Error vs epoch of training. Upper panel: English vs Italian. Lower panel: French vs Swedish. Notice that the error on English (namely the percentage of English sentences that are mistakenly classified as Italian) is higher than the error on Italian. By contrast, the error of French vs Swedish is almost symmetric.\n\nQuestion: Which language pair was trained for at least 80 epochs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "fe80c13624c4f355eecae93143330304",
+        "question": "What is the size of the training set used in the experiment? ",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "432e9e39c79a342aafdd807970ad13e8",
+        "question": "What is the approximate value of the square at 4 million training queries?",
+        "answer_pred": "0.83",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nThe Performance of relevance-based embedding models with respect to different amount of training data (training queries), in terms of F1-measure.\n\nQuestion: What is the approximate value of the square at 4 million training queries?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "ec27ae099fec4017e14d4eb78e3c0fc0",
+        "question": "What is the lowest F1-measure for RLM at any number of queries?",
+        "answer_pred": "0.59",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nThe Performance of relevance-based embedding models with respect to different amount of training data (training queries), in terms of F1-measure.\n\nQuestion: What is the lowest F1-measure for RLM at any number of queries?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "6c3cf71e9e88dc8f43ccd92cb4a1be7d",
+        "question": "Are there any colors used in figure 6?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nThe Performance of relevance-based embedding models with respect to different amount of training data (training queries), in terms of F1-measure.\n\nQuestion: Are there any colors used in figure 6?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8ee89ccefed0f8cf45b81059efc82230",
+        "question": "Does the performance of the RLM model improve with increasing training data?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nThe Performance of relevance-based embedding models with respect to different amount of training data (training queries), in terms of F1-measure.\n\nQuestion: Does the performance of the RLM model improve with increasing training data?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

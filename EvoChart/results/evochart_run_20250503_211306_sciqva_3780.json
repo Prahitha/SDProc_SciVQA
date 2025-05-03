@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "06bc44d044bf81f24219ffcd78c3235d",
+        "question": "Which of the following media types have clickbait posts receiving more attention (reactions/shares/comments) on average than non-clickbait posts?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 8. Top: Print media, Middle: Broadcast media, Bottom: Unreliable media. Blue areas indicate that on average, a clickbait post (link or video) receives more attention (reactions/shares/comments) than a non-clickbait post. Green areas indicate the opposite.\n\nQuestion: Which of the following media types have clickbait posts receiving more attention (reactions/shares/comments) on average than non-clickbait posts?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "5cb9131685dfd218f6ce9b7e79053df9",
+        "question": "What is the dataset that the plots of figure 8 are based on?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "97061b14b647ce17a7ca16d855b3d886",
+        "question": "What is the approximate value of the blue line at iteration 7?",
+        "answer_pred": "0.012",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Hit ratio (|Ui|/|C|) in terms of each iteration number by LR, +Fd(p), and HB. The upper and lower graphs start with one and three seeds, respectively.\n\nQuestion: What is the approximate value of the blue line at iteration 7?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "52951a3dde44ab08871b5808235ad25b",
+        "question": "What is the maximum value for the hit ratio on the y axis?",
+        "answer_pred": "1.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Hit ratio (|Ui|/|C|) in terms of each iteration number by LR, +Fd(p), and HB. The upper and lower graphs start with one and three seeds, respectively.\n\nQuestion: What is the maximum value for the hit ratio on the y axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "1f0d26e17aca8889de9419b6a52c2e58",
+        "question": "Is the value of the orange line (LR) higher than that of the green line (+Fd(p)) at iteration 10 in the graph with three seeds?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Hit ratio (|Ui|/|C|) in terms of each iteration number by LR, +Fd(p), and HB. The upper and lower graphs start with one and three seeds, respectively.\n\nQuestion: Is the value of the orange line (LR) higher than that of the green line (+Fd(p)) at iteration 10 in the graph with three seeds?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "9402ee9fe76a87001f593593866df777",
+        "question": "Does the hit ratio for LR generally decrease as the iteration number increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Hit ratio (|Ui|/|C|) in terms of each iteration number by LR, +Fd(p), and HB. The upper and lower graphs start with one and three seeds, respectively.\n\nQuestion: Does the hit ratio for LR generally decrease as the iteration number increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "ed8133d4d9f514fb41bcb814d15995ed",
+        "question": "What is the marker shape for the blue line?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Hit ratio (|Ui|/|C|) in terms of each iteration number by LR, +Fd(p), and HB. The upper and lower graphs start with one and three seeds, respectively.\n\nQuestion: What is the marker shape for the blue line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'X'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "7c374107d96fd5b9aa069395cae579c6",
+        "question": "Which method starts with the lowest value for hit ratio?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Hit ratio (|Ui|/|C|) in terms of each iteration number by LR, +Fd(p), and HB. The upper and lower graphs start with one and three seeds, respectively.\n\nQuestion: Which method starts with the lowest value for hit ratio?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'More than one method have the same minimum value at 0 iterations.'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "6df59f3bd685b98d13a355843d62cbde",
+        "question": "What is the task under discussion in figure 7?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "00a69dfab50cf4df146ef475ff20f1f9",
+        "question": "What is the approximate value of the red line at the 1k mark in the top right graph?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Word accuracy on the development sets for different amounts of training data (note that the x-axis is log-scaled); NMT-1 is the model by Bollmann (2018), NMT-2 is the model by Tang et al. (2018).\n\nQuestion: What is the approximate value of the red line at the 1k mark in the top right graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "883f56c45c6c1a37e628332fada53184",
+        "question": "What is the approximate value of the green line at x- axis value of 5 in the top left graph?",
+        "answer_pred": "0.02",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIG. 3: For three English novels two measures, the skew and a cos-measure, are used to compare the word transition matrices of the goSSR model (blue) those of real texts (red) and their associated Bernoulli model (black). The values for the Simon model (green) with varying W0 (from 1 to 10), and the random typewriting model (magenta) for V = 30, are shown.\n\nQuestion: What is the approximate value of the green line at x- axis value of 5 in the top left graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "44208a2b3c55f71f89b45147042e2c9f",
+        "question": "What is the approximate skew value of Bernoulli model at x-axis value of 5 in graph titled 'Two Captains'?",
+        "answer_pred": "0.02",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIG. 3: For three English novels two measures, the skew and a cos-measure, are used to compare the word transition matrices of the goSSR model (blue) those of real texts (red) and their associated Bernoulli model (black). The values for the Simon model (green) with varying W0 (from 1 to 10), and the random typewriting model (magenta) for V = 30, are shown.\n\nQuestion: What is the approximate skew value of Bernoulli model at x-axis value of 5 in graph titled 'Two Captains'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "195af686d33d8680c1446360a74df076",
+        "question": "In the 'Two Captains' plot, is the value of the green line consistently higher than the value of the red line for the 'skew' measure?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIG. 3: For three English novels two measures, the skew and a cos-measure, are used to compare the word transition matrices of the goSSR model (blue) those of real texts (red) and their associated Bernoulli model (black). The values for the Simon model (green) with varying W0 (from 1 to 10), and the random typewriting model (magenta) for V = 30, are shown.\n\nQuestion: In the 'Two Captains' plot, is the value of the green line consistently higher than the value of the red line for the 'skew' measure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e2129277a6fecf7d2f4d48ecff8f82f1",
+        "question": "Are the values for the goSSR model consistently lower than those of the Bernoulli model for the skew measure?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIG. 3: For three English novels two measures, the skew and a cos-measure, are used to compare the word transition matrices of the goSSR model (blue) those of real texts (red) and their associated Bernoulli model (black). The values for the Simon model (green) with varying W0 (from 1 to 10), and the random typewriting model (magenta) for V = 30, are shown.\n\nQuestion: Are the values for the goSSR model consistently lower than those of the Bernoulli model for the skew measure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "b9ea42f91801c757ab5b7b0a4a971d4e",
+        "question": "What is the colour of the topmost line in the top right graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIG. 3: For three English novels two measures, the skew and a cos-measure, are used to compare the word transition matrices of the goSSR model (blue) those of real texts (red) and their associated Bernoulli model (black). The values for the Simon model (green) with varying W0 (from 1 to 10), and the random typewriting model (magenta) for V = 30, are shown.\n\nQuestion: What is the colour of the topmost line in the top right graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Magenta'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8d524ec9d0ad70f4beed5092172c922d",
+        "question": "How does the performance of goSSR change in terms of COS as Ng increases?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIG. 3: For three English novels two measures, the skew and a cos-measure, are used to compare the word transition matrices of the goSSR model (blue) those of real texts (red) and their associated Bernoulli model (black). The values for the Simon model (green) with varying W0 (from 1 to 10), and the random typewriting model (magenta) for V = 30, are shown.\n\nQuestion: How does the performance of goSSR change in terms of COS as Ng increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'It worsens continuously'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "abed73a1c2614f53ef5fa68dc45e27de",
+        "question": "What is the size of the dataset used in the experiment?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "09936af348026167eef604b9d5a98e84",
+        "question": "What is the approximate value of the blue line at a size of summary of 10 in the right graph?",
+        "answer_pred": "0.5",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 22: CelebA dataset: Variation of fraction of gender anti-stereotypical images and accuracy vs size of summary for all algorithms.\n\nQuestion: What is the approximate value of the blue line at a size of summary of 10 in the right graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "18f1b17b7691c5772e3087268d317c30",
+        "question": "What is the title of graph (a)?",
+        "answer_pred": "Fraction of Gender Anti-Stereotypical Images",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 22: CelebA dataset: Variation of fraction of gender anti-stereotypical images and accuracy vs size of summary for all algorithms.\n\nQuestion: What is the title of graph (a)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "223d9a3596ed690b8ae72c395e7383e4",
+        "question": "Is the red line consistently above the pink line in graph on the left?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 22: CelebA dataset: Variation of fraction of gender anti-stereotypical images and accuracy vs size of summary for all algorithms.\n\nQuestion: Is the red line consistently above the pink line in graph on the left?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

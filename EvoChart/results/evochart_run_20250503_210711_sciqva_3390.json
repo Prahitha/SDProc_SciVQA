@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "2cb85a663cc48f46bdcf2dc1cca679c0",
+        "question": "What is the label of the node connected to the left of the node labeled 'PRISONS'?",
+        "answer_pred": "OVERCROWDING",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2 Parser Output for Query \u201cCoping with overcrowded prisons\"\n\nQuestion: What is the label of the node connected to the left of the node labeled 'PRISONS'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "aa006c70e08b5e8b3683c8594eb55f73",
+        "question": "What is the part of speech of 'coping'?",
+        "answer_pred": "VBN",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2 Parser Output for Query \u201cCoping with overcrowded prisons\"\n\nQuestion: What is the part of speech of 'coping'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "62c2a01f9e85541c53344ab4162cc495",
+        "question": "Is the word 'PRISONS' positioned to the right of 'OVERCROWDED' in the diagram?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2 Parser Output for Query \u201cCoping with overcrowded prisons\"\n\nQuestion: Is the word 'PRISONS' positioned to the right of 'OVERCROWDED' in the diagram?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e6c4c8cdc012beebc24858cc16947b74",
+        "question": "Is 'coping' a verb?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2 Parser Output for Query \u201cCoping with overcrowded prisons\"\n\nQuestion: Is 'coping' a verb?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "0284cfbbda1e93f05c000f3e44bccae9",
+        "question": "Which of the following words are written in red in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2 Parser Output for Query \u201cCoping with overcrowded prisons\"\n\nQuestion: Which of the following words are written in red in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'COPING, WITH, OVERCROWDED'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "492a9e0262274610ab55e717f5fadfa6",
+        "question": "What part of speech is the word 'overcrowded' in the sentence 'Coping with overcrowded prisons'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2 Parser Output for Query \u201cCoping with overcrowded prisons\"\n\nQuestion: What part of speech is the word 'overcrowded' in the sentence 'Coping with overcrowded prisons'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Preposition'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "cf7eb9b62eba4e848971b66d6b942948",
+        "question": "What is the specific method used to cope with overcrowded prisons that is discussed in the paper?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "76d42ac8d08033199459d0d2f44357f5",
+        "question": "How many vertical lines are drawn from the left side to the right side?",
+        "answer_pred": "11",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Example of preordering.\n\nQuestion: How many vertical lines are drawn from the left side to the right side?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "d7ef09127fc4b084edb1c1c889e71785",
+        "question": "What is city is mention in the original sentence?",
+        "answer_pred": "Kyoto",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Example of preordering.\n\nQuestion: What is city is mention in the original sentence?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "54856f9294e544a21b11d3ef1a3cab6a",
+        "question": "Are the lines connecting the top and bottom sentences parallel?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Example of preordering.\n\nQuestion: Are the lines connecting the top and bottom sentences parallel?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

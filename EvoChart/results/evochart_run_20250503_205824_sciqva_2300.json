@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "8b102d3329cc1139f0b37e8814e624a9",
+        "question": "Is the blue line in the right plot consistently higher than the green line?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: BLEU scores for different uncertainty estimators under various retained data rates. The model is trained for EN to VI tasks with 133k training data using 350k steps.\n\nQuestion: Is the blue line in the right plot consistently higher than the green line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "549bda1d8830f035d46407904b74c5fe",
+        "question": "Is the highest BLEU score for BLEUVar higher than 60 in graphs (a) and (b)?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: BLEU scores for different uncertainty estimators under various retained data rates. The model is trained for EN to VI tasks with 133k training data using 350k steps.\n\nQuestion: Is the highest BLEU score for BLEUVar higher than 60 in graphs (a) and (b)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "851492bcca1940aaf775e38df312a5b6",
+        "question": "Which line in the rightmost subplot have the highest value when all data is retained?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: BLEU scores for different uncertainty estimators under various retained data rates. The model is trained for EN to VI tasks with 133k training data using 350k steps.\n\nQuestion: Which line in the rightmost subplot have the highest value when all data is retained?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "89e6fbd8c0d5a39b9980a385f452bdec",
+        "question": "What are the uncertainty estimators used in the experiment?",
+        "answer_pred": "B,C",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: BLEU scores for different uncertainty estimators under various retained data rates. The model is trained for EN to VI tasks with 133k training data using 350k steps.\n\nQuestion: What are the uncertainty estimators used in the experiment?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'BLEUVar'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "be65064b13fc34fa6241b5db4b3ee7a8",
+        "question": "What specific architecture is used to train the model for the EN to VI tasks?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "e234beaa0b9b0013486a80ceffae5361",
+        "question": "What is the value of the orange line at the 60% conversation segment in the rightmost graph?",
+        "answer_pred": "0.22",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Mean naive distance, backwards-range (\u2190\u2212\u03c3 ), and % of utterances with questions, per segment for riskassessed (orange) and non-risk-assessed (black) conversations; solid circles indicate statistically significant differences (Wilcoxon p < 0.01, comparing conversation types within counselor).\n\nQuestion: What is the value of the orange line at the 60% conversation segment in the rightmost graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "269e77c4a2f42f70198220f21cab6f57",
+        "question": "Which conversation has the highest naive distance at 40% conversation segment/",
+        "answer_pred": "non-risk-assessed",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Mean naive distance, backwards-range (\u2190\u2212\u03c3 ), and % of utterances with questions, per segment for riskassessed (orange) and non-risk-assessed (black) conversations; solid circles indicate statistically significant differences (Wilcoxon p < 0.01, comparing conversation types within counselor).\n\nQuestion: Which conversation has the highest naive distance at 40% conversation segment/\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "06d3f4343644bfc4bc371b88f17ac3db",
+        "question": "Is the black circle at 20% on the 'naive distance' plot lower than the orange circle at 20% on the same plot?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Mean naive distance, backwards-range (\u2190\u2212\u03c3 ), and % of utterances with questions, per segment for riskassessed (orange) and non-risk-assessed (black) conversations; solid circles indicate statistically significant differences (Wilcoxon p < 0.01, comparing conversation types within counselor).\n\nQuestion: Is the black circle at 20% on the 'naive distance' plot lower than the orange circle at 20% on the same plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d4e6401b4695d675942cec310bd9dfc3",
+        "question": "Is the mean naive distance consistently higher for risk-assessed conversations than non-risk-assessed conversations?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Mean naive distance, backwards-range (\u2190\u2212\u03c3 ), and % of utterances with questions, per segment for riskassessed (orange) and non-risk-assessed (black) conversations; solid circles indicate statistically significant differences (Wilcoxon p < 0.01, comparing conversation types within counselor).\n\nQuestion: Is the mean naive distance consistently higher for risk-assessed conversations than non-risk-assessed conversations?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "3e1fb0f56acdfee7ba3a9e4193c5a7b1",
+        "question": "Which of the following has the highest backwards-range at 0% conversation segment?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Mean naive distance, backwards-range (\u2190\u2212\u03c3 ), and % of utterances with questions, per segment for riskassessed (orange) and non-risk-assessed (black) conversations; solid circles indicate statistically significant differences (Wilcoxon p < 0.01, comparing conversation types within counselor).\n\nQuestion: Which of the following has the highest backwards-range at 0% conversation segment?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Blue line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

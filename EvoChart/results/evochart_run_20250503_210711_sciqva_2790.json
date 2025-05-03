@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "945c3bd77c6c374aa4f86eab2f771b1e",
+        "question": "Is the bar representing '-ed' the shortest bar in the figure?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 2 Morphological ranking of morphs according to textual morph complexity in the mixed-genre corpus. Abscissa indexes increased morphological complexity.\n\nQuestion: Is the bar representing '-ed' the shortest bar in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "fe6a0cf800177bf19fdd83fdb5881681",
+        "question": "Does the 'plural-s' morph have a higher average morphological complexity than the '-ed' morph?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 2 Morphological ranking of morphs according to textual morph complexity in the mixed-genre corpus. Abscissa indexes increased morphological complexity.\n\nQuestion: Does the 'plural-s' morph have a higher average morphological complexity than the '-ed' morph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "0310cf5a16119de489279f90791cf00b",
+        "question": "Which of the following morphs has longer bar than 'plural -s' bar??",
+        "answer_pred": "-ed",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 2 Morphological ranking of morphs according to textual morph complexity in the mixed-genre corpus. Abscissa indexes increased morphological complexity.\n\nQuestion: Which of the following morphs has longer bar than 'plural -s' bar??\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '-ed'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "ba6cec141fac29b8d11480eff00f7e61",
+        "question": "Which of these morphs has the lowest average morphological complexity?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 2 Morphological ranking of morphs according to textual morph complexity in the mixed-genre corpus. Abscissa indexes increased morphological complexity.\n\nQuestion: Which of these morphs has the lowest average morphological complexity?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '-ing'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "b2d52d41dbd7cfc0b4fb963e85e392c3",
+        "question": "What is the exact value of average morphological complexity for the '-ing' morph?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "ab38c57c6563b62d8223667785ef0acf",
+        "question": "What is the approximate accuracy of the orange bar representing 'margin (token)' in the 'Across a SRC' plot?",
+        "answer_pred": "0.71",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: An ablation study to see the performance of models trained with reduced explicit negative examples (token-level and construction-level). One color represents the same models across plots, except the last bar (construction-level), which is different for each plot.\n\nQuestion: What is the approximate accuracy of the orange bar representing 'margin (token)' in the 'Across a SRC' plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "9c96efef9b59e79c3e9e1bf0f4227049",
+        "question": "How many different model variations are represented in the graph?",
+        "answer_pred": "5",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: An ablation study to see the performance of models trained with reduced explicit negative examples (token-level and construction-level). One color represents the same models across plots, except the last bar (construction-level), which is different for each plot.\n\nQuestion: How many different model variations are represented in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "97223cec956943cafdcd54073a2347de",
+        "question": "Is the height of the orange bar representing 'margin (token)' in the 'Across a PP' plot taller than the height of the green bar in the same plot?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: An ablation study to see the performance of models trained with reduced explicit negative examples (token-level and construction-level). One color represents the same models across plots, except the last bar (construction-level), which is different for each plot.\n\nQuestion: Is the height of the orange bar representing 'margin (token)' in the 'Across a PP' plot taller than the height of the green bar in the same plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "2b2be4b692091481b671e6fedfb0cf83",
+        "question": "Is the accuracy of LSTM-LM higher than 95 for 'Long VP coord.'?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: An ablation study to see the performance of models trained with reduced explicit negative examples (token-level and construction-level). One color represents the same models across plots, except the last bar (construction-level), which is different for each plot.\n\nQuestion: Is the accuracy of LSTM-LM higher than 95 for 'Long VP coord.'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d49136279b9079309e2a1d41a0d45f15",
+        "question": "Which of the following statements are true regarding the bar heights in the provided figure?  Select all that apply.",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: An ablation study to see the performance of models trained with reduced explicit negative examples (token-level and construction-level). One color represents the same models across plots, except the last bar (construction-level), which is different for each plot.\n\nQuestion: Which of the following statements are true regarding the bar heights in the provided figure?  Select all that apply.\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': \"The 'margin (token) w/o negative examples on target verbs' bars are always taller than the 'margin (token) w/o negative examples on a construction' bars.\"}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

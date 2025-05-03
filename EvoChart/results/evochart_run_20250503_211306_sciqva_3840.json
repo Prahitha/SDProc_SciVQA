@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "c438f277ea26d2a8194d2bc93f9d612d",
+        "question": "Does the red line representing CoNLL2003 (Pretrained Word Vectors) show a consistent decrease in F1 score as the source data size increases?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Impact of source data size on the effectiveness of pretrained models for NER.\n\nQuestion: Does the red line representing CoNLL2003 (Pretrained Word Vectors) show a consistent decrease in F1 score as the source data size increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "68ac2689beeac7e76a24baad94c4e4c9",
+        "question": "Is the F1 score for CoNLL2003 (Pretrained Word Vectors) higher than the F1 score for JNLPBA (Pretrained Word Vectors) at the source data size of 2G?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Impact of source data size on the effectiveness of pretrained models for NER.\n\nQuestion: Is the F1 score for CoNLL2003 (Pretrained Word Vectors) higher than the F1 score for JNLPBA (Pretrained Word Vectors) at the source data size of 2G?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "bc259ead1bfdb70e5915fc79621c1797",
+        "question": "What is the shape of the yellow line in figure 2?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Impact of source data size on the effectiveness of pretrained models for NER.\n\nQuestion: What is the shape of the yellow line in figure 2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Dashdotted'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "50d0fa201d40a7f77d97bcce9aafe763",
+        "question": "For which of the models does increasing the source data size improve performance?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Impact of source data size on the effectiveness of pretrained models for NER.\n\nQuestion: For which of the models does increasing the source data size improve performance?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'JNLPBA (Pretrained LMs)'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "dbbf6dfe2af3e60238deb52946a069bf",
+        "question": "What specific pretrained models and with what architecture were used in the experiment of figure 2?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "e4d7b08ae1c249e5b743fac275b257d7",
+        "question": "What is the approximate value of the yellow line at 80% of training examples in the left plot?",
+        "answer_pred": "0.74",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: The left plot shows F1 scores of BERT-NCE and INFOWORD as we increase the percentage of training examples on SQuAD (dev). The right plot shows F1 scores of INFOWORD on SQuAD (dev) as a function of \u03bbDIM.\n\nQuestion: What is the approximate value of the yellow line at 80% of training examples in the left plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "9698a48b8d34ce0880ccd589035bedad",
+        "question": "What is the lowest F1 score on the y axis of any plot in figure 1?",
+        "answer_pred": "0.5",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: The left plot shows F1 scores of BERT-NCE and INFOWORD as we increase the percentage of training examples on SQuAD (dev). The right plot shows F1 scores of INFOWORD on SQuAD (dev) as a function of \u03bbDIM.\n\nQuestion: What is the lowest F1 score on the y axis of any plot in figure 1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "185b26d7024e750ed05627d073f4a783",
+        "question": "Does the yellow line representing InfoWord show a consistently increasing F1 score with increasing percentage of training examples?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: The left plot shows F1 scores of BERT-NCE and INFOWORD as we increase the percentage of training examples on SQuAD (dev). The right plot shows F1 scores of INFOWORD on SQuAD (dev) as a function of \u03bbDIM.\n\nQuestion: Does the yellow line representing InfoWord show a consistently increasing F1 score with increasing percentage of training examples?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "6d4d99a28c779d870a9ed99b7f5b50f5",
+        "question": "Does F1 generally increase with \u03bbDIM?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: The left plot shows F1 scores of BERT-NCE and INFOWORD as we increase the percentage of training examples on SQuAD (dev). The right plot shows F1 scores of INFOWORD on SQuAD (dev) as a function of \u03bbDIM.\n\nQuestion: Does F1 generally increase with \u03bbDIM?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "1ca5eb0048d073094d44150dd6958f03",
+        "question": "What color is the line of the curve in the right plot?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: The left plot shows F1 scores of BERT-NCE and INFOWORD as we increase the percentage of training examples on SQuAD (dev). The right plot shows F1 scores of INFOWORD on SQuAD (dev) as a function of \u03bbDIM.\n\nQuestion: What color is the line of the curve in the right plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Black'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

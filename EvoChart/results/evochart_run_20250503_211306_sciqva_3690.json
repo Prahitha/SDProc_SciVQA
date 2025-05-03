@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "8bc20d654335638ff12f9d7f5e8a65b3",
+        "question": "What is the specific hardware used to achieve these processing speeds?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "78a5a98160112b1173de1a6491d2329b",
+        "question": "What is the value of the blue circle at 60% of reviews in the top graph?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Analysis for proposition of instances.\n\nQuestion: What is the value of the blue circle at 60% of reviews in the top graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "8c30351af62614048a86b4518c4efb92",
+        "question": "What are the two product categories being analyzed?",
+        "answer_pred": "[Beverages, Dairy]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Analysis for proposition of instances.\n\nQuestion: What are the two product categories being analyzed?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f528c2384c107cd473c350bdbe913117",
+        "question": "Is the blue line consistently higher than the red line in the bottom figure?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Analysis for proposition of instances.\n\nQuestion: Is the blue line consistently higher than the red line in the bottom figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "9b8ff33ce991c267ec323b53af26bc0a",
+        "question": "Does the BLEU4 or ROGUE-L score for either product category consistently increase with proportion of reviews?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Analysis for proposition of instances.\n\nQuestion: Does the BLEU4 or ROGUE-L score for either product category consistently increase with proportion of reviews?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "94113582dfa27b09df6fc70906016431",
+        "question": "What is the highest value on the y-axis for the line with blue circles in the bottom graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Analysis for proposition of instances.\n\nQuestion: What is the highest value on the y-axis for the line with blue circles in the bottom graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0.26'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8c7d237006b1188d24f2b51f5bd09f24",
+        "question": "Which score was measured for 100% of reviews?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Analysis for proposition of instances.\n\nQuestion: Which score was measured for 100% of reviews?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "75c88dfc0bd3f232239864bf74e224b9",
+        "question": "What is the exact dataset used for this analysis, and what were the specific criteria for selecting the instances used in the experiment? ",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "94f3e83b407c57d0811d0bda474ef41d",
+        "question": "What is the approximate value of the green line at the x-axis value of 100 in the rightmost figure?",
+        "answer_pred": "100",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4.5: Learning curves of different languages for speakers in both games. Numbers in the parentheses are length of messages in a language.\n\nQuestion: What is the approximate value of the green line at the x-axis value of 100 in the rightmost figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "6c3220c384e9ac418eeb6b7e66c7164f",
+        "question": "What is the length of messages for the 'emergent-reconstruct' language?",
+        "answer_pred": "12",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4.5: Learning curves of different languages for speakers in both games. Numbers in the parentheses are length of messages in a language.\n\nQuestion: What is the length of messages for the 'emergent-reconstruct' language?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

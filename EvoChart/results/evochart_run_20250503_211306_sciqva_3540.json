@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "95db1f33d566512f68fe472bae2eddb6",
+        "question": "Does the trajectory of semantic classification task performance with the shuffled corpus and context reach a higher balanced accuracy than the trajectory with shuffled corpus and shuffled context?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure. 5. Trajectory of semantic classification task performance, measured using balanced accuracy, with error bars (std) in grey.\n\nQuestion: Does the trajectory of semantic classification task performance with the shuffled corpus and context reach a higher balanced accuracy than the trajectory with shuffled corpus and shuffled context?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e94b06a9617d517229b3143593150c97",
+        "question": "Which line represents the 'shuffled corpus' condition?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure. 5. Trajectory of semantic classification task performance, measured using balanced accuracy, with error bars (std) in grey.\n\nQuestion: Which line represents the 'shuffled corpus' condition?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Blue line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "daad2cd9e251d5a3387ca35753b61a67",
+        "question": "In what steps do the values marked on the y axis increment in?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure. 5. Trajectory of semantic classification task performance, measured using balanced accuracy, with error bars (std) in grey.\n\nQuestion: In what steps do the values marked on the y axis increment in?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '10'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "936450f3b86579b3681db717dd07932c",
+        "question": "What model or system used for semantic classification was evaluated in figure 5?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "1cb466acae0cff2d85b75fea09d14d66",
+        "question": "What is the average cosine distance for the green line at phone edit distance 4?",
+        "answer_pred": "0.62",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 6. Average cosine distances between pairs of embedded Hausa words as a function of their phone edit distance (development data, multilingual models).\n\nQuestion: What is the average cosine distance for the green line at phone edit distance 4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "e6aeb2d43314ced180cd79e14ab201f9",
+        "question": "What is the model that has the lowest average cosine distance at a phone edit distance of 0?",
+        "answer_pred": "S2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 6. Average cosine distances between pairs of embedded Hausa words as a function of their phone edit distance (development data, multilingual models).\n\nQuestion: What is the model that has the lowest average cosine distance at a phone edit distance of 0?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "32c20ac38bcf45a3a2a155586c5c930d",
+        "question": "Is the blue square higher than the orange circle at phone edit distance 1?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 6. Average cosine distances between pairs of embedded Hausa words as a function of their phone edit distance (development data, multilingual models).\n\nQuestion: Is the blue square higher than the orange circle at phone edit distance 1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "9b18479aac1d3bf4ec8e860ac542a5e1",
+        "question": "Does the average cosine distance for the SiameseRNN model generally increase with phone edit distance?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 6. Average cosine distances between pairs of embedded Hausa words as a function of their phone edit distance (development data, multilingual models).\n\nQuestion: Does the average cosine distance for the SiameseRNN model generally increase with phone edit distance?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "89d274e537e60934f1a180723b78e0f7",
+        "question": "Which line in the figure shows the performance of the SiameseRNN model?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 6. Average cosine distances between pairs of embedded Hausa words as a function of their phone edit distance (development data, multilingual models).\n\nQuestion: Which line in the figure shows the performance of the SiameseRNN model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The red line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "3df9b8a713992e95555d728dd7855269",
+        "question": "What is the maximum phone edit distance for which average cosine distance was measured?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 6. Average cosine distances between pairs of embedded Hausa words as a function of their phone edit distance (development data, multilingual models).\n\nQuestion: What is the maximum phone edit distance for which average cosine distance was measured?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '12'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

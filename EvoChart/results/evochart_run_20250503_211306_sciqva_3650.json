@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "c5c91b3cb576031d0a124aefd5bfcb8c",
+        "question": "What is the maximum value that position attribution attains?",
+        "answer_pred": "0.99",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The position and content attribution on CNN/DM, the test set is broken down based on COMPRESSION.\n\nQuestion: What is the maximum value that position attribution attains?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "8f0b8ea204847ef7361c1988f357d7c1",
+        "question": "Is the value of the orange line at the 'High' position higher than the value of the green line at the 'High' position?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The position and content attribution on CNN/DM, the test set is broken down based on COMPRESSION.\n\nQuestion: Is the value of the orange line at the 'High' position higher than the value of the green line at the 'High' position?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "bb64af0f775f529a593a73de0e38b49e",
+        "question": "Does content attribution increase with compression?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The position and content attribution on CNN/DM, the test set is broken down based on COMPRESSION.\n\nQuestion: Does content attribution increase with compression?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "3666feae2ead165272433e6ecc38946c",
+        "question": "Where does the green line lie relative to the orange line?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The position and content attribution on CNN/DM, the test set is broken down based on COMPRESSION.\n\nQuestion: Where does the green line lie relative to the orange line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'To its left'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8e1991a0ecab013f0830e6b5cc25f239",
+        "question": "Which best describes the trend of position attribution with compression?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The position and content attribution on CNN/DM, the test set is broken down based on COMPRESSION.\n\nQuestion: Which best describes the trend of position attribution with compression?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': \"Minimum at 'Medium' position\"}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "27b351dd826d1b7ec2f23ce46b8e6d5b",
+        "question": "How much does compression reduce the size of the test set?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "f9498b1a5b3c1894fb4435daedf0e31f",
+        "question": "What is the value of micro-F1 for the green line in the second plot when the value of P is 64?",
+        "answer_pred": "0.72",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Hyper-parameter Sensitivity in X-Class. For T and P , we report the performance of X-Class-Align to explore their direct effects.\n\nQuestion: What is the value of micro-F1 for the green line in the second plot when the value of P is 64?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c6d87216f0eaa0a7afbafa344da96033",
+        "question": "What is the default value for \u03b4?",
+        "answer_pred": "0.01",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Hyper-parameter Sensitivity in X-Class. For T and P , we report the performance of X-Class-Align to explore their direct effects.\n\nQuestion: What is the default value for \u03b4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "061d83bca9141c01f5fa3e11a231f6b2",
+        "question": "Does the light blue line have a higher value at the point labelled '100' than at the point labelled '10' in the leftmost plot?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Hyper-parameter Sensitivity in X-Class. For T and P , we report the performance of X-Class-Align to explore their direct effects.\n\nQuestion: Does the light blue line have a higher value at the point labelled '100' than at the point labelled '10' in the leftmost plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d1c2e1303954f250313bb15fb8e4b371",
+        "question": "Does the performance of X-Class-Align vary depending on the value of T?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Hyper-parameter Sensitivity in X-Class. For T and P , we report the performance of X-Class-Align to explore their direct effects.\n\nQuestion: Does the performance of X-Class-Align vary depending on the value of T?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

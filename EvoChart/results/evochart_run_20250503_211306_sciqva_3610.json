@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "746529cdad3c25c147c59a5fa2c63dc0",
+        "question": "Does the accuracy of the proposed method remain consistently higher than that of GloVe?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Accuracy vs. dimensionality of the representation.\n\nQuestion: Does the accuracy of the proposed method remain consistently higher than that of GloVe?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "b7c24b967ae1ec90cca9cf36fc7e6a22",
+        "question": "Which line is the most consistently accurate (showing the least variation in accuracy) as dimensionality increases?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Accuracy vs. dimensionality of the representation.\n\nQuestion: Which line is the most consistently accurate (showing the least variation in accuracy) as dimensionality increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Both A and B'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "528d906c8aed23775fda9c99fd63f3bd",
+        "question": "What is the maximum accuracy that the proposed method reaches across any number of dimensions?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Accuracy vs. dimensionality of the representation.\n\nQuestion: What is the maximum accuracy that the proposed method reaches across any number of dimensions?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Between 73 and 74'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "5078c328b102179df0c757c436532da4",
+        "question": "What is the specific dataset used in this experiment?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "ddb0f57e89bf6b41f59ab5122ce39e13",
+        "question": "What is the value of the green bar for 'get_tickets'?",
+        "answer_pred": "1.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 11: Entropy over verb lemmas for events (left y-axis, H(x)) in the GOING ON A TRAIN SCENARIO. Bars in the background indicate the absolute number of occurrence of instances (right yaxis, N(x)).\n\nQuestion: What is the value of the green bar for 'get_tickets'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "0979eed6e31990c9794ca34219691521",
+        "question": "What is the highest value of H(inScript) according to the graph?",
+        "answer_pred": "1.99",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 11: Entropy over verb lemmas for events (left y-axis, H(x)) in the GOING ON A TRAIN SCENARIO. Bars in the background indicate the absolute number of occurrence of instances (right yaxis, N(x)).\n\nQuestion: What is the highest value of H(inScript) according to the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "19ba300b17ec79a7f84e6b97e144cdcb",
+        "question": "Is the green bar representing 'get_tickets' higher than the orange line at the same position?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 11: Entropy over verb lemmas for events (left y-axis, H(x)) in the GOING ON A TRAIN SCENARIO. Bars in the background indicate the absolute number of occurrence of instances (right yaxis, N(x)).\n\nQuestion: Is the green bar representing 'get_tickets' higher than the orange line at the same position?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "3bbad435f3bc7b02f34940a51cfc7385",
+        "question": "Is the entropy for 'conductor_checks' higher for the InScript group than for the DeScript group?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 11: Entropy over verb lemmas for events (left y-axis, H(x)) in the GOING ON A TRAIN SCENARIO. Bars in the background indicate the absolute number of occurrence of instances (right yaxis, N(x)).\n\nQuestion: Is the entropy for 'conductor_checks' higher for the InScript group than for the DeScript group?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "f3ebe95fdacc6e293fa859d6845f8663",
+        "question": "What color are the bars left of the green bars?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 11: Entropy over verb lemmas for events (left y-axis, H(x)) in the GOING ON A TRAIN SCENARIO. Bars in the background indicate the absolute number of occurrence of instances (right yaxis, N(x)).\n\nQuestion: What color are the bars left of the green bars?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Pink'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "a64e68e9ce6f1875953e6efe8a8a663c",
+        "question": "What is the approximate minimum absolute number of occurences for DeScript across all verb lemmas?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 11: Entropy over verb lemmas for events (left y-axis, H(x)) in the GOING ON A TRAIN SCENARIO. Bars in the background indicate the absolute number of occurrence of instances (right yaxis, N(x)).\n\nQuestion: What is the approximate minimum absolute number of occurences for DeScript across all verb lemmas?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0.75'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

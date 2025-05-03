@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "bc79298b65dca7ba75d88a239b3e1743",
+        "question": "Is there a dashed line connecting the node labeled 'XADV' to the node labeled 'OBJ'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Use of secondary dependencies and empty nodes in TOROT.\n\nQuestion: Is there a dashed line connecting the node labeled 'XADV' to the node labeled 'OBJ'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "4f4ea12db72e316d2881980b54c4f243",
+        "question": "Is the word 'sly\u0161av\u0161e' a preposition?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Use of secondary dependencies and empty nodes in TOROT.\n\nQuestion: Is the word 'sly\u0161av\u0161e' a preposition?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "82996cf1e465f6df7b6042c70e603bef",
+        "question": "What are the labels of the dashed arrows?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Use of secondary dependencies and empty nodes in TOROT.\n\nQuestion: What are the labels of the dashed arrows?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'sja'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "ea3c804dfe75b345c57a7278fd081287",
+        "question": "Which word is the auxiliary in the sentence?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Use of secondary dependencies and empty nodes in TOROT.\n\nQuestion: Which word is the auxiliary in the sentence?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'se'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "6366eeb8b2025511a956ab12b21e5772",
+        "question": "What is the semantic role of the word 'se' in the sentence represented by the dependency tree in Figure 1?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "8e77e821870e7eea9b68f4d6fffab027",
+        "question": "What is the English word that has an arrow pointing to it labelled 'nmod'? ?",
+        "answer_pred": "Seat",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: English and Czech sentence with equivalent meaning and shared dependencies.\n\nQuestion: What is the English word that has an arrow pointing to it labelled 'nmod'? ?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "5c7892f458b27a132ceab2b6001a3846",
+        "question": "What are the parts of speech for the words \"She\" and \"Seoul\" in the English sentence?",
+        "answer_pred": "pronoun, capital city",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: English and Czech sentence with equivalent meaning and shared dependencies.\n\nQuestion: What are the parts of speech for the words \"She\" and \"Seoul\" in the English sentence?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "92fdbfd804398d77719d372984519ee2",
+        "question": "Is the word \"never\" connected to the word \"Soul\" with an arrow?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: English and Czech sentence with equivalent meaning and shared dependencies.\n\nQuestion: Is the word \"never\" connected to the word \"Soul\" with an arrow?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "2cfe1c4b386ce69b84977e52a6e7864c",
+        "question": "Is 'never' functioning as an adverbial modifier (advmod) in this sentence?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: English and Czech sentence with equivalent meaning and shared dependencies.\n\nQuestion: Is 'never' functioning as an adverbial modifier (advmod) in this sentence?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "279e07f00f4fbb0007ffb27e7c54898f",
+        "question": "Which word has an arrow labelled 'case' pointing directly to it?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: English and Czech sentence with equivalent meaning and shared dependencies.\n\nQuestion: Which word has an arrow labelled 'case' pointing directly to it?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'has'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

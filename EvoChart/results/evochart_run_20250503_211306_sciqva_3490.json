@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "2dd1ba706f19e78642f214bba00a972c",
+        "question": "Is the blue bar representing 'All Tasks MT' higher than the red bar representing 'Shuster et al. (2018)' for the task 'Image Chat'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Human evaluations on Image Chat and Wizard of Wikipedia (WoW), comparing existing state of the art models with our All Tasks MT conversational agent. Engagingness win rates are statistically significant in all three matchups (binomial test, p < .05).\n\nQuestion: Is the blue bar representing 'All Tasks MT' higher than the red bar representing 'Shuster et al. (2018)' for the task 'Image Chat'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "b46f4f1c79fd505575479f731585d3c5",
+        "question": "Is the win percentage of All Tasks MT higher than that of Shuster et al. (2018) in the WoW (Unseen) task?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Human evaluations on Image Chat and Wizard of Wikipedia (WoW), comparing existing state of the art models with our All Tasks MT conversational agent. Engagingness win rates are statistically significant in all three matchups (binomial test, p < .05).\n\nQuestion: Is the win percentage of All Tasks MT higher than that of Shuster et al. (2018) in the WoW (Unseen) task?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "b340774748dd2785203b073aa68a5ffe",
+        "question": "Which task has the highest win percentage for the 'All Tasks MT' model?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Human evaluations on Image Chat and Wizard of Wikipedia (WoW), comparing existing state of the art models with our All Tasks MT conversational agent. Engagingness win rates are statistically significant in all three matchups (binomial test, p < .05).\n\nQuestion: Which task has the highest win percentage for the 'All Tasks MT' model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'red line '}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "f62177dbbceca9d106ef742cca00b3b5",
+        "question": "Which tasks use Dinan et al. (2019)?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Human evaluations on Image Chat and Wizard of Wikipedia (WoW), comparing existing state of the art models with our All Tasks MT conversational agent. Engagingness win rates are statistically significant in all three matchups (binomial test, p < .05).\n\nQuestion: Which tasks use Dinan et al. (2019)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "9ffb87600798887b17362bfb7a36394d",
+        "question": "What is the exact p-value for the engagingness win rate for the All Tasks MT model compared to the Image+Seq2Seq model on the Image Chat task?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "2d1719d801b04142db63653f561410d1",
+        "question": "What is the approximate UAS value for the red chart for the 'VERB' part-of-speech category?",
+        "answer_pred": "0.69",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: UAS accuracy for the average models (BERT 13, ELMo 3) on incoming dependencies of different part-of-speech categories.\n\nQuestion: What is the approximate UAS value for the red chart for the 'VERB' part-of-speech category?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "1155deec5fd1d6e6dcb12ab4eb06ec35",
+        "question": "For which part-of-speech category does Figure 4 show the lowest UAS accuracy for the average models (BERT 13, ELMo 3)?",
+        "answer_pred": "X",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: UAS accuracy for the average models (BERT 13, ELMo 3) on incoming dependencies of different part-of-speech categories.\n\nQuestion: For which part-of-speech category does Figure 4 show the lowest UAS accuracy for the average models (BERT 13, ELMo 3)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c6453de78e0e2486d462a1886aea853d",
+        "question": "Are the values for the red bars consistently higher than the values for the dark blue bars for all part-of-speech categories shown in the bar chart?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: UAS accuracy for the average models (BERT 13, ELMo 3) on incoming dependencies of different part-of-speech categories.\n\nQuestion: Are the values for the red bars consistently higher than the values for the dark blue bars for all part-of-speech categories shown in the bar chart?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e6399fe16b4272b2180a213b7d78b225",
+        "question": "Is 90 the maximum possible value of UAS?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: UAS accuracy for the average models (BERT 13, ELMo 3) on incoming dependencies of different part-of-speech categories.\n\nQuestion: Is 90 the maximum possible value of UAS?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "2881ee5b2798eec742e839e070a0b887",
+        "question": "Considering the bars representing 'ELMO-SUD' UAS accuracy for each part-of-speech category, which of the following statements are true?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: UAS accuracy for the average models (BERT 13, ELMo 3) on incoming dependencies of different part-of-speech categories.\n\nQuestion: Considering the bars representing 'ELMO-SUD' UAS accuracy for each part-of-speech category, which of the following statements are true?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': \"The 'PRON' category has one of the highest UAS accuracies for the model represented by a red bar, comparable to the 'VERB' category.\"}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

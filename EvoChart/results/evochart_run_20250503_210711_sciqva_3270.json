@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "9b4031765d1ee4f3cfe77691f3092afa",
+        "question": "What is the decoding speed of the fr-en model using Moses for 10 threads?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "17e421bbe8b67fff1ca06ab5a7ad0f1d",
+        "question": "What is approximately the highest success rate achieved by the green line?",
+        "answer_pred": "80",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Influence of social feedbacks. SR on G test for different social strategies. Stars indicate significant differences w.r.t. ex:1 no imag.. sem plotted, 5 seeds.\n\nQuestion: What is approximately the highest success rate achieved by the green line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "95cdaff8b2d6060df55e9b2719fd6119",
+        "question": "How many social strategies are tested?",
+        "answer_pred": "5",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Influence of social feedbacks. SR on G test for different social strategies. Stars indicate significant differences w.r.t. ex:1 no imag.. sem plotted, 5 seeds.\n\nQuestion: How many social strategies are tested?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "384e243e8a64ae6daff77b22e044a1c1",
+        "question": "Does the success rate of the blue line exceed 0.6 at episode 80?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Influence of social feedbacks. SR on G test for different social strategies. Stars indicate significant differences w.r.t. ex:1 no imag.. sem plotted, 5 seeds.\n\nQuestion: Does the success rate of the blue line exceed 0.6 at episode 80?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "2d42b5737c4ac0c920551ff52589c63a",
+        "question": "Does any strategy achieve a succes rate above 80%?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Influence of social feedbacks. SR on G test for different social strategies. Stars indicate significant differences w.r.t. ex:1 no imag.. sem plotted, 5 seeds.\n\nQuestion: Does any strategy achieve a succes rate above 80%?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "4b2330d8015433a796e237eafae990f6",
+        "question": "Which lines show a success rate of approximately 0.4 at 40 episodes?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Influence of social feedbacks. SR on G test for different social strategies. Stars indicate significant differences w.r.t. ex:1 no imag.. sem plotted, 5 seeds.\n\nQuestion: Which lines show a success rate of approximately 0.4 at 40 episodes?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'green and purple line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "eb88eb58112e0e0ddf2a270da9d28a21",
+        "question": "Which social strategies were tested?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Influence of social feedbacks. SR on G test for different social strategies. Stars indicate significant differences w.r.t. ex:1 no imag.. sem plotted, 5 seeds.\n\nQuestion: Which social strategies were tested?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'ex:first 0.1'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "114eb153d01f099d72f3070badfc74b5",
+        "question": "What specific social strategies were used in the \"ex:first 0.1\" condition, and how do they compare to the other conditions in terms of their influence on success rate?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "6e84b7d9eab74b4387e230cff647ee3b",
+        "question": "What is the approximate accuracy of the method represented with the green line when approximately 1000 labeled Chinese reviews are used?",
+        "answer_pred": "89.2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: ADAN performance and standard deviation for Chinese in the semi-supervised setting when using various amount of labeled Chinese data.\n\nQuestion: What is the approximate accuracy of the method represented with the green line when approximately 1000 labeled Chinese reviews are used?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "6e9400ac0da2445ce78fff2f88095db7",
+        "question": "What is the DAN performance for 1000 labeled Chinese reviews?",
+        "answer_pred": "82.5",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: ADAN performance and standard deviation for Chinese in the semi-supervised setting when using various amount of labeled Chinese data.\n\nQuestion: What is the DAN performance for 1000 labeled Chinese reviews?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

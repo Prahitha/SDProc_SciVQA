@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "20de03ff96c3ef22ed758d7839699cd4",
+        "question": "How many chunks are included in CASE 1 in the diagram?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. Concepts linked in the ReVerb translation memory.\n\nQuestion: How many chunks are included in CASE 1 in the diagram?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'n number of chunks'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "736f081cd8f0f44e24efa88d3b571338",
+        "question": "What is the total number of words contained in the ReVerb translation memory?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "14973d6fed8e56c2c2aff67a09b6b846",
+        "question": "In top left plot, what is the approximate AUC value of the line with squares at length 15?",
+        "answer_pred": "0.83",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5: Sensitivity analysis of maximum length of input sequence\n\nQuestion: In top left plot, what is the approximate AUC value of the line with squares at length 15?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c215fdc595ca29a40fd091f074e6ecec",
+        "question": "How many different tasks are represented in the graph?",
+        "answer_pred": "2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5: Sensitivity analysis of maximum length of input sequence\n\nQuestion: How many different tasks are represented in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "14cb98d55825a464046d53931f13421b",
+        "question": "In the graph for 'Node clustering', does the 'YAGO' line (circles) have a higher value than the 'Freebase' line (squares) at the maximum length of 30?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5: Sensitivity analysis of maximum length of input sequence\n\nQuestion: In the graph for 'Node clustering', does the 'YAGO' line (circles) have a higher value than the 'Freebase' line (squares) at the maximum length of 30?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "c670f549f17eab08a77fe215a7e8682a",
+        "question": "Does the sensitivity analysis involve analyzing the impact of input sequence length on performance?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5: Sensitivity analysis of maximum length of input sequence\n\nQuestion: Does the sensitivity analysis involve analyzing the impact of input sequence length on performance?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "ed22da2eda0a36e4207568003d7304c5",
+        "question": "Which line shows the highest performance for Node Clustering?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5: Sensitivity analysis of maximum length of input sequence\n\nQuestion: Which line shows the highest performance for Node Clustering?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'line with circles'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "d0c492fc723abf319efed2a700c05d29",
+        "question": "Which task(s) show a consistently decreasing trend in performance as the length of input sequence increases?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5: Sensitivity analysis of maximum length of input sequence\n\nQuestion: Which task(s) show a consistently decreasing trend in performance as the length of input sequence increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "2f8a03cbdda77de0253aec0a472d1b9d",
+        "question": "What is the architecture of the models(s) used in the experiment?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "20b73cb6b73af08672f2c2613ad0d5eb",
+        "question": "What is the approximate value of the red horizontal line in the box plot for epoch 10 of the RNN training?",
+        "answer_pred": "0.99",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Ratios at depth 10 in each epoch of training the RNN (a) and the RLSTM (b).\n\nQuestion: What is the approximate value of the red horizontal line in the box plot for epoch 10 of the RNN training?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "557348a4053e5e141b7ed57067d7948b",
+        "question": "What best describes the shape of the lines in Figure 3?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Results on IWSLT14 De\u2192En and WMT14 En\u2192De with different \u03bb.\n\nQuestion: What best describes the shape of the lines in Figure 3?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Repeating waves'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "6ec24203c7b2c427389c5f12a6cd07f2",
+        "question": "What is the approximate BLUE score at lambda=1.0 IWSLT14 De\u2192En? for dataset ",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Results on IWSLT14 De\u2192En and WMT14 En\u2192De with different \u03bb.\n\nQuestion: What is the approximate BLUE score at lambda=1.0 IWSLT14 De\u2192En? for dataset \n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '35'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "49f1bdbaf7349f1d58e8f6a11d57b2c8",
+        "question": "What is the specific algorithm used to generate these results?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "1adbe00b7e8e07b9975abad048303df0",
+        "question": "What is the success rate of the pink line with squares when using the 'ML+WSD' method?",
+        "answer_pred": "81.2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: The accuracy of mars when the different animacy filters are applied\n\nQuestion: What is the success rate of the pink line with squares when using the 'ML+WSD' method?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b34b3470f6c3e6c8efc375b2834823da",
+        "question": "What is the highest success rate achieved using the SEMCOR method?",
+        "answer_pred": "81.2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: The accuracy of mars when the different animacy filters are applied\n\nQuestion: What is the highest success rate achieved using the SEMCOR method?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "7989fab207e2e86a90341eaba2e61844",
+        "question": "Is the success rate of the blue line higher than the pink line when the 'ML' filter is applied?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: The accuracy of mars when the different animacy filters are applied\n\nQuestion: Is the success rate of the blue line higher than the pink line when the 'ML' filter is applied?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "593d4180f8d3ff6372029d583048fb25",
+        "question": "Is the success rate of SEMCOR lower than AI when the method of animacy recognition is 'No filtering'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: The accuracy of mars when the different animacy filters are applied\n\nQuestion: Is the success rate of SEMCOR lower than AI when the method of animacy recognition is 'No filtering'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a93db10923ac9d604b16ae05f0ecfce8",
+        "question": "With what shape is the blue line representing AI marked?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: The accuracy of mars when the different animacy filters are applied\n\nQuestion: With what shape is the blue line representing AI marked?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'diamond'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "4a45f110fb57bd80fcdca5d14e958b5a",
+        "question": "What is true about the accuracy of AI when more filtering techniques are added?",
+        "answer_pred": "A",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: The accuracy of mars when the different animacy filters are applied\n\nQuestion: What is true about the accuracy of AI when more filtering techniques are added?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'It becomes unpredictable and unusable'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "c964f3aa1ad9b59e3bf6396b397c5148",
+        "question": "What is the specific dataset used to measure the accuracy of the different animacy filters shown in Figure 5?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

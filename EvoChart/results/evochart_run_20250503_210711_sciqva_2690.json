@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "4463dc994cab73a94d182adc4e303ad1",
+        "question": "What is the shape of the node representing the verb 'enacted'?",
+        "answer_pred": "rectangular",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: An example of constructed DP- and SRL- based semantic graphs, where 99K indicates CHILD relation, and rectangular, rhombic and circular nodes represent arguments, verbs and modifiers respectively.\n\nQuestion: What is the shape of the node representing the verb 'enacted'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "de576a3b8913e801eac5b0cefef2e738",
+        "question": "What is the syntactic role of 'John E. EchoHawk' in the setence?",
+        "answer_pred": "CHILD",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: An example of constructed DP- and SRL- based semantic graphs, where 99K indicates CHILD relation, and rectangular, rhombic and circular nodes represent arguments, verbs and modifiers respectively.\n\nQuestion: What is the syntactic role of 'John E. EchoHawk' in the setence?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "7d6b4d546f75fc913ca6141b20054e5e",
+        "question": "Are the all the nodes representing arguments shaped like circles?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: An example of constructed DP- and SRL- based semantic graphs, where 99K indicates CHILD relation, and rectangular, rhombic and circular nodes represent arguments, verbs and modifiers respectively.\n\nQuestion: Are the all the nodes representing arguments shaped like circles?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "5787ed27aedcfa9d515447165f3e1836",
+        "question": "Is the word 'treaties' a direct object?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: An example of constructed DP- and SRL- based semantic graphs, where 99K indicates CHILD relation, and rectangular, rhombic and circular nodes represent arguments, verbs and modifiers respectively.\n\nQuestion: Is the word 'treaties' a direct object?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "23d507ffa3200a32bdcd69361783dfcf",
+        "question": "In the tree on the right, what is the shape of the bottom-most node?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: An example of constructed DP- and SRL- based semantic graphs, where 99K indicates CHILD relation, and rectangular, rhombic and circular nodes represent arguments, verbs and modifiers respectively.\n\nQuestion: In the tree on the right, what is the shape of the bottom-most node?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Star'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "6957d7427cb073680b99c8da437036e0",
+        "question": "What is the syntactic function of the word 'is' in the sentence?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: An example of constructed DP- and SRL- based semantic graphs, where 99K indicates CHILD relation, and rectangular, rhombic and circular nodes represent arguments, verbs and modifiers respectively.\n\nQuestion: What is the syntactic function of the word 'is' in the sentence?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "5177ff15bf292d2029a0044258772f77",
+        "question": "What research question from the study is the graph addressing?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "e778352351202647e29c4bbd0a369faf",
+        "question": "What step is shown below 'Sub-syllabification'?",
+        "answer_pred": "Syllable Structure",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Maximum Matching and Candidate Generation\n\nQuestion: What step is shown below 'Sub-syllabification'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "6e4475c8f1e0a77dc27c79aa4bb1cad8",
+        "question": "How many Chinese transliteration candidates are generated for 'STEIN'?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Maximum Matching and Candidate Generation\n\nQuestion: How many Chinese transliteration candidates are generated for 'STEIN'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "dedd8fccd83bffba84b2e06d3e2843dc",
+        "question": " In the Sub-syllabification row, are there more than 4 branching lines connected to the letters in 'MARK'?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Maximum Matching and Candidate Generation\n\nQuestion:  In the Sub-syllabification row, are there more than 4 branching lines connected to the letters in 'MARK'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

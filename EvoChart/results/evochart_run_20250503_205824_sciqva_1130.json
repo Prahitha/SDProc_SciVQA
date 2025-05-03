@@ -1,0 +1,96 @@
+[
+    {
+        "instance_id": "b95528288ef5961e82d0179f5c01064b",
+        "question": "Does the green line represent the model with 'no weight clipping'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Convergence curves for different ablated models. \u201cregularizer\u201d denotes the cosine multiplier in the equation (11).\n\nQuestion: Does the green line represent the model with 'no weight clipping'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "dfeda6b255beafe39a02b05147150085",
+        "question": "Does the loss of the 'No regularizer' model converge to a lower value than the loss of the 'No LNS' model?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Convergence curves for different ablated models. \u201cregularizer\u201d denotes the cosine multiplier in the equation (11).\n\nQuestion: Does the loss of the 'No regularizer' model converge to a lower value than the loss of the 'No LNS' model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8bc260e0a1a1df01652934292901f9e4",
+        "question": "Which line represents the model with the lowest loss value at the final step?",
+        "answer_pred": "A",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Convergence curves for different ablated models. \u201cregularizer\u201d denotes the cosine multiplier in the equation (11).\n\nQuestion: Which line represents the model with the lowest loss value at the final step?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Green line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "7c3d965ad62802e6fa5a63bb5454bae9",
+        "question": "Which of the following models has the highest final loss?",
+        "answer_pred": "A",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Convergence curves for different ablated models. \u201cregularizer\u201d denotes the cosine multiplier in the equation (11).\n\nQuestion: Which of the following models has the highest final loss?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'AMI'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "9862810594c4bf14b289e7c06f893ea6",
+        "question": "What is the specific value of the cosine multiplier used in the 'No regularizer' model at step 10,000?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "14a10ec1efdda4012c0a44826e499b15",
+        "question": "What is the =value of the black dashed line at Version 30000?",
+        "answer_pred": "0.87",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Evolution of cosine similarity between pairs of actions that are functionally similar within DotA 2. Actions prefixed with item_ correspond to the usage of that item within the game. As the model trained, the cosine similarity measure grew for these functionally similar pairings.\n\nQuestion: What is the =value of the black dashed line at Version 30000?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "d9e3e9db113f188782640a36e7e99c25",
+        "question": "Which pair of actions achieves the highest cosine similarity at the highest version?",
+        "answer_pred": "item_use_item",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Evolution of cosine similarity between pairs of actions that are functionally similar within DotA 2. Actions prefixed with item_ correspond to the usage of that item within the game. As the model trained, the cosine similarity measure grew for these functionally similar pairings.\n\nQuestion: Which pair of actions achieves the highest cosine similarity at the highest version?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "62261a794b8746725ceeab8692081402",
+        "question": "Does the cosine similarity of the yellow line increase as the model trains, before a version value of 20000?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Evolution of cosine similarity between pairs of actions that are functionally similar within DotA 2. Actions prefixed with item_ correspond to the usage of that item within the game. As the model trained, the cosine similarity measure grew for these functionally similar pairings.\n\nQuestion: Does the cosine similarity of the yellow line increase as the model trains, before a version value of 20000?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "f197c324059548c7079996089d0c2751",
+        "question": "Did the cosine similarity of 'item_magic_stick & item_magic_wand' always increase as the version increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Evolution of cosine similarity between pairs of actions that are functionally similar within DotA 2. Actions prefixed with item_ correspond to the usage of that item within the game. As the model trained, the cosine similarity measure grew for these functionally similar pairings.\n\nQuestion: Did the cosine similarity of 'item_magic_stick & item_magic_wand' always increase as the version increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

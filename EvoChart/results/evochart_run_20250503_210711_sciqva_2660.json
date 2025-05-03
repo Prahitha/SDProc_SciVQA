@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "a100d01aee3d6da7fe4483bdf52c8e5d",
+        "question": "Which of these books has a higher R-squared value for its node degree distribution?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3. Node degree distribution (log-log scale) of CHVG constructed from \u201cThe Master and Margarita\u201d (a) and \u201cMoby-Dick; or, The Whale\u201d (b). Horizontal axis contains node degrees k, vertical axis shows the values 1 \u2013 F(k), where F(k) is a distribution function of node degrees\n\nQuestion: Which of these books has a higher R-squared value for its node degree distribution?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither book has an R-squared value'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "2f589ecf3e73ea110859ed6863e9de6f",
+        "question": "Which of the two novels, 'The Master and Margarita' or 'Moby-Dick; or, The Whale', contains more unique words?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "a96edb8da4d9fd8623b1a75b53c1fb50",
+        "question": "Which color represents the code-book assignment 16?",
+        "answer_pred": "orange",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Visualization of the reconstructed embeddings with their code-book assignment. Best viewed in color.\n\nQuestion: Which color represents the code-book assignment 16?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "a0e4d6ac9a5cfd4e920b1ae726a3fddc",
+        "question": "How many different code-book assignments are visualized?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Visualization of the reconstructed embeddings with their code-book assignment. Best viewed in color.\n\nQuestion: How many different code-book assignments are visualized?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "362319fd806f5a5afda71299dc219762",
+        "question": "Are the blue crosses more numerous than the green dots?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Visualization of the reconstructed embeddings with their code-book assignment. Best viewed in color.\n\nQuestion: Are the blue crosses more numerous than the green dots?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "b094cdc6fc31312f133ff92a5996e861",
+        "question": "Are there more than two code-book assignments represented in the visualization?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Visualization of the reconstructed embeddings with their code-book assignment. Best viewed in color.\n\nQuestion: Are there more than two code-book assignments represented in the visualization?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "4c2ee358bfc0d53119794c841eab0777",
+        "question": "Which cluster contains the most points assigned to the code-book value 64?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Visualization of the reconstructed embeddings with their code-book assignment. Best viewed in color.\n\nQuestion: Which cluster contains the most points assigned to the code-book value 64?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Bottom Right'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "4ddc22ab54feefa6e5dd72aeed8ea952",
+        "question": "Which of the following code-book assignments are used in the study?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Visualization of the reconstructed embeddings with their code-book assignment. Best viewed in color.\n\nQuestion: Which of the following code-book assignments are used in the study?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '8'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "9ef7683a3ffc93b6fe475689f5868e6c",
+        "question": "What is the significance of the different codebook assignments in terms of the underlying data distribution?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "865a2ea9f205bca8c47193f1e33a8d1f",
+        "question": "What is the color of the circles representing the modality encoding z(i)s?",
+        "answer_pred": "red",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: MultiQT model illustration for two timesteps i and j. We depict the convolutional transformations fa and fs of the audio and character temporal softmax inputs into the respective modality encodings z(i)a and z (i) s , along with the corresponding receptive fields and strides: ra, sa and rs, ss. The convolutions are followed by multimodal fusion and finally dense layers g and h to predict the question labels y(i) and y(j).\n\nQuestion: What is the color of the circles representing the modality encoding z(i)s?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "639e6b5c052f35f1435f1bf6437a363d",
+        "question": "Is the label of the elements presented in y-axis 'Number of iterations'?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: Convergence of the log-likelihood for 5 sets of 1000 iterations\n\nQuestion: Is the label of the elements presented in y-axis 'Number of iterations'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "926db7995a669b0fe98d28e0774a6103",
+        "question": "What are two colors of the lines in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: Convergence of the log-likelihood for 5 sets of 1000 iterations\n\nQuestion: What are two colors of the lines in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "a17f66311d65bc38f11fffe40976b47c",
+        "question": "What is the maximum number iterations performed for each set?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: Convergence of the log-likelihood for 5 sets of 1000 iterations\n\nQuestion: What is the maximum number iterations performed for each set?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "d510aa0ff1cee9d75b6508aed46ce8bc",
+        "question": "What is the average log-likelihood across all 5 sets of iterations, and how is it presented in the figure?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "e02ddc06acaf0a41e1014d69fd3695e1",
+        "question": "What is the approximate value of the blue line at the end of the x-axis?",
+        "answer_pred": "100",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Statistics of \u201cFinTech\u201d in Google Trends.\n\nQuestion: What is the approximate value of the blue line at the end of the x-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "568bb41aa8b9954ec9d73b9d06cfc061",
+        "question": "What is the label of the first element in the x-axis?",
+        "answer_pred": "Novel Financial Technologies",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Statistics of \u201cFinTech\u201d in Google Trends.\n\nQuestion: What is the label of the first element in the x-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "7f4d2092b73c6bc23acaca9f39d7f613",
+        "question": "Is the line on the graph increasing from left to right?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Statistics of \u201cFinTech\u201d in Google Trends.\n\nQuestion: Is the line on the graph increasing from left to right?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "9672f84ddd8ca4aabeafbd38a5731834",
+        "question": "Is the trend of \"FinTech\" 0 between Nov-09 and Mar-13?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Statistics of \u201cFinTech\u201d in Google Trends.\n\nQuestion: Is the trend of \"FinTech\" 0 between Nov-09 and Mar-13?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "67156f88b36697345aaafd9df541db04",
+        "question": "Which of the following time periods shows the steepest increase in the line graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Statistics of \u201cFinTech\u201d in Google Trends.\n\nQuestion: Which of the following time periods shows the steepest increase in the line graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Nov-15 to Jul-16'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "de0cbe3b6691d3e0fc3172908a6f73cc",
+        "question": "What is the range of the values presented on the y-axis?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Statistics of \u201cFinTech\u201d in Google Trends.\n\nQuestion: What is the range of the values presented on the y-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0 to 100'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

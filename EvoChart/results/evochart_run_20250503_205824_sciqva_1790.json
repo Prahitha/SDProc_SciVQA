@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "9c7a62ab6020bfb6ca479329bb8c7c06",
+        "question": "Does the predicted valence of the word \"american\" decrease over time?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Predicted valence of our representations of gay, homosexual,all LGBTQ terms, and American directly induced by fitting ridge regression models to the NRC VAD Valence Lexicon with the lexicon\u2019s words\u2019 Word2Vec vectors as features for each year. Results are averaged over 10 Word2Vec models trained over each year\u2019s data. Shaded bands represent 95% confidence intervals and the solid lines are Lowess curves as visual aids. Higher scores represent more positive valence.\n\nQuestion: Does the predicted valence of the word \"american\" decrease over time?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "fdccca6d884a8bbe54f699ee15c18922",
+        "question": "Which line represents the predicted valence of the term \"gay\"?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Predicted valence of our representations of gay, homosexual,all LGBTQ terms, and American directly induced by fitting ridge regression models to the NRC VAD Valence Lexicon with the lexicon\u2019s words\u2019 Word2Vec vectors as features for each year. Results are averaged over 10 Word2Vec models trained over each year\u2019s data. Shaded bands represent 95% confidence intervals and the solid lines are Lowess curves as visual aids. Higher scores represent more positive valence.\n\nQuestion: Which line represents the predicted valence of the term \"gay\"?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The brown line with diamonds'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "e60f8951bb799289858b369d18c4a7e9",
+        "question": "Based on the valence scores, which group's valence has been the lowest over the years?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Predicted valence of our representations of gay, homosexual,all LGBTQ terms, and American directly induced by fitting ridge regression models to the NRC VAD Valence Lexicon with the lexicon\u2019s words\u2019 Word2Vec vectors as features for each year. Results are averaged over 10 Word2Vec models trained over each year\u2019s data. Shaded bands represent 95% confidence intervals and the solid lines are Lowess curves as visual aids. Higher scores represent more positive valence.\n\nQuestion: Based on the valence scores, which group's valence has been the lowest over the years?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Homosexual'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8a5b048da1d0a99750c5427bd64792fc",
+        "question": "What is the correlation between the predicted valence of the term 'gay' and the term 'homosexual' from 1985 to 2015?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "30820d30560bfb66038e8b93b6eb32b0",
+        "question": "What is the value of the output dropout at the rightmost red curve?",
+        "answer_pred": "0.0123",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Average per-word validation cross-entropies for hyperparameter combinations in the neighbourhood of the best solution for a 2-layer LSTM with 24M weights on the Penn Treebank dataset.\n\nQuestion: What is the value of the output dropout at the rightmost red curve?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "05772cf09126ad3e5ca4c75879c7d210",
+        "question": "How many hyperparameter categories are shown in the graph?",
+        "answer_pred": "4",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Average per-word validation cross-entropies for hyperparameter combinations in the neighbourhood of the best solution for a 2-layer LSTM with 24M weights on the Penn Treebank dataset.\n\nQuestion: How many hyperparameter categories are shown in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "6d5781a4e2c9878737e3106463469263",
+        "question": "Is the red band on the 'learning_rate' axis closest to the value 0.0030?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Average per-word validation cross-entropies for hyperparameter combinations in the neighbourhood of the best solution for a 2-layer LSTM with 24M weights on the Penn Treebank dataset.\n\nQuestion: Is the red band on the 'learning_rate' axis closest to the value 0.0030?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "19685578b27398e02c0f301788e26aca",
+        "question": "Is the 'l2_penalty' hyperparameter consistently lower than the 'learning_rate' hyperparameter?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Average per-word validation cross-entropies for hyperparameter combinations in the neighbourhood of the best solution for a 2-layer LSTM with 24M weights on the Penn Treebank dataset.\n\nQuestion: Is the 'l2_penalty' hyperparameter consistently lower than the 'learning_rate' hyperparameter?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "1ab58d1b9b427098735a9b198e8613a5",
+        "question": "Which of the following axes has the highest value in the red area of the graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Average per-word validation cross-entropies for hyperparameter combinations in the neighbourhood of the best solution for a 2-layer LSTM with 24M weights on the Penn Treebank dataset.\n\nQuestion: Which of the following axes has the highest value in the red area of the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'state_dropout'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "f72b2ac03e5e5dfa0d30bcebf6e5d44e",
+        "question": "What is the approximate range of the \"learning_rate\" hyperparameter for which the \"objectiveValue\" is between 4.1 and 4.14?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Average per-word validation cross-entropies for hyperparameter combinations in the neighbourhood of the best solution for a 2-layer LSTM with 24M weights on the Penn Treebank dataset.\n\nQuestion: What is the approximate range of the \"learning_rate\" hyperparameter for which the \"objectiveValue\" is between 4.1 and 4.14?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0.0020 - 0.0024'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

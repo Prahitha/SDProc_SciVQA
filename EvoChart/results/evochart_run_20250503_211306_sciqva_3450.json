@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "714c7b52004521774743cd8af01a3f54",
+        "question": "Considering the box plots in Figure 2, which of the following statements are true regarding the accuracy values for the 'Filmmaker' and 'Producer' roles?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Accuracy of classifier trained and tested on balanced set contrasting agreed upon Twitter users of a given role, against users pulled at random from the 1% stream.\n\nQuestion: Considering the box plots in Figure 2, which of the following statements are true regarding the accuracy values for the 'Filmmaker' and 'Producer' roles?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The maximum accuracy value for Filmmakers is lower than the maximum accuracy value for Producers.'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "9a4f7347be5089e1e79b8d45d8b4efe3",
+        "question": "Which of the following user types show outliers?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Accuracy of classifier trained and tested on balanced set contrasting agreed upon Twitter users of a given role, against users pulled at random from the 1% stream.\n\nQuestion: Which of the following user types show outliers?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Lecturer'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "004c88d79112121833b1a94240d3ccfe",
+        "question": "What is the exact p-value for the difference in classifier accuracy between the 'Filmmaker' and 'Teacher' categories, and what statistical test was used to determine this significance?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "92ba04a1eaf4d116599b818d4c713899",
+        "question": "In the first matrix, to what word does the square in the bottom-right corner corresponds?",
+        "answer_pred": "unanswerable",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Example of a pair of questions that is incorrectly predicted as similar by the first bidirectional LSTM (top) and correctly predicted by the the second bidirectional LSTM (bottom). The dark blue squares represent areas of high similarity.\n\nQuestion: In the first matrix, to what word does the square in the bottom-right corner corresponds?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "8f0ffa1bb45e4e8ea24aa880da5fa4d0",
+        "question": "How is the similarity between land and new?",
+        "answer_pred": "0.87",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Example of a pair of questions that is incorrectly predicted as similar by the first bidirectional LSTM (top) and correctly predicted by the the second bidirectional LSTM (bottom). The dark blue squares represent areas of high similarity.\n\nQuestion: How is the similarity between land and new?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "2263478933e494c506153116d05cd795",
+        "question": "Are the dark blue squares, representing high similarity, more prevalent in the bottom heatmap than in the top heatmap?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Example of a pair of questions that is incorrectly predicted as similar by the first bidirectional LSTM (top) and correctly predicted by the the second bidirectional LSTM (bottom). The dark blue squares represent areas of high similarity.\n\nQuestion: Are the dark blue squares, representing high similarity, more prevalent in the bottom heatmap than in the top heatmap?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8786458b5d1c55caffb8129ff2274739",
+        "question": "Are the words in the x-axes the same for both graphs?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Example of a pair of questions that is incorrectly predicted as similar by the first bidirectional LSTM (top) and correctly predicted by the the second bidirectional LSTM (bottom). The dark blue squares represent areas of high similarity.\n\nQuestion: Are the words in the x-axes the same for both graphs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8da04b942954e88c7c0cacfa2c753bd7",
+        "question": "In Figure 4, which of the following visual attributes best describe the difference between the top and bottom heatmaps representing the similarity predictions?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Example of a pair of questions that is incorrectly predicted as similar by the first bidirectional LSTM (top) and correctly predicted by the the second bidirectional LSTM (bottom). The dark blue squares represent areas of high similarity.\n\nQuestion: In Figure 4, which of the following visual attributes best describe the difference between the top and bottom heatmaps representing the similarity predictions?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The top heatmap is larger in size than the bottom heatmap.'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "3496225c86921f9b3bec4f8b493d48ee",
+        "question": "Which words are shown on the x-axis?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Example of a pair of questions that is incorrectly predicted as similar by the first bidirectional LSTM (top) and correctly predicted by the the second bidirectional LSTM (bottom). The dark blue squares represent areas of high similarity.\n\nQuestion: Which words are shown on the x-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'car'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "7d8c3a908fad1a72d9a851d6130d5e3f",
+        "question": "What specific questions are represented in Figure 4, and what is the precise difference in similarity scores between the predictions of the first and second bidirectional LSTMs for each question pair?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

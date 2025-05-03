@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "5bcd60ab526928172d7693241580ec5e",
+        "question": "Is the 'Retriever recall at N' consistently higher than the 'Top-N exact match'?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Retriever and ranker recall. The x-axis is logscale.\n\nQuestion: Is the 'Retriever recall at N' consistently higher than the 'Top-N exact match'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "f7317a38ece65c7d1161d0dc52c8726d",
+        "question": "Which color line has the steepest increase in values?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Retriever and ranker recall. The x-axis is logscale.\n\nQuestion: Which color line has the steepest increase in values?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Yellow'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "7c96c648f5552bf48b73e969d9b9f5a7",
+        "question": "How many metrics are compared in figure 3?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Retriever and ranker recall. The x-axis is logscale.\n\nQuestion: How many metrics are compared in figure 3?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '7'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "5214405e246b075e5904ec081acb1b42",
+        "question": "What model was evaluated in figure 3 and on which task?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "ab904686ca33a949075422a9a9ea0425",
+        "question": "What is the maximum y value of the dashdotted line in the left plot corresponding to the vertical axis on its left side?",
+        "answer_pred": "0.99",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4.7: The comparison between the self-training approach and the baseline on different number of tokens per sentence.\n\nQuestion: What is the maximum y value of the dashdotted line in the left plot corresponding to the vertical axis on its left side?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f8d1eeee78351322ce29682560fbc523",
+        "question": "What is the maximum number of sentences marked on the vertical axes on the side of the plots in figure 4.7?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4.7: The comparison between the self-training approach and the baseline on different number of tokens per sentence.\n\nQuestion: What is the maximum number of sentences marked on the vertical axes on the side of the plots in figure 4.7?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "8f6342bf473570a0e29b7c11ffa81513",
+        "question": "Does the blue line reach a peak at around 30 tokens in the plot on the right?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4.7: The comparison between the self-training approach and the baseline on different number of tokens per sentence.\n\nQuestion: Does the blue line reach a peak at around 30 tokens in the plot on the right?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "072e948c0a7f1f752d5f6138cf6bb931",
+        "question": "Does the number of sentences increase with an increase in the number of tokens?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4.7: The comparison between the self-training approach and the baseline on different number of tokens per sentence.\n\nQuestion: Does the number of sentences increase with an increase in the number of tokens?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "62292e88dff2b694b51f5d5ab3009a9d",
+        "question": "Which line represents the percentage of sentences where the self-training approach resulted in an improvement over the baseline?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4.7: The comparison between the self-training approach and the baseline on different number of tokens per sentence.\n\nQuestion: Which line represents the percentage of sentences where the self-training approach resulted in an improvement over the baseline?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Black dashed line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "d3f6c30a3707251cb3aaa266611323f8",
+        "question": "What is the maximum number of tokens on the x axes of the plots in figure 4.7?",
+        "answer_pred": "60",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4.7: The comparison between the self-training approach and the baseline on different number of tokens per sentence.\n\nQuestion: What is the maximum number of tokens on the x axes of the plots in figure 4.7?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '60'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

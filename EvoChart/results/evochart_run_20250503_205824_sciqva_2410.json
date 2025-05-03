@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "d099838eed9d2ddeff243e21d925a683",
+        "question": "What is the value of the F1 score of the green dashed line at step 1000?",
+        "answer_pred": "0.81",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5. The F1 scores on the whole testing set\n\nQuestion: What is the value of the F1 score of the green dashed line at step 1000?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "924a3dcc150cde654bf3a9de4bf77367",
+        "question": "What is the F1 score of the model using RNN + dynamic word embedding + 2ATT at the step 500?",
+        "answer_pred": "0.81",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5. The F1 scores on the whole testing set\n\nQuestion: What is the F1 score of the model using RNN + dynamic word embedding + 2ATT at the step 500?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "abe65132ced34f8eec6f39aaaeb265ec",
+        "question": "Does the red line reach a maximum F1 score of 0.75?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5. The F1 scores on the whole testing set\n\nQuestion: Does the red line reach a maximum F1 score of 0.75?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "cdf38e6c440841badc3c334c50250f1b",
+        "question": "Does the F1 score for RNN + dynamic word embedding + ATT reach a maximum value higher than 0.75?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5. The F1 scores on the whole testing set\n\nQuestion: Does the F1 score for RNN + dynamic word embedding + ATT reach a maximum value higher than 0.75?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "f3803fd5a2c740a50980d3c4b004c11f",
+        "question": "Which line has the lowest F1 score at around step 1000?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5. The F1 scores on the whole testing set\n\nQuestion: Which line has the lowest F1 score at around step 1000?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "2969acda99e768263f80e1d7856a4d36",
+        "question": "Which of the following configurations of RNN, word embedding, and ATT achieve a F1 score above 0.7 at least once during training?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5. The F1 scores on the whole testing set\n\nQuestion: Which of the following configurations of RNN, word embedding, and ATT achieve a F1 score above 0.7 at least once during training?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "ca17f0ccdd6bf7ee527daff3cb8fe5ec",
+        "question": "What is the dataset used for training the models in Fig. 5, and how does it affect the results?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "bfd0ac6f1c61d37ad8e85fabfa9b9913",
+        "question": "What is the approximate value of the log-likelihood for the orange line at 1000 iterations?",
+        "answer_pred": "-1.01",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: Convergence of the log-likelihood for 5 sets of 1000 iterations\n\nQuestion: What is the approximate value of the log-likelihood for the orange line at 1000 iterations?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "d2e5487bc6d44ed12d9bacac63682117",
+        "question": "What is the range of iterations presented in the x-axis?",
+        "answer_pred": "0.01 to 0.05",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: Convergence of the log-likelihood for 5 sets of 1000 iterations\n\nQuestion: What is the range of iterations presented in the x-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "3ff01c1862cb678bf66a5044a878d7ec",
+        "question": "Do the lines representing the 5 sets of iterations all converge towards a similar value after 500 iterations?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: Convergence of the log-likelihood for 5 sets of 1000 iterations\n\nQuestion: Do the lines representing the 5 sets of iterations all converge towards a similar value after 500 iterations?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

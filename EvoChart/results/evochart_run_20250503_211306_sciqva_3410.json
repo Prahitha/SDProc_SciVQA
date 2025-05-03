@@ -1,0 +1,74 @@
+[
+    {
+        "instance_id": "02d1aab66043596cd70ffcea6c50c66a",
+        "question": "Is the value of the 'FORM' box below the 'SEM' box marked with a '3'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Semantic content of yes and no\n\nQuestion: Is the value of the 'FORM' box below the 'SEM' box marked with a '3'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "fad529c5e2395d3be49550c6738e7ffb",
+        "question": "Does Form can adopt the values yes and no?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Semantic content of yes and no\n\nQuestion: Does Form can adopt the values yes and no?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e3973a0526e2b93374f1d4d5186f680a",
+        "question": "What value do the signs \"{ }\" have?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Semantic content of yes and no\n\nQuestion: What value do the signs \"{ }\" have?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'not-rel'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "e1b958f6faa21f07ad3352b53fbdd007",
+        "question": "Which of the following are parts of MAX-QUD?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Semantic content of yes and no\n\nQuestion: Which of the following are parts of MAX-QUD?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'ASSERT'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "ec8620a377b7c780508bb26a73df26ea",
+        "question": "What is the specific topic of the scientific paper that this figure is from?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "a6875597f4161269614366152df6a543",
+        "question": "What logical operation does the tree structure in the middle of Figure 13 represent, and how many branches does the top node have?",
+        "answer_pred": "conjunction, and the top node has 3 branches.",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 13: This figure shows trees that with the atomic proposition trees construct (from left to right) negation, conjunction, and disjunction.\n\nQuestion: What logical operation does the tree structure in the middle of Figure 13 represent, and how many branches does the top node have?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "ece982390eca5fe73ea21cd5a79e9833",
+        "question": "How many negations are there?",
+        "answer_pred": "2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 13: This figure shows trees that with the atomic proposition trees construct (from left to right) negation, conjunction, and disjunction.\n\nQuestion: How many negations are there?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

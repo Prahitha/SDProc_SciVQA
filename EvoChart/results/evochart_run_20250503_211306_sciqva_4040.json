@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "86071f55e44a2b18386cff0b1b4afb9a",
+        "question": "What are the specific unimodal representations used in each of the models depicted in Figure 4, specifically in the row showing learned representations from models with the multimodal task only?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "259f03dc231fb0233bce96060fd293dd",
+        "question": "What is the approximate y value of the left end of the red line in the bottom left subplot?",
+        "answer_pred": "0.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Correlation between n-gram entropy and human ratings on the baseline dataset, WS dataset and CTG dataset.\n\nQuestion: What is the approximate y value of the left end of the red line in the bottom left subplot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "ee8550bea32fe06a4444036bb6a678b7",
+        "question": "What's the maximum 2-gram entropy in (b) Baseline w/ 2-gram entropy?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Correlation between n-gram entropy and human ratings on the baseline dataset, WS dataset and CTG dataset.\n\nQuestion: What's the maximum 2-gram entropy in (b) Baseline w/ 2-gram entropy?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "18ca97940cc307ecce31801b29f9c2c6",
+        "question": "Is the red line in the top-left graph sloping upwards?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Correlation between n-gram entropy and human ratings on the baseline dataset, WS dataset and CTG dataset.\n\nQuestion: Is the red line in the top-left graph sloping upwards?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d55fead0c63c62ab381daa2ae6296e40",
+        "question": "Does human rating increase with w-gram entropy for (f) WS w/3 entropy?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Correlation between n-gram entropy and human ratings on the baseline dataset, WS dataset and CTG dataset.\n\nQuestion: Does human rating increase with w-gram entropy for (f) WS w/3 entropy?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "93ab89b88dc6cf747230d5841cae3c22",
+        "question": "Which of the following plots has a red line which intersect the left side of the frame at the lowest y value (at the beginning of its corresponding x range)?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Correlation between n-gram entropy and human ratings on the baseline dataset, WS dataset and CTG dataset.\n\nQuestion: Which of the following plots has a red line which intersect the left side of the frame at the lowest y value (at the beginning of its corresponding x range)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Top center plot'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "2631fd528087bfb9211f855c4ee462cf",
+        "question": "Which plot has the highest value for human rating marked on its y axis?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Correlation between n-gram entropy and human ratings on the baseline dataset, WS dataset and CTG dataset.\n\nQuestion: Which plot has the highest value for human rating marked on its y axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '(e)'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "5e0a91e3d9e8432979e4e9bf834aa4d4",
+        "question": "What was being rated in figure 3?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "28670e7423e6a1615a9f11dba9d26277",
+        "question": "What is the color of the cluster labeled 'subtitles' in the bottom visualization?",
+        "answer_pred": "blue",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: 2D visualizations of the unsupervised GMM-based clustering for different pretrained MLMs.\n\nQuestion: What is the color of the cluster labeled 'subtitles' in the bottom visualization?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "18dc6e733af824821cd71e309f3cf9cd",
+        "question": "How many clusters are considered for each MLM in figure 6?",
+        "answer_pred": "4",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: 2D visualizations of the unsupervised GMM-based clustering for different pretrained MLMs.\n\nQuestion: How many clusters are considered for each MLM in figure 6?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

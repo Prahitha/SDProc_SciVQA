@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "2688236616f9746e178595e428620500",
+        "question": "What are the specific linguistic features used in the model shown in Figure 3 (b)?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "e1d478b933899d02dd66eed2ed01501e",
+        "question": "What is the value of the black dashed line at 10^3 in the plot on the left?",
+        "answer_pred": "0.0015",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Learning curves for Prior and MegaM models.\n\nQuestion: What is the value of the black dashed line at 10^3 in the plot on the left?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "9a0c93bcd16ce9858f9bf4a03755bf0c",
+        "question": "Which model shows the highest F-measure on the mention tagging task at the lowest amount of in-domain data used?",
+        "answer_pred": "Only the MegaM model has a mention tagging curve plotted. Averaging its y-axis values, the MegaM model's F-measure for 1000 units of in-domain data is 0.81, and its F-measure for 2000 units of in-domain data is 0.83. No other model's mention tagging curve is plotted.\n\nTherefore, the answer is (A) MegaM",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Learning curves for Prior and MegaM models.\n\nQuestion: Which model shows the highest F-measure on the mention tagging task at the lowest amount of in-domain data used?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f2eaf855c57e772859dc0264781ce8e4",
+        "question": "Is the blue line strictly increasing in the left plot?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Learning curves for Prior and MegaM models.\n\nQuestion: Is the blue line strictly increasing in the left plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "ec423ee75cd0fb3b2d7ca9ef8feb729d",
+        "question": "Does the Cheiba model's performance on the Mention Type Identification Task consistently increase with amount of in domain data used?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Learning curves for Prior and MegaM models.\n\nQuestion: Does the Cheiba model's performance on the Mention Type Identification Task consistently increase with amount of in domain data used?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8ad46f3618679423334a1876fbf2a7c7",
+        "question": "Which grid lines do the plots of figure 4 contain?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Learning curves for Prior and MegaM models.\n\nQuestion: Which grid lines do the plots of figure 4 contain?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "79a7f2e885134f6ea9bcee240e4ebf53",
+        "question": "In which of the following tasks does OnlyOut reach the lowest performance at the end of the range?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Learning curves for Prior and MegaM models.\n\nQuestion: In which of the following tasks does OnlyOut reach the lowest performance at the end of the range?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "04461c10b01092300f4e1d9062a52a05",
+        "question": "What is the specific type of data used in the training process of the models?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "be6306261f81e604f3a0a8954b6edce5",
+        "question": "What is the F1 score of the blue dashed line at a source data size of 1G?",
+        "answer_pred": "0.74",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Impact of source data size on the effectiveness of pretrained models for NER.\n\nQuestion: What is the F1 score of the blue dashed line at a source data size of 1G?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "fe57542a8089f0f48a508c2af99b91c8",
+        "question": "What is the largest source data size shown on the graph?",
+        "answer_pred": "1000000000",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Impact of source data size on the effectiveness of pretrained models for NER.\n\nQuestion: What is the largest source data size shown on the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

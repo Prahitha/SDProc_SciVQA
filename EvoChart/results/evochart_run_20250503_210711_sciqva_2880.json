@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "4c946699781ea18e22af91a9ef6e11c4",
+        "question": "According to the image, what are the three languages represented in the figure?",
+        "answer_pred": "English, Spanish, Computer Code",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6. Emergence (left), self-organization (center) and complexity (right) for English, Spanish and Computer Code. Vertical axis are dimensionless [0-1]. . These plots are based on Equations (4), (5) and (6) combined with Equations (15a), (15b), (15c), (11a), (11b) and (11c).\n\nQuestion: According to the image, what are the three languages represented in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "873c13beb755b91827b93baf6f67b91d",
+        "question": "Is the orange line higher than the red line for the third plot depicting 'Complexity' at the length of 65.54 thousand words?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6. Emergence (left), self-organization (center) and complexity (right) for English, Spanish and Computer Code. Vertical axis are dimensionless [0-1]. . These plots are based on Equations (4), (5) and (6) combined with Equations (15a), (15b), (15c), (11a), (11b) and (11c).\n\nQuestion: Is the orange line higher than the red line for the third plot depicting 'Complexity' at the length of 65.54 thousand words?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "55782625a3f1c28fc0cd9ab2083e8f88",
+        "question": "Is the value of complexity for English consistently higher than that for Artificial code at the same text length?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6. Emergence (left), self-organization (center) and complexity (right) for English, Spanish and Computer Code. Vertical axis are dimensionless [0-1]. . These plots are based on Equations (4), (5) and (6) combined with Equations (15a), (15b), (15c), (11a), (11b) and (11c).\n\nQuestion: Is the value of complexity for English consistently higher than that for Artificial code at the same text length?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "371e72b0ab294a45c3c8a6718a2712f7",
+        "question": "What is the trend of the black line in the 'Emergence' plot?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6. Emergence (left), self-organization (center) and complexity (right) for English, Spanish and Computer Code. Vertical axis are dimensionless [0-1]. . These plots are based on Equations (4), (5) and (6) combined with Equations (15a), (15b), (15c), (11a), (11b) and (11c).\n\nQuestion: What is the trend of the black line in the 'Emergence' plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "2202a3f89f1a5aea48bc4895ec791a1d",
+        "question": "Which of the languages have the highest emergence value for the smallest text length?",
+        "answer_pred": "A",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6. Emergence (left), self-organization (center) and complexity (right) for English, Spanish and Computer Code. Vertical axis are dimensionless [0-1]. . These plots are based on Equations (4), (5) and (6) combined with Equations (15a), (15b), (15c), (11a), (11b) and (11c).\n\nQuestion: Which of the languages have the highest emergence value for the smallest text length?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'English and Spanish'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "ddd5dfcf76baa94e45db838bbaf7bb51",
+        "question": "What are the specific values of the equations mentioned in the caption for the length of 10,000 words?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "f9f79970c9601e3e5cbd68fe9fe6c82e",
+        "question": "What is the approximate value of uncoordinated slots for the blue line at 10 training epochs?",
+        "answer_pred": "11.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The number of uncoordinated slots of our joint model (One Pass), joint model with CRF (One Pass+CRF) and SlotRefine (Two Pass) during training.\n\nQuestion: What is the approximate value of uncoordinated slots for the blue line at 10 training epochs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "1e6b210672e11b9822c333c517518107",
+        "question": "What is the approximate maximum number of uncoordinated slots for the One Pass+CRF model?",
+        "answer_pred": "11",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The number of uncoordinated slots of our joint model (One Pass), joint model with CRF (One Pass+CRF) and SlotRefine (Two Pass) during training.\n\nQuestion: What is the approximate maximum number of uncoordinated slots for the One Pass+CRF model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "5ffe540b48afa1a7f3cdf03f1ffee68b",
+        "question": "Does the red line, representing 'One Pass', have a higher value than the blue line, representing 'One Pass + CRF', at the training epoch 50?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The number of uncoordinated slots of our joint model (One Pass), joint model with CRF (One Pass+CRF) and SlotRefine (Two Pass) during training.\n\nQuestion: Does the red line, representing 'One Pass', have a higher value than the blue line, representing 'One Pass + CRF', at the training epoch 50?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "fbcff518689b53d726d55babaa604142",
+        "question": "Does the number of uncoordinated slots consistently decrease with increasing training epochs for all three models?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The number of uncoordinated slots of our joint model (One Pass), joint model with CRF (One Pass+CRF) and SlotRefine (Two Pass) during training.\n\nQuestion: Does the number of uncoordinated slots consistently decrease with increasing training epochs for all three models?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

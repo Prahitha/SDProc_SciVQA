@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "a4d03735384982ab293f06b325a67933",
+        "question": "What is the colour of the cell corresponding to layer 3 and bin 6?",
+        "answer_pred": "light blue",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 14: Frequency-based classification accuracy on states from the ENRU decoder.\n\nQuestion: What is the colour of the cell corresponding to layer 3 and bin 6?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "979e64e49736bbaab8b7d8db3d02872f",
+        "question": "What is the classification accuracy for layer 3, bin 4?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 14: Frequency-based classification accuracy on states from the ENRU decoder.\n\nQuestion: What is the classification accuracy for layer 3, bin 4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "7d092a687842f2bfd7ac9e6467b205ae",
+        "question": "Is the colour of the cell in the top right corner blue?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 14: Frequency-based classification accuracy on states from the ENRU decoder.\n\nQuestion: Is the colour of the cell in the top right corner blue?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e6a3436c340723fa5b22d9741db1256e",
+        "question": "Is the classification accuracy for layer 6, bin 10 higher than the accuracy for layer 6, bin 1?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 14: Frequency-based classification accuracy on states from the ENRU decoder.\n\nQuestion: Is the classification accuracy for layer 6, bin 10 higher than the accuracy for layer 6, bin 1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "57750aaf2f680693b0fe4d288203b5da",
+        "question": "What is the value of the red cell in the bottom row?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 14: Frequency-based classification accuracy on states from the ENRU decoder.\n\nQuestion: What is the value of the red cell in the bottom row?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0.000'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "711a59f607965ba27c8b4d1a17feb031",
+        "question": "For which layer is the classification accuracy highest at bin 9?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 14: Frequency-based classification accuracy on states from the ENRU decoder.\n\nQuestion: For which layer is the classification accuracy highest at bin 9?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'layer 6'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "e33bf7e7d484caddb41d4320da04e4b0",
+        "question": "On which specific dataset is the model being evaluated on?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "3670e5f69d081da2c29fdbb1bed76015",
+        "question": "What is the value represented by the darkest cell in the confusion matrix?",
+        "answer_pred": "0.0261",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The confusion matrix of the system as in run3 (Table 3).\n\nQuestion: What is the value represented by the darkest cell in the confusion matrix?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "759f8865c1afa330957e646a19d4d86f",
+        "question": "How many different labels are represented in the graph?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The confusion matrix of the system as in run3 (Table 3).\n\nQuestion: How many different labels are represented in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "443c48e25a8382c4c2ae44c701bf260f",
+        "question": "Is the lightest cell in the confusion matrix located in the 'msa' row and 'egy' column?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The confusion matrix of the system as in run3 (Table 3).\n\nQuestion: Is the lightest cell in the confusion matrix located in the 'msa' row and 'egy' column?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

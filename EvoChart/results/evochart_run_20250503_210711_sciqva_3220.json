@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "77dc836b3d17fff7801068ef4862dcb6",
+        "question": "What is the maximum accuracy value achieved for the baseline corpus?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 16: Baseline Artificial Corpus\n\nQuestion: What is the maximum accuracy value achieved for the baseline corpus?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '50'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "c31c50a397373d64f6a2ddbdf79f985f",
+        "question": "What is the specific dataset used for training the model shown in Figure 16?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "b8637d3578f062fc620e36ed25383bae",
+        "question": "What is the approximate value of the blue line at \u03b2 = 0.5 in the first plot?",
+        "answer_pred": "0.7",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: (a) Trade-off curve of G-BLEU and Style accuracy according to \u03b1 (at \u03b2 = 0.5) in Yelp (b) Trade-off curve of G-BLEU and Style accuracy according to \u03b2 (at \u03b1 = 0.7) in Yelp.\n\nQuestion: What is the approximate value of the blue line at \u03b2 = 0.5 in the first plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "299c0572cf565defcf183856bb26518c",
+        "question": "What is the x-axis representing in the second graph?",
+        "answer_pred": "\u03b2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: (a) Trade-off curve of G-BLEU and Style accuracy according to \u03b1 (at \u03b2 = 0.5) in Yelp (b) Trade-off curve of G-BLEU and Style accuracy according to \u03b2 (at \u03b1 = 0.7) in Yelp.\n\nQuestion: What is the x-axis representing in the second graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "fd4f744a7b6bed84c925110706413556",
+        "question": "In the left graph, does the blue line increase as the value of the X-axis increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: (a) Trade-off curve of G-BLEU and Style accuracy according to \u03b1 (at \u03b2 = 0.5) in Yelp (b) Trade-off curve of G-BLEU and Style accuracy according to \u03b2 (at \u03b1 = 0.7) in Yelp.\n\nQuestion: In the left graph, does the blue line increase as the value of the X-axis increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "3172a00e318b256583825435cc2c6743",
+        "question": "Does the G-BLEU score increase as Style Accuracy decreases in the Yelp dataset when \u03b2 is held constant?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: (a) Trade-off curve of G-BLEU and Style accuracy according to \u03b1 (at \u03b2 = 0.5) in Yelp (b) Trade-off curve of G-BLEU and Style accuracy according to \u03b2 (at \u03b1 = 0.7) in Yelp.\n\nQuestion: Does the G-BLEU score increase as Style Accuracy decreases in the Yelp dataset when \u03b2 is held constant?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "84264e80a6d384af126ce43493ca881e",
+        "question": "What is the direction of the orange line in the rightmost graph of Figure 2?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: (a) Trade-off curve of G-BLEU and Style accuracy according to \u03b1 (at \u03b2 = 0.5) in Yelp (b) Trade-off curve of G-BLEU and Style accuracy according to \u03b2 (at \u03b1 = 0.7) in Yelp.\n\nQuestion: What is the direction of the orange line in the rightmost graph of Figure 2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "148cf58913429318efac8fe0efd443fe",
+        "question": "Which of the following parameters are being varied to study the trade-off between G-BLEU and Style accuracy in Yelp?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: (a) Trade-off curve of G-BLEU and Style accuracy according to \u03b1 (at \u03b2 = 0.5) in Yelp (b) Trade-off curve of G-BLEU and Style accuracy according to \u03b2 (at \u03b1 = 0.7) in Yelp.\n\nQuestion: Which of the following parameters are being varied to study the trade-off between G-BLEU and Style accuracy in Yelp?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither \u03b1 nor \u03b2'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "55275611379128d0e93d9401b834d24a",
+        "question": "What are the specific values of \u03b1 and \u03b2 that were used to obtain the G-BLEU and Style accuracy results shown in Figure 2? ",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "acf150071aa09e344a729617f4315067",
+        "question": "What is the approximate BLEU score of the red line at T= 256?",
+        "answer_pred": "0.54",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: BLEU scores of Trans.base+SCWAContLoss on the EN-DE and ZH-EN test sets with different number of function words T .\n\nQuestion: What is the approximate BLEU score of the red line at T= 256?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

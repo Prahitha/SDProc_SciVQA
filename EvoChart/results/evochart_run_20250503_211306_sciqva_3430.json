@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "78cd892c9b71f13563fb1426003744e6",
+        "question": "What are components of the system described in this figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Dialog system used in this work.\n\nQuestion: What are components of the system described in this figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'OOV/Name Detection'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "c535ddeaed125d07b12056579264b0cd",
+        "question": "What are the specific ASR and MT models used in the system?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "bafa35b2c624e24bb1636102644282e3",
+        "question": "Which phase does the Lexical Analyzer belong to?",
+        "answer_pred": "Phase 1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2.1. An overview of our system\n\nQuestion: Which phase does the Lexical Analyzer belong to?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c6af48dede443652b402b360490ad73c",
+        "question": "How many phases are there in the system described in the image?",
+        "answer_pred": "4",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2.1. An overview of our system\n\nQuestion: How many phases are there in the system described in the image?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "2f3d6a656cd73927b8e85854242f5be8",
+        "question": "Is the 'Lexicon' box connected to the 'Candidate Generator' box with an arrow?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2.1. An overview of our system\n\nQuestion: Is the 'Lexicon' box connected to the 'Candidate Generator' box with an arrow?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "aff16071059d108780976578ff61ed13",
+        "question": "Is the system described in the figure a two-phase system?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2.1. An overview of our system\n\nQuestion: Is the system described in the figure a two-phase system?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d834ad6b70c0783de159ec4ede4840a6",
+        "question": "Which of the following phases are connected to the 'Candidate Pool' box?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2.1. An overview of our system\n\nQuestion: Which of the following phases are connected to the 'Candidate Pool' box?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "efe78619dc459753a8db47bf64f150ad",
+        "question": "What are the phases of the Three-Phase NE Recognition System?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2.1. An overview of our system\n\nQuestion: What are the phases of the Three-Phase NE Recognition System?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Candidate Pool, Segmentation Result'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "5b3cd0483af3525519543eb502356cd2",
+        "question": "What is the specific algorithm used in the Candidate Generator?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "76799b41ac39d94ff20fa6fc448957f7",
+        "question": "How many arrows are there?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: jiant pipeline stages using RoBERTa as the sentence encoder, ReCoRD and MNLI tasks as intermediate tasks, and MNLI and BoolQ as tasks for target training and evaluation. The diagram highlights that during target training and evaluation phases, copies are made of the sentence encoder model, and fine tuning and evaluation for each task are conducted on separate copies.\n\nQuestion: How many arrows are there?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

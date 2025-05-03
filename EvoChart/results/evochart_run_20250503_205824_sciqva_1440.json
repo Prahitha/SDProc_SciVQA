@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "a2e9464bcec4aafb582835e2dd26ccb7",
+        "question": "Does the BLEU EN value decrease as the cosine similarity between the gradients becomes more negative?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Cosine similarity between the gradients issued from LINT and LCEpretrain. The collapse of the BLEU En matches the negative cosine similarity.We here set \u03b1 = 0.5 but similar values yield identical behavior as shown in Figure 4 in Appendix.\n\nQuestion: Does the BLEU EN value decrease as the cosine similarity between the gradients becomes more negative?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "c380597432aacc5ac0a9180cdf7bca0f",
+        "question": "Which line is positioned closer to the zero value in the right plot?",
+        "answer_pred": "S",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Cosine similarity between the gradients issued from LINT and LCEpretrain. The collapse of the BLEU En matches the negative cosine similarity.We here set \u03b1 = 0.5 but similar values yield identical behavior as shown in Figure 4 in Appendix.\n\nQuestion: Which line is positioned closer to the zero value in the right plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'It is not possible to determine from the plot'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "a7aa099e4c69940e7a27b001d3afacc4",
+        "question": "Which of the following models are represented in the graph?",
+        "answer_pred": "B,C",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Cosine similarity between the gradients issued from LINT and LCEpretrain. The collapse of the BLEU En matches the negative cosine similarity.We here set \u03b1 = 0.5 but similar values yield identical behavior as shown in Figure 4 in Appendix.\n\nQuestion: Which of the following models are represented in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'BERT'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "9817b8c430ef346dbccb567c9e72aed3",
+        "question": "What is the architecture of the models used in the experiment?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "177cae7fdcff56576f185dad0e1a7550",
+        "question": "What is the approximate value of the green line at the 91000 training step?",
+        "answer_pred": "0.0012",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Ablation study results.\n\nQuestion: What is the approximate value of the green line at the 91000 training step?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c2ae9b028fa9984897904b5ac1e68160",
+        "question": "What is the title of graph (a)?",
+        "answer_pred": "Effect of different levels of aerosol on surface temperature.",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Ablation study results.\n\nQuestion: What is the title of graph (a)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f36cc77b5fe7adb2465297b3e0ee72c1",
+        "question": "Does the green line represent the 'w/o visibility' data?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Ablation study results.\n\nQuestion: Does the green line represent the 'w/o visibility' data?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "bb7307ad747183742de48d5031707fde",
+        "question": "Is '0.2' one of the ratios represented in graph (b)?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Ablation study results.\n\nQuestion: Is '0.2' one of the ratios represented in graph (b)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "91be93faaa40cc0736f55701904f3b03",
+        "question": "Which line in the bottom figure has the lowest value at the 90000 training step?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Ablation study results.\n\nQuestion: Which line in the bottom figure has the lowest value at the 90000 training step?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The yellow line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8360c3cd60259a47ee66ffb4f7141c15",
+        "question": "Which of the following statements are true regarding the results shown in Figure 7?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Ablation study results.\n\nQuestion: Which of the following statements are true regarding the results shown in Figure 7?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The performance of the model with a higher MER mask ratio is higher than the one with a lower MER mask ratio.'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

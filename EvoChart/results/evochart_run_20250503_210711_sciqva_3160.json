@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "230091ed5c78b4d15307f132512481ee",
+        "question": "What is the maximum size of the window?",
+        "answer_pred": "30",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3: Performance comparison with respect to (a) window size m and (b) starting layer lS , where the performance for the STS datset is the Pearson Correlation Coefficients (\u00d7100) while the performance for the SICK-E and the SST2 datasets is test accuracy.\n\nQuestion: What is the maximum size of the window?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "211589a2447e5bc88077c412109a1146",
+        "question": "Is the performance of the blue line higher than the performance of the orange line in the left subplot?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3: Performance comparison with respect to (a) window size m and (b) starting layer lS , where the performance for the STS datset is the Pearson Correlation Coefficients (\u00d7100) while the performance for the SICK-E and the SST2 datasets is test accuracy.\n\nQuestion: Is the performance of the blue line higher than the performance of the orange line in the left subplot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "17d88056f4ce39f2765dfb857c3b0473",
+        "question": "Is the performance of the SST2 dataset consistently higher than the performance of the SICK-E dataset?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3: Performance comparison with respect to (a) window size m and (b) starting layer lS , where the performance for the STS datset is the Pearson Correlation Coefficients (\u00d7100) while the performance for the SICK-E and the SST2 datasets is test accuracy.\n\nQuestion: Is the performance of the SST2 dataset consistently higher than the performance of the SICK-E dataset?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "0d08a3f89092f106357fb2d937e980ad",
+        "question": "Which line represents the performance of the SST2 dataset?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3: Performance comparison with respect to (a) window size m and (b) starting layer lS , where the performance for the STS datset is the Pearson Correlation Coefficients (\u00d7100) while the performance for the SICK-E and the SST2 datasets is test accuracy.\n\nQuestion: Which line represents the performance of the SST2 dataset?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The green line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "a07601c099b96f4c74cfad61c399d7f1",
+        "question": "Which of the datasets are represented by test accuracy?",
+        "answer_pred": "S",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3: Performance comparison with respect to (a) window size m and (b) starting layer lS , where the performance for the STS datset is the Pearson Correlation Coefficients (\u00d7100) while the performance for the SICK-E and the SST2 datasets is test accuracy.\n\nQuestion: Which of the datasets are represented by test accuracy?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "a05d53d7fe7cacb4a8d33313dbdb9759",
+        "question": "What is the specific implementation of the model used in this experiment?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "31260262c8f197fb45ac620a09f5b0f8",
+        "question": "What is the approximate LAS value of the blue line at 1000 training sentences?",
+        "answer_pred": "0.7",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: A plot of LAS between with respect to the number of training sentences in each treebank.\n\nQuestion: What is the approximate LAS value of the blue line at 1000 training sentences?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "6026a34dc5bb17864f7e9475991e10e7",
+        "question": "What are the two methods being compared in the plot?",
+        "answer_pred": "UBM and LAS",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: A plot of LAS between with respect to the number of training sentences in each treebank.\n\nQuestion: What are the two methods being compared in the plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "318fd6bfe70fefb07906eeb5682e2bb2",
+        "question": "Does the blue line representing UDPipe Future have a consistently higher value than the green line representing UDify?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: A plot of LAS between with respect to the number of training sentences in each treebank.\n\nQuestion: Does the blue line representing UDPipe Future have a consistently higher value than the green line representing UDify?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e8c597d874fe2fdc42e9ae32a2d922f7",
+        "question": "Does the LAS value for UDPipe Future consistently increase as the number of training sentences increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: A plot of LAS between with respect to the number of training sentences in each treebank.\n\nQuestion: Does the LAS value for UDPipe Future consistently increase as the number of training sentences increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

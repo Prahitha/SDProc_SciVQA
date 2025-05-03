@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "4b7dfaa754a86626cbe4a4e8f8c29be3",
+        "question": "Does the red line representing DAN have a higher accuracy value than the blue line representing DAN + MT at the point where the number of labeled Chinese reviews is 1000?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: ADAN performance and standard deviation for Chinese in the semi-supervised setting when using various amount of labeled Chinese data.\n\nQuestion: Does the red line representing DAN have a higher accuracy value than the blue line representing DAN + MT at the point where the number of labeled Chinese reviews is 1000?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "dc8262b7c5ac0dc8c158dd7b61afd48b",
+        "question": "Does ADAN consistently outperform DAN across the range of labeled Chinese data?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: ADAN performance and standard deviation for Chinese in the semi-supervised setting when using various amount of labeled Chinese data.\n\nQuestion: Does ADAN consistently outperform DAN across the range of labeled Chinese data?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "761ae335fd5bde65d1616a7d0413342f",
+        "question": "Which line has the highest value when the number of labeled Chinese reviews is 10^4?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: ADAN performance and standard deviation for Chinese in the semi-supervised setting when using various amount of labeled Chinese data.\n\nQuestion: Which line has the highest value when the number of labeled Chinese reviews is 10^4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'purple line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "a25eff7bb3d1d649fd12e7709baa33e4",
+        "question": "Which performance measures are compared in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: ADAN performance and standard deviation for Chinese in the semi-supervised setting when using various amount of labeled Chinese data.\n\nQuestion: Which performance measures are compared in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Unsupervised, DAN, ADAN'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "9c619134b85a6926abdd1adb19d07656",
+        "question": "What are the specific implementations of the DAN, DAN + MT, ADAN, and Chn Only models used in the experiment?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "9a910ae21b7bfff3c50072c53261afac",
+        "question": "What is the approximate value of the red line on the x-axis?",
+        "answer_pred": "0.43",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Density of D estimates for binary biphone characters. Dotted lines mark D = 0, the phylogenetic expectation, and D = 1, the random expectation. Mean D for all characters is 0.43, marked in red.\n\nQuestion: What is the approximate value of the red line on the x-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "dfdee4626c764b1baf691925e4d6551f",
+        "question": "What is the maximum possible D?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Density of D estimates for binary biphone characters. Dotted lines mark D = 0, the phylogenetic expectation, and D = 1, the random expectation. Mean D for all characters is 0.43, marked in red.\n\nQuestion: What is the maximum possible D?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "d5e6d4f485482bcdc10fdee0a339fc0e",
+        "question": "Is the red vertical line positioned at the peak of the curve?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Density of D estimates for binary biphone characters. Dotted lines mark D = 0, the phylogenetic expectation, and D = 1, the random expectation. Mean D for all characters is 0.43, marked in red.\n\nQuestion: Is the red vertical line positioned at the peak of the curve?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "c7ce1eb3133ca6d67bf89544bd6c7876",
+        "question": "Is the mean D for all characters greater than 0.5?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Density of D estimates for binary biphone characters. Dotted lines mark D = 0, the phylogenetic expectation, and D = 1, the random expectation. Mean D for all characters is 0.43, marked in red.\n\nQuestion: Is the mean D for all characters greater than 0.5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d5320f8c1510a4789c459637430540e3",
+        "question": "How many peaks over 0.3 are there?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Density of D estimates for binary biphone characters. Dotted lines mark D = 0, the phylogenetic expectation, and D = 1, the random expectation. Mean D for all characters is 0.43, marked in red.\n\nQuestion: How many peaks over 0.3 are there?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '4'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

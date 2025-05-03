@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "765f28b040d47544609716e02a65725e",
+        "question": "What is the specific meaning of the word \"alignment\" in the context of the image and the caption?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "3cae495f75570a544bca02ef18278d86",
+        "question": "What color represents the 'test' accuracy for the BLI model with a synthetic dictionary added?",
+        "answer_pred": "gray",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Train and test accuracy (P@1) for BLI on MUSE; Projection-based CLWE underfit the training dictionary (gray), but retrofitting to the training dictionary overfits (pink). Adding a synthetic dictionary balances between training and test accuracy (orange).\n\nQuestion: What color represents the 'test' accuracy for the BLI model with a synthetic dictionary added?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "62cfac12a9afcd9c0a2fc38153500af7",
+        "question": "How many languages are studied?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Train and test accuracy (P@1) for BLI on MUSE; Projection-based CLWE underfit the training dictionary (gray), but retrofitting to the training dictionary overfits (pink). Adding a synthetic dictionary balances between training and test accuracy (orange).\n\nQuestion: How many languages are studied?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "eb93b54eb59f154ed435c610e221369f",
+        "question": "Are the pink bars ('+retrofit (train)') consistently taller than the gray bars ('Original (train)') in the 'BLI accuracy for PROC' section of the figure?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Train and test accuracy (P@1) for BLI on MUSE; Projection-based CLWE underfit the training dictionary (gray), but retrofitting to the training dictionary overfits (pink). Adding a synthetic dictionary balances between training and test accuracy (orange).\n\nQuestion: Are the pink bars ('+retrofit (train)') consistently taller than the gray bars ('Original (train)') in the 'BLI accuracy for PROC' section of the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e0ecd91113b48ca628790b4fa5faee7a",
+        "question": "Are the Original (train) values for \"Ja\" smaller than the Original (train) values for \"De\"?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Train and test accuracy (P@1) for BLI on MUSE; Projection-based CLWE underfit the training dictionary (gray), but retrofitting to the training dictionary overfits (pink). Adding a synthetic dictionary balances between training and test accuracy (orange).\n\nQuestion: Are the Original (train) values for \"Ja\" smaller than the Original (train) values for \"De\"?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "aacb2a82b09303b29368afe3249d7cd1",
+        "question": "Considering the BLI accuracy for PROC, which colors represent the 'Original (train)' and '+synthetic (test)' data, respectively?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Train and test accuracy (P@1) for BLI on MUSE; Projection-based CLWE underfit the training dictionary (gray), but retrofitting to the training dictionary overfits (pink). Adding a synthetic dictionary balances between training and test accuracy (orange).\n\nQuestion: Considering the BLI accuracy for PROC, which colors represent the 'Original (train)' and '+synthetic (test)' data, respectively?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Gray and Pink'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "0957364da9c55f637cf6b16cf1b08d18",
+        "question": "Which of the following statements are true regarding the BLI on MUSE?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Train and test accuracy (P@1) for BLI on MUSE; Projection-based CLWE underfit the training dictionary (gray), but retrofitting to the training dictionary overfits (pink). Adding a synthetic dictionary balances between training and test accuracy (orange).\n\nQuestion: Which of the following statements are true regarding the BLI on MUSE?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The original method shows better performance than the retrofitted one.'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "971d0783914e220b3d8cd20527a9a5f9",
+        "question": "What is the precise difference in P@1 score between the 'retrofit' and 'synthetic' methods for the German language (DE) in the RCSLS model, considering both training and testing datasets?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "5e623c82854ef599b1b49b436112a171",
+        "question": "What is the approximate win percentage of the blue bar corresponding to the task 'WoW (Unseen)'?",
+        "answer_pred": "57.14",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Human evaluations on Image Chat and Wizard of Wikipedia (WoW), comparing existing state of the art models with our All Tasks MT conversational agent. Engagingness win rates are statistically significant in all three matchups (binomial test, p < .05).\n\nQuestion: What is the approximate win percentage of the blue bar corresponding to the task 'WoW (Unseen)'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "3f591ffde80c09b99eba6902844a9576",
+        "question": "What are the three different tasks compared?",
+        "answer_pred": "Image Chat, WoW, All Tasks MT",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Human evaluations on Image Chat and Wizard of Wikipedia (WoW), comparing existing state of the art models with our All Tasks MT conversational agent. Engagingness win rates are statistically significant in all three matchups (binomial test, p < .05).\n\nQuestion: What are the three different tasks compared?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

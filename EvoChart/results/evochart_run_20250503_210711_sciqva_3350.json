@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "d32de217c1cdc3b55103c07474a2eaf5",
+        "question": "Is the red line representing 'Word Rank' above the green line representing 'Zipf-Mandelbrot' at the value of 100 on the x-axis?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Word Rank Distribution\n\nQuestion: Is the red line representing 'Word Rank' above the green line representing 'Zipf-Mandelbrot' at the value of 100 on the x-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "2c578fb44b5a5965f984350f1996c309",
+        "question": "Does the 'Word Rank' distribution follow a Quadratic trend?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Word Rank Distribution\n\nQuestion: Does the 'Word Rank' distribution follow a Quadratic trend?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "61790244a9cda38b19522ceb34f931e0",
+        "question": "Which of the lines on the plot best represents the 'Zipf-Mandelbrot' distribution?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Word Rank Distribution\n\nQuestion: Which of the lines on the plot best represents the 'Zipf-Mandelbrot' distribution?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "0fade96e782eb77afbb9a6b3a196beb2",
+        "question": "Which distribution types are shown in this graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Word Rank Distribution\n\nQuestion: Which distribution types are shown in this graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Normalized Word Count'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "551fc588e3a5ae56c5e4ebb41aa85f2b",
+        "question": "What is the specific dataset used to generate the word rank distribution shown in Figure 1?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "3a860a986baaae0f201d2b996d35c568",
+        "question": "What is the approximate PPL value of the darkest blue point located furthest to the left on the scatter plot?",
+        "answer_pred": "1.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: ELI5: Perplexity vs. context repeats as a function of  in the context unlikelihood objective.\n\nQuestion: What is the approximate PPL value of the darkest blue point located furthest to the left on the scatter plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "bc672bfece17d1a78904ee9004113ec5",
+        "question": "What is the approximate PPL for a ELI5 Context repeats of 0.02?",
+        "answer_pred": "0.02",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: ELI5: Perplexity vs. context repeats as a function of  in the context unlikelihood objective.\n\nQuestion: What is the approximate PPL for a ELI5 Context repeats of 0.02?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c309c401543a4685ae8859b63439e9ee",
+        "question": "Are there any data points plotted in the scatter plot that have a darker blue color and are located to the left of the dotted vertical line?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: ELI5: Perplexity vs. context repeats as a function of  in the context unlikelihood objective.\n\nQuestion: Are there any data points plotted in the scatter plot that have a darker blue color and are located to the left of the dotted vertical line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "7cbcf470ad4ae97949c94f3ba5f0dfb8",
+        "question": "Does Figure 3 depict a linear relationship between perplexity (PPL) and ELI5 context repeats under the context unlikelihood objective?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: ELI5: Perplexity vs. context repeats as a function of  in the context unlikelihood objective.\n\nQuestion: Does Figure 3 depict a linear relationship between perplexity (PPL) and ELI5 context repeats under the context unlikelihood objective?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "47e08ddbbed59e8a18ac3d5df7f67cb3",
+        "question": "Considering the scatter plot in Figure 3, which of the following statements about the points are true?  Select all that apply.",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: ELI5: Perplexity vs. context repeats as a function of  in the context unlikelihood objective.\n\nQuestion: Considering the scatter plot in Figure 3, which of the following statements about the points are true?  Select all that apply.\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': \"The darkest blue points are located near the vertical dotted line which represents the 'Human level'.\"}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

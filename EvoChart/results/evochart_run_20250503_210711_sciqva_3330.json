@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "bd087226a030b57af9785ec207586b80",
+        "question": "Is the approximate recall equal to 0.75, corresponding to a precision of 0.35, in the first graph?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Confidence bands for Moses produced 5-gram MT method. Green lines show 10 folds and small red circles indicate ranking position for a given curve on the precision/recall chart. For each position there are as many points as there are folds and the coordinates for these positions, according to our assumption, are normally distributed for both precision and recall. After computing elliptical density contours, shown in light blue, we connected the endpoints of the longest principle axis of the neighboring ellipses to produce confidence bands (indicated by dashed light blue lines).\n\nQuestion: Is the approximate recall equal to 0.75, corresponding to a precision of 0.35, in the first graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a6163c9f614a4d67dbd69bea0cfbe54a",
+        "question": "What color are the lines that connect the endpoints of the longest principle axis of the neighboring ellipses?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Confidence bands for Moses produced 5-gram MT method. Green lines show 10 folds and small red circles indicate ranking position for a given curve on the precision/recall chart. For each position there are as many points as there are folds and the coordinates for these positions, according to our assumption, are normally distributed for both precision and recall. After computing elliptical density contours, shown in light blue, we connected the endpoints of the longest principle axis of the neighboring ellipses to produce confidence bands (indicated by dashed light blue lines).\n\nQuestion: What color are the lines that connect the endpoints of the longest principle axis of the neighboring ellipses?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Yellow'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "78d2025ee3e8f5910a68891019413b4c",
+        "question": "What is the highest precision value shown in the first graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Confidence bands for Moses produced 5-gram MT method. Green lines show 10 folds and small red circles indicate ranking position for a given curve on the precision/recall chart. For each position there are as many points as there are folds and the coordinates for these positions, according to our assumption, are normally distributed for both precision and recall. After computing elliptical density contours, shown in light blue, we connected the endpoints of the longest principle axis of the neighboring ellipses to produce confidence bands (indicated by dashed light blue lines).\n\nQuestion: What is the highest precision value shown in the first graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0.8'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "77605693eb7009b8cf2085b160204e01",
+        "question": "What specific values of precision and recall were used to generate the confidence bands for the Moses 5-gram MT method, and how many of them were there?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "4ce88e7833aaca8b4ce9501c7479a91a",
+        "question": "How many blue lines are there that show interactions among three entities?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Interaction between Nigerian entities. Subtitles show the names of the given entity pair. Red lines give the geodesic distance between two entities. Blue dots represent the number of interactions between two entities (relative degree) at each timestamp, and blue lines are regression of the relative degree between two entities over time.\n\nQuestion: How many blue lines are there that show interactions among three entities?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "5a54dfe434e31fe82d9edfc6fafc329b",
+        "question": "What is the sign of the slope of the line that represents geodesic distances?",
+        "answer_pred": "-1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Interaction between Nigerian entities. Subtitles show the names of the given entity pair. Red lines give the geodesic distance between two entities. Blue dots represent the number of interactions between two entities (relative degree) at each timestamp, and blue lines are regression of the relative degree between two entities over time.\n\nQuestion: What is the sign of the slope of the line that represents geodesic distances?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "5da1b76f63ac5619950ea63a942ca7eb",
+        "question": "Does the blue line in subplot (d) depict the number of interactions between Government (Nigeria) and Ministry (Nigeria) over time?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Interaction between Nigerian entities. Subtitles show the names of the given entity pair. Red lines give the geodesic distance between two entities. Blue dots represent the number of interactions between two entities (relative degree) at each timestamp, and blue lines are regression of the relative degree between two entities over time.\n\nQuestion: Does the blue line in subplot (d) depict the number of interactions between Government (Nigeria) and Ministry (Nigeria) over time?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8803f95fe8924d4467025ea99e63e637",
+        "question": "Does the relative degree between Citizen (Nigeria) and Government (Nigeria) increase over time?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Interaction between Nigerian entities. Subtitles show the names of the given entity pair. Red lines give the geodesic distance between two entities. Blue dots represent the number of interactions between two entities (relative degree) at each timestamp, and blue lines are regression of the relative degree between two entities over time.\n\nQuestion: Does the relative degree between Citizen (Nigeria) and Government (Nigeria) increase over time?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e16699c164c13831c08c7ac2221ab8d0",
+        "question": "Which subplot has a blue line with negative slope?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Interaction between Nigerian entities. Subtitles show the names of the given entity pair. Red lines give the geodesic distance between two entities. Blue dots represent the number of interactions between two entities (relative degree) at each timestamp, and blue lines are regression of the relative degree between two entities over time.\n\nQuestion: Which subplot has a blue line with negative slope?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "0aa64869bb8c1035ee39489c1848d26c",
+        "question": "Which interactions are represented in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Interaction between Nigerian entities. Subtitles show the names of the given entity pair. Red lines give the geodesic distance between two entities. Blue dots represent the number of interactions between two entities (relative degree) at each timestamp, and blue lines are regression of the relative degree between two entities over time.\n\nQuestion: Which interactions are represented in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Citizen-Other countries'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

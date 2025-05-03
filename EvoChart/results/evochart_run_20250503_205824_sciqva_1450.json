@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "6d2f722791c3632c433ce3896766079b",
+        "question": "What is the average accuracy of the model trained with the visibility matrix at training step 5000?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "f216e88e738557d3b921cf768c6a8e7b",
+        "question": "Which line represents the 'Rules' feature set?",
+        "answer_pred": "d",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2.7: MAE of estimates and window size of historical context function per feature set and their combination. The Rules and Combinations perform significantly better as they utilize the previous estimates.\n\nQuestion: Which line represents the 'Rules' feature set?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "eacadd94fc3f7273f7e5c185eac9fb66",
+        "question": "What is the highest window length shown in the graph?",
+        "answer_pred": "12",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2.7: MAE of estimates and window size of historical context function per feature set and their combination. The Rules and Combinations perform significantly better as they utilize the previous estimates.\n\nQuestion: What is the highest window length shown in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "db7889c566f4999d0ca9ce3d16ae55a1",
+        "question": "Is the green line consistently above the the blue line?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2.7: MAE of estimates and window size of historical context function per feature set and their combination. The Rules and Combinations perform significantly better as they utilize the previous estimates.\n\nQuestion: Is the green line consistently above the the blue line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "26113f5975029b1551f847912ce049be",
+        "question": "Does the MAE increase with window size for the 'W Feats' feature set?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2.7: MAE of estimates and window size of historical context function per feature set and their combination. The Rules and Combinations perform significantly better as they utilize the previous estimates.\n\nQuestion: Does the MAE increase with window size for the 'W Feats' feature set?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "cec95ed891ce14a56fc98d984da0c611",
+        "question": "Which line on the graph represents the best performance?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2.7: MAE of estimates and window size of historical context function per feature set and their combination. The Rules and Combinations perform significantly better as they utilize the previous estimates.\n\nQuestion: Which line on the graph represents the best performance?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Blue'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "f142e506dc430d2e6a6128bc038c44b3",
+        "question": "Which of the following features has the worst performance?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2.7: MAE of estimates and window size of historical context function per feature set and their combination. The Rules and Combinations perform significantly better as they utilize the previous estimates.\n\nQuestion: Which of the following features has the worst performance?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Combination'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "c4a3597cd509ebc24fe28b1ac2294f40",
+        "question": "What are the exact values of the MAE for each feature set at a window length of 25?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "c5379a9224f37fa842510cfbc788ea25",
+        "question": "What is the approximate retrieval percentage of the brown line representing Text R@5 at 100% noise?",
+        "answer_pred": "57.2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Noise vs Performance study on ActivityNet-captions dataset (val1)\n\nQuestion: What is the approximate retrieval percentage of the brown line representing Text R@5 at 100% noise?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b2d1de685ec1871b09e1d1a1bd8af5c1",
+        "question": "Which modalities are represented in the graph?",
+        "answer_pred": "Video, Audio, Image, Text",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Noise vs Performance study on ActivityNet-captions dataset (val1)\n\nQuestion: Which modalities are represented in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

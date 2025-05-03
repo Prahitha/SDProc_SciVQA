@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "5227136dcab057182d1884d971e8b1db",
+        "question": "Does the bottom figure show the correlation between Sentiment and Concreteness versus size of lexicon?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Kendall\u2019s \u03c4 versus subspace size (top) and training resource size (bottom). See lines 6 & 8, Table 1, for train/test split.\n\nQuestion: Does the bottom figure show the correlation between Sentiment and Concreteness versus size of lexicon?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d68824b7968bd1d1e33ad8b80a965fb9",
+        "question": "Which of the lines in the top plot represents the 'Random' method?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Kendall\u2019s \u03c4 versus subspace size (top) and training resource size (bottom). See lines 6 & 8, Table 1, for train/test split.\n\nQuestion: Which of the lines in the top plot represents the 'Random' method?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "dcbcdd46e15476aa7213f9693b51e642",
+        "question": "What are the scales used for the size of subspace and size of lexicon axes respectively?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Kendall\u2019s \u03c4 versus subspace size (top) and training resource size (bottom). See lines 6 & 8, Table 1, for train/test split.\n\nQuestion: What are the scales used for the size of subspace and size of lexicon axes respectively?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Logarithmic, logarithmic'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "fb3a41136806e821aeeeced185502ce3",
+        "question": "What is the specific train/test split used for the experiment shown in Figure 2?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "63d5f96d1f5538e783f645daac242b79",
+        "question": "What is the approximate value of the green dashed line at 14 epochs?",
+        "answer_pred": "0.12",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: F1 of Rare Words Appearing 1, 2, 5\u00d7\n\nQuestion: What is the approximate value of the green dashed line at 14 epochs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "6db87420a009c9d6001cc04b7d0d5c40",
+        "question": "What is the maximum value of F1 for rare words appearing 5 times?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: F1 of Rare Words Appearing 1, 2, 5\u00d7\n\nQuestion: What is the maximum value of F1 for rare words appearing 5 times?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "ca6ee404e1ed9005f12cc39439e722f0",
+        "question": "Does the orange dashed line represent the average F1 of rare words appearing <=1 time?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: F1 of Rare Words Appearing 1, 2, 5\u00d7\n\nQuestion: Does the orange dashed line represent the average F1 of rare words appearing <=1 time?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "4f20d55accd53b67a8c30fb2631b5689",
+        "question": "Does the F1 score for rare words appearing \u2264 1 AE reach a value greater than 1?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: F1 of Rare Words Appearing 1, 2, 5\u00d7\n\nQuestion: Does the F1 score for rare words appearing \u2264 1 AE reach a value greater than 1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "b52f51864a9ef64079cb89100b5cd1cc",
+        "question": "Which of the lines in the figure are dotted?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: F1 of Rare Words Appearing 1, 2, 5\u00d7\n\nQuestion: Which of the lines in the figure are dotted?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "1cddc2c57b23f10e2d4d9d2899280fb9",
+        "question": "How many epochs are featured in figure 5?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: F1 of Rare Words Appearing 1, 2, 5\u00d7\n\nQuestion: How many epochs are featured in figure 5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '25'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

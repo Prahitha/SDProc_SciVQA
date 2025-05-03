@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "6cdbb0c5f9abb85672e38842f2927fc0",
+        "question": "Which of the following have a higher Entity F1 score with a memory size of 4000 compared to a memory size of 1000 for the SMTD dataset?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Entity F1 scores on the testing dataset given different memory sizes. Higher values are preferred.\n\nQuestion: Which of the following have a higher Entity F1 score with a memory size of 4000 compared to a memory size of 1000 for the SMTD dataset?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "34a8bddba7977f8e718726ef3e59ebcd",
+        "question": "What research question from the study is the graph addressing?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "b4488a4ac63123303c79b1dda5e01245",
+        "question": "What is the approximate value of the solid orange line at epoch 15 in the left plot?",
+        "answer_pred": "0.12",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Mean marginal target probability of the close symbol in a rule. Solid lines are trained in the unfamiliarscaffold set, dashed lines on familiar-scaffold. Color is specified by scaffold length (k). Scale of y-axis is matched among graphs.\n\nQuestion: What is the approximate value of the solid orange line at epoch 15 in the left plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b0de35bd29f2f006a9d943cd6f73348f",
+        "question": "How many different scaffold lengths are represented in the graph?",
+        "answer_pred": "3",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Mean marginal target probability of the close symbol in a rule. Solid lines are trained in the unfamiliarscaffold set, dashed lines on familiar-scaffold. Color is specified by scaffold length (k). Scale of y-axis is matched among graphs.\n\nQuestion: How many different scaffold lengths are represented in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "20820b6bdc3837661260b33c91168665",
+        "question": "Is the green dashed line corresponding to k = 6 consistently lower than the solid green line corresponding to k = 6 in the left graph?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Mean marginal target probability of the close symbol in a rule. Solid lines are trained in the unfamiliarscaffold set, dashed lines on familiar-scaffold. Color is specified by scaffold length (k). Scale of y-axis is matched among graphs.\n\nQuestion: Is the green dashed line corresponding to k = 6 consistently lower than the solid green line corresponding to k = 6 in the left graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "2ea9b591e89b2b5ebac93ae1e4d21cc8",
+        "question": "Is the maximum number of epochs chosen for the training 20?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Mean marginal target probability of the close symbol in a rule. Solid lines are trained in the unfamiliarscaffold set, dashed lines on familiar-scaffold. Color is specified by scaffold length (k). Scale of y-axis is matched among graphs.\n\nQuestion: Is the maximum number of epochs chosen for the training 20?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d026b4ae21292a87548931a4bc6b687e",
+        "question": "Which line has the highest value at the 20th epoch in the right graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Mean marginal target probability of the close symbol in a rule. Solid lines are trained in the unfamiliarscaffold set, dashed lines on familiar-scaffold. Color is specified by scaffold length (k). Scale of y-axis is matched among graphs.\n\nQuestion: Which line has the highest value at the 20th epoch in the right graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'k = 8 (dashed blue line)'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "242b412de7b8add926d14b6af0510d41",
+        "question": "What are the values of k that represent the lines trained on the familiar-scaffold set?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Mean marginal target probability of the close symbol in a rule. Solid lines are trained in the unfamiliarscaffold set, dashed lines on familiar-scaffold. Color is specified by scaffold length (k). Scale of y-axis is matched among graphs.\n\nQuestion: What are the values of k that represent the lines trained on the familiar-scaffold set?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '2, 6, 8, 9'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "77a90fd1db16e45652a33edbcbbdf079",
+        "question": "What are the specific values for the mean marginal target probability of the close symbol in the rule for each epoch in the 'In-domain scaffold test setting' for k = 4?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "77db5238bb0201d7f24615940abe8f91",
+        "question": "What is the label of the circle with a double arrow pointing towards it?",
+        "answer_pred": "ripped",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: The desired event temporal graph for Ex1. Reverse TLINKs such as hurt is after ripping are omitted for simplicity.\n\nQuestion: What is the label of the circle with a double arrow pointing towards it?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

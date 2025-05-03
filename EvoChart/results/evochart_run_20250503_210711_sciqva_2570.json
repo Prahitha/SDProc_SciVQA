@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "0cb14764a08abb720758dc160093fc2b",
+        "question": "What is the BLEU score for the experiment with a dimension of 384 and a sentence length of 20?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "9d02a078f1061f6f25045432b1f8cd06",
+        "question": "What is the approximate value of the dashed red line at 45 Num of Topics?",
+        "answer_pred": "0.02",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3. For the Arkansas dataset, the average topic distance between the \u201ctraining\u201d half and \u201cvalidation\u201d half the black interviewer dataset (the \u201cbaseline\u201d) compared to the average topic distance between the \u201ctraining\u201d half of the black interviewer dataset and the white interviewer dataset (the \u201cdist\u201d).\n\nQuestion: What is the approximate value of the dashed red line at 45 Num of Topics?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c4a67903f76ebc0b4fb01f20793093c2",
+        "question": "What is the maximum number of topics?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3. For the Arkansas dataset, the average topic distance between the \u201ctraining\u201d half and \u201cvalidation\u201d half the black interviewer dataset (the \u201cbaseline\u201d) compared to the average topic distance between the \u201ctraining\u201d half of the black interviewer dataset and the white interviewer dataset (the \u201cdist\u201d).\n\nQuestion: What is the maximum number of topics?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "119cbcc4ed8447066cb94b1c2f4c8f77",
+        "question": "Is the dashed red line representing 'dist' consistently higher than the solid black line representing 'baseline'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3. For the Arkansas dataset, the average topic distance between the \u201ctraining\u201d half and \u201cvalidation\u201d half the black interviewer dataset (the \u201cbaseline\u201d) compared to the average topic distance between the \u201ctraining\u201d half of the black interviewer dataset and the white interviewer dataset (the \u201cdist\u201d).\n\nQuestion: Is the dashed red line representing 'dist' consistently higher than the solid black line representing 'baseline'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "20a98e4360a58cbd9f148a625ca69f50",
+        "question": "Are baseline values consistently lower than 0.10?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3. For the Arkansas dataset, the average topic distance between the \u201ctraining\u201d half and \u201cvalidation\u201d half the black interviewer dataset (the \u201cbaseline\u201d) compared to the average topic distance between the \u201ctraining\u201d half of the black interviewer dataset and the white interviewer dataset (the \u201cdist\u201d).\n\nQuestion: Are baseline values consistently lower than 0.10?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "ca3bb442b8ba2fb640f5106d89ea5ff8",
+        "question": "Which line represents the average topic distance between the training half of the black interviewer dataset and the white interviewer dataset?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3. For the Arkansas dataset, the average topic distance between the \u201ctraining\u201d half and \u201cvalidation\u201d half the black interviewer dataset (the \u201cbaseline\u201d) compared to the average topic distance between the \u201ctraining\u201d half of the black interviewer dataset and the white interviewer dataset (the \u201cdist\u201d).\n\nQuestion: Which line represents the average topic distance between the training half of the black interviewer dataset and the white interviewer dataset?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither line represents the average topic distance'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "af4cc75687032531d5eef733f4cfd248",
+        "question": "What is the approximate maximum value achieved by distance?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3. For the Arkansas dataset, the average topic distance between the \u201ctraining\u201d half and \u201cvalidation\u201d half the black interviewer dataset (the \u201cbaseline\u201d) compared to the average topic distance between the \u201ctraining\u201d half of the black interviewer dataset and the white interviewer dataset (the \u201cdist\u201d).\n\nQuestion: What is the approximate maximum value achieved by distance?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0.20'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "da3fa02507b663649732143259bea162",
+        "question": "What was the specific methodology used to calculate the average topic distance for the \"dist\" dataset in Figure 3?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "05c2d80ba09cb165644fed634009431f",
+        "question": "What is the approximate value for the red line at the beam width of 4?",
+        "answer_pred": "11.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The effect of the decode beam width on WER for the clean Google voice search task. The reported WERs are without a dictionary or language model, with language model rescoring and the oracle WER for different beam widths. The figure shows that good results can be obtained even with a relatively small beam size.\n\nQuestion: What is the approximate value for the red line at the beam width of 4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "7f659bc6054fbff8a0644daae6005925",
+        "question": "What is the value of WER Oracle at 16 beam width?",
+        "answer_pred": "11.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The effect of the decode beam width on WER for the clean Google voice search task. The reported WERs are without a dictionary or language model, with language model rescoring and the oracle WER for different beam widths. The figure shows that good results can be obtained even with a relatively small beam size.\n\nQuestion: What is the value of WER Oracle at 16 beam width?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

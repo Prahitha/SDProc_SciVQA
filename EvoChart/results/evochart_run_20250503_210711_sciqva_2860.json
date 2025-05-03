@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "8fe744bf3e8c2d86682f4e3fecf742af",
+        "question": "Does the black line show a decreasing trend from the proportion of positive edges of 0.2 to 0.4?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6. Proportion of balanced triangles with different proportions of positive edges in traditional balance theory\n\nQuestion: Does the black line show a decreasing trend from the proportion of positive edges of 0.2 to 0.4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "2114b8608ee82c82c515823b4a2d9d7a",
+        "question": "Does the proportion of balanced triadic closures increase as the proportion of positive edges increases across all conditions?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6. Proportion of balanced triangles with different proportions of positive edges in traditional balance theory\n\nQuestion: Does the proportion of balanced triadic closures increase as the proportion of positive edges increases across all conditions?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "2be43440fa41340ef390de1818b93ba8",
+        "question": "Which lines have a steeper slope after a proportion of positive edges of 0.5?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6. Proportion of balanced triangles with different proportions of positive edges in traditional balance theory\n\nQuestion: Which lines have a steeper slope after a proportion of positive edges of 0.5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'red and black lines'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "399d6965695b50db8903a72cc0e19289",
+        "question": "Which of the following factors is investigated in this figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6. Proportion of balanced triangles with different proportions of positive edges in traditional balance theory\n\nQuestion: Which of the following factors is investigated in this figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "97641a825248404e0dad57534cc8543b",
+        "question": "What is the specific statistical significance of the difference in proportion of balanced triadic closures between the 'Frequency' and 'Sentiment Polarity' lines at a proportion of positive edges of 0.5?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "745ac75e7a80aac7daedf41a2e29e6e0",
+        "question": "What is the approximate BLEU value of the blue dashed line at 10 pre-training epochs?",
+        "answer_pred": "29.4",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Pre-training performance vs. downstream accuracy on Yelp. Performance measured on validation data. There is no apparent correlation between BLEU and downstream accuracy.\n\nQuestion: What is the approximate BLEU value of the blue dashed line at 10 pre-training epochs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "7fd17b7dd9dbb647ff5999f9927d6369",
+        "question": "Does accuracy always increase when the number of pre-training epochs increase?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Pre-training performance vs. downstream accuracy on Yelp. Performance measured on validation data. There is no apparent correlation between BLEU and downstream accuracy.\n\nQuestion: Does accuracy always increase when the number of pre-training epochs increase?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "dffd1be679289472ee82afc1fe811131",
+        "question": "Does the dashed orange line represent the downstream accuracy of the CNN-SC model?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Pre-training performance vs. downstream accuracy on Yelp. Performance measured on validation data. There is no apparent correlation between BLEU and downstream accuracy.\n\nQuestion: Does the dashed orange line represent the downstream accuracy of the CNN-SC model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "4b9d6bfa8c02a5f03fd12c364d212d86",
+        "question": "Does CNN-SC achieve a BLEU score over 35?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Pre-training performance vs. downstream accuracy on Yelp. Performance measured on validation data. There is no apparent correlation between BLEU and downstream accuracy.\n\nQuestion: Does CNN-SC achieve a BLEU score over 35?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "2e9c4c98565bb1f159e70e24cade75fc",
+        "question": "What is the shape of the line representing CNN-R (Downstream acc.)?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Pre-training performance vs. downstream accuracy on Yelp. Performance measured on validation data. There is no apparent correlation between BLEU and downstream accuracy.\n\nQuestion: What is the shape of the line representing CNN-R (Downstream acc.)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

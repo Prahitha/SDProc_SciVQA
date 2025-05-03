@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "4a3e08229f45e15ca647bb4ecc216d73",
+        "question": "What is the approximate value of the Lipschitz constant for the red line at the 40,000th step?",
+        "answer_pred": "0.0012",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: (a) The averaged norm of all incoming/outgoing weight vectors. (b) Lipschitz constant for each model. Pure SGD outperforms others in both measures.\n\nQuestion: What is the approximate value of the Lipschitz constant for the red line at the 40,000th step?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b52b7f373303dc191086e821ab95952a",
+        "question": "Which model has the highest Lipschitz constant at the end of training?",
+        "answer_pred": "BERT",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: (a) The averaged norm of all incoming/outgoing weight vectors. (b) Lipschitz constant for each model. Pure SGD outperforms others in both measures.\n\nQuestion: Which model has the highest Lipschitz constant at the end of training?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "ad6ab5029156a547f9999b9d162b7d3f",
+        "question": "Does the blue line representing 'Batch Size 1' in the first graph reach a value higher than 10?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: (a) The averaged norm of all incoming/outgoing weight vectors. (b) Lipschitz constant for each model. Pure SGD outperforms others in both measures.\n\nQuestion: Does the blue line representing 'Batch Size 1' in the first graph reach a value higher than 10?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e4e7ea799b9588dc184fb0492b6ae98e",
+        "question": "Is the number of steps the same in both graphs?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: (a) The averaged norm of all incoming/outgoing weight vectors. (b) Lipschitz constant for each model. Pure SGD outperforms others in both measures.\n\nQuestion: Is the number of steps the same in both graphs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "58f209ba4c6e8877c6458cf823402470",
+        "question": "Which line in the right figure represents the 'Batch Size 30' model?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: (a) The averaged norm of all incoming/outgoing weight vectors. (b) Lipschitz constant for each model. Pure SGD outperforms others in both measures.\n\nQuestion: Which line in the right figure represents the 'Batch Size 30' model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'purple line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "198bb72b82e9956375d2e5d84844264c",
+        "question": "Which of the following model types achieve an averaged norm above 10?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: (a) The averaged norm of all incoming/outgoing weight vectors. (b) Lipschitz constant for each model. Pure SGD outperforms others in both measures.\n\nQuestion: Which of the following model types achieve an averaged norm above 10?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "ea9e212e53d7edfb5e8addc849383b0e",
+        "question": "What is the specific task or problem being addressed by the models shown in the image, and what are the implications of Pure SGD outperforming others in both measures?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "273f53c5e9c1303ba785c3ff978ff8c3",
+        "question": "What is the approximate value of the dashed green line at the fourth qualifier pair in the second panel?",
+        "answer_pred": "0.69",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Statement length experiment. STARE (H) + Transformer (H) saturates after two qualifiers with slightly increase, whereas Transformer (H) is unstable in handling qualifiers.\n\nQuestion: What is the approximate value of the dashed green line at the fourth qualifier pair in the second panel?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "ad01e9185d9c66e0d8ac3de26262d18d",
+        "question": "What is the metric used in the third graph?",
+        "answer_pred": "Hits@1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Statement length experiment. STARE (H) + Transformer (H) saturates after two qualifiers with slightly increase, whereas Transformer (H) is unstable in handling qualifiers.\n\nQuestion: What is the metric used in the third graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "e66f58a34a1050a8f944114d15aa906c",
+        "question": "Does the blue solid line in the 'metric = H@10' plot reach a value close to 0.8 at the 'qual pairs' value of 2?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Statement length experiment. STARE (H) + Transformer (H) saturates after two qualifiers with slightly increase, whereas Transformer (H) is unstable in handling qualifiers.\n\nQuestion: Does the blue solid line in the 'metric = H@10' plot reach a value close to 0.8 at the 'qual pairs' value of 2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

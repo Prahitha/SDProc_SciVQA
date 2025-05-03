@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "084c5eff1070ecee65dede39606313f5",
+        "question": "Is the blue line in the right subplot higher than the red line at the value of cos(\u03b8) = 0.5?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Cumulative Distribution Functions for timeline similarity on relevant features. These measures are shown to be predictive of power imbalance and harmful intent.\n\nQuestion: Is the blue line in the right subplot higher than the red line at the value of cos(\u03b8) = 0.5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "947aa9c049abd2f80d3cb78873cf9e89",
+        "question": "Does cumulative probability always increase with cosine of theta?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Cumulative Distribution Functions for timeline similarity on relevant features. These measures are shown to be predictive of power imbalance and harmful intent.\n\nQuestion: Does cumulative probability always increase with cosine of theta?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "c59df7cce5be6a0a3e9550ff0d207805",
+        "question": "Which line is highest in the left plot?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Cumulative Distribution Functions for timeline similarity on relevant features. These measures are shown to be predictive of power imbalance and harmful intent.\n\nQuestion: Which line is highest in the left plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Different lines are the highest at different points'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "e89afc5ec16da11d67f910612da4600e",
+        "question": "How many classes are represented in the graph on power imbalance?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Cumulative Distribution Functions for timeline similarity on relevant features. These measures are shown to be predictive of power imbalance and harmful intent.\n\nQuestion: How many classes are represented in the graph on power imbalance?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '5'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "54e4bff5ab5d91c8b356a961dd46c50c",
+        "question": "What is the specific data source for the timeline similarity measures depicted in Figure 4?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "ccee5c39f8d0c4d8ee3b58f483603484",
+        "question": "What is the value of the red line at 200 neurons on the left graph?",
+        "answer_pred": "0.81",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: AUC and Logloss comparison of number of neurons.\n\nQuestion: What is the value of the red line at 200 neurons on the left graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c437d3d8239db2b3da02672724bf5bf9",
+        "question": "What is the maximum logloss value on the y axis of the associated graph?",
+        "answer_pred": "0.52",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: AUC and Logloss comparison of number of neurons.\n\nQuestion: What is the maximum logloss value on the y axis of the associated graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "682240b880add0639bdfcb4c180642ca",
+        "question": "Is the value of the blue marker at the 800 mark higher than the blue marker at the 200 mark in the AUC chart?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: AUC and Logloss comparison of number of neurons.\n\nQuestion: Is the value of the blue marker at the 800 mark higher than the blue marker at the 200 mark in the AUC chart?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "caffbf1432e2f20f5bb26d4edd707eb0",
+        "question": "Does the AUC metric consistently decrease with an increase in the number of neurons for the LR&DNN model?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: AUC and Logloss comparison of number of neurons.\n\nQuestion: Does the AUC metric consistently decrease with an increase in the number of neurons for the LR&DNN model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "38d6ec8c5eace9dc6419419376e916f4",
+        "question": "Which line in the \"LOGLOSS\" graph has the highest value at the first point on the x-axis (100 neurons)?",
+        "answer_pred": "P",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: AUC and Logloss comparison of number of neurons.\n\nQuestion: Which line in the \"LOGLOSS\" graph has the highest value at the first point on the x-axis (100 neurons)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Grey'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

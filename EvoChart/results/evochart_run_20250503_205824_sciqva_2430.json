@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "fdee7d81657c00378613356844609f8b",
+        "question": "What is the primary reason for the surge in the interest of \u201cFinTech\u201d in 2016, and how is it presented in the figure?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "19c57ff251b8a9433e0b821b9a05117d",
+        "question": "What color represents the 'phys. constraint' line in the graph?",
+        "answer_pred": "red",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 10. Excerpt of reconstructed temporal profile of human-robot interaction: the given excerpt, taken from the reconstructed profile of P14\u2019s 3rd session, displays the temporal relation between prohibitive utterances and utterances of disallowance (top blue line), the robot\u2019s sensing of pressure being applied to its arm (middle red line), and the robot\u2019s internal motivation (bottom green line).\n\nQuestion: What color represents the 'phys. constraint' line in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f132b059bf6fecce5225c538937de9c1",
+        "question": "How many variables are presented in the figure?",
+        "answer_pred": "3",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 10. Excerpt of reconstructed temporal profile of human-robot interaction: the given excerpt, taken from the reconstructed profile of P14\u2019s 3rd session, displays the temporal relation between prohibitive utterances and utterances of disallowance (top blue line), the robot\u2019s sensing of pressure being applied to its arm (middle red line), and the robot\u2019s internal motivation (bottom green line).\n\nQuestion: How many variables are presented in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c0986f811a6f7defef62e4428dd49e7a",
+        "question": "Is the green line representing 'motivation' consistently below the red line representing 'phys. constraint'?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 10. Excerpt of reconstructed temporal profile of human-robot interaction: the given excerpt, taken from the reconstructed profile of P14\u2019s 3rd session, displays the temporal relation between prohibitive utterances and utterances of disallowance (top blue line), the robot\u2019s sensing of pressure being applied to its arm (middle red line), and the robot\u2019s internal motivation (bottom green line).\n\nQuestion: Is the green line representing 'motivation' consistently below the red line representing 'phys. constraint'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "84661ce1479860e5afc085b702a1b05a",
+        "question": "Does the robot's internal motivation change before the robot senses pressure being applied to its arm?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 10. Excerpt of reconstructed temporal profile of human-robot interaction: the given excerpt, taken from the reconstructed profile of P14\u2019s 3rd session, displays the temporal relation between prohibitive utterances and utterances of disallowance (top blue line), the robot\u2019s sensing of pressure being applied to its arm (middle red line), and the robot\u2019s internal motivation (bottom green line).\n\nQuestion: Does the robot's internal motivation change before the robot senses pressure being applied to its arm?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "311c45e10303c2a64b14e35a58fcd549",
+        "question": "Which of the following is TRUE regarding the relationship between the lines representing 'phys. constraint' and 'motivation' at time 135?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 10. Excerpt of reconstructed temporal profile of human-robot interaction: the given excerpt, taken from the reconstructed profile of P14\u2019s 3rd session, displays the temporal relation between prohibitive utterances and utterances of disallowance (top blue line), the robot\u2019s sensing of pressure being applied to its arm (middle red line), and the robot\u2019s internal motivation (bottom green line).\n\nQuestion: Which of the following is TRUE regarding the relationship between the lines representing 'phys. constraint' and 'motivation' at time 135?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The red line and the green line are at the same height.'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "3a812546aeee78b8e74fd23ebc8edd0f",
+        "question": "What are the labels in y-axis?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 10. Excerpt of reconstructed temporal profile of human-robot interaction: the given excerpt, taken from the reconstructed profile of P14\u2019s 3rd session, displays the temporal relation between prohibitive utterances and utterances of disallowance (top blue line), the robot\u2019s sensing of pressure being applied to its arm (middle red line), and the robot\u2019s internal motivation (bottom green line).\n\nQuestion: What are the labels in y-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "88f3e51a224993acc6267a09925e3323",
+        "question": "What was the reason behind the robot's motivation increase at around the 140th second, and how is it depicted in the figure?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "8112ed56fca1719f73352e9cd5f860fb",
+        "question": "What is the value of the degree when the solid black line in the leftmost plot reaches a cumulative distribution of 0.75?",
+        "answer_pred": "2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6. Comparison of degree distributions of the entity alignment datasets extracted by different methods\n\nQuestion: What is the value of the degree when the solid black line in the leftmost plot reaches a cumulative distribution of 0.75?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "10e5b072a9779722ffad249db217c984",
+        "question": "What is the maximum degree shown for the Wikidata dataset?",
+        "answer_pred": "11",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6. Comparison of degree distributions of the entity alignment datasets extracted by different methods\n\nQuestion: What is the maximum degree shown for the Wikidata dataset?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

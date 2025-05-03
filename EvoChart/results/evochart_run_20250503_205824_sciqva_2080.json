@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "5f7bc6ff8435b81ec366d77305e715e8",
+        "question": "What is the specific method used for calculating the frequency-based classification accuracy shown in Figure 9?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "0319d5fa1012e66a6dc9c815b92735af",
+        "question": "For which model is the blue bar the tallest?",
+        "answer_pred": "RoBERTa",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Pretrained Transformers often have smaller IID/OOD generalization gaps than previous models.\n\nQuestion: For which model is the blue bar the tallest?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "771c5103fc316bd6169a4940cf9789c6",
+        "question": "How many different models are represented in the graph?",
+        "answer_pred": "3",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Pretrained Transformers often have smaller IID/OOD generalization gaps than previous models.\n\nQuestion: How many different models are represented in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "a46af360cca45dbf36e3e3cf2e1803e1",
+        "question": "Are the blue bars (IID Data) consistently taller than the red bars (OOD Data) in the bar chart?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Pretrained Transformers often have smaller IID/OOD generalization gaps than previous models.\n\nQuestion: Are the blue bars (IID Data) consistently taller than the red bars (OOD Data) in the bar chart?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a08d89468b602deb7dc8b9b1084cfcd4",
+        "question": "Is the Pearson correlation for 'IID Data' higher for BERT Large than for LSTM w2v?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Pretrained Transformers often have smaller IID/OOD generalization gaps than previous models.\n\nQuestion: Is the Pearson correlation for 'IID Data' higher for BERT Large than for LSTM w2v?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "87a4d2f69fb7e330e3830cd1e725226f",
+        "question": "Considering the bar chart in Figure 1, which of the following statements about the height and color of the bars representing 'BERT Large' are correct?  Select all that apply.",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Pretrained Transformers often have smaller IID/OOD generalization gaps than previous models.\n\nQuestion: Considering the bar chart in Figure 1, which of the following statements about the height and color of the bars representing 'BERT Large' are correct?  Select all that apply.\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "44b4a71662fd3dd63bf4ab95a552f1ce",
+        "question": "What is the approximate Pearson Correlation achieved by 'Avg. w2v' for 'IID Data'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Pretrained Transformers often have smaller IID/OOD generalization gaps than previous models.\n\nQuestion: What is the approximate Pearson Correlation achieved by 'Avg. w2v' for 'IID Data'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '60'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "afde48499a16952bad997330e2af08ae",
+        "question": "What is the exact Pearson correlation for the IID data using the Avg. w2v method, and how does this compare to the performance of other models in terms of both IID and OOD generalization, considering the factors that may influence the performance gap between IID and OOD?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "46cb2e333794e87f75efc1ccdbca73ac",
+        "question": "What is the value of the topmost cell in column 'bad'?",
+        "answer_pred": "0.02",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2.: Vectors representing relationships between words.\n\nQuestion: What is the value of the topmost cell in column 'bad'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "a2baa7dc6dae2abcb3530b9812375326",
+        "question": "How many words are represented in the graph?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2.: Vectors representing relationships between words.\n\nQuestion: How many words are represented in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

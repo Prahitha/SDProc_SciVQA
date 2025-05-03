@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "810eb167e2114eb08d205f2f9199112b",
+        "question": "What is the average cosine similarity between the sentence representations of the subtitles and medical domains?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "aa79d440a7c14887aa902e8bbf7c1c95",
+        "question": "What is the approximate value of the gray axis where the parallelogram intersects?",
+        "answer_pred": "0.02",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: An Analogy in Space. When the analogue values of thethre dimensions described in Figure 2 are plotted, the analogy itself emerges as a parallelogram situated obliquely in the centre of the positive region of the space.\n\nQuestion: What is the approximate value of the gray axis where the parallelogram intersects?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f6917f253d5aeb15dad36aca49a158bc",
+        "question": "How many labeled words are represented as points in the 3D plot?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: An Analogy in Space. When the analogue values of thethre dimensions described in Figure 2 are plotted, the analogy itself emerges as a parallelogram situated obliquely in the centre of the positive region of the space.\n\nQuestion: How many labeled words are represented as points in the 3D plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "34755319f0c90efc61ced1e369e08b4b",
+        "question": "Is the gray parallelogram positioned in the negative region of the 3D space?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: An Analogy in Space. When the analogue values of thethre dimensions described in Figure 2 are plotted, the analogy itself emerges as a parallelogram situated obliquely in the centre of the positive region of the space.\n\nQuestion: Is the gray parallelogram positioned in the negative region of the 3D space?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e51a1adb5fb713fbc8a830bfe469df4d",
+        "question": "Is one of the words represented in the plot 'car'?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: An Analogy in Space. When the analogue values of thethre dimensions described in Figure 2 are plotted, the analogy itself emerges as a parallelogram situated obliquely in the centre of the positive region of the space.\n\nQuestion: Is one of the words represented in the plot 'car'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a2c3ac62237178964eefc24cbbc2627e",
+        "question": "What is the direction of the black arrow?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: An Analogy in Space. When the analogue values of thethre dimensions described in Figure 2 are plotted, the analogy itself emerges as a parallelogram situated obliquely in the centre of the positive region of the space.\n\nQuestion: What is the direction of the black arrow?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Right'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "183c5a01e0885b32bf09d8e8c9881b1c",
+        "question": "Which of the following words are labeled as points in the 3D plot?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: An Analogy in Space. When the analogue values of thethre dimensions described in Figure 2 are plotted, the analogy itself emerges as a parallelogram situated obliquely in the centre of the positive region of the space.\n\nQuestion: Which of the following words are labeled as points in the 3D plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'painting, novel, speech, art'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "18709eacea904aacc7acc1147c41521d",
+        "question": "What are the specific values of the three dimensions described in Figure 2 that were used to plot the parallelogram in Figure 3?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "8b19cdc736dae15d777a9e9d4c02b0fa",
+        "question": "What is the colour of the topmost data point?",
+        "answer_pred": "red",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Visualization of learned representations on CoNLL-03 test dataset. Entity types are represented in different shapes with red for PER, blue for ORG, green for LOC and orange for MISC. Rare entities are represented using bigger points. The points with X are for the delexicalized entities.\n\nQuestion: What is the colour of the topmost data point?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "74a368261d9528f31bb484590a6d1225",
+        "question": "How many different entity types are represented in this figure?",
+        "answer_pred": "4",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Visualization of learned representations on CoNLL-03 test dataset. Entity types are represented in different shapes with red for PER, blue for ORG, green for LOC and orange for MISC. Rare entities are represented using bigger points. The points with X are for the delexicalized entities.\n\nQuestion: How many different entity types are represented in this figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

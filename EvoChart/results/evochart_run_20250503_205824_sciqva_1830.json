@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "5f0ef69aa2e2633e37ebaac25d72a803",
+        "question": "What is the name of the intermediate representation?",
+        "answer_pred": "h",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Model structure for invariant training and ASR results.\n\nQuestion: What is the name of the intermediate representation?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "de1c8c9a27334e46992a05b04dc98581",
+        "question": "Does the red line labeled \"Inv avg\" consistently have higher WER values than the blue line labeled \"Baseline avg\" in the top graph?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Model structure for invariant training and ASR results.\n\nQuestion: Does the red line labeled \"Inv avg\" consistently have higher WER values than the blue line labeled \"Baseline avg\" in the top graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "c928bd21f6e176f9697f1cac4e0eb44d",
+        "question": "Does the model consist of three neural networks?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Model structure for invariant training and ASR results.\n\nQuestion: Does the model consist of three neural networks?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "feeeffdb2eefcce5ce6f3591f75a8005",
+        "question": "What is the approximate value for the solid red line at the 3rd noise condition in the bottom graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Model structure for invariant training and ASR results.\n\nQuestion: What is the approximate value for the solid red line at the 3rd noise condition in the bottom graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '18'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "c8a44952705cbad2bc72eede856142a3",
+        "question": "What is the minimum number of noise conditions used for training in the model?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Model structure for invariant training and ASR results.\n\nQuestion: What is the minimum number of noise conditions used for training in the model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '4'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "7224da17ac36f5bd574800dfdb490f4a",
+        "question": "What research question from the study is the graph addressing?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "b9fec7955b48a55c3158b46e17df7021",
+        "question": "What is the approximate value of the black line in graph (g) at utterance length 20?",
+        "answer_pred": "1.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. Utterance length distributions of (a) different authors in pg (b) different authors in pgs and (c) 50 randomly selected movies in subs. Distribution of utterance lengths over the entire (d) pg, (e) pgs and (f) subs datasets fitted with Eq. (2).\n\nQuestion: What is the approximate value of the black line in graph (g) at utterance length 20?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "282f5558b2ed49e57e937044839851d0",
+        "question": "What is the maximum utterance length shown in the graph?",
+        "answer_pred": "11",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. Utterance length distributions of (a) different authors in pg (b) different authors in pgs and (c) 50 randomly selected movies in subs. Distribution of utterance lengths over the entire (d) pg, (e) pgs and (f) subs datasets fitted with Eq. (2).\n\nQuestion: What is the maximum utterance length shown in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "6549555d0296fa80642a7695bde7640e",
+        "question": "Is the bottom graph in the left panel labeled 'movie'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. Utterance length distributions of (a) different authors in pg (b) different authors in pgs and (c) 50 randomly selected movies in subs. Distribution of utterance lengths over the entire (d) pg, (e) pgs and (f) subs datasets fitted with Eq. (2).\n\nQuestion: Is the bottom graph in the left panel labeled 'movie'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "2fc376164830a79271ecd93f8a88b74b",
+        "question": "Does the probability increase as the utterance length increases?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. Utterance length distributions of (a) different authors in pg (b) different authors in pgs and (c) 50 randomly selected movies in subs. Distribution of utterance lengths over the entire (d) pg, (e) pgs and (f) subs datasets fitted with Eq. (2).\n\nQuestion: Does the probability increase as the utterance length increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

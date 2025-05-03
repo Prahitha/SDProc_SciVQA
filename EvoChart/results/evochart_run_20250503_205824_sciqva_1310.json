@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "b9deee9e40e55480e55979cdcbfbd658",
+        "question": "What is the semantic role of the word 'bertanya' in the dependency tree?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "579806df9550dbdbb51ea144de7701ae",
+        "question": "What color is the edge connecting \"rendus\" and \"S\"?",
+        "answer_pred": "purple",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: Disambiguated FRMG output, with depFRMG edges above and converted depFTB edges below\n\nQuestion: What color is the edge connecting \"rendus\" and \"S\"?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "a1b32ac60cf1d10bfd42e6a6bde464d7",
+        "question": "What is the first token in the sentence depicted in figure 10?",
+        "answer_pred": "root",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: Disambiguated FRMG output, with depFRMG edges above and converted depFTB edges below\n\nQuestion: What is the first token in the sentence depicted in figure 10?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "ab5ff3e8532379396b0508dea52e3302",
+        "question": "Is the top most blue edge labeled 'prearg'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: Disambiguated FRMG output, with depFRMG edges above and converted depFTB edges below\n\nQuestion: Is the top most blue edge labeled 'prearg'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "74b5437d7c0471d6d1c393eab0696da9",
+        "question": "Is 'lui' the last token in the sentence depicted in figure 10?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: Disambiguated FRMG output, with depFRMG edges above and converted depFTB edges below\n\nQuestion: Is 'lui' the last token in the sentence depicted in figure 10?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a4800048c52a9b9b6e40d0249bc59323",
+        "question": "What are the color(s) of arrows that point from right to left in the image?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: Disambiguated FRMG output, with depFRMG edges above and converted depFTB edges below\n\nQuestion: What are the color(s) of arrows that point from right to left in the image?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Green'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "690ad0d9d026721a6805a5d9a9f4a4a4",
+        "question": "What is the root word in figure 10?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: Disambiguated FRMG output, with depFRMG edges above and converted depFTB edges below\n\nQuestion: What is the root word in figure 10?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'rendus'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "fb1fb613f8d44b98e74b42cba6de22af",
+        "question": "What is the specific linguistic structure that is being represented by the diagram in Figure 10?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "8da27dd65dabf42929478d3f6b4d1bd1",
+        "question": "What color are the edges in the dependency tree in Figure 11?",
+        "answer_pred": "red",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 11 An RGL abstract syntax tree annotated with dependency labels, and the corresponding dependency trees for English and Italian. The thick red path from DefArt to cat N shows how the dependency tree algorithm finds the head of a word by walking up the tree until a label is reached, and then walking down along the head spine.\n\nQuestion: What color are the edges in the dependency tree in Figure 11?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "3d3aa8e678838c50528df6ad7b4b8c74",
+        "question": "What is the root node of the syntax tree?",
+        "answer_pred": "Predicate",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 11 An RGL abstract syntax tree annotated with dependency labels, and the corresponding dependency trees for English and Italian. The thick red path from DefArt to cat N shows how the dependency tree algorithm finds the head of a word by walking up the tree until a label is reached, and then walking down along the head spine.\n\nQuestion: What is the root node of the syntax tree?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "b8314aeddec9adf6a7dd940682b6fcd7",
+        "question": "In the first three graphs, does the performance of wdk50k(33) increase significantly when the number of qualifiers increase?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Statement length experiment. STARE (H) + Transformer (H) saturates after two qualifiers with slightly increase, whereas Transformer (H) is unstable in handling qualifiers.\n\nQuestion: In the first three graphs, does the performance of wdk50k(33) increase significantly when the number of qualifiers increase?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "399e646c4885d12b355612ce48640fd3",
+        "question": "Which line in the fourth panel corresponds to the model \"Trf(S) wdk50k(33)\" ?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Statement length experiment. STARE (H) + Transformer (H) saturates after two qualifiers with slightly increase, whereas Transformer (H) is unstable in handling qualifiers.\n\nQuestion: Which line in the fourth panel corresponds to the model \"Trf(S) wdk50k(33)\" ?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The solid red line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "737932e7b94512ce5fa1528e9efaf619",
+        "question": "In the first graph, which of the following dataset-model combinations shows a significant increase at qual pair = 2 and then remains constant?",
+        "answer_pred": "w",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Statement length experiment. STARE (H) + Transformer (H) saturates after two qualifiers with slightly increase, whereas Transformer (H) is unstable in handling qualifiers.\n\nQuestion: In the first graph, which of the following dataset-model combinations shows a significant increase at qual pair = 2 and then remains constant?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "750cf83bf20ddc0a81ea33c4ff1f1e5e",
+        "question": "What is the specific value of the MRR metric for STARE (H) + Transformer (H) model with 8 qualifier pairs and  wd50k(66) dataset?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "5e21aa73cd7837b324d93a71b071f3b0",
+        "question": "What is the approximate F1-score of the red line at a beam size of 2?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The effect of different beam sizes.\n\nQuestion: What is the approximate F1-score of the red line at a beam size of 2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "82c924efe287da26520f7893f7692d8a",
+        "question": "What are the two experimental conditions being compared in the figure?",
+        "answer_pred": "[20, 40]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The effect of different beam sizes.\n\nQuestion: What are the two experimental conditions being compared in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "04ac4bc8cdbee86171a215f1b9ac7241",
+        "question": "Are the blue squares consistently higher than the red circles?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The effect of different beam sizes.\n\nQuestion: Are the blue squares consistently higher than the red circles?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e2f42b6a3e08649b0adc146a15da2abb",
+        "question": "Does the F1-score of MSR change with the beam size?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The effect of different beam sizes.\n\nQuestion: Does the F1-score of MSR change with the beam size?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "f1557652f1421cbe29fd06fb71acdc4f",
+        "question": "What color and what figure is representing MSR?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The effect of different beam sizes.\n\nQuestion: What color and what figure is representing MSR?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Red and star'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "342986c57652cd8c4e68dae70f547904",
+        "question": "Which method has a higher F1-score at the end than at the beginning?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The effect of different beam sizes.\n\nQuestion: Which method has a higher F1-score at the end than at the beginning?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

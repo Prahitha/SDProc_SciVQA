@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "6c486b65bc8c222430e3dc9bbb5aa30c",
+        "question": "Based on the caption and the information provided in Figure 3, which model training methods are compared in this ablation study?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: An ablation study to see the performance of models trained with reduced explicit negative examples (token-level and construction-level). One color represents the same models across plots, except the last bar (construction-level), which is different for each plot.\n\nQuestion: Based on the caption and the information provided in Figure 3, which model training methods are compared in this ablation study?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "f5e3f5906bef23b8512cb3c88c80e5ac",
+        "question": "What is the exact numerical difference in accuracy between the 'margin (token)' model and the 'margin (token) w/o negative examples on a construction' model for the 'Across a PP' condition, considering the standard deviation shown by error bars?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "96ed06e1765ad5965d200c2d1aad99fc",
+        "question": "What is the approximate SG score of the yellow bar representing 'Transformer-XL*' model in the 'Center Embedding' circuit?",
+        "answer_pred": "0.74",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Evaluation results on all models, split across test suite circuits.\n\nQuestion: What is the approximate SG score of the yellow bar representing 'Transformer-XL*' model in the 'Center Embedding' circuit?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "a6d3fcb45025650cec69861b78cb4a7b",
+        "question": "How many different models are evaluated in Figure 5?",
+        "answer_pred": "3",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Evaluation results on all models, split across test suite circuits.\n\nQuestion: How many different models are evaluated in Figure 5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "075074886c788bb16599812e5f290855",
+        "question": "Is the height of the brown bar representing 'GPT-2-XL*' higher than the height of the teal bar representing 'GPT-2*' in the 'Agreement' circuit?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Evaluation results on all models, split across test suite circuits.\n\nQuestion: Is the height of the brown bar representing 'GPT-2-XL*' higher than the height of the teal bar representing 'GPT-2*' in the 'Agreement' circuit?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "38a871238a52712bae4b855b70189d65",
+        "question": "Is the SG score of the 'GRNN*' model in the 'Licensing' circuit higher than 0.5?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Evaluation results on all models, split across test suite circuits.\n\nQuestion: Is the SG score of the 'GRNN*' model in the 'Licensing' circuit higher than 0.5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "0d738904bc6d85a075a8b284f2c6924d",
+        "question": "What is the colour of the bar representing the RNNG model?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Evaluation results on all models, split across test suite circuits.\n\nQuestion: What is the colour of the bar representing the RNNG model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'brown'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "65de60950e205d3242db2541aa0049ea",
+        "question": "Based on Figure 5's caption and content, which of the following models are evaluated across the test suite circuits?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Evaluation results on all models, split across test suite circuits.\n\nQuestion: Based on Figure 5's caption and content, which of the following models are evaluated across the test suite circuits?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "79c26ceb7e4e8f222cd34013e157d6d6",
+        "question": "What is the p-value associated with the difference in SG score between GPT-2-XL and Transformer-XL on the 'Center Embedding' circuit?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "e44018719843bd69fd4bda704d53cb7c",
+        "question": "What is the percentage of word tokens tagged with the hidden states mapped to the purple slice?",
+        "answer_pred": "12.5",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The distribution of POS tags based on the output EM algorithm in Chinese using the 500k dataset. Tag T-N-y% means that there are N hidden states mapped to the specific POS tag T accounting for y% of word tokens tagged with these N states by the EM algorithm.\n\nQuestion: What is the percentage of word tokens tagged with the hidden states mapped to the purple slice?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

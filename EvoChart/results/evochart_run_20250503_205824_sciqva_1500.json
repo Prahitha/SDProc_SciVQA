@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "4c379e8d5ffdef52b71f794ec408b0a8",
+        "question": "What is the approximate value of the blue line in the top right graph at polarity 0.5?",
+        "answer_pred": "0.5",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Distribution of predicted polarity scores across three classes (Yelp\u201913 sentences).\n\nQuestion: What is the approximate value of the blue line in the top right graph at polarity 0.5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "7710124f8189f7ec3444723e363419c7",
+        "question": "How many models are represented in the graph?",
+        "answer_pred": "3",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Distribution of predicted polarity scores across three classes (Yelp\u201913 sentences).\n\nQuestion: How many models are represented in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "764c6353c87da9f93cf3b4e83d45f12d",
+        "question": "Does the red line in the upper left graph have a higher peak value than the grey line in the upper middle graph?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Distribution of predicted polarity scores across three classes (Yelp\u201913 sentences).\n\nQuestion: Does the red line in the upper left graph have a higher peak value than the grey line in the upper middle graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "1b6f559e14f2bc50f1a3b8e48773df3a",
+        "question": "Is the model HierNet shown in the graph?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Distribution of predicted polarity scores across three classes (Yelp\u201913 sentences).\n\nQuestion: Is the model HierNet shown in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "afd4c7a6ff28a5ed236653fc06daf61c",
+        "question": "What colour represents the 'positive' line?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Distribution of predicted polarity scores across three classes (Yelp\u201913 sentences).\n\nQuestion: What colour represents the 'positive' line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'blue'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "469155f3ad545e101094b22b2ae7e532",
+        "question": "Which of the following options accurately describes the predicted polarity scores in the provided figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Distribution of predicted polarity scores across three classes (Yelp\u201913 sentences).\n\nQuestion: Which of the following options accurately describes the predicted polarity scores in the provided figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'At least one class exhibits a multimodal distribution.'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "f76ab060e12ec07caffb07b15ebc607d",
+        "question": "What is the specific dataset that the polarity scores were calculated on?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "3775d0a9e6395295ff43ae6c7c5355c8",
+        "question": "What is the approximate value of the orange line at the dependency distance of 3 in the left graph?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3 LAS (F1) scores by dependency distance.\n\nQuestion: What is the approximate value of the orange line at the dependency distance of 3 in the left graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "e5a74211f9defe7b688928df65150c22",
+        "question": "What is the approximate LAS (F1) score for Stanford-NNdep at a dependency distance of '>5' in graph (b)?",
+        "answer_pred": "0.62",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3 LAS (F1) scores by dependency distance.\n\nQuestion: What is the approximate LAS (F1) score for Stanford-NNdep at a dependency distance of '>5' in graph (b)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "be6d45b7733e1a9bb234cd2fffdbb3bb",
+        "question": "Is the blue line representing 'Stanford-Biaffine' higher than the yellow line representing 'Stanford-NNdep' at the distance '1' on the left side graph?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3 LAS (F1) scores by dependency distance.\n\nQuestion: Is the blue line representing 'Stanford-Biaffine' higher than the yellow line representing 'Stanford-NNdep' at the distance '1' on the left side graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

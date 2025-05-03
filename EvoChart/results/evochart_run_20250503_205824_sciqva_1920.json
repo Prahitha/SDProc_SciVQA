@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "ec7de8ee3bdeaacae0777e2ba92e2b9a",
+        "question": "What color are the points representing 'rare, top 10%'?",
+        "answer_pred": "blue",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Visualization of source embeddings. Models trained on WMT14 En-Fr (4m).\n\nQuestion: What color are the points representing 'rare, top 10%'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f864eff69d4d3ee270b91460c8dd0a94",
+        "question": "Which model is represented in the graph (a)?",
+        "answer_pred": "RN14",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Visualization of source embeddings. Models trained on WMT14 En-Fr (4m).\n\nQuestion: Which model is represented in the graph (a)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c98792a44753b8bdb1825fcb9472099c",
+        "question": "Do the blue dots seem to form a tight, compact region in the left plot?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Visualization of source embeddings. Models trained on WMT14 En-Fr (4m).\n\nQuestion: Do the blue dots seem to form a tight, compact region in the left plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "1e5e36fc11bce45bf7bbc9d0a31460af",
+        "question": "Does the figure compare two different versions of a model trained on the same dataset?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Visualization of source embeddings. Models trained on WMT14 En-Fr (4m).\n\nQuestion: Does the figure compare two different versions of a model trained on the same dataset?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "0186e228e09e5d704525ad2d37d720eb",
+        "question": "Which panel shows a more clearly defined separation between the red and blue points?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Visualization of source embeddings. Models trained on WMT14 En-Fr (4m).\n\nQuestion: Which panel shows a more clearly defined separation between the red and blue points?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither panel shows a clear separation'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "1c7edfdf7e1bf9cd9098d83794c2833e",
+        "question": "What technique is being compared against BPE in the second panel?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Visualization of source embeddings. Models trained on WMT14 En-Fr (4m).\n\nQuestion: What technique is being compared against BPE in the second panel?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Character-level encoding'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "2bcd9314164447e6edf27bb9254181c1",
+        "question": "What is the average cosine similarity between the embeddings of the rare words and the embeddings of the other words in the BPE-dropout model?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "02f12c5d1a5b13d70cdc21c2fc250cd2",
+        "question": "What is the approximate BLEU value for the samples labeled (2) on the scatter plot?",
+        "answer_pred": "39.8",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10. Scatter plot showing log-probability and BLEU of samples drawn from the model for four sentences taken from the test set of WMT\u201914 En-Fr (each color corresponds to a different test sentence). (1) shows samples where the model copied the source sentence, yielding very large likelihood but low BLEU. (2) and (3) are valid translations of the same source sentence, except that (2) is a cluster of samples using different choice of words.\n\nQuestion: What is the approximate BLEU value for the samples labeled (2) on the scatter plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "80a23f0d61f3731afa98c246d43921ab",
+        "question": "Which sentence has the highest BLEU score?",
+        "answer_pred": "2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10. Scatter plot showing log-probability and BLEU of samples drawn from the model for four sentences taken from the test set of WMT\u201914 En-Fr (each color corresponds to a different test sentence). (1) shows samples where the model copied the source sentence, yielding very large likelihood but low BLEU. (2) and (3) are valid translations of the same source sentence, except that (2) is a cluster of samples using different choice of words.\n\nQuestion: Which sentence has the highest BLEU score?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b107548e59d6be94ded98894856134e9",
+        "question": "Is Sent #2375 represented by the purple dots in the plot?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10. Scatter plot showing log-probability and BLEU of samples drawn from the model for four sentences taken from the test set of WMT\u201914 En-Fr (each color corresponds to a different test sentence). (1) shows samples where the model copied the source sentence, yielding very large likelihood but low BLEU. (2) and (3) are valid translations of the same source sentence, except that (2) is a cluster of samples using different choice of words.\n\nQuestion: Is Sent #2375 represented by the purple dots in the plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

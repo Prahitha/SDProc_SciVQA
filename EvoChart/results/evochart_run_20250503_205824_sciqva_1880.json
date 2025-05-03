@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "aa288a90f6740dfc1f19fec93ed821c7",
+        "question": "Is the blue line, representing K=1, consistently above the orange line, representing K=3, throughout the entire plot?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Precision-Recall curves for the top-3 claim matching configurations (all using HM) on test.\n\nQuestion: Is the blue line, representing K=1, consistently above the orange line, representing K=3, throughout the entire plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "f58d3003a349549dc6c61721b3c229c0",
+        "question": "Is the precision value for K=5 above 0.8 at recall value of 0.5?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Precision-Recall curves for the top-3 claim matching configurations (all using HM) on test.\n\nQuestion: Is the precision value for K=5 above 0.8 at recall value of 0.5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "14745f827c1b864ed5b2085618ffc5f9",
+        "question": "Which line on the plot is the K=5 configuration?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Precision-Recall curves for the top-3 claim matching configurations (all using HM) on test.\n\nQuestion: Which line on the plot is the K=5 configuration?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "944926517ea26f70bc49a85ee2a48214",
+        "question": "Which configuration has the highest precision when recall is 0.2?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Precision-Recall curves for the top-3 claim matching configurations (all using HM) on test.\n\nQuestion: Which configuration has the highest precision when recall is 0.2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "9f3f376905575f7a011e27fdc892c2fd",
+        "question": "What is the F1 score for the K=3 configuration at a recall of 0.6?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "4a4a133e81262e6a718af6aea6276a93",
+        "question": "What is the approximate value of the green line at Memory Size 3000 in the left plot?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Entity F1 scores on the testing dataset given different memory sizes. Higher values are preferred.\n\nQuestion: What is the approximate value of the green line at Memory Size 3000 in the left plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "77203e0a480e7de0b5a4b0081106600f",
+        "question": "What is the maximum value of the Entity F1 score for MANN+MD when the memory size is 4000 CamRest dataset?",
+        "answer_pred": "0.81",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Entity F1 scores on the testing dataset given different memory sizes. Higher values are preferred.\n\nQuestion: What is the maximum value of the Entity F1 score for MANN+MD when the memory size is 4000 CamRest dataset?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "e7827674ed7068826e041a4684597507",
+        "question": "Is the F1 score of the blue line at the memory size of 3000 higher than the F1 score of the orange line at the memory size of 2000 for SMTD dataset?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Entity F1 scores on the testing dataset given different memory sizes. Higher values are preferred.\n\nQuestion: Is the F1 score of the blue line at the memory size of 3000 higher than the F1 score of the orange line at the memory size of 2000 for SMTD dataset?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e7219e1fde23ee133c42c8dbde3c2c52",
+        "question": "Does the KVRN model consistently outperform the MANN/MD model across all memory sizes?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Entity F1 scores on the testing dataset given different memory sizes. Higher values are preferred.\n\nQuestion: Does the KVRN model consistently outperform the MANN/MD model across all memory sizes?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "15ce90a1bcaf6481fc4ccdfbb7470106",
+        "question": "Which line has the highest value for the largest memory size in the right graph?",
+        "answer_pred": "M",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Entity F1 scores on the testing dataset given different memory sizes. Higher values are preferred.\n\nQuestion: Which line has the highest value for the largest memory size in the right graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

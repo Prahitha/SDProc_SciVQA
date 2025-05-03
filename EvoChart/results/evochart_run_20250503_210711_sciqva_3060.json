@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "c73ec0a984349ecd01b81593511afbf0",
+        "question": "What is the BERT model architecture used in this study?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "87e001aac976a9e48a39cd6e9564c227",
+        "question": "What is the approximate perplexity of the line with empty squares at 500 iterations in the right graph?",
+        "answer_pred": "112.5",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Learning curves of LTLM for both English and Czech. The points in the graphs represent the perplexities in every 100th iteration.\n\nQuestion: What is the approximate perplexity of the line with empty squares at 500 iterations in the right graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "d5b228c46b3d48a4ab3ab0926ae7394f",
+        "question": "What is the highest number of roles included in the English learning curves?",
+        "answer_pred": "12",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Learning curves of LTLM for both English and Czech. The points in the graphs represent the perplexities in every 100th iteration.\n\nQuestion: What is the highest number of roles included in the English learning curves?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "46a3b08e5327b81cd8d1cb8c7647599a",
+        "question": "Is the line with asterisks in the graph on the right consistently lower than the line representing 100 roles?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Learning curves of LTLM for both English and Czech. The points in the graphs represent the perplexities in every 100th iteration.\n\nQuestion: Is the line with asterisks in the graph on the right consistently lower than the line representing 100 roles?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e7ed583cc7b66165e585a97309bcf691",
+        "question": "Are the perplexities for both languages shown in the figure measured over a total of 1000 iterations?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Learning curves of LTLM for both English and Czech. The points in the graphs represent the perplexities in every 100th iteration.\n\nQuestion: Are the perplexities for both languages shown in the figure measured over a total of 1000 iterations?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "7b8a2db46b74d5d81e16441ee897d13f",
+        "question": "Which line on the right graph represents the learning curve for 50 roles?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Learning curves of LTLM for both English and Czech. The points in the graphs represent the perplexities in every 100th iteration.\n\nQuestion: Which line on the right graph represents the learning curve for 50 roles?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': \"The line with the 'o' marker\"}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "09fab7e39b10043d53cb45d321163ab8",
+        "question": "Which of the following number of roles result in a perplexity value greater than 400 at the 500th iteration, in the second graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Learning curves of LTLM for both English and Czech. The points in the graphs represent the perplexities in every 100th iteration.\n\nQuestion: Which of the following number of roles result in a perplexity value greater than 400 at the 500th iteration, in the second graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '100'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "a37d581cb4032a064cd7bcab333865ae",
+        "question": "What is the specific LTLM model used in the Czech experiment, and how does its performance compare to the English model in terms of perplexity after 500 iterations?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "a63f8b9609b0ab947228822b524eba38",
+        "question": "What is the approximate value of the green line at a depth of 16?",
+        "answer_pred": "1.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 2 Results for a single RUSS layer.\n\nQuestion: What is the approximate value of the green line at a depth of 16?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "76b2f96b8355f59bac245f717d028ff0",
+        "question": "What is the maximum depth displayed in the figure?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 2 Results for a single RUSS layer.\n\nQuestion: What is the maximum depth displayed in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "fb052b998dd465ecdd1c26b278fa5b04",
+        "question": "What is the specific research area that this experiment investigates, and what is the practical application of the findings?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "936bfd16cbe08bd4e72b674e69de5030",
+        "question": "What is the approximate value of the red 'ladder' line on the 'reward' graph (sub-figure (a)) at 5/26?",
+        "answer_pred": "1.9",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigures 4: Experiment results with the ECPM policy as baseline.\n\nQuestion: What is the approximate value of the red 'ladder' line on the 'reward' graph (sub-figure (a)) at 5/26?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "4d961ffdddb12ce041daa170caf4bbf1",
+        "question": "What is the maximum possible reward in graphs (a) and (b)?",
+        "answer_pred": "100",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigures 4: Experiment results with the ECPM policy as baseline.\n\nQuestion: What is the maximum possible reward in graphs (a) and (b)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "3fc026de0e0170a9894510539bd4cec1",
+        "question": "Does the red line representing 'ladder' in graph (a) consistently remain above the dashed yellow line representing 'max_Q'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigures 4: Experiment results with the ECPM policy as baseline.\n\nQuestion: Does the red line representing 'ladder' in graph (a) consistently remain above the dashed yellow line representing 'max_Q'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e29361b581e9d45aef241914738abb9b",
+        "question": "In graph (a), does the reward for max_Q increase as the x-axis value increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigures 4: Experiment results with the ECPM policy as baseline.\n\nQuestion: In graph (a), does the reward for max_Q increase as the x-axis value increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "76686469e41d85646b364f99c88cac56",
+        "question": "Considering Figure 4, which of the following statements about the 'ladder' line in subplot (a) are true?  Select all that apply.",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigures 4: Experiment results with the ECPM policy as baseline.\n\nQuestion: Considering Figure 4, which of the following statements about the 'ladder' line in subplot (a) are true?  Select all that apply.\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': \"The 'ladder' line reaches a maximum value above 0.8\"}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "426667b840a938253ce5e13185abf1e7",
+        "question": "According to Figure 4, which metrics are used to evaluate the experiment results with the ECPM policy as the baseline?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigures 4: Experiment results with the ECPM policy as baseline.\n\nQuestion: According to Figure 4, which metrics are used to evaluate the experiment results with the ECPM policy as the baseline?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'revenue, CTR_growth'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "0f6842af45b5533085d726b023f88884",
+        "question": "What is the exact numerical difference between the 'ladder' and 'baseline' performance on May 25th for the 'revenue' metric, considering a 95% confidence interval?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "bd08900ee4c2ef374177c27e5637e761",
+        "question": "What is the approximate HUSE-Q value of the red point located at the highest HUSE-D value on the red line?",
+        "answer_pred": "0.99",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: HUSE-D vs HUSE-Q for loss truncation, truncation + rejection sampling, and baselines. The red line shows the best achievable frontier via ensembling. Truncation and rejection outperform all baselines.\n\nQuestion: What is the approximate HUSE-Q value of the red point located at the highest HUSE-D value on the red line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "e08698a87e85da8ff517a7c7bce76b6f",
+        "question": "How many Beam methods are used?",
+        "answer_pred": "3",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: HUSE-D vs HUSE-Q for loss truncation, truncation + rejection sampling, and baselines. The red line shows the best achievable frontier via ensembling. Truncation and rejection outperform all baselines.\n\nQuestion: How many Beam methods are used?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

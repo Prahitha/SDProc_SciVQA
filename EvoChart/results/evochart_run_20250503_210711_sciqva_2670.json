@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "2158bbdfea7c7f2a899ad01e1ad87523",
+        "question": "What does 'y' represent?",
+        "answer_pred": "question labels",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: MultiQT model illustration for two timesteps i and j. We depict the convolutional transformations fa and fs of the audio and character temporal softmax inputs into the respective modality encodings z(i)a and z (i) s , along with the corresponding receptive fields and strides: ra, sa and rs, ss. The convolutions are followed by multimodal fusion and finally dense layers g and h to predict the question labels y(i) and y(j).\n\nQuestion: What does 'y' represent?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "83e4b3c24527a1de8026b720a8aaf01c",
+        "question": "Is the fusion module shown in yellow in the diagram?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: MultiQT model illustration for two timesteps i and j. We depict the convolutional transformations fa and fs of the audio and character temporal softmax inputs into the respective modality encodings z(i)a and z (i) s , along with the corresponding receptive fields and strides: ra, sa and rs, ss. The convolutions are followed by multimodal fusion and finally dense layers g and h to predict the question labels y(i) and y(j).\n\nQuestion: Is the fusion module shown in yellow in the diagram?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "02504e041bb4fc0b3f76da11fd7dc8de",
+        "question": "Does the model use convolutional transformations for both audio and character inputs?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: MultiQT model illustration for two timesteps i and j. We depict the convolutional transformations fa and fs of the audio and character temporal softmax inputs into the respective modality encodings z(i)a and z (i) s , along with the corresponding receptive fields and strides: ra, sa and rs, ss. The convolutions are followed by multimodal fusion and finally dense layers g and h to predict the question labels y(i) and y(j).\n\nQuestion: Does the model use convolutional transformations for both audio and character inputs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "124c863ef62e1ed6d39dd4b99847f367",
+        "question": "What color are the circles representing z_a^(i)?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: MultiQT model illustration for two timesteps i and j. We depict the convolutional transformations fa and fs of the audio and character temporal softmax inputs into the respective modality encodings z(i)a and z (i) s , along with the corresponding receptive fields and strides: ra, sa and rs, ss. The convolutions are followed by multimodal fusion and finally dense layers g and h to predict the question labels y(i) and y(j).\n\nQuestion: What color are the circles representing z_a^(i)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Purple'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "6d8bcbb5c41716ebe1c0161b855189d9",
+        "question": "What transformations are applied to the audio and character temporal softmax inputs to obtain the modality encodings?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: MultiQT model illustration for two timesteps i and j. We depict the convolutional transformations fa and fs of the audio and character temporal softmax inputs into the respective modality encodings z(i)a and z (i) s , along with the corresponding receptive fields and strides: ra, sa and rs, ss. The convolutions are followed by multimodal fusion and finally dense layers g and h to predict the question labels y(i) and y(j).\n\nQuestion: What transformations are applied to the audio and character temporal softmax inputs to obtain the modality encodings?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Multimodal fusion'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "533a8eead566540a0fbce927887bcbb2",
+        "question": "What is the specific implementation of the convolutional transformations fa and fs, and what are the values of the receptive fields and strides?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "2065a09a4a0a6d007c23217166573822",
+        "question": "What is the color of the arrow connecting the lower LSTM unit at the current word position to the higher LSTM units?",
+        "answer_pred": "Orange",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: DLSTM based nonlinear feature mapping for bigram xt1xt. Three LSTM units are used to extract features from each word position. The bottom LSTM0 is used for first order feature extraction from the current word. The output from the lower LSTM unit at current word position and the memory cell from lower LSTM at previous word position are fed to the higher LSTM units. Such information propagation is highlighted in the figure by bold orange lines.\n\nQuestion: What is the color of the arrow connecting the lower LSTM unit at the current word position to the higher LSTM units?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "6e4a4784c25fd272b4b0bfdb40a42ce9",
+        "question": "How many LSTM units are used in this DLSTM based nonlinear feature mapping?",
+        "answer_pred": "3",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: DLSTM based nonlinear feature mapping for bigram xt1xt. Three LSTM units are used to extract features from each word position. The bottom LSTM0 is used for first order feature extraction from the current word. The output from the lower LSTM unit at current word position and the memory cell from lower LSTM at previous word position are fed to the higher LSTM units. Such information propagation is highlighted in the figure by bold orange lines.\n\nQuestion: How many LSTM units are used in this DLSTM based nonlinear feature mapping?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "3fe21a85f86ce10b0d042b0c616beaa0",
+        "question": "Are there any orange lines connecting the LSTM0 at the current word position to the LSTM2 at the previous word position?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: DLSTM based nonlinear feature mapping for bigram xt1xt. Three LSTM units are used to extract features from each word position. The bottom LSTM0 is used for first order feature extraction from the current word. The output from the lower LSTM unit at current word position and the memory cell from lower LSTM at previous word position are fed to the higher LSTM units. Such information propagation is highlighted in the figure by bold orange lines.\n\nQuestion: Are there any orange lines connecting the LSTM0 at the current word position to the LSTM2 at the previous word position?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "32a049986de2de68abaedde7ab2ae8e2",
+        "question": "Do all LSTM layers have their own memory cells and gates?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: DLSTM based nonlinear feature mapping for bigram xt1xt. Three LSTM units are used to extract features from each word position. The bottom LSTM0 is used for first order feature extraction from the current word. The output from the lower LSTM unit at current word position and the memory cell from lower LSTM at previous word position are fed to the higher LSTM units. Such information propagation is highlighted in the figure by bold orange lines.\n\nQuestion: Do all LSTM layers have their own memory cells and gates?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "a511a3a16a561cf816b8b14a76851da6",
+        "question": "Does the BLEU score for \u03b1=0.1 consistently increase with training steps?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: BLEU scores on tst2010, using ASR transcripts as inputs, varying \u03b1\n\nQuestion: Does the BLEU score for \u03b1=0.1 consistently increase with training steps?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "c12ef700c266eb527a880a77f8e6c80f",
+        "question": "Which of the lines represents the baseline?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: BLEU scores on tst2010, using ASR transcripts as inputs, varying \u03b1\n\nQuestion: Which of the lines represents the baseline?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Purple'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "87add654c021810917720fa9a9647108",
+        "question": "Which of the following alpha values achieves the highest 4-gram BLEU score at training step 3?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: BLEU scores on tst2010, using ASR transcripts as inputs, varying \u03b1\n\nQuestion: Which of the following alpha values achieves the highest 4-gram BLEU score at training step 3?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'baseline'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "32121f306fa52723dfab1edea55d90c5",
+        "question": "What are the exact values of BLEU scores for each training step and \u03b1 value?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "9f3057689cb83e07874d845837745e83",
+        "question": "What is the approximate value of the reconstruction error of the blue dashed line in the right graph at the 20,000 training step?",
+        "answer_pred": "0.12",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 1. Loss curves for training and validation set. The x- and y-axis are training step and reconstruction error. Training curves are orange solid lines and validation curves are blue dashed lines. (a) is the plot for a model trained without MMI and (b) is for one with MMI.\n\nQuestion: What is the approximate value of the reconstruction error of the blue dashed line in the right graph at the 20,000 training step?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "e4ae81eef15a0251e622b9050a7a4a3b",
+        "question": "What is the maximum training step displayed on the x-axis?",
+        "answer_pred": "100",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 1. Loss curves for training and validation set. The x- and y-axis are training step and reconstruction error. Training curves are orange solid lines and validation curves are blue dashed lines. (a) is the plot for a model trained without MMI and (b) is for one with MMI.\n\nQuestion: What is the maximum training step displayed on the x-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "9836f1c67cff318a1fecadf8f65dc1f8",
+        "question": "Is the orange line consistently above the blue line in the left graph?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 1. Loss curves for training and validation set. The x- and y-axis are training step and reconstruction error. Training curves are orange solid lines and validation curves are blue dashed lines. (a) is the plot for a model trained without MMI and (b) is for one with MMI.\n\nQuestion: Is the orange line consistently above the blue line in the left graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "f1b4e73204dd213239bbaef149bdea47",
+        "question": "Does the model trained without MMI achieve a lower reconstruction error on the validation set than the model trained with MMI?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 1. Loss curves for training and validation set. The x- and y-axis are training step and reconstruction error. Training curves are orange solid lines and validation curves are blue dashed lines. (a) is the plot for a model trained without MMI and (b) is for one with MMI.\n\nQuestion: Does the model trained without MMI achieve a lower reconstruction error on the validation set than the model trained with MMI?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "bd8cc5975edf81b839154b3a2b1c39d5",
+        "question": "What best describes the shape of the blue dashed line in the right graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 1. Loss curves for training and validation set. The x- and y-axis are training step and reconstruction error. Training curves are orange solid lines and validation curves are blue dashed lines. (a) is the plot for a model trained without MMI and (b) is for one with MMI.\n\nQuestion: What best describes the shape of the blue dashed line in the right graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Curving upward throughout'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "1d8ea697ef31f248ab3f660acdb471aa",
+        "question": "What is the approximate reconstruction error achieved by the model without MMI on the validation set at 100k training steps?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 1. Loss curves for training and validation set. The x- and y-axis are training step and reconstruction error. Training curves are orange solid lines and validation curves are blue dashed lines. (a) is the plot for a model trained without MMI and (b) is for one with MMI.\n\nQuestion: What is the approximate reconstruction error achieved by the model without MMI on the validation set at 100k training steps?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0.6'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

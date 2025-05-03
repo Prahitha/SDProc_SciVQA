@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "d9acd4829f1f491847c6fe6da0b1300f",
+        "question": "How many different sets of rules are used in the system?",
+        "answer_pred": "2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2\n\nQuestion: How many different sets of rules are used in the system?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c1a3fc4341bbdcfc7f74a9f08e06b87b",
+        "question": "Are there more S-T1 rules boxes than S-T2 rules boxes?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2\n\nQuestion: Are there more S-T1 rules boxes than S-T2 rules boxes?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "f33789a5c4ed853b21e8e3bcc2777c1c",
+        "question": "Are there more than one block of rule connected to each translation path?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2\n\nQuestion: Are there more than one block of rule connected to each translation path?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "de3f4d904a2ee7d5e856c6be6f0bde36",
+        "question": "Which of the following components have the same shape as the 'Lexicon' component?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2\n\nQuestion: Which of the following components have the same shape as the 'Lexicon' component?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'TRAN1'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "43d4fe0e59103fc8798c6e4a456619fe",
+        "question": "Which of the following are types of rules used in this system?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2\n\nQuestion: Which of the following are types of rules used in this system?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'S-T4'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "35499ff0360444839e8b1b92abe7709d",
+        "question": "What is the specific type of rules used in the 'S-T2 Rules' box in Figure 2?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "1be1832b4054c34a5f0e2fe4249c84fc",
+        "question": "What is the median user response delay (ms) for the leftmost condition, as indicated by the red line within the blue boxplot?",
+        "answer_pred": "112.5",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: User answer response delay under three conditions.\n\nQuestion: What is the median user response delay (ms) for the leftmost condition, as indicated by the red line within the blue boxplot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "1dea16fe0391602d8971fe0bb39db250",
+        "question": "How many conditions are compared in Figure 4?",
+        "answer_pred": "3",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: User answer response delay under three conditions.\n\nQuestion: How many conditions are compared in Figure 4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "cdcfaaea0d54ad87cea23d47878d32a1",
+        "question": "Is the median user response delay (red line) in the ADAPTIVE_LANE condition lower than the median user response delay in the CONTROL_EMPTY condition?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: User answer response delay under three conditions.\n\nQuestion: Is the median user response delay (red line) in the ADAPTIVE_LANE condition lower than the median user response delay in the CONTROL_EMPTY condition?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "fc013bf2a0fa53c7c7dcff965af267c2",
+        "question": "Does the CONTROL_LANE condition reach the lowest value in figure 4?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: User answer response delay under three conditions.\n\nQuestion: Does the CONTROL_LANE condition reach the lowest value in figure 4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

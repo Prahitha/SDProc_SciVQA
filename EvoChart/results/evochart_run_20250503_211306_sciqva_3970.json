@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "8d8616b14714b2deb3ce3ecade099341",
+        "question": "What is the specific task that the self-training approach is being compared to the baseline on in this figure?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "e594406a584433fc7fb25d625dfab8ee",
+        "question": "What is the approximate value of the green line at x=50?",
+        "answer_pred": "0.9999999999999999",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: MMI criterion on the training data during 100 iterations of extended Baum-Welch with lattice regeneration. The x-axis gives the extended Baum-Welch iteration, with x=0 being the mle.\n\nQuestion: What is the approximate value of the green line at x=50?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f5aea11eccd0d805bc980db5fd870782",
+        "question": "What is the final value of WER at the end of the iterations range?",
+        "answer_pred": "0.12",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: MMI criterion on the training data during 100 iterations of extended Baum-Welch with lattice regeneration. The x-axis gives the extended Baum-Welch iteration, with x=0 being the mle.\n\nQuestion: What is the final value of WER at the end of the iterations range?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "6de63f2b5e64cfa38ecfd8fc0bcd6925",
+        "question": "Does the red line representing WER have a consistently increasing trend during the iterations?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: MMI criterion on the training data during 100 iterations of extended Baum-Welch with lattice regeneration. The x-axis gives the extended Baum-Welch iteration, with x=0 being the mle.\n\nQuestion: Does the red line representing WER have a consistently increasing trend during the iterations?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d24fc561827c7d4acd091705cbba08f4",
+        "question": "Does the MMI criterion increase with the number of iterations?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: MMI criterion on the training data during 100 iterations of extended Baum-Welch with lattice regeneration. The x-axis gives the extended Baum-Welch iteration, with x=0 being the mle.\n\nQuestion: Does the MMI criterion increase with the number of iterations?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "851def8bf7d20ea964c7a42e013008ac",
+        "question": "Which line is decreasing in the first 10 iterations?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: MMI criterion on the training data during 100 iterations of extended Baum-Welch with lattice regeneration. The x-axis gives the extended Baum-Welch iteration, with x=0 being the mle.\n\nQuestion: Which line is decreasing in the first 10 iterations?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither Green nor Red'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "510b636a330175ebd1ecb45337d7ff83",
+        "question": "What is the value of the x-axis corresponding to the maximum value of MMI?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: MMI criterion on the training data during 100 iterations of extended Baum-Welch with lattice regeneration. The x-axis gives the extended Baum-Welch iteration, with x=0 being the mle.\n\nQuestion: What is the value of the x-axis corresponding to the maximum value of MMI?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '25'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "a34bb96f96efb42499df4265b208054e",
+        "question": "What is the specific application of this MMI criterion and the corresponding extended Baum-Welch algorithm used in this study?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "3f415a90f988fc5d7aaf60b7fc5a292f",
+        "question": "What is the value of the blue solid line for Spanish in the bottom right graph at the x-axis value of 0.1?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison between our model (solid lines) and Attention-Informed Mixed Training (Att.) model (dashed lines). Results with different \u03b2 in (a) and (b) and different subset size of training data in (c) and (d). In (c) and (d), it\u2019s worth that the dashline denotes Att. performance with 100% training data and the solid line represents our model performance by varying the proportion training data size.\n\nQuestion: What is the value of the blue solid line for Spanish in the bottom right graph at the x-axis value of 0.1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "413dd52a370098271a355de473648cd3",
+        "question": "What is the value for the intent accuracy of the attention-informed mixed training model on Thai in plot (b)?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison between our model (solid lines) and Attention-Informed Mixed Training (Att.) model (dashed lines). Results with different \u03b2 in (a) and (b) and different subset size of training data in (c) and (d). In (c) and (d), it\u2019s worth that the dashline denotes Att. performance with 100% training data and the solid line represents our model performance by varying the proportion training data size.\n\nQuestion: What is the value for the intent accuracy of the attention-informed mixed training model on Thai in plot (b)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

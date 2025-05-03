@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "ded0410a4beb040b135ee03c499bfb6a",
+        "question": "What is the name of the selection strategy that reaches the highest BLEU score?",
+        "answer_pred": "Full-sentence generation",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: BLEU vs. vocabulary size for different selection strategies.\n\nQuestion: What is the name of the selection strategy that reaches the highest BLEU score?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "5a9f0d2c3dfd4a3140a3b1a1991089e3",
+        "question": "Does the brown line start at a value lower than 12?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: BLEU vs. vocabulary size for different selection strategies.\n\nQuestion: Does the brown line start at a value lower than 12?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "1ef57a41c445ce1faabf14e9916e287d",
+        "question": "Does the BLEU score for 'Full 100k' increase as the vocabulary size increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: BLEU vs. vocabulary size for different selection strategies.\n\nQuestion: Does the BLEU score for 'Full 100k' increase as the vocabulary size increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "b76785befe781d843000ddb08bd07036",
+        "question": "Which color line has the highest value at approximately 3000 on the x-axis?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: BLEU vs. vocabulary size for different selection strategies.\n\nQuestion: Which color line has the highest value at approximately 3000 on the x-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Green'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8bb6e8e52d687de012858261f652db6d",
+        "question": "How many different strategies are represented in figure 2?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: BLEU vs. vocabulary size for different selection strategies.\n\nQuestion: How many different strategies are represented in figure 2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '8'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "854b41ab1f1d3f91feebae28c1ad1e34",
+        "question": "What dataset was used to evaluate the strategies in figure 2?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "8b02ed3e89e626cbb1b242a3cddbda42",
+        "question": "At approximately what epoch does the black dashed line reach the top of the fram in the right graph?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 6. Effect of overfitting on DNN model shown through cross-entropy loss for the AG News and Sentiment 140 datasets\n\nQuestion: At approximately what epoch does the black dashed line reach the top of the fram in the right graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "0419dd51e3164a66ae2ce21ada8b85e6",
+        "question": "How many were the runs for the datasets according to figure 6?",
+        "answer_pred": "2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 6. Effect of overfitting on DNN model shown through cross-entropy loss for the AG News and Sentiment 140 datasets\n\nQuestion: How many were the runs for the datasets according to figure 6?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "773510d0a9541432ed6d06e9c77ce8c8",
+        "question": "Does the dashed red line reach a higher validation loss than the dashed blue line in the right subplot?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 6. Effect of overfitting on DNN model shown through cross-entropy loss for the AG News and Sentiment 140 datasets\n\nQuestion: Does the dashed red line reach a higher validation loss than the dashed blue line in the right subplot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "99eaf5bb1e68550b47baa9d2f712e17c",
+        "question": "Does the cross-entropy loss for the AG News dataset decrease for the model with no augmentation in the first 20 epochs?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 6. Effect of overfitting on DNN model shown through cross-entropy loss for the AG News and Sentiment 140 datasets\n\nQuestion: Does the cross-entropy loss for the AG News dataset decrease for the model with no augmentation in the first 20 epochs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

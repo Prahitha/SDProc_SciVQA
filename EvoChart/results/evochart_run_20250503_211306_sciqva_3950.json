@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "6035bd1633520eacb4f1b516a8759b09",
+        "question": "What color are the bars in the bar chart of figure 4?",
+        "answer_pred": "Light blue",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Left: Empirical histogram of random samples of c(s). Magenta line represents theoretical distribution of the Pareto law with parameters that are estimated on these samples. Right: Difference between two distributions on the left plot expressed in number of samples\u2206(x). The parameters of the Pareto law were estimated on the samples that lie in the region {log c(s) > 0.35} (blue line). Black lines represent standard errors. The left plot is built in logarithmic Y-axis while the right one is built in linear Y-axis.\n\nQuestion: What color are the bars in the bar chart of figure 4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f1ae19e4a33bf93caf8c75057c327eb6",
+        "question": "What is the maximum value in the histogram?",
+        "answer_pred": "0.042",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Left: Empirical histogram of random samples of c(s). Magenta line represents theoretical distribution of the Pareto law with parameters that are estimated on these samples. Right: Difference between two distributions on the left plot expressed in number of samples\u2206(x). The parameters of the Pareto law were estimated on the samples that lie in the region {log c(s) > 0.35} (blue line). Black lines represent standard errors. The left plot is built in logarithmic Y-axis while the right one is built in linear Y-axis.\n\nQuestion: What is the maximum value in the histogram?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "0276fb9108ccd6b26017ae9946541e68",
+        "question": "Do the red curve line and the black standard error lines converge to zero?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Left: Empirical histogram of random samples of c(s). Magenta line represents theoretical distribution of the Pareto law with parameters that are estimated on these samples. Right: Difference between two distributions on the left plot expressed in number of samples\u2206(x). The parameters of the Pareto law were estimated on the samples that lie in the region {log c(s) > 0.35} (blue line). Black lines represent standard errors. The left plot is built in logarithmic Y-axis while the right one is built in linear Y-axis.\n\nQuestion: Do the red curve line and the black standard error lines converge to zero?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "de99d2826cf9ff8d856f0e8672f10345",
+        "question": "Do the two charts of figure 4 have similar x axes?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Left: Empirical histogram of random samples of c(s). Magenta line represents theoretical distribution of the Pareto law with parameters that are estimated on these samples. Right: Difference between two distributions on the left plot expressed in number of samples\u2206(x). The parameters of the Pareto law were estimated on the samples that lie in the region {log c(s) > 0.35} (blue line). Black lines represent standard errors. The left plot is built in logarithmic Y-axis while the right one is built in linear Y-axis.\n\nQuestion: Do the two charts of figure 4 have similar x axes?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "ccf56daa40acff5cb9c08dcee0fef915",
+        "question": "What is the trend of the black dot markers in the right graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Left: Empirical histogram of random samples of c(s). Magenta line represents theoretical distribution of the Pareto law with parameters that are estimated on these samples. Right: Difference between two distributions on the left plot expressed in number of samples\u2206(x). The parameters of the Pareto law were estimated on the samples that lie in the region {log c(s) > 0.35} (blue line). Black lines represent standard errors. The left plot is built in logarithmic Y-axis while the right one is built in linear Y-axis.\n\nQuestion: What is the trend of the black dot markers in the right graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'They are all located on the horizontal line at y = 0'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "6c3570cf643bc1b31f4414b4b935ec54",
+        "question": "What is the maximum value of \u2206(x) in the associated graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Left: Empirical histogram of random samples of c(s). Magenta line represents theoretical distribution of the Pareto law with parameters that are estimated on these samples. Right: Difference between two distributions on the left plot expressed in number of samples\u2206(x). The parameters of the Pareto law were estimated on the samples that lie in the region {log c(s) > 0.35} (blue line). Black lines represent standard errors. The left plot is built in logarithmic Y-axis while the right one is built in linear Y-axis.\n\nQuestion: What is the maximum value of \u2206(x) in the associated graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '200'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "10a941a9628b532d5cc43d10f0865bd2",
+        "question": "Where did the data for the distribution of figure 4 come from?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "41d7507fea7a20d8f501e475033da266",
+        "question": "What is the value of 'Metric' where the orange line intersects the grey line?",
+        "answer_pred": "1.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Retriever and ranker recall. The x-axis is logscale.\n\nQuestion: What is the value of 'Metric' where the orange line intersects the grey line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "915ad8a1ece88dc31e77b220e29a7631",
+        "question": "What is the maximum value of Top-N exact match?",
+        "answer_pred": "0.9999999999999999",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Retriever and ranker recall. The x-axis is logscale.\n\nQuestion: What is the maximum value of Top-N exact match?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "ccea72704a5f0a0880c5b086d5cc461a",
+        "question": "Does the blue line have a consistently higher value than the orange line?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Retriever and ranker recall. The x-axis is logscale.\n\nQuestion: Does the blue line have a consistently higher value than the orange line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

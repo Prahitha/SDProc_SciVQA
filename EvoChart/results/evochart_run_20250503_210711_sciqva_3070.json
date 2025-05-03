@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "de445c384fc9f265b29e39976e4097c2",
+        "question": "Does the green line labeled 'depth 7' decrease at a slower rate than the blue line labeled 'depth 10'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 2 Results for a single RUSS layer.\n\nQuestion: Does the green line labeled 'depth 7' decrease at a slower rate than the blue line labeled 'depth 10'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "969a02f4741d533c890246d44f33f7ba",
+        "question": "Are five types of depth being considered?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 2 Results for a single RUSS layer.\n\nQuestion: Are five types of depth being considered?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "74744685f74801e86eee653d4fb63fa4",
+        "question": "Which line in the graph is the steepest?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 2 Results for a single RUSS layer.\n\nQuestion: Which line in the graph is the steepest?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'depth 9'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "d75dee2a1573b5733b23376686c1768d",
+        "question": "Which of these depths are represented in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 2 Results for a single RUSS layer.\n\nQuestion: Which of these depths are represented in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '9'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "c5555e014645861d7d165c6b5b2a88fb",
+        "question": "What is the value of the RUSS layer at a depth of 5?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "a1efd39780a137fd2099d2a96d4adc70",
+        "question": "How many points are there on the line?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4. Sentence overlap between the summary of document 3 and 16 human summaries\n\nQuestion: How many points are there on the line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "0864e13c64b2b47fa19cb65ea3dfa115",
+        "question": "How many reviewers were used?",
+        "answer_pred": "16",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4. Sentence overlap between the summary of document 3 and 16 human summaries\n\nQuestion: How many reviewers were used?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "18d37c36ef873291e402b128ed757d9c",
+        "question": "Is there a peak around reviewer 16?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4. Sentence overlap between the summary of document 3 and 16 human summaries\n\nQuestion: Is there a peak around reviewer 16?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "f75c9b227a4c471f272278b0eaa9463f",
+        "question": "Does the number of sentences overlap between the document summary and human summaries stay consistently above 4 for all reviewers?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4. Sentence overlap between the summary of document 3 and 16 human summaries\n\nQuestion: Does the number of sentences overlap between the document summary and human summaries stay consistently above 4 for all reviewers?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "23eb37af75a7df016a72345bdf015311",
+        "question": "How many dots are there before reviewer 6?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4. Sentence overlap between the summary of document 3 and 16 human summaries\n\nQuestion: How many dots are there before reviewer 6?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '2'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

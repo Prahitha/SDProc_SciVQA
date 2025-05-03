@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "419379b141d3956ddd722ba8324c9b4c",
+        "question": "What is the value of the UAS score for k=350?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "620c7614389ff5c71c567b08e79d1c6c",
+        "question": "What is the value of the AUC-PR for the orange line when the number of training samples is approximately 10^3?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison of the supervised training baseline and the proposed self-supervised pretraining methods for the in-domain test set using different number of training samples (top: AUC-PR, bottom: AUC-ROC).\n\nQuestion: What is the value of the AUC-PR for the orange line when the number of training samples is approximately 10^3?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b6d9ad80152b4867fb2a918d9a8e6bc9",
+        "question": "What is the approximate lowest AUC-ROC achieved by Supervised Training?",
+        "answer_pred": "0.52",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison of the supervised training baseline and the proposed self-supervised pretraining methods for the in-domain test set using different number of training samples (top: AUC-PR, bottom: AUC-ROC).\n\nQuestion: What is the approximate lowest AUC-ROC achieved by Supervised Training?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "387d7ad3bc176c078c56a5fbd6ac00a2",
+        "question": "Is the orange line consistently above the blue line in the bottom graph?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison of the supervised training baseline and the proposed self-supervised pretraining methods for the in-domain test set using different number of training samples (top: AUC-PR, bottom: AUC-ROC).\n\nQuestion: Is the orange line consistently above the blue line in the bottom graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "6c41d4722c31c3fc5f9f052403a1a8ff",
+        "question": "Does the self-supervised pretraining method consistently perform worse than the supervised training baseline for the in-domain test set across different training samples?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison of the supervised training baseline and the proposed self-supervised pretraining methods for the in-domain test set using different number of training samples (top: AUC-PR, bottom: AUC-ROC).\n\nQuestion: Does the self-supervised pretraining method consistently perform worse than the supervised training baseline for the in-domain test set across different training samples?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "7df3205b1913d9c3d9b925d7a3fe1a1b",
+        "question": "What is the difference in the maximum value between the orange line (self-supervised pretraining) and the blue line (supervised training) on the top graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison of the supervised training baseline and the proposed self-supervised pretraining methods for the in-domain test set using different number of training samples (top: AUC-PR, bottom: AUC-ROC).\n\nQuestion: What is the difference in the maximum value between the orange line (self-supervised pretraining) and the blue line (supervised training) on the top graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'greater than 15%'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "426ce7d5ffb680630ebd14f8be915a4b",
+        "question": "Which of the following methods reach an AUC-PR score of more than 80% at 10^4 training samples?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison of the supervised training baseline and the proposed self-supervised pretraining methods for the in-domain test set using different number of training samples (top: AUC-PR, bottom: AUC-ROC).\n\nQuestion: Which of the following methods reach an AUC-PR score of more than 80% at 10^4 training samples?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "741ced69c03396e5af13c5af22a7993d",
+        "question": "What is the specific type of data used for the in-domain test set in Figure 4?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "2a8a1e1ab7a90791ef6ba99adb6bee21",
+        "question": "What is the approximate maximum (Semantic) distance in the bottom graph?",
+        "answer_pred": "1.5",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: From 1000-tweet stream of the New York Times, @nytimes. The Euclidean distances between the word and tweet segments 1 to 31. All words and all tweet segments are embedded in the Correspondence Analysis factor space. This latent semantic space is endowed with the Euclidean metric and all points (words, tweet segments) are of equal mass. To aid in visualization, the distances are connected in a continuous curve. Small values of distance indicate a close semantic association of word and tweet segment.\n\nQuestion: What is the approximate maximum (Semantic) distance in the bottom graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "1eb0ec312beae1758f16dbacd09af483",
+        "question": "What is the approximate maximum semantic distance between the word 'hysteria' and any of the tweet segments?",
+        "answer_pred": "11.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: From 1000-tweet stream of the New York Times, @nytimes. The Euclidean distances between the word and tweet segments 1 to 31. All words and all tweet segments are embedded in the Correspondence Analysis factor space. This latent semantic space is endowed with the Euclidean metric and all points (words, tweet segments) are of equal mass. To aid in visualization, the distances are connected in a continuous curve. Small values of distance indicate a close semantic association of word and tweet segment.\n\nQuestion: What is the approximate maximum semantic distance between the word 'hysteria' and any of the tweet segments?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

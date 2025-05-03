@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "dafd4ddddbaa2a3e6d25b80ee0ab86b0",
+        "question": "Which of the following metaphors is represented by light green colour??",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5. Distribution of marriage equality metaphors in the traditional stance sources.\n\nQuestion: Which of the following metaphors is represented by light green colour??\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'War'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "b1a4eb9139afc4c732f0168b1d4bb50d",
+        "question": "Which of the following metaphors are used to describe marriage equality in the 'traditional stance' sources?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5. Distribution of marriage equality metaphors in the traditional stance sources.\n\nQuestion: Which of the following metaphors are used to describe marriage equality in the 'traditional stance' sources?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "4af2609374771769bed69328fbdc3b9c",
+        "question": "What is the specific percentage of the \"Medicine\" metaphor in the sources with a traditional stance on marriage equality?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "33a8264a18a73ac7a8c5e6ad35a4c057",
+        "question": "What color is the line representing the function \u03c8?",
+        "answer_pred": "red",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: The function \u03c8 defined by Eq. (15) with bandwidth parameter \u03bd = 0.25. In orange (resp. blue), one can see the upper (resp. lower) bound given by Eq. (16).\n\nQuestion: What color is the line representing the function \u03c8?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "8c5db11e90296150b9552428749c858f",
+        "question": "What is the approximate value of the function \u03c8 when x-axis value is 0.2?",
+        "answer_pred": "0.12",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: The function \u03c8 defined by Eq. (15) with bandwidth parameter \u03bd = 0.25. In orange (resp. blue), one can see the upper (resp. lower) bound given by Eq. (16).\n\nQuestion: What is the approximate value of the function \u03c8 when x-axis value is 0.2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "9e857c7ea784ea5fd213d7f51b70cef8",
+        "question": "Is the blue line always positioned lower than the orange line on the graph?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: The function \u03c8 defined by Eq. (15) with bandwidth parameter \u03bd = 0.25. In orange (resp. blue), one can see the upper (resp. lower) bound given by Eq. (16).\n\nQuestion: Is the blue line always positioned lower than the orange line on the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "411c038bf455ade82834b6e3df6c890d",
+        "question": "Is the highest value shown on the y-axis 2?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: The function \u03c8 defined by Eq. (15) with bandwidth parameter \u03bd = 0.25. In orange (resp. blue), one can see the upper (resp. lower) bound given by Eq. (16).\n\nQuestion: Is the highest value shown on the y-axis 2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d470d1e219ea1235a91d628ddf004279",
+        "question": "Which of the following best describes the curvature of the orange line?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: The function \u03c8 defined by Eq. (15) with bandwidth parameter \u03bd = 0.25. In orange (resp. blue), one can see the upper (resp. lower) bound given by Eq. (16).\n\nQuestion: Which of the following best describes the curvature of the orange line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Random pattern'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "25c280cbe4256049ba741ef2b905e5ef",
+        "question": "Which function represents the lower bound for \u03c8?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: The function \u03c8 defined by Eq. (15) with bandwidth parameter \u03bd = 0.25. In orange (resp. blue), one can see the upper (resp. lower) bound given by Eq. (16).\n\nQuestion: Which function represents the lower bound for \u03c8?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "947417cbfff5ceddf3fcb07925df09ff",
+        "question": "What is the exact value of the function \u03c8 at t = 0.5?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

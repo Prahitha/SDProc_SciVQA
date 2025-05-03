@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "3e185f567b337ea1073e0a37dddc3c69",
+        "question": "Is the RMSE value for 80% training lower than 50% training for a value of F equal to 5?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 10. Predictive performance of MR3++ by varying hyperparameters. Left: varying \u03bbrel and \u03bbrev by fixing F = 10; RMSE is 1.0139 when both are zero; Percent of Training is 80%. Right: varying F by fixing \u03bbrel = 0.001 and \u03bbrev = 0.005. Dataset: Ciao.\n\nQuestion: Is the RMSE value for 80% training lower than 50% training for a value of F equal to 5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "abd12ce9151f6f9682f9dbc40db90e5b",
+        "question": "Which lines represent models that have had the highest and lowest training percentages, respectively?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 10. Predictive performance of MR3++ by varying hyperparameters. Left: varying \u03bbrel and \u03bbrev by fixing F = 10; RMSE is 1.0139 when both are zero; Percent of Training is 80%. Right: varying F by fixing \u03bbrel = 0.001 and \u03bbrev = 0.005. Dataset: Ciao.\n\nQuestion: Which lines represent models that have had the highest and lowest training percentages, respectively?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Blue and Green'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "9671f66736c570e4e804938128987d54",
+        "question": "Which of the following values are considered in figure 10 for \u03bbrel?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 10. Predictive performance of MR3++ by varying hyperparameters. Left: varying \u03bbrel and \u03bbrev by fixing F = 10; RMSE is 1.0139 when both are zero; Percent of Training is 80%. Right: varying F by fixing \u03bbrel = 0.001 and \u03bbrev = 0.005. Dataset: Ciao.\n\nQuestion: Which of the following values are considered in figure 10 for \u03bbrel?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0.005'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "5bc332df017321f267c6a647b90e285d",
+        "question": "What is the exact RMSE when \u03bbrev = 0.002, \u03bbrel = 0.01, F = 10 and 80% of training?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "2d7b8871b9d67f5684c83b4286b8daaa",
+        "question": "What is the approximate value of the processing speed of the orange line at step 10,000?",
+        "answer_pred": "10.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4.7. Processing speed graph of NSLT with 3D-CNN and 2D-CNN.\n\nQuestion: What is the approximate value of the processing speed of the orange line at step 10,000?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "3b11ee7bbc106b1315061b43b18da5a0",
+        "question": "How many steps does the range on the horizontal axis in figure 4.7. include?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4.7. Processing speed graph of NSLT with 3D-CNN and 2D-CNN.\n\nQuestion: How many steps does the range on the horizontal axis in figure 4.7. include?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f5328df6a81f18031a63f0426d5ae17b",
+        "question": "Is the blue line consistently higher than the orange line?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4.7. Processing speed graph of NSLT with 3D-CNN and 2D-CNN.\n\nQuestion: Is the blue line consistently higher than the orange line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e3f1894da6e9e27b482a5a281612cd02",
+        "question": "Is the processing speed of 3D-CNN consistently higher than that of 2D-CNN?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4.7. Processing speed graph of NSLT with 3D-CNN and 2D-CNN.\n\nQuestion: Is the processing speed of 3D-CNN consistently higher than that of 2D-CNN?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d8f60ffac1b336cc2d958a569677b344",
+        "question": "Where in the figure is the legend located?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4.7. Processing speed graph of NSLT with 3D-CNN and 2D-CNN.\n\nQuestion: Where in the figure is the legend located?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Bottom'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "d1f56b5ed9116fee80384feab5025ce1",
+        "question": "Roughly how many periods (local peaks) does the number of words per second of 2D-CNN have per 10000 steps?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4.7. Processing speed graph of NSLT with 3D-CNN and 2D-CNN.\n\nQuestion: Roughly how many periods (local peaks) does the number of words per second of 2D-CNN have per 10000 steps?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '12'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

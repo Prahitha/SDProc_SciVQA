@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "7d6f6255c17cc10e467148fa9fdcc36c",
+        "question": "Does the growth rate of English and German Spoken Wikipedia resources remain completely constant over time?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Growth of the English, German and Dutch Spoken Wikipedia resources over time. English and German both grow with about 33h of additional audio per year.\n\nQuestion: Does the growth rate of English and German Spoken Wikipedia resources remain completely constant over time?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "931b7ae0a4c0c3156c328ea45ec5712c",
+        "question": "Which color is the highest line in 2017?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Growth of the English, German and Dutch Spoken Wikipedia resources over time. English and German both grow with about 33h of additional audio per year.\n\nQuestion: Which color is the highest line in 2017?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Black'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "42c6ac8750f921fb7d0ef84571c4a908",
+        "question": "Approximately how many cumulative hourse did spoken Dutch have on Wikipedia in the year 2011?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Growth of the English, German and Dutch Spoken Wikipedia resources over time. English and German both grow with about 33h of additional audio per year.\n\nQuestion: Approximately how many cumulative hourse did spoken Dutch have on Wikipedia in the year 2011?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '290'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "7b70d5c3f0e6770152eaf581a0dbb208",
+        "question": "How many data points were used to create the plot of figure 2?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "6950f2d05c8aa7ca364d8f1a822c3f4b",
+        "question": "What is the F1-score of the blue line at K=3?",
+        "answer_pred": "0.78",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Performance of our model with transitive extensions of order K = 1,K = 2,K = 3, and K = \u2217 on SemEval dataset; (a) learned features, (b) learned + linguistic features\n\nQuestion: What is the F1-score of the blue line at K=3?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "cd6ac8cd9fb9f858df26bd9534e79e1b",
+        "question": "What is the F1-score of the P2, P3, P1 model with learned and linguistic features at K = 2?",
+        "answer_pred": "0.81",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Performance of our model with transitive extensions of order K = 1,K = 2,K = 3, and K = \u2217 on SemEval dataset; (a) learned features, (b) learned + linguistic features\n\nQuestion: What is the F1-score of the P2, P3, P1 model with learned and linguistic features at K = 2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "9bf5914bc04ab9e45779c1c6fbd9d160",
+        "question": "Is the brown line in the left chart the highest at K = 3?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Performance of our model with transitive extensions of order K = 1,K = 2,K = 3, and K = \u2217 on SemEval dataset; (a) learned features, (b) learned + linguistic features\n\nQuestion: Is the brown line in the left chart the highest at K = 3?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "2245f4f2fb577d09d276c0c18e2e1246",
+        "question": "Do the models' performances, measured by F1-score, improve with the inclusion of linguistic features?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Performance of our model with transitive extensions of order K = 1,K = 2,K = 3, and K = \u2217 on SemEval dataset; (a) learned features, (b) learned + linguistic features\n\nQuestion: Do the models' performances, measured by F1-score, improve with the inclusion of linguistic features?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "532c6ffec2c7d0780722cfaa331be34e",
+        "question": "What shape are the markers of the line representing P2, P3, NP1?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Performance of our model with transitive extensions of order K = 1,K = 2,K = 3, and K = \u2217 on SemEval dataset; (a) learned features, (b) learned + linguistic features\n\nQuestion: What shape are the markers of the line representing P2, P3, NP1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Vertical tick'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "aa6be943d6f1ff71454b2e9d90864845",
+        "question": "Which of these combinations of features had the lowest F1-score at K = 2 on only learned features?",
+        "answer_pred": "P1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Performance of our model with transitive extensions of order K = 1,K = 2,K = 3, and K = \u2217 on SemEval dataset; (a) learned features, (b) learned + linguistic features\n\nQuestion: Which of these combinations of features had the lowest F1-score at K = 2 on only learned features?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'P2, P3, P1, NP1'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

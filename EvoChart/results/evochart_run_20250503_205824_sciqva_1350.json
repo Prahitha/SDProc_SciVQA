@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "66f7c0f148b253a969b5df3e0df8f577",
+        "question": "Considering the boxplots in Figure 4, which conditions show a median user response delay (red line inside the box) below 1500 ms?",
+        "answer_pred": "A",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: User answer response delay under three conditions.\n\nQuestion: Considering the boxplots in Figure 4, which conditions show a median user response delay (red line inside the box) below 1500 ms?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "628650da7184f1f0eddf96cd3721b1be",
+        "question": "Based on the caption and data, which conditions are compared in Figure 4?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: User answer response delay under three conditions.\n\nQuestion: Based on the caption and data, which conditions are compared in Figure 4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'ADAPTIVE_LANE'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "d0bc2b2da1ed550ed5012f7b0cb0094a",
+        "question": "What is the statistical significance of the difference in user response delay between the ADAPTIVE_LANE condition and the CONTROL_LANE condition?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "e69a3b2cce3e049dfae3573b2d362d0b",
+        "question": "What is the value represented by the darkest purple cell in the confusion matrix shown in Figure 1?",
+        "answer_pred": "0.9999999999999999",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Sub-task A,RNN method\n\nQuestion: What is the value represented by the darkest purple cell in the confusion matrix shown in Figure 1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "1483223b4fabbbc3690f21aee83bbc39",
+        "question": "What are the labels shown in figure 1?",
+        "answer_pred": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Sub-task A,RNN method\n\nQuestion: What are the labels shown in figure 1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "d33134b0dad0d99af8932fc150b26817",
+        "question": "Does the blue cell have a greater value than the purple cell?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Sub-task A,RNN method\n\nQuestion: Does the blue cell have a greater value than the purple cell?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "7c9b21acd0cdc3627fc7d101a438a8f6",
+        "question": "Is there any cell with value more than 500 in figure 1?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Sub-task A,RNN method\n\nQuestion: Is there any cell with value more than 500 in figure 1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e6ff6ede35a67af0d696eef09ffca20c",
+        "question": "Which of the following colors represents the lowest value according to the color bar on the right in figure 1?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Sub-task A,RNN method\n\nQuestion: Which of the following colors represents the lowest value according to the color bar on the right in figure 1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Yellow'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8f32f6653c9e3b1326fc6fc92a06d4a6",
+        "question": "Based on the provided caption and data in Figure 1, which of the following statements are true regarding the RNN method's performance on Sub-task A?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Sub-task A,RNN method\n\nQuestion: Based on the provided caption and data in Figure 1, which of the following statements are true regarding the RNN method's performance on Sub-task A?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': \"The RNN method's prediction for 'NOT' instances is more accurate than its prediction for 'OFF' instances.\"}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "24e582bd8fc2b99c558a21cf08f99a9a",
+        "question": "Considering the provided confusion matrix for Sub-task A using the RNN method (Figure 1), what is the model's training loss when trained for 200 epochs?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

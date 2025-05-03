@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "fde0b74e1040643807deb767b2314e44",
+        "question": "What is the percentage of the blue line for source sentence lengths between 30 and 40 words?",
+        "answer_pred": "0.029",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Number of search errors under Beam-10 and empty global bests over the source sentence length.\n\nQuestion: What is the percentage of the blue line for source sentence lengths between 30 and 40 words?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "9afba5ab0f46e709b3fd486e925bf4fb",
+        "question": "What is the percentage of search errors without empty translations when the source sentence length is between 50 and 60 words?",
+        "answer_pred": "11.11",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Number of search errors under Beam-10 and empty global bests over the source sentence length.\n\nQuestion: What is the percentage of search errors without empty translations when the source sentence length is between 50 and 60 words?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b5528a9bf0566a00ac72991662b216a4",
+        "question": "Does the green line representing '#Empty global best' have a higher value than the red line representing '#Search errors' at a source sentence length of (30,40)?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Number of search errors under Beam-10 and empty global bests over the source sentence length.\n\nQuestion: Does the green line representing '#Empty global best' have a higher value than the red line representing '#Search errors' at a source sentence length of (30,40)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "b7b6d3b14885f0e6b94f0ba4198b956d",
+        "question": "Does the percentage of search errors without empty translations increase as source sentence length increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Number of search errors under Beam-10 and empty global bests over the source sentence length.\n\nQuestion: Does the percentage of search errors without empty translations increase as source sentence length increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "9936f9cf2c340118d8faa26ee2943fec",
+        "question": "Which line represents the number of search errors without empty translations?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Number of search errors under Beam-10 and empty global bests over the source sentence length.\n\nQuestion: Which line represents the number of search errors without empty translations?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "fb1de037b76bca51a18f45a95833dbd8",
+        "question": "Which of the following is NOT a factor affecting the number of search errors?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Number of search errors under Beam-10 and empty global bests over the source sentence length.\n\nQuestion: Which of the following is NOT a factor affecting the number of search errors?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Global sentence length'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "27be086359a948cea0a3d4e54d211b3c",
+        "question": "What is the specific type of machine translation model used in this study?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "1b81a2437102645ef646b3a5bf33a466",
+        "question": "What is the approximate value of the highest peak?",
+        "answer_pred": "100",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 4 - Word rank score for the multi-term index composed of \u201cbasket ball\u201d and \u201cbasketball\u201d zoomed in to the 30- year period between 1892 and 1922 in the Chronicling America Archive (CAA).\n\nQuestion: What is the approximate value of the highest peak?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "870a0bd589cb20e9adce0a78f2dd5c4c",
+        "question": "What is the time period analyzed for the word rank score of the multi-term index?",
+        "answer_pred": "1892-1922",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 4 - Word rank score for the multi-term index composed of \u201cbasket ball\u201d and \u201cbasketball\u201d zoomed in to the 30- year period between 1892 and 1922 in the Chronicling America Archive (CAA).\n\nQuestion: What is the time period analyzed for the word rank score of the multi-term index?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "da48fb43b1bb1e649cb2c412e57f8be1",
+        "question": "Are there 6 points in the line after year 1920?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 4 - Word rank score for the multi-term index composed of \u201cbasket ball\u201d and \u201cbasketball\u201d zoomed in to the 30- year period between 1892 and 1922 in the Chronicling America Archive (CAA).\n\nQuestion: Are there 6 points in the line after year 1920?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

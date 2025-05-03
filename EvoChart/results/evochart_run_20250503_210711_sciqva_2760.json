@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "9d069ffac414e7f1864585e6b6fa72f9",
+        "question": "What is the value of the green cell in the bottom-right corner?",
+        "answer_pred": "0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Confusion matrix for activities without using an ontology.\n\nQuestion: What is the value of the green cell in the bottom-right corner?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "28cabe6f0ee3ad789718eb667b5c3c14",
+        "question": "What is the number of times the activity 'High throw' was correctly identified?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Confusion matrix for activities without using an ontology.\n\nQuestion: What is the number of times the activity 'High throw' was correctly identified?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "0cd12dcb26408597f4883ef2c5781a8b",
+        "question": "Is the value of the red cell located in the 17th row and 18th column equal to 93?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Confusion matrix for activities without using an ontology.\n\nQuestion: Is the value of the red cell located in the 17th row and 18th column equal to 93?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "86d7ddcbcd44ed6c07a051368b6af67e",
+        "question": "Are there 20 different activities represented in the graph?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Confusion matrix for activities without using an ontology.\n\nQuestion: Are there 20 different activities represented in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "4e839a3335a32b5421861deb297478f8",
+        "question": "What is the value of the red cell in the top left corner?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Confusion matrix for activities without using an ontology.\n\nQuestion: What is the value of the red cell in the top left corner?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '81'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "593adf2fbeea12bd838080bed94994ed",
+        "question": "Which of the following activities is not represented in the graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Confusion matrix for activities without using an ontology.\n\nQuestion: Which of the following activities is not represented in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Sleep'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "93e756db5ef3c7e2e9697de4c4cbc9a3",
+        "question": "What model was used to generate the results in Figure 4?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "ce37fa1af736a4d48464ba0a6703f405",
+        "question": "What is the approximate value of the darkest blue color in the left heatmap?",
+        "answer_pred": "0.015",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: SAX-MINDIST(left) and f0-Euclidean (right) Distance matrix of 1920 Mandarin tones sorted by tone category. Tones are ordered by tone categories along the x- and y-axis. Origin at top left corner (i.e., on both axis data points are ordered by 480 instances of tone 1, tone 2, tone 3, and tone 4 when moving away from origin).\n\nQuestion: What is the approximate value of the darkest blue color in the left heatmap?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "1d01c53fc87ec3671ba6eaf8d7ad127a",
+        "question": "Approximately what is the lowest value represented in both graphs?",
+        "answer_pred": "1.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: SAX-MINDIST(left) and f0-Euclidean (right) Distance matrix of 1920 Mandarin tones sorted by tone category. Tones are ordered by tone categories along the x- and y-axis. Origin at top left corner (i.e., on both axis data points are ordered by 480 instances of tone 1, tone 2, tone 3, and tone 4 when moving away from origin).\n\nQuestion: Approximately what is the lowest value represented in both graphs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "41990174dd9d25655c5435a922c65f06",
+        "question": "Is the color of the data points in the right panel of the figure predominantly blue?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: SAX-MINDIST(left) and f0-Euclidean (right) Distance matrix of 1920 Mandarin tones sorted by tone category. Tones are ordered by tone categories along the x- and y-axis. Origin at top left corner (i.e., on both axis data points are ordered by 480 instances of tone 1, tone 2, tone 3, and tone 4 when moving away from origin).\n\nQuestion: Is the color of the data points in the right panel of the figure predominantly blue?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

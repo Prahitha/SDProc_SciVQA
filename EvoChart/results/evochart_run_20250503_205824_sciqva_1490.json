@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "54c52399fb83a68238be7a3152db1a6b",
+        "question": "What line represents 'Dropout-Acc(ex)'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison of probability- and dropoutbased error detection.\n\nQuestion: What line represents 'Dropout-Acc(ex)'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'blue line with circles'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "303cc84dc17dac669df03e01976f2858",
+        "question": "Which of the following datasets are used in the experiment?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison of probability- and dropoutbased error detection.\n\nQuestion: Which of the following datasets are used in the experiment?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Yahoo'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "40532a1a99d55508014be3e692a0c49a",
+        "question": "What are the hyperparameters of the models used in the study?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "4df87495ae8fc9fa1ecdf3c7f2dc81f8",
+        "question": "What is the approximate value of the black line at the 10th epoch of the bottom graph?",
+        "answer_pred": "0.22",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 1: The evolution of the MPE phone accuracy criterion on the training and validation (dev.sub) sets (top 2 graphs). Also (lower graph) WER with MPE LM on dev.sub as training proceeds (200 hr).\n\nQuestion: What is the approximate value of the black line at the 10th epoch of the bottom graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "0a0749c9f6136a1f3bdf9a5f864f31e0",
+        "question": "What is the maximum number of epochs shown in the figure?",
+        "answer_pred": "200",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 1: The evolution of the MPE phone accuracy criterion on the training and validation (dev.sub) sets (top 2 graphs). Also (lower graph) WER with MPE LM on dev.sub as training proceeds (200 hr).\n\nQuestion: What is the maximum number of epochs shown in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "e4f17e9c6e5153ace7dce9cba182cca5",
+        "question": "Is the value of the red line at 15 epochs on the top graph higher than the value of the blue line at 15 epochs?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 1: The evolution of the MPE phone accuracy criterion on the training and validation (dev.sub) sets (top 2 graphs). Also (lower graph) WER with MPE LM on dev.sub as training proceeds (200 hr).\n\nQuestion: Is the value of the red line at 15 epochs on the top graph higher than the value of the blue line at 15 epochs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "9dd0ac825ed83dcf9b4f021e2a6b6bf0",
+        "question": "Does the WER value decrease as the training proceeds?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 1: The evolution of the MPE phone accuracy criterion on the training and validation (dev.sub) sets (top 2 graphs). Also (lower graph) WER with MPE LM on dev.sub as training proceeds (200 hr).\n\nQuestion: Does the WER value decrease as the training proceeds?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "104606dcee8fa7adba5af8dd5209414d",
+        "question": "Which line is the lowest at the 15th epoch in the middle graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 1: The evolution of the MPE phone accuracy criterion on the training and validation (dev.sub) sets (top 2 graphs). Also (lower graph) WER with MPE LM on dev.sub as training proceeds (200 hr).\n\nQuestion: Which line is the lowest at the 15th epoch in the middle graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Pink'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "329032a217204ce9fccb939dfada60f7",
+        "question": "Which of the following methods are analyzed in this figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 1: The evolution of the MPE phone accuracy criterion on the training and validation (dev.sub) sets (top 2 graphs). Also (lower graph) WER with MPE LM on dev.sub as training proceeds (200 hr).\n\nQuestion: Which of the following methods are analyzed in this figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'DSAG-HF'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "638128ef6159d83b43f4def21ee27c5b",
+        "question": "What is the exact average phone accuracy of the HF method on the dev.sub set after 10 epochs?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

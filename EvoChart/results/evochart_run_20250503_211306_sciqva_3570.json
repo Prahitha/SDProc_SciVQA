@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "050f416989efd000f298e446026fa0ea",
+        "question": "How many models are used to compare AUC and Logloss based on number of neurons?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: AUC and Logloss comparison of number of neurons.\n\nQuestion: How many models are used to compare AUC and Logloss based on number of neurons?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '4'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "4b716a82bb3857b971134d27cb71bed9",
+        "question": "What was the task being evaluated in figure 9 and what was the dataset being used?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "c1c6a5ce64104cba732f7055d50b1359",
+        "question": "What is the value of the green line at a source membership of 1?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 4-9. Operator \u201cvery\u201d\n\nQuestion: What is the value of the green line at a source membership of 1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "88ef83046baa4b37692106302d1e7113",
+        "question": "What are the symbols for the variables representing the source and target memberships?",
+        "answer_pred": "(A) 1 and 2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 4-9. Operator \u201cvery\u201d\n\nQuestion: What are the symbols for the variables representing the source and target memberships?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "e71ae29343a172cbfbc33f1c05648cc5",
+        "question": "Does the green line on the graph start at a point where the source membership is 0 and the target membership is also 0?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 4-9. Operator \u201cvery\u201d\n\nQuestion: Does the green line on the graph start at a point where the source membership is 0 and the target membership is also 0?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "2199a0ca7313601ef02cf81012f1ab48",
+        "question": "Does the target membership value increase with the increase in source membership value?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 4-9. Operator \u201cvery\u201d\n\nQuestion: Does the target membership value increase with the increase in source membership value?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "466b1ec6acf125fb4a1e0da1c57ae61b",
+        "question": "The function represented by the green line is",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 4-9. Operator \u201cvery\u201d\n\nQuestion: The function represented by the green line is\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "b473886f9900a6c6220ad2c88be44acc",
+        "question": "Which axes are graded at 0.1 intervals?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 4-9. Operator \u201cvery\u201d\n\nQuestion: Which axes are graded at 0.1 intervals?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "72589335911d805399dec0faebd80014",
+        "question": "What is the exact mathematical equation describing the relationship between the source membership and target membership in Figure 4-9?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "5524f7dd5035dfe73c788159c2d0165f",
+        "question": "What is the approximate BLEU score of the green line for sentences with lengths between 10 and 20 words?",
+        "answer_pred": "29.3",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The BLEU scores of various systems with respect to the reference sentence lengths on WMT\u201914 EN-DE testset.\n\nQuestion: What is the approximate BLEU score of the green line for sentences with lengths between 10 and 20 words?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

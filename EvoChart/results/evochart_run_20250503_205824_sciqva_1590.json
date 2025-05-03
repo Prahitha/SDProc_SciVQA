@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "d6f993020aa5e3daefbba3cd35abf628",
+        "question": "What is the architecture of the model used in the study?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "4f1d03c09de7426a3e3c29ab5cc9ce02",
+        "question": "At what x-axis value do all the lines intersect in the left graph?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIG. 4. Zipf plots. Frequency of observed symbols, in decreasing order. (a) WCFG (b) PCFG. In both cases N = 40, and labels are as in Fig. 3a.\n\nQuestion: At what x-axis value do all the lines intersect in the left graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "14be4895d15dbe18736c809c7ac95b5b",
+        "question": "What is the maximum value shown on the y-axis in both graphs?",
+        "answer_pred": "120",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIG. 4. Zipf plots. Frequency of observed symbols, in decreasing order. (a) WCFG (b) PCFG. In both cases N = 40, and labels are as in Fig. 3a.\n\nQuestion: What is the maximum value shown on the y-axis in both graphs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "de0e4c341fa4ee962c9efcd515254edb",
+        "question": "Are there more than two lines present in the figure labeled (a)?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIG. 4. Zipf plots. Frequency of observed symbols, in decreasing order. (a) WCFG (b) PCFG. In both cases N = 40, and labels are as in Fig. 3a.\n\nQuestion: Are there more than two lines present in the figure labeled (a)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8b84cb85d9a170d4a70e9a51f96a255e",
+        "question": "Does the pdf value increase as the rank increases?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIG. 4. Zipf plots. Frequency of observed symbols, in decreasing order. (a) WCFG (b) PCFG. In both cases N = 40, and labels are as in Fig. 3a.\n\nQuestion: Does the pdf value increase as the rank increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "49efa22c5ea1c43768077ebbe7e585bf",
+        "question": "Which of the lines has the lowest pdf value at x = 0.8?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIG. 4. Zipf plots. Frequency of observed symbols, in decreasing order. (a) WCFG (b) PCFG. In both cases N = 40, and labels are as in Fig. 3a.\n\nQuestion: Which of the lines has the lowest pdf value at x = 0.8?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Red'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "a7b3e83c9ecd0b910c7ac577285c9fec",
+        "question": "What is the maximum 'rank(o)/T' value shown on both graphs?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIG. 4. Zipf plots. Frequency of observed symbols, in decreasing order. (a) WCFG (b) PCFG. In both cases N = 40, and labels are as in Fig. 3a.\n\nQuestion: What is the maximum 'rank(o)/T' value shown on both graphs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '3'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "30f968be02f6326605e479484cda21c4",
+        "question": "What research question from the study is the graph addressing?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "840fff2759c7f9202e6378b0f45661b8",
+        "question": "What is the approximate value of the green dashed line in the plot labelled (a)?",
+        "answer_pred": "0.22",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4. 4a and 4b plot CER and serving latency respectively on a dev-set as a function of lookahead, and the number of LCBGRU layers. The models are trained on a sampled subset (10 %) of the complete training data. The green and blue baselines are the performance of models where all the 3 GRU layers are bidirectional and forward-only correspondingly.\n\nQuestion: What is the approximate value of the green dashed line in the plot labelled (a)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f24282d402daaddfc83bdabd55bc7a60",
+        "question": "In plot (a), what is the percentage of CER for the 2xLC-BGRU model with a lookahead of 5 timesteps?",
+        "answer_pred": "0.22",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4. 4a and 4b plot CER and serving latency respectively on a dev-set as a function of lookahead, and the number of LCBGRU layers. The models are trained on a sampled subset (10 %) of the complete training data. The green and blue baselines are the performance of models where all the 3 GRU layers are bidirectional and forward-only correspondingly.\n\nQuestion: In plot (a), what is the percentage of CER for the 2xLC-BGRU model with a lookahead of 5 timesteps?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

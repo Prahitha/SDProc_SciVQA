@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "e169b9fa5f13e41961e2084219c651ef",
+        "question": "Which of the following discharge summary types are mentioned studied?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Performance comparison for discharge summaries of different lengths in readmission prediction. Selecting valuable information is most useful for the fourth quartile, the longest discharge summaries.\n\nQuestion: Which of the following discharge summary types are mentioned studied?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'shortest'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "deefd12391429c014c741b6bb0e1c35c",
+        "question": "What is the exact performance of the 'longest' approach for the second quartile of the data?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "cf011f6f7875d4786039172033046067",
+        "question": "What is approximately the highest ROUGE-2 F-1 score achieved by the orange line?",
+        "answer_pred": "0.81",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: ROUGE-2 F-1 scores for different slack amounts using TITLE+FILTER (T itleDrivenReduction then score_ilp) and TITLE (only score_ilp) on TITLE02 dataset.\n\nQuestion: What is approximately the highest ROUGE-2 F-1 score achieved by the orange line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "65ad5ab3aeb2d4f5497049a57eeca10c",
+        "question": "What are the two algorithms used in the experiment?",
+        "answer_pred": "[TITLE, TITLE+FILTER]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: ROUGE-2 F-1 scores for different slack amounts using TITLE+FILTER (T itleDrivenReduction then score_ilp) and TITLE (only score_ilp) on TITLE02 dataset.\n\nQuestion: What are the two algorithms used in the experiment?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "bd87be14476d17f1c1aafbda9e39cb93",
+        "question": "Is the blue line consistently higher than the orange line for all slack amounts?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: ROUGE-2 F-1 scores for different slack amounts using TITLE+FILTER (T itleDrivenReduction then score_ilp) and TITLE (only score_ilp) on TITLE02 dataset.\n\nQuestion: Is the blue line consistently higher than the orange line for all slack amounts?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d6dce87f9179da2f0a2684acb80a7ac0",
+        "question": "Does the ROUGE-2 F-1 score for TITLE+FILTER consistently exceed the score for TITLE for all slack amounts on the TITLE02 dataset?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: ROUGE-2 F-1 scores for different slack amounts using TITLE+FILTER (T itleDrivenReduction then score_ilp) and TITLE (only score_ilp) on TITLE02 dataset.\n\nQuestion: Does the ROUGE-2 F-1 score for TITLE+FILTER consistently exceed the score for TITLE for all slack amounts on the TITLE02 dataset?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "33c52ddce67b809a5336225ee804c581",
+        "question": "Which lines on the graph never achieve a ROUGE-2 F-1 score higher than 0.2290",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: ROUGE-2 F-1 scores for different slack amounts using TITLE+FILTER (T itleDrivenReduction then score_ilp) and TITLE (only score_ilp) on TITLE02 dataset.\n\nQuestion: Which lines on the graph never achieve a ROUGE-2 F-1 score higher than 0.2290\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The line that is orange'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "cd14b3e8ce3705536a4f26e4dee75d04",
+        "question": "Which algorithm has a consistently higher ROUGE-2 F-1 score across different slack amounts?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: ROUGE-2 F-1 scores for different slack amounts using TITLE+FILTER (T itleDrivenReduction then score_ilp) and TITLE (only score_ilp) on TITLE02 dataset.\n\nQuestion: Which algorithm has a consistently higher ROUGE-2 F-1 score across different slack amounts?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither algorithm has a consistently higher score.'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "89a4debc892d2089f79ddcdc0386c27d",
+        "question": "What is the specific implementation of the TITLE+FILTER method used in the experiment depicted in Figure 9?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "bb661e714ef439e2bbba10f51649c1cb",
+        "question": "What is the value of the blue cross at k=10 in the rightmost plot?",
+        "answer_pred": "0.012",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Answer selection evaluations of HMN-Sent, HMN-Word and HMN-Joint with different wordlevel memory encoding methods (BiGRU, GRU and Embedding) using various values ofk on Total.\n\nQuestion: What is the value of the blue cross at k=10 in the rightmost plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

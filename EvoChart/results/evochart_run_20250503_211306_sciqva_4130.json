@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "d3db541b1882157217b902423ea6b153",
+        "question": "Which of the following languages does the system support?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Block diagram of a UPR-LM LID system\n\nQuestion: Which of the following languages does the system support?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "00477248e3863e9ba4de71f3993d9338",
+        "question": "What is the specific type of UPR used in this system?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "dc03fee90e4aab41d43b50fd8074141b",
+        "question": "What is the label of the cylinder placed below 'Confusing Characteristic Extraction'?",
+        "answer_pred": "Confusing Characteristic Extraction",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 1. Overall scheme for developing the HMM-based recognition models using modified SAMPA-C\n\nQuestion: What is the label of the cylinder placed below 'Confusing Characteristic Extraction'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f397d79d1939066674d1c9660494976b",
+        "question": "What is the output of the 'Confusing Characteristics Table' input into?",
+        "answer_pred": "S",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 1. Overall scheme for developing the HMM-based recognition models using modified SAMPA-C\n\nQuestion: What is the output of the 'Confusing Characteristics Table' input into?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "2b0adc338cf41dc117a59333c743cf34",
+        "question": "Is the Modified SAMPA-C positioned below the Phonetic Representation Generation?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 1. Overall scheme for developing the HMM-based recognition models using modified SAMPA-C\n\nQuestion: Is the Modified SAMPA-C positioned below the Phonetic Representation Generation?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "6ab19dddc251cb1a19be0ae9c181d22c",
+        "question": "Do the 'Splitting Criteria' belong to the development process?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 1. Overall scheme for developing the HMM-based recognition models using modified SAMPA-C\n\nQuestion: Do the 'Splitting Criteria' belong to the development process?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "75c3f65e20adc3f99c9278d6215c37c9",
+        "question": "What is written in the cylinder in the bottom right corner of the dashed box on the left labeled development process?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 1. Overall scheme for developing the HMM-based recognition models using modified SAMPA-C\n\nQuestion: What is written in the cylinder in the bottom right corner of the dashed box on the left labeled development process?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'HMM-based Recognition Models'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "dd612caf89ff408783bb33c9c868a05e",
+        "question": "Where does the output of the 'HMM-based recognition models' get passed on to in the diagram?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 1. Overall scheme for developing the HMM-based recognition models using modified SAMPA-C\n\nQuestion: Where does the output of the 'HMM-based recognition models' get passed on to in the diagram?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Modified SAMPA-C'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "b41fdb2ffbe903fb03f1e623add27e50",
+        "question": "What is the specific algorithm used for the 'Context-dependent Model Generation Using Decision Tree' step in the HMM-based recognition model development scheme?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "2afee9bddc3a10d65884ed01043410a7",
+        "question": "What is the value to the left of the top green plus sign in the rightmost section labeled 'D'?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The main editor window, showing a story with start node A. The node B is selected, and so its details appear in the inspector on the right. Note that its display name is distinct from the richer game text (C). The results of using the Node Tester on the potential input battle the beast are shown in (D). They demonstrate that this utterance would cause a transition to node E, an AutoAdvance node that would immediately transition to one of two end states depending on the players previous choices.\n\nQuestion: What is the value to the left of the top green plus sign in the rightmost section labeled 'D'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "ef59f000a145d6022b90af76bb01760f",
+        "question": "Is the value of x6 greater than the value of x47?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: CART tree for the identification of authors\n\nQuestion: Is the value of x6 greater than the value of x47?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "5bb33c4511acfb98e1b54a75b2903b08",
+        "question": "Which feature is used at the top node of the decision tree?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: CART tree for the identification of authors\n\nQuestion: Which feature is used at the top node of the decision tree?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'x44'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "3f92063643ed6efa79de0dd6b13af7a9",
+        "question": "Which of the following variables are used in the CART tree for the identification of authors?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: CART tree for the identification of authors\n\nQuestion: Which of the following variables are used in the CART tree for the identification of authors?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'x45'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8588fc59a158ac0db7ebaf39b9d17f64",
+        "question": "What are the names of the authors corresponding to the 'zzq' terminal node in the CART tree?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "90492c96039dd049126592039743681d",
+        "question": "what is the colour of the arrow connecting zab\u00edt and po\u0161kodit?",
+        "answer_pred": "orange",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Annotation of discourse relations in PDiT 2.0. The relations are represented by two orange arrows connecting roots of the arguments. Information about the discourse types and connectives is given at the starting node of the relations.\n\nQuestion: what is the colour of the arrow connecting zab\u00edt and po\u0161kodit?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "70b4f3b58a1c4af4f93eddbc759cea34",
+        "question": "What are the types of discourse relations shown in the figure?",
+        "answer_pred": "[CONTENTION]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Annotation of discourse relations in PDiT 2.0. The relations are represented by two orange arrows connecting roots of the arguments. Information about the discourse types and connectives is given at the starting node of the relations.\n\nQuestion: What are the types of discourse relations shown in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "0dc73c79011d56c8366bf98fd60f98d7",
+        "question": "Is there a blue arrow pointing towards a node labeled \"zdrav\u00ed\"?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Annotation of discourse relations in PDiT 2.0. The relations are represented by two orange arrows connecting roots of the arguments. Information about the discourse types and connectives is given at the starting node of the relations.\n\nQuestion: Is there a blue arrow pointing towards a node labeled \"zdrav\u00ed\"?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "c0189f06a191a7bd6f3b43d761daf994",
+        "question": "Are the discourse relations in Figure 1 represented by arrows?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Annotation of discourse relations in PDiT 2.0. The relations are represented by two orange arrows connecting roots of the arguments. Information about the discourse types and connectives is given at the starting node of the relations.\n\nQuestion: Are the discourse relations in Figure 1 represented by arrows?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "44544059d98fd160e1f45b2e5b409ead",
+        "question": "Which word is represented in the top left corner of the graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Annotation of discourse relations in PDiT 2.0. The relations are represented by two orange arrows connecting roots of the arguments. Information about the discourse types and connectives is given at the starting node of the relations.\n\nQuestion: Which word is represented in the top left corner of the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'zdrav\u00ed'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "0718db4b69dafd36dc3415efcf7fb066",
+        "question": "What is the label of the word 'dokonce'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Annotation of discourse relations in PDiT 2.0. The relations are represented by two orange arrows connecting roots of the arguments. Information about the discourse types and connectives is given at the starting node of the relations.\n\nQuestion: What is the label of the word 'dokonce'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'RSTR'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

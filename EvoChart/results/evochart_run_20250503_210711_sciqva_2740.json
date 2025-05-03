@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "bc8bdaf09cac1d2805c36b974b7db797",
+        "question": "How many languages is the system able to process?",
+        "answer_pred": "12",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Overview of Sta n z a s neural NLP pipeline. Sta n z a takes multilingual text as input, and produces annotations accessible as native Python objects. Besides this neural pipeline, Sta n z a also features a Python client interface to the Java CoreNLP software.\n\nQuestion: How many languages is the system able to process?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "aa2af677e41fcb4af5d5badfa17901fa",
+        "question": "Is the 'Named Entity Recognition' processor positioned above the 'POS & Morphological Tagging' processor?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Overview of Sta n z a s neural NLP pipeline. Sta n z a takes multilingual text as input, and produces annotations accessible as native Python objects. Besides this neural pipeline, Sta n z a also features a Python client interface to the Java CoreNLP software.\n\nQuestion: Is the 'Named Entity Recognition' processor positioned above the 'POS & Morphological Tagging' processor?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "4ffb41df23a861010f6129fb14b4e42c",
+        "question": "Does the system lemmatize the raw text?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Overview of Sta n z a s neural NLP pipeline. Sta n z a takes multilingual text as input, and produces annotations accessible as native Python objects. Besides this neural pipeline, Sta n z a also features a Python client interface to the Java CoreNLP software.\n\nQuestion: Does the system lemmatize the raw text?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "bedd4ce2cb205e7d1957f351358b511e",
+        "question": "What is the box directly below tokenization?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Overview of Sta n z a s neural NLP pipeline. Sta n z a takes multilingual text as input, and produces annotations accessible as native Python objects. Besides this neural pipeline, Sta n z a also features a Python client interface to the Java CoreNLP software.\n\nQuestion: What is the box directly below tokenization?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'NER'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "f9229c9bd290134659f8db7308b8f87c",
+        "question": "Which of the following are the outputs of the Sta n z a neural NLP pipeline?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Overview of Sta n z a s neural NLP pipeline. Sta n z a takes multilingual text as input, and produces annotations accessible as native Python objects. Besides this neural pipeline, Sta n z a also features a Python client interface to the Java CoreNLP software.\n\nQuestion: Which of the following are the outputs of the Sta n z a neural NLP pipeline?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Annotations accessible as native Python objects'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "d6f15315dcf856a4ac5379d24f2675d2",
+        "question": "What is the processing time for the Sta n z a neural NLP pipeline when applied to a text corpus of 1 million words?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "d3abd7cb85fa8874d86054ab156e418b",
+        "question": "What is the approximate median value of the leftmost box?",
+        "answer_pred": "0.04",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Figure of box plots for different inference iterations i and m = 1000, T = 100,  = 50/T ,  = 0.1, r = 1 .\n\nQuestion: What is the approximate median value of the leftmost box?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "8e2828336838c37bf43b502658357de8",
+        "question": "What is the minimum number of inference iteration shown in the graph?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Figure of box plots for different inference iterations i and m = 1000, T = 100,  = 50/T ,  = 0.1, r = 1 .\n\nQuestion: What is the minimum number of inference iteration shown in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "ab30a6600d63efcab4704974f0b9e2bf",
+        "question": "Is the median value of the rightmost box higher than 0.004?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Figure of box plots for different inference iterations i and m = 1000, T = 100,  = 50/T ,  = 0.1, r = 1 .\n\nQuestion: Is the median value of the rightmost box higher than 0.004?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "51d282d10bc2eea54ebcbf12cf7a7915",
+        "question": "Do the box plots show a general increasing trend in P_k value as the number of inference iterations increases from 2 to 100?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Figure of box plots for different inference iterations i and m = 1000, T = 100,  = 50/T ,  = 0.1, r = 1 .\n\nQuestion: Do the box plots show a general increasing trend in P_k value as the number of inference iterations increases from 2 to 100?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

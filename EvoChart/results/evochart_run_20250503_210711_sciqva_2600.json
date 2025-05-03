@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "c6d7a768f89b7862c7013efc3739a688",
+        "question": "Over how many years do the events span?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Total Phoenix Events Over Time\n\nQuestion: Over how many years do the events span?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "95f7507e1a196e7aa90f9564407a8752",
+        "question": "Does the red line reach 0 in the month of August 2016?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Total Phoenix Events Over Time\n\nQuestion: Does the red line reach 0 in the month of August 2016?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "056d3f514000e88dce64a3fbfeb96465",
+        "question": "Did the number of Phoenix events decrease to zero at some point during the timeframe displayed?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Total Phoenix Events Over Time\n\nQuestion: Did the number of Phoenix events decrease to zero at some point during the timeframe displayed?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "1b974aafc75cea42cbed021f4cda0924",
+        "question": "Where in the image is the highest peak located?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Total Phoenix Events Over Time\n\nQuestion: Where in the image is the highest peak located?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "4280446392c0352ed43b486a4a8dc93e",
+        "question": "What is the highest number of events?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Total Phoenix Events Over Time\n\nQuestion: What is the highest number of events?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '3000'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "4e5d572d09e2d55ef4a80669197e03b8",
+        "question": "What was the total number of events recorded in May 2014?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "9a07003bba733b795b9cdf068903ad02",
+        "question": "What is the label of the circle on the left side of the figure which has gray color?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Graphical model of oc,is correctness\n\nQuestion: What is the label of the circle on the left side of the figure which has gray color?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "031bebe0f08c8630ab9b4781eb5742ef",
+        "question": "On what does S depend?",
+        "answer_pred": "c",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Graphical model of oc,is correctness\n\nQuestion: On what does S depend?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "2aceaca0f356f43b601df4153016c9be",
+        "question": "Is the circle labeled '\u03c1c,i' shaded gray?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Graphical model of oc,is correctness\n\nQuestion: Is the circle labeled '\u03c1c,i' shaded gray?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "f789219b9faff478f274c85a91813e5b",
+        "question": "Is there a variable called 'oc,is correctness' depicted in the model?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Graphical model of oc,is correctness\n\nQuestion: Is there a variable called 'oc,is correctness' depicted in the model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

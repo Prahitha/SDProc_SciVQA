@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "80d43bdef0bc82fa617f8f7a899e85a9",
+        "question": "Which line has the lowest value at training epoch 15?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The number of uncoordinated slots of our joint model (One Pass), joint model with CRF (One Pass+CRF) and SlotRefine (Two Pass) during training.\n\nQuestion: Which line has the lowest value at training epoch 15?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'red line with triangles'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "c1f408e120b5b8bb41a1cb6215c02b9f",
+        "question": "Which model, if any, has the highest number of uncoordinated slots after 5 training epochs?",
+        "answer_pred": "One",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The number of uncoordinated slots of our joint model (One Pass), joint model with CRF (One Pass+CRF) and SlotRefine (Two Pass) during training.\n\nQuestion: Which model, if any, has the highest number of uncoordinated slots after 5 training epochs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "bbf26fdcaefb8054d729666c8541bc29",
+        "question": "What is the exact number of uncoordinated slots for the One Pass model after 25 training epochs?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "84127a51d4d449a9c2cbb365c7e261fd",
+        "question": "What is the time required for the blue line of the RNTN model to reach 93% accuracy?",
+        "answer_pred": "12.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Validation accuracy for the binary sentiment classification task with (a) TreeRNN, (b) RNTN, and (c) TreeLSTM models. Results are shown for training each model with the recursive and iterative implementations, using the Large Movie Review dataset. The time to reach 93% accuracy for each setup is also plotted, showing that the recursive implementation converges faster for all models.\n\nQuestion: What is the time required for the blue line of the RNTN model to reach 93% accuracy?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "065ebea78b943214fde360be435747c1",
+        "question": "Which model achieves 93% accuracy at the shortest time?",
+        "answer_pred": "TreeRNN",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Validation accuracy for the binary sentiment classification task with (a) TreeRNN, (b) RNTN, and (c) TreeLSTM models. Results are shown for training each model with the recursive and iterative implementations, using the Large Movie Review dataset. The time to reach 93% accuracy for each setup is also plotted, showing that the recursive implementation converges faster for all models.\n\nQuestion: Which model achieves 93% accuracy at the shortest time?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "3db5a9663c75e31f33ca8c9c653315ef",
+        "question": "In the middle plot, does the red line representing the 'Recursive' implementation reach the 93% accuracy level before the blue line representing the 'Iterative' implementation?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Validation accuracy for the binary sentiment classification task with (a) TreeRNN, (b) RNTN, and (c) TreeLSTM models. Results are shown for training each model with the recursive and iterative implementations, using the Large Movie Review dataset. The time to reach 93% accuracy for each setup is also plotted, showing that the recursive implementation converges faster for all models.\n\nQuestion: In the middle plot, does the red line representing the 'Recursive' implementation reach the 93% accuracy level before the blue line representing the 'Iterative' implementation?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "01c50484c3a83bc03b9a777cce035046",
+        "question": "Does the recursive implementation always converge faster to 93% accuracy compared to the iterative implementation?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Validation accuracy for the binary sentiment classification task with (a) TreeRNN, (b) RNTN, and (c) TreeLSTM models. Results are shown for training each model with the recursive and iterative implementations, using the Large Movie Review dataset. The time to reach 93% accuracy for each setup is also plotted, showing that the recursive implementation converges faster for all models.\n\nQuestion: Does the recursive implementation always converge faster to 93% accuracy compared to the iterative implementation?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8b47b51c618315b07db69c2671be8ead",
+        "question": "Which of the following models converge faster to 93% accuracy for the red curve?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Validation accuracy for the binary sentiment classification task with (a) TreeRNN, (b) RNTN, and (c) TreeLSTM models. Results are shown for training each model with the recursive and iterative implementations, using the Large Movie Review dataset. The time to reach 93% accuracy for each setup is also plotted, showing that the recursive implementation converges faster for all models.\n\nQuestion: Which of the following models converge faster to 93% accuracy for the red curve?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "ee1e16781ee530b20d5cc0cf94a8e6f2",
+        "question": "Which model converges at the highest time?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Validation accuracy for the binary sentiment classification task with (a) TreeRNN, (b) RNTN, and (c) TreeLSTM models. Results are shown for training each model with the recursive and iterative implementations, using the Large Movie Review dataset. The time to reach 93% accuracy for each setup is also plotted, showing that the recursive implementation converges faster for all models.\n\nQuestion: Which model converges at the highest time?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "38f2c05873b906aa94b3b4e41f33d19c",
+        "question": "What is the specific hardware used in the training of these models?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

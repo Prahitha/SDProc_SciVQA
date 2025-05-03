@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "29f9f56a6503f13a357b413576400cba",
+        "question": "Is the blue curve in the graph labeled 'Year-wise Average Speed of Songs' always above the red curve in the year 2000?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison of Length, Duration, and Speed of songs\n\nQuestion: Is the blue curve in the graph labeled 'Year-wise Average Speed of Songs' always above the red curve in the year 2000?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "eb7112837e0c2b431500264e93b204c7",
+        "question": "Is the average speed of songs in 2010 for BB higher than in 1990?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison of Length, Duration, and Speed of songs\n\nQuestion: Is the average speed of songs in 2010 for BB higher than in 1990?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "2a5d546f8279d40f29addada68c0ccda",
+        "question": "Which of the following has the highest value for the blue dot?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison of Length, Duration, and Speed of songs\n\nQuestion: Which of the following has the highest value for the blue dot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "9ec982b92c42e7721a2aaed642635545",
+        "question": "Which of the following has the highest value in plot (a)?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison of Length, Duration, and Speed of songs\n\nQuestion: Which of the following has the highest value in plot (a)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "b02556e290793f6e47b5a42706d72283",
+        "question": "What is the specific research question being addressed in this figure?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "2ee056bd0b8c6a9f0f3fb668aa5cfefa",
+        "question": "What is the percentage of entries without annotation for the blue points in 1990?",
+        "answer_pred": "19.2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 6. Entries without annotation. (A) Number of entries in TrEMBL and Swiss-Prot without any annotation, and (B) the percentage of entries without any annotation\n\nQuestion: What is the percentage of entries without annotation for the blue points in 1990?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "bc2e784e3f0e1bcaeb93e98bd9082ae3",
+        "question": "What is the highest number of entries recorded for TrEMBL?",
+        "answer_pred": "11",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 6. Entries without annotation. (A) Number of entries in TrEMBL and Swiss-Prot without any annotation, and (B) the percentage of entries without any annotation\n\nQuestion: What is the highest number of entries recorded for TrEMBL?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "6889ae2c79893ed1d909ecda16f50b36",
+        "question": "Are the blue circles in the right plot consistently increasing in value over time?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 6. Entries without annotation. (A) Number of entries in TrEMBL and Swiss-Prot without any annotation, and (B) the percentage of entries without any annotation\n\nQuestion: Are the blue circles in the right plot consistently increasing in value over time?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "cfe211c079f8531f71a2916999914b36",
+        "question": "Is the number of entries without annotation consistently higher in TrEMBL compared to Swiss-Prot?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 6. Entries without annotation. (A) Number of entries in TrEMBL and Swiss-Prot without any annotation, and (B) the percentage of entries without any annotation\n\nQuestion: Is the number of entries without annotation consistently higher in TrEMBL compared to Swiss-Prot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "5ef4e730e71dcd2b486a17d4fa6341d2",
+        "question": "Which of the following reach a percentage value more than 20 in the right plot?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 6. Entries without annotation. (A) Number of entries in TrEMBL and Swiss-Prot without any annotation, and (B) the percentage of entries without any annotation\n\nQuestion: Which of the following reach a percentage value more than 20 in the right plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

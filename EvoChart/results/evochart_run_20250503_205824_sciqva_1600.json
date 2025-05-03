@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "5c3beee8229afb93a8588d3e724fff2f",
+        "question": "In the left plot, is the pink line consistently lower than the black line?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4. 4a and 4b plot CER and serving latency respectively on a dev-set as a function of lookahead, and the number of LCBGRU layers. The models are trained on a sampled subset (10 %) of the complete training data. The green and blue baselines are the performance of models where all the 3 GRU layers are bidirectional and forward-only correspondingly.\n\nQuestion: In the left plot, is the pink line consistently lower than the black line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8a26047885478b330c2792b3d1c29a8b",
+        "question": "Is the CER performance of the bidirectional model consistently lower than the CER performance of the forward model with LA-conv?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4. 4a and 4b plot CER and serving latency respectively on a dev-set as a function of lookahead, and the number of LCBGRU layers. The models are trained on a sampled subset (10 %) of the complete training data. The green and blue baselines are the performance of models where all the 3 GRU layers are bidirectional and forward-only correspondingly.\n\nQuestion: Is the CER performance of the bidirectional model consistently lower than the CER performance of the forward model with LA-conv?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "f70d5fb7ab3b94960396a6bd6d5a9517",
+        "question": "Which line represents the LCBGRU model with the highest serving latency at 25 lookahead timesteps?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4. 4a and 4b plot CER and serving latency respectively on a dev-set as a function of lookahead, and the number of LCBGRU layers. The models are trained on a sampled subset (10 %) of the complete training data. The green and blue baselines are the performance of models where all the 3 GRU layers are bidirectional and forward-only correspondingly.\n\nQuestion: Which line represents the LCBGRU model with the highest serving latency at 25 lookahead timesteps?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'They all have the same performance'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "ce884bc8993711d1e57f32d35b83dbe4",
+        "question": "What are the numbers of LCBGRU layers used in the models?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4. 4a and 4b plot CER and serving latency respectively on a dev-set as a function of lookahead, and the number of LCBGRU layers. The models are trained on a sampled subset (10 %) of the complete training data. The green and blue baselines are the performance of models where all the 3 GRU layers are bidirectional and forward-only correspondingly.\n\nQuestion: What are the numbers of LCBGRU layers used in the models?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '2, 6, 7'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "bc551e240fdc879ca8410a42ee8fea94",
+        "question": "What was the size of the dataset used in the experiment?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "e83e8db26ff934ab8d27cdf792247860",
+        "question": "In the left plot, what is the approximate SARI score of the green line when the number of training examples is 450,000?",
+        "answer_pred": "89.5",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: SARI score as a function of the training-data size for three models. Unless we have tens of thousands of training examples, the tagging approach clearly outperforms the seq2seq baseline.\n\nQuestion: In the left plot, what is the approximate SARI score of the green line when the number of training examples is 450,000?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "6e5be9580d7a3f65e1f0ee9871371ba1",
+        "question": "For which model does the SARI score increase the most when increasing the number of training examples?",
+        "answer_pred": "Laser",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: SARI score as a function of the training-data size for three models. Unless we have tens of thousands of training examples, the tagging approach clearly outperforms the seq2seq baseline.\n\nQuestion: For which model does the SARI score increase the most when increasing the number of training examples?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "79047639efc49a8ebc4564b2c7798a20",
+        "question": "Does the green line in the left plot reach a SARI score of 0.9 at 450,000 training examples?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: SARI score as a function of the training-data size for three models. Unless we have tens of thousands of training examples, the tagging approach clearly outperforms the seq2seq baseline.\n\nQuestion: Does the green line in the left plot reach a SARI score of 0.9 at 450,000 training examples?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "ff47e20777889eed005e472a28ffb9e5",
+        "question": "Does the LaserTaggerFF have the best performance for sentence fusion at 450 training examples?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: SARI score as a function of the training-data size for three models. Unless we have tens of thousands of training examples, the tagging approach clearly outperforms the seq2seq baseline.\n\nQuestion: Does the LaserTaggerFF have the best performance for sentence fusion at 450 training examples?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "2851021a3bbffb77810e7dd379fd69a7",
+        "question": "Which line represents the seq2seqBERT model in the left figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: SARI score as a function of the training-data size for three models. Unless we have tens of thousands of training examples, the tagging approach clearly outperforms the seq2seq baseline.\n\nQuestion: Which line represents the seq2seqBERT model in the left figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

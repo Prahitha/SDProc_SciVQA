@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "034037029bb61542cbff9e9c15e2bfc5",
+        "question": "What is the F1 score of the orange line after 120 epochs?",
+        "answer_pred": "0.78",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Classification performance (F1) versus the number of training epochs when training the model with less data. Series represent training the model with the entire training set, or randomly subsampled proportions of training data summing to 75%, 50%, and 25% of the original training set size. Each point represents the average of 5 randomly subsampled training sets.\n\nQuestion: What is the F1 score of the orange line after 120 epochs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "3deb593608599ad0584beae6c573900e",
+        "question": "What is the maximum number of training epochs represented in the figure?",
+        "answer_pred": "100",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Classification performance (F1) versus the number of training epochs when training the model with less data. Series represent training the model with the entire training set, or randomly subsampled proportions of training data summing to 75%, 50%, and 25% of the original training set size. Each point represents the average of 5 randomly subsampled training sets.\n\nQuestion: What is the maximum number of training epochs represented in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "deba8d5d62f99c6bba938a4f90aee1e2",
+        "question": "Does the green line reach the same height as the blue line?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Classification performance (F1) versus the number of training epochs when training the model with less data. Series represent training the model with the entire training set, or randomly subsampled proportions of training data summing to 75%, 50%, and 25% of the original training set size. Each point represents the average of 5 randomly subsampled training sets.\n\nQuestion: Does the green line reach the same height as the blue line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "1f13bce833b88d149e2ed4c71c726e4b",
+        "question": "Does the model trained with the entire training set have higher performance than the model trained with 50% of the training data?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Classification performance (F1) versus the number of training epochs when training the model with less data. Series represent training the model with the entire training set, or randomly subsampled proportions of training data summing to 75%, 50%, and 25% of the original training set size. Each point represents the average of 5 randomly subsampled training sets.\n\nQuestion: Does the model trained with the entire training set have higher performance than the model trained with 50% of the training data?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "fa347f63165800c57f69f5e1ba7c7840",
+        "question": "Which of the lines represents the model trained with 75% of the training data?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Classification performance (F1) versus the number of training epochs when training the model with less data. Series represent training the model with the entire training set, or randomly subsampled proportions of training data summing to 75%, 50%, and 25% of the original training set size. Each point represents the average of 5 randomly subsampled training sets.\n\nQuestion: Which of the lines represents the model trained with 75% of the training data?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The green line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "68b8a2fcbf43a6f89450587df87846a8",
+        "question": "How many different training set sizes were used to train the model?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Classification performance (F1) versus the number of training epochs when training the model with less data. Series represent training the model with the entire training set, or randomly subsampled proportions of training data summing to 75%, 50%, and 25% of the original training set size. Each point represents the average of 5 randomly subsampled training sets.\n\nQuestion: How many different training set sizes were used to train the model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '4'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "ffc09b1e87602e849b52f41436f0d56a",
+        "question": "What is the specific type of machine learning model used in this experiment?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "26aaa452a59b08b9ba7cedf3c66a94ce",
+        "question": "What is the RMSE value for the green dashed line when the \u03bbrel value is 0.005?",
+        "answer_pred": "1.0139",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 10. Predictive performance of MR3++ by varying hyperparameters. Left: varying \u03bbrel and \u03bbrev by fixing F = 10; RMSE is 1.0139 when both are zero; Percent of Training is 80%. Right: varying F by fixing \u03bbrel = 0.001 and \u03bbrev = 0.005. Dataset: Ciao.\n\nQuestion: What is the RMSE value for the green dashed line when the \u03bbrel value is 0.005?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f394bac051bf45d85b6a6cc2a2f23ecc",
+        "question": "What is the maximum \u03bbrev in figure 10?",
+        "answer_pred": "0.005",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 10. Predictive performance of MR3++ by varying hyperparameters. Left: varying \u03bbrel and \u03bbrev by fixing F = 10; RMSE is 1.0139 when both are zero; Percent of Training is 80%. Right: varying F by fixing \u03bbrel = 0.001 and \u03bbrev = 0.005. Dataset: Ciao.\n\nQuestion: What is the maximum \u03bbrev in figure 10?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "2dbd9db637279e80bf9634e65286df1f",
+        "question": "Is the black line in the left graph consistently higher than the purple line?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 10. Predictive performance of MR3++ by varying hyperparameters. Left: varying \u03bbrel and \u03bbrev by fixing F = 10; RMSE is 1.0139 when both are zero; Percent of Training is 80%. Right: varying F by fixing \u03bbrel = 0.001 and \u03bbrev = 0.005. Dataset: Ciao.\n\nQuestion: Is the black line in the left graph consistently higher than the purple line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

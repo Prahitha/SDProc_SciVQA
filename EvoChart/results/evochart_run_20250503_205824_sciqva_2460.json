@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "2ad7096171ab9729276151509c186305",
+        "question": "What is the highest percentage value reached by 'types covered'?",
+        "answer_pred": "80",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Percentage of types and sentences covered as a function of type frequency. The vast majority of types (80%) are rare (have less than 10 occurrences). At least one such type is present in a non-negligible part of the corpus (12% of the overall sentences). A significant portion of types (45%) appears just once throughout the corpus.\n\nQuestion: What is the highest percentage value reached by 'types covered'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "905ddc6682b8ecee521f59630215c050",
+        "question": "Is the red line always higher than the green line throughout the figure?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Percentage of types and sentences covered as a function of type frequency. The vast majority of types (80%) are rare (have less than 10 occurrences). At least one such type is present in a non-negligible part of the corpus (12% of the overall sentences). A significant portion of types (45%) appears just once throughout the corpus.\n\nQuestion: Is the red line always higher than the green line throughout the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "1fa1e1b73dc61f9e130ccd02555452bf",
+        "question": "Is the percentage of types covered greater than the percentage of sentences covered when the threshold type frequency is 10?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Percentage of types and sentences covered as a function of type frequency. The vast majority of types (80%) are rare (have less than 10 occurrences). At least one such type is present in a non-negligible part of the corpus (12% of the overall sentences). A significant portion of types (45%) appears just once throughout the corpus.\n\nQuestion: Is the percentage of types covered greater than the percentage of sentences covered when the threshold type frequency is 10?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "263e6abb308b36ed823b73b7d1cd7b54",
+        "question": "Which line represents the percentage of types covered?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Percentage of types and sentences covered as a function of type frequency. The vast majority of types (80%) are rare (have less than 10 occurrences). At least one such type is present in a non-negligible part of the corpus (12% of the overall sentences). A significant portion of types (45%) appears just once throughout the corpus.\n\nQuestion: Which line represents the percentage of types covered?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "ad3beab4813734e184e92e191c378285",
+        "question": "What is the label of the values presented in the x-axis?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Percentage of types and sentences covered as a function of type frequency. The vast majority of types (80%) are rare (have less than 10 occurrences). At least one such type is present in a non-negligible part of the corpus (12% of the overall sentences). A significant portion of types (45%) appears just once throughout the corpus.\n\nQuestion: What is the label of the values presented in the x-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "dd018693a45e3eb3200caafcb3cd286e",
+        "question": "What is the corpus used in this study, and how does it affect the results?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "76d71ac73dcdf96d328631642c25b5fe",
+        "question": "What is the approximate maximum y-value reached by the orange line representing the 2000x2 model?",
+        "answer_pred": "0.99",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIG. 4. Validation error curves for models that are too wide. The architecture is specified as n \u00d7 m, where m is the number of hidden layers and n the number of neurons per layer. [Color figure can be viewed at wileyonlinelibrary.com]\n\nQuestion: What is the approximate maximum y-value reached by the orange line representing the 2000x2 model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "360edeb915ece72b5200eaaa5ce1cf22",
+        "question": "What is the value in the x-axis when the '1000x1' reaches its peak?",
+        "answer_pred": "0.5",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIG. 4. Validation error curves for models that are too wide. The architecture is specified as n \u00d7 m, where m is the number of hidden layers and n the number of neurons per layer. [Color figure can be viewed at wileyonlinelibrary.com]\n\nQuestion: What is the value in the x-axis when the '1000x1' reaches its peak?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "a2ffdfae76a895e453b6f9be5ea9fcda",
+        "question": "Does the orange line in the graph reach a higher value on the y-axis than the purple line?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIG. 4. Validation error curves for models that are too wide. The architecture is specified as n \u00d7 m, where m is the number of hidden layers and n the number of neurons per layer. [Color figure can be viewed at wileyonlinelibrary.com]\n\nQuestion: Does the orange line in the graph reach a higher value on the y-axis than the purple line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "90151dce4d26cd29c667fc4fc17bbc50",
+        "question": "Is the maximum value presented in the x-axis 3000?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIG. 4. Validation error curves for models that are too wide. The architecture is specified as n \u00d7 m, where m is the number of hidden layers and n the number of neurons per layer. [Color figure can be viewed at wileyonlinelibrary.com]\n\nQuestion: Is the maximum value presented in the x-axis 3000?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

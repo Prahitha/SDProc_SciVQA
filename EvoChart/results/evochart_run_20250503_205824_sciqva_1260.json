@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "fb6f676cba81e3eab29e0f6883e91204",
+        "question": "In which of the following years is the number of entries in TrEMBL more than 2e+06?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 6. Entries without annotation. (A) Number of entries in TrEMBL and Swiss-Prot without any annotation, and (B) the percentage of entries without any annotation\n\nQuestion: In which of the following years is the number of entries in TrEMBL more than 2e+06?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '2010'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "745c2b385a67159a52e55471ac1445b2",
+        "question": "What is the total number of entries in TrEMBL and Swiss-Prot in 2003?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "7e241e16316498d6b164366aad379ffb",
+        "question": "What is the label of the topmost blue rectangle?",
+        "answer_pred": "[Continue here]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Our few-shot CRF framework for slot tagging.\n\nQuestion: What is the label of the topmost blue rectangle?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "543baa2d0e2c564eadfe4ecdf9d9b897",
+        "question": "What is the label for 'rain' in the few-shot CRF framework?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Our few-shot CRF framework for slot tagging.\n\nQuestion: What is the label for 'rain' in the few-shot CRF framework?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "e4e6b5aff3d78bae907e85b4779d17e7",
+        "question": "Is the word 'rain' labeled with the same tag color as the word 'snow'?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Our few-shot CRF framework for slot tagging.\n\nQuestion: Is the word 'rain' labeled with the same tag color as the word 'snow'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "7ae2561573f4dc5e3c88aa4c8e2d5caf",
+        "question": "Is there three different scores in the proposed CRF framework?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Our few-shot CRF framework for slot tagging.\n\nQuestion: Is there three different scores in the proposed CRF framework?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "fd465fe281eee4f69c2d6445380ca78c",
+        "question": "What is the label of the bottom-most yellow rectangle block?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Our few-shot CRF framework for slot tagging.\n\nQuestion: What is the label of the bottom-most yellow rectangle block?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "67cd1cf04afbe99df7f20966990c1212",
+        "question": "Which of the following labels corresponds to the word 'friday' according to figure 1?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Our few-shot CRF framework for slot tagging.\n\nQuestion: Which of the following labels corresponds to the word 'friday' according to figure 1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '[I-time]'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "e2815aa47e72a19417fc002608207e6a",
+        "question": "What is the name of the dataset used to train the CRF framework in Figure 1?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "bf64681b2bacc89434a84d1817f97f77",
+        "question": "What is the label of the bottom left rectangle block?",
+        "answer_pred": "LSTM",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Our model architecture with a bidirectional LSTM encoder, coarse-to-fine aligner, and decoder.\n\nQuestion: What is the label of the bottom left rectangle block?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

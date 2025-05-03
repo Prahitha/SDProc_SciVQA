@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "9bbb83ad5aabf6616b30122d68986775",
+        "question": "What percentage of the dataset is from the MELD source?",
+        "answer_pred": "29.1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Statistics : (a) Source across the dataset, (b) Overall speaker distribution.\n\nQuestion: What percentage of the dataset is from the MELD source?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "6ad289bd348f9726e9921fb704e9c30a",
+        "question": "Are the slices in the right pie ordered according to size?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Statistics : (a) Source across the dataset, (b) Overall speaker distribution.\n\nQuestion: Are the slices in the right pie ordered according to size?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "76823a7a27a743d17af785ba12b47a63",
+        "question": "Apart from the section labeled \"Others\", are there the same number of females and males specified in chart (b)?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Statistics : (a) Source across the dataset, (b) Overall speaker distribution.\n\nQuestion: Apart from the section labeled \"Others\", are there the same number of females and males specified in chart (b)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "c82b4b8bb70cfea2a83a4e4581a2c2e4",
+        "question": "Which side of the chart on the right does the \"others\" slice lie?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Statistics : (a) Source across the dataset, (b) Overall speaker distribution.\n\nQuestion: Which side of the chart on the right does the \"others\" slice lie?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Left'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "f62d053ce2fd3275ffc06f895f2a080b",
+        "question": "Which of the following speakers have the largest portions of the pie chart in Figure 3(b)?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Statistics : (a) Source across the dataset, (b) Overall speaker distribution.\n\nQuestion: Which of the following speakers have the largest portions of the pie chart in Figure 3(b)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Rachel and Phoebe'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "fd70c9648740485666f2433bc5cb3b43",
+        "question": "What is the total number of speakers in the dataset?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "af2938b49ad950bccfe12c1b46725442",
+        "question": "Where, relative to the pie chart, are the section name labels placed?",
+        "answer_pred": "inside",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Distribution of verbs in the VQA dataset (Antol et al., 2015a), to be versus other verbs.\n\nQuestion: Where, relative to the pie chart, are the section name labels placed?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "65522346ae55b307f06117beda93854c",
+        "question": "What percentage of verbs in the VQA dataset are 'to be' verbs?",
+        "answer_pred": "21.9",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Distribution of verbs in the VQA dataset (Antol et al., 2015a), to be versus other verbs.\n\nQuestion: What percentage of verbs in the VQA dataset are 'to be' verbs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "8133029746e5a2f0841466758e84f9fe",
+        "question": "Is the blue portion of the pie chart larger than the pink portion?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Distribution of verbs in the VQA dataset (Antol et al., 2015a), to be versus other verbs.\n\nQuestion: Is the blue portion of the pie chart larger than the pink portion?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "35f7eb6e5de657075f59395418061b6e",
+        "question": "Do the percentages of the sections in the pie chart add up to 100?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Distribution of verbs in the VQA dataset (Antol et al., 2015a), to be versus other verbs.\n\nQuestion: Do the percentages of the sections in the pie chart add up to 100?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

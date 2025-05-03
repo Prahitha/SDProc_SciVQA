@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "bd3f16856c307d56ad1899942b38db8e",
+        "question": "What is the direction of the arrow connecting the 'Matrix-Vector Product' and the 'Linear layer'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Diagram of DiffTime. timevec(t) encodes temporal information as a vector. MW encodes lexical information as a matrix. The target vector for w at time t, useW (w, t), is found by combining Transw and timevec(t). Context version useC(c, t) is the same except that it has its own embedding layer.\n\nQuestion: What is the direction of the arrow connecting the 'Matrix-Vector Product' and the 'Linear layer'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Left'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "a6e712719aa361489311289017ddb75c",
+        "question": "What are the components of DiffTime?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Diagram of DiffTime. timevec(t) encodes temporal information as a vector. MW encodes lexical information as a matrix. The target vector for w at time t, useW (w, t), is found by combining Transw and timevec(t). Context version useC(c, t) is the same except that it has its own embedding layer.\n\nQuestion: What are the components of DiffTime?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Word Component, Integration Component, Time Component'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "295ddd1d056452ebce895228cea3c741",
+        "question": "What is the value of M4 in the equation useW(w, t) = M4h3 + b4?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "569b221f102944c6987402a809368554",
+        "question": "What is the label of the node directly below the node labeled \"(o/a_d)\"?",
+        "answer_pred": "V",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1.\n\nQuestion: What is the label of the node directly below the node labeled \"(o/a_d)\"?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "a99379d87db084969cc388fe6dfd7397",
+        "question": "What is the parent node of NP?",
+        "answer_pred": "VP",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1.\n\nQuestion: What is the parent node of NP?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "14d9045bfa25a9a9178f8607efb49c9e",
+        "question": "Is the $A node directly below the NP node?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1.\n\nQuestion: Is the $A node directly below the NP node?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "3bc6633225b591ff24af8d252b1388ba",
+        "question": "Does the tree include an adverbial phrase?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1.\n\nQuestion: Does the tree include an adverbial phrase?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "f1cbfc1aa3cb9b343f8e841d2b38e36a",
+        "question": "Which of the following labels are present on the bottom horizontal line?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1.\n\nQuestion: Which of the following labels are present on the bottom horizontal line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "9c2858d99f7075f4afbaa1e084aa15eb",
+        "question": "Which of the following labels is associated with the phrase 'part'?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1.\n\nQuestion: Which of the following labels is associated with the phrase 'part'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'SA'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "5ad40031ac7b73f5e931c77660cd06ec",
+        "question": "What is the meaning of the symbols 'a', 'b', 'c', 'd', and 'e' in the tree diagram?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

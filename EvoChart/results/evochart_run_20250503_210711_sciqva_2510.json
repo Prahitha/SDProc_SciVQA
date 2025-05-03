@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "33665552d8d835511db02fa8d45e0e2e",
+        "question": "Does the red line in the left plot reach its peak at 0.4?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Effect of L2 and L3.\n\nQuestion: Does the red line in the left plot reach its peak at 0.4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "234bf7b76fcc3101aaad88b9c1f073ed",
+        "question": "Is the effect of L2 higher than the effect of L3 for all values of lambda?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Effect of L2 and L3.\n\nQuestion: Is the effect of L2 higher than the effect of L3 for all values of lambda?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "99d0b1f722c368a6668224809c167513",
+        "question": "What is the highest value for the blue line in the rightmost plot?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Effect of L2 and L3.\n\nQuestion: What is the highest value for the blue line in the rightmost plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '87'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "d6d884dbcb7067bb6e6d78ba683d7120",
+        "question": "Which of the following values of lambda show an increased accuracy with L3 compared to L2?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Effect of L2 and L3.\n\nQuestion: Which of the following values of lambda show an increased accuracy with L3 compared to L2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '1.0'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "ebd3fc1faaffe517020261c1b57184cb",
+        "question": "What is the machine learning model used in this experiment, and how does it affect the results?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "2cbb1312cc21537d2b9f676bb5065f3b",
+        "question": "In the leftmost plot, what is the value of the normalized erasure for the red line with circles when the average lag is approximately 11?",
+        "answer_pred": "0.22",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Effect of dynamic mask with different source prediction strategies. The strategies are explained in Section 3, and the oracle means that we use the full-sentence translation to set the mask.\n\nQuestion: In the leftmost plot, what is the value of the normalized erasure for the red line with circles when the average lag is approximately 11?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "d997b2d9e8879cac34d307df8883b438",
+        "question": "How many strategies are presented in the rightmost plot?",
+        "answer_pred": "3",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Effect of dynamic mask with different source prediction strategies. The strategies are explained in Section 3, and the oracle means that we use the full-sentence translation to set the mask.\n\nQuestion: How many strategies are presented in the rightmost plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "341fd4c165ee4873aa7a8bd8444c07ef",
+        "question": "Does the red dashed line represent the 'Im-greedy' strategy in the right plot?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Effect of dynamic mask with different source prediction strategies. The strategies are explained in Section 3, and the oracle means that we use the full-sentence translation to set the mask.\n\nQuestion: Does the red dashed line represent the 'Im-greedy' strategy in the right plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "ba587051902315d9e2eb80775bf65eba",
+        "question": "Does the 'oracle' strategy have an average lag value of 14?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Effect of dynamic mask with different source prediction strategies. The strategies are explained in Section 3, and the oracle means that we use the full-sentence translation to set the mask.\n\nQuestion: Does the 'oracle' strategy have an average lag value of 14?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "35196a371d630cf1816affe2f7e7716f",
+        "question": "Which line in the left graph has the lowest value at the average lag of 8?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Effect of dynamic mask with different source prediction strategies. The strategies are explained in Section 3, and the oracle means that we use the full-sentence translation to set the mask.\n\nQuestion: Which line in the left graph has the lowest value at the average lag of 8?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'purple line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

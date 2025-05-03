@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "eeefa394f0b21e0655fc4f206aa3f272",
+        "question": "Do all three progressions, arithmetic, geometric, and harmonic, achieve the same minimum?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3. Distributions of popularity scores calculated by arithmetic, geometric and harmonic progressions on the same datasets.\n\nQuestion: Do all three progressions, arithmetic, geometric, and harmonic, achieve the same minimum?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a099da904e8b40bc00af806dafc1c943",
+        "question": "Which of the lines representing the progressions start closest to 0 on the y-axis?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3. Distributions of popularity scores calculated by arithmetic, geometric and harmonic progressions on the same datasets.\n\nQuestion: Which of the lines representing the progressions start closest to 0 on the y-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All start at the same point'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "2b7ec13161c6b5401243380c32044645",
+        "question": "Which of the following progression types are represented in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3. Distributions of popularity scores calculated by arithmetic, geometric and harmonic progressions on the same datasets.\n\nQuestion: Which of the following progression types are represented in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Logarithmic Progression'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "1093ab2f6f3dd1a79f62cfc8dea6f859",
+        "question": "What specific datasets were used to generate the popularity scores shown in Figure 3?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "2d27b47cb0d2ff9fd7f585390f8ad411",
+        "question": "What is the approximate BLEU score of the purple line at a sentence length of 25?",
+        "answer_pred": "0.57",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Plot of sentence length vs. BLEU score on LRC for experiment IV with error regions of \u00b1\u03c3.\n\nQuestion: What is the approximate BLEU score of the purple line at a sentence length of 25?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b8f6a6ee9e9e6b1d1a2d92ad89c817b0",
+        "question": "What is the approximate BLEU score for a sentence length of 25 with dimension 384?",
+        "answer_pred": "0.52",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Plot of sentence length vs. BLEU score on LRC for experiment IV with error regions of \u00b1\u03c3.\n\nQuestion: What is the approximate BLEU score for a sentence length of 25 with dimension 384?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "def13a6374e2f724983c1ed30608cd6b",
+        "question": "Does the purple line representing Dim: 192 have a higher BLEU score than the orange line representing Dim: 768 at a sentence length of 40?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Plot of sentence length vs. BLEU score on LRC for experiment IV with error regions of \u00b1\u03c3.\n\nQuestion: Does the purple line representing Dim: 192 have a higher BLEU score than the orange line representing Dim: 768 at a sentence length of 40?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "2a513d325c030dc8c79b255d92c7fecd",
+        "question": "Does the BLEU score for Dim: 192 decrease as sentence length increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Plot of sentence length vs. BLEU score on LRC for experiment IV with error regions of \u00b1\u03c3.\n\nQuestion: Does the BLEU score for Dim: 192 decrease as sentence length increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a310bb62cc0d8595a46e8bb60e8ffbff",
+        "question": "Which line represents 'Dim: 576' in the plot?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Plot of sentence length vs. BLEU score on LRC for experiment IV with error regions of \u00b1\u03c3.\n\nQuestion: Which line represents 'Dim: 576' in the plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Pink'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "b47d16c098b93f6e0f466f84776e9200",
+        "question": "Which of the following dimensions results in the highest BLEU score for sentences of length 10?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Plot of sentence length vs. BLEU score on LRC for experiment IV with error regions of \u00b1\u03c3.\n\nQuestion: Which of the following dimensions results in the highest BLEU score for sentences of length 10?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Dim: 768'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

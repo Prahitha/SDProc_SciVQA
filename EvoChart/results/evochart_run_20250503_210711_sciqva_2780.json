@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "992b3202b50e5d0dc9a11f4bdc1f691b",
+        "question": "What is the precision of the system for the 'es-mx' class?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "2261dffc00f4d41f492ae3fea6084253",
+        "question": "What is the value represented by the darkest blue colored cell in the confusion matrix?",
+        "answer_pred": "0.9999999999999999",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Sub-task A, YNU-HPCC CodaLab 528232\n\nQuestion: What is the value represented by the darkest blue colored cell in the confusion matrix?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "47b0977fd21c5b6b9e57e842061e95a6",
+        "question": "What is the number of correctly predicted NOT labels?",
+        "answer_pred": "11",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Sub-task A, YNU-HPCC CodaLab 528232\n\nQuestion: What is the number of correctly predicted NOT labels?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "0354e76c75e395c682a33a80941a379a",
+        "question": "Is the color intensity of the bottom-left cell (True label: OFF, Predicted label: NOT) higher than that of the top-right cell (True label: NOT, Predicted label: OFF)?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Sub-task A, YNU-HPCC CodaLab 528232\n\nQuestion: Is the color intensity of the bottom-left cell (True label: OFF, Predicted label: NOT) higher than that of the top-right cell (True label: NOT, Predicted label: OFF)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "98d98894d66dedc1931928ed40213d31",
+        "question": "Is the number of correctly predicted OFF labels higher than 100?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Sub-task A, YNU-HPCC CodaLab 528232\n\nQuestion: Is the number of correctly predicted OFF labels higher than 100?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "6473503fb8e491db6f38862a24bd5137",
+        "question": "Based on the provided confusion matrix, which of the following statements regarding color and numerical value are true?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Sub-task A, YNU-HPCC CodaLab 528232\n\nQuestion: Based on the provided confusion matrix, which of the following statements regarding color and numerical value are true?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The light-colored square represents the lowest numerical value.'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "9153c2669c557d3f50954e0d9ff6602b",
+        "question": "What is the number of incorrectly predicted OFF labels?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Sub-task A, YNU-HPCC CodaLab 528232\n\nQuestion: What is the number of incorrectly predicted OFF labels?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '143'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "7a856cd2bdb03038035922232c312690",
+        "question": "What is the F1-score for the 'OFF' class in Sub-task A of the YNU-HPCC CodaLab project 528232, as depicted in Figure 1?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "38cb4cb6c6065f896548b04c0991cba5",
+        "question": "What is the average morphological complexity of the topmost bar?",
+        "answer_pred": "3.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 2 Morphological ranking of morphs according to textual morph complexity in the mixed-genre corpus. Abscissa indexes increased morphological complexity.\n\nQuestion: What is the average morphological complexity of the topmost bar?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "6818c5e72c644c76ad29702eaaa5a981",
+        "question": "What is the morph with the highest average morphological complexity?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 2 Morphological ranking of morphs according to textual morph complexity in the mixed-genre corpus. Abscissa indexes increased morphological complexity.\n\nQuestion: What is the morph with the highest average morphological complexity?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

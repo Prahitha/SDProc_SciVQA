@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "70116a380b0d6826b8092d89dcda002a",
+        "question": "Is the first graph studying the performance of CoT?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Results on the EMNLP 2017 News dataset. (lower is better for all metrics). MLE under a temperature sweep achieves better quality-diversity trade-off compared to the GAN approaches.\n\nQuestion: Is the first graph studying the performance of CoT?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "023404d1119880221f49e5e6f44a4dbf",
+        "question": "Which line in the right plot represents the \"RL-GAN\"?",
+        "answer_pred": "Blue",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Results on the EMNLP 2017 News dataset. (lower is better for all metrics). MLE under a temperature sweep achieves better quality-diversity trade-off compared to the GAN approaches.\n\nQuestion: Which line in the right plot represents the \"RL-GAN\"?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Yellow'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "f66b199cac7d2d35c2196ba969568523",
+        "question": "What is the behavior of the slope in the first graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Results on the EMNLP 2017 News dataset. (lower is better for all metrics). MLE under a temperature sweep achieves better quality-diversity trade-off compared to the GAN approaches.\n\nQuestion: What is the behavior of the slope in the first graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "4f3ab9feec07cd877fad24356efa4e9e",
+        "question": "What is the specific hyperparameter setting used for the MLE approach shown in Figure 4?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "ac54a61510bdc9c8214e51c163089186",
+        "question": "What is the approximate maximum value of the blue dashed line in the graph labeled \"Performance on PKU\"?",
+        "answer_pred": "0.99",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. Ablation study of BERT fine-tuning on only the first/embedding layer.\n\nQuestion: What is the approximate maximum value of the blue dashed line in the graph labeled \"Performance on PKU\"?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "702ada3c7eba3b29c80a72fe66bd2bf0",
+        "question": "What is the highest value of F1 for the CRF model on PKU?",
+        "answer_pred": "0.78",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. Ablation study of BERT fine-tuning on only the first/embedding layer.\n\nQuestion: What is the highest value of F1 for the CRF model on PKU?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f4fa24a6192779289ef20b6e4fc26ff6",
+        "question": "Is the blue line representing F1_Softmax performance higher than the red line representing Acc_Softmax performance on the right side graph?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. Ablation study of BERT fine-tuning on only the first/embedding layer.\n\nQuestion: Is the blue line representing F1_Softmax performance higher than the red line representing Acc_Softmax performance on the right side graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "3595b12d9d67fa340fe0b3f9fa278781",
+        "question": "Is the maximum number of epochs 40?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. Ablation study of BERT fine-tuning on only the first/embedding layer.\n\nQuestion: Is the maximum number of epochs 40?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "3398eeddfce19badd7527722b1dd7ac5",
+        "question": "Which of the following colors represents the performance metric 'Acc_Softmax'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. Ablation study of BERT fine-tuning on only the first/embedding layer.\n\nQuestion: Which of the following colors represents the performance metric 'Acc_Softmax'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Black'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "9eebc0f1fbacd0bc326efdccb747a424",
+        "question": "Which fine tuning increase the performance above F1=95?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. Ablation study of BERT fine-tuning on only the first/embedding layer.\n\nQuestion: Which fine tuning increase the performance above F1=95?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'PKU - Softmax'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

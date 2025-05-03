@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "f2222bbef740b7058dafda9a1775cf78",
+        "question": "What is the maximum number of epochs shown in figure 4?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Reward distribution and the average reward of the counterfactual response (w/ COPT) and the standard response (w/o COPT). The y-axis in (a) and (b) is the percentage, and the x-axis corresponds to three reward intervals in different epochs, including: Low reward interval [0.00, 0.33], Middle reward interval (0.33, 0.66], and High reward interval (0.66, 1.00]. The y-axis in (c) and (d) is the reward, and the x-axis corresponds to epochs.\n\nQuestion: What is the maximum number of epochs shown in figure 4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "2cf4282ec7383c6a8825799064e1082b",
+        "question": "Is the blue line higher than the grey line at epoch 4 in the right plot?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Reward distribution and the average reward of the counterfactual response (w/ COPT) and the standard response (w/o COPT). The y-axis in (a) and (b) is the percentage, and the x-axis corresponds to three reward intervals in different epochs, including: Low reward interval [0.00, 0.33], Middle reward interval (0.33, 0.66], and High reward interval (0.66, 1.00]. The y-axis in (c) and (d) is the reward, and the x-axis corresponds to epochs.\n\nQuestion: Is the blue line higher than the grey line at epoch 4 in the right plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "de8e590a676187fa2c113e64f383cff8",
+        "question": "Is the average reward of REGs with COPT consistently higher than the average reward of REGs without COPT?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Reward distribution and the average reward of the counterfactual response (w/ COPT) and the standard response (w/o COPT). The y-axis in (a) and (b) is the percentage, and the x-axis corresponds to three reward intervals in different epochs, including: Low reward interval [0.00, 0.33], Middle reward interval (0.33, 0.66], and High reward interval (0.66, 1.00]. The y-axis in (c) and (d) is the reward, and the x-axis corresponds to epochs.\n\nQuestion: Is the average reward of REGs with COPT consistently higher than the average reward of REGs without COPT?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a66390d95d2123c8d303d0af7e6a1406",
+        "question": "In the bottom left plot, what is the approximate value of the grey line in epoch 3?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Reward distribution and the average reward of the counterfactual response (w/ COPT) and the standard response (w/o COPT). The y-axis in (a) and (b) is the percentage, and the x-axis corresponds to three reward intervals in different epochs, including: Low reward interval [0.00, 0.33], Middle reward interval (0.33, 0.66], and High reward interval (0.66, 1.00]. The y-axis in (c) and (d) is the reward, and the x-axis corresponds to epochs.\n\nQuestion: In the bottom left plot, what is the approximate value of the grey line in epoch 3?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0.4'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "e17c25daa64e8bb5e1f43986cce76437",
+        "question": "At which epoch is there almost no high reward for StepGAN w/o COPT?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Reward distribution and the average reward of the counterfactual response (w/ COPT) and the standard response (w/o COPT). The y-axis in (a) and (b) is the percentage, and the x-axis corresponds to three reward intervals in different epochs, including: Low reward interval [0.00, 0.33], Middle reward interval (0.33, 0.66], and High reward interval (0.66, 1.00]. The y-axis in (c) and (d) is the reward, and the x-axis corresponds to epochs.\n\nQuestion: At which epoch is there almost no high reward for StepGAN w/o COPT?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '10'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "26fa67ad57adae37c455bedeba3f4a57",
+        "question": "What problem is being examined in figure 4?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "2bed3fdf9b028c579a76897e6e3ffd33",
+        "question": "Which color line is placed highest in the legend?",
+        "answer_pred": "red",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Validation perplexity of the medium model during all epochs of learning\n\nQuestion: Which color line is placed highest in the legend?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "2457157f6223eab630a311d590d84bb6",
+        "question": "For what total number of epochs did the model learn?",
+        "answer_pred": "20",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Validation perplexity of the medium model during all epochs of learning\n\nQuestion: For what total number of epochs did the model learn?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "ad760f65df6a40a5e67e5787512179c8",
+        "question": "Does the green line show a higher perplexity value than the red line for all of the first 5 epochs?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Validation perplexity of the medium model during all epochs of learning\n\nQuestion: Does the green line show a higher perplexity value than the red line for all of the first 5 epochs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "c120c7b912eb5e9a9b0d2a77f2b77585",
+        "question": "Does the validation perplexity of Softmax(t=6) for the medium model decrease during all epochs of learning?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Validation perplexity of the medium model during all epochs of learning\n\nQuestion: Does the validation perplexity of Softmax(t=6) for the medium model decrease during all epochs of learning?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

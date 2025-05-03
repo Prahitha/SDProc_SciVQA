@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "b1918b3d362b4ccdf93d4081b4112c81",
+        "question": "Which of the following figures are present in the graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: The factor oxy under C .\n\nQuestion: Which of the following figures are present in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'arrows'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "d9c4118f2f166018afbb7d74c499a43f",
+        "question": "How many states does the automaton involves?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: The factor oxy under C .\n\nQuestion: How many states does the automaton involves?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '2'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "489e316751a624f3dea7eac2b0cb4ac4",
+        "question": "What is the value of the factor oxy under C in this figure?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "37d150111fbcb17fb02f0650754ab50c",
+        "question": "In the first diagram, how many circles are there??",
+        "answer_pred": "12",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: A 2-I-2-TISL SFST for LHOR (top) and a 2-ISL SFST for its tier projection (bottom).\n\nQuestion: In the first diagram, how many circles are there??\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "e28f17d271a995487ce38538082731d7",
+        "question": "Which graph has a starting state R?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: A 2-I-2-TISL SFST for LHOR (top) and a 2-ISL SFST for its tier projection (bottom).\n\nQuestion: Which graph has a starting state R?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "55774e8076fb572889ecdc8f9deec640",
+        "question": "Is there a circular arrow pointing from the circle labeled 'H' to itself in the top figure?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: A 2-I-2-TISL SFST for LHOR (top) and a 2-ISL SFST for its tier projection (bottom).\n\nQuestion: Is there a circular arrow pointing from the circle labeled 'H' to itself in the top figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "1377485aecf12b842c736396dd997947",
+        "question": "Is the number of steps in the first diagram more or equal than 3?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: A 2-I-2-TISL SFST for LHOR (top) and a 2-ISL SFST for its tier projection (bottom).\n\nQuestion: Is the number of steps in the first diagram more or equal than 3?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "b6dbcfc5261abea0dd96fb40cc90b5d8",
+        "question": "Which state has a self-loop labeled \"H:H\"?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: A 2-I-2-TISL SFST for LHOR (top) and a 2-ISL SFST for its tier projection (bottom).\n\nQuestion: Which state has a self-loop labeled \"H:H\"?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'State L (bottom)'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8a560924a55c8eb25de3ca29908c756a",
+        "question": "What is the type of state transition labelled with 'L: L' in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: A 2-I-2-TISL SFST for LHOR (top) and a 2-ISL SFST for its tier projection (bottom).\n\nQuestion: What is the type of state transition labelled with 'L: L' in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "aff1cad753bbcec5c57c17bbc1ba79c5",
+        "question": "What are the actual values of the transition probabilities represented by 'L: \u03bb' and 'H: H' in the top SFST?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

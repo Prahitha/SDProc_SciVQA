@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "91d9c1a7199e063d989b54fd9279564d",
+        "question": "In what incremental steps do y axis ticks increase in figure 5?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Plot of average Query-Centre distance vs Phase Number.\n\nQuestion: In what incremental steps do y axis ticks increase in figure 5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0.2'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "6c4942af1f624d1c86cdced0435d6885",
+        "question": "What is the specific algorithm used to calculate the average Query-Centre distance for each phase number in the plot?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "c415e407ffb2c5ea35b806851e086a5b",
+        "question": "What is the y value of the blue line according to the axis on the left at 14 iterations?",
+        "answer_pred": "39.8",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Learning curves \u2013 translation (left y-axis) and reconstruction (right y-axis) performances (in BLEU scores) on the validation set as training progresses. We find our approach is capable of generating better translations over time by better reconstructing original inputs.\n\nQuestion: What is the y value of the blue line according to the axis on the left at 14 iterations?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b60275c3c1e2679b46bf77e137f09cc7",
+        "question": "What is the maximum translation BLEU marked on the y axis?",
+        "answer_pred": "40.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Learning curves \u2013 translation (left y-axis) and reconstruction (right y-axis) performances (in BLEU scores) on the validation set as training progresses. We find our approach is capable of generating better translations over time by better reconstructing original inputs.\n\nQuestion: What is the maximum translation BLEU marked on the y axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "65dd405c62b6f73899fadbb99661d81f",
+        "question": "Does the red line consistently increase as the number of iterations progresses?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Learning curves \u2013 translation (left y-axis) and reconstruction (right y-axis) performances (in BLEU scores) on the validation set as training progresses. We find our approach is capable of generating better translations over time by better reconstructing original inputs.\n\nQuestion: Does the red line consistently increase as the number of iterations progresses?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "50f6400d3a6047ddcfac9b2d86e872d9",
+        "question": "Does the BLEU score for translation performance improve with more training iterations?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Learning curves \u2013 translation (left y-axis) and reconstruction (right y-axis) performances (in BLEU scores) on the validation set as training progresses. We find our approach is capable of generating better translations over time by better reconstructing original inputs.\n\nQuestion: Does the BLEU score for translation performance improve with more training iterations?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8460f0ab9f10923e29393e7a4e2384e2",
+        "question": "Which line is higher at 14 iterations?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Learning curves \u2013 translation (left y-axis) and reconstruction (right y-axis) performances (in BLEU scores) on the validation set as training progresses. We find our approach is capable of generating better translations over time by better reconstructing original inputs.\n\nQuestion: Which line is higher at 14 iterations?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "9daa39b9409a34038d3156b362ab890e",
+        "question": "What is the maximum reconstructed input BLEU reached in figure 4?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Learning curves \u2013 translation (left y-axis) and reconstruction (right y-axis) performances (in BLEU scores) on the validation set as training progresses. We find our approach is capable of generating better translations over time by better reconstructing original inputs.\n\nQuestion: What is the maximum reconstructed input BLEU reached in figure 4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '90'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "5761ef683eedb1d443ce9c393bdb231b",
+        "question": "What is the specific machine learning model used in this research?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "d31e7ba13876d4ba5f804c133e4e5845",
+        "question": "What is the BLEU score of the brown line when the vocabulary size is 5000?",
+        "answer_pred": "29.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: BLEU vs. vocabulary size for different selection strategies.\n\nQuestion: What is the BLEU score of the brown line when the vocabulary size is 5000?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

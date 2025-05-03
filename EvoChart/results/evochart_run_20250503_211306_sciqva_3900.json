@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "fe47dbaff316b4d6254b58c02695ff5f",
+        "question": "What model is being trained for a number of epochs in figure 5?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "2f7dc9bf28c42372ca2671f40339bf20",
+        "question": "What is the value of the dashed red line at 10 HF iterations?",
+        "answer_pred": "0.83",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 1. Held-out Loss With Dropout Techniques\n\nQuestion: What is the value of the dashed red line at 10 HF iterations?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c80854ff011787b076a52a98a4a04fed",
+        "question": "What is the maximum HF iteration marked on the horizontal axis?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 1. Held-out Loss With Dropout Techniques\n\nQuestion: What is the maximum HF iteration marked on the horizontal axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "9b92c2328116b7eafb8ee8fea7d91ff5",
+        "question": "Does the blue line represent \"Dropout Fixed Per CG\"?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 1. Held-out Loss With Dropout Techniques\n\nQuestion: Does the blue line represent \"Dropout Fixed Per CG\"?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "eea9f1dc99f01293e51a26edc78d50e1",
+        "question": "Does loss consistently decrease with HF iterations?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 1. Held-out Loss With Dropout Techniques\n\nQuestion: Does loss consistently decrease with HF iterations?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "60b7d3fa11efc9c10df35a4129bda5d0",
+        "question": "Which corner of the plot is the legend?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 1. Held-out Loss With Dropout Techniques\n\nQuestion: Which corner of the plot is the legend?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Bottom right'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "3f2c2fea70b9cc6203a8789ee8319c33",
+        "question": "What is the range of loss on the y axis?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 1. Held-out Loss With Dropout Techniques\n\nQuestion: What is the range of loss on the y axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0.12 to 0.16'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "a750470545472072243f6f0c32474b9d",
+        "question": "What is the specific dataset used in this experiment and what is the significance of the chosen dataset to the research problem?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "b361439a5da75c307b8c1eca669e91b6",
+        "question": "What is the value of 'False Rejects (%)' for the red dashdotted line when 'False Alarms Per Hour' is 1?",
+        "answer_pred": "100",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: ROCs for CRNN Attention-based model with soft attention.\n\nQuestion: What is the value of 'False Rejects (%)' for the red dashdotted line when 'False Alarms Per Hour' is 1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "78749b2a1578ba48ee6d246f28f72581",
+        "question": "What is the maximum False rejects (%) on the y axis in figure 6?",
+        "answer_pred": "100",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: ROCs for CRNN Attention-based model with soft attention.\n\nQuestion: What is the maximum False rejects (%) on the y axis in figure 6?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

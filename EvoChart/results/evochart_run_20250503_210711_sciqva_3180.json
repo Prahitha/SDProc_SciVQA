@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "518f8cb607bda51c2472fcc6a41ea26f",
+        "question": "What is the color of the line representing \"ResNet: PT-SP-RU-FR-GE\"?",
+        "answer_pred": "blue",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. DET curves showing the performance of monolingual and multilingual features estimated using FFNs and ResNets for T1 queries of QUESST 2014.\n\nQuestion: What is the color of the line representing \"ResNet: PT-SP-RU-FR-GE\"?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "43ae8dede0472b2bb9d5e3805a1de876",
+        "question": "What is the highest miss probability shown by any FFN or ResNet",
+        "answer_pred": "0.22",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. DET curves showing the performance of monolingual and multilingual features estimated using FFNs and ResNets for T1 queries of QUESST 2014.\n\nQuestion: What is the highest miss probability shown by any FFN or ResNet\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "821c654e1f1cfa11ebfa7b51e37f249e",
+        "question": "Are the two curves labeled 'FFN: PT-SP-RU-FR-GE' and 'ResNet: PT-SP-RU-FR-GE' consistently parallel to each other?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. DET curves showing the performance of monolingual and multilingual features estimated using FFNs and ResNets for T1 queries of QUESST 2014.\n\nQuestion: Are the two curves labeled 'FFN: PT-SP-RU-FR-GE' and 'ResNet: PT-SP-RU-FR-GE' consistently parallel to each other?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "6116b6e42964670dae3f6e6026beac73",
+        "question": "Are both FFN: RT and ResNet: SP models evaluated in this figure?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. DET curves showing the performance of monolingual and multilingual features estimated using FFNs and ResNets for T1 queries of QUESST 2014.\n\nQuestion: Are both FFN: RT and ResNet: SP models evaluated in this figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "35c0978de5634c668ef2aa5c66607343",
+        "question": "Which line is the highest for a False Alarm Probability of 10%?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. DET curves showing the performance of monolingual and multilingual features estimated using FFNs and ResNets for T1 queries of QUESST 2014.\n\nQuestion: Which line is the highest for a False Alarm Probability of 10%?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Green'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "41f2d07d565ef4a646f11bc121852223",
+        "question": "Which of these methods are evaluated in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. DET curves showing the performance of monolingual and multilingual features estimated using FFNs and ResNets for T1 queries of QUESST 2014.\n\nQuestion: Which of these methods are evaluated in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'RNN'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "ac44eca06d02c8182c6645fe9913419d",
+        "question": "What is the specific type of task for which the monolingual and multilingual features were evaluated?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "1c1b437231af2cf0b6479791d8ab0fe9",
+        "question": "What is the color of the line representing 'authoritative'?",
+        "answer_pred": "blue",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: BLEU when comparing to the master\n\nQuestion: What is the color of the line representing 'authoritative'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "d8cb82013dde3dc1819a2bcd54745946",
+        "question": "What is the name of the metric used for comparison in Figure 2?",
+        "answer_pred": "BLEU",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: BLEU when comparing to the master\n\nQuestion: What is the name of the metric used for comparison in Figure 2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "0c99eed53564a07e9defcbf20decd7b9",
+        "question": "Does the green line, labeled 'authoritative', have a higher BLEU score than the black line, labeled 'permissive', at the 10th iteration?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: BLEU when comparing to the master\n\nQuestion: Does the green line, labeled 'authoritative', have a higher BLEU score than the black line, labeled 'permissive', at the 10th iteration?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

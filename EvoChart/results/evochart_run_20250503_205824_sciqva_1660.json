@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "6036866b37946a03caab2381703451f6",
+        "question": "What is the exact dataset used for training the sentiment analysis model?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "e341f3307be08c340c1803ddfb5f0d6d",
+        "question": "What is the approximate BLEU score of the blue dot representing En-Zh (Zh) translation task when the \u2206RF3 value is 9 in the left graph?",
+        "answer_pred": "39.9",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Accuracy drop (the gap between the left/right BLEU score) with respect to the \u2206RF3 and \u2206RP3 from Table 5 and 6 in the four translation tasks. The x-axis \u2206RF3 and \u2206RP3 represent the gap of between the left and right ratio of the 3-gram frequency/conditional probability defined in Table 5 and 6. The y-axis represents the accuracy drop in terms of BLEU score calculated by the teacher forcing decoding.\n\nQuestion: What is the approximate BLEU score of the blue dot representing En-Zh (Zh) translation task when the \u2206RF3 value is 9 in the left graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b333cb1dee4e5054e6207461e5151379",
+        "question": "What is the approximate accuracy drop in BLEU score for the De-En (En) translation task based on the \u2206RF3 in graph(a)?",
+        "answer_pred": "0.02",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Accuracy drop (the gap between the left/right BLEU score) with respect to the \u2206RF3 and \u2206RP3 from Table 5 and 6 in the four translation tasks. The x-axis \u2206RF3 and \u2206RP3 represent the gap of between the left and right ratio of the 3-gram frequency/conditional probability defined in Table 5 and 6. The y-axis represents the accuracy drop in terms of BLEU score calculated by the teacher forcing decoding.\n\nQuestion: What is the approximate accuracy drop in BLEU score for the De-En (En) translation task based on the \u2206RF3 in graph(a)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "e3187d9322e754186462b86fe90abd88",
+        "question": "Is the accuracy drop for En-Zh (Zh) lower than the accuracy drop for De-En (En) on the right graph?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Accuracy drop (the gap between the left/right BLEU score) with respect to the \u2206RF3 and \u2206RP3 from Table 5 and 6 in the four translation tasks. The x-axis \u2206RF3 and \u2206RP3 represent the gap of between the left and right ratio of the 3-gram frequency/conditional probability defined in Table 5 and 6. The y-axis represents the accuracy drop in terms of BLEU score calculated by the teacher forcing decoding.\n\nQuestion: Is the accuracy drop for En-Zh (Zh) lower than the accuracy drop for De-En (En) on the right graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "0e79585a3b1d5e76e8c2b0a47458caf9",
+        "question": "In graph (b), is the accuracy drop for De-En (En) translation task greater than that of En-Jp (Jp) translation task?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Accuracy drop (the gap between the left/right BLEU score) with respect to the \u2206RF3 and \u2206RP3 from Table 5 and 6 in the four translation tasks. The x-axis \u2206RF3 and \u2206RP3 represent the gap of between the left and right ratio of the 3-gram frequency/conditional probability defined in Table 5 and 6. The y-axis represents the accuracy drop in terms of BLEU score calculated by the teacher forcing decoding.\n\nQuestion: In graph (b), is the accuracy drop for De-En (En) translation task greater than that of En-Jp (Jp) translation task?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "3a53c68403616d9956116811fae05c0e",
+        "question": "What is the color of the line representing the relationship between the accuracy drop and \u0394RF3?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Accuracy drop (the gap between the left/right BLEU score) with respect to the \u2206RF3 and \u2206RP3 from Table 5 and 6 in the four translation tasks. The x-axis \u2206RF3 and \u2206RP3 represent the gap of between the left and right ratio of the 3-gram frequency/conditional probability defined in Table 5 and 6. The y-axis represents the accuracy drop in terms of BLEU score calculated by the teacher forcing decoding.\n\nQuestion: What is the color of the line representing the relationship between the accuracy drop and \u0394RF3?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'pink'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "57c6b54ca06d5165a3f6a04fd72b1a3e",
+        "question": "Which of the following translation pairs has a BLEU score of approximately -1.4 in figure (b)?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Accuracy drop (the gap between the left/right BLEU score) with respect to the \u2206RF3 and \u2206RP3 from Table 5 and 6 in the four translation tasks. The x-axis \u2206RF3 and \u2206RP3 represent the gap of between the left and right ratio of the 3-gram frequency/conditional probability defined in Table 5 and 6. The y-axis represents the accuracy drop in terms of BLEU score calculated by the teacher forcing decoding.\n\nQuestion: Which of the following translation pairs has a BLEU score of approximately -1.4 in figure (b)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'En-Zh (Zh)'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "4e3beff3d27eef78f71c14073f50a90a",
+        "question": "What are the exact values of \u2206RF3 and \u2206RP3 for each translation task in Table 5 and 6?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "739c280b734f576e58472bb0c1293ed5",
+        "question": "What is the approximate value of the Precision of 'tf.idf (5-grams)' at Recall 0.2?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Performance of frequency and probabilistic features (best viewed in color).\n\nQuestion: What is the approximate value of the Precision of 'tf.idf (5-grams)' at Recall 0.2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "45c24a0bd74b7268de88c0335604c1ab",
+        "question": "How many statistical methods are represented in the graph (a)?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Performance of frequency and probabilistic features (best viewed in color).\n\nQuestion: How many statistical methods are represented in the graph (a)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

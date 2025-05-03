@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "5c605679a08a45ebd767fa5110c3ccc9",
+        "question": "Does the green line representing Validation Cross Entropy reach a higher value than the blue line representing Training Cross Entropy at any point?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Cross Entropy: Training vs Validation\n\nQuestion: Does the green line representing Validation Cross Entropy reach a higher value than the blue line representing Training Cross Entropy at any point?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "669b0d1759aef0fe713e4c806e9a00a9",
+        "question": "Is the training cross entropy always higher than the validation cross entropy?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Cross Entropy: Training vs Validation\n\nQuestion: Is the training cross entropy always higher than the validation cross entropy?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "49a6c6ce1c988a6af075b79bb14d8a1a",
+        "question": "What is the approximate value of the quantity represented by the blue line at 50,000 Steps?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Cross Entropy: Training vs Validation\n\nQuestion: What is the approximate value of the quantity represented by the blue line at 50,000 Steps?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '4'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "39ffb985c36590805e9bf45beac43589",
+        "question": "What is the minimum number of steps?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Cross Entropy: Training vs Validation\n\nQuestion: What is the minimum number of steps?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '20000000'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "a84bf7a4eb5761beb4b7f33544be52d8",
+        "question": "What is the specific learning rate used for training the model in Figure 4?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "215d85b8bdfceb5d1253acdb342fa975",
+        "question": "What is the approximate value of the orange line at 0.35 epochs in the top-left graph?",
+        "answer_pred": "0.22",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Phase 2 exact match improvement Figure 10: Phase 2 F1 score improvement\n\nQuestion: What is the approximate value of the orange line at 0.35 epochs in the top-left graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "9ecc873b3ebe0d0ce380f38c34d6de03",
+        "question": "What is the name of the method corresponding to the orange line?",
+        "answer_pred": "Standard Transfer",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Phase 2 exact match improvement Figure 10: Phase 2 F1 score improvement\n\nQuestion: What is the name of the method corresponding to the orange line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "73880396f31d6ca5e8296848b4e23718",
+        "question": "Does the orange line representing 'Standard' show a higher exact match accuracy than the blue line representing 'Position' at the x-axis value of 0.6?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Phase 2 exact match improvement Figure 10: Phase 2 F1 score improvement\n\nQuestion: Does the orange line representing 'Standard' show a higher exact match accuracy than the blue line representing 'Position' at the x-axis value of 0.6?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "078ebf70f3d6748a0c408d803eab1570",
+        "question": "Did the F1 score improvement for Phase 2 reach a value higher than 95%?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Phase 2 exact match improvement Figure 10: Phase 2 F1 score improvement\n\nQuestion: Did the F1 score improvement for Phase 2 reach a value higher than 95%?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "b8a70e081ff0bc13c0c1bbcd7be325b5",
+        "question": "Which of the following plots show the blue line crossing the orange line?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Phase 2 exact match improvement Figure 10: Phase 2 F1 score improvement\n\nQuestion: Which of the following plots show the blue line crossing the orange line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'F1 Accuracy - Bottom Right'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

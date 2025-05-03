@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "3702b2cfe6eee19f18d4c003a0def025",
+        "question": "Does the plot show a positive correlation between total correct answers and IRT scores?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Plot of total correct answers vs. IRT scores.\n\nQuestion: Does the plot show a positive correlation between total correct answers and IRT scores?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "31613c61dd0d8ec46d1b0790d8aa6f02",
+        "question": "Which grid lines are visible in figure 4?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Plot of total correct answers vs. IRT scores.\n\nQuestion: Which grid lines are visible in figure 4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "e03511046369cb301a81e8502282d5f7",
+        "question": "How many data points in figure 4 have a theta score of less than -2 or greater than 2?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Plot of total correct answers vs. IRT scores.\n\nQuestion: How many data points in figure 4 have a theta score of less than -2 or greater than 2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '4'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "93eaa9b1d8a1e8efbcafeaf49fb7767a",
+        "question": "Where do the data in figure 4 come from?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "4e858ec9ea9c734a37b92e451fa1625d",
+        "question": "Are the blue points in the plot labelled 'MTFN' closer together than the blue points in the plot labelled 'LMF'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Visualization in Unimodal Representations. In each subfigure, red, green, and blue points represent the unimodal representations in text, audio, and video, respectively. The first row shows the learned representations from models with the multimodal task only. The second row shows the learned representations from multi-task models. The two subgraphs in the same column contrast each other\n\nQuestion: Are the blue points in the plot labelled 'MTFN' closer together than the blue points in the plot labelled 'LMF'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "09628c2a63c63db2648892afb3efe309",
+        "question": "What is the maximum value marked on the x axis for TFN?",
+        "answer_pred": "0.99",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Visualization in Unimodal Representations. In each subfigure, red, green, and blue points represent the unimodal representations in text, audio, and video, respectively. The first row shows the learned representations from models with the multimodal task only. The second row shows the learned representations from multi-task models. The two subgraphs in the same column contrast each other\n\nQuestion: What is the maximum value marked on the x axis for TFN?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "61ae258eb054fb36b0d5ad19727fae9d",
+        "question": "Are the green points in the LF-DNN subfigure located in the upper right quadrant?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Visualization in Unimodal Representations. In each subfigure, red, green, and blue points represent the unimodal representations in text, audio, and video, respectively. The first row shows the learned representations from models with the multimodal task only. The second row shows the learned representations from multi-task models. The two subgraphs in the same column contrast each other\n\nQuestion: Are the green points in the LF-DNN subfigure located in the upper right quadrant?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "55c50ab2beed99d4b612215fb1b2b1cf",
+        "question": "Does the unimodal representation in text have a decreasing trend for MLMF in negative x values?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Visualization in Unimodal Representations. In each subfigure, red, green, and blue points represent the unimodal representations in text, audio, and video, respectively. The first row shows the learned representations from models with the multimodal task only. The second row shows the learned representations from multi-task models. The two subgraphs in the same column contrast each other\n\nQuestion: Does the unimodal representation in text have a decreasing trend for MLMF in negative x values?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "1daaaa798064165eaecd08e7322e8aeb",
+        "question": "In which plot do all three color points form U shapes?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Visualization in Unimodal Representations. In each subfigure, red, green, and blue points represent the unimodal representations in text, audio, and video, respectively. The first row shows the learned representations from models with the multimodal task only. The second row shows the learned representations from multi-task models. The two subgraphs in the same column contrast each other\n\nQuestion: In which plot do all three color points form U shapes?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Bottom left'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "a793b91164b30d61877269e565ba6c48",
+        "question": "Which model has a plot with the lowest maximum value marked on its x axis",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Visualization in Unimodal Representations. In each subfigure, red, green, and blue points represent the unimodal representations in text, audio, and video, respectively. The first row shows the learned representations from models with the multimodal task only. The second row shows the learned representations from multi-task models. The two subgraphs in the same column contrast each other\n\nQuestion: Which model has a plot with the lowest maximum value marked on its x axis\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'They are all equal.'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

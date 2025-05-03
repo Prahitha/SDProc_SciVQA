@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "60ddb16eff48e878f342148b0905877a",
+        "question": "Which line represents the validation loss for the model without augmentation on the AG News dataset?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 6. Effect of overfitting on DNN model shown through cross-entropy loss for the AG News and Sentiment 140 datasets\n\nQuestion: Which line represents the validation loss for the model without augmentation on the AG News dataset?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Green line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "750f4d418df93d344364dd30eb777ba9",
+        "question": "Of the two datasets, which has more than 7 models trained on it?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 6. Effect of overfitting on DNN model shown through cross-entropy loss for the AG News and Sentiment 140 datasets\n\nQuestion: Of the two datasets, which has more than 7 models trained on it?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "59b302624a57fb0d55235753bf0954a1",
+        "question": "What was the total training time of the models on each dataset?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "98d98c5f0ff1c33dc7435e03bc44edaf",
+        "question": "Which president's norm is represented by a solid blue line?",
+        "answer_pred": "Clinton",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Norm (top) and relative frequency (bottom) throughout years 1990-2016.We select the names ofU.S presidents within this time frame - clinton, bush, obama, and trump. We note that bush could refer to George H. W. Bush (1989-1993) or GeorgeW. Bush (2001-2009). Clinton could refer to Bill Clinton (1993-2001) or Hillary Clinton (U.S. secretary of state in 2009-2013 and U.S. presidential candidate in 2014-2016).\n\nQuestion: Which president's norm is represented by a solid blue line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "2f04915e452e49ac112fa00e3d4fd976",
+        "question": "What is the maximum value marked on the relative frequency axis?",
+        "answer_pred": "0.22",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Norm (top) and relative frequency (bottom) throughout years 1990-2016.We select the names ofU.S presidents within this time frame - clinton, bush, obama, and trump. We note that bush could refer to George H. W. Bush (1989-1993) or GeorgeW. Bush (2001-2009). Clinton could refer to Bill Clinton (1993-2001) or Hillary Clinton (U.S. secretary of state in 2009-2013 and U.S. presidential candidate in 2014-2016).\n\nQuestion: What is the maximum value marked on the relative frequency axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "51604e6e1103b30dd842dea813e37142",
+        "question": "Is the 'bush' line green and dashed?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Norm (top) and relative frequency (bottom) throughout years 1990-2016.We select the names ofU.S presidents within this time frame - clinton, bush, obama, and trump. We note that bush could refer to George H. W. Bush (1989-1993) or GeorgeW. Bush (2001-2009). Clinton could refer to Bill Clinton (1993-2001) or Hillary Clinton (U.S. secretary of state in 2009-2013 and U.S. presidential candidate in 2014-2016).\n\nQuestion: Is the 'bush' line green and dashed?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "30ddc5f27c5bfc416f12987fb4659161",
+        "question": "Does Obama's frequency peak at around 2008?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Norm (top) and relative frequency (bottom) throughout years 1990-2016.We select the names ofU.S presidents within this time frame - clinton, bush, obama, and trump. We note that bush could refer to George H. W. Bush (1989-1993) or GeorgeW. Bush (2001-2009). Clinton could refer to Bill Clinton (1993-2001) or Hillary Clinton (U.S. secretary of state in 2009-2013 and U.S. presidential candidate in 2014-2016).\n\nQuestion: Does Obama's frequency peak at around 2008?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "4620fe2af887287f358edf1399317ebc",
+        "question": "Where in each plot is the legend located?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Norm (top) and relative frequency (bottom) throughout years 1990-2016.We select the names ofU.S presidents within this time frame - clinton, bush, obama, and trump. We note that bush could refer to George H. W. Bush (1989-1993) or GeorgeW. Bush (2001-2009). Clinton could refer to Bill Clinton (1993-2001) or Hillary Clinton (U.S. secretary of state in 2009-2013 and U.S. presidential candidate in 2014-2016).\n\nQuestion: Where in each plot is the legend located?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Top center in top graph, top center in bottom graph'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "4242d53895305a2c6f2ad1aed693f30f",
+        "question": "What is the approximate maximum vector norm value of any name across all years?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Norm (top) and relative frequency (bottom) throughout years 1990-2016.We select the names ofU.S presidents within this time frame - clinton, bush, obama, and trump. We note that bush could refer to George H. W. Bush (1989-1993) or GeorgeW. Bush (2001-2009). Clinton could refer to Bill Clinton (1993-2001) or Hillary Clinton (U.S. secretary of state in 2009-2013 and U.S. presidential candidate in 2014-2016).\n\nQuestion: What is the approximate maximum vector norm value of any name across all years?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '10'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "fe36a7c13dd27e6fcf95f1689d561774",
+        "question": "How is the vector norm obtained for each president in a given year?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "2ba030878cfb05a4ae57fc564117ed25",
+        "question": "What is the BLEU score of Seq2seq for sentence lengths between 21 and 30?",
+        "answer_pred": "0.32",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Test BLEU score of various sentence lengths\n\nQuestion: What is the BLEU score of Seq2seq for sentence lengths between 21 and 30?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "65cee8dc460e185f6a916bb3b346cfde",
+        "question": "Does the red dashed line represent the Dual2seq score?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Test BLEU score of various sentence lengths\n\nQuestion: Does the red dashed line represent the Dual2seq score?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "fd048879756e3a6c28c2b4d180a324cd",
+        "question": "Does the BLEU score of Dual2seq decrease with increasing sentence length beyond 20?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Test BLEU score of various sentence lengths\n\nQuestion: Does the BLEU score of Dual2seq decrease with increasing sentence length beyond 20?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "7c2a9e0c16100a34e98c16dcfd7b6ec5",
+        "question": "What pattern and color are the grid lines of the graph of figure 5?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Test BLEU score of various sentence lengths\n\nQuestion: What pattern and color are the grid lines of the graph of figure 5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Dotted black'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8048af27cc4d1740000c993dca4b7187",
+        "question": "Which models reach a BLEU score of approximately 22 for sentences with lengths above 31?",
+        "answer_pred": "Seq2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Test BLEU score of various sentence lengths\n\nQuestion: Which models reach a BLEU score of approximately 22 for sentences with lengths above 31?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "4aa06b4e567041455e836574eb71b9c0",
+        "question": "What is the p-value of the difference in BLEU score between the Dual2seq and Dual2seq-Dep models for sentence lengths between 11 and 20?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "8b99c1b1abcf824c4743e94aa25fef40",
+        "question": "Which line color and pattern represent the original model's accuracy on the MR test set?",
+        "answer_pred": "green",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Accuracy of adversarially trained models on the MR test set. Augmentation with adversarial examples generated by TEXTFOOLER (blue), although higher in quantity, decreases the overall test accuracy while examples generated by TFADJUSTED (orange) have a small positive effect.\n\nQuestion: Which line color and pattern represent the original model's accuracy on the MR test set?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "82147847a5ba197b00ec1461e7ec58dc",
+        "question": "What is the maximum value of test accuracy marked on the y axis of the graph in figure 2?",
+        "answer_pred": "89.2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Accuracy of adversarially trained models on the MR test set. Augmentation with adversarial examples generated by TEXTFOOLER (blue), although higher in quantity, decreases the overall test accuracy while examples generated by TFADJUSTED (orange) have a small positive effect.\n\nQuestion: What is the maximum value of test accuracy marked on the y axis of the graph in figure 2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "3cc2cef93beb40c56bf3b10a73b9dc81",
+        "question": "Does the blue line represent the accuracy of models trained with TextFooler?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Accuracy of adversarially trained models on the MR test set. Augmentation with adversarial examples generated by TEXTFOOLER (blue), although higher in quantity, decreases the overall test accuracy while examples generated by TFADJUSTED (orange) have a small positive effect.\n\nQuestion: Does the blue line represent the accuracy of models trained with TextFooler?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "58f2ed7b0119791774f7b3a0a45918aa",
+        "question": "Does test accuracy improve from epoch 2 to epoch 10 for TextFooler?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Accuracy of adversarially trained models on the MR test set. Augmentation with adversarial examples generated by TEXTFOOLER (blue), although higher in quantity, decreases the overall test accuracy while examples generated by TFADJUSTED (orange) have a small positive effect.\n\nQuestion: Does test accuracy improve from epoch 2 to epoch 10 for TextFooler?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

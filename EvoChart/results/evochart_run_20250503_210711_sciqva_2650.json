@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "56423fa2beebf592b317c8d47c4df3c2",
+        "question": "Is the green dashed line representing the Random Model (1300 lang.)  placed higher than the red dashed line representing the Random Model (10^5 lang.) at the point d = 0.1?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5. Numerical World Color Survey with human JNDs: weakness of the bias. The histogram of the squared distance d = \u221114 i=1(xi \u2212 xi) 2 between the position of the i-th centroid and its average (\u201ctypical\u201d) value. Black data represent the statistics of those populations displaying 14 linguistic categories at the end of Category Game simulations with the human JND, which were roughly \u223c 1300 of the total 5000 considered populations. The inset displays the actual values of d for each population. Green and red data come from a \u201cRandom\u201d model where each \u201clanguage\u201d is produced by a uniform random distribution of 14 category centroids. A random case with a very large number of languages (red curve) represents the \u201cideal\u201d statistics of such a model. The distances d from the average pattern (shown in the inset) appear to have a larger average drand than the Category Game model dCG (where by d we refer to the mean value of the random and the CG cases, respectively), but since we are interested in the fluctuations we have rescaled the random model data, dividing them by drand/dCG, in order to compare the histograms. A power law fit \u223c x\u22123 is also shown as a guide for the eye.\n\nQuestion: Is the green dashed line representing the Random Model (1300 lang.)  placed higher than the red dashed line representing the Random Model (10^5 lang.) at the point d = 0.1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "db3ae56c87362fe1921bbfd564f51793",
+        "question": "Is the average distance 'd' from the average pattern larger for the Category Game model than the Random model?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5. Numerical World Color Survey with human JNDs: weakness of the bias. The histogram of the squared distance d = \u221114 i=1(xi \u2212 xi) 2 between the position of the i-th centroid and its average (\u201ctypical\u201d) value. Black data represent the statistics of those populations displaying 14 linguistic categories at the end of Category Game simulations with the human JND, which were roughly \u223c 1300 of the total 5000 considered populations. The inset displays the actual values of d for each population. Green and red data come from a \u201cRandom\u201d model where each \u201clanguage\u201d is produced by a uniform random distribution of 14 category centroids. A random case with a very large number of languages (red curve) represents the \u201cideal\u201d statistics of such a model. The distances d from the average pattern (shown in the inset) appear to have a larger average drand than the Category Game model dCG (where by d we refer to the mean value of the random and the CG cases, respectively), but since we are interested in the fluctuations we have rescaled the random model data, dividing them by drand/dCG, in order to compare the histograms. A power law fit \u223c x\u22123 is also shown as a guide for the eye.\n\nQuestion: Is the average distance 'd' from the average pattern larger for the Category Game model than the Random model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "6fa3ce3e38b022b8843c42826fe64744",
+        "question": "Which of the following lines represent a random model with 1300 languages?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5. Numerical World Color Survey with human JNDs: weakness of the bias. The histogram of the squared distance d = \u221114 i=1(xi \u2212 xi) 2 between the position of the i-th centroid and its average (\u201ctypical\u201d) value. Black data represent the statistics of those populations displaying 14 linguistic categories at the end of Category Game simulations with the human JND, which were roughly \u223c 1300 of the total 5000 considered populations. The inset displays the actual values of d for each population. Green and red data come from a \u201cRandom\u201d model where each \u201clanguage\u201d is produced by a uniform random distribution of 14 category centroids. A random case with a very large number of languages (red curve) represents the \u201cideal\u201d statistics of such a model. The distances d from the average pattern (shown in the inset) appear to have a larger average drand than the Category Game model dCG (where by d we refer to the mean value of the random and the CG cases, respectively), but since we are interested in the fluctuations we have rescaled the random model data, dividing them by drand/dCG, in order to compare the histograms. A power law fit \u223c x\u22123 is also shown as a guide for the eye.\n\nQuestion: Which of the following lines represent a random model with 1300 languages?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Purple dashed line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "37d9d2254d254f9fe2537e192bf83ace",
+        "question": "What is the number of languages of the category game?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5. Numerical World Color Survey with human JNDs: weakness of the bias. The histogram of the squared distance d = \u221114 i=1(xi \u2212 xi) 2 between the position of the i-th centroid and its average (\u201ctypical\u201d) value. Black data represent the statistics of those populations displaying 14 linguistic categories at the end of Category Game simulations with the human JND, which were roughly \u223c 1300 of the total 5000 considered populations. The inset displays the actual values of d for each population. Green and red data come from a \u201cRandom\u201d model where each \u201clanguage\u201d is produced by a uniform random distribution of 14 category centroids. A random case with a very large number of languages (red curve) represents the \u201cideal\u201d statistics of such a model. The distances d from the average pattern (shown in the inset) appear to have a larger average drand than the Category Game model dCG (where by d we refer to the mean value of the random and the CG cases, respectively), but since we are interested in the fluctuations we have rescaled the random model data, dividing them by drand/dCG, in order to compare the histograms. A power law fit \u223c x\u22123 is also shown as a guide for the eye.\n\nQuestion: What is the number of languages of the category game?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'x^-3'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "4ddbfc04d85946ddb711a9f7881a3bca",
+        "question": "What is the exact mathematical relationship between the squared distance d from the average pattern and the probability density p(d) for the Random Model with 10^5 languages?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "d30f2e235b3b0e74928f95d7370e9eb5",
+        "question": "What is the value of R\u00b2 for the straight horizontal line in (b)?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3. Node degree distribution (log-log scale) of CHVG constructed from \u201cThe Master and Margarita\u201d (a) and \u201cMoby-Dick; or, The Whale\u201d (b). Horizontal axis contains node degrees k, vertical axis shows the values 1 \u2013 F(k), where F(k) is a distribution function of node degrees\n\nQuestion: What is the value of R\u00b2 for the straight horizontal line in (b)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "d00d6bb3588208c033d8f10889363f64",
+        "question": "What is the R-squared value for the distribution function of node degrees for \"Moby-Dick; or, The Whale\"?",
+        "answer_pred": "0.99",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3. Node degree distribution (log-log scale) of CHVG constructed from \u201cThe Master and Margarita\u201d (a) and \u201cMoby-Dick; or, The Whale\u201d (b). Horizontal axis contains node degrees k, vertical axis shows the values 1 \u2013 F(k), where F(k) is a distribution function of node degrees\n\nQuestion: What is the R-squared value for the distribution function of node degrees for \"Moby-Dick; or, The Whale\"?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "cc655d80dba56c6220019dc79a82cca4",
+        "question": "Is the R-squared value for the black line in the figure labeled 'a)' greater than 0.9350?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3. Node degree distribution (log-log scale) of CHVG constructed from \u201cThe Master and Margarita\u201d (a) and \u201cMoby-Dick; or, The Whale\u201d (b). Horizontal axis contains node degrees k, vertical axis shows the values 1 \u2013 F(k), where F(k) is a distribution function of node degrees\n\nQuestion: Is the R-squared value for the black line in the figure labeled 'a)' greater than 0.9350?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a0cfad9a755c9ecaf18416097412f200",
+        "question": "Is the R-squared value of the node degree distribution for 'The Master and Margarita' higher than the R-squared value of the node degree distribution for 'Moby-Dick; or, The Whale'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3. Node degree distribution (log-log scale) of CHVG constructed from \u201cThe Master and Margarita\u201d (a) and \u201cMoby-Dick; or, The Whale\u201d (b). Horizontal axis contains node degrees k, vertical axis shows the values 1 \u2013 F(k), where F(k) is a distribution function of node degrees\n\nQuestion: Is the R-squared value of the node degree distribution for 'The Master and Margarita' higher than the R-squared value of the node degree distribution for 'Moby-Dick; or, The Whale'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "43c53cb1105df85f3013d8cb92806b13",
+        "question": "Which of the plots shows an horizontal line crossed by a red line?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3. Node degree distribution (log-log scale) of CHVG constructed from \u201cThe Master and Margarita\u201d (a) and \u201cMoby-Dick; or, The Whale\u201d (b). Horizontal axis contains node degrees k, vertical axis shows the values 1 \u2013 F(k), where F(k) is a distribution function of node degrees\n\nQuestion: Which of the plots shows an horizontal line crossed by a red line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Both'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

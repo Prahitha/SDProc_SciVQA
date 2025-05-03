@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "992ba4bcdd03fc4f65d8e0994ac3d93c",
+        "question": "Which line represents a difference in BLEU of 1.0?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Power analysis for MT, showing how power increases with n and \u2206B , using an average of fitted values for P0 and b0. Based on this analysis, we expect that an experiment with a test set of 2000 sentences would have approximately 75% power to detect a difference of 1 BLEU point as significant. For additional plots, refer to Figure 17 in Appendix G.\n\nQuestion: Which line represents a difference in BLEU of 1.0?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': \"Green, with '^' markers\"}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "1387decc1530bbee1987758392fa6d65",
+        "question": "What is the value of b0?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Power analysis for MT, showing how power increases with n and \u2206B , using an average of fitted values for P0 and b0. Based on this analysis, we expect that an experiment with a test set of 2000 sentences would have approximately 75% power to detect a difference of 1 BLEU point as significant. For additional plots, refer to Figure 17 in Appendix G.\n\nQuestion: What is the value of b0?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0.13'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "413e41dfa10a6dd874630b2f4ad13c8d",
+        "question": "Is the power greater than 0.75 for all differences in BLEU when the sample size is 4000?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "fa6e20852d803c641dfbc2c698ec1608",
+        "question": "What is the approximate percentage of sentences in the train set of E&M with a formality score between -0.5 and -0.25 for the solid black line?",
+        "answer_pred": "12.5",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Percentage of sentences binned according to formality score in train set of E&M\n\nQuestion: What is the approximate percentage of sentences in the train set of E&M with a formality score between -0.5 and -0.25 for the solid black line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "ace3743a2446f1a118abbe898b71eed4",
+        "question": "What percentage of sentences in the E&M training set with a formality score between -0.5 and -0.25 were formally rewritten?",
+        "answer_pred": "22.02",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Percentage of sentences binned according to formality score in train set of E&M\n\nQuestion: What percentage of sentences in the E&M training set with a formality score between -0.5 and -0.25 were formally rewritten?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b9cdc6fc9acb59603cb190da2ca36776",
+        "question": "Does the percentage of sentences represented by the gray line peak at a higher formality score than that of the solid black line?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Percentage of sentences binned according to formality score in train set of E&M\n\nQuestion: Does the percentage of sentences represented by the gray line peak at a higher formality score than that of the solid black line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "364d7b03c44c35b0ab5684fd95506104",
+        "question": "Is the percentage of sentences in the train set of E&M with a formality score between -1.75 and -1.5 higher for the original informal sentences than for the formal rewrite sentences?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Percentage of sentences binned according to formality score in train set of E&M\n\nQuestion: Is the percentage of sentences in the train set of E&M with a formality score between -1.75 and -1.5 higher for the original informal sentences than for the formal rewrite sentences?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "7f6d87d1fe27356f3d2858e08d0d8585",
+        "question": "How many squares are above 15%?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Percentage of sentences binned according to formality score in train set of E&M\n\nQuestion: How many squares are above 15%?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '3'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "afded7526da25dddd24c969835c2b0c1",
+        "question": "Which of the following is true about the distribution of formality scores in the train set of E&M?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Percentage of sentences binned according to formality score in train set of E&M\n\nQuestion: Which of the following is true about the distribution of formality scores in the train set of E&M?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Formal rewrites have a lower mean than original informal sentences.'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "c7e12a4eb86698cf34a2e1c6587bf8bc",
+        "question": "What is the average formality score of the sentences in the E&M train set?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

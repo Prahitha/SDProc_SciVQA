@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "f952152fafcbe56ead3214d7af5952c3",
+        "question": "Does the Deep-Att ensemble model have a consistently higher BLEU score than the Deep-ED single model across all sequence lengths?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: BLEU scores vs. source sequence length. Five lines are our Deep-Att single model, Deep-Att ensemble model, our Deep-ED model, previous Enc-Dec model with four layers and SMT model.\n\nQuestion: Does the Deep-Att ensemble model have a consistently higher BLEU score than the Deep-ED single model across all sequence lengths?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "167c8ebb7a60e1eb8f481a32b47e54f4",
+        "question": "Which line has the lowest value at the point where the x-axis is 17?",
+        "answer_pred": "blue",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: BLEU scores vs. source sequence length. Five lines are our Deep-Att single model, Deep-Att ensemble model, our Deep-ED model, previous Enc-Dec model with four layers and SMT model.\n\nQuestion: Which line has the lowest value at the point where the x-axis is 17?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'blue line with plus signs'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8249ece6319713d685b386adce53c15e",
+        "question": "Which model has the highest BLUE score at 12 sentences by length?",
+        "answer_pred": "SMT model",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: BLEU scores vs. source sequence length. Five lines are our Deep-Att single model, Deep-Att ensemble model, our Deep-ED model, previous Enc-Dec model with four layers and SMT model.\n\nQuestion: Which model has the highest BLUE score at 12 sentences by length?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'SMT model'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8325236a85d0cd25ce63cb850142f470",
+        "question": "What is the specific task that these models are evaluated on?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "25b56066e11f5d24205ac5ba49badffb",
+        "question": "What is the approximate value of the red dotted line at Top@K=5?",
+        "answer_pred": "0.12",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Top@k performance for utterance prediction task.\n\nQuestion: What is the approximate value of the red dotted line at Top@K=5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "0ac763ab43eae93febfab46d2e5ce108",
+        "question": "How many different models are represented in the graph?",
+        "answer_pred": "2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Top@k performance for utterance prediction task.\n\nQuestion: How many different models are represented in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b86fabd56c784724126d63811b299204",
+        "question": "Is the value of the blue line at the point 'Top@K' equal to 5 higher than the value of the black line at the same point?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Top@k performance for utterance prediction task.\n\nQuestion: Is the value of the blue line at the point 'Top@K' equal to 5 higher than the value of the black line at the same point?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e507f65ce02de12ab066748e26369257",
+        "question": "Does 'MTRL' have a higher BLUE@4(cumu) score than 'MTRL w/o Act' model at Top@K value of 3?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Top@k performance for utterance prediction task.\n\nQuestion: Does 'MTRL' have a higher BLUE@4(cumu) score than 'MTRL w/o Act' model at Top@K value of 3?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "24f10bc0f3d2338dc51a408f3b376071",
+        "question": "Which line represents \"MTRL w/o Autoencoder\"?",
+        "answer_pred": "Green",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Top@k performance for utterance prediction task.\n\nQuestion: Which line represents \"MTRL w/o Autoencoder\"?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Black'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "92e60f63ef41628eae9f9084010f883f",
+        "question": "Which of the following models is NOT represented in the graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Top@k performance for utterance prediction task.\n\nQuestion: Which of the following models is NOT represented in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'BERT'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

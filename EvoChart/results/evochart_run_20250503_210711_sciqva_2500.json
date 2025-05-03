@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "4358bfc5bf70257a34c1c53d0086f684",
+        "question": "Which datasets were used, and how do they affect the results?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "a25f385ea4a6d186835deba13c478dc4",
+        "question": "What is the approximate BLEU value of the blue dashed line at the 4th iterative step?",
+        "answer_pred": "0.52",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: ELBO and BLEU scores measured with the target predictions obtained at each inference step for ASPEC Ja-En and WMT\u201914 En-De datasets.\n\nQuestion: What is the approximate BLEU value of the blue dashed line at the 4th iterative step?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "223dc3ee5fbe622e90e708941ff140cb",
+        "question": "Which language pair has the highest initial BLEU score?",
+        "answer_pred": "En-De",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: ELBO and BLEU scores measured with the target predictions obtained at each inference step for ASPEC Ja-En and WMT\u201914 En-De datasets.\n\nQuestion: Which language pair has the highest initial BLEU score?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "d2961c5e8f84afaed9696290fa00f150",
+        "question": "Is the value of the red square at iterative step 3 higher than the value of the red star at the same step?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: ELBO and BLEU scores measured with the target predictions obtained at each inference step for ASPEC Ja-En and WMT\u201914 En-De datasets.\n\nQuestion: Is the value of the red square at iterative step 3 higher than the value of the red star at the same step?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "eeaff810d21b90d24541607e353d63f7",
+        "question": "Do the BLEU scores for Ja-En and En-De datasets remain relatively consistent across the different iterative steps?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: ELBO and BLEU scores measured with the target predictions obtained at each inference step for ASPEC Ja-En and WMT\u201914 En-De datasets.\n\nQuestion: Do the BLEU scores for Ja-En and En-De datasets remain relatively consistent across the different iterative steps?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "f67b9f35df9815f2183b23234c3d7384",
+        "question": "Which line shows the BLEU scores for Ja-En at the 5th iterative step?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: ELBO and BLEU scores measured with the target predictions obtained at each inference step for ASPEC Ja-En and WMT\u201914 En-De datasets.\n\nQuestion: Which line shows the BLEU scores for Ja-En at the 5th iterative step?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'dashed blue line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "c363664ceee55c6dc499cca40416d711",
+        "question": "What is the range of the values of ELBO?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: ELBO and BLEU scores measured with the target predictions obtained at each inference step for ASPEC Ja-En and WMT\u201914 En-De datasets.\n\nQuestion: What is the range of the values of ELBO?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '-34 to -18'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "2fa3ea3499542cc2b7de30054a06a801",
+        "question": "What was the machine learning model used for the experiments in Figure 3, and how does it influence the results?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "d53ca4495b2f1d0de468aa7323111deb",
+        "question": "What is the value of the red line at lambda equal to 0.2?",
+        "answer_pred": "0.12",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Effect of L2 and L3.\n\nQuestion: What is the value of the red line at lambda equal to 0.2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "de514736f14a34314522cbae09aaba7b",
+        "question": "What is the label of the values presented in the y-axis?",
+        "answer_pred": "Accuracy",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Effect of L2 and L3.\n\nQuestion: What is the label of the values presented in the y-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

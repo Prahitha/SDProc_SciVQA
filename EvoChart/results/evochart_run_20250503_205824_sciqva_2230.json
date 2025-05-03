@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "40405d6f1aed34f59a2c2d666aae26d6",
+        "question": "Is the value of the yellow line higher than the value of the blue line at the beginning of the graph?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2\uff0e The relations between exponents 1, 2, 3 and the sample size as found in English sample of Leipzig corpus\n\nQuestion: Is the value of the yellow line higher than the value of the blue line at the beginning of the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "602034765096167b7e0abd9d9f6cac85",
+        "question": "Does Exponent 1 remain constant throughout the sample size range?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2\uff0e The relations between exponents 1, 2, 3 and the sample size as found in English sample of Leipzig corpus\n\nQuestion: Does Exponent 1 remain constant throughout the sample size range?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "b752deee6007544a75eb06d613af65b2",
+        "question": "Where are the labels of the three colored lines specified?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2\uff0e The relations between exponents 1, 2, 3 and the sample size as found in English sample of Leipzig corpus\n\nQuestion: Where are the labels of the three colored lines specified?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Above and to the right of the curves shown in the graph'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "6974c104588ca4fe8bbcd22f969d02bb",
+        "question": "Which exponents exhibit a decreasing trend with increasing sample size?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2\uff0e The relations between exponents 1, 2, 3 and the sample size as found in English sample of Leipzig corpus\n\nQuestion: Which exponents exhibit a decreasing trend with increasing sample size?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Exponent 1 and Exponent 3'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8679f7010d4ce9b3ded62205ea9dea48",
+        "question": "What is the formula computing the values for the exponents as a function of sample size for a given corpus?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "f4e89929801b375481db17985a6f617e",
+        "question": "What is the value of the orange circle in the bottom left graph at 1000 fine-tuning examples?",
+        "answer_pred": "0.69",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Inoculation by fine-tuning results. (a\u2013e): NLI accuracy for the ESIM and decomposable attention (DA) models. (f): Reading comprehension F1 scores for the BiDAF and QANet models. Fine-tuning on a small number of word overlap (a) and negation (b) examples erases the performance gap (Outcome 1). Fine-tuning does not yield significant improvement on spelling errors (c) and length mismatch (d), but does not degrade original performance either (Outcome 2). Fine-tuning on numerical reasoning (e) closes the gap entirely, but also reduces performance on the original dataset (Outcome 3). On Adversarial SQuAD (f), around 60% of the performance gap is closed after fine-tuning, though performance on the original dataset decreases (Outcome 3). On each challenge dataset, we observe similar trends between different models.\n\nQuestion: What is the value of the orange circle in the bottom left graph at 1000 fine-tuning examples?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "d37f729324eaf8ccbf2b844fec2b1aeb",
+        "question": "What is the maximum number of fine-tuning examples?",
+        "answer_pred": "5",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Inoculation by fine-tuning results. (a\u2013e): NLI accuracy for the ESIM and decomposable attention (DA) models. (f): Reading comprehension F1 scores for the BiDAF and QANet models. Fine-tuning on a small number of word overlap (a) and negation (b) examples erases the performance gap (Outcome 1). Fine-tuning does not yield significant improvement on spelling errors (c) and length mismatch (d), but does not degrade original performance either (Outcome 2). Fine-tuning on numerical reasoning (e) closes the gap entirely, but also reduces performance on the original dataset (Outcome 3). On Adversarial SQuAD (f), around 60% of the performance gap is closed after fine-tuning, though performance on the original dataset decreases (Outcome 3). On each challenge dataset, we observe similar trends between different models.\n\nQuestion: What is the maximum number of fine-tuning examples?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "84deb322d83908208af0bed8a4ecd95e",
+        "question": "In the graph labeled 'Negation', does the orange dotted line representing the DA model on the challenge dataset consistently increase with the number of fine-tuning examples?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Inoculation by fine-tuning results. (a\u2013e): NLI accuracy for the ESIM and decomposable attention (DA) models. (f): Reading comprehension F1 scores for the BiDAF and QANet models. Fine-tuning on a small number of word overlap (a) and negation (b) examples erases the performance gap (Outcome 1). Fine-tuning does not yield significant improvement on spelling errors (c) and length mismatch (d), but does not degrade original performance either (Outcome 2). Fine-tuning on numerical reasoning (e) closes the gap entirely, but also reduces performance on the original dataset (Outcome 3). On Adversarial SQuAD (f), around 60% of the performance gap is closed after fine-tuning, though performance on the original dataset decreases (Outcome 3). On each challenge dataset, we observe similar trends between different models.\n\nQuestion: In the graph labeled 'Negation', does the orange dotted line representing the DA model on the challenge dataset consistently increase with the number of fine-tuning examples?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d20a3bf3327febf3cc1b6eb7e7cb2c29",
+        "question": "Is the accuracy range the same for all graphs?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Inoculation by fine-tuning results. (a\u2013e): NLI accuracy for the ESIM and decomposable attention (DA) models. (f): Reading comprehension F1 scores for the BiDAF and QANet models. Fine-tuning on a small number of word overlap (a) and negation (b) examples erases the performance gap (Outcome 1). Fine-tuning does not yield significant improvement on spelling errors (c) and length mismatch (d), but does not degrade original performance either (Outcome 2). Fine-tuning on numerical reasoning (e) closes the gap entirely, but also reduces performance on the original dataset (Outcome 3). On Adversarial SQuAD (f), around 60% of the performance gap is closed after fine-tuning, though performance on the original dataset decreases (Outcome 3). On each challenge dataset, we observe similar trends between different models.\n\nQuestion: Is the accuracy range the same for all graphs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "89e45656becb40f018cdf111e9553f42",
+        "question": "In which plot do we see a curve color other than green and orange?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Inoculation by fine-tuning results. (a\u2013e): NLI accuracy for the ESIM and decomposable attention (DA) models. (f): Reading comprehension F1 scores for the BiDAF and QANet models. Fine-tuning on a small number of word overlap (a) and negation (b) examples erases the performance gap (Outcome 1). Fine-tuning does not yield significant improvement on spelling errors (c) and length mismatch (d), but does not degrade original performance either (Outcome 2). Fine-tuning on numerical reasoning (e) closes the gap entirely, but also reduces performance on the original dataset (Outcome 3). On Adversarial SQuAD (f), around 60% of the performance gap is closed after fine-tuning, though performance on the original dataset decreases (Outcome 3). On each challenge dataset, we observe similar trends between different models.\n\nQuestion: In which plot do we see a curve color other than green and orange?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Bottom right'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

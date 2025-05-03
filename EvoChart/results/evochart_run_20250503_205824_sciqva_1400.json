@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "a805cef9018e80e4315f23ef8e451832",
+        "question": "Which of the following datasets show a higher sequence accuracy for the Transformer Attention?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: SeqAcc for the Location Attender and best baseline on the Long Lookup Tables task (10 runs).\n\nQuestion: Which of the following datasets show a higher sequence accuracy for the Transformer Attention?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Long 5'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "eacd958cc22bad627c9911fc110bf4ef",
+        "question": "What is the recall for the Location Attender on Long Lookup Tables task (10 runs)?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "e2f54e9a515c4426d07eed38bba88054",
+        "question": "How many vertices are in the green region labeled 'e2'?",
+        "answer_pred": "2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Hypergraph with 7 vertices (axioms) and 4 edges (conflict sets). Both the maximum degree of the hypergraph and the size of the largest edge are 3.\n\nQuestion: How many vertices are in the green region labeled 'e2'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "9bf21c538461ca69e3e491489a43faa2",
+        "question": "How many vertices are there in edge e3?",
+        "answer_pred": "3",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Hypergraph with 7 vertices (axioms) and 4 edges (conflict sets). Both the maximum degree of the hypergraph and the size of the largest edge are 3.\n\nQuestion: How many vertices are there in edge e3?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "8bdd95f698438c3bfeb41275e815a989",
+        "question": "Are there more vertices in the green region than the yellow region?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Hypergraph with 7 vertices (axioms) and 4 edges (conflict sets). Both the maximum degree of the hypergraph and the size of the largest edge are 3.\n\nQuestion: Are there more vertices in the green region than the yellow region?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "0fc8e69e5739bf02a4e49a2df9813da3",
+        "question": "Is the vertex v3 connected to three different edges?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Hypergraph with 7 vertices (axioms) and 4 edges (conflict sets). Both the maximum degree of the hypergraph and the size of the largest edge are 3.\n\nQuestion: Is the vertex v3 connected to three different edges?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "dd90e8afbc8cde4b2eefefa78cffbade",
+        "question": "Which of the following vertices are contained in the blue edge labelled e4?",
+        "answer_pred": "v4",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Hypergraph with 7 vertices (axioms) and 4 edges (conflict sets). Both the maximum degree of the hypergraph and the size of the largest edge are 3.\n\nQuestion: Which of the following vertices are contained in the blue edge labelled e4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'v4'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "42307c419d24657d3ee76a47c85e9a37",
+        "question": "How many vertices are not associated with any edges?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Hypergraph with 7 vertices (axioms) and 4 edges (conflict sets). Both the maximum degree of the hypergraph and the size of the largest edge are 3.\n\nQuestion: How many vertices are not associated with any edges?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '4'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "f7c7ec0692099e2ec23a892583d35e93",
+        "question": "What is the specific application of this hypergraph in the context of the paper?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "ff172091eb5d06923f29b5a88c1de13c",
+        "question": "What is the largest slice in the pie chart?",
+        "answer_pred": "what are the initials of the question type with the largest slice in the pie chart?",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Distribution of question types based on initial word (and some multi-word expressions).\n\nQuestion: What is the largest slice in the pie chart?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

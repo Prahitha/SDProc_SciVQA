@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "1f175abe1e290542c2b3058eeed43ba7",
+        "question": "What is the model being evaluated in figure 3, and what do \u03bb and M represent?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "f604868916ad18eb1611c598d8135830",
+        "question": "What is the approximate value of the blue line at an x value of 0.1 in the left plot?",
+        "answer_pred": "0.99",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: The UNMT and SNMT performance as the word noise (a value) and word order noise (b value) increases on the noisy En-Fr newstest2014 set.\n\nQuestion: What is the approximate value of the blue line at an x value of 0.1 in the left plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "8a055b00fa550046cda81d41d80adc95",
+        "question": "What is the highest BLEU score shown in the figure?",
+        "answer_pred": "39.8",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: The UNMT and SNMT performance as the word noise (a value) and word order noise (b value) increases on the noisy En-Fr newstest2014 set.\n\nQuestion: What is the highest BLEU score shown in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "0e66ca115b7a79de916a4d1419d1abc6",
+        "question": "Is the orange dot higher than the blue dot at a = 0 in the left plot?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: The UNMT and SNMT performance as the word noise (a value) and word order noise (b value) increases on the noisy En-Fr newstest2014 set.\n\nQuestion: Is the orange dot higher than the blue dot at a = 0 in the left plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "18bf62c4930be4df9b757dd48896d9fb",
+        "question": "Does the UNMT performance decrease as the word noise increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: The UNMT and SNMT performance as the word noise (a value) and word order noise (b value) increases on the noisy En-Fr newstest2014 set.\n\nQuestion: Does the UNMT performance decrease as the word noise increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "26d095f703a5f05caac583f09b0ac4c6",
+        "question": "Which color represents UNMT performance in the left graph?",
+        "answer_pred": "orange",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: The UNMT and SNMT performance as the word noise (a value) and word order noise (b value) increases on the noisy En-Fr newstest2014 set.\n\nQuestion: Which color represents UNMT performance in the left graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "b3543fd582f98aac2ff9d5bd2fc8e1d8",
+        "question": "Which of the following is true about the UNMT performance in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: The UNMT and SNMT performance as the word noise (a value) and word order noise (b value) increases on the noisy En-Fr newstest2014 set.\n\nQuestion: Which of the following is true about the UNMT performance in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Its performance decreases as the word order noise increases'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "d3a52cacfbb84540b209cdb7274b9a80",
+        "question": "What architectures were used for the UNMT and SNMT, and how were word noise and word order noise measured?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "37ccfbad5e4bb7a79287706337b5dd6a",
+        "question": "What is the approximate value of the y-axis for the yellow line at a sample size of 2 x 10^7?",
+        "answer_pred": "-1.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2\uff0e The relations between exponents 1, 2, 3 and the sample size as found in English sample of Leipzig corpus\n\nQuestion: What is the approximate value of the y-axis for the yellow line at a sample size of 2 x 10^7?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "39c2283063fd01da7a72b7824e3cf3d4",
+        "question": "Which exponent has the highest value at a sample size of 10^7?",
+        "answer_pred": "Exponent 3",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2\uff0e The relations between exponents 1, 2, 3 and the sample size as found in English sample of Leipzig corpus\n\nQuestion: Which exponent has the highest value at a sample size of 10^7?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

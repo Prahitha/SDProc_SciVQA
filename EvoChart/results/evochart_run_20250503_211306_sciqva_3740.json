@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "598de0750022d5099f86a09b8d149aab",
+        "question": "What is the Sarc. F-Measure value for the orange line at 400 posts/class?",
+        "answer_pred": "0.74",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Plot of Dataset size (x-axis) vs Sarc. FMeasure (y-axis) for the three subcorpora, with ngram features\n\nQuestion: What is the Sarc. F-Measure value for the orange line at 400 posts/class?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "37a22a048aaf7b4f50308a42eeeb0c16",
+        "question": "What is the maximum number of posts/class for the Hyp subcorpus?",
+        "answer_pred": "100",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Plot of Dataset size (x-axis) vs Sarc. FMeasure (y-axis) for the three subcorpora, with ngram features\n\nQuestion: What is the maximum number of posts/class for the Hyp subcorpus?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "598828bc5e10296a21711b303e25adf8",
+        "question": "Does the blue line representing Gen reach a value of 0.70 when the number of posts per class is around 600?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Plot of Dataset size (x-axis) vs Sarc. FMeasure (y-axis) for the three subcorpora, with ngram features\n\nQuestion: Does the blue line representing Gen reach a value of 0.70 when the number of posts per class is around 600?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "5f166a6675f86d1b2acbe4943c61f2b8",
+        "question": "Is the Sarc. F-Measure for Hyp consistently lower than Gen at all data sizes?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Plot of Dataset size (x-axis) vs Sarc. FMeasure (y-axis) for the three subcorpora, with ngram features\n\nQuestion: Is the Sarc. F-Measure for Hyp consistently lower than Gen at all data sizes?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8c3cfe582a11cc719c82e43394379a93",
+        "question": "Which lines represent the highest and lowest Sarc. F-Measure values at approximately 400 posts/class?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Plot of Dataset size (x-axis) vs Sarc. FMeasure (y-axis) for the three subcorpora, with ngram features\n\nQuestion: Which lines represent the highest and lowest Sarc. F-Measure values at approximately 400 posts/class?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All lines are equal'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "b8db783b6b10f10b4604bd5cb7406f14",
+        "question": "Which subcorpora have a Sarc. F-Measure above 0.65 when the Dataset size (in Posts/Class) is 400?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Plot of Dataset size (x-axis) vs Sarc. FMeasure (y-axis) for the three subcorpora, with ngram features\n\nQuestion: Which subcorpora have a Sarc. F-Measure above 0.65 when the Dataset size (in Posts/Class) is 400?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "df6afa00bddb9487d03ff378275c39ab",
+        "question": "What is the mathematical formula for the curves fit to the datapoints in figure 3?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "e2fd2a23afedd42ac92f3fa107525fd5",
+        "question": "What is the approximate value of the blue line at 40 annotators?",
+        "answer_pred": "0.7",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Interannotator Agreement for sarcasm trigrams\n\nQuestion: What is the approximate value of the blue line at 40 annotators?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "96e61fc1d1c42cfc99804dfc8f0545f7",
+        "question": "What is the maximum value for pearson's marked on the y axis?",
+        "answer_pred": "0.99",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Interannotator Agreement for sarcasm trigrams\n\nQuestion: What is the maximum value for pearson's marked on the y axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "31565f67e46b0a9f0bb11131ce61b7f3",
+        "question": "Does the blue line in the graph cross the horizontal line at the 0.4 value?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Interannotator Agreement for sarcasm trigrams\n\nQuestion: Does the blue line in the graph cross the horizontal line at the 0.4 value?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

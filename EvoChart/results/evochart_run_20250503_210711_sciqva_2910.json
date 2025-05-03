@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "75d07185aa6357df5d2e5ad051eb4d3f",
+        "question": "Did the word rank score for the multi-term index increase consistently between 1892 and 1922?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 4 - Word rank score for the multi-term index composed of \u201cbasket ball\u201d and \u201cbasketball\u201d zoomed in to the 30- year period between 1892 and 1922 in the Chronicling America Archive (CAA).\n\nQuestion: Did the word rank score for the multi-term index increase consistently between 1892 and 1922?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "7a4a15f3b3346b62061c9f9339d314b5",
+        "question": "Where are located most of the dots?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 4 - Word rank score for the multi-term index composed of \u201cbasket ball\u201d and \u201cbasketball\u201d zoomed in to the 30- year period between 1892 and 1922 in the Chronicling America Archive (CAA).\n\nQuestion: Where are located most of the dots?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '1912-1920'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "112e1b7b4ceba0459616564d758e4731",
+        "question": "Which of the following periods have at least one score over 2?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 4 - Word rank score for the multi-term index composed of \u201cbasket ball\u201d and \u201cbasketball\u201d zoomed in to the 30- year period between 1892 and 1922 in the Chronicling America Archive (CAA).\n\nQuestion: Which of the following periods have at least one score over 2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '1916-1920'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "cfb9a16d621ac1dd733c56bd2fcc855e",
+        "question": "What was the specific event or trend that led to the surge in the word rank score for 'basket ball' and 'basketball' around 1916?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "437bcf075dcf75277eb7788c1170f9e3",
+        "question": "What is the value of the green dashed line at epoch 20?",
+        "answer_pred": "-0.01",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Mean target probability of \u03c9 using CD with \u03b1 in focus, out-domain test set. Solid lines are trained in the unfamiliar-conduit set, dashed lines on familiarconduit.\n\nQuestion: What is the value of the green dashed line at epoch 20?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "17489871ef3d959058985ed431cc919a",
+        "question": "How many dashed lines are there?",
+        "answer_pred": "2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Mean target probability of \u03c9 using CD with \u03b1 in focus, out-domain test set. Solid lines are trained in the unfamiliar-conduit set, dashed lines on familiarconduit.\n\nQuestion: How many dashed lines are there?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b85b308c8ae07595f719b5523ede558a",
+        "question": "Is the yellow dashed line consistently higher than the green solid line?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Mean target probability of \u03c9 using CD with \u03b1 in focus, out-domain test set. Solid lines are trained in the unfamiliar-conduit set, dashed lines on familiarconduit.\n\nQuestion: Is the yellow dashed line consistently higher than the green solid line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "3b71911fc9e148748b1c2a0245df00f9",
+        "question": "Are all the lines trained on 25 epochs?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Mean target probability of \u03c9 using CD with \u03b1 in focus, out-domain test set. Solid lines are trained in the unfamiliar-conduit set, dashed lines on familiarconduit.\n\nQuestion: Are all the lines trained on 25 epochs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d7f9a27a00675d9b9876ca7856ea88b0",
+        "question": "Which line represents k = 6 with training on familiarconduit?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Mean target probability of \u03c9 using CD with \u03b1 in focus, out-domain test set. Solid lines are trained in the unfamiliar-conduit set, dashed lines on familiarconduit.\n\nQuestion: Which line represents k = 6 with training on familiarconduit?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Dashed green line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "6a3ecb6c7d6f4a51b6241b8db1e29d18",
+        "question": "How many k values are reported?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Mean target probability of \u03c9 using CD with \u03b1 in focus, out-domain test set. Solid lines are trained in the unfamiliar-conduit set, dashed lines on familiarconduit.\n\nQuestion: How many k values are reported?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '9'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

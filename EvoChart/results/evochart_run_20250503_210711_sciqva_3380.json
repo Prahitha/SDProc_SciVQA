@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "38237e1c279e5b8e81f819cc4938c6fe",
+        "question": "What is the color of the answer embedding for the word \"If\"?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Illustration of answer embeddings and an answer-attention head for the forth sentence in Table 1.\n\nQuestion: What is the color of the answer embedding for the word \"If\"?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Green'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "fbe2ca0df097872d1267c4c7e7d508a9",
+        "question": "Which components are located in the same layer?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Illustration of answer embeddings and an answer-attention head for the forth sentence in Table 1.\n\nQuestion: Which components are located in the same layer?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'attention'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "c098a444e5245f8e7d1f61db8a15891d",
+        "question": "What is the specific value of the answer embedding for the fourth sentence in Table 1?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "9e310156fd673ef0ad5abf9fc46714d1",
+        "question": "What is the color of the arrow connecting the word \"red\" in Japanese to the word \"buy\" in English?",
+        "answer_pred": "black",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: For tree-to-tree system, it searches the case watashi katta (I buy) because it is a dependency pair in source parse tree and target parse tree. It does not search the case watashi akai (I red) because it is not a dependency pair in source parse tree neither in target parse tree. Unlike Fig.1, it does not search akai honwo (red book) because although it is a dependency pair in source side, it is disconnected in target side\n\nQuestion: What is the color of the arrow connecting the word \"red\" in Japanese to the word \"buy\" in English?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c842153f66f7f95acfbbc34b3043ded2",
+        "question": "Which languages are considered in the system?",
+        "answer_pred": "[Japanese, English]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: For tree-to-tree system, it searches the case watashi katta (I buy) because it is a dependency pair in source parse tree and target parse tree. It does not search the case watashi akai (I red) because it is not a dependency pair in source parse tree neither in target parse tree. Unlike Fig.1, it does not search akai honwo (red book) because although it is a dependency pair in source side, it is disconnected in target side\n\nQuestion: Which languages are considered in the system?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "32d7595e0c8ddca2683ccb5dec84ebe0",
+        "question": "Is the arrow pointing from 'honwo' to 'book'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: For tree-to-tree system, it searches the case watashi katta (I buy) because it is a dependency pair in source parse tree and target parse tree. It does not search the case watashi akai (I red) because it is not a dependency pair in source parse tree neither in target parse tree. Unlike Fig.1, it does not search akai honwo (red book) because although it is a dependency pair in source side, it is disconnected in target side\n\nQuestion: Is the arrow pointing from 'honwo' to 'book'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "ef3d482e834f642476a2bea8ef8d5d1e",
+        "question": "Does the Japanese word \"honwo\" correspond to the English word \"book\"?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: For tree-to-tree system, it searches the case watashi katta (I buy) because it is a dependency pair in source parse tree and target parse tree. It does not search the case watashi akai (I red) because it is not a dependency pair in source parse tree neither in target parse tree. Unlike Fig.1, it does not search akai honwo (red book) because although it is a dependency pair in source side, it is disconnected in target side\n\nQuestion: Does the Japanese word \"honwo\" correspond to the English word \"book\"?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e54a0518495b3653e2b7c01630b7ea17",
+        "question": "Which of the following Japanese words has an arrow pointing to the Japanese word 'honwo'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: For tree-to-tree system, it searches the case watashi katta (I buy) because it is a dependency pair in source parse tree and target parse tree. It does not search the case watashi akai (I red) because it is not a dependency pair in source parse tree neither in target parse tree. Unlike Fig.1, it does not search akai honwo (red book) because although it is a dependency pair in source side, it is disconnected in target side\n\nQuestion: Which of the following Japanese words has an arrow pointing to the Japanese word 'honwo'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'katta'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8baebd8206a62111785126f33c30e737",
+        "question": "How many alignment mechanisms are there?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: For tree-to-tree system, it searches the case watashi katta (I buy) because it is a dependency pair in source parse tree and target parse tree. It does not search the case watashi akai (I red) because it is not a dependency pair in source parse tree neither in target parse tree. Unlike Fig.1, it does not search akai honwo (red book) because although it is a dependency pair in source side, it is disconnected in target side\n\nQuestion: How many alignment mechanisms are there?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "66bdabbfdf09bcb5a0fdefdefd4bcbd8",
+        "question": "What is the specific linguistic phenomenon that the figure illustrates and how does it affect the translation process?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

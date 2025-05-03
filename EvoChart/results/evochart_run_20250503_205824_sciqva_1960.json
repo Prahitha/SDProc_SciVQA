@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "9826e698c43264767095c72883665356",
+        "question": "Which of the following is NOT a syntactic difference visualized in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: t-SNE visualization of syntactic differences in all languages we study, projected to 32 dimensions using PCA.\n\nQuestion: Which of the following is NOT a syntactic difference visualized in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'verb'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "319fa9b7dbd87a932537fd47bfcf9a95",
+        "question": "Which specific languages are represented in the visualization in Figure 10?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "6e248a6321c4a48b870bb27f7298579c",
+        "question": "In configuration (3), what is the number to the right of the black dot in the swap model?",
+        "answer_pred": "4",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: An illustration of the swap model. (1) shows a configuration [1 2 | 3 4 5 6], where the stack contains 1 and 2, and the buffer contains 3, 4, 5 and 6, and the model predicts shift to move 3 from the buffer to the stack; (2) is the resulted configuration, and the model predicts swap, which moves 3 back to the buffer behind 4, as shown in (3). The solid black arrows represent the computation already done in the previous steps, and the dashed red arrows represent the new computation needed for the current step.\n\nQuestion: In configuration (3), what is the number to the right of the black dot in the swap model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "7db04a4af4a6a0da7b4cb98457e4fd1f",
+        "question": "What are the two main components involved in the swap model architecture?",
+        "answer_pred": "[1 2 | 3 4 5 6]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: An illustration of the swap model. (1) shows a configuration [1 2 | 3 4 5 6], where the stack contains 1 and 2, and the buffer contains 3, 4, 5 and 6, and the model predicts shift to move 3 from the buffer to the stack; (2) is the resulted configuration, and the model predicts swap, which moves 3 back to the buffer behind 4, as shown in (3). The solid black arrows represent the computation already done in the previous steps, and the dashed red arrows represent the new computation needed for the current step.\n\nQuestion: What are the two main components involved in the swap model architecture?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "978617c0ea1e458180af91ea82b62834",
+        "question": "Is there a red arrow pointing from configuration 1 to configuration 2?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: An illustration of the swap model. (1) shows a configuration [1 2 | 3 4 5 6], where the stack contains 1 and 2, and the buffer contains 3, 4, 5 and 6, and the model predicts shift to move 3 from the buffer to the stack; (2) is the resulted configuration, and the model predicts swap, which moves 3 back to the buffer behind 4, as shown in (3). The solid black arrows represent the computation already done in the previous steps, and the dashed red arrows represent the new computation needed for the current step.\n\nQuestion: Is there a red arrow pointing from configuration 1 to configuration 2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "acdaf4877ac17ef5d179394e436abc7a",
+        "question": "In step (2), are three elements visible in the stack?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: An illustration of the swap model. (1) shows a configuration [1 2 | 3 4 5 6], where the stack contains 1 and 2, and the buffer contains 3, 4, 5 and 6, and the model predicts shift to move 3 from the buffer to the stack; (2) is the resulted configuration, and the model predicts swap, which moves 3 back to the buffer behind 4, as shown in (3). The solid black arrows represent the computation already done in the previous steps, and the dashed red arrows represent the new computation needed for the current step.\n\nQuestion: In step (2), are three elements visible in the stack?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8a3bd9f100344d1a3df4fdbd874216ca",
+        "question": "How many circles are present in the rectangle labelled 'swap'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: An illustration of the swap model. (1) shows a configuration [1 2 | 3 4 5 6], where the stack contains 1 and 2, and the buffer contains 3, 4, 5 and 6, and the model predicts shift to move 3 from the buffer to the stack; (2) is the resulted configuration, and the model predicts swap, which moves 3 back to the buffer behind 4, as shown in (3). The solid black arrows represent the computation already done in the previous steps, and the dashed red arrows represent the new computation needed for the current step.\n\nQuestion: How many circles are present in the rectangle labelled 'swap'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '4'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "d74b938e612537a8c303a41fa2d42855",
+        "question": "What does the shift action do in the model?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: An illustration of the swap model. (1) shows a configuration [1 2 | 3 4 5 6], where the stack contains 1 and 2, and the buffer contains 3, 4, 5 and 6, and the model predicts shift to move 3 from the buffer to the stack; (2) is the resulted configuration, and the model predicts swap, which moves 3 back to the buffer behind 4, as shown in (3). The solid black arrows represent the computation already done in the previous steps, and the dashed red arrows represent the new computation needed for the current step.\n\nQuestion: What does the shift action do in the model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Swaps two elements in the stack'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "ec8cd2ba43f16fbabedca8846901813f",
+        "question": "What is the computational complexity of the swap model illustrated in Figure 3?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "2ebf25f6640cc895f751ec13f99bcf73",
+        "question": "What is the color of the bar containing \"FE1\"?",
+        "answer_pred": "light blue",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Frame Integration Representation Model.\n\nQuestion: What is the color of the bar containing \"FE1\"?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

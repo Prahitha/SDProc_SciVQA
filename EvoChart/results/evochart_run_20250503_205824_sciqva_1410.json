@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "10d8cf3a5e5b129b3f0791f1933b7b12",
+        "question": "What is the least common initial word used to start a question?",
+        "answer_pred": "who",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Distribution of question types based on initial word (and some multi-word expressions).\n\nQuestion: What is the least common initial word used to start a question?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b367fcef13e6ea5d18bfbe62ebeefbd0",
+        "question": "Is the blue section of the pie chart larger than the orange section?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Distribution of question types based on initial word (and some multi-word expressions).\n\nQuestion: Is the blue section of the pie chart larger than the orange section?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "3f462ab97a2079f006c1d2e54ddb3788",
+        "question": "Is the word 'which' explicitly represented in the graph?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Distribution of question types based on initial word (and some multi-word expressions).\n\nQuestion: Is the word 'which' explicitly represented in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "5f1878c0ef5a2380d37a6e566d3744db",
+        "question": "What is the colour of the portion representing 'how'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Distribution of question types based on initial word (and some multi-word expressions).\n\nQuestion: What is the colour of the portion representing 'how'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'green'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "bcec292e6212175ff0d0446f9db63df3",
+        "question": "Which of these words are represented in the pie chart?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Distribution of question types based on initial word (and some multi-word expressions).\n\nQuestion: Which of these words are represented in the pie chart?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'whose'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "e9287e45fee8831355604698d24b6932",
+        "question": "What is the specific research question that this data addresses?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "34a8468ae2ceca4dcd22fad9183b25f7",
+        "question": "What is the color of the slice representing \"Medicine\"?",
+        "answer_pred": "blue",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5. Distribution of marriage equality metaphors in the traditional stance sources.\n\nQuestion: What is the color of the slice representing \"Medicine\"?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "010786e85fed5faf5faecb98d2b408f7",
+        "question": "What is the most frequently used metaphor in the traditional stance sources regarding marriage equality?",
+        "answer_pred": "Mismatch",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5. Distribution of marriage equality metaphors in the traditional stance sources.\n\nQuestion: What is the most frequently used metaphor in the traditional stance sources regarding marriage equality?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f91503a987d097413604ec20c46be914",
+        "question": "Is the blue slice representing 'Medicine' the largest slice in the pie chart?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5. Distribution of marriage equality metaphors in the traditional stance sources.\n\nQuestion: Is the blue slice representing 'Medicine' the largest slice in the pie chart?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "c594e56df2feee2cb195628c0dfe39fc",
+        "question": "Is the category 'Addiction' the smallest in the pie chart?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5. Distribution of marriage equality metaphors in the traditional stance sources.\n\nQuestion: Is the category 'Addiction' the smallest in the pie chart?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "6c04245f8701ff02aae25b4ec0029df5",
+        "question": "What are the two language pairs being compared?",
+        "answer_pred": "[EN-DE, ZH-EN]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: BLEU scores of Trans.base+SCWAContLoss on the EN-DE and ZH-EN test sets with different number of function words T .\n\nQuestion: What are the two language pairs being compared?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "1e68262f57b1be60d359ed404a3acd12",
+        "question": "Does the blue line representing EN-DE BLEU scores reach its peak at the value of T = 256?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: BLEU scores of Trans.base+SCWAContLoss on the EN-DE and ZH-EN test sets with different number of function words T .\n\nQuestion: Does the blue line representing EN-DE BLEU scores reach its peak at the value of T = 256?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8260661778ca398af243d356ca7149a6",
+        "question": "Do the BLEU scores for both EN-DE and ZH-EN test sets consistently increase with the number of function words T?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: BLEU scores of Trans.base+SCWAContLoss on the EN-DE and ZH-EN test sets with different number of function words T .\n\nQuestion: Do the BLEU scores for both EN-DE and ZH-EN test sets consistently increase with the number of function words T?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "5cf3db79d56751b8786e0b7ff58ebfa4",
+        "question": "Which of the language pairs shows a decreasing trend in BLEU score as the number of function words increase from 256 to 2048?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: BLEU scores of Trans.base+SCWAContLoss on the EN-DE and ZH-EN test sets with different number of function words T .\n\nQuestion: Which of the language pairs shows a decreasing trend in BLEU score as the number of function words increase from 256 to 2048?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Blue line with squares'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "d92b006d956ad22c04b4fd396ab0bcf2",
+        "question": "Which language pair has higher BLEU scores across all values of T?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: BLEU scores of Trans.base+SCWAContLoss on the EN-DE and ZH-EN test sets with different number of function words T .\n\nQuestion: Which language pair has higher BLEU scores across all values of T?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither, scores are not comparable'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "b03ff67bd481e87e087921ce7748f056",
+        "question": "What is the specific implementation of Trans.base+SCWAContLoss used in the experiment?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "622060e631e4cafb1e0c9b12960c5ec8",
+        "question": "How many dots are there before 30% of all annotated data?",
+        "answer_pred": "12",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Learning curve of 10-fold cross validation\n\nQuestion: How many dots are there before 30% of all annotated data?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "12ba652c5ad5b264808a85f16758be7b",
+        "question": "What is the highest performance achieved?",
+        "answer_pred": "0.99",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Learning curve of 10-fold cross validation\n\nQuestion: What is the highest performance achieved?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "9edb0269c4974d7bec7852e5dd341a60",
+        "question": "Does the blue line achieves a performance over 0.6?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Learning curve of 10-fold cross validation\n\nQuestion: Does the blue line achieves a performance over 0.6?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "813b3ca4394ebbb7d569e4bf06967d88",
+        "question": "Does the F1 score increase as the percentage of annotated data used in training increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Learning curve of 10-fold cross validation\n\nQuestion: Does the F1 score increase as the percentage of annotated data used in training increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

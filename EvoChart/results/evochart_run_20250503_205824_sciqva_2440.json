@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "dac0eb6f99c562b218d9f980a5aac9df",
+        "question": "Does the solid black line in the right graph reach a cumulative distribution value of 1.0?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6. Comparison of degree distributions of the entity alignment datasets extracted by different methods\n\nQuestion: Does the solid black line in the right graph reach a cumulative distribution value of 1.0?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "f982ed76923e773b14dd76dd4529f22c",
+        "question": "Is the cumulative distribution of SRPRS (normal) greater than that of JAPE for DBpedia?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6. Comparison of degree distributions of the entity alignment datasets extracted by different methods\n\nQuestion: Is the cumulative distribution of SRPRS (normal) greater than that of JAPE for DBpedia?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "1bd0440099fef89e904866dbc677da95",
+        "question": "Which of the lines in the right graph represent the data set extracted by the SRPRS method?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6. Comparison of degree distributions of the entity alignment datasets extracted by different methods\n\nQuestion: Which of the lines in the right graph represent the data set extracted by the SRPRS method?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Solid black line and dashed gray line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "3eaf2f448521399a15cf88e15ba72b1e",
+        "question": "Which of the methods, in '(b) Wikidata' plot have a cumulative distribution of 8 at degree 5?",
+        "answer_pred": "JAPE",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6. Comparison of degree distributions of the entity alignment datasets extracted by different methods\n\nQuestion: Which of the methods, in '(b) Wikidata' plot have a cumulative distribution of 8 at degree 5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'JAPE'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "7976e76dfa007305469e83dd180bcd79",
+        "question": "What is the method used to extract the entity alignment dataset for the SRPRS (normal) method shown in Figure 6, and how does it affect the results?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "865bcf4bf0ddeb9eca458946233b3547",
+        "question": "What is the accuracy of the green line with triangles at C=1?",
+        "answer_pred": "0.81",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 12: Accuracy, sufficiency and comprehensiveness of logistic regressions models by regularization term C.\n\nQuestion: What is the accuracy of the green line with triangles at C=1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "3dd982192c02a03cb8bf6bbdac79d1a3",
+        "question": "Which regularization term C value provides the highest accuracy for the model WikiAttack?",
+        "answer_pred": "0.01",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 12: Accuracy, sufficiency and comprehensiveness of logistic regressions models by regularization term C.\n\nQuestion: Which regularization term C value provides the highest accuracy for the model WikiAttack?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "5b6bfd79a60e7f9ba8618add77b12926",
+        "question": "Is the value of the blue line always increasing for all values of C from 10^-3 to 10^2, in the middle plot?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 12: Accuracy, sufficiency and comprehensiveness of logistic regressions models by regularization term C.\n\nQuestion: Is the value of the blue line always increasing for all values of C from 10^-3 to 10^2, in the middle plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "9e072c359b106d4f646f84787f537e08",
+        "question": "Does the accuracy of all the models increase as the regularization term C increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 12: Accuracy, sufficiency and comprehensiveness of logistic regressions models by regularization term C.\n\nQuestion: Does the accuracy of all the models increase as the regularization term C increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "cdba0eb51d1b84db0da8a26d6b6afaa6",
+        "question": "Which line in the rightmost plot, is the highest at the value of C= 10^(-3)?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 12: Accuracy, sufficiency and comprehensiveness of logistic regressions models by regularization term C.\n\nQuestion: Which line in the rightmost plot, is the highest at the value of C= 10^(-3)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'red'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "fb88ec4bfcf6bf0200a5212d95999363",
+        "question": "Which marker shape represents RPE?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nThe Performance of relevance-based embedding models with respect to different amount of training data (training queries), in terms of F1-measure.\n\nQuestion: Which marker shape represents RPE?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': \"X's\"}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "d21b73db0678bb773952ab1181cd594f",
+        "question": "What is the minimum F1 value marked on the y axis of the graph in figure 6?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nThe Performance of relevance-based embedding models with respect to different amount of training data (training queries), in terms of F1-measure.\n\nQuestion: What is the minimum F1 value marked on the y axis of the graph in figure 6?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0.34'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "99d65594bf81aa33f55ac0f3b1a90909",
+        "question": "What is the specific dataset used for training the relevance-based embedding models shown in Figure 6?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "1ce69460f9b3fad074419a495d73d89a",
+        "question": "What is the volume number where the bold part of the black line in the bottom graph reaches its peak?",
+        "answer_pred": "325",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4.7: Two-epoch model likelihoods. Fisher maximum-likelihood estimation for a 2-epoch BEE model over the text-to-text and text-to-past k = 80 models of 647 of Darwin\u2019s readings. The darker line indicates the window of the 5-year minimum epoch length. Note the phase transition at the 325th volume in the text-to-past case (bottom) and the 548th volume in the text-to-text case (top). Note also that the text-topast case comes close to transition at the 548th volume as well, indicating the strength of the transition to exploration in the third epoch on both local and global scales.\n\nQuestion: What is the volume number where the bold part of the black line in the bottom graph reaches its peak?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c8ef85d69cf45e473d5da3c9318b4a9b",
+        "question": "What is the minimum LogL of split for the two-epoch text-to-text model?",
+        "answer_pred": "-1.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4.7: Two-epoch model likelihoods. Fisher maximum-likelihood estimation for a 2-epoch BEE model over the text-to-text and text-to-past k = 80 models of 647 of Darwin\u2019s readings. The darker line indicates the window of the 5-year minimum epoch length. Note the phase transition at the 325th volume in the text-to-past case (bottom) and the 548th volume in the text-to-text case (top). Note also that the text-topast case comes close to transition at the 548th volume as well, indicating the strength of the transition to exploration in the third epoch on both local and global scales.\n\nQuestion: What is the minimum LogL of split for the two-epoch text-to-text model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "e79d81c556dc3abfa69c3da182e43e60",
+        "question": "Does the gray line in the bottom graph reach a higher maximum value than the bold black line?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4.7: Two-epoch model likelihoods. Fisher maximum-likelihood estimation for a 2-epoch BEE model over the text-to-text and text-to-past k = 80 models of 647 of Darwin\u2019s readings. The darker line indicates the window of the 5-year minimum epoch length. Note the phase transition at the 325th volume in the text-to-past case (bottom) and the 548th volume in the text-to-text case (top). Note also that the text-topast case comes close to transition at the 548th volume as well, indicating the strength of the transition to exploration in the third epoch on both local and global scales.\n\nQuestion: Does the gray line in the bottom graph reach a higher maximum value than the bold black line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a652324c8c6968074728fc893b2fbe91",
+        "question": "Were the text-to-text and past-to-text models evaluated for log likelihoods over the same range of volume numbers?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4.7: Two-epoch model likelihoods. Fisher maximum-likelihood estimation for a 2-epoch BEE model over the text-to-text and text-to-past k = 80 models of 647 of Darwin\u2019s readings. The darker line indicates the window of the 5-year minimum epoch length. Note the phase transition at the 325th volume in the text-to-past case (bottom) and the 548th volume in the text-to-text case (top). Note also that the text-topast case comes close to transition at the 548th volume as well, indicating the strength of the transition to exploration in the third epoch on both local and global scales.\n\nQuestion: Were the text-to-text and past-to-text models evaluated for log likelihoods over the same range of volume numbers?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "4aeb3b7133b57e7fa1dc28333ddab69a",
+        "question": "At approximately what volume number does the line in both graphs become bold and black?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4.7: Two-epoch model likelihoods. Fisher maximum-likelihood estimation for a 2-epoch BEE model over the text-to-text and text-to-past k = 80 models of 647 of Darwin\u2019s readings. The darker line indicates the window of the 5-year minimum epoch length. Note the phase transition at the 325th volume in the text-to-past case (bottom) and the 548th volume in the text-to-text case (top). Note also that the text-topast case comes close to transition at the 548th volume as well, indicating the strength of the transition to exploration in the third epoch on both local and global scales.\n\nQuestion: At approximately what volume number does the line in both graphs become bold and black?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '200'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "814b0387fccb12b14a792106c19d08f4",
+        "question": "What is the log likelihood for the two-epoch text-to-text model at a volume of approximately 550?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4.7: Two-epoch model likelihoods. Fisher maximum-likelihood estimation for a 2-epoch BEE model over the text-to-text and text-to-past k = 80 models of 647 of Darwin\u2019s readings. The darker line indicates the window of the 5-year minimum epoch length. Note the phase transition at the 325th volume in the text-to-past case (bottom) and the 548th volume in the text-to-text case (top). Note also that the text-topast case comes close to transition at the 548th volume as well, indicating the strength of the transition to exploration in the third epoch on both local and global scales.\n\nQuestion: What is the log likelihood for the two-epoch text-to-text model at a volume of approximately 550?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '-1956'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "68ff5a73c1e06568eb4c7277364c37d2",
+        "question": "How many datapoints were used to draw the curves in figure 4.7?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

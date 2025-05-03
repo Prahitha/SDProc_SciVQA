@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "c15e593f2db3bca59db723cdfe1ac555",
+        "question": "Do \"timesteps\" denote iterations or physical elapsed time? How much total time did learning take or what is the unit for time in figure 2 in the latter case?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "8dd1c5d358196ab18103db5e657dd5ed",
+        "question": "What is the approximate value of the precision at the recall of 0.6 for the green line?",
+        "answer_pred": "0.8",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Precision/Recall curves for the 50, FA configuration, with \u03b1 = 0 (baseline UTD) and \u03b1 = 0.4 (our system). AP is computed as the area under the respective curves.\n\nQuestion: What is the approximate value of the precision at the recall of 0.6 for the green line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "90c0d6124637c1644be102b00cf11e64",
+        "question": "What is the value of Recall of the Precision/Recall @ D=0.88 point?",
+        "answer_pred": "0.88",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Precision/Recall curves for the 50, FA configuration, with \u03b1 = 0 (baseline UTD) and \u03b1 = 0.4 (our system). AP is computed as the area under the respective curves.\n\nQuestion: What is the value of Recall of the Precision/Recall @ D=0.88 point?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "1f72b65f733e139689b597a922a70107",
+        "question": "Is the green line consistently higher than the blue line throughout the plotted data?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Precision/Recall curves for the 50, FA configuration, with \u03b1 = 0 (baseline UTD) and \u03b1 = 0.4 (our system). AP is computed as the area under the respective curves.\n\nQuestion: Is the green line consistently higher than the blue line throughout the plotted data?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "54446287676532006d87de0883025285",
+        "question": "Does the system with \u03b1 = 0.4 achieve higher precision than the system with \u03b1 = 0 at a recall of 0.6?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Precision/Recall curves for the 50, FA configuration, with \u03b1 = 0 (baseline UTD) and \u03b1 = 0.4 (our system). AP is computed as the area under the respective curves.\n\nQuestion: Does the system with \u03b1 = 0.4 achieve higher precision than the system with \u03b1 = 0 at a recall of 0.6?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "359acf69282c58ed5090974dafa532a3",
+        "question": "Which line represents the system with \u03b1 = 0.4?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Precision/Recall curves for the 50, FA configuration, with \u03b1 = 0 (baseline UTD) and \u03b1 = 0.4 (our system). AP is computed as the area under the respective curves.\n\nQuestion: Which line represents the system with \u03b1 = 0.4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "9ac962c67dda9d0b48c628303cb1d76a",
+        "question": "What is the approximate maximum precision for \u03b1 = 0.4 over the entire recall range?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Precision/Recall curves for the 50, FA configuration, with \u03b1 = 0 (baseline UTD) and \u03b1 = 0.4 (our system). AP is computed as the area under the respective curves.\n\nQuestion: What is the approximate maximum precision for \u03b1 = 0.4 over the entire recall range?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0.7'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "2ad42100b28f35b2dc931123f415abd1",
+        "question": "What task is being evaluated in figure 2?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "a61799a7beb2641e8ad9ccecf1f9ee22",
+        "question": "What is the approximate value of the blue line when the total size is 16 GB?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7. Hadoop vs console test\n\nQuestion: What is the approximate value of the blue line when the total size is 16 GB?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "d9a951e2c1e704335cfe8c0c39934278",
+        "question": "What is the total size for which the console test takes about 200 minutes?",
+        "answer_pred": "1000",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7. Hadoop vs console test\n\nQuestion: What is the total size for which the console test takes about 200 minutes?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

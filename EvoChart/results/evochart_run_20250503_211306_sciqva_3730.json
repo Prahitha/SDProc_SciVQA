@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "6069a97f2fb804033a7097149ca5b234",
+        "question": "Which of the lines represents Softmax(t=6)?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Validation perplexity of the medium model during all epochs of learning\n\nQuestion: Which of the lines represents Softmax(t=6)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Blue'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "4308538266be98b676b0427ffddf4ffa",
+        "question": "Which of the following models have a lower perplexity at epoch 5?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Validation perplexity of the medium model during all epochs of learning\n\nQuestion: Which of the following models have a lower perplexity at epoch 5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Softmax(t=6)'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8f425b09480e70b4176b4741fdb7aceb",
+        "question": "What was the dataset used for the model's learning?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "241c29928d1c83f8683943b484f86ded",
+        "question": "What is the approximate mutation rate of the blue dashed line at n=670?",
+        "answer_pred": "0.057",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 8. Micro and Macro mutation rates according to the sub-family total number of mentions, along with their fitted model. \u03c1M (n) = 0.225n\u22120.763 and \u03c1\u00b5(n) = 0.057n\u22120.739. The figure is obtained by creating 15 equally populated quantiles and averaging the mutation rate values corresponding to each quantile. Error bars stand for confidence interval (5%).\n\nQuestion: What is the approximate mutation rate of the blue dashed line at n=670?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "295c69a92d5ee2e4fc0023d1234abeea",
+        "question": "What is the highest mutation rate on the y axis of the plot in figure 8?",
+        "answer_pred": "0.312",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 8. Micro and Macro mutation rates according to the sub-family total number of mentions, along with their fitted model. \u03c1M (n) = 0.225n\u22120.763 and \u03c1\u00b5(n) = 0.057n\u22120.739. The figure is obtained by creating 15 equally populated quantiles and averaging the mutation rate values corresponding to each quantile. Error bars stand for confidence interval (5%).\n\nQuestion: What is the highest mutation rate on the y axis of the plot in figure 8?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "a63165e3b4b9df093f01a571efc9e3d5",
+        "question": "Are the data points represented by squares consistently lower than the data points represented by circles on the graph?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 8. Micro and Macro mutation rates according to the sub-family total number of mentions, along with their fitted model. \u03c1M (n) = 0.225n\u22120.763 and \u03c1\u00b5(n) = 0.057n\u22120.739. The figure is obtained by creating 15 equally populated quantiles and averaging the mutation rate values corresponding to each quantile. Error bars stand for confidence interval (5%).\n\nQuestion: Are the data points represented by squares consistently lower than the data points represented by circles on the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a1c3b129997d6a20e7b14f9eea091e58",
+        "question": "Is the macro mutation rate consistently higher than the micro mutation rate?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 8. Micro and Macro mutation rates according to the sub-family total number of mentions, along with their fitted model. \u03c1M (n) = 0.225n\u22120.763 and \u03c1\u00b5(n) = 0.057n\u22120.739. The figure is obtained by creating 15 equally populated quantiles and averaging the mutation rate values corresponding to each quantile. Error bars stand for confidence interval (5%).\n\nQuestion: Is the macro mutation rate consistently higher than the micro mutation rate?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "ae660852b4f81773a8b13f4fcf34207c",
+        "question": "Where in the graph frame is the legend located?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 8. Micro and Macro mutation rates according to the sub-family total number of mentions, along with their fitted model. \u03c1M (n) = 0.225n\u22120.763 and \u03c1\u00b5(n) = 0.057n\u22120.739. The figure is obtained by creating 15 equally populated quantiles and averaging the mutation rate values corresponding to each quantile. Error bars stand for confidence interval (5%).\n\nQuestion: Where in the graph frame is the legend located?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Bottom right'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "37fb7ce891112309ee7095dc0ae734cb",
+        "question": "Which of the following has a data point with mutation rate between 0.05 and 0.06 presented in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 8. Micro and Macro mutation rates according to the sub-family total number of mentions, along with their fitted model. \u03c1M (n) = 0.225n\u22120.763 and \u03c1\u00b5(n) = 0.057n\u22120.739. The figure is obtained by creating 15 equally populated quantiles and averaging the mutation rate values corresponding to each quantile. Error bars stand for confidence interval (5%).\n\nQuestion: Which of the following has a data point with mutation rate between 0.05 and 0.06 presented in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "22c844874edb2dc85c41c22b427ad122",
+        "question": "What do the \"mentions\" in sub-family total number of mentions refer to?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

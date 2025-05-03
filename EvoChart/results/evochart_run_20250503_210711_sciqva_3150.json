@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "f28e8765b74fb9253c1aec6187df8d3a",
+        "question": "What augmentation technique is evaluated in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Effect of augmentation on different training set sizes for AG News\n\nQuestion: What augmentation technique is evaluated in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "cd6ae096c0a729a680e83b58ca818061",
+        "question": "What is the specific hyperparameter setting used for the training of the DNN model in Fig. 2 (b)?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "112d20b95cc570f43ae04c8fd3449231",
+        "question": "What is the approximate value of the green line in the Phone category when the fraction of events seen is 0.8?",
+        "answer_pred": "0.83",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Performance for various approaches by varying the fraction of events seen by the model. We present results on Accuracy\u00b110 for different product categories.\n\nQuestion: What is the approximate value of the green line in the Phone category when the fraction of events seen is 0.8?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b2f58997aef47b9c52e64ea8faab907e",
+        "question": "In the Electronics graph, what approach achieves the highest accuracy when the fraction of events seen is 1?",
+        "answer_pred": "Targeted",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Performance for various approaches by varying the fraction of events seen by the model. We present results on Accuracy\u00b110 for different product categories.\n\nQuestion: In the Electronics graph, what approach achieves the highest accuracy when the fraction of events seen is 1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "cb66053dee6699aa07346ceebda9f35d",
+        "question": "Is the 'BERT' line for 'Electronics' consistently higher than the 'Prices-only' line?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Performance for various approaches by varying the fraction of events seen by the model. We present results on Accuracy\u00b110 for different product categories.\n\nQuestion: Is the 'BERT' line for 'Electronics' consistently higher than the 'Prices-only' line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "342eda6d39bf134c94fb91b1f4023621",
+        "question": "Does the accuracy of the BERT+GRU approach consistently outperform the accuracy of the Prices only approach for all product categories?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Performance for various approaches by varying the fraction of events seen by the model. We present results on Accuracy\u00b110 for different product categories.\n\nQuestion: Does the accuracy of the BERT+GRU approach consistently outperform the accuracy of the Prices only approach for all product categories?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "63db0a6898363ff174875f8c0253f6e4",
+        "question": "Which approaches do not show an increase in accuracy depending on the fraction of events seen?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Performance for various approaches by varying the fraction of events seen by the model. We present results on Accuracy\u00b110 for different product categories.\n\nQuestion: Which approaches do not show an increase in accuracy depending on the fraction of events seen?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Green line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "2d7cf1edb16815622348f8c5c1b5a1e9",
+        "question": "For which product category does the Prices-only approach achieve the highest accuracy?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Performance for various approaches by varying the fraction of events seen by the model. We present results on Accuracy\u00b110 for different product categories.\n\nQuestion: For which product category does the Prices-only approach achieve the highest accuracy?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Phone'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "d902f57a62275c150ed55610151d08bc",
+        "question": "What is the difference in accuracy between the BERT+GRU model and the Prices-only model when trained on 50% of the Electronics product category data?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "840df16ee0ec2f9d12cdb3cd68c24d83",
+        "question": "What is the performance value of the orange dashed line in the figure labeled (a)?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3: Performance comparison with respect to (a) window size m and (b) starting layer lS , where the performance for the STS datset is the Pearson Correlation Coefficients (\u00d7100) while the performance for the SICK-E and the SST2 datasets is test accuracy.\n\nQuestion: What is the performance value of the orange dashed line in the figure labeled (a)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

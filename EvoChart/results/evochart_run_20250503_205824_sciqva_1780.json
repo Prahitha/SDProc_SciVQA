@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "a44426209549c0cf1f4c60289b407308",
+        "question": "What is the approximate maximum F-1 measure value of the solid red line in the rightmost graph?",
+        "answer_pred": "0.99",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. F-1 measure for hyperonymization of orders 1 \u2264 N \u2264 12: the average case, class GSPO, class GDIP\n\nQuestion: What is the approximate maximum F-1 measure value of the solid red line in the rightmost graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "96927fa3a0fc2f2e694d034bc893fab7",
+        "question": "What is the highest value shown on the y-axis?",
+        "answer_pred": "0.012",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. F-1 measure for hyperonymization of orders 1 \u2264 N \u2264 12: the average case, class GSPO, class GDIP\n\nQuestion: What is the highest value shown on the y-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "5417707c6cbd9d3a8fb8f76aaed62374",
+        "question": "Is the red line consistently above the black line in the rightmost graph?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. F-1 measure for hyperonymization of orders 1 \u2264 N \u2264 12: the average case, class GSPO, class GDIP\n\nQuestion: Is the red line consistently above the black line in the rightmost graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d2509de9b971242ae7009b691cc8ac3d",
+        "question": "For class GSPO, does the F-1 measure consistently increase from N=1 to N=12?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. F-1 measure for hyperonymization of orders 1 \u2264 N \u2264 12: the average case, class GSPO, class GDIP\n\nQuestion: For class GSPO, does the F-1 measure consistently increase from N=1 to N=12?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a2acad1c530afd352f35da1d0894e8d0",
+        "question": "Which line represents precision?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. F-1 measure for hyperonymization of orders 1 \u2264 N \u2264 12: the average case, class GSPO, class GDIP\n\nQuestion: Which line represents precision?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "21c216ac26119e5a8df38380c57e0e36",
+        "question": "Approximately for which hyperonym degree (N) does the average case of the F1 measure reach its maximum value?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. F-1 measure for hyperonymization of orders 1 \u2264 N \u2264 12: the average case, class GSPO, class GDIP\n\nQuestion: Approximately for which hyperonym degree (N) does the average case of the F1 measure reach its maximum value?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '9'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "e67cfea6e4756535c654f5d95bcace7c",
+        "question": "What are the architectures of the models used in the study?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "be51d25ac5abf42325361a3ad195f447",
+        "question": "What is the approximate year that the green line, representing 'gay' terms, has its highest point?",
+        "answer_pred": "2018",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Predicted valence of our representations of gay, homosexual,all LGBTQ terms, and American directly induced by fitting ridge regression models to the NRC VAD Valence Lexicon with the lexicon\u2019s words\u2019 Word2Vec vectors as features for each year. Results are averaged over 10 Word2Vec models trained over each year\u2019s data. Shaded bands represent 95% confidence intervals and the solid lines are Lowess curves as visual aids. Higher scores represent more positive valence.\n\nQuestion: What is the approximate year that the green line, representing 'gay' terms, has its highest point?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "ae96253fa4cafd68c4980ee966bf0c52",
+        "question": "According to the figure, what is the most positive valence among the four groups throughout the years?",
+        "answer_pred": "American",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Predicted valence of our representations of gay, homosexual,all LGBTQ terms, and American directly induced by fitting ridge regression models to the NRC VAD Valence Lexicon with the lexicon\u2019s words\u2019 Word2Vec vectors as features for each year. Results are averaged over 10 Word2Vec models trained over each year\u2019s data. Shaded bands represent 95% confidence intervals and the solid lines are Lowess curves as visual aids. Higher scores represent more positive valence.\n\nQuestion: According to the figure, what is the most positive valence among the four groups throughout the years?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "988f3a5778cbf942856c4b87f9f92767",
+        "question": "Is the predicted valence of the term 'gay' consistently higher than that of the term 'homosexual' over the entire time period shown?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Predicted valence of our representations of gay, homosexual,all LGBTQ terms, and American directly induced by fitting ridge regression models to the NRC VAD Valence Lexicon with the lexicon\u2019s words\u2019 Word2Vec vectors as features for each year. Results are averaged over 10 Word2Vec models trained over each year\u2019s data. Shaded bands represent 95% confidence intervals and the solid lines are Lowess curves as visual aids. Higher scores represent more positive valence.\n\nQuestion: Is the predicted valence of the term 'gay' consistently higher than that of the term 'homosexual' over the entire time period shown?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

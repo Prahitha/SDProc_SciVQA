@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "bc869c63ac3ebfd3492fb4acebcf781e",
+        "question": "What is the approximate value of the orange line at the 1 Billion English word tokens seen?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Monolingual \u201ccontrol\u201d experiments when aligning (a) a partially trained EN vector space (after M updates, that is, seen word tokens) to a fully trained vector space, and (b) an EN vector space fully trained on Wikipedia of different sizes (number of sentences). We show RSIM scores, mapping performance (i.e., monolingual \u201cBLI\u201d) on HFREQ and LFREQ EN words, and monolingual word similarity scores on SimVerb-3500.\n\nQuestion: What is the approximate value of the orange line at the 1 Billion English word tokens seen?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "4144a1ee308f2b335304beb59df85143",
+        "question": "What is the maximum number of sentences from wikipedia that the EN vector space was trained on?",
+        "answer_pred": "10000",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Monolingual \u201ccontrol\u201d experiments when aligning (a) a partially trained EN vector space (after M updates, that is, seen word tokens) to a fully trained vector space, and (b) an EN vector space fully trained on Wikipedia of different sizes (number of sentences). We show RSIM scores, mapping performance (i.e., monolingual \u201cBLI\u201d) on HFREQ and LFREQ EN words, and monolingual word similarity scores on SimVerb-3500.\n\nQuestion: What is the maximum number of sentences from wikipedia that the EN vector space was trained on?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "8bc19b70a1a8de06d1d91c491a7ee504",
+        "question": "Is the line represented by the dotted pink markers consistently above the line represented by the solid orange markers in the left graph?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Monolingual \u201ccontrol\u201d experiments when aligning (a) a partially trained EN vector space (after M updates, that is, seen word tokens) to a fully trained vector space, and (b) an EN vector space fully trained on Wikipedia of different sizes (number of sentences). We show RSIM scores, mapping performance (i.e., monolingual \u201cBLI\u201d) on HFREQ and LFREQ EN words, and monolingual word similarity scores on SimVerb-3500.\n\nQuestion: Is the line represented by the dotted pink markers consistently above the line represented by the solid orange markers in the left graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "6ed8ddef345865d68fbdd752c81d2026",
+        "question": "Are the RSIM scores always higher than the mapping performance on SimVerb-3500?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Monolingual \u201ccontrol\u201d experiments when aligning (a) a partially trained EN vector space (after M updates, that is, seen word tokens) to a fully trained vector space, and (b) an EN vector space fully trained on Wikipedia of different sizes (number of sentences). We show RSIM scores, mapping performance (i.e., monolingual \u201cBLI\u201d) on HFREQ and LFREQ EN words, and monolingual word similarity scores on SimVerb-3500.\n\nQuestion: Are the RSIM scores always higher than the mapping performance on SimVerb-3500?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "47db000a99cbb7ac719d94eb62de5990",
+        "question": "Which line in Figure 4(a) represents the performance on high-frequency words?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Monolingual \u201ccontrol\u201d experiments when aligning (a) a partially trained EN vector space (after M updates, that is, seen word tokens) to a fully trained vector space, and (b) an EN vector space fully trained on Wikipedia of different sizes (number of sentences). We show RSIM scores, mapping performance (i.e., monolingual \u201cBLI\u201d) on HFREQ and LFREQ EN words, and monolingual word similarity scores on SimVerb-3500.\n\nQuestion: Which line in Figure 4(a) represents the performance on high-frequency words?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Dotted pink line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "bca6c2f2e2af7d4e81359b2481adda57",
+        "question": "Which of the following metrics are used in Figure 4 to assess the performance of monolingual experiments?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Monolingual \u201ccontrol\u201d experiments when aligning (a) a partially trained EN vector space (after M updates, that is, seen word tokens) to a fully trained vector space, and (b) an EN vector space fully trained on Wikipedia of different sizes (number of sentences). We show RSIM scores, mapping performance (i.e., monolingual \u201cBLI\u201d) on HFREQ and LFREQ EN words, and monolingual word similarity scores on SimVerb-3500.\n\nQuestion: Which of the following metrics are used in Figure 4 to assess the performance of monolingual experiments?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'BLI'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "2b33688a39584204f0a7d3d030f9e2f9",
+        "question": "What is the specific algorithm used for the training of the vector space in Figure 4(a)?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "afb8fb915f7bfffb3b0912c4b6f5830d",
+        "question": "What is the approximate value of the blue line in the year 2017?",
+        "answer_pred": "33",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Growth of the English, German and Dutch Spoken Wikipedia resources over time. English and German both grow with about 33h of additional audio per year.\n\nQuestion: What is the approximate value of the blue line in the year 2017?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f84d5dcbafa41349a1988f7fac769c02",
+        "question": "What year does the horizontal axis begin with?",
+        "answer_pred": "2010",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Growth of the English, German and Dutch Spoken Wikipedia resources over time. English and German both grow with about 33h of additional audio per year.\n\nQuestion: What year does the horizontal axis begin with?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "8de395d36a6a30d6ca7b38e0f8989460",
+        "question": "Is the green line, representing Dutch, consistently higher than the blue line, representing German?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Growth of the English, German and Dutch Spoken Wikipedia resources over time. English and German both grow with about 33h of additional audio per year.\n\nQuestion: Is the green line, representing Dutch, consistently higher than the blue line, representing German?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

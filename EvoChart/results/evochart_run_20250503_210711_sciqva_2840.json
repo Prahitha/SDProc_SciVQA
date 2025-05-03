@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "2cebbfb5ae47805aef6858548248df0d",
+        "question": "Does the 'mt tfidf + lda' model have a higher maximum 'map' value compared to the 'mt tfidf' model?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 16: Retrieval results of the tf.idf weighted link translations, combined with different concept models.\n\nQuestion: Does the 'mt tfidf + lda' model have a higher maximum 'map' value compared to the 'mt tfidf' model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a125bba302fb10a2e370ab8b963959aa",
+        "question": "Which line has the highest value for alpha = 0.4?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 16: Retrieval results of the tf.idf weighted link translations, combined with different concept models.\n\nQuestion: Which line has the highest value for alpha = 0.4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'dashed line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "ac1ff1788b64d3aee30d732d718aa364",
+        "question": "Which retrieval method results in the highest map score?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 16: Retrieval results of the tf.idf weighted link translations, combined with different concept models.\n\nQuestion: Which retrieval method results in the highest map score?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'mt tfidf + lda'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "ee67877a581566a5c7af505513023b6a",
+        "question": "What is the specific dataset used in this experiment?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "45cafa3ef57e09f8ba936ec2e5db93a5",
+        "question": "What is the approximate value of ln^(gm,k) when m is 15 for the black line?",
+        "answer_pred": "0.0231",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Plots of ln gm,k (upper panel) and of ln gm (lower panel) against prefix length m for model parameters corresponding to English (see Table 1) and \u03b5 = 1/20. In the upper panel, the number k = 0, . . . , m of mishearings is denoted by the symbol colours (black, red, green, blue, etc. denote k = 0, 1, 2, 3, . . . ). In the lower panel, colours denote values of the mishearing probability q (see legend). The thick purple curve corresponds to the threshold value qth = 0.1805.\n\nQuestion: What is the approximate value of ln^(gm,k) when m is 15 for the black line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "12f2bc807e3c327274bd6d15f3fbb272",
+        "question": "What is the x-axis representing?",
+        "answer_pred": "m",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Plots of ln gm,k (upper panel) and of ln gm (lower panel) against prefix length m for model parameters corresponding to English (see Table 1) and \u03b5 = 1/20. In the upper panel, the number k = 0, . . . , m of mishearings is denoted by the symbol colours (black, red, green, blue, etc. denote k = 0, 1, 2, 3, . . . ). In the lower panel, colours denote values of the mishearing probability q (see legend). The thick purple curve corresponds to the threshold value qth = 0.1805.\n\nQuestion: What is the x-axis representing?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "6e047fc6a8e2514bc768d86c8b887f81",
+        "question": "Does the purple line in the lower panel cross the horizontal red line at a higher value of m compared to the green line?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Plots of ln gm,k (upper panel) and of ln gm (lower panel) against prefix length m for model parameters corresponding to English (see Table 1) and \u03b5 = 1/20. In the upper panel, the number k = 0, . . . , m of mishearings is denoted by the symbol colours (black, red, green, blue, etc. denote k = 0, 1, 2, 3, . . . ). In the lower panel, colours denote values of the mishearing probability q (see legend). The thick purple curve corresponds to the threshold value qth = 0.1805.\n\nQuestion: Does the purple line in the lower panel cross the horizontal red line at a higher value of m compared to the green line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "50026a3b2c40d3ab6145a40514febb94",
+        "question": "Is the value of ln gm,k greater than zero for all values of m?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Plots of ln gm,k (upper panel) and of ln gm (lower panel) against prefix length m for model parameters corresponding to English (see Table 1) and \u03b5 = 1/20. In the upper panel, the number k = 0, . . . , m of mishearings is denoted by the symbol colours (black, red, green, blue, etc. denote k = 0, 1, 2, 3, . . . ). In the lower panel, colours denote values of the mishearing probability q (see legend). The thick purple curve corresponds to the threshold value qth = 0.1805.\n\nQuestion: Is the value of ln gm,k greater than zero for all values of m?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "cd8ea653f5d0481da29681dfabd7e6da",
+        "question": "Which color represents the 'mishearing probability q' value of 0.1805 in the lower panel?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Plots of ln gm,k (upper panel) and of ln gm (lower panel) against prefix length m for model parameters corresponding to English (see Table 1) and \u03b5 = 1/20. In the upper panel, the number k = 0, . . . , m of mishearings is denoted by the symbol colours (black, red, green, blue, etc. denote k = 0, 1, 2, 3, . . . ). In the lower panel, colours denote values of the mishearing probability q (see legend). The thick purple curve corresponds to the threshold value qth = 0.1805.\n\nQuestion: Which color represents the 'mishearing probability q' value of 0.1805 in the lower panel?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'cyan'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "2f19ed13fdfbcbb710d00d6b2c9903f3",
+        "question": "What is the value of the curve that has a constant value for all m?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Plots of ln gm,k (upper panel) and of ln gm (lower panel) against prefix length m for model parameters corresponding to English (see Table 1) and \u03b5 = 1/20. In the upper panel, the number k = 0, . . . , m of mishearings is denoted by the symbol colours (black, red, green, blue, etc. denote k = 0, 1, 2, 3, . . . ). In the lower panel, colours denote values of the mishearing probability q (see legend). The thick purple curve corresponds to the threshold value qth = 0.1805.\n\nQuestion: What is the value of the curve that has a constant value for all m?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0.25'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

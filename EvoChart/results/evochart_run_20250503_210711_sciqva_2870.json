@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "b24fd543048932d07a0befa616420b13",
+        "question": "Which CNN ends with a higher accuracy than it started with?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Pre-training performance vs. downstream accuracy on Yelp. Performance measured on validation data. There is no apparent correlation between BLEU and downstream accuracy.\n\nQuestion: Which CNN ends with a higher accuracy than it started with?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'CNN-SC (Sent. cont. acc.)'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "572c6a8494f2a4a87a61143789ba410b",
+        "question": "What is the specific dataset used for evaluating the performance of the different models in the image?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "9f52f266b14648e9dd50dbd4cdb76e52",
+        "question": "What is the approximate value of the red dashed line at 320 hidden units?",
+        "answer_pred": "0.81",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 6. The impact of different number of hidden units on the performance of our proposed approach in terms of Precision, Recall and F1-Measure.\n\nQuestion: What is the approximate value of the red dashed line at 320 hidden units?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "7b9841ad43bc6d479044e83fbaa4f715",
+        "question": "Which performance metric has the lowest value when using 384 hidden units?",
+        "answer_pred": "Precision",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 6. The impact of different number of hidden units on the performance of our proposed approach in terms of Precision, Recall and F1-Measure.\n\nQuestion: Which performance metric has the lowest value when using 384 hidden units?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "1c2748eba49765f351c423c5ab7a029e",
+        "question": "Does the red line representing Precision have a higher value at 320 hidden units than at 128 hidden units?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 6. The impact of different number of hidden units on the performance of our proposed approach in terms of Precision, Recall and F1-Measure.\n\nQuestion: Does the red line representing Precision have a higher value at 320 hidden units than at 128 hidden units?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "ba0db7f3ee6da3e7e31d353d68f9c5e8",
+        "question": "Does the performance of the F1-Measure consistently increase as the number of hidden units increases?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 6. The impact of different number of hidden units on the performance of our proposed approach in terms of Precision, Recall and F1-Measure.\n\nQuestion: Does the performance of the F1-Measure consistently increase as the number of hidden units increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "97a02d2f4a81c6fc2a96e35e77d1a4b3",
+        "question": "Which line is the highest at 320 hidden units?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 6. The impact of different number of hidden units on the performance of our proposed approach in terms of Precision, Recall and F1-Measure.\n\nQuestion: Which line is the highest at 320 hidden units?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'green line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "2d26854cd1956d41d915ae5b86229e33",
+        "question": "Which of the following performance measures achieves a value above 0.915?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 6. The impact of different number of hidden units on the performance of our proposed approach in terms of Precision, Recall and F1-Measure.\n\nQuestion: Which of the following performance measures achieves a value above 0.915?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "79211e72c86ec67347066880b6976c00",
+        "question": "What is the performance of the proposed approach when the number of hidden units is 280?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "36f78902494408c9aa169ac5bfb236ef",
+        "question": "What is the approximate value of the black dashed line at the length of 8.19 thousands of words on the emergence plot?",
+        "answer_pred": "0.42",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6. Emergence (left), self-organization (center) and complexity (right) for English, Spanish and Computer Code. Vertical axis are dimensionless [0-1]. . These plots are based on Equations (4), (5) and (6) combined with Equations (15a), (15b), (15c), (11a), (11b) and (11c).\n\nQuestion: What is the approximate value of the black dashed line at the length of 8.19 thousands of words on the emergence plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

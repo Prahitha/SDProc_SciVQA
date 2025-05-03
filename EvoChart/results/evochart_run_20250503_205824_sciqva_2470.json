@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "08c80b941da09def3eb96b7907ae4c68",
+        "question": "Considering the color and position of the lines in the graph, which of the following statements are true? ",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIG. 4. Validation error curves for models that are too wide. The architecture is specified as n \u00d7 m, where m is the number of hidden layers and n the number of neurons per layer. [Color figure can be viewed at wileyonlinelibrary.com]\n\nQuestion: Considering the color and position of the lines in the graph, which of the following statements are true? \n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All lines show a general upward trend throughout the entire x-axis range.'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "af0dd34fc096570333d329b362d3315e",
+        "question": "How many models are presented in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIG. 4. Validation error curves for models that are too wide. The architecture is specified as n \u00d7 m, where m is the number of hidden layers and n the number of neurons per layer. [Color figure can be viewed at wileyonlinelibrary.com]\n\nQuestion: How many models are presented in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '4'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "fee792c7a757529a7ee9f36bc4d454a2",
+        "question": "What is the training dataset used for the models represented in Figure 4, and how does its size and characteristics influence the observed validation error curves?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "194372927bbb99ee17a1d350fdbcce59",
+        "question": "What is the approximate running time of the grey dashed line at 60 words?",
+        "answer_pred": "1.05",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Average running times of each model according to the number of words on STS and reranking tasks, sub-scripted as sts and rrk respectively.\n\nQuestion: What is the approximate running time of the grey dashed line at 60 words?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "25897ac1f9bf6dd3422763f2d709d9fd",
+        "question": "What is the time for the \"T-TA_sts' in all number of words?",
+        "answer_pred": "1.05",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Average running times of each model according to the number of words on STS and reranking tasks, sub-scripted as sts and rrk respectively.\n\nQuestion: What is the time for the \"T-TA_sts' in all number of words?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "1e799d7ecd66292d229ef18f31382d8c",
+        "question": "Does the green dotted line have a lower average time than the grey line when the number of words is approximately 50?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Average running times of each model according to the number of words on STS and reranking tasks, sub-scripted as sts and rrk respectively.\n\nQuestion: Does the green dotted line have a lower average time than the grey line when the number of words is approximately 50?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e116e7d2d0a761bce5deb5f94f403f1b",
+        "question": "Is the average running time of T-TArrk higher than that of biLMsts for the same number of words?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Average running times of each model according to the number of words on STS and reranking tasks, sub-scripted as sts and rrk respectively.\n\nQuestion: Is the average running time of T-TArrk higher than that of biLMsts for the same number of words?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8173ac7f07e77a7f0fc20c72a6e24ba7",
+        "question": "Which line represents the reranking task for the biLM model?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Average running times of each model according to the number of words on STS and reranking tasks, sub-scripted as sts and rrk respectively.\n\nQuestion: Which line represents the reranking task for the biLM model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The yellow line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "e2b5fcbaf33c5a1c75f4709ab6df4e24",
+        "question": "Which models are presented as having running times according to the number of words for STS tasks?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Average running times of each model according to the number of words on STS and reranking tasks, sub-scripted as sts and rrk respectively.\n\nQuestion: Which models are presented as having running times according to the number of words for STS tasks?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'LSTM, T-TA'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "185f7727a74beadecc1ac277bc99c3bc",
+        "question": "Why does the running time of each model varies, and how are they affected?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

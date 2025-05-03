@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "75164f79d348789026de31c64697eacc",
+        "question": "What is the exact p-value of the significance test for the correlation between chrF2 and mtevalBLEU on the newstest2016 dataset?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "afeedb6a59d2c1d9fcf7c55a0695c4fe",
+        "question": "What is the value of the blue bar labeled 'HD-1'?",
+        "answer_pred": "82.4",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: Accomplishment (value) scores for each game. Error bars indicate one standard deviation.\n\nQuestion: What is the value of the blue bar labeled 'HD-1'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "a8ee62eea031aa1275251cd5ffa3731d",
+        "question": "What is the exact p-value for the bar plot in figure 10?",
+        "answer_pred": "0.001",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: Accomplishment (value) scores for each game. Error bars indicate one standard deviation.\n\nQuestion: What is the exact p-value for the bar plot in figure 10?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "556a798222750bedaa0530b30a39f20a",
+        "question": "Is the blue bar representing the accomplishment score for 'LM-5' higher than the blue bar representing the score for 'RA-1'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: Accomplishment (value) scores for each game. Error bars indicate one standard deviation.\n\nQuestion: Is the blue bar representing the accomplishment score for 'LM-5' higher than the blue bar representing the score for 'RA-1'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "47549a858a2bb872de02603dd1606e55",
+        "question": "Is the p-value greater than 0.05?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: Accomplishment (value) scores for each game. Error bars indicate one standard deviation.\n\nQuestion: Is the p-value greater than 0.05?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "b35475f4a68ee8d60df28b3e3f111816",
+        "question": "Which game's black line reaches the lowest value in figure 10?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: Accomplishment (value) scores for each game. Error bars indicate one standard deviation.\n\nQuestion: Which game's black line reaches the lowest value in figure 10?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'LM-5'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "056de0a4528236547c0ec46ffefc989c",
+        "question": "Which of the following games have an average accomplishment score (value) greater than 6?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: Accomplishment (value) scores for each game. Error bars indicate one standard deviation.\n\nQuestion: Which of the following games have an average accomplishment score (value) greater than 6?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'MCC-5'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "9412888c4e81b40a0d52695212295ce9",
+        "question": "What is the exact difference in accomplishment score between the RA-1 game and the RA-5 game?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "e42a15bb3e393d4a7bedc3d0c7f2e882",
+        "question": "What is the height of the purple bar corresponding to questions with 50 tokens?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Number of white space separated tokens in training questions (title plus body.) and answers (for answerable questions only). The bin at 200 also contains all questions longer than 200 tokens.\n\nQuestion: What is the height of the purple bar corresponding to questions with 50 tokens?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "cfce512981bae7107a479de83f8b6487",
+        "question": "What is the highest count recorded in the graph titled 'Length of answer, training set'?",
+        "answer_pred": "200",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Number of white space separated tokens in training questions (title plus body.) and answers (for answerable questions only). The bin at 200 also contains all questions longer than 200 tokens.\n\nQuestion: What is the highest count recorded in the graph titled 'Length of answer, training set'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

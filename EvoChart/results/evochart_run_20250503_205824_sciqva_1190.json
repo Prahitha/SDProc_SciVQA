@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "53d2d4ca63cae34ed5673ff301070ef9",
+        "question": "What is the maximum desired length that models were trained with?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The performance of models with different desired length. Att2in+BSx is Att2in+fixLen with beam size x.\n\nQuestion: What is the maximum desired length that models were trained with?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '5'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "6bfb28d171ba85dd11136dc57df7b4a7",
+        "question": "What is the average accuracy of the Att2in+BS5 model when the desired length is 15?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "11972754c9e6dd674ac5b8d8653bebed",
+        "question": "What is the value of the blue line at \u03bb = 0.5?",
+        "answer_pred": "0.22",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Character/word error rates for code-switched Hindi-English specific to different \u03bb values.\n\nQuestion: What is the value of the blue line at \u03bb = 0.5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "a7d92575a3297cfe4b1fcea5398ad2b2",
+        "question": "How many different entities are compared in figure 1?",
+        "answer_pred": "3",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Character/word error rates for code-switched Hindi-English specific to different \u03bb values.\n\nQuestion: How many different entities are compared in figure 1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f4949798d6b3525258433853db400948",
+        "question": "Does the green line representing 'WER without LM' reach a value higher than 120 at any point on the x-axis?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Character/word error rates for code-switched Hindi-English specific to different \u03bb values.\n\nQuestion: Does the green line representing 'WER without LM' reach a value higher than 120 at any point on the x-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "7262e3a3b4c4b3388bb24dcf16642a51",
+        "question": "Does the figure show that the character error rates (CER) are always higher than word error rates (WER)?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Character/word error rates for code-switched Hindi-English specific to different \u03bb values.\n\nQuestion: Does the figure show that the character error rates (CER) are always higher than word error rates (WER)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "193a69a546548ba24bb964ec1f62504d",
+        "question": "Considering the line colors in Figure 1, which of the following statements are true regarding the maximum error rate for each category at different \u03bb values?  Select all that apply.",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Character/word error rates for code-switched Hindi-English specific to different \u03bb values.\n\nQuestion: Considering the line colors in Figure 1, which of the following statements are true regarding the maximum error rate for each category at different \u03bb values?  Select all that apply.\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': \"The red line ('WER with LM') shows a consistently decreasing error rate as \u03bb increases.\"}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "9d6a1e317363ddb3809a10ab67126ef6",
+        "question": "Based on Figure 1's caption and data, which of the following statements are true regarding character/word error rates in code-switched Hindi-English?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Character/word error rates for code-switched Hindi-English specific to different \u03bb values.\n\nQuestion: Based on Figure 1's caption and data, which of the following statements are true regarding character/word error rates in code-switched Hindi-English?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The Language Model (LM) consistently reduces both CER and WER across all \u03bb values.'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "e580c218a929f9c099d069828d85679c",
+        "question": "What is the highest Character Accuracy for Hindi-English code-switched speech recognition, considering the use of a Language Model (LM)? ",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "eeb703baa0566fa4be10d5e62450dccf",
+        "question": "What is the label of the node directly above the node labeled 'POS'?",
+        "answer_pred": "FR",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Bayesian Network for MWE identification\n\nQuestion: What is the label of the node directly above the node labeled 'POS'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

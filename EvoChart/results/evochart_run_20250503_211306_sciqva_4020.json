@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "d7a4806a0c643a1b966d246b30db3375",
+        "question": "What color are the dots representing 'det' dependencies?",
+        "answer_pred": "green",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Syntactic difference vectors visualized after dimensionality reduction with PCA, instead of t-SNE, colored by UD dependency types. There are no significant trends evident.\n\nQuestion: What color are the dots representing 'det' dependencies?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "d675ce2f8bf5ee08970a78e29ab674ee",
+        "question": "How many dependency types are represented in figure 9?",
+        "answer_pred": "3",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Syntactic difference vectors visualized after dimensionality reduction with PCA, instead of t-SNE, colored by UD dependency types. There are no significant trends evident.\n\nQuestion: How many dependency types are represented in figure 9?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b6bcd4c57bfd79e5391adf78b8b06d09",
+        "question": "Are most dots concentrated in the center of the figure?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Syntactic difference vectors visualized after dimensionality reduction with PCA, instead of t-SNE, colored by UD dependency types. There are no significant trends evident.\n\nQuestion: Are most dots concentrated in the center of the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "b262ea7f3ba5be957eec191c112b3d5a",
+        "question": "Can dependency types be neatly separated into disjoint clusters in figure 9?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Syntactic difference vectors visualized after dimensionality reduction with PCA, instead of t-SNE, colored by UD dependency types. There are no significant trends evident.\n\nQuestion: Can dependency types be neatly separated into disjoint clusters in figure 9?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "934846f717b0740ec1a75fb84faff7f8",
+        "question": "Which color represents 'conj' dependency type in the scatter plot?",
+        "answer_pred": "orange",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Syntactic difference vectors visualized after dimensionality reduction with PCA, instead of t-SNE, colored by UD dependency types. There are no significant trends evident.\n\nQuestion: Which color represents 'conj' dependency type in the scatter plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Brown'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "650b5ee98c27ed6f9400c43de49b03a3",
+        "question": "Which of the following does the figure include?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Syntactic difference vectors visualized after dimensionality reduction with PCA, instead of t-SNE, colored by UD dependency types. There are no significant trends evident.\n\nQuestion: Which of the following does the figure include?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Graph title'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "a11b5bb137c117be2ce517654b914c0a",
+        "question": "What is the specific dataset used for this dimensionality reduction analysis?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "2f2eed066c8c38ce04a29eae50d9313b",
+        "question": "What shape are the markers in the scatter plot?",
+        "answer_pred": "Circle",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Plot of total correct answers vs. IRT scores.\n\nQuestion: What shape are the markers in the scatter plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b0af498dd01d44c9d2f7e8750f329c53",
+        "question": "What is the highest value for total correct answers shown on the x-axis?",
+        "answer_pred": "11",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Plot of total correct answers vs. IRT scores.\n\nQuestion: What is the highest value for total correct answers shown on the x-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "50fc7fdfb6622e0faeb0e455f57bc614",
+        "question": "Are the points on the plot mostly clustered around a diagonal line?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Plot of total correct answers vs. IRT scores.\n\nQuestion: Are the points on the plot mostly clustered around a diagonal line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

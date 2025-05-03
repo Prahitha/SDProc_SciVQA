@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "316de5837265b1d526a49c2532e3bc76",
+        "question": "Does the y-axis represent the BLUE scores?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10. Scatter plot showing log-probability and BLEU of samples drawn from the model for four sentences taken from the test set of WMT\u201914 En-Fr (each color corresponds to a different test sentence). (1) shows samples where the model copied the source sentence, yielding very large likelihood but low BLEU. (2) and (3) are valid translations of the same source sentence, except that (2) is a cluster of samples using different choice of words.\n\nQuestion: Does the y-axis represent the BLUE scores?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "ddf734f47abf0877bffbc83b0aaccbb0",
+        "question": "What is the colour of the data points representing Sent #410?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10. Scatter plot showing log-probability and BLEU of samples drawn from the model for four sentences taken from the test set of WMT\u201914 En-Fr (each color corresponds to a different test sentence). (1) shows samples where the model copied the source sentence, yielding very large likelihood but low BLEU. (2) and (3) are valid translations of the same source sentence, except that (2) is a cluster of samples using different choice of words.\n\nQuestion: What is the colour of the data points representing Sent #410?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'purple'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "a36827e0c773b0741296af8952aea795",
+        "question": "What is the log-probability for the Sent #115 with the highest BLUE score?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10. Scatter plot showing log-probability and BLEU of samples drawn from the model for four sentences taken from the test set of WMT\u201914 En-Fr (each color corresponds to a different test sentence). (1) shows samples where the model copied the source sentence, yielding very large likelihood but low BLEU. (2) and (3) are valid translations of the same source sentence, except that (2) is a cluster of samples using different choice of words.\n\nQuestion: What is the log-probability for the Sent #115 with the highest BLUE score?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Between -3 and -4'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "93131912443fe46a46961d4925f4964e",
+        "question": "What is the specific source sentence corresponding to the samples labeled (1) in Figure 10?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "58302f7e9549d395a41d38cb97fb104a",
+        "question": "Which color represents sentence representations from the domain of 'subtitles'?",
+        "answer_pred": "blue",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: A 2D visualization of average-pooled BERT hidden-state sentence representations using PCA. The colors represent the domain for each sentence.\n\nQuestion: Which color represents sentence representations from the domain of 'subtitles'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "cdcaef1a1d348726325c0b997a09b12a",
+        "question": "How many different domains are represented in the visualization?",
+        "answer_pred": "4",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: A 2D visualization of average-pooled BERT hidden-state sentence representations using PCA. The colors represent the domain for each sentence.\n\nQuestion: How many different domains are represented in the visualization?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "70a575465e6b5ae99f340992c36c7d13",
+        "question": "Are the blue circles clustered more closely together than the red circles?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: A 2D visualization of average-pooled BERT hidden-state sentence representations using PCA. The colors represent the domain for each sentence.\n\nQuestion: Are the blue circles clustered more closely together than the red circles?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e500844611de41d3d69aadc6891e4ac1",
+        "question": "Is one of the domains represented in the graph 'food'?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: A 2D visualization of average-pooled BERT hidden-state sentence representations using PCA. The colors represent the domain for each sentence.\n\nQuestion: Is one of the domains represented in the graph 'food'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a84835bdf73ef21bd386cc6f07230550",
+        "question": "With what colour is the domain 'koran' represented?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: A 2D visualization of average-pooled BERT hidden-state sentence representations using PCA. The colors represent the domain for each sentence.\n\nQuestion: With what colour is the domain 'koran' represented?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'green'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "e4ceadff3b25b254f7f21d17cbe197ac",
+        "question": "Which domains are represented in the visualization?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: A 2D visualization of average-pooled BERT hidden-state sentence representations using PCA. The colors represent the domain for each sentence.\n\nQuestion: Which domains are represented in the visualization?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'it, koren, subtitles, law'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "da4fe68b969759835acfd560f456c67e",
+        "question": "What is the colour of the boxes represented in the graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Figure of box plots for different inference iterations i and m = 1000, T = 100,  = 50/T ,  = 0.1, r = 1 .\n\nQuestion: What is the colour of the boxes represented in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'blue'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "f1c4e2c885b41c624d8e32e31da0be07",
+        "question": "At which iteration number is the median P_k value the highest?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Figure of box plots for different inference iterations i and m = 1000, T = 100,  = 50/T ,  = 0.1, r = 1 .\n\nQuestion: At which iteration number is the median P_k value the highest?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '10'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "e5a92fe20228e136b5c7c57fec50da32",
+        "question": "What is the specific research question being addressed by this box plot, and how does the observed trend in P_k values relate to the underlying hypothesis?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "5099ca70935468ff8b6d15603c69f277",
+        "question": "What is the color of the 'HardWEAT' violin plot?",
+        "answer_pred": "green",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2: Classifier Bias on (islam, christianity)\n\nQuestion: What is the color of the 'HardWEAT' violin plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "1d93d5815bab4ea7adc7eae2911bb868",
+        "question": "What does the y-axis represent?",
+        "answer_pred": "Pollution Level",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2: Classifier Bias on (islam, christianity)\n\nQuestion: What does the y-axis represent?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "ff250a6cc5b44b99d82bf3d22cb8b986",
+        "question": "Is the blue violin taller than the black violin for the 'FastText' category?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2: Classifier Bias on (islam, christianity)\n\nQuestion: Is the blue violin taller than the black violin for the 'FastText' category?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8b00cd66d8d02fcac8ca61e6587d4c13",
+        "question": "Are more than 3 different models used for classification?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2: Classifier Bias on (islam, christianity)\n\nQuestion: Are more than 3 different models used for classification?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "4261b33326e011455ebb4f9b54e87789",
+        "question": "With what colour is 'Regular' represented in the plot?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2: Classifier Bias on (islam, christianity)\n\nQuestion: With what colour is 'Regular' represented in the plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Blue'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "b646ab07ed49a44e02922069e445dac9",
+        "question": "Which of the following models are used in the experiment?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2: Classifier Bias on (islam, christianity)\n\nQuestion: Which of the following models are used in the experiment?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Word2Vec'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "98aaa6446edbbe9967f67be25c3334f4",
+        "question": "What is the specific dataset used to train the classifiers in Figure 2?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "7719f7db9f6bc3e73e151c404b669ed0",
+        "question": "Which line represents UDify?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: A plot of LAS between with respect to the number of training sentences in each treebank.\n\nQuestion: Which line represents UDify?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'the green line with circle markers'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "4d89947ba4f64304895c51508bde62c6",
+        "question": "Which of the following is a method of analysis used in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: A plot of LAS between with respect to the number of training sentences in each treebank.\n\nQuestion: Which of the following is a method of analysis used in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Train Sentences'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "44cf9862f7ca477d336d23e1dcc78c3c",
+        "question": "What is the average LAS score for UDPipe Future when trained on 1000 sentences?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "e70265d58f4ff74c5f1a33e6fed6bb0a",
+        "question": "What is the maximum value on the Y-axis of the graph in the bottom-right part?",
+        "answer_pred": "1.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Scores of (a) Homogeneity, (b) Completeness, (c) Coverage and (d) V-Measure are provided to compare News based communities with Social Media communities. Here we used Ypred and Ygr derived in algorithm 2 as our cluster label and classes. Completeness measures how members of a given class are assigned to the same cluster, while homogeneity measures how each cluster contains only members of a single class. Their harmonic mean is the V-Measure [64].\n\nQuestion: What is the maximum value on the Y-axis of the graph in the bottom-right part?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "e889b8ddfaff98ce45c7ddd2f0b6c14f",
+        "question": "What is the maximum v-measure reached?",
+        "answer_pred": "0.83",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Scores of (a) Homogeneity, (b) Completeness, (c) Coverage and (d) V-Measure are provided to compare News based communities with Social Media communities. Here we used Ypred and Ygr derived in algorithm 2 as our cluster label and classes. Completeness measures how members of a given class are assigned to the same cluster, while homogeneity measures how each cluster contains only members of a single class. Their harmonic mean is the V-Measure [64].\n\nQuestion: What is the maximum v-measure reached?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "2830f9d204d2f29ee6b86784aada768a",
+        "question": "Does the line representing Completeness in the top right figure reach a peak higher than 0.96?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Scores of (a) Homogeneity, (b) Completeness, (c) Coverage and (d) V-Measure are provided to compare News based communities with Social Media communities. Here we used Ypred and Ygr derived in algorithm 2 as our cluster label and classes. Completeness measures how members of a given class are assigned to the same cluster, while homogeneity measures how each cluster contains only members of a single class. Their harmonic mean is the V-Measure [64].\n\nQuestion: Does the line representing Completeness in the top right figure reach a peak higher than 0.96?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "27c1e3eeb73c4ff5067b8d06498fff02",
+        "question": "Do all y-axes have the same range of values?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Scores of (a) Homogeneity, (b) Completeness, (c) Coverage and (d) V-Measure are provided to compare News based communities with Social Media communities. Here we used Ypred and Ygr derived in algorithm 2 as our cluster label and classes. Completeness measures how members of a given class are assigned to the same cluster, while homogeneity measures how each cluster contains only members of a single class. Their harmonic mean is the V-Measure [64].\n\nQuestion: Do all y-axes have the same range of values?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "abacac9dbc79db147fb122f8d3b91fe8",
+        "question": "Which graph shows the 'Completeness' score for News based communities?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Scores of (a) Homogeneity, (b) Completeness, (c) Coverage and (d) V-Measure are provided to compare News based communities with Social Media communities. Here we used Ypred and Ygr derived in algorithm 2 as our cluster label and classes. Completeness measures how members of a given class are assigned to the same cluster, while homogeneity measures how each cluster contains only members of a single class. Their harmonic mean is the V-Measure [64].\n\nQuestion: Which graph shows the 'Completeness' score for News based communities?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Bottom-right plot'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "eb1ddb108991eb9db6eeb9f919ca4218",
+        "question": "Which metric starts with a higher value than it ends with?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Scores of (a) Homogeneity, (b) Completeness, (c) Coverage and (d) V-Measure are provided to compare News based communities with Social Media communities. Here we used Ypred and Ygr derived in algorithm 2 as our cluster label and classes. Completeness measures how members of a given class are assigned to the same cluster, while homogeneity measures how each cluster contains only members of a single class. Their harmonic mean is the V-Measure [64].\n\nQuestion: Which metric starts with a higher value than it ends with?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Homogeneity'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "fd74dd5b22715823288a59e4bfea7ac5",
+        "question": "What is the specific algorithm used to generate the cluster labels Ypred and Ygr?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

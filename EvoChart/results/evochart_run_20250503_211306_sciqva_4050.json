@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "ad313be3a0df5e7edfe5bdf2406a52a1",
+        "question": "Are the yellow and green clusters located on the left side of the image for the model bert-large-cased?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: 2D visualizations of the unsupervised GMM-based clustering for different pretrained MLMs.\n\nQuestion: Are the yellow and green clusters located on the left side of the image for the model bert-large-cased?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "9cb71211fe592cd34e30d63abc28ddd0",
+        "question": "Are the koran and law clusters mostly disjoint for roberta-large?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: 2D visualizations of the unsupervised GMM-based clustering for different pretrained MLMs.\n\nQuestion: Are the koran and law clusters mostly disjoint for roberta-large?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "53e53c939120ded22963745259be2761",
+        "question": "Which of the following colors represents the cluster 'medical' in the visualization for 'roberta-large'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: 2D visualizations of the unsupervised GMM-based clustering for different pretrained MLMs.\n\nQuestion: Which of the following colors represents the cluster 'medical' in the visualization for 'roberta-large'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Yellow'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "941d5bc06b6935a479d114931f199d12",
+        "question": "Which pretrained MLMs are compared in Figure 6?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: 2D visualizations of the unsupervised GMM-based clustering for different pretrained MLMs.\n\nQuestion: Which pretrained MLMs are compared in Figure 6?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'roberta-large and distilbert-base-uncased'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "ed845cc41ddf5d7f2c31f395b874c5d6",
+        "question": "What is the specific dataset used for training the MLMs in Figure 6?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "ad40600b39814b99d5d7f9492f4c3495",
+        "question": "What is the color of the line representing the 'Transformer' model in the bottom left scatter-plot?",
+        "answer_pred": "Blue",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The top row shows the results of the linear mixed effects regression analysis grouped by LM type. These scatter-plots show the resulting goodness-of-fit values plotted against the average surprisal over the included test data. The bottom row shows the smooths resulting from the GAMs fitted on the goodness-of-fit data, with their 95% confidence intervals.\n\nQuestion: What is the color of the line representing the 'Transformer' model in the bottom left scatter-plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "2c6cb268395878aef18c7059b6ed5c4d",
+        "question": "What is the maximum value of goodness-of-fit score for N400 size for any LM?",
+        "answer_pred": "0.99",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The top row shows the results of the linear mixed effects regression analysis grouped by LM type. These scatter-plots show the resulting goodness-of-fit values plotted against the average surprisal over the included test data. The bottom row shows the smooths resulting from the GAMs fitted on the goodness-of-fit data, with their 95% confidence intervals.\n\nQuestion: What is the maximum value of goodness-of-fit score for N400 size for any LM?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "10f16be5bb1fdd2c0312d4112de0dd05",
+        "question": "Is the red line in the bottom middle plot consistently higher than the blue line?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The top row shows the results of the linear mixed effects regression analysis grouped by LM type. These scatter-plots show the resulting goodness-of-fit values plotted against the average surprisal over the included test data. The bottom row shows the smooths resulting from the GAMs fitted on the goodness-of-fit data, with their 95% confidence intervals.\n\nQuestion: Is the red line in the bottom middle plot consistently higher than the blue line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "9136e55c607039a028084a8009211bd2",
+        "question": "Does goodness-of-fit score increase with average log probability for self paced reading time?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The top row shows the results of the linear mixed effects regression analysis grouped by LM type. These scatter-plots show the resulting goodness-of-fit values plotted against the average surprisal over the included test data. The bottom row shows the smooths resulting from the GAMs fitted on the goodness-of-fit data, with their 95% confidence intervals.\n\nQuestion: Does goodness-of-fit score increase with average log probability for self paced reading time?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "2aee0def2cd9690fcbdf6d3f4b3a1b16",
+        "question": "What shape marker represents GRU?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The top row shows the results of the linear mixed effects regression analysis grouped by LM type. These scatter-plots show the resulting goodness-of-fit values plotted against the average surprisal over the included test data. The bottom row shows the smooths resulting from the GAMs fitted on the goodness-of-fit data, with their 95% confidence intervals.\n\nQuestion: What shape marker represents GRU?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'X'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

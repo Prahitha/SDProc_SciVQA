@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "cbf8b17e4a59cedd9cac35ce145a2689",
+        "question": "What is the specific value of \u03b1 used in the experiment depicted in Figure 4?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "60550fa26b0430ebfecfbb1f0b7a3f2e",
+        "question": "In the first graph, what is the value of the red line at epoch 50?",
+        "answer_pred": "0.89",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. The training and validation loss and accuracy over 50 epochs of training\n\nQuestion: In the first graph, what is the value of the red line at epoch 50?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "705d2d8952c7ff6a3fd963e5f2b6f740",
+        "question": "What is the maximum number of epochs for which the model was trained?",
+        "answer_pred": "50",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. The training and validation loss and accuracy over 50 epochs of training\n\nQuestion: What is the maximum number of epochs for which the model was trained?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "aa0fa219142bf6c5dec8df34c4428b76",
+        "question": "Does the blue line representing 'Train loss' decrease consistently over the 50 epochs?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. The training and validation loss and accuracy over 50 epochs of training\n\nQuestion: Does the blue line representing 'Train loss' decrease consistently over the 50 epochs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "21aaa65b097f73b2a590e8800adc8ea8",
+        "question": "Did the training accuracy decrease over 50 epochs?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. The training and validation loss and accuracy over 50 epochs of training\n\nQuestion: Did the training accuracy decrease over 50 epochs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "fb4f0276ec76e79c50055038d7feaf11",
+        "question": "What is the approximate value of the red line at the end of training (50 epochs) in the right graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. The training and validation loss and accuracy over 50 epochs of training\n\nQuestion: What is the approximate value of the red line at the end of training (50 epochs) in the right graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0.975'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "d45b418c7910de51c83af6c626088a86",
+        "question": "What is the lower loss that train loss achieves?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. The training and validation loss and accuracy over 50 epochs of training\n\nQuestion: What is the lower loss that train loss achieves?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0.0050'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "0442e26438dd64c9d62dead06cf16692",
+        "question": "What is the specific dataset used in this model training?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "391d27968818de6f0e60dae631923bc5",
+        "question": "What is the precision value of the red line at a recall value of approximately 0.9?",
+        "answer_pred": "0.87",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 4. The Precicion-Recall curve of different algorithms on NYT and GDS datasets\n\nQuestion: What is the precision value of the red line at a recall value of approximately 0.9?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "74de501f4519c73aedefabbce0b67063",
+        "question": "Which metrics are tested?",
+        "answer_pred": "Precision and Recall",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 4. The Precicion-Recall curve of different algorithms on NYT and GDS datasets\n\nQuestion: Which metrics are tested?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

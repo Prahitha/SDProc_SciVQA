@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "651ab97625addaf3ffd489d40a1114de",
+        "question": "Does the interannotator agreement for sarcasm trigrams increase as the number of annotators increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Interannotator Agreement for sarcasm trigrams\n\nQuestion: Does the interannotator agreement for sarcasm trigrams increase as the number of annotators increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "c582fa1b14b4a3fed0449daae4748b5f",
+        "question": "What is the approximate number of annotators where the blue line crosses the the horizontal line intersecting the y-axis at 0.4?",
+        "answer_pred": "40",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Interannotator Agreement for sarcasm trigrams\n\nQuestion: What is the approximate number of annotators where the blue line crosses the the horizontal line intersecting the y-axis at 0.4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '40'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "6af27ebb6cc20417906ef0ab4e594e3c",
+        "question": "What is the difference in number of annotators between consecutive markings on the x axis?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Interannotator Agreement for sarcasm trigrams\n\nQuestion: What is the difference in number of annotators between consecutive markings on the x axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '10'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "78a10d3a8b725bef27ddf504e008b565",
+        "question": "From what dataset do the values in figure 3 come from?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "061135614d3d721ec075f1d5b3c3d11b",
+        "question": "What is the approximate value of the Euclidean distance of the pink line at timestep 10,000?",
+        "answer_pred": "0.0012",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Learning curves obtained by BERT-base model trained with different objective shifting rate k on CoLA task. We measure the knowledge forgetting by the Euclidean distance between the weights of the fine-tuning model and the pretrained model. With smaller k, the model achieves less knowledge forgetting from the source tasks while it takes more timesteps to converge on the target task.\n\nQuestion: What is the approximate value of the Euclidean distance of the pink line at timestep 10,000?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "4fd2410cb1ee473cb9ba81334a1e2357",
+        "question": "How many learning steps are displayed in the plots of figure 2?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Learning curves obtained by BERT-base model trained with different objective shifting rate k on CoLA task. We measure the knowledge forgetting by the Euclidean distance between the weights of the fine-tuning model and the pretrained model. With smaller k, the model achieves less knowledge forgetting from the source tasks while it takes more timesteps to converge on the target task.\n\nQuestion: How many learning steps are displayed in the plots of figure 2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "fb8b1a71176d531deeeba5878cb39be5",
+        "question": "Does the blue line in the right graph (labeled k=0) reach a Euclidean distance greater than 10?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Learning curves obtained by BERT-base model trained with different objective shifting rate k on CoLA task. We measure the knowledge forgetting by the Euclidean distance between the weights of the fine-tuning model and the pretrained model. With smaller k, the model achieves less knowledge forgetting from the source tasks while it takes more timesteps to converge on the target task.\n\nQuestion: Does the blue line in the right graph (labeled k=0) reach a Euclidean distance greater than 10?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "29832a2542666c595d2fd9a522ce08f4",
+        "question": "Does target loss consistently decrease from every timestep to the next for every k?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Learning curves obtained by BERT-base model trained with different objective shifting rate k on CoLA task. We measure the knowledge forgetting by the Euclidean distance between the weights of the fine-tuning model and the pretrained model. With smaller k, the model achieves less knowledge forgetting from the source tasks while it takes more timesteps to converge on the target task.\n\nQuestion: Does target loss consistently decrease from every timestep to the next for every k?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "cbbd7e0b5f8441c3f30abeecd078dbd3",
+        "question": "Which line in the right figure represents the smallest nonzero value for k (objective shifting rate)?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Learning curves obtained by BERT-base model trained with different objective shifting rate k on CoLA task. We measure the knowledge forgetting by the Euclidean distance between the weights of the fine-tuning model and the pretrained model. With smaller k, the model achieves less knowledge forgetting from the source tasks while it takes more timesteps to converge on the target task.\n\nQuestion: Which line in the right figure represents the smallest nonzero value for k (objective shifting rate)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Green'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "a4be3df150c4d5b0fe1d355154b18459",
+        "question": "What is the maximum shifting rate k represented in figure 2?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Learning curves obtained by BERT-base model trained with different objective shifting rate k on CoLA task. We measure the knowledge forgetting by the Euclidean distance between the weights of the fine-tuning model and the pretrained model. With smaller k, the model achieves less knowledge forgetting from the source tasks while it takes more timesteps to converge on the target task.\n\nQuestion: What is the maximum shifting rate k represented in figure 2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'k=\u221e'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "7922b4481587915b41d827e016e8ba97",
+        "question": "In the left plot, what is the value of the solid line labeled 'd_f' approximately at the x-axis value of 0.75?",
+        "answer_pred": "0.01",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Entrainment profiles for the feature set gnl f0 for proximity (left) and synchrony (right). For this feature set these two entrainment measures behave very differently. For details please see the caption of Figure 5.\n\nQuestion: In the left plot, what is the value of the solid line labeled 'd_f' approximately at the x-axis value of 0.75?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "97ebef7420a208fe138cc919a1060a49",
+        "question": "What is represented at the highest point on the y-axis?",
+        "answer_pred": "std",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Entrainment profiles for the feature set gnl f0 for proximity (left) and synchrony (right). For this feature set these two entrainment measures behave very differently. For details please see the caption of Figure 5.\n\nQuestion: What is represented at the highest point on the y-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "23f19520c7592ee15c16bc3aeb5a75f9",
+        "question": "Is 'f_f' represented by a dotted line?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Entrainment profiles for the feature set gnl f0 for proximity (left) and synchrony (right). For this feature set these two entrainment measures behave very differently. For details please see the caption of Figure 5.\n\nQuestion: Is 'f_f' represented by a dotted line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "c98b481ba6bff72141cfc2821ab920b8",
+        "question": "Is 'j_j' on the entrainment profile categories represented in the figure?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Entrainment profiles for the feature set gnl f0 for proximity (left) and synchrony (right). For this feature set these two entrainment measures behave very differently. For details please see the caption of Figure 5.\n\nQuestion: Is 'j_j' on the entrainment profile categories represented in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "ca4fda3a4153a9fad6fd72042a97934d",
+        "question": "Which of the following is represented by the solid grey line?",
+        "answer_pred": "d",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Entrainment profiles for the feature set gnl f0 for proximity (left) and synchrony (right). For this feature set these two entrainment measures behave very differently. For details please see the caption of Figure 5.\n\nQuestion: Which of the following is represented by the solid grey line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'u'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "983601a05827aebb5f71e2e307153f07",
+        "question": "How many different entrainment profile categories are represented in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Entrainment profiles for the feature set gnl f0 for proximity (left) and synchrony (right). For this feature set these two entrainment measures behave very differently. For details please see the caption of Figure 5.\n\nQuestion: How many different entrainment profile categories are represented in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '1'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "e7fbf5788d4d3e1bc378317f1b11f022",
+        "question": "What are the specific values of the entrainment measures for the feature set gnl f0 at a proximity of 0.75?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "2db104ddc9e32883aa192672587530d7",
+        "question": "What is the approximate value of the orange line at 1.0 steps in the left graph?",
+        "answer_pred": "0.9999999999999999",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Cosine similarity between the gradients issued from LINT and LCEpretrain. The collapse of the BLEU En matches the negative cosine similarity.We here set \u03b1 = 0.5 but similar values yield identical behavior as shown in Figure 4 in Appendix.\n\nQuestion: What is the approximate value of the orange line at 1.0 steps in the left graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "4cc8011a173ae3b8b17321b665b3166a",
+        "question": "What is the title of graph (b)?",
+        "answer_pred": "Cosine Similarity between LINT and LCEpretrain",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Cosine similarity between the gradients issued from LINT and LCEpretrain. The collapse of the BLEU En matches the negative cosine similarity.We here set \u03b1 = 0.5 but similar values yield identical behavior as shown in Figure 4 in Appendix.\n\nQuestion: What is the title of graph (b)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "d2e7e72a9fd4fa4b2552ecd2c535e0e0",
+        "question": "Does the orange line in the right graph, labelled 'SSIL', mostly remain above the blue line?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Cosine similarity between the gradients issued from LINT and LCEpretrain. The collapse of the BLEU En matches the negative cosine similarity.We here set \u03b1 = 0.5 but similar values yield identical behavior as shown in Figure 4 in Appendix.\n\nQuestion: Does the orange line in the right graph, labelled 'SSIL', mostly remain above the blue line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "3f8f534fa390efa35106a340a63ba8e1",
+        "question": "In which graph is the cofidence interval for 'Humans + perfect metric' not the shortest?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: 80% bootstrap confidence interval length as a function of the number of human judgments used when evaluating the indicated systems on their respective datasets and prompts. (a) We see a modest reduction in variance (and hence cost) relative to human evaluation by using the VecSim automatic metric with the proposed control variates estimator to estimate Overall scores on the CNN/Daily Mail task; the data efficiency (DE) is 1.06. (b) By improving the evaluation prompt to use Edits instead, it is possible to further reduce variance relative to humans (DE is 1.15). (c) Another way to reduce variance relative to humans is to improve the automatic metric evaluation; here using ROUGE-1 instead of VecSim improves the DE from 1.03 to 1.16.\n\nQuestion: In which graph is the cofidence interval for 'Humans + perfect metric' not the shortest?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "7d121ce0dbb16ac151f4ed97006eaf57",
+        "question": "How many data points do the plots in figure 6 feature?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "f17e74ed5ce0bb0989001a6d041a10e4",
+        "question": "What is the approximate value of the red line at 35 degrees Celsius on the left panel?",
+        "answer_pred": "1.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Twitter user-level analyses for all message types. Panels (a) and (b) replicate the main text analyses for Twitter user-level data. Shaded error bounds represent 95% confidence intervals.\n\nQuestion: What is the approximate value of the red line at 35 degrees Celsius on the left panel?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "6254df0cf219d4ef09bf6cafdb4feff7",
+        "question": "What is the minimum (most negative) value marked on the y axes of the plots of figure 1?",
+        "answer_pred": "-0.01",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Twitter user-level analyses for all message types. Panels (a) and (b) replicate the main text analyses for Twitter user-level data. Shaded error bounds represent 95% confidence intervals.\n\nQuestion: What is the minimum (most negative) value marked on the y axes of the plots of figure 1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "bc39d0cebd93bd0e9255ef47e7ee2021",
+        "question": "Does the orange line in panel (a) have a higher value than the blue line at the x-axis value of 25?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Twitter user-level analyses for all message types. Panels (a) and (b) replicate the main text analyses for Twitter user-level data. Shaded error bounds represent 95% confidence intervals.\n\nQuestion: Does the orange line in panel (a) have a higher value than the blue line at the x-axis value of 25?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "154ff02eeebd01c98c2b403d28622ec4",
+        "question": "Does the change in sentiment consistnetly increase with precipitation for any message type?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Twitter user-level analyses for all message types. Panels (a) and (b) replicate the main text analyses for Twitter user-level data. Shaded error bounds represent 95% confidence intervals.\n\nQuestion: Does the change in sentiment consistnetly increase with precipitation for any message type?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "ab5ea4a9f0fe92bedade9873bc00e173",
+        "question": "The panel on which side shows the trend of 'Percentage Point Change in Sentiment' with varying 'Max. Temperature' ?",
+        "answer_pred": "A",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Twitter user-level analyses for all message types. Panels (a) and (b) replicate the main text analyses for Twitter user-level data. Shaded error bounds represent 95% confidence intervals.\n\nQuestion: The panel on which side shows the trend of 'Percentage Point Change in Sentiment' with varying 'Max. Temperature' ?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither the panel on the left nor the panel on the right'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "eef10b5497944703f27258dc396b683a",
+        "question": "Which message types are shown in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Twitter user-level analyses for all message types. Panels (a) and (b) replicate the main text analyses for Twitter user-level data. Shaded error bounds represent 95% confidence intervals.\n\nQuestion: Which message types are shown in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "2ca854c32c6792e22536c8f6109eed5b",
+        "question": "Where did the data used for the analysis in figure 1 come from?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "417bfd086322cedd56f86375e1f5bd65",
+        "question": "What is the value of the orange line at \"Medium\" COMPRESSION?",
+        "answer_pred": "0.52",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The position and content attribution on CNN/DM, the test set is broken down based on COMPRESSION.\n\nQuestion: What is the value of the orange line at \"Medium\" COMPRESSION?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

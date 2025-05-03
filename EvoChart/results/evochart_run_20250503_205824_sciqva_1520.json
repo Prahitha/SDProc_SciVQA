@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "bb49f3f70bf892f2db6c3084da3e9c4a",
+        "question": "What is the average accuracy of the annotators on the first 100 examples of the NLI hidden unanimous examples?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "6d9b35adbb0151216b48f63508e61730",
+        "question": "What is the approximate value of the green marker at the highest point of the green line in the top figure?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Mean development set results for the tasks PARSE and SENTI. \u2018mean\u2019 and \u2019mean+\u2019 stand for mean results across all single context types and context concatenations, respectively.\n\nQuestion: What is the approximate value of the green marker at the highest point of the green line in the top figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f048d883f7c63547e6144c07e85c839b",
+        "question": "What does the x-axis represent?",
+        "answer_pred": "Dimension",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Mean development set results for the tasks PARSE and SENTI. \u2018mean\u2019 and \u2019mean+\u2019 stand for mean results across all single context types and context concatenations, respectively.\n\nQuestion: What does the x-axis represent?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "866a78326a0b3fed98c11041c83b10a3",
+        "question": "Does the blue line in the top graph reach a higher value than the green line?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Mean development set results for the tasks PARSE and SENTI. \u2018mean\u2019 and \u2019mean+\u2019 stand for mean results across all single context types and context concatenations, respectively.\n\nQuestion: Does the blue line in the top graph reach a higher value than the green line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "784342c20172c0f9f7d1f6810cac2b92",
+        "question": "Is the highest value 'mean+' reaches for SENTI lower than 76?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Mean development set results for the tasks PARSE and SENTI. \u2018mean\u2019 and \u2019mean+\u2019 stand for mean results across all single context types and context concatenations, respectively.\n\nQuestion: Is the highest value 'mean+' reaches for SENTI lower than 76?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "1ae48d2c5f0bf549784a3f347e025a1a",
+        "question": "What is the approximate value of the blue line at the highest point of the top figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Mean development set results for the tasks PARSE and SENTI. \u2018mean\u2019 and \u2019mean+\u2019 stand for mean results across all single context types and context concatenations, respectively.\n\nQuestion: What is the approximate value of the blue line at the highest point of the top figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '87.5'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "00f4d7697c401464878df12e85a88fba",
+        "question": "What general trend is observed in accuracy as the number of dimensions increases in both PARSE and SENTI tasks?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Mean development set results for the tasks PARSE and SENTI. \u2018mean\u2019 and \u2019mean+\u2019 stand for mean results across all single context types and context concatenations, respectively.\n\nQuestion: What general trend is observed in accuracy as the number of dimensions increases in both PARSE and SENTI tasks?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Accuracy fluctuates randomly'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "482fce93db62eaddbca12b57560114c9",
+        "question": "What is the average accuracy for the 'mean+' result on the SENTI task with 200 dimensions?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "d130669337fc9cdc99e4686465ed145f",
+        "question": "What is the approximate value of the solid blue line at 100 epochs?",
+        "answer_pred": "92.5",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. The percentage of correct logical form returned for training as the number of epoch increases.\n\nQuestion: What is the approximate value of the solid blue line at 100 epochs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b7be98bbf3170707736adc0ab9bd9b86",
+        "question": "What is approximately the highest percentage of correct logical form returned for training with brackets?",
+        "answer_pred": "91",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. The percentage of correct logical form returned for training as the number of epoch increases.\n\nQuestion: What is approximately the highest percentage of correct logical form returned for training with brackets?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

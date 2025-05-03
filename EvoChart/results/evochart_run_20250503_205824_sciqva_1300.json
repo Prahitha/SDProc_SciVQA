@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "93b1662b5e2d2236ec9f407b5efbef48",
+        "question": "Is the TEXT-LEVEL of the 'cause' domain the same as the TEXT-LEVEL of the 'approve' domain?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Domain assignments\n\nQuestion: Is the TEXT-LEVEL of the 'cause' domain the same as the TEXT-LEVEL of the 'approve' domain?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "98e07203d2c8f05d2ec8311f2422aad0",
+        "question": "Which of the following values are associated with 'TEXT-LEVEL' in the topmost node in figure 5?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Domain assignments\n\nQuestion: Which of the following values are associated with 'TEXT-LEVEL' in the topmost node in figure 5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '1.2'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "38daa7bb592a22eee663bd07cbbbef3a",
+        "question": "How many 'nucleus' edges are in figure 5?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Domain assignments\n\nQuestion: How many 'nucleus' edges are in figure 5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '4'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "dc4ee08f643f89c8303f1b9fe62906ea",
+        "question": "What method is used to assign domains in figure 5?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "c94829196b36aaaeb96f89213eb48719",
+        "question": "What is the rightmost token shown in figure 3?",
+        "answer_pred": "umum",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3. Correct dependency tree for sentence Dia tidak malu bertanya di depan umum (He is not ashamed of asking questions in public)\n\nQuestion: What is the rightmost token shown in figure 3?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "e91658ded876c2ad0a3c86b4e52f9436",
+        "question": "What is the number assigned to the word 'malu'?",
+        "answer_pred": "2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3. Correct dependency tree for sentence Dia tidak malu bertanya di depan umum (He is not ashamed of asking questions in public)\n\nQuestion: What is the number assigned to the word 'malu'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "a0cee69379f34777c57ea08c7bb35cff",
+        "question": "Does the word 'malu' have two arrows pointing to it?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3. Correct dependency tree for sentence Dia tidak malu bertanya di depan umum (He is not ashamed of asking questions in public)\n\nQuestion: Does the word 'malu' have two arrows pointing to it?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "9cee95fadb1f27d0d906086cc5afd1a0",
+        "question": "Is the word 'malu' connected to 'bertanya'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3. Correct dependency tree for sentence Dia tidak malu bertanya di depan umum (He is not ashamed of asking questions in public)\n\nQuestion: Is the word 'malu' connected to 'bertanya'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "64389770b5836d88aee042f0f28f2946",
+        "question": "Which of the following words are to the right of 'di'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3. Correct dependency tree for sentence Dia tidak malu bertanya di depan umum (He is not ashamed of asking questions in public)\n\nQuestion: Which of the following words are to the right of 'di'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '<ROOT>'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "77116040d79a66af1e8e4b73b7aa26fe",
+        "question": "Which of the following words are connected to the <ROOT> node in the dependency tree?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3. Correct dependency tree for sentence Dia tidak malu bertanya di depan umum (He is not ashamed of asking questions in public)\n\nQuestion: Which of the following words are connected to the <ROOT> node in the dependency tree?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'bertanya'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

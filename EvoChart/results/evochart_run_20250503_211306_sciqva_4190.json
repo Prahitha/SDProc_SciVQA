@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "84bd52ade7ee314a307ee04fd12403b0",
+        "question": "Is the accuracy at constituent height 10 higher in the top graph than the accuracy at constituent height 10 in the bottom graph?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Accuracy breakdown w.r.t. constituent height in unbiased trees derived from the syntactic task distances in our model (top) and the language modeling distances (bottom). A constituent is considered as correct if its boundaries correspond to a true constituent. The constituents heights are those in the predicted tree. Since constituents that represent the whole sentence always have correct boundaries, they are excluded from the calculation.\n\nQuestion: Is the accuracy at constituent height 10 higher in the top graph than the accuracy at constituent height 10 in the bottom graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a0a5fca593e0f4dc2cbf350755d0c44b",
+        "question": "Does accuracy consistently decrease with constituent height after the peak?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Accuracy breakdown w.r.t. constituent height in unbiased trees derived from the syntactic task distances in our model (top) and the language modeling distances (bottom). A constituent is considered as correct if its boundaries correspond to a true constituent. The constituents heights are those in the predicted tree. Since constituents that represent the whole sentence always have correct boundaries, they are excluded from the calculation.\n\nQuestion: Does accuracy consistently decrease with constituent height after the peak?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "4edc1f8c35cd3e412fb618f4a0bad07b",
+        "question": "What color are the bars in the bar chart of figure 4?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Accuracy breakdown w.r.t. constituent height in unbiased trees derived from the syntactic task distances in our model (top) and the language modeling distances (bottom). A constituent is considered as correct if its boundaries correspond to a true constituent. The constituents heights are those in the predicted tree. Since constituents that represent the whole sentence always have correct boundaries, they are excluded from the calculation.\n\nQuestion: What color are the bars in the bar chart of figure 4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Other'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8c337b4234baf509b5844a6c62b890ef",
+        "question": "Which of the following constituent heights have the highest accuracy in the syntactic task distances?",
+        "answer_pred": "4",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Accuracy breakdown w.r.t. constituent height in unbiased trees derived from the syntactic task distances in our model (top) and the language modeling distances (bottom). A constituent is considered as correct if its boundaries correspond to a true constituent. The constituents heights are those in the predicted tree. Since constituents that represent the whole sentence always have correct boundaries, they are excluded from the calculation.\n\nQuestion: Which of the following constituent heights have the highest accuracy in the syntactic task distances?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '4'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "2f3b82222b78be61b5d32152621a260b",
+        "question": "On what dataset were the accuracies in figure 4 evaluated?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "65de7f6786f0c9d5528e5384bd92aa05",
+        "question": "What is the height of the red bar at the second round of comparison position?",
+        "answer_pred": "0.5",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Human evaluations on IMAGE-CHAT. Engagingness win rates of pairwise comparisons between human utterances and TRANSRESNETRET (ResNet152 or ResNeXt-IG-3.5B) or TRANSRESNETGEN , comparing over the rounds of dialogue.\n\nQuestion: What is the height of the red bar at the second round of comparison position?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "23f9fa87fe62951d519db4427ceae0ea",
+        "question": "Which model shows the highest win percentage in the first round of comparison?",
+        "answer_pred": "Human",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Human evaluations on IMAGE-CHAT. Engagingness win rates of pairwise comparisons between human utterances and TRANSRESNETRET (ResNet152 or ResNeXt-IG-3.5B) or TRANSRESNETGEN , comparing over the rounds of dialogue.\n\nQuestion: Which model shows the highest win percentage in the first round of comparison?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "9b5ad4bcc241ee03750d857d8e0abc4f",
+        "question": "Is the blue bar representing \"Human\" in the \"Third\" round of comparison taller than the red bar representing \"TransResNet-Ret (ResNeXt-IG-3.5B)\" in the same round?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Human evaluations on IMAGE-CHAT. Engagingness win rates of pairwise comparisons between human utterances and TRANSRESNETRET (ResNet152 or ResNeXt-IG-3.5B) or TRANSRESNETGEN , comparing over the rounds of dialogue.\n\nQuestion: Is the blue bar representing \"Human\" in the \"Third\" round of comparison taller than the red bar representing \"TransResNet-Ret (ResNeXt-IG-3.5B)\" in the same round?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "05ca309d6c97059162b5c7a9e6ff80ba",
+        "question": "In the second round of comparison, is the win rate of human utterances higher than that of TransResNet-Gen (ResNeXt-IG-3.5B)?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Human evaluations on IMAGE-CHAT. Engagingness win rates of pairwise comparisons between human utterances and TRANSRESNETRET (ResNet152 or ResNeXt-IG-3.5B) or TRANSRESNETGEN , comparing over the rounds of dialogue.\n\nQuestion: In the second round of comparison, is the win rate of human utterances higher than that of TransResNet-Gen (ResNeXt-IG-3.5B)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "fc7a1271780754aede855547bd9aa2eb",
+        "question": "Which color does not appear left of the black vertical line separating the bar chart into two sections?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Human evaluations on IMAGE-CHAT. Engagingness win rates of pairwise comparisons between human utterances and TRANSRESNETRET (ResNet152 or ResNeXt-IG-3.5B) or TRANSRESNETGEN , comparing over the rounds of dialogue.\n\nQuestion: Which color does not appear left of the black vertical line separating the bar chart into two sections?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Red'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

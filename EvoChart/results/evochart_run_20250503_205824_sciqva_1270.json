@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "be80d33e27636c6f33219f94d1a3a552",
+        "question": "What is the name of the module that is connected to Refiner through 'p1:N'?",
+        "answer_pred": "Preprocessor",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Our model architecture with a bidirectional LSTM encoder, coarse-to-fine aligner, and decoder.\n\nQuestion: What is the name of the module that is connected to Refiner through 'p1:N'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "d6d895f40e792e6561648851bf307416",
+        "question": "Are there more than two 'LSTM' boxes in the lower portion of the model architecture?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Our model architecture with a bidirectional LSTM encoder, coarse-to-fine aligner, and decoder.\n\nQuestion: Are there more than two 'LSTM' boxes in the lower portion of the model architecture?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "b788fd5483ed36c6d8112726b6a95877",
+        "question": "Does the model architecture include a 'Compressor' block?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Our model architecture with a bidirectional LSTM encoder, coarse-to-fine aligner, and decoder.\n\nQuestion: Does the model architecture include a 'Compressor' block?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "38684a0eccf4b6f9d952ee04ada7b90a",
+        "question": "Which component is directly connected to the \"Std. align.\" component and is located to its right?",
+        "answer_pred": "LSTM",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Our model architecture with a bidirectional LSTM encoder, coarse-to-fine aligner, and decoder.\n\nQuestion: Which component is directly connected to the \"Std. align.\" component and is located to its right?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "b1b3d83519d04e245353dec73bb110d6",
+        "question": "Which of the following components are included in the model architecture described in Figure 2?",
+        "answer_pred": "B,C",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Our model architecture with a bidirectional LSTM encoder, coarse-to-fine aligner, and decoder.\n\nQuestion: Which of the following components are included in the model architecture described in Figure 2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'CNN'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "1cc65a9665f347fe9531d5edbaa51162",
+        "question": "What is the specific purpose of the 'Std. align.' module in the model architecture?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "29ce3a2856fec2e26075576f02b815fb",
+        "question": "How many rectangular boxes are classifiers in figure 2?",
+        "answer_pred": "3",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The Reinforced Co-Training framework.\n\nQuestion: How many rectangular boxes are classifiers in figure 2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "954e5d5a214c9c8f77163f709516063a",
+        "question": "What methods are used to obtain unlabeled subsets from the unlabeled set?",
+        "answer_pred": "1.4",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The Reinforced Co-Training framework.\n\nQuestion: What methods are used to obtain unlabeled subsets from the unlabeled set?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "805c31ee3342fe65a6ad493451b128c1",
+        "question": "Is the circle representing the selected action positioned at the top of the column of circles?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The Reinforced Co-Training framework.\n\nQuestion: Is the circle representing the selected action positioned at the top of the column of circles?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "bc2e7fb3ef6eaba3d92a9d1938e9a71d",
+        "question": "Does the framework include two classifiers?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The Reinforced Co-Training framework.\n\nQuestion: Does the framework include two classifiers?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

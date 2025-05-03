@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "d85e4d82c092a9a75fa6628a0c1f3d2d",
+        "question": "Is the blue line representing the performance of log(tf) consistently higher than the orange line representing G.2?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Performance of frequency and probabilistic features (best viewed in color).\n\nQuestion: Is the blue line representing the performance of log(tf) consistently higher than the orange line representing G.2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "37b8477ebfe6ce84b847356aef65f4bb",
+        "question": "Is one of the statistical methods shown in the graph 'WordScore'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Performance of frequency and probabilistic features (best viewed in color).\n\nQuestion: Is one of the statistical methods shown in the graph 'WordScore'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "db4ced48fcf9e0b44544849f92d67f55",
+        "question": "Which line in the figure on the right side is orange?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Performance of frequency and probabilistic features (best viewed in color).\n\nQuestion: Which line in the figure on the right side is orange?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'tfidf'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "99aaa50cbc056cd29bbd1cd80a89469c",
+        "question": "Which of these feature types are not shown in the frequency statistics plot?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Performance of frequency and probabilistic features (best viewed in color).\n\nQuestion: Which of these feature types are not shown in the frequency statistics plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'BM25'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "ae7802c901699f1188db650891cae031",
+        "question": "What dataset was used to generate the data?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "8fb9b130220ebbe9573448c6b25b4c94",
+        "question": "What is the approximate average length of a thread of the red line when the absolute emotional value in the first 10 comments is 0.2?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 16. Average length of a thread \u3008L\u3009 versus the absolute emotional value in the first 10 comments |\u3008e\u300910| (a), the emotional value in the first 10 comments \u3008e\u300910. Grey points in plot (b) represent number threads with a specific emotional value.\n\nQuestion: What is the approximate average length of a thread of the red line when the absolute emotional value in the first 10 comments is 0.2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "e3b69cba118097c5963dee2487d213af",
+        "question": "What is the approximate average length of a thread when the emotional value in the first 10 comments is 0.5?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 16. Average length of a thread \u3008L\u3009 versus the absolute emotional value in the first 10 comments |\u3008e\u300910| (a), the emotional value in the first 10 comments \u3008e\u300910. Grey points in plot (b) represent number threads with a specific emotional value.\n\nQuestion: What is the approximate average length of a thread when the emotional value in the first 10 comments is 0.5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "504ca6fb7e958d556904828d88859484",
+        "question": "Does the red line in the left plot reach an average length of a thread value above 92? ",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 16. Average length of a thread \u3008L\u3009 versus the absolute emotional value in the first 10 comments |\u3008e\u300910| (a), the emotional value in the first 10 comments \u3008e\u300910. Grey points in plot (b) represent number threads with a specific emotional value.\n\nQuestion: Does the red line in the left plot reach an average length of a thread value above 92? \n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a029b31eb0e804717a679a5e157af50d",
+        "question": "Does the average thread length always increase as the absolute emotional value in the first 10 comments increases?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 16. Average length of a thread \u3008L\u3009 versus the absolute emotional value in the first 10 comments |\u3008e\u300910| (a), the emotional value in the first 10 comments \u3008e\u300910. Grey points in plot (b) represent number threads with a specific emotional value.\n\nQuestion: Does the average thread length always increase as the absolute emotional value in the first 10 comments increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "5f35250ad9b53de4a41a8e425306a939",
+        "question": "Which of the following best describes the overall shape of the red line in Plot (a)?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 16. Average length of a thread \u3008L\u3009 versus the absolute emotional value in the first 10 comments |\u3008e\u300910| (a), the emotional value in the first 10 comments \u3008e\u300910. Grey points in plot (b) represent number threads with a specific emotional value.\n\nQuestion: Which of the following best describes the overall shape of the red line in Plot (a)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Bell-shape'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

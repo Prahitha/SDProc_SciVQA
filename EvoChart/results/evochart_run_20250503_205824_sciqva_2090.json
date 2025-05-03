@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "dfb8c36b22e8e254da09d0bcb5346c6d",
+        "question": "Is the value of the topmost cell in column 'good' less than 0.24?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2.: Vectors representing relationships between words.\n\nQuestion: Is the value of the topmost cell in column 'good' less than 0.24?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d1fa586eff4dfedbb767fd1ea83e50f7",
+        "question": "Do the words 'good' and 'bad' have the same number of dimensions?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2.: Vectors representing relationships between words.\n\nQuestion: Do the words 'good' and 'bad' have the same number of dimensions?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "19179bcbad35de7961457769652aeb7c",
+        "question": "What is the value of the bottom-most cell in column 'bad'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2.: Vectors representing relationships between words.\n\nQuestion: What is the value of the bottom-most cell in column 'bad'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0.49'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8f6170029f30dd5a9ff5161b24d1fdb9",
+        "question": "Which of the following words are represented in the graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2.: Vectors representing relationships between words.\n\nQuestion: Which of the following words are represented in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'pretty, ugly'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "f6616438b600b1ed9129b9cef3b861aa",
+        "question": "What are the exact values for the missing entries in the tables under \"good\" and \"bad\"?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "026436e2ef65e7a7fcbe921ca2d82edd",
+        "question": "What is the approximate value of the tallest bar in the figure?",
+        "answer_pred": "95",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 12: Originality (novelty) scores for each game. Error bars indicate one standard deviation.\n\nQuestion: What is the approximate value of the tallest bar in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "d90cca30792938f7a279f330d0c8a894",
+        "question": "What is the p-value shown in the figure?",
+        "answer_pred": "0.001",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 12: Originality (novelty) scores for each game. Error bars indicate one standard deviation.\n\nQuestion: What is the p-value shown in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "5872e7d9bc2edc691084b3994e3db373",
+        "question": "Is the bar representing 'LM-1' taller than the bar representing 'HD-5'?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 12: Originality (novelty) scores for each game. Error bars indicate one standard deviation.\n\nQuestion: Is the bar representing 'LM-1' taller than the bar representing 'HD-5'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "1904cf70d7a1b928cecd302171760ebc",
+        "question": "Are more than 5 games represented in the graph?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 12: Originality (novelty) scores for each game. Error bars indicate one standard deviation.\n\nQuestion: Are more than 5 games represented in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "5d06e45ef30da4a3e1fa9f07d00d476a",
+        "question": "For which game is the bar tallest?",
+        "answer_pred": "M",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 12: Originality (novelty) scores for each game. Error bars indicate one standard deviation.\n\nQuestion: For which game is the bar tallest?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

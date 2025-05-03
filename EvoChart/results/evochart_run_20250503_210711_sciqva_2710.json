@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "10b515306318da9e3da6be0d9d79c4e3",
+        "question": "What is the specific type of concession expressed in Figure 6?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "193f9f876e44a1d7656e41989e418633",
+        "question": "How many levels are shown in the hierarchy for the word 'Head', considering the top node 'Head' as level 1, and the bottom level as level 3?",
+        "answer_pred": "3",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Part of sense hierarchy for the word head. Top Part and Leader are guide words, the topics are on the lower-level.\n\nQuestion: How many levels are shown in the hierarchy for the word 'Head', considering the top node 'Head' as level 1, and the bottom level as level 3?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "d57767c2a2dfda4cb14cd12bfe9da11d",
+        "question": "What is the word 'head' labelled as in the tree?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Part of sense hierarchy for the word head. Top Part and Leader are guide words, the topics are on the lower-level.\n\nQuestion: What is the word 'head' labelled as in the tree?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "560034926e4ac4d9349da55c3216d5d3",
+        "question": "Are the 'guide words' positioned above the 'topics' in the hierarchy shown?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Part of sense hierarchy for the word head. Top Part and Leader are guide words, the topics are on the lower-level.\n\nQuestion: Are the 'guide words' positioned above the 'topics' in the hierarchy shown?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "9b5664c362b7a9bb77b8f836c96436e7",
+        "question": "Are there more than 3 topis presented in the graph?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Part of sense hierarchy for the word head. Top Part and Leader are guide words, the topics are on the lower-level.\n\nQuestion: Are there more than 3 topis presented in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "5e5459209e8cc18c5036f574587b2e10",
+        "question": "Which node is located to the right of node 'Edges'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Part of sense hierarchy for the word head. Top Part and Leader are guide words, the topics are on the lower-level.\n\nQuestion: Which node is located to the right of node 'Edges'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Tools'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "f6f464a04d561fec57fb860148c043ca",
+        "question": "Which of the following topics is not represented in the graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Part of sense hierarchy for the word head. Top Part and Leader are guide words, the topics are on the lower-level.\n\nQuestion: Which of the following topics is not represented in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Edges'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "158508e6d32a3aa14fec2068ffe2bcf0",
+        "question": "What is the complete list of topics under the 'TopPart' guide word, according to this sense hierarchy?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "f9acd696500562da0621390d7a1b3ed5",
+        "question": "How many empty nodes are present in the figure?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Use of secondary dependencies and empty nodes in TOROT.\n\nQuestion: How many empty nodes are present in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "92ca0b2019db7d5cfbbc8b6e0fcd6eac",
+        "question": "What is the syntactic function of 'uboja\u0161ja' in the structure?",
+        "answer_pred": "POSITION",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Use of secondary dependencies and empty nodes in TOROT.\n\nQuestion: What is the syntactic function of 'uboja\u0161ja' in the structure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

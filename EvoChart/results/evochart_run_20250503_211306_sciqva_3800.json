@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "c9bd8550012933ab60124ac7a7776a71",
+        "question": "Which line is the highest at k=4?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: recall@k for neural reranking models (BERTmulti, BERTen, BioBERT), and word- (BM25) and character-level (TFIDFchar) models.\n\nQuestion: Which line is the highest at k=4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Pink line marked with diamonds'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "d1265c877e2c95ce734df2bec9aee372",
+        "question": "Which models achieve a recall@k greater than 0.85 for k=64?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: recall@k for neural reranking models (BERTmulti, BERTen, BioBERT), and word- (BM25) and character-level (TFIDFchar) models.\n\nQuestion: Which models achieve a recall@k greater than 0.85 for k=64?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'BM25'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "e5f38581e978f7a60198e00b311f9139",
+        "question": "What data set was used to evaluate the models in figure 1?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "1d967825c7b2a7be824241fe77efccce",
+        "question": "What is the training time (in minutes) for the red line with squares at 100 texts available?",
+        "answer_pred": "12.5",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Training time (in minutes) for each adjustment using different methods and bundle sizes in MeD.\n\nQuestion: What is the training time (in minutes) for the red line with squares at 100 texts available?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "de385b402094b8915a1cf8c6c7034d32",
+        "question": "What is the maximum training time (in minutes) for the INC 50 method?",
+        "answer_pred": "12",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Training time (in minutes) for each adjustment using different methods and bundle sizes in MeD.\n\nQuestion: What is the maximum training time (in minutes) for the INC 50 method?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "e7e10b0ca7a4a3a71e042ff68c620d04",
+        "question": "Does the red line with square markers consistently have a higher value than the black line with square markers?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Training time (in minutes) for each adjustment using different methods and bundle sizes in MeD.\n\nQuestion: Does the red line with square markers consistently have a higher value than the black line with square markers?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "7463512f05ea3d43ec87185e492a418f",
+        "question": "Does the training time always increase as the number of texts available increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Training time (in minutes) for each adjustment using different methods and bundle sizes in MeD.\n\nQuestion: Does the training time always increase as the number of texts available increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "4a84fc95c0376e6b4ca886e6873c4b8f",
+        "question": "Which lines represent training time for bundle size 50?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Training time (in minutes) for each adjustment using different methods and bundle sizes in MeD.\n\nQuestion: Which lines represent training time for bundle size 50?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Red circles and Black squares'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "c896f6e2b48550e6b7edb7dc7566b03b",
+        "question": "The training time of which method consistently increases with number of texts available?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Training time (in minutes) for each adjustment using different methods and bundle sizes in MeD.\n\nQuestion: The training time of which method consistently increases with number of texts available?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'INC 50'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "382902adbcd3415a5eb2f21437907f9f",
+        "question": "What is the difference between the CUM and INC methods?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "52f50ffed0aff21e71a44dc35462a51a",
+        "question": "Which line corresponds to the system trained with \"Full Expert\" annotations?",
+        "answer_pred": "Blue",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Parsing accuracy on Spider Dev set when systems are trained with various numbers of user/expert annotations and for different iterations.\n\nQuestion: Which line corresponds to the system trained with \"Full Expert\" annotations?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Yellow'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "1652dba1f065acb4e6b1d9eb3d1b039f",
+        "question": "How many systems are represented in the graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Parsing accuracy on Spider Dev set when systems are trained with various numbers of user/expert annotations and for different iterations.\n\nQuestion: How many systems are represented in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '4'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "6697e4ef6571e55253d9ccd993236d38",
+        "question": "What is the average parsing accuracy of the 'Full Expert' system across all training iterations?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "f8065ddab5ab28cda25236ac3addf331",
+        "question": "What is the approximate value of the human baseline line in the left graph?",
+        "answer_pred": "58.4",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. Average retrieval accuracies (with unseen object classes from the held-out object set) of models trained on different data sizes, represented by the solid lines, with vertical bars denoting standard errors. Models trained on larger data sizes usually perform better. All our models significantly outperform a random model, represented by the dashed lines. The dotted line represents the human object retrieval baseline.\n\nQuestion: What is the approximate value of the human baseline line in the left graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c4246f92e13099f07f49daf50da790f5",
+        "question": "What is the approximate 'Top-1 Retrieval Accuracy' of 'our model' at data size of 3000?",
+        "answer_pred": "0.62",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. Average retrieval accuracies (with unseen object classes from the held-out object set) of models trained on different data sizes, represented by the solid lines, with vertical bars denoting standard errors. Models trained on larger data sizes usually perform better. All our models significantly outperform a random model, represented by the dashed lines. The dotted line represents the human object retrieval baseline.\n\nQuestion: What is the approximate 'Top-1 Retrieval Accuracy' of 'our model' at data size of 3000?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "8836582aa2c6a69a27ebb0e0e4af540a",
+        "question": "Is the performance of the blue line in the left graph consistently higher than the dashed black line?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. Average retrieval accuracies (with unseen object classes from the held-out object set) of models trained on different data sizes, represented by the solid lines, with vertical bars denoting standard errors. Models trained on larger data sizes usually perform better. All our models significantly outperform a random model, represented by the dashed lines. The dotted line represents the human object retrieval baseline.\n\nQuestion: Is the performance of the blue line in the left graph consistently higher than the dashed black line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "5bbe7809430c72c4dcc1c4a87d7f7945",
+        "question": "Does 'our model' ever achieve Top-2 Retrieval Accuracy above 90?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. Average retrieval accuracies (with unseen object classes from the held-out object set) of models trained on different data sizes, represented by the solid lines, with vertical bars denoting standard errors. Models trained on larger data sizes usually perform better. All our models significantly outperform a random model, represented by the dashed lines. The dotted line represents the human object retrieval baseline.\n\nQuestion: Does 'our model' ever achieve Top-2 Retrieval Accuracy above 90?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "c898e3376e0215e43ee276e7ff26a831",
+        "question": "What color are the error bars on the left plot?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. Average retrieval accuracies (with unseen object classes from the held-out object set) of models trained on different data sizes, represented by the solid lines, with vertical bars denoting standard errors. Models trained on larger data sizes usually perform better. All our models significantly outperform a random model, represented by the dashed lines. The dotted line represents the human object retrieval baseline.\n\nQuestion: What color are the error bars on the left plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Purple'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "0b6cbeea31e661518aa1ebf5bdd30c86",
+        "question": "What is the approximate Top-2 Retrieval Accuracy of 'our model' at 1000 data size?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. Average retrieval accuracies (with unseen object classes from the held-out object set) of models trained on different data sizes, represented by the solid lines, with vertical bars denoting standard errors. Models trained on larger data sizes usually perform better. All our models significantly outperform a random model, represented by the dashed lines. The dotted line represents the human object retrieval baseline.\n\nQuestion: What is the approximate Top-2 Retrieval Accuracy of 'our model' at 1000 data size?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '40'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "be5a236d2f687dfecf4d70a9501b8423",
+        "question": "What is the architecture of the model being evaluated in the experiment?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

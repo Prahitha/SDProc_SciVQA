@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "6fbb0a6da553320dcbe85fe322d769e7",
+        "question": "What is the approximate value of the red line at x = 60?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: We developed a fake news classification model and trained it on PolitiFact. We evaluated the model on GossipCop. Clearly, our PSM-based method performs better than the baseline method (higher AUROC).\n\nQuestion: What is the approximate value of the red line at x = 60?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "1ee100ff11828541cdc9c50ccc9ecffd",
+        "question": "Which method has a higher AUROC?",
+        "answer_pred": "PSM-based method",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: We developed a fake news classification model and trained it on PolitiFact. We evaluated the model on GossipCop. Clearly, our PSM-based method performs better than the baseline method (higher AUROC).\n\nQuestion: Which method has a higher AUROC?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "30f085b1a774e40efb118c2a46ad5f9b",
+        "question": "Is the red line consistently higher than the blue dotted line?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: We developed a fake news classification model and trained it on PolitiFact. We evaluated the model on GossipCop. Clearly, our PSM-based method performs better than the baseline method (higher AUROC).\n\nQuestion: Is the red line consistently higher than the blue dotted line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8e362c2fb05b9748cfb398b949fab100",
+        "question": "Is the highest AUROC value of PSM 80?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: We developed a fake news classification model and trained it on PolitiFact. We evaluated the model on GossipCop. Clearly, our PSM-based method performs better than the baseline method (higher AUROC).\n\nQuestion: Is the highest AUROC value of PSM 80?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "0f8cf8df359c2fb2a7455b72f86e9a02",
+        "question": "Which line represents the method developed by the authors?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: We developed a fake news classification model and trained it on PolitiFact. We evaluated the model on GossipCop. Clearly, our PSM-based method performs better than the baseline method (higher AUROC).\n\nQuestion: Which line represents the method developed by the authors?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither the blue nor the red lines'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "c503ba6de96c4e3252dbe3c3685554b5",
+        "question": "What are the AUROC values of both models at their starting point?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: We developed a fake news classification model and trained it on PolitiFact. We evaluated the model on GossipCop. Clearly, our PSM-based method performs better than the baseline method (higher AUROC).\n\nQuestion: What are the AUROC values of both models at their starting point?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'between 0.45 and 0.5'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "3a888fb9ea8c682efb7eabfc5c495942",
+        "question": "What is the average AUROC score of the baseline method for the first 20 data points, and how is it presented in the figure?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "bee7077205e16f7f81b226aaf2068976",
+        "question": "What is the approximate value of the orange line at 4 k-step look-ahead?",
+        "answer_pred": "-0.01",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Average length Difference Results of the original model and the model with auxiliary EOS loss (\u03b3 = 1) with different LA steps. We can find the model trained with the auxiliary EOS loss can predict longer sentences compared with the original model.\n\nQuestion: What is the approximate value of the orange line at 4 k-step look-ahead?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "1cd02418544077a015380db1771b539c",
+        "question": "What is the name of the values presented in the x-axis?",
+        "answer_pred": "k",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Average length Difference Results of the original model and the model with auxiliary EOS loss (\u03b3 = 1) with different LA steps. We can find the model trained with the auxiliary EOS loss can predict longer sentences compared with the original model.\n\nQuestion: What is the name of the values presented in the x-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "135801303d75fd71656d31f0ca7599ca",
+        "question": "Is the green line always higher than the orange line?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Average length Difference Results of the original model and the model with auxiliary EOS loss (\u03b3 = 1) with different LA steps. We can find the model trained with the auxiliary EOS loss can predict longer sentences compared with the original model.\n\nQuestion: Is the green line always higher than the orange line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

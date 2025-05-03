@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "122a9889b86adffb677558076872a434",
+        "question": "What is the approximate value of the peak of the dark grey distribution?",
+        "answer_pred": "0.2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Example distributions of distances between non-related pairs (light grey) and related pairs (dark grey) on Twitter data, using a simple mean of word embeddings.\n\nQuestion: What is the approximate value of the peak of the dark grey distribution?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b51c47561800abd3c6c867150dc2d4fa",
+        "question": "What is the label of the y axis?",
+        "answer_pred": "Number of pairs",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Example distributions of distances between non-related pairs (light grey) and related pairs (dark grey) on Twitter data, using a simple mean of word embeddings.\n\nQuestion: What is the label of the y axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "29cd2346d54f23fbe2780cd9d670ea16",
+        "question": "Is the maximum height of the dark grey line higher than that of the light grey line?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Example distributions of distances between non-related pairs (light grey) and related pairs (dark grey) on Twitter data, using a simple mean of word embeddings.\n\nQuestion: Is the maximum height of the dark grey line higher than that of the light grey line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "b83c004d608446b0d89283a9c0e3446c",
+        "question": "Do the distributions of distances between non-related pairs and related pairs on Twitter data have the same peak?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Example distributions of distances between non-related pairs (light grey) and related pairs (dark grey) on Twitter data, using a simple mean of word embeddings.\n\nQuestion: Do the distributions of distances between non-related pairs and related pairs on Twitter data have the same peak?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8104dccd98705ccb775403299279c02e",
+        "question": "Which distribution line color is roughly shaped symmetrically?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Example distributions of distances between non-related pairs (light grey) and related pairs (dark grey) on Twitter data, using a simple mean of word embeddings.\n\nQuestion: Which distribution line color is roughly shaped symmetrically?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "901d34e7429e96e5b180bfd72ba23d7e",
+        "question": "At approximately what normalized distance does the frequency of related and non-related pairs become approximately equal?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Example distributions of distances between non-related pairs (light grey) and related pairs (dark grey) on Twitter data, using a simple mean of word embeddings.\n\nQuestion: At approximately what normalized distance does the frequency of related and non-related pairs become approximately equal?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0.8'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "3bce0301448adaa653c548c70f56a980",
+        "question": "What is the specific type of word embeddings used in this study?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "6ddd08a525930d4550d0e3e2ac379975",
+        "question": "What is the approximate value of the correlation of the blue line in the bottom figure at the size of lexicon value of 100?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Kendall\u2019s \u03c4 versus subspace size (top) and training resource size (bottom). See lines 6 & 8, Table 1, for train/test split.\n\nQuestion: What is the approximate value of the correlation of the blue line in the bottom figure at the size of lexicon value of 100?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "7937b4b779595f6086c9db0ca08d50ba",
+        "question": "What are the two variables plotted in the bottom figure?",
+        "answer_pred": "[Training Resource Size, Subspace Size]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Kendall\u2019s \u03c4 versus subspace size (top) and training resource size (bottom). See lines 6 & 8, Table 1, for train/test split.\n\nQuestion: What are the two variables plotted in the bottom figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "27160ed35ffa6bf46083ab694a2e2569",
+        "question": "Is the blue line in the top plot consistently higher than the red line at sizes of subspace smaller than 150?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Kendall\u2019s \u03c4 versus subspace size (top) and training resource size (bottom). See lines 6 & 8, Table 1, for train/test split.\n\nQuestion: Is the blue line in the top plot consistently higher than the red line at sizes of subspace smaller than 150?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

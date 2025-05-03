@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "25f5f5fd0c68e578e0d48703b9d5d7b8",
+        "question": "Which of the following games have originality scores greater than 6?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 12: Originality (novelty) scores for each game. Error bars indicate one standard deviation.\n\nQuestion: Which of the following games have originality scores greater than 6?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "629b305cb7294a6d7b67603b5171797f",
+        "question": "What are the specific values for each game's originality score and standard deviation?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "49bdc0551d9e5069f947015f5d70a711",
+        "question": "What is the approximate maximum number of neurons with accuracy scores in the range of 0.55 to 0.60 in the bottom graph?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Histograms of accuracy scores when selecting individual neurons from the 768-dimensional [CLS] embeddings from finetuned models on individual datasets.\n\nQuestion: What is the approximate maximum number of neurons with accuracy scores in the range of 0.55 to 0.60 in the bottom graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "4d94812aae6efcf1b9e1ec018990d3cd",
+        "question": "What is the approximate maximum accuracy score for the DBPedia dataset?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Histograms of accuracy scores when selecting individual neurons from the 768-dimensional [CLS] embeddings from finetuned models on individual datasets.\n\nQuestion: What is the approximate maximum accuracy score for the DBPedia dataset?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "0eb4dfefb76aaa5de92805416057cf00",
+        "question": "In the IMDB histogram, is the tallest bar in the 0.85\u20130.9 accuracy range taller than any bar in the 0.5\u20130.6 range?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Histograms of accuracy scores when selecting individual neurons from the 768-dimensional [CLS] embeddings from finetuned models on individual datasets.\n\nQuestion: In the IMDB histogram, is the tallest bar in the 0.85\u20130.9 accuracy range taller than any bar in the 0.5\u20130.6 range?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "cb87996ae818235cb7c5360e7b023e5a",
+        "question": "Is the maximum accuracy achieved for the AG-news dataset lower than 0.7?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Histograms of accuracy scores when selecting individual neurons from the 768-dimensional [CLS] embeddings from finetuned models on individual datasets.\n\nQuestion: Is the maximum accuracy achieved for the AG-news dataset lower than 0.7?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a79ea20dc3b6fac7d7362797ef66bea5",
+        "question": "What is the colour representing the bars in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Histograms of accuracy scores when selecting individual neurons from the 768-dimensional [CLS] embeddings from finetuned models on individual datasets.\n\nQuestion: What is the colour representing the bars in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'pink'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "d52c53120b20fe76017c8a7fc0799d72",
+        "question": "Which dataset(s) has a maximum accuracy greater than 0.9?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Histograms of accuracy scores when selecting individual neurons from the 768-dimensional [CLS] embeddings from finetuned models on individual datasets.\n\nQuestion: Which dataset(s) has a maximum accuracy greater than 0.9?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "d8d4fc329ac9c30066ff9467397be6ed",
+        "question": "What is the specific task that the finetuned models were trained on for each dataset?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "08e8d564814ad8bbf65d74b603764694",
+        "question": "What is the color of the section representing the 'AskReddit' subreddit for females?",
+        "answer_pred": "lightblue",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Most popular subreddits for genders\n\nQuestion: What is the color of the section representing the 'AskReddit' subreddit for females?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

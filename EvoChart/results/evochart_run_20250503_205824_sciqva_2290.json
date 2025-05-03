@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "5da46d0340a72a60ef0906628a48c6fb",
+        "question": "What is the F0.5 value at error rate of 0.50 for the 'Consensus + activations' method in the 'Next-Best Noise' condition?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "4927d16d4a7675a29f3afc46bc127b6c",
+        "question": "What is the exact time value (in ms) at the intersection of the red line and the blue dashed line?",
+        "answer_pred": "100",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3.5: Log-energy decay of h[n]\n\nQuestion: What is the exact time value (in ms) at the intersection of the red line and the blue dashed line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b4b2d3abfe9a7f98bb69b3baaa7f8b2b",
+        "question": "According to Figure 3.5, what is the y-value at the point T60?",
+        "answer_pred": "-1.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3.5: Log-energy decay of h[n]\n\nQuestion: According to Figure 3.5, what is the y-value at the point T60?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c7b707c449ef0b5a0c9650308a442f8f",
+        "question": "Is the blue horizontal dashed line positioned below the red line representing log-energy decay throughout the graph?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3.5: Log-energy decay of h[n]\n\nQuestion: Is the blue horizontal dashed line positioned below the red line representing log-energy decay throughout the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d569806b0d4bdbd2b02a917db9239881",
+        "question": "Does the Log-energy decay of h[n] always increase at time increases?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3.5: Log-energy decay of h[n]\n\nQuestion: Does the Log-energy decay of h[n] always increase at time increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "039f95ec2bafc26baf014213d0e26b21",
+        "question": "Regarding Figure 3.5, which of the following statements accurately describe the visual attributes of the graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3.5: Log-energy decay of h[n]\n\nQuestion: Regarding Figure 3.5, which of the following statements accurately describe the visual attributes of the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "127b03a2348d1e543252a799c8d39f8d",
+        "question": "According to Figure 3.5 and its caption, which of the following statements about T60 are true?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3.5: Log-energy decay of h[n]\n\nQuestion: According to Figure 3.5 and its caption, which of the following statements about T60 are true?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'T60 is a unit of measurement for log-energy.'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "b7720d257ad9e58f7ab980d6645898c3",
+        "question": "What is the standard deviation of the log-energy for the time interval between 780ms and 1000ms?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "d2f04591904a27755673b031861e53eb",
+        "question": "What is the maximum value of the BLEU score for the green line in the rightmost graph?",
+        "answer_pred": "0.59",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: BLEU scores for different uncertainty estimators under various retained data rates. The model is trained for EN to VI tasks with 133k training data using 350k steps.\n\nQuestion: What is the maximum value of the BLEU score for the green line in the rightmost graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "a9690494074ebe87824d8f33b2f7cbc8",
+        "question": "What is the maximum value of BLEU scores for SP-10 with 10 samples?",
+        "answer_pred": "0.32",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: BLEU scores for different uncertainty estimators under various retained data rates. The model is trained for EN to VI tasks with 133k training data using 350k steps.\n\nQuestion: What is the maximum value of BLEU scores for SP-10 with 10 samples?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

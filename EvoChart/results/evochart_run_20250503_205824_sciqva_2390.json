@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "99405e6dafeb55a5c326c71d67003cb7",
+        "question": "In the plot 'Headie One-Different Sorts', what is the lowest sentiment?",
+        "answer_pred": "-0.34",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Two example sentiment trajectories.\n\nQuestion: In the plot 'Headie One-Different Sorts', what is the lowest sentiment?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "100136c965bb6362c435032d175a65ed",
+        "question": "Are the blue bars in the first trajectory all positioned above the horizontal line?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Two example sentiment trajectories.\n\nQuestion: Are the blue bars in the first trajectory all positioned above the horizontal line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8f026d79c81ccf54a2b001c7b1f44215",
+        "question": "Is the range of 'standarized narrative time' from 0 to 90?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Two example sentiment trajectories.\n\nQuestion: Is the range of 'standarized narrative time' from 0 to 90?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "538df4dac62012667927025d137a8a90",
+        "question": "What is the color of the bars in the bottom graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Two example sentiment trajectories.\n\nQuestion: What is the color of the bars in the bottom graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Black'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "ea53d8f06983e1ff52f792ca39aa53ae",
+        "question": "What is the range of the sentiment in bot plots?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Two example sentiment trajectories.\n\nQuestion: What is the range of the sentiment in bot plots?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '-0.3 to 0.4'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "9052ca36eb2579c7de9d9956eb7f4d30",
+        "question": "What is the type of sentiment analysis that was used to generate these trajectories, and how does it affect the results?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "35d6fc1099eeb4f3d7de867a6c39f60d",
+        "question": "What is the average score on all GLUE tasks for the blue line when 4 billion tokens are used for training?",
+        "answer_pred": "4.03",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Average results on a) all GLUE tasks, b) only inference tasks (MNLI, QNLI, RTE), and c) non-inference tasks (QQP, SST-2, CoLA, STS-B, MRPC) for models trained on MLM, MLM + NSP, and MLM with NSP\u2019s split context but no NSP loss (Split) throughout training over 10 billion tokens.\n\nQuestion: What is the average score on all GLUE tasks for the blue line when 4 billion tokens are used for training?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "9c6aa414a6775168886669ca24ade2ac",
+        "question": "What is the maximum average score on all GLUE tasks for models trained on MLM?",
+        "answer_pred": "81.2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Average results on a) all GLUE tasks, b) only inference tasks (MNLI, QNLI, RTE), and c) non-inference tasks (QQP, SST-2, CoLA, STS-B, MRPC) for models trained on MLM, MLM + NSP, and MLM with NSP\u2019s split context but no NSP loss (Split) throughout training over 10 billion tokens.\n\nQuestion: What is the maximum average score on all GLUE tasks for models trained on MLM?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "eab3b6ef573642f3042726201d1d9977",
+        "question": "Is the value of the blue line consistently higher than the red line in the rightmost plot?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Average results on a) all GLUE tasks, b) only inference tasks (MNLI, QNLI, RTE), and c) non-inference tasks (QQP, SST-2, CoLA, STS-B, MRPC) for models trained on MLM, MLM + NSP, and MLM with NSP\u2019s split context but no NSP loss (Split) throughout training over 10 billion tokens.\n\nQuestion: Is the value of the blue line consistently higher than the red line in the rightmost plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a8740e4e0f7ed3a2f407b953c55afcc1",
+        "question": "Did the MLM  model outperform the Split model on all GLUE tasks after 5 billion tokens of training?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Average results on a) all GLUE tasks, b) only inference tasks (MNLI, QNLI, RTE), and c) non-inference tasks (QQP, SST-2, CoLA, STS-B, MRPC) for models trained on MLM, MLM + NSP, and MLM with NSP\u2019s split context but no NSP loss (Split) throughout training over 10 billion tokens.\n\nQuestion: Did the MLM  model outperform the Split model on all GLUE tasks after 5 billion tokens of training?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

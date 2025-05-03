@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "50a6bbd79ae8f2c4c4c33bc725d0571f",
+        "question": "What is the approximate maximum value of the red line?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Reinforcement Learning model trained for batch 1. The reward (y axis) is ROUGE-L.\n\nQuestion: What is the approximate maximum value of the red line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "9e27d99c93ee052c253fef708a8e7df1",
+        "question": "What is the maximum value marked on the x axis?",
+        "answer_pred": "100",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Reinforcement Learning model trained for batch 1. The reward (y axis) is ROUGE-L.\n\nQuestion: What is the maximum value marked on the x axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c6ee65c78ef59d2c62dee91dd85fa641",
+        "question": "Does the black line representing the training data consistently have a higher reward value than the red line representing the test data?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Reinforcement Learning model trained for batch 1. The reward (y axis) is ROUGE-L.\n\nQuestion: Does the black line representing the training data consistently have a higher reward value than the red line representing the test data?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "f7595cc59e8bf4a22d2a4a374eceb0ff",
+        "question": "Is the ROUGE-L reward for the test data consistently higher than the ROUGE-L reward for the train data?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Reinforcement Learning model trained for batch 1. The reward (y axis) is ROUGE-L.\n\nQuestion: Is the ROUGE-L reward for the test data consistently higher than the ROUGE-L reward for the train data?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "9080b5b3a43a655f8adcae460e4aea70",
+        "question": "Which line represents the test data?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Reinforcement Learning model trained for batch 1. The reward (y axis) is ROUGE-L.\n\nQuestion: Which line represents the test data?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "c85dfa9f720dbd9fe53a7b8dc260a9bf",
+        "question": "What is the difference between consecutive tick values on the y axis?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Reinforcement Learning model trained for batch 1. The reward (y axis) is ROUGE-L.\n\nQuestion: What is the difference between consecutive tick values on the y axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0.1'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "b7f35668659a4a17c6d4f89e21c7d0f3",
+        "question": "How many datapoints were collected to produce the graph in figure 6?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "9453f7d6d05578feca394a416effcc78",
+        "question": "What is the approximate accuracy of the green line at 500 dimensions?",
+        "answer_pred": "0.9999",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Accuracy vs. dimensionality of the representation.\n\nQuestion: What is the approximate accuracy of the green line at 500 dimensions?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "949b5ac88ea4f69b8f6046976b73d744",
+        "question": "What is the maximum accuracy shown for GloVe?",
+        "answer_pred": "91.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Accuracy vs. dimensionality of the representation.\n\nQuestion: What is the maximum accuracy shown for GloVe?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "3a8175cfb6e444752106beb37ac13d17",
+        "question": "Is the green line representing GloVe higher than the red line representing NA at a dimension of 500?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Accuracy vs. dimensionality of the representation.\n\nQuestion: Is the green line representing GloVe higher than the red line representing NA at a dimension of 500?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

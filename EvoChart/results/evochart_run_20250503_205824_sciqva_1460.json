@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "7eeeecece3b30e9c0d729a01430d9d12",
+        "question": "Is the blue line representing Video R@1 consistently higher than the yellow line representing Text R@1?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Noise vs Performance study on ActivityNet-captions dataset (val1)\n\nQuestion: Is the blue line representing Video R@1 consistently higher than the yellow line representing Text R@1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "63696f44c4f7923c3c874f30339686ed",
+        "question": "Does the retrieval percentage consistently decrease as noise percentage increases?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Noise vs Performance study on ActivityNet-captions dataset (val1)\n\nQuestion: Does the retrieval percentage consistently decrease as noise percentage increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "1df1601bf5c62041cd992800712a42b3",
+        "question": "Which line on the graph represents the retrieval performance of text retrieval at 1?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Noise vs Performance study on ActivityNet-captions dataset (val1)\n\nQuestion: Which line on the graph represents the retrieval performance of text retrieval at 1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'yellow'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "19339b41591d526953cece3f87ecd6b9",
+        "question": "What is the approximate retrieval percentage for Text R@1 at a noise percentage of 60%?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Noise vs Performance study on ActivityNet-captions dataset (val1)\n\nQuestion: What is the approximate retrieval percentage for Text R@1 at a noise percentage of 60%?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '80'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "a1ba0e566bcab0f9b4b8f7d4382ba67b",
+        "question": "What is the specific algorithm used for noise injection in the ActivityNet-captions dataset?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "17dda2b837993b90859df83dbff748c9",
+        "question": "What is the approximate d value of the dashed line at the end of the left graph?",
+        "answer_pred": "-0.01",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Interaction plot for authority and support in cooperative (left) and competitive (right) dialogs.\n\nQuestion: What is the approximate d value of the dashed line at the end of the left graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "5b6cf7789fb74b4100504cb6197c30cc",
+        "question": "What are the two levels of authority shown on the x-axis in Figure 5?",
+        "answer_pred": "[1, 2]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Interaction plot for authority and support in cooperative (left) and competitive (right) dialogs.\n\nQuestion: What are the two levels of authority shown on the x-axis in Figure 5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c306725f889996de4b90537694514a7c",
+        "question": "In the left graph, is the solid line representing 'yes' support higher than the dashed line representing 'no' support when authority is high?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Interaction plot for authority and support in cooperative (left) and competitive (right) dialogs.\n\nQuestion: In the left graph, is the solid line representing 'yes' support higher than the dashed line representing 'no' support when authority is high?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "3dbd1bf02c628ee0b97eb2daa6226298",
+        "question": "Is the 'd' value for 'yes' consistently higher than for 'no' in competitive dialogs?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Interaction plot for authority and support in cooperative (left) and competitive (right) dialogs.\n\nQuestion: Is the 'd' value for 'yes' consistently higher than for 'no' in competitive dialogs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "f21615a8e2b1a6e08f8cf53114de8b6a",
+        "question": "In the right plot, which line represents 'yes' support?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Interaction plot for authority and support in cooperative (left) and competitive (right) dialogs.\n\nQuestion: In the right plot, which line represents 'yes' support?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

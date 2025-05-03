@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "db3afabe5912b947c79e7f8425e114cc",
+        "question": "What is the approximate lowest ln(f) value of the red dashed line in the lower right plot labelled 'd'?",
+        "answer_pred": "-1.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig 1. The text of \u201cHarry Potter and the Chamber of Secrets\u201d treated according to Zipf\u2019s\n\nQuestion: What is the approximate lowest ln(f) value of the red dashed line in the lower right plot labelled 'd'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "51d380c30191681917c887b98f3b19a3",
+        "question": "What is the approximate highest f value recorded in the plot labeled b?",
+        "answer_pred": "2.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig 1. The text of \u201cHarry Potter and the Chamber of Secrets\u201d treated according to Zipf\u2019s\n\nQuestion: What is the approximate highest f value recorded in the plot labeled b?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f9c99d05790bfa4e5092e2540383ac18",
+        "question": "Is the red line in subplot (a) above the teal circles for all values of n?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig 1. The text of \u201cHarry Potter and the Chamber of Secrets\u201d treated according to Zipf\u2019s\n\nQuestion: Is the red line in subplot (a) above the teal circles for all values of n?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "2779b3986c1124793e82f8d890de8668",
+        "question": "Does the subplot c show a higher ln(f) value than subplot d?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig 1. The text of \u201cHarry Potter and the Chamber of Secrets\u201d treated according to Zipf\u2019s\n\nQuestion: Does the subplot c show a higher ln(f) value than subplot d?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "892ea5efb9ed4dff2a8c3e22bb8e766b",
+        "question": "Which of the subplots contains a black solid line?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig 1. The text of \u201cHarry Potter and the Chamber of Secrets\u201d treated according to Zipf\u2019s\n\nQuestion: Which of the subplots contains a black solid line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'd'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "87d63cfa53e18735c11da29bdc51868b",
+        "question": "Which plot(s) depict the relationship between the frequency of word usage (f) and the rank (n) in the text of \u201cHarry Potter and the Chamber of Secrets\u201d?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig 1. The text of \u201cHarry Potter and the Chamber of Secrets\u201d treated according to Zipf\u2019s\n\nQuestion: Which plot(s) depict the relationship between the frequency of word usage (f) and the rank (n) in the text of \u201cHarry Potter and the Chamber of Secrets\u201d?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Plot d'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "bf326786b8d8db1e77809a62ba0db53a",
+        "question": "What is the value of the exponent in Zipf's law for the text of 'Harry Potter and the Chamber of Secrets'?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "5f3f7688231759241d317a9632004206",
+        "question": "What is the approximate value of \u03c4 when \u03c1 is equal to 1.0 for the black border?",
+        "answer_pred": "0.5",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The gray region covers the values of Spearman \u03c1 satisfying Eq. 11 as a function of Kendall \u03c4 .\n\nQuestion: What is the approximate value of \u03c4 when \u03c1 is equal to 1.0 for the black border?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "40764f4237bce830ea9840e33de5c2f4",
+        "question": "What is the variable represented on the x-axis?",
+        "answer_pred": "Kendall \u03c4",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The gray region covers the values of Spearman \u03c1 satisfying Eq. 11 as a function of Kendall \u03c4 .\n\nQuestion: What is the variable represented on the x-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "86c948a632397f3832325c2060b2c9c4",
+        "question": "Is the point (1.0, 0.0) located inside the gray region?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The gray region covers the values of Spearman \u03c1 satisfying Eq. 11 as a function of Kendall \u03c4 .\n\nQuestion: Is the point (1.0, 0.0) located inside the gray region?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

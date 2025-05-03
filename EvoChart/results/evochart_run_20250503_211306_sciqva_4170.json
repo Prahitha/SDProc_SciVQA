@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "6acc2a4b3bbaa3cbba93ba68cc0ec3ae",
+        "question": "Do larger numbers in the cells always correspond to a higher value on the gradient bar?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Sub-task B, HAD-Tubingen LSTM + Preprocessing.\n\nQuestion: Do larger numbers in the cells always correspond to a higher value on the gradient bar?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "2d53085d4355eb654da87a5f0089aad1",
+        "question": "Considering the color scale in Figure 5, which cell in the confusion matrix shows the highest value?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Sub-task B, HAD-Tubingen LSTM + Preprocessing.\n\nQuestion: Considering the color scale in Figure 5, which cell in the confusion matrix shows the highest value?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Bottom right'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "239f1c3a453542c891632179af7fc8aa",
+        "question": "Based on Figure 5's caption and the provided data, which of the following statements are true regarding the model HAD-Tubingen LSTM + Preprocessing during sub-task B?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Sub-task B, HAD-Tubingen LSTM + Preprocessing.\n\nQuestion: Based on Figure 5's caption and the provided data, which of the following statements are true regarding the model HAD-Tubingen LSTM + Preprocessing during sub-task B?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The model incorrectly predicted 14 instances of TIN as UNT.'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "6d8e27b1b0617c10073b6fad43159157",
+        "question": "What model was used for the classification in figure 5?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "f2dd7855eb3875bfec1628ed8b8f90ba",
+        "question": "What is the color of the area representing \"machine oil\" on the right side?",
+        "answer_pred": "purple",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Comparison between a 11x11 Use viewpoint thematic map and a 16x16 Use viewpoint thematic map through map extracts: the 11x11 map extract is presented at the left, the 16x16 map extract is presented at the right. On the figure, the focus is given machine oil topic. The comparison highlights, as an example, that the logical surrounding of this topic is more precisely defined in the 16x16 map (optimal quality) than in the 11x11 map (lower quality). Moreover, in the 11x11 map, the topic machine oil has been derived in a more fuzzy scope topic named machine and vehicles.\n\nQuestion: What is the color of the area representing \"machine oil\" on the right side?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f712316a15f4a34229158b74126b5cc8",
+        "question": "How many labels does the 11x11 map extract contain?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Comparison between a 11x11 Use viewpoint thematic map and a 16x16 Use viewpoint thematic map through map extracts: the 11x11 map extract is presented at the left, the 16x16 map extract is presented at the right. On the figure, the focus is given machine oil topic. The comparison highlights, as an example, that the logical surrounding of this topic is more precisely defined in the 16x16 map (optimal quality) than in the 11x11 map (lower quality). Moreover, in the 11x11 map, the topic machine oil has been derived in a more fuzzy scope topic named machine and vehicles.\n\nQuestion: How many labels does the 11x11 map extract contain?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "e77734aafb669948013cf52c45bf5137",
+        "question": "Is the purple area larger on the right side than on the left?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Comparison between a 11x11 Use viewpoint thematic map and a 16x16 Use viewpoint thematic map through map extracts: the 11x11 map extract is presented at the left, the 16x16 map extract is presented at the right. On the figure, the focus is given machine oil topic. The comparison highlights, as an example, that the logical surrounding of this topic is more precisely defined in the 16x16 map (optimal quality) than in the 11x11 map (lower quality). Moreover, in the 11x11 map, the topic machine oil has been derived in a more fuzzy scope topic named machine and vehicles.\n\nQuestion: Is the purple area larger on the right side than on the left?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "fac5b3fc06c882b1489c062750c7e468",
+        "question": "Is there a one to one correspondence between topics in the two map extracts?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Comparison between a 11x11 Use viewpoint thematic map and a 16x16 Use viewpoint thematic map through map extracts: the 11x11 map extract is presented at the left, the 16x16 map extract is presented at the right. On the figure, the focus is given machine oil topic. The comparison highlights, as an example, that the logical surrounding of this topic is more precisely defined in the 16x16 map (optimal quality) than in the 11x11 map (lower quality). Moreover, in the 11x11 map, the topic machine oil has been derived in a more fuzzy scope topic named machine and vehicles.\n\nQuestion: Is there a one to one correspondence between topics in the two map extracts?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "9e1cd0efae49f56652cfe043f32cfef2",
+        "question": "What is the topic placed at the bottom right corner of the image?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Comparison between a 11x11 Use viewpoint thematic map and a 16x16 Use viewpoint thematic map through map extracts: the 11x11 map extract is presented at the left, the 16x16 map extract is presented at the right. On the figure, the focus is given machine oil topic. The comparison highlights, as an example, that the logical surrounding of this topic is more precisely defined in the 16x16 map (optimal quality) than in the 11x11 map (lower quality). Moreover, in the 11x11 map, the topic machine oil has been derived in a more fuzzy scope topic named machine and vehicles.\n\nQuestion: What is the topic placed at the bottom right corner of the image?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'two-cycle engine'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "c92d3e7ce789edeb069de13a78ad2c98",
+        "question": "Which of the following topics is present in both map extracts?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Comparison between a 11x11 Use viewpoint thematic map and a 16x16 Use viewpoint thematic map through map extracts: the 11x11 map extract is presented at the left, the 16x16 map extract is presented at the right. On the figure, the focus is given machine oil topic. The comparison highlights, as an example, that the logical surrounding of this topic is more precisely defined in the 16x16 map (optimal quality) than in the 11x11 map (lower quality). Moreover, in the 11x11 map, the topic machine oil has been derived in a more fuzzy scope topic named machine and vehicles.\n\nQuestion: Which of the following topics is present in both map extracts?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'two-cycle engine'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

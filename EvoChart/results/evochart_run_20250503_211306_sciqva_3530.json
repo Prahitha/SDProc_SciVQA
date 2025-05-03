@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "a9089546fac7089dd591b5ae3a194e15",
+        "question": "What is the maximum value of black solid line in the left plot?",
+        "answer_pred": "0.9999999999999999",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Similarity between SVM (`2) and LSTM with attention with different methods grouped by whether these two models agree on the predicted label. The similarity is not always greater when they agree on the predicted labels than when they disagree.\n\nQuestion: What is the maximum value of black solid line in the left plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f53b8be889e002ea16b3445a1f9282b6",
+        "question": "In which scenario (plot) is the maximum Jaccard similarity among all methods at number of important features equal to 1 the highest?",
+        "answer_pred": "(a)",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Similarity between SVM (`2) and LSTM with attention with different methods grouped by whether these two models agree on the predicted label. The similarity is not always greater when they agree on the predicted labels than when they disagree.\n\nQuestion: In which scenario (plot) is the maximum Jaccard similarity among all methods at number of important features equal to 1 the highest?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "5c221b896facac94353df3c1ef408a5d",
+        "question": "Is the solid blue line always higher than the dashed blue line in the middle plot?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Similarity between SVM (`2) and LSTM with attention with different methods grouped by whether these two models agree on the predicted label. The similarity is not always greater when they agree on the predicted labels than when they disagree.\n\nQuestion: Is the solid blue line always higher than the dashed blue line in the middle plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "c841d99db8287497ba0c419301b2d75e",
+        "question": "Does the Jaccard Similarity of SHAP - disagree consistently decrease with number of important features on Yelp?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Similarity between SVM (`2) and LSTM with attention with different methods grouped by whether these two models agree on the predicted label. The similarity is not always greater when they agree on the predicted labels than when they disagree.\n\nQuestion: Does the Jaccard Similarity of SHAP - disagree consistently decrease with number of important features on Yelp?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "02cc7a5425d94219440406242517fb23",
+        "question": "Where is the legend located?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Similarity between SVM (`2) and LSTM with attention with different methods grouped by whether these two models agree on the predicted label. The similarity is not always greater when they agree on the predicted labels than when they disagree.\n\nQuestion: Where is the legend located?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'To the right of all the plots'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "76124408154366830afcd0dac103196c",
+        "question": "Which plot has the most limited range of number of important features?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Similarity between SVM (`2) and LSTM with attention with different methods grouped by whether these two models agree on the predicted label. The similarity is not always greater when they agree on the predicted labels than when they disagree.\n\nQuestion: Which plot has the most limited range of number of important features?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'They are all equal'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "eae9489b6ddce5e05a332ddc62f198fd",
+        "question": "How does the LIME method work?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "912d27752302ba169a18ea50f622fa4d",
+        "question": "What is the approximate value of the top turquoise line at a mini batch size of 1.6M?",
+        "answer_pred": "0.89",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure. 5. Trajectory of semantic classification task performance, measured using balanced accuracy, with error bars (std) in grey.\n\nQuestion: What is the approximate value of the top turquoise line at a mini batch size of 1.6M?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "039609f2d553062a1f9ba4d81d0bc213",
+        "question": "What is written in parentheses in the label for the y axis?",
+        "answer_pred": "(+/- 10%)",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure. 5. Trajectory of semantic classification task performance, measured using balanced accuracy, with error bars (std) in grey.\n\nQuestion: What is written in parentheses in the label for the y axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c8cec92f85ee6981809291968ca30abd",
+        "question": "Does the blue line representing the 'chronological corpus' trend upwards across the entire graph?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure. 5. Trajectory of semantic classification task performance, measured using balanced accuracy, with error bars (std) in grey.\n\nQuestion: Does the blue line representing the 'chronological corpus' trend upwards across the entire graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

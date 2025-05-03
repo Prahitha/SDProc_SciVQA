@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "7b214c053bb2549ae2f5c59bf5fa7447",
+        "question": "Are there any red '+' symbols plotted outside the blue boxes in either of the two groups shown in Figure 6?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Plots of Kruskal-Wallis test for criterion C1.\n\nQuestion: Are there any red '+' symbols plotted outside the blue boxes in either of the two groups shown in Figure 6?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "5b2595dca194391f6bd928ece3c06688",
+        "question": "Does the height of the mid points of the boxes consistently increase with successive letters in order for group-1?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Plots of Kruskal-Wallis test for criterion C1.\n\nQuestion: Does the height of the mid points of the boxes consistently increase with successive letters in order for group-1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d9d1ede2362812f5ce2b5a443cb68ef4",
+        "question": "Which positions have boxes with flat sides on the bottom?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Plots of Kruskal-Wallis test for criterion C1.\n\nQuestion: Which positions have boxes with flat sides on the bottom?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "553f2d42e2928d6daf8cd192e9a14616",
+        "question": "Which group(s) have a box of hieght zero at y value equal to 1 at position a?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Plots of Kruskal-Wallis test for criterion C1.\n\nQuestion: Which group(s) have a box of hieght zero at y value equal to 1 at position a?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "a8b410351d59a96cdd723678c491c1ce",
+        "question": "What is the exact p-value of the Kruskal-Wallis test for criterion C1 in group 1, and what is the statistical significance level used for this test?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "7aaf3d4860f31027b1bcd920bbe7c39b",
+        "question": "Pictorial representations for how many language models in the form of rectangular boxes are visible in the diagram?",
+        "answer_pred": "2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Block diagram of a UPR-LM LID system\n\nQuestion: Pictorial representations for how many language models in the form of rectangular boxes are visible in the diagram?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "352411f580d766a8c84084bf2b15f32b",
+        "question": "What is the label of the very first input to the system in figure 2?",
+        "answer_pred": "L1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Block diagram of a UPR-LM LID system\n\nQuestion: What is the label of the very first input to the system in figure 2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c315fd2ebcc7254ca0ee6e2bb078ad55",
+        "question": "Is the LM-Backend box to the right of the UPR-Frontend box?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Block diagram of a UPR-LM LID system\n\nQuestion: Is the LM-Backend box to the right of the UPR-Frontend box?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "0e191a24bfcf6fd713084e1b91edf004",
+        "question": "Does the system support multiple languages?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Block diagram of a UPR-LM LID system\n\nQuestion: Does the system support multiple languages?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "61326732f8a78918585cee60caf63a80",
+        "question": "What shapes contain the Lang-i at the right end of the image in figure 2?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Block diagram of a UPR-LM LID system\n\nQuestion: What shapes contain the Lang-i at the right end of the image in figure 2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

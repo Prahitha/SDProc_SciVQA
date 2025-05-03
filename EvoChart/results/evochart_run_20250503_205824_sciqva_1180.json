@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "81d0e87be4503d49e3186c2c1aaab0ae",
+        "question": "Does the red line representing the BERT accuracy always decrease as the qth percentile on the x-axis increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Classification accuracies on the validation sets with different values for \u03b4. The x-axis shows the selected qth percentiles of the loge frequencies in the training corpus. The y-axis denotes the accuracy when \u03b4 is set to the loge frequency value representing the specific qth percentile.\n\nQuestion: Does the red line representing the BERT accuracy always decrease as the qth percentile on the x-axis increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e5c5db8adcea6e13ad6748920d6361e6",
+        "question": "Does the classification accuracy decrease as the qth percentile increases from 80 to 100?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Classification accuracies on the validation sets with different values for \u03b4. The x-axis shows the selected qth percentiles of the loge frequencies in the training corpus. The y-axis denotes the accuracy when \u03b4 is set to the loge frequency value representing the specific qth percentile.\n\nQuestion: Does the classification accuracy decrease as the qth percentile increases from 80 to 100?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "dd7f0d249f1431db4a2bc716a4ed87e4",
+        "question": "Which of the lines on the graph for (a) IMDb represent a model named CNN?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Classification accuracies on the validation sets with different values for \u03b4. The x-axis shows the selected qth percentiles of the loge frequencies in the training corpus. The y-axis denotes the accuracy when \u03b4 is set to the loge frequency value representing the specific qth percentile.\n\nQuestion: Which of the lines on the graph for (a) IMDb represent a model named CNN?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "9c9833dc75b954e7459b2853593f2573",
+        "question": "Which of the following models shows the highest accuracy in the validation set for qth percentile values greater than 90?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Classification accuracies on the validation sets with different values for \u03b4. The x-axis shows the selected qth percentiles of the loge frequencies in the training corpus. The y-axis denotes the accuracy when \u03b4 is set to the loge frequency value representing the specific qth percentile.\n\nQuestion: Which of the following models shows the highest accuracy in the validation set for qth percentile values greater than 90?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "2b8abef816a7798bd3c1c6d1234ec4de",
+        "question": "What is the specific value of \u03b4 that corresponds to the 50th percentile of the loge frequencies in the training corpus for the IMDB dataset?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "fda4eff9319d3564e67193531605a926",
+        "question": "What is the value of the blue line at a desired length of 28 on the 'mCIDEr' plot?",
+        "answer_pred": "41.4",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The performance of models with different desired length. Att2in+BSx is Att2in+fixLen with beam size x.\n\nQuestion: What is the value of the blue line at a desired length of 28 on the 'mCIDEr' plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "45137682f08418c6f3e6bd6d0d4711cb",
+        "question": "What is the name of the model with the highest performance for SPICE?",
+        "answer_pred": "LenBERTa",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The performance of models with different desired length. Att2in+BSx is Att2in+fixLen with beam size x.\n\nQuestion: What is the name of the model with the highest performance for SPICE?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f142d1565575f1e946a5f164e11dc75b",
+        "question": "Is the value of the green line higher than the red line at the point corresponding to 7 on the x-axis of the graph labelled 'mCIDEr'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The performance of models with different desired length. Att2in+BSx is Att2in+fixLen with beam size x.\n\nQuestion: Is the value of the green line higher than the red line at the point corresponding to 7 on the x-axis of the graph labelled 'mCIDEr'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "4bd1b4c9033d963b9c4c01c14fab6867",
+        "question": "Does the performance of 'Att2in+BS10' model consistently increase with the desired length?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The performance of models with different desired length. Att2in+BSx is Att2in+fixLen with beam size x.\n\nQuestion: Does the performance of 'Att2in+BS10' model consistently increase with the desired length?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "21c29e1f0cbb4b50c4f01958d1fa9df5",
+        "question": "Which line in the top-right plot has the highest value when the x-axis is 28?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The performance of models with different desired length. Att2in+BSx is Att2in+fixLen with beam size x.\n\nQuestion: Which line in the top-right plot has the highest value when the x-axis is 28?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Red line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "27346dc258d6d62c0eaff7ba1f2c1413",
+        "question": "What is the exact number of Hausa words used in the development data for this experiment?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "73a7a15ae74648e8d571f39a29ff9732",
+        "question": "What is the value of the green line at x = 6?",
+        "answer_pred": "0.012",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Pinskers inequality, our bound, and the total variation squared of parameter estimates for different parameter estimates (c = 0.2). As shown, loss truncation can significantly improve bounds over Pinskers inequality and, in this case, has a nearly identical minimizer to directly minimizing total variation.\n\nQuestion: What is the value of the green line at x = 6?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "39f0da025b9585b37f644a8f6bec82ca",
+        "question": "What are the values of the ticks on the y axis?",
+        "answer_pred": "[0.0, 0.2, 0.4, 0.6, 0.8, 1.0]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Pinskers inequality, our bound, and the total variation squared of parameter estimates for different parameter estimates (c = 0.2). As shown, loss truncation can significantly improve bounds over Pinskers inequality and, in this case, has a nearly identical minimizer to directly minimizing total variation.\n\nQuestion: What are the values of the ticks on the y axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "e5a370cc734000a7fa28da57f330e254",
+        "question": "Does the green line have a consistently higher value than the orange line?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Pinskers inequality, our bound, and the total variation squared of parameter estimates for different parameter estimates (c = 0.2). As shown, loss truncation can significantly improve bounds over Pinskers inequality and, in this case, has a nearly identical minimizer to directly minimizing total variation.\n\nQuestion: Does the green line have a consistently higher value than the orange line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "fca8a0b8e8fc996a6b0ca55ceb638816",
+        "question": "Is the loss-truncated (ours) bound always lower than Pinsker's inequality?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Pinskers inequality, our bound, and the total variation squared of parameter estimates for different parameter estimates (c = 0.2). As shown, loss truncation can significantly improve bounds over Pinskers inequality and, in this case, has a nearly identical minimizer to directly minimizing total variation.\n\nQuestion: Is the loss-truncated (ours) bound always lower than Pinsker's inequality?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a50da4eebf2d09898e61e8d2574396c6",
+        "question": "Which line represents 'Loss-truncated (ours)'?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Pinskers inequality, our bound, and the total variation squared of parameter estimates for different parameter estimates (c = 0.2). As shown, loss truncation can significantly improve bounds over Pinskers inequality and, in this case, has a nearly identical minimizer to directly minimizing total variation.\n\nQuestion: Which line represents 'Loss-truncated (ours)'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "c9b4fbe18ea7ef4b7cef6f59fa2555f4",
+        "question": "Which of the following assumes a value of 2 throughout the range of x values?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Pinskers inequality, our bound, and the total variation squared of parameter estimates for different parameter estimates (c = 0.2). As shown, loss truncation can significantly improve bounds over Pinskers inequality and, in this case, has a nearly identical minimizer to directly minimizing total variation.\n\nQuestion: Which of the following assumes a value of 2 throughout the range of x values?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "7b8b9e35f4a8b2bee858d4d286ce6405",
+        "question": "How are the quantities in figure 4 calculated?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "370c042adfd43b15e038e3d95e1f71e0",
+        "question": "What is the color of the line representing 'target power' in the leftmost graph?",
+        "answer_pred": "blue",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Cumulative Distribution Functions for timeline similarity on relevant features. These measures are shown to be predictive of power imbalance and harmful intent.\n\nQuestion: What is the color of the line representing 'target power' in the leftmost graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "1511d3a7b621bdd228f74290bd03635a",
+        "question": "What is the cumulative probability for harmful intent at a cosine theta of 0.5?",
+        "answer_pred": "0.12",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Cumulative Distribution Functions for timeline similarity on relevant features. These measures are shown to be predictive of power imbalance and harmful intent.\n\nQuestion: What is the cumulative probability for harmful intent at a cosine theta of 0.5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

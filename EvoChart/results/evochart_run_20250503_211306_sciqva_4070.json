@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "d2069434c9768973e9030031093a5b95",
+        "question": "How many ct variables are there in figure 3?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Illustration of our proposed model. The context network is a differentiable network that computes context vector ct for word xt taking the whole sequence as input.  represents the operation that combines original word embedding xt with corresponding context vector ct to form context-aware word embeddings.\n\nQuestion: How many ct variables are there in figure 3?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "fa0ed51df3eeaf86f3dabf787d14781a",
+        "question": "Does the context network have a blue arrow pointing towards it?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Illustration of our proposed model. The context network is a differentiable network that computes context vector ct for word xt taking the whole sequence as input.  represents the operation that combines original word embedding xt with corresponding context vector ct to form context-aware word embeddings.\n\nQuestion: Does the context network have a blue arrow pointing towards it?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "92f5138b680244ec7a2d8e26886117ab",
+        "question": "Are there three yt in the figure?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Illustration of our proposed model. The context network is a differentiable network that computes context vector ct for word xt taking the whole sequence as input.  represents the operation that combines original word embedding xt with corresponding context vector ct to form context-aware word embeddings.\n\nQuestion: Are there three yt in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "afcc87a844e9f630ca22da8e6445e081",
+        "question": "Which of the following arrows show the flow of information from the \"Context Network\" to the word embeddings?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Illustration of our proposed model. The context network is a differentiable network that computes context vector ct for word xt taking the whole sequence as input.  represents the operation that combines original word embedding xt with corresponding context vector ct to form context-aware word embeddings.\n\nQuestion: Which of the following arrows show the flow of information from the \"Context Network\" to the word embeddings?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "7852f50bd387a6f8a9b2a29d84f93c4a",
+        "question": "How many times is the letter \"x\" used in the image of figure 3?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Illustration of our proposed model. The context network is a differentiable network that computes context vector ct for word xt taking the whole sequence as input.  represents the operation that combines original word embedding xt with corresponding context vector ct to form context-aware word embeddings.\n\nQuestion: How many times is the letter \"x\" used in the image of figure 3?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '7'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "ad05be6624c492a2d89cc1fcec2c223d",
+        "question": "What is the exact structure of the 'context network' in this model?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "7908c7a433c6602efeca33d77cb75393",
+        "question": "Which box is connected to the box labeled 'h' with a directional arrow pointing upwards?",
+        "answer_pred": "x",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: One slice of the architecture of Neural Machine Translation based on a generic attention.\n\nQuestion: Which box is connected to the box labeled 'h' with a directional arrow pointing upwards?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "a34e6868d67a215788fcec571c52e92d",
+        "question": "Which element is connected to both s(i-1) and s(i) in the Neural Machine Translation architecture?",
+        "answer_pred": "si",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: One slice of the architecture of Neural Machine Translation based on a generic attention.\n\nQuestion: Which element is connected to both s(i-1) and s(i) in the Neural Machine Translation architecture?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "d925477a639bac5b6497239c0decb265",
+        "question": "Is the box labeled 'h' positioned below the box labeled 'c_i'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: One slice of the architecture of Neural Machine Translation based on a generic attention.\n\nQuestion: Is the box labeled 'h' positioned below the box labeled 'c_i'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "9e7bfd7942e05851300ce4efe5030af7",
+        "question": "Is the element labeled 'x' connected to an element labeled 'yt' for some index t?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: One slice of the architecture of Neural Machine Translation based on a generic attention.\n\nQuestion: Is the element labeled 'x' connected to an element labeled 'yt' for some index t?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

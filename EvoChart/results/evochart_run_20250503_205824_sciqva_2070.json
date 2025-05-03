@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "ed66b854220197b79e41c4b8d5ee3471",
+        "question": "Did the model perform worst for the label 'nor'?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The confusion matrix of the system as in run3 (Table 3).\n\nQuestion: Did the model perform worst for the label 'nor'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "9560257c22dcb4ec2a0f86c55d0c9fd5",
+        "question": "What is the colour of the cell in the confusion matrix located in the 'egy' row and 'egy' column?",
+        "answer_pred": "blue",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The confusion matrix of the system as in run3 (Table 3).\n\nQuestion: What is the colour of the cell in the confusion matrix located in the 'egy' row and 'egy' column?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'red'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "a1464d727219cea091aa768512801e69",
+        "question": "Which of the following labels are perfectly predicted by the system in run3?",
+        "answer_pred": "A",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The confusion matrix of the system as in run3 (Table 3).\n\nQuestion: Which of the following labels are perfectly predicted by the system in run3?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'msa'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "a596d9e877cce886d12dbe9c2177f131",
+        "question": "What is the exact accuracy of the system in run3 (Table 3) for the 'msa' class?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "3fdcf0f013270530dca303a1d10621f3",
+        "question": "What is the colour of the cell in the heatmap that is in the same row as 'layer 2' and the same column as 'bin 3'?",
+        "answer_pred": "0.69",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Frequency-based classification accuracy on states from the ENDE encoder + lexical shortcuts.\n\nQuestion: What is the colour of the cell in the heatmap that is in the same row as 'layer 2' and the same column as 'bin 3'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f3f5e910d5ad14b21f8d49caa0ab3b24",
+        "question": "What is the classification accuracy of layer 4 on bin 3?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Frequency-based classification accuracy on states from the ENDE encoder + lexical shortcuts.\n\nQuestion: What is the classification accuracy of layer 4 on bin 3?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b48f985360f694964e32f33d0dcbc019",
+        "question": "Is the value of the blue square position in the left corner higher than 0.5?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Frequency-based classification accuracy on states from the ENDE encoder + lexical shortcuts.\n\nQuestion: Is the value of the blue square position in the left corner higher than 0.5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8de297657c35b1abf05fd5db176bcf3d",
+        "question": "Is the accuracy of layer 1 for bin 1 lower than 0.5?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Frequency-based classification accuracy on states from the ENDE encoder + lexical shortcuts.\n\nQuestion: Is the accuracy of layer 1 for bin 1 lower than 0.5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "4be9171f97799d5f51d53c06445fa528",
+        "question": "Which layer has the lowest number of red squares?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Frequency-based classification accuracy on states from the ENDE encoder + lexical shortcuts.\n\nQuestion: Which layer has the lowest number of red squares?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'layer 6'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "6699ca8d060686d523b42f315bb53346",
+        "question": "Which layer has the lowest classification accuracy for bin 3?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Frequency-based classification accuracy on states from the ENDE encoder + lexical shortcuts.\n\nQuestion: Which layer has the lowest classification accuracy for bin 3?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'layer 6'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

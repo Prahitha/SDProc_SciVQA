@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "7a89092be14cc6c4a8a650794f43bfcd",
+        "question": "What is directly to the right of 'likes' in the top left graph?",
+        "answer_pred": "Votes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The bag of linked subtree pairs of hTs;Tti\n\nQuestion: What is directly to the right of 'likes' in the top left graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "df598ae808fa925aaad00f79b3cc2561",
+        "question": "In how many trees does the verb 'likes' appear?",
+        "answer_pred": "2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The bag of linked subtree pairs of hTs;Tti\n\nQuestion: In how many trees does the verb 'likes' appear?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "0b412ce3e652be7e2ba5b4d642731cf2",
+        "question": "Are there any dashed lines connecting the 'S' nodes?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The bag of linked subtree pairs of hTs;Tti\n\nQuestion: Are there any dashed lines connecting the 'S' nodes?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d99364ae14d037c65a6a84605cc6e529",
+        "question": "Is the grammatical role of 'Charles' VP?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The bag of linked subtree pairs of hTs;Tti\n\nQuestion: Is the grammatical role of 'Charles' VP?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "1183c481fdf824074240424f76e19702",
+        "question": "Which of the tree pairs in the figure has a dashed line that goes directly from 'S' to 'NP'? ",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The bag of linked subtree pairs of hTs;Tti\n\nQuestion: Which of the tree pairs in the figure has a dashed line that goes directly from 'S' to 'NP'? \n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "b13ff088ef1d2a66edef4f7fbe68cb77",
+        "question": "What is the grammatical role of '\u00e0'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The bag of linked subtree pairs of hTs;Tti\n\nQuestion: What is the grammatical role of '\u00e0'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'VP'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "5d574822d2a79fd2275fdb417c127e4f",
+        "question": "What is the meaning of the subtree pairs represented in Figure 2, particularly the 'hTs' and 'Tti' components?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "6c61ae0bc5e70838c7f89ff7e48df28b",
+        "question": "What is the node at the bottom right of the tree?",
+        "answer_pred": "1990",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: CART tree for the identification of authors\n\nQuestion: What is the node at the bottom right of the tree?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "970b7b74edd80b35ced57d513125fa89",
+        "question": "How many authors are classified as 'SCW' by the tree if x47 \u2264 0.04427 and x6 < 0.1239?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: CART tree for the identification of authors\n\nQuestion: How many authors are classified as 'SCW' by the tree if x47 \u2264 0.04427 and x6 < 0.1239?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "07db3d042b4f11050139c0a3fb438307",
+        "question": "Is the value of the node labeled 'x47' positioned above the node labeled 'x6'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: CART tree for the identification of authors\n\nQuestion: Is the value of the node labeled 'x47' positioned above the node labeled 'x6'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

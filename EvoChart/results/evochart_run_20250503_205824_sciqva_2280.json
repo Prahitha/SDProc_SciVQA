@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "6da03712503a8186f1b714537cc5636a",
+        "question": "Is there three different categories plotted under Taxonomy dataset?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Tuning the hyper-parameter \u03bb.\n\nQuestion: Is there three different categories plotted under Taxonomy dataset?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "f05e7bf59fde2c7f92f749fb53094757",
+        "question": "Considering the Taxonomy dataset, which of the following exhibit an accuracy above 95%?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Tuning the hyper-parameter \u03bb.\n\nQuestion: Considering the Taxonomy dataset, which of the following exhibit an accuracy above 95%?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "6494252ba82453f3bf24d5ae7380b1f7",
+        "question": "Based on Figure 4, which dataset(s) are used in the hyper-parameter tuning experiment?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Tuning the hyper-parameter \u03bb.\n\nQuestion: Based on Figure 4, which dataset(s) are used in the hyper-parameter tuning experiment?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "27336cc4ede1535b7905147660be3ae6",
+        "question": "What is the accuracy of the 'Book' category at \u03bb = 0.6 in the Amazon dataset?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "21c85acf080b6a769d10044aeac992f3",
+        "question": "What is the approximate value of F0.5 for the green dashed line representing 'Agreed correction + features' at an error rate of 0.15 in the bottom graph?",
+        "answer_pred": "0.12",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: F0.5 at various noise levels, averaged across the five datasets.\n\nQuestion: What is the approximate value of F0.5 for the green dashed line representing 'Agreed correction + features' at an error rate of 0.15 in the bottom graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "397c405e4120ed430a2a08c681e40b49",
+        "question": "What is the data represented on the Y-axis of the figure?",
+        "answer_pred": "F0.5",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: F0.5 at various noise levels, averaged across the five datasets.\n\nQuestion: What is the data represented on the Y-axis of the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "9edac8a5a50dd7d51a94cae314904aee",
+        "question": "Is the blue dashed line representing HARF + activations consistently higher than the red dashed line representing Consensus + activations at all error rates in the bottom graph labeled \"Next-Best Noise\"?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: F0.5 at various noise levels, averaged across the five datasets.\n\nQuestion: Is the blue dashed line representing HARF + activations consistently higher than the red dashed line representing Consensus + activations at all error rates in the bottom graph labeled \"Next-Best Noise\"?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "2af1dca7062125a1368fc4684a54d933",
+        "question": "Does 'Agreed correction + activations' have the highest f0.5 at 0.05 error rate?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: F0.5 at various noise levels, averaged across the five datasets.\n\nQuestion: Does 'Agreed correction + activations' have the highest f0.5 at 0.05 error rate?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "b8f6ed26ae6b04f76df5f8fe1d3c115a",
+        "question": "Which line is the highest for the Error Rate of 0.15 in the top graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: F0.5 at various noise levels, averaged across the five datasets.\n\nQuestion: Which line is the highest for the Error Rate of 0.15 in the top graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Blue dashed line - HARF + features'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "d39d8d4e9fae6f2d88832731252f03e7",
+        "question": "How many different methods are compared in figure 6?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: F0.5 at various noise levels, averaged across the five datasets.\n\nQuestion: How many different methods are compared in figure 6?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '12'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

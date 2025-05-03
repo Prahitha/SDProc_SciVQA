@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "81ccdf247d426da934cadf38fa24a852",
+        "question": "Which of the following is true about the arrows in the figure? ",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The Reinforced Co-Training framework.\n\nQuestion: Which of the following is true about the arrows in the figure? \n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "62185a68b0e22a9e2f5d67258ed0366f",
+        "question": "Which of the following are not used to create unlabeled subsets (Ui)?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The Reinforced Co-Training framework.\n\nQuestion: Which of the following are not used to create unlabeled subsets (Ui)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Classifier 1'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "ab3628e262c6d7f6318bedcefcec6777",
+        "question": "What is the specific value of the reward 'r_t'  at a given time step t in the figure?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "546a735a7677bc4bf8096f3f823fb573",
+        "question": "What is the blue label of the line connected to the 'PredVP' node on the right tree?",
+        "answer_pred": "head",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 13 Decorated ASTs for the clause John killed him and its passive counterpart He was killed using both local and non-local abstract\n\nQuestion: What is the blue label of the line connected to the 'PredVP' node on the right tree?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "d5c227c02b5f535157bb2cb270baa861",
+        "question": "What is the root of both the trees?",
+        "answer_pred": "Predicate",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 13 Decorated ASTs for the clause John killed him and its passive counterpart He was killed using both local and non-local abstract\n\nQuestion: What is the root of both the trees?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "1f08ce00f2bfce17d3fba9109431d8ed",
+        "question": "Is the label 'nsubjpass' positioned above the label 'nsubj'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 13 Decorated ASTs for the clause John killed him and its passive counterpart He was killed using both local and non-local abstract\n\nQuestion: Is the label 'nsubjpass' positioned above the label 'nsubj'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "6d466ef1d9335cc60eb247e6e954ead5",
+        "question": "Do both trees have a node labeled 'UsePron : NP'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 13 Decorated ASTs for the clause John killed him and its passive counterpart He was killed using both local and non-local abstract\n\nQuestion: Do both trees have a node labeled 'UsePron : NP'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d6cef94b209bbd287e04c3f9a9b56f2d",
+        "question": "What is the relation between the 'PredVP: CI' nodes to the right and left of the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 13 Decorated ASTs for the clause John killed him and its passive counterpart He was killed using both local and non-local abstract\n\nQuestion: What is the relation between the 'PredVP: CI' nodes to the right and left of the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': \"They are both labelled with 'nsubj'.\"}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "6f0dd96351a8990ee5e236cf634a4877",
+        "question": "How many nodes are in the AST that represents the clause 'He was killed'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 13 Decorated ASTs for the clause John killed him and its passive counterpart He was killed using both local and non-local abstract\n\nQuestion: How many nodes are in the AST that represents the clause 'He was killed'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '7'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8f1751ad87b5de6c61d32ea1bb0cd6bf",
+        "question": "What is the accuracy of the abstract syntactic structure (AST) in the context of the full paper?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "4820efe602457a99794dbfd16077f22c",
+        "question": "Is the blue arrow pointing to the word 'la_plupart'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Linguistic application of constraint redirect\n\nQuestion: Is the blue arrow pointing to the word 'la_plupart'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d4e98936cf2120444f1cba88e7cbcd1e",
+        "question": "Is there more than one 'suj' in the diagram?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Linguistic application of constraint redirect\n\nQuestion: Is there more than one 'suj' in the diagram?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "22da31f6eaaaedc9588e28b9591d35fd",
+        "question": "Which of the following terms is connected to the term 'la_plupart' by a blue line?",
+        "answer_pred": "su",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Linguistic application of constraint redirect\n\nQuestion: Which of the following terms is connected to the term 'la_plupart' by a blue line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "6bd3512172248755a5bbfe79cbaae306",
+        "question": "What is the grammatical function of the word 'gens'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Linguistic application of constraint redirect\n\nQuestion: What is the grammatical function of the word 'gens'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'verb'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "0ef329be043e309642a7512d95629a4b",
+        "question": "What model or parser was used to generate the syntactic dependencies shown?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "559088fd6023525199922d4b553714ce",
+        "question": "What is the label of the arrow pointing from the black box in chunk-m-2 to the black box in 'WORD'??",
+        "answer_pred": "supervised",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. Concepts linked in the ReVerb translation memory.\n\nQuestion: What is the label of the arrow pointing from the black box in chunk-m-2 to the black box in 'WORD'??\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b5fc12cfcc44a56bc70a68cef9666f3f",
+        "question": "Which relation links the 'WORD' to chunks?",
+        "answer_pred": "appears in the ReVerb translation memory.",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. Concepts linked in the ReVerb translation memory.\n\nQuestion: Which relation links the 'WORD' to chunks?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "19f45f4da0e43b34782d8a9e01625d26",
+        "question": "Is there a chunk labeled 'chunk-1-1' at the top of the leftmost group?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. Concepts linked in the ReVerb translation memory.\n\nQuestion: Is there a chunk labeled 'chunk-1-1' at the top of the leftmost group?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "14c0b2d8d05adbc66f59825d18fa33ea",
+        "question": "Are there two types of relationships linking the concepts in the ReVerb translation memory?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. Concepts linked in the ReVerb translation memory.\n\nQuestion: Are there two types of relationships linking the concepts in the ReVerb translation memory?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "ba8b08812d8bc32a1ca52dc82db03891",
+        "question": "What is shown directly below the 'chunk-m-1' block?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. Concepts linked in the ReVerb translation memory.\n\nQuestion: What is shown directly below the 'chunk-m-1' block?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

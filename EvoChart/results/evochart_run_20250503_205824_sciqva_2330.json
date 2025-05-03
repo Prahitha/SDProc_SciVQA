@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "60e869ccc18fbf5ac93bacd74b10259d",
+        "question": "Which line represents performance for 'ja'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: BLI performance in the comparable setting. The target window size is fixed and the source window size is varied.\n\nQuestion: Which line represents performance for 'ja'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Dotted red line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8439cc15a4da337bf7ca5a049ac43662",
+        "question": "What are the values of the target window sizes shown in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: BLI performance in the comparable setting. The target window size is fixed and the source window size is varied.\n\nQuestion: What are the values of the target window sizes shown in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '1, 5, 20'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "965d9caf0f7af437041e13eac90ca14b",
+        "question": "What is the BLI performance of German (de) for a target window size of 7 with a source window size of 7?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "b50c0b3292d3e7d0a0d8dac84c72e07b",
+        "question": "What is the approximate accuracy of the blue line with circles at the second layer for the 'infinitive' task?",
+        "answer_pred": "0.62",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Accuracy evolution over layers on grammatical, locative, and infinitive probing tasks, in char-d7 and bpe-d7, using randLSTM and max for composition, respectively.\n\nQuestion: What is the approximate accuracy of the blue line with circles at the second layer for the 'infinitive' task?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "1f78e21684d84d1c690b028419f1d16f",
+        "question": "Which probing task achieves the highest accuracy for char-d7?",
+        "answer_pred": "grammatical",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Accuracy evolution over layers on grammatical, locative, and infinitive probing tasks, in char-d7 and bpe-d7, using randLSTM and max for composition, respectively.\n\nQuestion: Which probing task achieves the highest accuracy for char-d7?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "2dd36829b0189ef4a1123c508c910bd8",
+        "question": "Is the blue line representing 'bpe-d7' consistently higher than the black line representing 'char-d7' in the 'infinitive' plot?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Accuracy evolution over layers on grammatical, locative, and infinitive probing tasks, in char-d7 and bpe-d7, using randLSTM and max for composition, respectively.\n\nQuestion: Is the blue line representing 'bpe-d7' consistently higher than the black line representing 'char-d7' in the 'infinitive' plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d04d0f76b688899020e2b898f43a596f",
+        "question": "Is the accuracy of 'bpe-d7' consistently lower than that of 'char-d7' on the 'grammatical' probing task?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Accuracy evolution over layers on grammatical, locative, and infinitive probing tasks, in char-d7 and bpe-d7, using randLSTM and max for composition, respectively.\n\nQuestion: Is the accuracy of 'bpe-d7' consistently lower than that of 'char-d7' on the 'grammatical' probing task?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "19987a3d4e99cfe02f030f5eb1ae9178",
+        "question": "In the 'grammatical' plot, which line has a higher accuracy at layer 1?",
+        "answer_pred": "b",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Accuracy evolution over layers on grammatical, locative, and infinitive probing tasks, in char-d7 and bpe-d7, using randLSTM and max for composition, respectively.\n\nQuestion: In the 'grammatical' plot, which line has a higher accuracy at layer 1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "f4f1cd261548284e30c2ec86110a3305",
+        "question": "In which of the following tasks is char-d7 higher than bpe-d7?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Accuracy evolution over layers on grammatical, locative, and infinitive probing tasks, in char-d7 and bpe-d7, using randLSTM and max for composition, respectively.\n\nQuestion: In which of the following tasks is char-d7 higher than bpe-d7?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'prepositional'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "c0c0507ffd3fe42e7eeb463f1fd36460",
+        "question": "What is the average accuracy for the bpe-d7 model across all layers and tasks?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

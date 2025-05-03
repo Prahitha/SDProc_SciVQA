@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "800ebee9580dfbaeea74a32c1f97fd8f",
+        "question": "What is the word-level memory encoding method that performs best when using HMN-Word?",
+        "answer_pred": "Embedding",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Answer selection evaluations of HMN-Sent, HMN-Word and HMN-Joint with different wordlevel memory encoding methods (BiGRU, GRU and Embedding) using various values ofk on Total.\n\nQuestion: What is the word-level memory encoding method that performs best when using HMN-Word?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c7329c51582c5fbd8f4019e8cd205485",
+        "question": "Is the value of the blue line with triangles at the highest point in the third figure (c) higher than 1500?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Answer selection evaluations of HMN-Sent, HMN-Word and HMN-Joint with different wordlevel memory encoding methods (BiGRU, GRU and Embedding) using various values ofk on Total.\n\nQuestion: Is the value of the blue line with triangles at the highest point in the third figure (c) higher than 1500?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "1b3cd31a04c92e85d2b3c9a7ca2bf97d",
+        "question": "Is the HMN-Joint model evaluated with BiGRU word-level memory encoding method consistently better than the HMN-Word model using the same method?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Answer selection evaluations of HMN-Sent, HMN-Word and HMN-Joint with different wordlevel memory encoding methods (BiGRU, GRU and Embedding) using various values ofk on Total.\n\nQuestion: Is the HMN-Joint model evaluated with BiGRU word-level memory encoding method consistently better than the HMN-Word model using the same method?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "af873b68ed1b0d15c0274de878c09d35",
+        "question": "Which plot shows the highest value for GRU at k=16?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Answer selection evaluations of HMN-Sent, HMN-Word and HMN-Joint with different wordlevel memory encoding methods (BiGRU, GRU and Embedding) using various values ofk on Total.\n\nQuestion: Which plot shows the highest value for GRU at k=16?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "e06ffc662224da1d61629650ca90a17b",
+        "question": "Which encoding method achieved the lowest number of predicted error samples for HMN-Word with a k value of 10?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Answer selection evaluations of HMN-Sent, HMN-Word and HMN-Joint with different wordlevel memory encoding methods (BiGRU, GRU and Embedding) using various values ofk on Total.\n\nQuestion: Which encoding method achieved the lowest number of predicted error samples for HMN-Word with a k value of 10?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "cf2617ef3de86d1d0ae93b92d2081c6c",
+        "question": "What are the specific values used for the word-level memory encoding methods (BiGRU, GRU, and Embedding) in each experiment? ",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "1db647f7484bf92c6b22a12806ed472a",
+        "question": "What is the power value of the orange line at a sample size of 5000?",
+        "answer_pred": "75",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Power analysis for MT, showing how power increases with n and \u2206B , using an average of fitted values for P0 and b0. Based on this analysis, we expect that an experiment with a test set of 2000 sentences would have approximately 75% power to detect a difference of 1 BLEU point as significant. For additional plots, refer to Figure 17 in Appendix G.\n\nQuestion: What is the power value of the orange line at a sample size of 5000?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "5cf61647298b85d928efe238536b64ea",
+        "question": "What is the approximate power for \u2206B=1.0 at n=1000?",
+        "answer_pred": "75",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Power analysis for MT, showing how power increases with n and \u2206B , using an average of fitted values for P0 and b0. Based on this analysis, we expect that an experiment with a test set of 2000 sentences would have approximately 75% power to detect a difference of 1 BLEU point as significant. For additional plots, refer to Figure 17 in Appendix G.\n\nQuestion: What is the approximate power for \u2206B=1.0 at n=1000?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "59a6b8e86ce1cf8e716fd83dff804906",
+        "question": "Does the orange line reach a power of 0.75 at a sample size of 2000?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Power analysis for MT, showing how power increases with n and \u2206B , using an average of fitted values for P0 and b0. Based on this analysis, we expect that an experiment with a test set of 2000 sentences would have approximately 75% power to detect a difference of 1 BLEU point as significant. For additional plots, refer to Figure 17 in Appendix G.\n\nQuestion: Does the orange line reach a power of 0.75 at a sample size of 2000?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "095d08a4e268e24448007b1af7d25e8a",
+        "question": "Is the power greater than 0.75 for all differences in BLEU when the sample size is 2000?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Power analysis for MT, showing how power increases with n and \u2206B , using an average of fitted values for P0 and b0. Based on this analysis, we expect that an experiment with a test set of 2000 sentences would have approximately 75% power to detect a difference of 1 BLEU point as significant. For additional plots, refer to Figure 17 in Appendix G.\n\nQuestion: Is the power greater than 0.75 for all differences in BLEU when the sample size is 2000?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

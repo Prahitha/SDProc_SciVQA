@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "b4c6e60176215c3ad28db794ee3d106a",
+        "question": "In which graph are there y ticks with values that are not multiples of five?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Inoculation by fine-tuning results. (a\u2013e): NLI accuracy for the ESIM and decomposable attention (DA) models. (f): Reading comprehension F1 scores for the BiDAF and QANet models. Fine-tuning on a small number of word overlap (a) and negation (b) examples erases the performance gap (Outcome 1). Fine-tuning does not yield significant improvement on spelling errors (c) and length mismatch (d), but does not degrade original performance either (Outcome 2). Fine-tuning on numerical reasoning (e) closes the gap entirely, but also reduces performance on the original dataset (Outcome 3). On Adversarial SQuAD (f), around 60% of the performance gap is closed after fine-tuning, though performance on the original dataset decreases (Outcome 3). On each challenge dataset, we observe similar trends between different models.\n\nQuestion: In which graph are there y ticks with values that are not multiples of five?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '(d)'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "ff4aee3afb5a9b5c4bcd0becae271c3e",
+        "question": "For how many iterations or epochs was fine tuning carried out in each case?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "c36ed368fc67c710f22cf3210655fc58",
+        "question": "What is the value of the black square at a training size of 20 in the right graph?",
+        "answer_pred": "0.81",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Micro-F1 and Macro-F1 scores for different methods versus the size of the target rumour used for training in the LPO setting on the PHEME dataset. The test set is fixed to all but the first 50 tweets of the target rumour.\n\nQuestion: What is the value of the black square at a training size of 20 in the right graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "30c95f4235ae7c24acf3e40c5b47182d",
+        "question": "What is the range of the target rumour size for training?",
+        "answer_pred": "[1, 50]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Micro-F1 and Macro-F1 scores for different methods versus the size of the target rumour used for training in the LPO setting on the PHEME dataset. The test set is fixed to all but the first 50 tweets of the target rumour.\n\nQuestion: What is the range of the target rumour size for training?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "141f26f69ff8f94acd4eb84fd7022ec9",
+        "question": "Does the red line on the left plot consistently have higher F1 scores than the orange line?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Micro-F1 and Macro-F1 scores for different methods versus the size of the target rumour used for training in the LPO setting on the PHEME dataset. The test set is fixed to all but the first 50 tweets of the target rumour.\n\nQuestion: Does the red line on the left plot consistently have higher F1 scores than the orange line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "86df7f8896841fc28b8fe9c9f3b11b75",
+        "question": "Is the Macro-F1 score of GP-ICM consistently higher than that of MaxEnt across all training sizes?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Micro-F1 and Macro-F1 scores for different methods versus the size of the target rumour used for training in the LPO setting on the PHEME dataset. The test set is fixed to all but the first 50 tweets of the target rumour.\n\nQuestion: Is the Macro-F1 score of GP-ICM consistently higher than that of MaxEnt across all training sizes?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "659f19a1938f0eaf13faf3803ea483cf",
+        "question": "Which line is the lowest at a training size of 10 in the graph on the right?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Micro-F1 and Macro-F1 scores for different methods versus the size of the target rumour used for training in the LPO setting on the PHEME dataset. The test set is fixed to all but the first 50 tweets of the target rumour.\n\nQuestion: Which line is the lowest at a training size of 10 in the graph on the right?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Green line marked with triangles'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "b64d17cc74a87b1edd9669dbe5dc3460",
+        "question": "Which methods have their Micro-F1 score decreasing as the size of the target rumour used for training increases?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Micro-F1 and Macro-F1 scores for different methods versus the size of the target rumour used for training in the LPO setting on the PHEME dataset. The test set is fixed to all but the first 50 tweets of the target rumour.\n\nQuestion: Which methods have their Micro-F1 score decreasing as the size of the target rumour used for training increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'RF, GP'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "f84a98bf9602958327270628d734dad3",
+        "question": "How many classes were the F1 scores calculated on and what were the associated precisions and recalls?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "4d39249db68f9d2e6373e7713dab8772",
+        "question": "What is the accuracy of the red line when trained for 10 epochs?",
+        "answer_pred": "66.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Variation in models trained on SST-2 (sentenceonly). Accuracies of 100 randomly initialized models are plotted against the number of epochs of training (in gray), along with their average accuracies (in red, with 95% confidence interval error bars). The inset density plot shows the distribution of accuracies when trained with early stopping.\n\nQuestion: What is the accuracy of the red line when trained for 10 epochs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

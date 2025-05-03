@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "fd1f30a045ed38e0ddc6c2f0f2a3e85e",
+        "question": "What is the final vector c^s derived from?",
+        "answer_pred": "[0.83, 0.82]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Frame Integration Representation Model.\n\nQuestion: What is the final vector c^s derived from?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "489e3a8c8945eeb1842d8e5948fd0e6d",
+        "question": "Is the color of the rectangle containing 'FE2' the same as the color of the rectangle containing 'P2'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Frame Integration Representation Model.\n\nQuestion: Is the color of the rectangle containing 'FE2' the same as the color of the rectangle containing 'P2'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "781b5640e383a3fe0b0e79efabbd7f12",
+        "question": "Does the model integrate information from multiple semantic frames?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Frame Integration Representation Model.\n\nQuestion: Does the model integrate information from multiple semantic frames?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "f058179290c5d49685cf79ee47329963",
+        "question": "What does the orange vector represent in the model?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Frame Integration Representation Model.\n\nQuestion: What does the orange vector represent in the model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Frame label'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "981dcd53284a993f34b17eff855791e6",
+        "question": "How many types of embeddings are combined as input to the model?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Frame Integration Representation Model.\n\nQuestion: How many types of embeddings are combined as input to the model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '4'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "95fbc68ab4d8d3c0c662dd4b4ea10d94",
+        "question": "What are the specific values of the variables represented by T1, F1, and FE1 in the Frame Integration Representation Model?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "337156d0361d23a92dc8b8a8a1388be5",
+        "question": "What does the arrow coming out of embedding in the Word Component point to?",
+        "answer_pred": "w",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Diagram of DiffTime. timevec(t) encodes temporal information as a vector. MW encodes lexical information as a matrix. The target vector for w at time t, useW (w, t), is found by combining Transw and timevec(t). Context version useC(c, t) is the same except that it has its own embedding layer.\n\nQuestion: What does the arrow coming out of embedding in the Word Component point to?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "68f0fca86d67dc3c61dd562fa780895f",
+        "question": "How many components are represented in the graph?",
+        "answer_pred": "2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Diagram of DiffTime. timevec(t) encodes temporal information as a vector. MW encodes lexical information as a matrix. The target vector for w at time t, useW (w, t), is found by combining Transw and timevec(t). Context version useC(c, t) is the same except that it has its own embedding layer.\n\nQuestion: How many components are represented in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c41dee1dc537445ad0f050b7d9e4984f",
+        "question": "Is the \"Matrix-Vector Product\" block connected by an arrow to the \"Linear layer with matrix output\" block?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Diagram of DiffTime. timevec(t) encodes temporal information as a vector. MW encodes lexical information as a matrix. The target vector for w at time t, useW (w, t), is found by combining Transw and timevec(t). Context version useC(c, t) is the same except that it has its own embedding layer.\n\nQuestion: Is the \"Matrix-Vector Product\" block connected by an arrow to the \"Linear layer with matrix output\" block?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "104d9f6536a004066d728721bcd69ec3",
+        "question": "Does the DiffTime architecture consist of a convolutional layer?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Diagram of DiffTime. timevec(t) encodes temporal information as a vector. MW encodes lexical information as a matrix. The target vector for w at time t, useW (w, t), is found by combining Transw and timevec(t). Context version useC(c, t) is the same except that it has its own embedding layer.\n\nQuestion: Does the DiffTime architecture consist of a convolutional layer?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

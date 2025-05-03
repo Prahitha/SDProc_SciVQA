@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "8b4312f015ad2a41ee584f1268d3fe2c",
+        "question": "What is the highest average thread length shown in Plot (b)?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 16. Average length of a thread \u3008L\u3009 versus the absolute emotional value in the first 10 comments |\u3008e\u300910| (a), the emotional value in the first 10 comments \u3008e\u300910. Grey points in plot (b) represent number threads with a specific emotional value.\n\nQuestion: What is the highest average thread length shown in Plot (b)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '100'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "2ac45132191ed296e5746fa1d7876f29",
+        "question": "What is the specific type of emotion content that is measured in the first 10 comments?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "2ee5744e21dd6c5ea5454506b19bfcea",
+        "question": "What is the approximate value of the black line in the right plot for year 1998?",
+        "answer_pred": "0.02",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Distribution of relative overlaps between classifications. (Left) Distribution of overlaps at all time steps; (Right) Corresponding mean time-series. The decreasing trend starting around 1996 confirms a qualitative regime shift in that period.\n\nQuestion: What is the approximate value of the black line in the right plot for year 1998?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "924f37ea5e55ed09d89075f19433d1b8",
+        "question": "What time period is represented in the first plot based on the legend?",
+        "answer_pred": "1996",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Distribution of relative overlaps between classifications. (Left) Distribution of overlaps at all time steps; (Right) Corresponding mean time-series. The decreasing trend starting around 1996 confirms a qualitative regime shift in that period.\n\nQuestion: What time period is represented in the first plot based on the legend?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "30d0d40eae2b4878344ea4a93813a24d",
+        "question": "Does the black line continue rising after the year 2000?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Distribution of relative overlaps between classifications. (Left) Distribution of overlaps at all time steps; (Right) Corresponding mean time-series. The decreasing trend starting around 1996 confirms a qualitative regime shift in that period.\n\nQuestion: Does the black line continue rising after the year 2000?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "09f720bb721254c6aadeab3b872260cf",
+        "question": "Does the x-axis in the second plot represent relative overlap?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Distribution of relative overlaps between classifications. (Left) Distribution of overlaps at all time steps; (Right) Corresponding mean time-series. The decreasing trend starting around 1996 confirms a qualitative regime shift in that period.\n\nQuestion: Does the x-axis in the second plot represent relative overlap?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "1654ea975e619711bcb5220e1846fa0f",
+        "question": "Which of the following best describes the shape of the lines in the left plot?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Distribution of relative overlaps between classifications. (Left) Distribution of overlaps at all time steps; (Right) Corresponding mean time-series. The decreasing trend starting around 1996 confirms a qualitative regime shift in that period.\n\nQuestion: Which of the following best describes the shape of the lines in the left plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Flat'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "60ffe9e74ab996b0cd06737db05892c0",
+        "question": "What happens to mean relative overlap after the year 2000?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Distribution of relative overlaps between classifications. (Left) Distribution of overlaps at all time steps; (Right) Corresponding mean time-series. The decreasing trend starting around 1996 confirms a qualitative regime shift in that period.\n\nQuestion: What happens to mean relative overlap after the year 2000?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Fluctuates '}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "10d8b78a845e37a73599e4aba63d4813",
+        "question": "What are the specific classifications used in the analysis of Figure 8, and how were they defined?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "c2a2182a4f8284dbc5e8c4efb3fa1d1b",
+        "question": "What is the approximate value of the red line at the 8th epoch in the bottom graph labeled '(b) EER'?",
+        "answer_pred": "0.12",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: The effect of softmax pre-training, trained and measured in Train50k and Eva200 dataset, using ResCNN network architecture. (a) accuracy (ACC) vs epoch trained and (b) equal error rate (EER) vs epoch trained\n\nQuestion: What is the approximate value of the red line at the 8th epoch in the bottom graph labeled '(b) EER'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

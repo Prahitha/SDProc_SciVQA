@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "5b8e1b07e004ccb768ee2df415755510",
+        "question": "What is the value represented by the darkest pink colored square in the confusion matrix shown in Figure 4?",
+        "answer_pred": "0.99",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Sub-task B,MSOC method\n\nQuestion: What is the value represented by the darkest pink colored square in the confusion matrix shown in Figure 4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "67d8256c0d605fe618db77c78ca764d2",
+        "question": "What are the labels shown in figure 4?",
+        "answer_pred": "T, Y, Z, W, X, V, U, T, Y, Z, W, X, V, U",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Sub-task B,MSOC method\n\nQuestion: What are the labels shown in figure 4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "d8236bb15027ca804d54c3fe5aed3d96",
+        "question": "Is the area representing 'True label: UNT' and 'Predicted label: UNT' colored in a shade of purple?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Sub-task B,MSOC method\n\nQuestion: Is the area representing 'True label: UNT' and 'Predicted label: UNT' colored in a shade of purple?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "5fc93d67ddca92537174848b1f28c31a",
+        "question": "Does Figure 4 represent the results of the LSTM method for Sub-task B?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Sub-task B,MSOC method\n\nQuestion: Does Figure 4 represent the results of the LSTM method for Sub-task B?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "0137da24f4b1d05fcf8418129f62f655",
+        "question": "Considering Figure 4, which of the following cells have the highest value?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Sub-task B,MSOC method\n\nQuestion: Considering Figure 4, which of the following cells have the highest value?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Purple cell'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "cf25622c362b101bb4bbfbab65941390",
+        "question": "Based on Figure 4, which of the following values are present in the confusion matrix for Sub-task B using the MSOC method?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Sub-task B,MSOC method\n\nQuestion: Based on Figure 4, which of the following values are present in the confusion matrix for Sub-task B using the MSOC method?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '11'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "a6f26dfbda8a59573c88da40ba4f4c87",
+        "question": "What is the training loss for the MSOC method which resulted in the confusion matrix in figure 4?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "d52d485dbca7709083c5456b5ecf1dad",
+        "question": "What is the value of the lightest colored cell?",
+        "answer_pred": "0.99",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 17: POS-based classification accuracy on states from the ENDE encoder + lexical shortcuts.\n\nQuestion: What is the value of the lightest colored cell?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "5d81943cfbc79d904649741fd5087eaf",
+        "question": "What is the highest value of classification accuracy for layer 6?",
+        "answer_pred": "89.2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 17: POS-based classification accuracy on states from the ENDE encoder + lexical shortcuts.\n\nQuestion: What is the highest value of classification accuracy for layer 6?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "0609435486d292d346439df5a1d781b3",
+        "question": "Is the darkest colored cell present under the 'OTHER' category?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 17: POS-based classification accuracy on states from the ENDE encoder + lexical shortcuts.\n\nQuestion: Is the darkest colored cell present under the 'OTHER' category?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

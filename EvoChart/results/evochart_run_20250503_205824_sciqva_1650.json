@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "f11b6997edab03c00afec1b3b32ca936",
+        "question": "Is the accuracy consistently increasing as the size of the summary increases?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 22: CelebA dataset: Variation of fraction of gender anti-stereotypical images and accuracy vs size of summary for all algorithms.\n\nQuestion: Is the accuracy consistently increasing as the size of the summary increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "b7e166488b7b579d934b44342d1b95c1",
+        "question": "Which line in the left graph has the lowest accuracy at the summary size of 50?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 22: CelebA dataset: Variation of fraction of gender anti-stereotypical images and accuracy vs size of summary for all algorithms.\n\nQuestion: Which line in the left graph has the lowest accuracy at the summary size of 50?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'green line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "140e54b4f1c04bbfd00e1fd933444d96",
+        "question": "Which algorithms are evaluated in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 22: CelebA dataset: Variation of fraction of gender anti-stereotypical images and accuracy vs size of summary for all algorithms.\n\nQuestion: Which algorithms are evaluated in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "5ea9eb86ecbe68ec7a43a313b5e9ebad",
+        "question": "What is the exact size of the dataset used in the experiment?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "847cac5072b38c941864cf2e04dac002",
+        "question": "What is the approximate attack success rate of the green line at 25 poison examples?",
+        "answer_pred": "0.5",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: The attack success rate when poisoning sentiment analysis models to make the phrase \u201cthe despicable Donald J. Trump\u201d positive.\n\nQuestion: What is the approximate attack success rate of the green line at 25 poison examples?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f2736c6c6f3ffa90614a7236038f27e2",
+        "question": "What is the attack success rate when 50 poison examples are used for poisoning with overlap?",
+        "answer_pred": "0.02",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: The attack success rate when poisoning sentiment analysis models to make the phrase \u201cthe despicable Donald J. Trump\u201d positive.\n\nQuestion: What is the attack success rate when 50 poison examples are used for poisoning with overlap?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "57522db5bc636dbf32ab289aad5f8aef",
+        "question": "Is the attack success rate higher for the green line than the orange line when the number of poison examples is equal to 50?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: The attack success rate when poisoning sentiment analysis models to make the phrase \u201cthe despicable Donald J. Trump\u201d positive.\n\nQuestion: Is the attack success rate higher for the green line than the orange line when the number of poison examples is equal to 50?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "c847b5d50dde80353e39e0fbd6c8e9da",
+        "question": "Does the attack success rate without overlap consistently stay above the success rate with overlap?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: The attack success rate when poisoning sentiment analysis models to make the phrase \u201cthe despicable Donald J. Trump\u201d positive.\n\nQuestion: Does the attack success rate without overlap consistently stay above the success rate with overlap?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "3e5ee67e6854544b676d00bf3eb589c8",
+        "question": "Which line represents the attack success rate when the poisoning examples have overlap?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: The attack success rate when poisoning sentiment analysis models to make the phrase \u201cthe despicable Donald J. Trump\u201d positive.\n\nQuestion: Which line represents the attack success rate when the poisoning examples have overlap?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither line has overlap'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "9fb113c680b2ebccbb860a538f6a1270",
+        "question": "How does the 'With Overlap' method compare to 'No Overlap' in attack success rate as poison examples increase?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: The attack success rate when poisoning sentiment analysis models to make the phrase \u201cthe despicable Donald J. Trump\u201d positive.\n\nQuestion: How does the 'With Overlap' method compare to 'No Overlap' in attack success rate as poison examples increase?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Never higher'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

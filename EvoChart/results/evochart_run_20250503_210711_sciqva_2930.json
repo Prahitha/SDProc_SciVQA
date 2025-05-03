@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "65e6579e77f4e6a0ed2343e5f3b38cc3",
+        "question": "Is the red line consistently lower than the green line in the rightmost graph?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 4. The Precicion-Recall curve of different algorithms on NYT and GDS datasets\n\nQuestion: Is the red line consistently lower than the green line in the rightmost graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "1d7eb6f3103357201f586f9da98b1506",
+        "question": "Do both recall intervals have the same extension?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 4. The Precicion-Recall curve of different algorithms on NYT and GDS datasets\n\nQuestion: Do both recall intervals have the same extension?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "1a267ffafaa0b0c9003abd4583c4d1cf",
+        "question": "Which algorithm has the highest precision at a recall of 0.4 in the GDS dataset?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 4. The Precicion-Recall curve of different algorithms on NYT and GDS datasets\n\nQuestion: Which algorithm has the highest precision at a recall of 0.4 in the GDS dataset?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'purple line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "afc1504c0acdc9eef19aed77951a4f31",
+        "question": "Which algorithm has the highest precision when recall is close to 0.9 on the GDS dataset?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 4. The Precicion-Recall curve of different algorithms on NYT and GDS datasets\n\nQuestion: Which algorithm has the highest precision when recall is close to 0.9 on the GDS dataset?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'PA-TMR'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "da0c2416ca4264be147a88850021b87f",
+        "question": "What is the value of the area under the curve for each algorithm on the NYT and GDS datasets?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "00072075c91d220bbf1f5639d99ce005",
+        "question": "In the fourth quartile, what is approximately the value of the red line at 40% token length?",
+        "answer_pred": "0.52",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Performance comparison for discharge summaries of different lengths in readmission prediction. Selecting valuable information is most useful for the fourth quartile, the longest discharge summaries.\n\nQuestion: In the fourth quartile, what is approximately the value of the red line at 40% token length?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "8f24ecaacf1a40242424c05b2bf58fe6",
+        "question": "What is the Y-axis representing?",
+        "answer_pred": "PR",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Performance comparison for discharge summaries of different lengths in readmission prediction. Selecting valuable information is most useful for the fourth quartile, the longest discharge summaries.\n\nQuestion: What is the Y-axis representing?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "0f14b62c458893fdd085316850db6642",
+        "question": "Is the value of the blue line in the fourth quartile plot consistently lower than that of the green line?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Performance comparison for discharge summaries of different lengths in readmission prediction. Selecting valuable information is most useful for the fourth quartile, the longest discharge summaries.\n\nQuestion: Is the value of the blue line in the fourth quartile plot consistently lower than that of the green line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "7ec1a1300f52188a01cf40850409ec42",
+        "question": "Does the performance of 'mix-similar' improve with increasing percentage of total token length in the fourth quartile?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Performance comparison for discharge summaries of different lengths in readmission prediction. Selecting valuable information is most useful for the fourth quartile, the longest discharge summaries.\n\nQuestion: Does the performance of 'mix-similar' improve with increasing percentage of total token length in the fourth quartile?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "3bb0ccbb96167d47d3b93688df2eacb3",
+        "question": "Which graph has the highest value for the blue line at 40% on the x-axis?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Performance comparison for discharge summaries of different lengths in readmission prediction. Selecting valuable information is most useful for the fourth quartile, the longest discharge summaries.\n\nQuestion: Which graph has the highest value for the blue line at 40% on the x-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The fourth graph'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

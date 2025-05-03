@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "310071e14759525cc2570d3caec22342",
+        "question": "What is the highest accuracy for the solid teal line with circles in the left graph?",
+        "answer_pred": "0.87",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Test accuracy on the dative alternation dataset over the syntactic dimension (left) and average performance on the lexical dimension (right) as a function of number of training examples. The larger gaps on the left graph in comparison to the much smaller gaps on the right graph indicate a limited generalization ability over the syntactic dimension and a better one over different dative verbs\n\nQuestion: What is the highest accuracy for the solid teal line with circles in the left graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "454ded09fecbcf6a1635773d93e45645",
+        "question": "What is the title of the second graph?",
+        "answer_pred": "Dative alternation dataset",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Test accuracy on the dative alternation dataset over the syntactic dimension (left) and average performance on the lexical dimension (right) as a function of number of training examples. The larger gaps on the left graph in comparison to the much smaller gaps on the right graph indicate a limited generalization ability over the syntactic dimension and a better one over different dative verbs\n\nQuestion: What is the title of the second graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "5a743aec4921a0743caed19082405bf5",
+        "question": "Is the solid teal line in the right plot consistently higher than the solid purple line?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Test accuracy on the dative alternation dataset over the syntactic dimension (left) and average performance on the lexical dimension (right) as a function of number of training examples. The larger gaps on the left graph in comparison to the much smaller gaps on the right graph indicate a limited generalization ability over the syntactic dimension and a better one over different dative verbs\n\nQuestion: Is the solid teal line in the right plot consistently higher than the solid purple line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "9f0b66bae0ecdb0672ac1985e75b11e4",
+        "question": "Is the maximum number of fine-tuning examples shown on the x-axis 400?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Test accuracy on the dative alternation dataset over the syntactic dimension (left) and average performance on the lexical dimension (right) as a function of number of training examples. The larger gaps on the left graph in comparison to the much smaller gaps on the right graph indicate a limited generalization ability over the syntactic dimension and a better one over different dative verbs\n\nQuestion: Is the maximum number of fine-tuning examples shown on the x-axis 400?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "24db1ae1ee06fe953954fcdc22f96f9e",
+        "question": "What does the dashed purple line with crosses represent in the left graph?",
+        "answer_pred": "Compare the graph to the answer choices. The dashed purple line with crosses corresponds to answer choice B. This line is dashed and has crosses as markers.\n\n {'B': 'dative alternation dataset over the syntactic dimension'}",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Test accuracy on the dative alternation dataset over the syntactic dimension (left) and average performance on the lexical dimension (right) as a function of number of training examples. The larger gaps on the left graph in comparison to the much smaller gaps on the right graph indicate a limited generalization ability over the syntactic dimension and a better one over different dative verbs\n\nQuestion: What does the dashed purple line with crosses represent in the left graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "6bc9e7ad7b221ac4013e8f0447c28333",
+        "question": "What is the approximate accuracy for 'Simple \u2192 Simple' at 250 fine-tuning examples?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Test accuracy on the dative alternation dataset over the syntactic dimension (left) and average performance on the lexical dimension (right) as a function of number of training examples. The larger gaps on the left graph in comparison to the much smaller gaps on the right graph indicate a limited generalization ability over the syntactic dimension and a better one over different dative verbs\n\nQuestion: What is the approximate accuracy for 'Simple \u2192 Simple' at 250 fine-tuning examples?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '40'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "a60c34811f48a2cee4af6c0011a8e736",
+        "question": "What is the specific type of neural network architecture used to achieve these results?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "3894cded9c08e5aa30fd9c20dc26c4ea",
+        "question": "What is the approximate value of the red dashed line at 2 units in the left graph?",
+        "answer_pred": "19.5",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The effect on the number of units: (a) BLEU scores (%) against number of units used in the MUTE model. (b) Inference speed (tokens per second) on GPU against number of units used in the MUTE model. Experiments are conducted on the valid set of NIST ZhEn with decoding batch size = 30 and beam size = 4.\n\nQuestion: What is the approximate value of the red dashed line at 2 units in the left graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "6857f9650fbcb77553898e4c7d0ae6e3",
+        "question": "What is the approximate BLEU score of Multi-Unit model at 6 units?",
+        "answer_pred": "39.8",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The effect on the number of units: (a) BLEU scores (%) against number of units used in the MUTE model. (b) Inference speed (tokens per second) on GPU against number of units used in the MUTE model. Experiments are conducted on the valid set of NIST ZhEn with decoding batch size = 30 and beam size = 4.\n\nQuestion: What is the approximate BLEU score of Multi-Unit model at 6 units?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "983aa1f17b2e5462c7397c4fd402889d",
+        "question": "Does the red dashed line in the left graph remain constant across all the units?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The effect on the number of units: (a) BLEU scores (%) against number of units used in the MUTE model. (b) Inference speed (tokens per second) on GPU against number of units used in the MUTE model. Experiments are conducted on the valid set of NIST ZhEn with decoding batch size = 30 and beam size = 4.\n\nQuestion: Does the red dashed line in the left graph remain constant across all the units?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "5eae8c25c5d229daaaf37f93e951d0df",
+        "question": "What is the value of  running away in the section \"battle the beast\"?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The main editor window, showing a story with start node A. The node B is selected, and so its details appear in the inspector on the right. Note that its display name is distinct from the richer game text (C). The results of using the Node Tester on the potential input battle the beast are shown in (D). They demonstrate that this utterance would cause a transition to node E, an AutoAdvance node that would immediately transition to one of two end states depending on the players previous choices.\n\nQuestion: What is the value of  running away in the section \"battle the beast\"?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "efb82a5a17b58a4738c0ecbdaf59a5ce",
+        "question": "Is the node marked 'E' connected to the node marked 'A' by a direct arrow?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The main editor window, showing a story with start node A. The node B is selected, and so its details appear in the inspector on the right. Note that its display name is distinct from the richer game text (C). The results of using the Node Tester on the potential input battle the beast are shown in (D). They demonstrate that this utterance would cause a transition to node E, an AutoAdvance node that would immediately transition to one of two end states depending on the players previous choices.\n\nQuestion: Is the node marked 'E' connected to the node marked 'A' by a direct arrow?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "b017eb9a10734dbad0cd38ee4c97786f",
+        "question": "Is the stage 'Fork in the road' the first in the flow chart of figure 2?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The main editor window, showing a story with start node A. The node B is selected, and so its details appear in the inspector on the right. Note that its display name is distinct from the richer game text (C). The results of using the Node Tester on the potential input battle the beast are shown in (D). They demonstrate that this utterance would cause a transition to node E, an AutoAdvance node that would immediately transition to one of two end states depending on the players previous choices.\n\nQuestion: Is the stage 'Fork in the road' the first in the flow chart of figure 2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "b8a326b5fd82add20107c90c7d9212e8",
+        "question": "What is the color of the square labeled E?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The main editor window, showing a story with start node A. The node B is selected, and so its details appear in the inspector on the right. Note that its display name is distinct from the richer game text (C). The results of using the Node Tester on the potential input battle the beast are shown in (D). They demonstrate that this utterance would cause a transition to node E, an AutoAdvance node that would immediately transition to one of two end states depending on the players previous choices.\n\nQuestion: What is the color of the square labeled E?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Yellow'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "f40dac22f753fe062022742c1d53cb59",
+        "question": "What state does the transition labeled 'HAS SWORD' lead to?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The main editor window, showing a story with start node A. The node B is selected, and so its details appear in the inspector on the right. Note that its display name is distinct from the richer game text (C). The results of using the Node Tester on the potential input battle the beast are shown in (D). They demonstrate that this utterance would cause a transition to node E, an AutoAdvance node that would immediately transition to one of two end states depending on the players previous choices.\n\nQuestion: What state does the transition labeled 'HAS SWORD' lead to?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'You find a sword'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "367aa416cd3d10174082d08fb0df1003",
+        "question": "How does the 'Auto-advance' option function?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "e00aa5dc9a9756a7cf40a1385309b124",
+        "question": "What is the value of lower end of the longest bar in the stacked bar chart labelled \"CID_LL\"?",
+        "answer_pred": "11",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Distribution of the lexical items\n\nQuestion: What is the value of lower end of the longest bar in the stacked bar chart labelled \"CID_LL\"?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b5f966819c7932ffdbce230efc3161c3",
+        "question": "What is the name of the lexical item with the largest proportion in CID_YM?",
+        "answer_pred": "outermorphology",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Distribution of the lexical items\n\nQuestion: What is the name of the lexical item with the largest proportion in CID_YM?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "5b4059b60c135c75e7cbf32cd5cf497f",
+        "question": "Are the shades of grey ordered top down from lightest to darkest?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Distribution of the lexical items\n\nQuestion: Are the shades of grey ordered top down from lightest to darkest?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "0faa7405e7380455447c33ea32472861",
+        "question": "Is the 'oui' category the largest category in the 4th bar from the right?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Distribution of the lexical items\n\nQuestion: Is the 'oui' category the largest category in the 4th bar from the right?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

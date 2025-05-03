@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "2254f6c1883ba504d456afa643de432c",
+        "question": "Is the blue line representing WER lower than the green line representing WER LM at the beam width of 4?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The effect of the decode beam width on WER for the clean Google voice search task. The reported WERs are without a dictionary or language model, with language model rescoring and the oracle WER for different beam widths. The figure shows that good results can be obtained even with a relatively small beam size.\n\nQuestion: Is the blue line representing WER lower than the green line representing WER LM at the beam width of 4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8ef562b30c23ba0099817349e0941ef5",
+        "question": "Does WER decrease with increasing beam width for WER Oracle?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The effect of the decode beam width on WER for the clean Google voice search task. The reported WERs are without a dictionary or language model, with language model rescoring and the oracle WER for different beam widths. The figure shows that good results can be obtained even with a relatively small beam size.\n\nQuestion: Does WER decrease with increasing beam width for WER Oracle?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "3b397edc9b991a301a05a0f2e9920d57",
+        "question": "Which of the following lines on the graph is the 'WER Oracle' line?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The effect of the decode beam width on WER for the clean Google voice search task. The reported WERs are without a dictionary or language model, with language model rescoring and the oracle WER for different beam widths. The figure shows that good results can be obtained even with a relatively small beam size.\n\nQuestion: Which of the following lines on the graph is the 'WER Oracle' line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "166da72415684bd15dbacec931c8103f",
+        "question": "According to the graph, what is the approximate WER for a beam width of 4 without using a language model or dictionary?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The effect of the decode beam width on WER for the clean Google voice search task. The reported WERs are without a dictionary or language model, with language model rescoring and the oracle WER for different beam widths. The figure shows that good results can be obtained even with a relatively small beam size.\n\nQuestion: According to the graph, what is the approximate WER for a beam width of 4 without using a language model or dictionary?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '17'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8972adef411452a5473b15fc338f4d46",
+        "question": "What is the WER of the clean Google voice search task using a dictionary and language model with a beam width of 10?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "d267f5623c80d3d799c58f8018c74f52",
+        "question": "What is the approximate BLEU score for the orange line at epoch 7?",
+        "answer_pred": "39.8",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Performance trend for continual training of NMT on the Chinese to English translation task. The model is first trained with the news domain data and then continually trained with the laws domain data (from epoch 0). The y-axis represents the BLEU scores on the test sets of the corresponding domains.\n\nQuestion: What is the approximate BLEU score for the orange line at epoch 7?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "eb14594a51634b017b7dfb155a2341ec",
+        "question": "What is the BLEU score for the General-Domain after 3 epochs of continual training?",
+        "answer_pred": "39.8",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Performance trend for continual training of NMT on the Chinese to English translation task. The model is first trained with the news domain data and then continually trained with the laws domain data (from epoch 0). The y-axis represents the BLEU scores on the test sets of the corresponding domains.\n\nQuestion: What is the BLEU score for the General-Domain after 3 epochs of continual training?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "738bef3ca7d2cc1c2bc8694fe0fb0122",
+        "question": "Is the value of the blue line at epoch 1 higher than the value of the orange line at epoch 6?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Performance trend for continual training of NMT on the Chinese to English translation task. The model is first trained with the news domain data and then continually trained with the laws domain data (from epoch 0). The y-axis represents the BLEU scores on the test sets of the corresponding domains.\n\nQuestion: Is the value of the blue line at epoch 1 higher than the value of the orange line at epoch 6?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "90e497ac47b7606b046a9374d23c2edb",
+        "question": "Does the BLEU score for the 'General-Domain' performance consistently decrease as the training epochs increase?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Performance trend for continual training of NMT on the Chinese to English translation task. The model is first trained with the news domain data and then continually trained with the laws domain data (from epoch 0). The y-axis represents the BLEU scores on the test sets of the corresponding domains.\n\nQuestion: Does the BLEU score for the 'General-Domain' performance consistently decrease as the training epochs increase?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "70642706e197dc6565674f45c69017d3",
+        "question": "Approximately at which epoch does the blue line intersect the orange line?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Performance trend for continual training of NMT on the Chinese to English translation task. The model is first trained with the news domain data and then continually trained with the laws domain data (from epoch 0). The y-axis represents the BLEU scores on the test sets of the corresponding domains.\n\nQuestion: Approximately at which epoch does the blue line intersect the orange line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '3'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

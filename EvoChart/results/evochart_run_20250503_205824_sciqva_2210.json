@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "84a24038edf51943d73ea8594b4a1906",
+        "question": "Is the CER value for LIN consistently higher than that of RSI?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: CERs (%) for different method combinations.\n\nQuestion: Is the CER value for LIN consistently higher than that of RSI?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "b46caada3a824fcb27b09d29fe9400a8",
+        "question": "Which line is lowest at 200 Adaptation Utterances?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: CERs (%) for different method combinations.\n\nQuestion: Which line is lowest at 200 Adaptation Utterances?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Turquoise'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8a8fba533429c936a82de838912f8aa2",
+        "question": "For which number of adaptation utterances are there CER (%) measurements?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: CERs (%) for different method combinations.\n\nQuestion: For which number of adaptation utterances are there CER (%) measurements?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '120'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "17f4c8187e6dbcf54214cd44b7bb1023",
+        "question": "What dataset were the methods evaluated on?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "34a6600199e2f8bd90772d8be19fe083",
+        "question": "What is the value of the blue line at a |Z| of 2^13?",
+        "answer_pred": "1.5",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Perplexity on PTB by state size |Z| (\u03bb = 0.5 and M = 128).\n\nQuestion: What is the value of the blue line at a |Z| of 2^13?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "70cbe12d1f4e181296f7ff76e378cb46",
+        "question": "What is the value of PPL when |Z| is 2^11?",
+        "answer_pred": "128",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Perplexity on PTB by state size |Z| (\u03bb = 0.5 and M = 128).\n\nQuestion: What is the value of PPL when |Z| is 2^11?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c2f5b3bf5d6b6d52c7615afe13f2d7f9",
+        "question": "Is there a legend visible within the rectangular frame of the plot in figure 3?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Perplexity on PTB by state size |Z| (\u03bb = 0.5 and M = 128).\n\nQuestion: Is there a legend visible within the rectangular frame of the plot in figure 3?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "ceeb2468fc965867e48b14e387bb2a62",
+        "question": "Does the perplexity value decrease as the state size increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Perplexity on PTB by state size |Z| (\u03bb = 0.5 and M = 128).\n\nQuestion: Does the perplexity value decrease as the state size increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "1916b551a9187e8a1f1eadec3cc1f1db",
+        "question": "What shape are the markers of the blue line?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Perplexity on PTB by state size |Z| (\u03bb = 0.5 and M = 128).\n\nQuestion: What shape are the markers of the blue line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Plus sign'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "756ce2b8a8169a2f3c32d413d1ebccfa",
+        "question": "What is the difference in PPL values between consecutive y ticks?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Perplexity on PTB by state size |Z| (\u03bb = 0.5 and M = 128).\n\nQuestion: What is the difference in PPL values between consecutive y ticks?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '50'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "4d2b9c3f396a2632b1c07a8a88cec7a3",
+        "question": "What is the highest number of epochs shown on the x-axis?",
+        "answer_pred": "100",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: The effect of softmax pre-training, trained and measured in Train50k and Eva200 dataset, using ResCNN network architecture. (a) accuracy (ACC) vs epoch trained and (b) equal error rate (EER) vs epoch trained\n\nQuestion: What is the highest number of epochs shown on the x-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f63ce95640c7ecd611feca67bf0e2b05",
+        "question": "Does the blue line representing 'with pretrain' in the bottom graph reach a value of 22?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: The effect of softmax pre-training, trained and measured in Train50k and Eva200 dataset, using ResCNN network architecture. (a) accuracy (ACC) vs epoch trained and (b) equal error rate (EER) vs epoch trained\n\nQuestion: Does the blue line representing 'with pretrain' in the bottom graph reach a value of 22?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "795285196befb131f38ec2415f29bf4d",
+        "question": "Is the accuracy with pretraining consistently higher than the accuracy without pretraining?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: The effect of softmax pre-training, trained and measured in Train50k and Eva200 dataset, using ResCNN network architecture. (a) accuracy (ACC) vs epoch trained and (b) equal error rate (EER) vs epoch trained\n\nQuestion: Is the accuracy with pretraining consistently higher than the accuracy without pretraining?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "54b73ac1254bac120f3242343ef1f54a",
+        "question": "Which line in the bottom graph represents the model with pre-training?",
+        "answer_pred": "blue",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: The effect of softmax pre-training, trained and measured in Train50k and Eva200 dataset, using ResCNN network architecture. (a) accuracy (ACC) vs epoch trained and (b) equal error rate (EER) vs epoch trained\n\nQuestion: Which line in the bottom graph represents the model with pre-training?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "37cadf897901aef0db7d8e169f6bf226",
+        "question": "How does EER without pretraining change during training?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: The effect of softmax pre-training, trained and measured in Train50k and Eva200 dataset, using ResCNN network architecture. (a) accuracy (ACC) vs epoch trained and (b) equal error rate (EER) vs epoch trained\n\nQuestion: How does EER without pretraining change during training?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Fluctuates'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "2e107db556d8ef7e945708c500461174",
+        "question": "What are the specific hyperparameters used for the ResCNN network architecture in this experiment?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "140b76132b0b43ccbba0b791e5d4aa54",
+        "question": "What is the approximate maximum value of the yellow line in the bottom plot?",
+        "answer_pred": "100",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Time series distribution for sources in the FinLin corpus. The bottom plot shows the distribution for the Company Reports, Investor Reports, and News, using a smaller y-axis.\n\nQuestion: What is the approximate maximum value of the yellow line in the bottom plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "1daa1c980b2458850cd5d6926a2fa233",
+        "question": "Which source type has the highest frequency in the FinLin corpus in the plot with the higher y-axis?",
+        "answer_pred": "Stock Reports",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Time series distribution for sources in the FinLin corpus. The bottom plot shows the distribution for the Company Reports, Investor Reports, and News, using a smaller y-axis.\n\nQuestion: Which source type has the highest frequency in the FinLin corpus in the plot with the higher y-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "6712b338cd20154d9c356d419e4a106c",
+        "question": "Is the red line consistently above the grey line in the bottom graph?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Time series distribution for sources in the FinLin corpus. The bottom plot shows the distribution for the Company Reports, Investor Reports, and News, using a smaller y-axis.\n\nQuestion: Is the red line consistently above the grey line in the bottom graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "85ae9d8644157274a0122e2402cf32b7",
+        "question": "Does the time period in the graph span from July to October?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Time series distribution for sources in the FinLin corpus. The bottom plot shows the distribution for the Company Reports, Investor Reports, and News, using a smaller y-axis.\n\nQuestion: Does the time period in the graph span from July to October?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

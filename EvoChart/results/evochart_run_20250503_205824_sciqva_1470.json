@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "758986500889d23265364ebea5d2c799",
+        "question": "In cooperative dialogs, what is the trend for participants with no support as authority decreases?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Interaction plot for authority and support in cooperative (left) and competitive (right) dialogs.\n\nQuestion: In cooperative dialogs, what is the trend for participants with no support as authority decreases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'unclear'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "9e205f67c8a1ce54e87f885099740ba0",
+        "question": "What was the specific method used to calculate the effect sizes (d) for the interaction between authority and support in cooperative and competitive dialogs?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "b8187ca504fb383658ec37435b622d51",
+        "question": "What is the approximate value of the blue line at 10000 batches?",
+        "answer_pred": "0.012",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 11: Domain transfer from beer review to hotel review. Overall loss L of R2A on the source development set during training.\n\nQuestion: What is the approximate value of the blue line at 10000 batches?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "45daaf0ed9c168cc3da9fec1311945af",
+        "question": "What does the x-axis represent?",
+        "answer_pred": "Number of layers in the encoder.",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 11: Domain transfer from beer review to hotel review. Overall loss L of R2A on the source development set during training.\n\nQuestion: What does the x-axis represent?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "70ab80860fa007367249297c9efde7b2",
+        "question": "Does the blue line in the graph reach its lowest value near 10,000?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 11: Domain transfer from beer review to hotel review. Overall loss L of R2A on the source development set during training.\n\nQuestion: Does the blue line in the graph reach its lowest value near 10,000?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "fc92b1dd3aded4a7aa0c8a68128a28dd",
+        "question": "Does the overall loss L decrease over the number of batches?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 11: Domain transfer from beer review to hotel review. Overall loss L of R2A on the source development set during training.\n\nQuestion: Does the overall loss L decrease over the number of batches?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "b03cd28f1b0c386ebb84fd17ea6b2599",
+        "question": "What\u2019s the shape of the line in Figure 11?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 11: Domain transfer from beer review to hotel review. Overall loss L of R2A on the source development set during training.\n\nQuestion: What\u2019s the shape of the line in Figure 11?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Zigzag'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "d84af1a2980081d9abcfde2352a8f019",
+        "question": "What is the approximate loss value at 2000 batches?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 11: Domain transfer from beer review to hotel review. Overall loss L of R2A on the source development set during training.\n\nQuestion: What is the approximate loss value at 2000 batches?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '1.78'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "f8bbd7fbd615731a7c9541998529ec72",
+        "question": "What is the exact value of the overall loss L of R2A on the source development set after 8000 batches?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "2947ce59f89f5ef5e884a3b73658f705",
+        "question": "What is the approximate value of the red dotted line at Epoch 1 in the right graph?",
+        "answer_pred": "0.012",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 12: Mean MLM (left) and TC/CC (right) losses (each point is the average of a 1000 training steps) for Stage 2 of the Adjectives treatment. BERT-MLM refers to the model variant which is trained only on the MLM task. BERT-CF refers to the model variant which employs MLM alongside both TC and CC tasks and BERT-CF no control refers to to the same model without the CC task.\n\nQuestion: What is the approximate value of the red dotted line at Epoch 1 in the right graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

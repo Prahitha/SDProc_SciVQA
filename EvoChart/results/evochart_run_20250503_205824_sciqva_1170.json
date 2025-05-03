@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "d9dec4bc9558444528c39bf4c6a7918b",
+        "question": "What is the accuracy of the k-NN algorithm for the 'WEB OF SCIENCE' dataset using the 'inverse quadratic' RBF with 300 topics?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "d15dd74c19aff6232710323dbf26c610",
+        "question": "What is the approximate value of the green line at epoch 5 in Figure 6 (a)?",
+        "answer_pred": "1.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: High learning rate (LR) to increase the initial softmax perplexity (a). NCE and softmax initial perplexities in the first epoch; only training perplexity is available within one epoch (b).\n\nQuestion: What is the approximate value of the green line at epoch 5 in Figure 6 (a)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "0a8a459562d89e58531f0ef5093af440",
+        "question": "How many learning rates are compared in graph (a)?",
+        "answer_pred": "2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: High learning rate (LR) to increase the initial softmax perplexity (a). NCE and softmax initial perplexities in the first epoch; only training perplexity is available within one epoch (b).\n\nQuestion: How many learning rates are compared in graph (a)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "74efd1b124b9d44681f11c5e4ea78bb2",
+        "question": "Is the red line in figure (a) consistently decreasing in value across the x-axis?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: High learning rate (LR) to increase the initial softmax perplexity (a). NCE and softmax initial perplexities in the first epoch; only training perplexity is available within one epoch (b).\n\nQuestion: Is the red line in figure (a) consistently decreasing in value across the x-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8d7ae0bc409d40b5858caa8ffb1b921a",
+        "question": "Is the initial softmax perplexity in the first epoch higher for NCE than Softmax (LR=3)?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: High learning rate (LR) to increase the initial softmax perplexity (a). NCE and softmax initial perplexities in the first epoch; only training perplexity is available within one epoch (b).\n\nQuestion: Is the initial softmax perplexity in the first epoch higher for NCE than Softmax (LR=3)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "333e0233368c9007c10702e6112af41d",
+        "question": "In the left graph, which colored line shows the perplexity for Softmax (LR = 3) in the first 10 epochs?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: High learning rate (LR) to increase the initial softmax perplexity (a). NCE and softmax initial perplexities in the first epoch; only training perplexity is available within one epoch (b).\n\nQuestion: In the left graph, which colored line shows the perplexity for Softmax (LR = 3) in the first 10 epochs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "5782dae8a8106fc401d053a7483b6247",
+        "question": "Which of the following have a log(Valid. Perplexity) value more than 100 at epoch 0?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: High learning rate (LR) to increase the initial softmax perplexity (a). NCE and softmax initial perplexities in the first epoch; only training perplexity is available within one epoch (b).\n\nQuestion: Which of the following have a log(Valid. Perplexity) value more than 100 at epoch 0?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "0de85aeb50710dc94bdd1360dda7ddf3",
+        "question": "What is the specific dataset used for training and validation in Figure 6?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "afa243aeb91f1f6903065ed972455428",
+        "question": "What is the accuracy of the yellow line when the x-axis value is 80 in the second figure?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Classification accuracies on the validation sets with different values for \u03b4. The x-axis shows the selected qth percentiles of the loge frequencies in the training corpus. The y-axis denotes the accuracy when \u03b4 is set to the loge frequency value representing the specific qth percentile.\n\nQuestion: What is the accuracy of the yellow line when the x-axis value is 80 in the second figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "03b695bc91eebed62462676fcb417608",
+        "question": "What is the accuracy of the CNN model on the validation set when the qth percentile is 100 in graph (b)?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Classification accuracies on the validation sets with different values for \u03b4. The x-axis shows the selected qth percentiles of the loge frequencies in the training corpus. The y-axis denotes the accuracy when \u03b4 is set to the loge frequency value representing the specific qth percentile.\n\nQuestion: What is the accuracy of the CNN model on the validation set when the qth percentile is 100 in graph (b)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

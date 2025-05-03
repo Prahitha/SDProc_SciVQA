@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "d519a581826a85bb72fedf39bf5e0b14",
+        "question": "What types of loss were measured?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 17: Loss for sequence-to-sequence TextSum Model\n\nQuestion: What types of loss were measured?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Testing Loss'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "651713513ca0c38a9789c91197aa0d8c",
+        "question": "What is the specific type of loss function used for the TextSum model's training and evaluation?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "167e2a4f429440c3bd87f613a3e10571",
+        "question": "With what colour is synonym pair kid/child represented?",
+        "answer_pred": "yellow",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Synonym discrimination error rates, per representation and synonym pair.\n\nQuestion: With what colour is synonym pair kid/child represented?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "08073635423dfcd955620eb2d689d930",
+        "question": "Which pair has the lowest error rate at 'emb'?",
+        "answer_pred": "c,d",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Synonym discrimination error rates, per representation and synonym pair.\n\nQuestion: Which pair has the lowest error rate at 'emb'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "03ea721296244cad99550c9437e36094",
+        "question": "Is the colour of the line with the highest error rate at 'conv' blue?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Synonym discrimination error rates, per representation and synonym pair.\n\nQuestion: Is the colour of the line with the highest error rate at 'conv' blue?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "6dc9b161ca16ac0ab7619665eb2c4fdc",
+        "question": "Are the error rates for all synonym pairs consistently decreasing for each representation?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Synonym discrimination error rates, per representation and synonym pair.\n\nQuestion: Are the error rates for all synonym pairs consistently decreasing for each representation?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "43447eb4bf0a787b9588b91d522c7edd",
+        "question": "Which line represents the synonym pair 'purse/bag'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Synonym discrimination error rates, per representation and synonym pair.\n\nQuestion: Which line represents the synonym pair 'purse/bag'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The pink line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "ac07e404ff4916c92bde405b266eeaac",
+        "question": "How many synonym pairs are represented in the graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Synonym discrimination error rates, per representation and synonym pair.\n\nQuestion: How many synonym pairs are represented in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '25'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "a4dca29e3a0bb164f35d5967f425a342",
+        "question": "What research question from the study is the graph addressing?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "f8d7bbfae223f9ae5c31c2819fcdae42",
+        "question": "What is the approximate value of the y-axis at the point where the blue line becomes flat?",
+        "answer_pred": "100",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5.2: Frequencies of the most frequent 100 words in a corpus of length 1 000 000 and vocabulary of size 56 000. A wider step means more words with the same frequency.\n\nQuestion: What is the approximate value of the y-axis at the point where the blue line becomes flat?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

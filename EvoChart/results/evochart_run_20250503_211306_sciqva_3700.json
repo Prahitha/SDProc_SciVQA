@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "68750259fd5b80ad62d29a1da6e88987",
+        "question": "Is the orange line in the leftmost graph consistently lower than the green line?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4.5: Learning curves of different languages for speakers in both games. Numbers in the parentheses are length of messages in a language.\n\nQuestion: Is the orange line in the leftmost graph consistently lower than the green line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "24fb160037125a595a9699b7c142c0e1",
+        "question": "Are there any languages with a message length greater than 4?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4.5: Learning curves of different languages for speakers in both games. Numbers in the parentheses are length of messages in a language.\n\nQuestion: Are there any languages with a message length greater than 4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "457e00458cc1c6e3a22d4b9143ad49aa",
+        "question": "Which of the lines in the middle panel have the lowest final value?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4.5: Learning curves of different languages for speakers in both games. Numbers in the parentheses are length of messages in a language.\n\nQuestion: Which of the lines in the middle panel have the lowest final value?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Pink'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "54c8e7a14aa38e869498f5853b9f5f1d",
+        "question": "How many different language / message length combinations are plotted in the graphs of figure 4.5?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4.5: Learning curves of different languages for speakers in both games. Numbers in the parentheses are length of messages in a language.\n\nQuestion: How many different language / message length combinations are plotted in the graphs of figure 4.5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '7'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "e15fbfeb9887ed751d1f4b5fbdbc3b6d",
+        "question": "What is the dataset used for the training presented in figure 4.5?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "3e4d6e3ed237c21ff842497603faca98",
+        "question": "What is the precision value of the red line at a recall value of 0.35?",
+        "answer_pred": "0.35",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Comparison of PR curves between our proposed model and baselines on the NYT dataset\n\nQuestion: What is the precision value of the red line at a recall value of 0.35?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "2a5a6cd3231cf06ad8c46580ace789fe",
+        "question": "On the NYT dataset, which model has the highest precision at a recall of 0.35?",
+        "answer_pred": "MT-LSTM",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Comparison of PR curves between our proposed model and baselines on the NYT dataset\n\nQuestion: On the NYT dataset, which model has the highest precision at a recall of 0.35?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "41f183016ca40ea39416b7fdb8c0df98",
+        "question": "Is the blue curve representing 'Mintz' consistently below the red curve representing 'CNN+ATT'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Comparison of PR curves between our proposed model and baselines on the NYT dataset\n\nQuestion: Is the blue curve representing 'Mintz' consistently below the red curve representing 'CNN+ATT'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "af1a2660d0077f8a2687641f93819b91",
+        "question": "Does prcision consistently decrease with recall for all models?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Comparison of PR curves between our proposed model and baselines on the NYT dataset\n\nQuestion: Does prcision consistently decrease with recall for all models?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "34462f4deef83bc230126dbc504cd101",
+        "question": "In which corner of the graph is the legend?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Comparison of PR curves between our proposed model and baselines on the NYT dataset\n\nQuestion: In which corner of the graph is the legend?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Bottom right'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

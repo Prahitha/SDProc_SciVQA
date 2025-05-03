@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "cbb7573a16103105b005d1905e80ebb0",
+        "question": "Which of the answer types shows the largest increase in accuracy during training?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Top: Accuracy during training (solid lines) and chance level (dashed lines) per answer type. Bottom: Normalized informative scores per answer type, averaged over 10k questions. See Section 5.4 for details.\n\nQuestion: Which of the answer types shows the largest increase in accuracy during training?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'size'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "855c10357d5ea55abd2fb22ceb5724fb",
+        "question": "What is the specific reason behind the uptick in accuracy for the 'count' answer type as observed in the top panel of Figure 8?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "0175000820c69f941e8a1fb6f465ba0e",
+        "question": "What is the highest n-gram value used in the experiment?",
+        "answer_pred": "2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 6. Identification accuracy of character frequency features (n-grams, n > 1) for a different of training and test Tweets. Best in colour.\n\nQuestion: What is the highest n-gram value used in the experiment?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "390a3047ba5bbd5f494d282228789f26",
+        "question": "What is the name of the feature used in the study?",
+        "answer_pred": "n-grams",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 6. Identification accuracy of character frequency features (n-grams, n > 1) for a different of training and test Tweets. Best in colour.\n\nQuestion: What is the name of the feature used in the study?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "d4b753d2f162d970b06bf5bd75762631",
+        "question": "Is the solid green line in the middle right plot consistently above the solid red line?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 6. Identification accuracy of character frequency features (n-grams, n > 1) for a different of training and test Tweets. Best in colour.\n\nQuestion: Is the solid green line in the middle right plot consistently above the solid red line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a47e73128ec33e038ab8f6f187585afb",
+        "question": "Is the accuracy of 2-grams always lower than 5-grams?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 6. Identification accuracy of character frequency features (n-grams, n > 1) for a different of training and test Tweets. Best in colour.\n\nQuestion: Is the accuracy of 2-grams always lower than 5-grams?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "9f64d439672d804bf93644fe4c60e845",
+        "question": "Which of the following colours represents 3-grams?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 6. Identification accuracy of character frequency features (n-grams, n > 1) for a different of training and test Tweets. Best in colour.\n\nQuestion: Which of the following colours represents 3-grams?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'green'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "a100ed030d694fe07bb8cb111bd904ed",
+        "question": "What is the biggest training size used in the experiment?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 6. Identification accuracy of character frequency features (n-grams, n > 1) for a different of training and test Tweets. Best in colour.\n\nQuestion: What is the biggest training size used in the experiment?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '2000'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "981de4f1b2205efc80fb95f121e386ad",
+        "question": "What is the optimal number of grams and the corresponding dimension for achieving the highest accuracy in the model?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "ed1b09e04f67a084a15b63f5d73c29af",
+        "question": "What is the approximate maximum value of the red solid line in the top graph?",
+        "answer_pred": "0.99",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Model structure for invariant training and ASR results.\n\nQuestion: What is the approximate maximum value of the red solid line in the top graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

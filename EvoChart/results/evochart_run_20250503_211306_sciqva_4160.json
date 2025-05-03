@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "65badbeddb0a474c521eecfcc63fa83f",
+        "question": "What geometric shape does the overall chart in figure 3 resemble?",
+        "answer_pred": "Rectangle",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Accuracy rate (from 0 to 1) in the pairwise classification using network features extracted from mesoscopic networks.\n\nQuestion: What geometric shape does the overall chart in figure 3 resemble?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "e0fa77351066adbe1e8a0eb6c38f3b81",
+        "question": "What is the accuracy rate for the classification between 'Lang' and 'Davis'?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Accuracy rate (from 0 to 1) in the pairwise classification using network features extracted from mesoscopic networks.\n\nQuestion: What is the accuracy rate for the classification between 'Lang' and 'Davis'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "15479bbdef317e780361a2934b39c82c",
+        "question": "Is the accuracy rate of the blue square in the upper-left corner of the figure strictly greater than 0.8?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Accuracy rate (from 0 to 1) in the pairwise classification using network features extracted from mesoscopic networks.\n\nQuestion: Is the accuracy rate of the blue square in the upper-left corner of the figure strictly greater than 0.8?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "40e35931cd203838188066f7d1e22517",
+        "question": "Is the accuracy rate for the pairwise classification of Lang and Davis less than 0.6?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Accuracy rate (from 0 to 1) in the pairwise classification using network features extracted from mesoscopic networks.\n\nQuestion: Is the accuracy rate for the pairwise classification of Lang and Davis less than 0.6?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "0a026a91fa33cd0367978286fc356ae5",
+        "question": "What is the number written in the square in the bottom left corner?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Accuracy rate (from 0 to 1) in the pairwise classification using network features extracted from mesoscopic networks.\n\nQuestion: What is the number written in the square in the bottom left corner?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0.6'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "289cd580bd4b552d236e5be4793bbd20",
+        "question": "What is the accuracy rate in the pairwise classification of Dickens and Austen?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Accuracy rate (from 0 to 1) in the pairwise classification using network features extracted from mesoscopic networks.\n\nQuestion: What is the accuracy rate in the pairwise classification of Dickens and Austen?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0.6'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "7ae3f1fd7d14b73d2633bee19ca30a40",
+        "question": "What specific mesoscopic network features were used to extract the pairwise classification accuracy shown in Figure 3?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "4a6b4afd9f6a7071e3b5e2fa3b50cb03",
+        "question": "What is the value represented by the darkest-colored cell in the confusion matrix shown in Figure 5?",
+        "answer_pred": "0.99",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Sub-task B, HAD-Tubingen LSTM + Preprocessing.\n\nQuestion: What is the value represented by the darkest-colored cell in the confusion matrix shown in Figure 5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "0f78b54a04545302fa196e178905b938",
+        "question": "What is the highest number in any cell of the matrix in figure 5?",
+        "answer_pred": "1.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Sub-task B, HAD-Tubingen LSTM + Preprocessing.\n\nQuestion: What is the highest number in any cell of the matrix in figure 5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "dbecf9a211fdcaaeaef14679769e42df",
+        "question": "Are all square cells in the confusion matrix the same size?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Sub-task B, HAD-Tubingen LSTM + Preprocessing.\n\nQuestion: Are all square cells in the confusion matrix the same size?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "892a729de2580e8190eebbffa2c54e20",
+        "question": "Do both English sentences contain the same words but in different order?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Example of preordering.\n\nQuestion: Do both English sentences contain the same words but in different order?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "18c357a66bd764c6edc53b7629a8ccda",
+        "question": "Which of the following sentences have three lines connecting them?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Example of preordering.\n\nQuestion: Which of the following sentences have three lines connecting them?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "06640311bdf3e0f6fb562d04dd7e4f7d",
+        "question": "Which words are present in the sentence S'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Example of preordering.\n\nQuestion: Which words are present in the sentence S'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'loves'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "7e339a58ea376ee4ed624d6c98995b23",
+        "question": "What is the purpose of this preordering example in the context of the original paper?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "b71390ca712378dc920465599c577794",
+        "question": "What is the label of the node directly below the node labelled 'VP' in the second diagram?",
+        "answer_pred": "X",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 2 Analysis of pustak=kii tareef hu-ii The book got praised.\n\nQuestion: What is the label of the node directly below the node labelled 'VP' in the second diagram?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b2bede2800ee3c77fbc130abd707729d",
+        "question": "What is the category to which V belongs to?",
+        "answer_pred": "V",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 2 Analysis of pustak=kii tareef hu-ii The book got praised.\n\nQuestion: What is the category to which V belongs to?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "9fafd3cf9a6bd0df721e175babfe22ee",
+        "question": "Is the word 'pustak' positioned directly below 'NP1'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 2 Analysis of pustak=kii tareef hu-ii The book got praised.\n\nQuestion: Is the word 'pustak' positioned directly below 'NP1'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "2a04a56c84a64470a0e4e1d018ec472f",
+        "question": "Is \"hu-ii\" part of a Verbal Phrase?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 2 Analysis of pustak=kii tareef hu-ii The book got praised.\n\nQuestion: Is \"hu-ii\" part of a Verbal Phrase?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "91207f990b9373f5efb46fcd6e23989d",
+        "question": "Which of the following tree diagrams does not have 'XP' labeled with a subscript?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 2 Analysis of pustak=kii tareef hu-ii The book got praised.\n\nQuestion: Which of the following tree diagrams does not have 'XP' labeled with a subscript?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All the tree diagrams'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "0b2f32a8315605e35b8449b6df466ce9",
+        "question": "What is the head of the phrase 'pustak=kii tareef hu-ii'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 2 Analysis of pustak=kii tareef hu-ii The book got praised.\n\nQuestion: What is the head of the phrase 'pustak=kii tareef hu-ii'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'NP1'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "5c0e586d3b219fcb8f3c7c6f75463633",
+        "question": "Does the accuracy increase consistently across layers for the 'OTHER' category?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 17: POS-based classification accuracy on states from the ENDE encoder + lexical shortcuts.\n\nQuestion: Does the accuracy increase consistently across layers for the 'OTHER' category?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "9da0df06dd5c3f87287a00ca1b4fc961",
+        "question": "Which of the following categories has the darkest color for layer 6?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 17: POS-based classification accuracy on states from the ENDE encoder + lexical shortcuts.\n\nQuestion: Which of the following categories has the darkest color for layer 6?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Other'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "6a2800a2bc2d7d7af8f3e9634fa96ba9",
+        "question": "Which of the following types of words has the highest accuracy score in layer 1?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 17: POS-based classification accuracy on states from the ENDE encoder + lexical shortcuts.\n\nQuestion: Which of the following types of words has the highest accuracy score in layer 1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'OTHER'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "5907eec602944b8207ac532c130f2471",
+        "question": "What is the precision of the ENDE encoder according to figure 17?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "4a5b0e9bd3e3c9369d2c9d9359cfc584",
+        "question": "What is the color of the cell in the rightmost column and the row with label \"chrF1\" in the left graph?",
+        "answer_pred": "green",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: English-to-Czech (en-cs) system-level metric significance test results; a green cell corresponds to a significant increase in correlation for the metric in a given row over the metric in a given column according to Williams test; RR = standard WMT relative ranking; RR + TT = standard WMT relative ranking for translation and tuning task systems.\n\nQuestion: What is the color of the cell in the rightmost column and the row with label \"chrF1\" in the left graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "2f30f721995d31482de706703c6f064c",
+        "question": "What are the different test sets depicted in figure 4?",
+        "answer_pred": "[en-cs, en-cs-tt, en-cs-tt-tt]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: English-to-Czech (en-cs) system-level metric significance test results; a green cell corresponds to a significant increase in correlation for the metric in a given row over the metric in a given column according to Williams test; RR = standard WMT relative ranking; RR + TT = standard WMT relative ranking for translation and tuning task systems.\n\nQuestion: What are the different test sets depicted in figure 4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "368231e314ba820850b6fbb8a22a8f2a",
+        "question": "Is the cell corresponding to row 'mosesBLEU' and column 'chrF1' on the left plot colored green?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: English-to-Czech (en-cs) system-level metric significance test results; a green cell corresponds to a significant increase in correlation for the metric in a given row over the metric in a given column according to Williams test; RR = standard WMT relative ranking; RR + TT = standard WMT relative ranking for translation and tuning task systems.\n\nQuestion: Is the cell corresponding to row 'mosesBLEU' and column 'chrF1' on the left plot colored green?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "93f4b5bc0ea5d67f1c30fc5c68128a6c",
+        "question": "Is the correlation increase significant for mosesPER metric over the wordF2 metric in the 'newstest2016' dataset?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: English-to-Czech (en-cs) system-level metric significance test results; a green cell corresponds to a significant increase in correlation for the metric in a given row over the metric in a given column according to Williams test; RR = standard WMT relative ranking; RR + TT = standard WMT relative ranking for translation and tuning task systems.\n\nQuestion: Is the correlation increase significant for mosesPER metric over the wordF2 metric in the 'newstest2016' dataset?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "491a37b4820671df3c7081e709ab8317",
+        "question": "Which row(s) in the left plot has the highest number of green squares?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: English-to-Czech (en-cs) system-level metric significance test results; a green cell corresponds to a significant increase in correlation for the metric in a given row over the metric in a given column according to Williams test; RR = standard WMT relative ranking; RR + TT = standard WMT relative ranking for translation and tuning task systems.\n\nQuestion: Which row(s) in the left plot has the highest number of green squares?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'mosesBLEU'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "1320b9eb016aa74df0e75c095946041b",
+        "question": "Which of the following metrics show significant increase in correlation over the mosesPER metric in the 'newstest2016' system?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: English-to-Czech (en-cs) system-level metric significance test results; a green cell corresponds to a significant increase in correlation for the metric in a given row over the metric in a given column according to Williams test; RR = standard WMT relative ranking; RR + TT = standard WMT relative ranking for translation and tuning task systems.\n\nQuestion: Which of the following metrics show significant increase in correlation over the mosesPER metric in the 'newstest2016' system?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'wordF2'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "3af756c9c4223650fc6957e160dbd9e9",
+        "question": "What color is the box labeled \u03b1i?",
+        "answer_pred": "yellow",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: One slice of the architecture of Neural Machine Translation based on a generic attention.\n\nQuestion: What color is the box labeled \u03b1i?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "b88830202f0cb1e319b4e57787eb6ccb",
+        "question": "Which of the following elements are directly influenced by both \"h\" and \"si-1\"?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: One slice of the architecture of Neural Machine Translation based on a generic attention.\n\nQuestion: Which of the following elements are directly influenced by both \"h\" and \"si-1\"?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'ci'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "bd96e3a42cf5a449c4a60c98f7e307da",
+        "question": "What are the specific functions implemented in the boxes labeled 's' and 'c' in this architecture of Neural Machine Translation?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "3ceb7cec9703e36e4ce7de3caa56992c",
+        "question": "What is the word associated with the arrow pointing from the rightmost circle to the top circle left of it?",
+        "answer_pred": "bhagavad",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Samanakalkatvam\n\nQuestion: What is the word associated with the arrow pointing from the rightmost circle to the top circle left of it?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "13701da886e8a2d98f8d89bbf40547af",
+        "question": "What is the term used to describe the simultaneity of the events?",
+        "answer_pred": "samanakalkatvam",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Samanakalkatvam\n\nQuestion: What is the term used to describe the simultaneity of the events?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "96fe9c0a3afba5b68cf3d2c2490522a7",
+        "question": "Is the oval labeled 'piban' connected to the oval labeled 'b\u0101laka\u1e25' by an arrow?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Samanakalkatvam\n\nQuestion: Is the oval labeled 'piban' connected to the oval labeled 'b\u0101laka\u1e25' by an arrow?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "93c60a0fc6579755476bb0ad159ba414",
+        "question": "Is the node labeled 'jalam' a leaf node of the tree in figure 8?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Samanakalkatvam\n\nQuestion: Is the node labeled 'jalam' a leaf node of the tree in figure 8?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a3a8d24f6f3434110741a2b991c55c62",
+        "question": "Which of the following colors are used in figure 8?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Samanakalkatvam\n\nQuestion: Which of the following colors are used in figure 8?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Green'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "3453a96fdfd0930f0bc3d49a436b2125",
+        "question": "Which nodes are connected to the edge labeled 'karma (goal)'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Samanakalkatvam\n\nQuestion: Which nodes are connected to the edge labeled 'karma (goal)'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'jalam'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "4b70383dba0bbe1562beaa2200ce94d8",
+        "question": "Where does the graph of figure 8 come from?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

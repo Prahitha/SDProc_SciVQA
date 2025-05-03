@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "541c7b4351f59134d67948495e9a1181",
+        "question": "Which of the plots has the highest median value for 'Non-Rumour'??",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Effect of class labels on uncertainty estimates.\n\nQuestion: Which of the plots has the highest median value for 'Non-Rumour'??\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'They all have the same value'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8844b62df2c194ed410efad4385a6a13",
+        "question": "Which of the following class labels were used in the uncertainty estimation study?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Effect of class labels on uncertainty estimates.\n\nQuestion: Which of the following class labels were used in the uncertainty estimation study?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Non-Rumour'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "7957f7e92d63cdc00eed5f0d39c21792",
+        "question": "What is the specific dataset used to generate the uncertainty estimates for the 'True' class label in the 'Epistemic Twitter 15' plot?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "560d836c5fc99f1129ba66b7fe540573",
+        "question": "What is the value represented by the darkest blue square in the confusion matrix shown in Figure 3?",
+        "answer_pred": "0.99",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Confusion Matrix shows results for Sub-task A using Bidirectional GRU\n\nQuestion: What is the value represented by the darkest blue square in the confusion matrix shown in Figure 3?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "bcb1c3fe0f57806f7aef9c34a840abe2",
+        "question": "What is the value for correctly predicted OFF labels?",
+        "answer_pred": "11",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Confusion Matrix shows results for Sub-task A using Bidirectional GRU\n\nQuestion: What is the value for correctly predicted OFF labels?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "79d7ac03c6038b9ef0913805c2f0a478",
+        "question": "Is the darkest colored square in the confusion matrix located in the top right quadrant?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Confusion Matrix shows results for Sub-task A using Bidirectional GRU\n\nQuestion: Is the darkest colored square in the confusion matrix located in the top right quadrant?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "ce7fe84867cdb0880e883648a2c85289",
+        "question": "Is the value of correctly predicted NOT labels higher than 400?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Confusion Matrix shows results for Sub-task A using Bidirectional GRU\n\nQuestion: Is the value of correctly predicted NOT labels higher than 400?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "393b2d113ba7867b1e4c177e24eae90d",
+        "question": "Considering Figure 3's confusion matrix, and its color scale, which of the following statements about the cell values representing 'True Label: NOT' and 'Predicted Label: NOT' (top-left cell) is/are correct?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Confusion Matrix shows results for Sub-task A using Bidirectional GRU\n\nQuestion: Considering Figure 3's confusion matrix, and its color scale, which of the following statements about the cell values representing 'True Label: NOT' and 'Predicted Label: NOT' (top-left cell) is/are correct?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "bbc4a7bb8bcbfe2ab7ac14b81e7ce70c",
+        "question": "What is the value of incorrectly predicted OFF labels?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Confusion Matrix shows results for Sub-task A using Bidirectional GRU\n\nQuestion: What is the value of incorrectly predicted OFF labels?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '122'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "2a3309f4d05bdfa94f48c9aea7b01d90",
+        "question": "Considering Sub-task A and the Bidirectional GRU model, what is the precision and recall for the 'OFF' class, and how does this compare to the performance of a Naive Bayes classifier used in Sub-task B?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

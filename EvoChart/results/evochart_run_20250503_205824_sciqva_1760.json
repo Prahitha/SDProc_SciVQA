@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "b4bdd6564b25f11ba6344365732da82f",
+        "question": "What is the approximate WER score for the 'Sup/AL + Unsup' method when the amount of supervised data is 100 hours?",
+        "answer_pred": "12.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: ASR results with updated LM and vocabulary.\n\nQuestion: What is the approximate WER score for the 'Sup/AL + Unsup' method when the amount of supervised data is 100 hours?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f1538463fe3a38ecbc134ee4d1f7d7ee",
+        "question": "Does the purple line represent the results for 'Sup/AL + Unsup'?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: ASR results with updated LM and vocabulary.\n\nQuestion: Does the purple line represent the results for 'Sup/AL + Unsup'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "042bca5e3ce11c2af29c0d1f7eabc852",
+        "question": "Do the results show that the ASR performance improved with the updated LM and vocabulary?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: ASR results with updated LM and vocabulary.\n\nQuestion: Do the results show that the ASR performance improved with the updated LM and vocabulary?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "5639f18dec7bcab251d80e183dd4e46c",
+        "question": "What is the approximate maximum value of the blue line?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: ASR results with updated LM and vocabulary.\n\nQuestion: What is the approximate maximum value of the blue line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '13.0'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "2f37c97c6bc69dfd24e21808559bc971",
+        "question": "What types of data were used to produce the ASR results in Figure 4?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: ASR results with updated LM and vocabulary.\n\nQuestion: What types of data were used to produce the ASR results in Figure 4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Semi-supervised, Unsupervised'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "7ae4b033cd8fe8e24a31de8c8ac60304",
+        "question": "What is the specific type of  ASR model used in the experiment presented in Figure 4?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "eea89d11c1e3b5aded3614e0bd434043",
+        "question": "What is the approximate accuracy of the yellow line at 500 steps?",
+        "answer_pred": "0.59",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Reweighted training accuracy of different weight matrix block division on CoLA dataset with DistilBERT model.\n\nQuestion: What is the approximate accuracy of the yellow line at 500 steps?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c4e3a8fed16d27ff3ca7171837bc3299",
+        "question": "What is the approximate maximum accuracy achieved according to the graph?",
+        "answer_pred": "0.74",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Reweighted training accuracy of different weight matrix block division on CoLA dataset with DistilBERT model.\n\nQuestion: What is the approximate maximum accuracy achieved according to the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "846a136592e20cc5a3adf67d52729f77",
+        "question": "Is the green line representing 8 blocks consistently higher than the orange line?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Reweighted training accuracy of different weight matrix block division on CoLA dataset with DistilBERT model.\n\nQuestion: Is the green line representing 8 blocks consistently higher than the orange line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "c41bb38e38cf9e906afb8fad71a4859c",
+        "question": "Does the training accuracy for the DistilBERT model show a consistent increase with the increase in the number of steps?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Reweighted training accuracy of different weight matrix block division on CoLA dataset with DistilBERT model.\n\nQuestion: Does the training accuracy for the DistilBERT model show a consistent increase with the increase in the number of steps?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

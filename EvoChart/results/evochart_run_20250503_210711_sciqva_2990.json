@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "3408514b806f57bdcdb706dd2098b401",
+        "question": "What is the specific type of correction applied in each experiment corresponding to the x-axis labels?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "7b9018f276744f9755f8d34ebe48f040",
+        "question": "What is the approximate attention weight of the red line at the word 'guidebook' in the bottom right graph?",
+        "answer_pred": "0.12",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Case Study of Multi-View Attention\n\nQuestion: What is the approximate attention weight of the red line at the word 'guidebook' in the bottom right graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "ae1d66e54116f34e3cbfeb68480389ae",
+        "question": "Which attention view has the highest weight for the word 'turkey'?",
+        "answer_pred": "semantic",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Case Study of Multi-View Attention\n\nQuestion: Which attention view has the highest weight for the word 'turkey'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "50e18f088cf72187b837426c05f52603",
+        "question": "Is the value of the blue circle the same as the value of the green cross at the word 'johnny'?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Case Study of Multi-View Attention\n\nQuestion: Is the value of the blue circle the same as the value of the green cross at the word 'johnny'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "990b34ad231575a4a4b4108f76d65a70",
+        "question": "Is the knowledge view attention weight higher than the semantic view attention weight for the third word in the (b)Question graph?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Case Study of Multi-View Attention\n\nQuestion: Is the knowledge view attention weight higher than the semantic view attention weight for the third word in the (b)Question graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "4c4e8f697a1cbecd92f12d3590a00283",
+        "question": "In figure (c), which of the following lines has a peak at word \"26\"?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Case Study of Multi-View Attention\n\nQuestion: In figure (c), which of the following lines has a peak at word \"26\"?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'purple line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "26b867bb701b08b00d175e0aeb619c43",
+        "question": "Which of the following attention views are present in the image?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Case Study of Multi-View Attention\n\nQuestion: Which of the following attention views are present in the image?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Knowledge view, semantic view, knowledge semantic view, co-attention view'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "fbd389338f6954c445a8c553aaa486eb",
+        "question": "What is the specific task that the multi-view attention model was trained for in the case study depicted in Figure 4?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "a254ba7e0ed5b0faae2bdb1325e14162",
+        "question": "What is the approximate value of the green line at the step 150,000?",
+        "answer_pred": "0.0001",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Cross Entropy: Training vs Validation\n\nQuestion: What is the approximate value of the green line at the step 150,000?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "97ecf98426930c446a1eb9276685d46d",
+        "question": "Does the training cross entropy generally decrease over the steps?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Cross Entropy: Training vs Validation\n\nQuestion: Does the training cross entropy generally decrease over the steps?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

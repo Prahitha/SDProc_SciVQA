@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "69a7dc8a560670570e9eaafb68de69eb",
+        "question": "Which of the following domains is not represented in the graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Increase in log-likelihood (scaled by 10e+ 07) of the data per-iteration in the five domains.\n\nQuestion: Which of the following domains is not represented in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Food'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "2a7731745cb499b0def1247783e88d6c",
+        "question": "What is the exact value of the log-likelihood for the 'Movies' domain at iteration 10?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "1cfb734604734f6ca3a75aba7dd81d14",
+        "question": "What is the value of the orange solid line at layer index 10 in the 'bert-base-uncased' plot?",
+        "answer_pred": "0.81",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Four models with four metrics evaluated on STS 12-16 using different layers. Squares connected by solid lines are with batch centering. Dots connected by dashed lines are their counterparts without batch centering.\n\nQuestion: What is the value of the orange solid line at layer index 10 in the 'bert-base-uncased' plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "12bc13e3c97187c9f8f12815aa889008",
+        "question": "What is the approximate Pearson correlation value for SBERT-b with batch centering achieved by 'bert-large-uncased' at 19th layer index?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Four models with four metrics evaluated on STS 12-16 using different layers. Squares connected by solid lines are with batch centering. Dots connected by dashed lines are their counterparts without batch centering.\n\nQuestion: What is the approximate Pearson correlation value for SBERT-b with batch centering achieved by 'bert-large-uncased' at 19th layer index?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "0110c8498bd94e4d935f83eb4fd76121",
+        "question": "Is the Pearson correlation of the solid orange line higher than the solid red line in the top right graph at Layer Index 17?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Four models with four metrics evaluated on STS 12-16 using different layers. Squares connected by solid lines are with batch centering. Dots connected by dashed lines are their counterparts without batch centering.\n\nQuestion: Is the Pearson correlation of the solid orange line higher than the solid red line in the top right graph at Layer Index 17?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "772d039d144c80f54f6effce188ca9a0",
+        "question": "Does the use of batch centering consistently increase the Pearson correlation for all four models?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Four models with four metrics evaluated on STS 12-16 using different layers. Squares connected by solid lines are with batch centering. Dots connected by dashed lines are their counterparts without batch centering.\n\nQuestion: Does the use of batch centering consistently increase the Pearson correlation for all four models?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "5f5d8d3f26f6c70ab924e540d55a08bc",
+        "question": "What is the colour of the line representing BERTscore-b?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Four models with four metrics evaluated on STS 12-16 using different layers. Squares connected by solid lines are with batch centering. Dots connected by dashed lines are their counterparts without batch centering.\n\nQuestion: What is the colour of the line representing BERTscore-b?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'red'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "1405dc6c032494c91506db7d6112475c",
+        "question": "Which of these metrics were evaluated on STS 12-16?",
+        "answer_pred": "S",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Four models with four metrics evaluated on STS 12-16 using different layers. Squares connected by solid lines are with batch centering. Dots connected by dashed lines are their counterparts without batch centering.\n\nQuestion: Which of these metrics were evaluated on STS 12-16?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Cosine'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "68e4b75b3b8c7d7fc41a3edf671b3b35",
+        "question": "What is the specific task that the models were evaluated on in the study presented in Figure 5?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "a2048523c2aabfb8a298280b7d7ac739",
+        "question": "What is the approximate value of the purple triangle marker at 550 hours of supervised data?",
+        "answer_pred": "1.2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: ASR results with updated LM and vocabulary.\n\nQuestion: What is the approximate value of the purple triangle marker at 550 hours of supervised data?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

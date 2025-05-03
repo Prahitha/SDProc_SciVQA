@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "10091f0b8acb3ec6f36d12aa01c95495",
+        "question": "Is the organization always higher than the cohesion in figure (a)?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Relation between some of the different gaze features and the score. The gaze features are (a) RD, (b) SFD, (c) FC and (d) RC. For figures (a) and (b), the units on the y-axis are milliseconds. For figures (c) and (d) the numbers are a ratio to the number of interest areas in the text. The x-axis in all 4 graphs is the score given by the annotators.\n\nQuestion: Is the organization always higher than the cohesion in figure (a)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "392e0611035aa7fbae8a3e30cb73d1ea",
+        "question": "Which of the following graphs depict a value of 1 on the y-axis?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Relation between some of the different gaze features and the score. The gaze features are (a) RD, (b) SFD, (c) FC and (d) RC. For figures (a) and (b), the units on the y-axis are milliseconds. For figures (c) and (d) the numbers are a ratio to the number of interest areas in the text. The x-axis in all 4 graphs is the score given by the annotators.\n\nQuestion: Which of the following graphs depict a value of 1 on the y-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Bottom-right'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "cbc34da585a7a47c0bc32f6918f0d386",
+        "question": "Which of the following gaze features show values above 30 on the y-axis?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Relation between some of the different gaze features and the score. The gaze features are (a) RD, (b) SFD, (c) FC and (d) RC. For figures (a) and (b), the units on the y-axis are milliseconds. For figures (c) and (d) the numbers are a ratio to the number of interest areas in the text. The x-axis in all 4 graphs is the score given by the annotators.\n\nQuestion: Which of the following gaze features show values above 30 on the y-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'RC'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "4350fbe46f78e361d734b74f609109e6",
+        "question": "What is the specific methodology used to collect the data depicted in Figure 2?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "ecf35121c146590cf0bdac5890112c9f",
+        "question": "What is the approximate performance of the orange line at the 'fix both boundaries' point?",
+        "answer_pred": "0.72",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Performance of CoNLL-2005 models after performing corrections from He et al. (2017).\n\nQuestion: What is the approximate performance of the orange line at the 'fix both boundaries' point?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "837fb9f201d41c1fb54d843e291a3b8c",
+        "question": "Which model performed the best after the corrections?",
+        "answer_pred": "Goldbach-Graham",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Performance of CoNLL-2005 models after performing corrections from He et al. (2017).\n\nQuestion: Which model performed the best after the corrections?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "47e9aef3518389a04e448f4357e31dd3",
+        "question": "Is the green line consistently higher than the blue line?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Performance of CoNLL-2005 models after performing corrections from He et al. (2017).\n\nQuestion: Is the green line consistently higher than the blue line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a06ef7501f76d6c58d36f5c2a4e03a81",
+        "question": "Did the performance of all models increase after the corrections were made?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Performance of CoNLL-2005 models after performing corrections from He et al. (2017).\n\nQuestion: Did the performance of all models increase after the corrections were made?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "bac50c1b219c6ca6c2247f069f07a348",
+        "question": "Which line represents the model called 'SpanGCN w/o LSTM'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Performance of CoNLL-2005 models after performing corrections from He et al. (2017).\n\nQuestion: Which line represents the model called 'SpanGCN w/o LSTM'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The green line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "dfe6ed648f4889a4a9f375629a644eb3",
+        "question": "Which model shows the best performance after performing corrections from He et al. (2017) on the CoNLL-2005 dataset?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Performance of CoNLL-2005 models after performing corrections from He et al. (2017).\n\nQuestion: Which model shows the best performance after performing corrections from He et al. (2017) on the CoNLL-2005 dataset?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'SpanGCN w/o LSTM'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

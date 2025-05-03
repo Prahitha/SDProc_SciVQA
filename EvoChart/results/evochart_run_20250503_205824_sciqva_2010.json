@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "ab7b988410256bda8f1061695364dc95",
+        "question": "What is the meaning of the connective 'nebo' in this sentence?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "d52d5901db6ec74b7bcce68f38f9dd40",
+        "question": "Which senator is represented by the rightmost red x?",
+        "answer_pred": "Marco Rubio",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1. The text-based ideal point model (tbip) separates senators by political party using only speeches. The algorithm does not have access to party information, but senators are coded by their political party for clarity (Democrats in blue circles, Republicans in red xs). The speeches are from the 114th U.S. Senate.\n\nQuestion: Which senator is represented by the rightmost red x?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "71f6bf23e4b7e175cef2e966774897f5",
+        "question": "What is the political affiliation of the senator who has the highest ideal point value according to the tbip model?",
+        "answer_pred": "Democratic",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1. The text-based ideal point model (tbip) separates senators by political party using only speeches. The algorithm does not have access to party information, but senators are coded by their political party for clarity (Democrats in blue circles, Republicans in red xs). The speeches are from the 114th U.S. Senate.\n\nQuestion: What is the political affiliation of the senator who has the highest ideal point value according to the tbip model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "ad950831a55ae75e5e00b1e244e2ee89",
+        "question": "Are all of the blue circles positioned to the left of the red 'x's on the horizontal axis?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1. The text-based ideal point model (tbip) separates senators by political party using only speeches. The algorithm does not have access to party information, but senators are coded by their political party for clarity (Democrats in blue circles, Republicans in red xs). The speeches are from the 114th U.S. Senate.\n\nQuestion: Are all of the blue circles positioned to the left of the red 'x's on the horizontal axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "9318d069881f8c1ec4533ff0a1f85e51",
+        "question": "Are there less than 10 senators represented in the graph?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1. The text-based ideal point model (tbip) separates senators by political party using only speeches. The algorithm does not have access to party information, but senators are coded by their political party for clarity (Democrats in blue circles, Republicans in red xs). The speeches are from the 114th U.S. Senate.\n\nQuestion: Are there less than 10 senators represented in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "f3e96a125628527005de57e9a1beb468",
+        "question": "Which senator is represented by a single blue dot located at the far left of the figure?",
+        "answer_pred": "Chuck Grassley",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1. The text-based ideal point model (tbip) separates senators by political party using only speeches. The algorithm does not have access to party information, but senators are coded by their political party for clarity (Democrats in blue circles, Republicans in red xs). The speeches are from the 114th U.S. Senate.\n\nQuestion: Which senator is represented by a single blue dot located at the far left of the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Amy Klobuchar'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "377d1cac1056b397bd364100042716f6",
+        "question": "Which of the following Senators were coded as Republicans?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1. The text-based ideal point model (tbip) separates senators by political party using only speeches. The algorithm does not have access to party information, but senators are coded by their political party for clarity (Democrats in blue circles, Republicans in red xs). The speeches are from the 114th U.S. Senate.\n\nQuestion: Which of the following Senators were coded as Republicans?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Chuck Schumer, Mark Warner'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "36713e8b7b42ef23c20491d0ba0fbbcc",
+        "question": "What is the average number of words used by each senator in their speeches during the 114th U.S. Senate?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "51afd440544083b70c9d5bcfe83abd0a",
+        "question": "What is the color of the arrow pointing to the word 'gens' from the word 'dorment'?",
+        "answer_pred": "red",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Linguistic application of constraint redirect\n\nQuestion: What is the color of the arrow pointing to the word 'gens' from the word 'dorment'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "8af6a532c31dcb8c1b729d827200619a",
+        "question": "Is the constraint redirect applied to the verb 'dormant'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Linguistic application of constraint redirect\n\nQuestion: Is the constraint redirect applied to the verb 'dormant'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

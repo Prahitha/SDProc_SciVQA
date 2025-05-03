@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "3a034fe3c6f94de28db4070047ded70a",
+        "question": "Is the orange (MISC) cluster located close to the blue (ORG) cluster?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Visualization of learned representations on CoNLL-03 test dataset. Entity types are represented in different shapes with red for PER, blue for ORG, green for LOC and orange for MISC. Rare entities are represented using bigger points. The points with X are for the delexicalized entities.\n\nQuestion: Is the orange (MISC) cluster located close to the blue (ORG) cluster?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "ce6de6f0d03cac10bc84bde5030d997d",
+        "question": "Are delexicalized entities represented with bigger points?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Visualization of learned representations on CoNLL-03 test dataset. Entity types are represented in different shapes with red for PER, blue for ORG, green for LOC and orange for MISC. Rare entities are represented using bigger points. The points with X are for the delexicalized entities.\n\nQuestion: Are delexicalized entities represented with bigger points?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "7ad88bc17bc74da55dc9e44bc1978070",
+        "question": "In which clusters are X symbols located?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Visualization of learned representations on CoNLL-03 test dataset. Entity types are represented in different shapes with red for PER, blue for ORG, green for LOC and orange for MISC. Rare entities are represented using bigger points. The points with X are for the delexicalized entities.\n\nQuestion: In which clusters are X symbols located?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "0f4676e9bf334cb51491fe7e26a46b78",
+        "question": "Which of the following entity types are represented in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Visualization of learned representations on CoNLL-03 test dataset. Entity types are represented in different shapes with red for PER, blue for ORG, green for LOC and orange for MISC. Rare entities are represented using bigger points. The points with X are for the delexicalized entities.\n\nQuestion: Which of the following entity types are represented in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'PER, ORG, LOC, MISC'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "093b7ae9fe74699fbcd6a7c3f22d8b8e",
+        "question": "What is the performance of the model on the CoNLL-03 test dataset in terms of F1 score?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "3daf27830bb03f2f4f6a0cdbab75b005",
+        "question": "What color represents the syntactic category 'det' in the t-SNE visualization?",
+        "answer_pred": "green",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: t-SNE visualization of syntactic differences in all languages we study, projected to 32 dimensions using PCA.\n\nQuestion: What color represents the syntactic category 'det' in the t-SNE visualization?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c11eff8163a07cfd9a815b7c7c59da01",
+        "question": "How many different syntactic functions are represented in the study?",
+        "answer_pred": "32",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: t-SNE visualization of syntactic differences in all languages we study, projected to 32 dimensions using PCA.\n\nQuestion: How many different syntactic functions are represented in the study?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "56d5da715634745f7ffe182a0142787b",
+        "question": "Do the grey dots appear more densely packed than the blue dots?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: t-SNE visualization of syntactic differences in all languages we study, projected to 32 dimensions using PCA.\n\nQuestion: Do the grey dots appear more densely packed than the blue dots?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "b8536f08a838f438063cc73439316d4d",
+        "question": "Is one of the syntactic functions represented in the graph 'obj'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: t-SNE visualization of syntactic differences in all languages we study, projected to 32 dimensions using PCA.\n\nQuestion: Is one of the syntactic functions represented in the graph 'obj'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "b75b49a4e2c7d4c96eaa3f29d86912f4",
+        "question": "What is the colour of the data points represented in the lowest part of the graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: t-SNE visualization of syntactic differences in all languages we study, projected to 32 dimensions using PCA.\n\nQuestion: What is the colour of the data points represented in the lowest part of the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'orange'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

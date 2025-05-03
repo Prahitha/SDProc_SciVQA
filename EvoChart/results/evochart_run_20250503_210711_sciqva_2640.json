@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "19a0096c507cbdec9954652f5ad35221",
+        "question": "What is the specific value of PPL at ELI5 Label Repeats = 0.01 and \u03b1 = 1.0?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "2f82e1ff9fde47c112f692fa6db8da05",
+        "question": "Which color represents 'nsubj - en' dependency type?",
+        "answer_pred": "orange",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: t-SNE visualization of head-dependent dependency pairs belonging to selected dependencies in English and French, projected into a syntactic subspace of MBERTRAND, as learned on English syntax trees. Colors correspond to gold UD dependency type labels.\n\nQuestion: Which color represents 'nsubj - en' dependency type?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "e5e67aeeda18e4ebbae11e8a27643419",
+        "question": "What are the languages represented in the visualization?",
+        "answer_pred": "[English, French]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: t-SNE visualization of head-dependent dependency pairs belonging to selected dependencies in English and French, projected into a syntactic subspace of MBERTRAND, as learned on English syntax trees. Colors correspond to gold UD dependency type labels.\n\nQuestion: What are the languages represented in the visualization?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f197af9a6f53b0320d6320795a818b2a",
+        "question": "Are the green points mostly located in the lower left portion of the visualization?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: t-SNE visualization of head-dependent dependency pairs belonging to selected dependencies in English and French, projected into a syntactic subspace of MBERTRAND, as learned on English syntax trees. Colors correspond to gold UD dependency type labels.\n\nQuestion: Are the green points mostly located in the lower left portion of the visualization?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "839fbacac115cbc4a8503b122ca12648",
+        "question": "Does the visualization include data for Chinese, English and French languages?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: t-SNE visualization of head-dependent dependency pairs belonging to selected dependencies in English and French, projected into a syntactic subspace of MBERTRAND, as learned on English syntax trees. Colors correspond to gold UD dependency type labels.\n\nQuestion: Does the visualization include data for Chinese, English and French languages?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "3c757693703aa8c60bb7116d242a2994",
+        "question": "Which of the following dependency types are visualized in blue in the plot?",
+        "answer_pred": "case",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: t-SNE visualization of head-dependent dependency pairs belonging to selected dependencies in English and French, projected into a syntactic subspace of MBERTRAND, as learned on English syntax trees. Colors correspond to gold UD dependency type labels.\n\nQuestion: Which of the following dependency types are visualized in blue in the plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Dots in pink color'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "20c0553b7231967bb64cd8939fa3f857",
+        "question": "Which of the following dependency types were analyzed in this study?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: t-SNE visualization of head-dependent dependency pairs belonging to selected dependencies in English and French, projected into a syntactic subspace of MBERTRAND, as learned on English syntax trees. Colors correspond to gold UD dependency type labels.\n\nQuestion: Which of the following dependency types were analyzed in this study?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'advmod, amod, case, cc, conj, det'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "a50a9fe82b3a324fdbfbc2c86a5e777c",
+        "question": "What is the specific accuracy of the model used in the t-SNE visualization for each dependency type?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "8c582ce2e44c6580ba790b3eac66c283",
+        "question": "What is the approximate value of d (squared distance from typical pattern) where the green dashed line intersects the y-axis?",
+        "answer_pred": "1.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5. Numerical World Color Survey with human JNDs: weakness of the bias. The histogram of the squared distance d = \u221114 i=1(xi \u2212 xi) 2 between the position of the i-th centroid and its average (\u201ctypical\u201d) value. Black data represent the statistics of those populations displaying 14 linguistic categories at the end of Category Game simulations with the human JND, which were roughly \u223c 1300 of the total 5000 considered populations. The inset displays the actual values of d for each population. Green and red data come from a \u201cRandom\u201d model where each \u201clanguage\u201d is produced by a uniform random distribution of 14 category centroids. A random case with a very large number of languages (red curve) represents the \u201cideal\u201d statistics of such a model. The distances d from the average pattern (shown in the inset) appear to have a larger average drand than the Category Game model dCG (where by d we refer to the mean value of the random and the CG cases, respectively), but since we are interested in the fluctuations we have rescaled the random model data, dividing them by drand/dCG, in order to compare the histograms. A power law fit \u223c x\u22123 is also shown as a guide for the eye.\n\nQuestion: What is the approximate value of d (squared distance from typical pattern) where the green dashed line intersects the y-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "3d7e2bdd2d93e45519c207467736df40",
+        "question": "How many populations were considered in the Category Game simulations?",
+        "answer_pred": "5000",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5. Numerical World Color Survey with human JNDs: weakness of the bias. The histogram of the squared distance d = \u221114 i=1(xi \u2212 xi) 2 between the position of the i-th centroid and its average (\u201ctypical\u201d) value. Black data represent the statistics of those populations displaying 14 linguistic categories at the end of Category Game simulations with the human JND, which were roughly \u223c 1300 of the total 5000 considered populations. The inset displays the actual values of d for each population. Green and red data come from a \u201cRandom\u201d model where each \u201clanguage\u201d is produced by a uniform random distribution of 14 category centroids. A random case with a very large number of languages (red curve) represents the \u201cideal\u201d statistics of such a model. The distances d from the average pattern (shown in the inset) appear to have a larger average drand than the Category Game model dCG (where by d we refer to the mean value of the random and the CG cases, respectively), but since we are interested in the fluctuations we have rescaled the random model data, dividing them by drand/dCG, in order to compare the histograms. A power law fit \u223c x\u22123 is also shown as a guide for the eye.\n\nQuestion: How many populations were considered in the Category Game simulations?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "b839191c3d2d26b76d38830c9de824fa",
+        "question": "Which of the following LM types are included in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The top row shows the results of the linear mixed effects regression analysis grouped by LM type. These scatter-plots show the resulting goodness-of-fit values plotted against the average surprisal over the included test data. The bottom row shows the smooths resulting from the GAMs fitted on the goodness-of-fit data, with their 95% confidence intervals.\n\nQuestion: Which of the following LM types are included in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Transformer'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "b0d1bfba7afb029beb63ec24d9a9f1f8",
+        "question": "What is the dataset used for the plots in figure 2?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "6f76248dec91a50a35c44bab2b3a983c",
+        "question": "What is the shape of the box labeled \"Classifier\"?",
+        "answer_pred": "Rectangular",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: The framework of the proposed SemiORC. denotes the matrix multiplication. In the training process, the predicted labels yi and observed labels yi are used to compute the classification loss for labeled data.\n\nQuestion: What is the shape of the box labeled \"Classifier\"?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "ce3bd4ffc1c85134e1651dbe7be8ad4c",
+        "question": "What is the dimension of the input to the network in figure 1?",
+        "answer_pred": "2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: The framework of the proposed SemiORC. denotes the matrix multiplication. In the training process, the predicted labels yi and observed labels yi are used to compute the classification loss for labeled data.\n\nQuestion: What is the dimension of the input to the network in figure 1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c6020d3df249cc9b081a455d7db3c283",
+        "question": "Is the green circle connected to the Bi-LSTM boxes at the bottom of the figure?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: The framework of the proposed SemiORC. denotes the matrix multiplication. In the training process, the predicted labels yi and observed labels yi are used to compute the classification loss for labeled data.\n\nQuestion: Is the green circle connected to the Bi-LSTM boxes at the bottom of the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "5bb1d1f5617dff857e173fe535984223",
+        "question": "Is there only a single starting point in the network with no earlier stages (preceding states)?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: The framework of the proposed SemiORC. denotes the matrix multiplication. In the training process, the predicted labels yi and observed labels yi are used to compute the classification loss for labeled data.\n\nQuestion: Is there only a single starting point in the network with no earlier stages (preceding states)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "666601a4c7e0056f83fac897d723890b",
+        "question": "Which of the following components has a blue background color?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: The framework of the proposed SemiORC. denotes the matrix multiplication. In the training process, the predicted labels yi and observed labels yi are used to compute the classification loss for labeled data.\n\nQuestion: Which of the following components has a blue background color?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Decoder'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "e2ec14a335220fbd9f68b23915a650af",
+        "question": "What is the symbol of the output of the LSTM that's input into the decoder?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: The framework of the proposed SemiORC. denotes the matrix multiplication. In the training process, the predicted labels yi and observed labels yi are used to compute the classification loss for labeled data.\n\nQuestion: What is the symbol of the output of the LSTM that's input into the decoder?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'zi'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "4afe33f11da3cea2809afc2cdbb2b0f0",
+        "question": "What is the specific type of matrix multiplication denoted by the symbol in the figure?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "f5e2f711828f57802a25394c27c44a80",
+        "question": "How many circles are in the leftmost column of the context network?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Illustration of our proposed model. The context network is a differentiable network that computes context vector ct for word xt taking the whole sequence as input.  represents the operation that combines original word embedding xt with corresponding context vector ct to form context-aware word embeddings.\n\nQuestion: How many circles are in the leftmost column of the context network?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "9385c2d30dc02dc9cff7a47a831b88c9",
+        "question": "What is approximately the highest accuracy achieved by 'Standard' in the F1\u2013Accuracy graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Phase 2 exact match improvement Figure 10: Phase 2 F1 score improvement\n\nQuestion: What is approximately the highest accuracy achieved by 'Standard' in the F1\u2013Accuracy graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '89.1'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "974f5bab4a32fe9572511079e654868e",
+        "question": "What is the exact match improvement of the Phase 2 Position model at 0.45 percent BERT paper training time?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "1a3e0da13b2773754b839b7ac9d0238a",
+        "question": "What is the value of the orange line at the augmentation size of 5 in the \"Laptop\" graph?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Performances of DE-CNN and BERT-FTC on different-sized augmentation datasets, where 1 means the original datasets without augmentation. All the results are based on the average scores of five runs.\n\nQuestion: What is the value of the orange line at the augmentation size of 5 in the \"Laptop\" graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c5d038df2016e4ff575182a55abe57e5",
+        "question": "What are the datasets used?",
+        "answer_pred": "[1, 2, 3, 4, 5]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Performances of DE-CNN and BERT-FTC on different-sized augmentation datasets, where 1 means the original datasets without augmentation. All the results are based on the average scores of five runs.\n\nQuestion: What are the datasets used?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "6ba1328673618d43d81a18e52f0527bf",
+        "question": "Is the value of the orange line higher than the value of the blue line for augmentation size 1 in the 'Restaurant' plot?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Performances of DE-CNN and BERT-FTC on different-sized augmentation datasets, where 1 means the original datasets without augmentation. All the results are based on the average scores of five runs.\n\nQuestion: Is the value of the orange line higher than the value of the blue line for augmentation size 1 in the 'Restaurant' plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "48e1e477e6f31bc2be7c8f346aeca0da",
+        "question": "For the Restaurant dataset, is the performance of DE-CNN higher than BERT-FTC at augmentation size 3?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Performances of DE-CNN and BERT-FTC on different-sized augmentation datasets, where 1 means the original datasets without augmentation. All the results are based on the average scores of five runs.\n\nQuestion: For the Restaurant dataset, is the performance of DE-CNN higher than BERT-FTC at augmentation size 3?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e1174e1de15387f5c7eb032b4ec1e134",
+        "question": "Which of the following datasets show a consistent increase in performance for both blue and orange lines?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Performances of DE-CNN and BERT-FTC on different-sized augmentation datasets, where 1 means the original datasets without augmentation. All the results are based on the average scores of five runs.\n\nQuestion: Which of the following datasets show a consistent increase in performance for both blue and orange lines?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither (a) nor (b)'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "c03f176fd0e4443ef027bd04bcd40514",
+        "question": "Which line consistently increases as the augmentation size increases?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Performances of DE-CNN and BERT-FTC on different-sized augmentation datasets, where 1 means the original datasets without augmentation. All the results are based on the average scores of five runs.\n\nQuestion: Which line consistently increases as the augmentation size increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'BERT-FTC in Laptop dataset'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "f67b57612cc83ce80a2d3fccb6d5dcba",
+        "question": "What is the specific dataset used to achieve these performance results?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "56dfa1f4491484664b4e9fd875f74d66",
+        "question": "What is the approximate value of the red dashed line on the y-axis?",
+        "answer_pred": "0.0001",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Approximate error \u2016G\u0303t,N\u2212\u03b1\u2212G\u0303t,N\u2016\u221e as a function of samples N . \u03b1 = 10, \u03b3\u2032 = 10\u22123.\n\nQuestion: What is the approximate value of the red dashed line on the y-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

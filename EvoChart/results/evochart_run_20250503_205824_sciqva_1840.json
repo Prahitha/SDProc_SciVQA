@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "1dc9d67cc14ae2c8cd69fc951a2af99e",
+        "question": "What best describes the shape of the curve in subplot (g)?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. Utterance length distributions of (a) different authors in pg (b) different authors in pgs and (c) 50 randomly selected movies in subs. Distribution of utterance lengths over the entire (d) pg, (e) pgs and (f) subs datasets fitted with Eq. (2).\n\nQuestion: What best describes the shape of the curve in subplot (g)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Zig-zag pattern'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "d9270e6fc924352fee2a4f39539f2b0c",
+        "question": "Which of the following graphs is a heatmap?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3. Utterance length distributions of (a) different authors in pg (b) different authors in pgs and (c) 50 randomly selected movies in subs. Distribution of utterance lengths over the entire (d) pg, (e) pgs and (f) subs datasets fitted with Eq. (2).\n\nQuestion: Which of the following graphs is a heatmap?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'graph (a)'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "4dadd82c63017490792feedcc8fefd48",
+        "question": "What is the average utterance length for the movies in the 'subs' dataset?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "7f19242f27fd6c733285e2914644b91b",
+        "question": "What is the approximate maximum value of the black line representing the year 1950 in the bottom panel?",
+        "answer_pred": "0.022",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIG. 16: Normalized frequencies of references to years. The top panel resembles a figure from [1] using unfiltered data from English Version 2. (The cited paper uses Version 1.) Note the characteristic rapid rises and gradual declines, as well as the increasing peaks in yearly references. However, while the characteristic shape is still present in fiction (Version 2, bottom)\u2014at much reduced levels\u2014the peaks do not rise. The rising effect is likely due to citations from scientific texts.\n\nQuestion: What is the approximate maximum value of the black line representing the year 1950 in the bottom panel?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "851d79a3e45183dc26ecacb257c70f7e",
+        "question": "What is the range of years shown on the x-axis in both panels of Figure 16?",
+        "answer_pred": "1990-2020",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIG. 16: Normalized frequencies of references to years. The top panel resembles a figure from [1] using unfiltered data from English Version 2. (The cited paper uses Version 1.) Note the characteristic rapid rises and gradual declines, as well as the increasing peaks in yearly references. However, while the characteristic shape is still present in fiction (Version 2, bottom)\u2014at much reduced levels\u2014the peaks do not rise. The rising effect is likely due to citations from scientific texts.\n\nQuestion: What is the range of years shown on the x-axis in both panels of Figure 16?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "ee807b667f62edfe48a72084154fbdc8",
+        "question": "Does the black line representing 1950 in the bottom panel display higher peaks than the black line representing 1950 in the top panel?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIG. 16: Normalized frequencies of references to years. The top panel resembles a figure from [1] using unfiltered data from English Version 2. (The cited paper uses Version 1.) Note the characteristic rapid rises and gradual declines, as well as the increasing peaks in yearly references. However, while the characteristic shape is still present in fiction (Version 2, bottom)\u2014at much reduced levels\u2014the peaks do not rise. The rising effect is likely due to citations from scientific texts.\n\nQuestion: Does the black line representing 1950 in the bottom panel display higher peaks than the black line representing 1950 in the top panel?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "65d6fbfe268b10b5702bf5a047a8a811",
+        "question": "Do references for year 1950 start rising after 1950 in 'E. all' plot?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIG. 16: Normalized frequencies of references to years. The top panel resembles a figure from [1] using unfiltered data from English Version 2. (The cited paper uses Version 1.) Note the characteristic rapid rises and gradual declines, as well as the increasing peaks in yearly references. However, while the characteristic shape is still present in fiction (Version 2, bottom)\u2014at much reduced levels\u2014the peaks do not rise. The rising effect is likely due to citations from scientific texts.\n\nQuestion: Do references for year 1950 start rising after 1950 in 'E. all' plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "2c08de001c28f252258bdbba1ed943a0",
+        "question": "Which line represents the year 1910 in the bottom panel?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIG. 16: Normalized frequencies of references to years. The top panel resembles a figure from [1] using unfiltered data from English Version 2. (The cited paper uses Version 1.) Note the characteristic rapid rises and gradual declines, as well as the increasing peaks in yearly references. However, while the characteristic shape is still present in fiction (Version 2, bottom)\u2014at much reduced levels\u2014the peaks do not rise. The rising effect is likely due to citations from scientific texts.\n\nQuestion: Which line represents the year 1910 in the bottom panel?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the Above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "bdfb686f71f498c02d1497f2ff0f01e7",
+        "question": "What is the approximate maximum frequency of references to the year 1883 in the 'E. Fiction' plot?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIG. 16: Normalized frequencies of references to years. The top panel resembles a figure from [1] using unfiltered data from English Version 2. (The cited paper uses Version 1.) Note the characteristic rapid rises and gradual declines, as well as the increasing peaks in yearly references. However, while the characteristic shape is still present in fiction (Version 2, bottom)\u2014at much reduced levels\u2014the peaks do not rise. The rising effect is likely due to citations from scientific texts.\n\nQuestion: What is the approximate maximum frequency of references to the year 1883 in the 'E. Fiction' plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '2.9%'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "6aab315045d7ab9bc4187640cd35a371",
+        "question": "What is the size of the dataset used in the experiment?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

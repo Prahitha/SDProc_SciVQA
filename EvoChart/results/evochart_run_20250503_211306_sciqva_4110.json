@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "bfabded6339ff45f42eba50f3109c8e2",
+        "question": "Does realignment from finer-grained to coarser-grained in the caption simply refer to grouping Chinese characters together to form words?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "eb1be48355d9e6ba618da523e3f2dbb7",
+        "question": "What color is the dashed line in figure 5?",
+        "answer_pred": "red",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: This is an example of a different expression where again the solid line is the correct parse and the dashed line is the wrong parse caused by DM.\n\nQuestion: What color is the dashed line in figure 5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f21418fbfb5e0ca90d3bea39d8816027",
+        "question": "How many words is the Japanese sentence in EN made up of?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: This is an example of a different expression where again the solid line is the correct parse and the dashed line is the wrong parse caused by DM.\n\nQuestion: How many words is the Japanese sentence in EN made up of?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "947d33ada54c59cbedb00cb7bedc58b3",
+        "question": "Are all solid arrows pointing in the same direction?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: This is an example of a different expression where again the solid line is the correct parse and the dashed line is the wrong parse caused by DM.\n\nQuestion: Are all solid arrows pointing in the same direction?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "c0de8b874bfad6ba68c5043532da1217",
+        "question": "Does the Chinese sentence in EN contain at least twice as many words as its Japanese counterpart?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: This is an example of a different expression where again the solid line is the correct parse and the dashed line is the wrong parse caused by DM.\n\nQuestion: Does the Chinese sentence in EN contain at least twice as many words as its Japanese counterpart?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "3873b26511ea04bae76186dc011fb5c4",
+        "question": "At how many points do black lines cross each other in figure 5?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: This is an example of a different expression where again the solid line is the correct parse and the dashed line is the wrong parse caused by DM.\n\nQuestion: At how many points do black lines cross each other in figure 5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '6'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "70fd191277dc9d6c8ceb16615ce0f8dd",
+        "question": "In which language does the word 'ladies' appear at the beginning of the sentence in figure 5?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: This is an example of a different expression where again the solid line is the correct parse and the dashed line is the wrong parse caused by DM.\n\nQuestion: In which language does the word 'ladies' appear at the beginning of the sentence in figure 5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "a6c76f3f9f192ce74daf82a2bc9f2f82",
+        "question": "What is the specific cause of the wrong parse in the dashed line shown in Figure 5?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "95c834b70a6d7abbfb0c17a6ad6fa09d",
+        "question": "What is the y value of the upper end of the tallest blue boxplot in group-1?",
+        "answer_pred": "1.5",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Plots of Kruskal-Wallis test for criterion C1.\n\nQuestion: What is the y value of the upper end of the tallest blue boxplot in group-1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c7e2f317e328e7b59518f133851fe92f",
+        "question": "How many positions on the horizontal axis does each subplot in figure 6 have?",
+        "answer_pred": "3",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Plots of Kruskal-Wallis test for criterion C1.\n\nQuestion: How many positions on the horizontal axis does each subplot in figure 6 have?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

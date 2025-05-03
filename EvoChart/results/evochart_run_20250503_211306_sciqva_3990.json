@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "dd545f4c85ac082ec59fd8ccf009918e",
+        "question": "What is the maximum value of TopK in figure 3?",
+        "answer_pred": "13",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Performances on the 20NG dataset.\n\nQuestion: What is the maximum value of TopK in figure 3?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '13'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "c8cde06b75633a998b409f20965709f1",
+        "question": "How much would the perplexity be for the PLSA\u2212TopK algorithm at a TopK of 3?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "8c32493f22a28a65acee3f26533eacd6",
+        "question": "What is the approximate value of the red line at 10 sort iterations?",
+        "answer_pred": "1.8",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4. Effect of sorting iterations k on perplexity scores (LM1B).\n\nQuestion: What is the approximate value of the red line at 10 sort iterations?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "fcb4a9a438dff66b719c9e8fb795d234",
+        "question": "What is the maximum number of sort iterations in figure 4?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4. Effect of sorting iterations k on perplexity scores (LM1B).\n\nQuestion: What is the maximum number of sort iterations in figure 4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "919a06bcdc9d2f370befef733872bc63",
+        "question": "Is the background color of the graph white?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4. Effect of sorting iterations k on perplexity scores (LM1B).\n\nQuestion: Is the background color of the graph white?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "c7470e55ccbf16ccd9f3314633e1c69a",
+        "question": "Does the perplexity score consistently decrease as the number of sort iterations increases past 5?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4. Effect of sorting iterations k on perplexity scores (LM1B).\n\nQuestion: Does the perplexity score consistently decrease as the number of sort iterations increases past 5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "0477f32a0d7480335d199d017fb709af",
+        "question": "At what number of sort iterations does the red line reach a local peak?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4. Effect of sorting iterations k on perplexity scores (LM1B).\n\nQuestion: At what number of sort iterations does the red line reach a local peak?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '30'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "c9c4aec0059b7b00315d5abecb5f6188",
+        "question": "How many ticks does the y axis in figure 4 have?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4. Effect of sorting iterations k on perplexity scores (LM1B).\n\nQuestion: How many ticks does the y axis in figure 4 have?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '8'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "b509c8b2e728baad1b5a2782f1507b7a",
+        "question": "What is the specific algorithm used to calculate the perplexity scores?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "4214502a5497ba98f00f2f13bfcfe040",
+        "question": "At approximately what standard deviation does the blue line reach a peak?",
+        "answer_pred": "1.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 13: Densities of the scaled standard deviations before (blue) and after (black) 100 iterations of extended Baum-Welch.\n\nQuestion: At approximately what standard deviation does the blue line reach a peak?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

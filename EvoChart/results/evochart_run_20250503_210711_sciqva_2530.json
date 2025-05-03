@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "ca90f030911f2355240282cfa862deb9",
+        "question": "What is the BLEU score of Model II when \u03bb is 0.9 on the EN-DE validate set?",
+        "answer_pred": "0.67",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: BLEU scores of Trans.based, the proposed Model I, and Model II with different \u03bb on the EN-DE and ZH-EN validate sets.\n\nQuestion: What is the BLEU score of Model II when \u03bb is 0.9 on the EN-DE validate set?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "9195fafc33bcf5687346b5525e6d4f33",
+        "question": "Is the red line representing +Model II higher than the green line representing +Model I at the value \u03bb=0.9 for the EN-DE validate set?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: BLEU scores of Trans.based, the proposed Model I, and Model II with different \u03bb on the EN-DE and ZH-EN validate sets.\n\nQuestion: Is the red line representing +Model II higher than the green line representing +Model I at the value \u03bb=0.9 for the EN-DE validate set?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8cbcb1070c05f6f6baedeb6bdf21707c",
+        "question": "Does the BLEU score of Model II increase consistently as the lambda value increases in the EN-DE validate set?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: BLEU scores of Trans.based, the proposed Model I, and Model II with different \u03bb on the EN-DE and ZH-EN validate sets.\n\nQuestion: Does the BLEU score of Model II increase consistently as the lambda value increases in the EN-DE validate set?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "0a7f5efd61c256e3a514d9f4816d7dc4",
+        "question": "Which line represents the proposed Model I?",
+        "answer_pred": "+",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: BLEU scores of Trans.based, the proposed Model I, and Model II with different \u03bb on the EN-DE and ZH-EN validate sets.\n\nQuestion: Which line represents the proposed Model I?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "5e9d630a88dc941fa330874c0a88ced4",
+        "question": "Which of the models (Trans.base, +Model I, +Model II) has the highest BLEU score on the EN-DE validate set when \u03bb=0.7?",
+        "answer_pred": "+Model I",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: BLEU scores of Trans.based, the proposed Model I, and Model II with different \u03bb on the EN-DE and ZH-EN validate sets.\n\nQuestion: Which of the models (Trans.base, +Model I, +Model II) has the highest BLEU score on the EN-DE validate set when \u03bb=0.7?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "b9ce3dcd871aa71bc111bfaa24b47e5f",
+        "question": "What is the value of \u03bb corresponding to the highest BLEU score for Model II on the ZH-EN dataset?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "4e6e272700d17f9925d1d7aecd4149dc",
+        "question": "What is the maximum value reached by the blue line in the plots labeled \"Abstract\"?",
+        "answer_pred": "0.99",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Hyper-parameter tuning of D2V for each testing scenario.\n\nQuestion: What is the maximum value reached by the blue line in the plots labeled \"Abstract\"?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "94a09f2f300f820b807b257570a58e88",
+        "question": "What is the maximum number of rounds for the title plots?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Hyper-parameter tuning of D2V for each testing scenario.\n\nQuestion: What is the maximum number of rounds for the title plots?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "24059a410a24a4b46094bd02032918d8",
+        "question": "Is the green dotted line in the 'Abstract' plots consistently higher than the blue line?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Hyper-parameter tuning of D2V for each testing scenario.\n\nQuestion: Is the green dotted line in the 'Abstract' plots consistently higher than the blue line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "12b05b95b346244f37bbc353dd5a4ded",
+        "question": "Does the AUC of D2V during tuning consistently exceed the AUC for D2V with default parameters?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Hyper-parameter tuning of D2V for each testing scenario.\n\nQuestion: Does the AUC of D2V during tuning consistently exceed the AUC for D2V with default parameters?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

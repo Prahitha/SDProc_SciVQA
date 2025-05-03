@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "4200f3c0cd0cec6694df165e25e2691d",
+        "question": "What is the approximate maximum retraining accuracy of the green line?",
+        "answer_pred": "89.2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Layer sensitivity with DistilBERT model.\n\nQuestion: What is the approximate maximum retraining accuracy of the green line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "94009c2dcda871f01d171bce8226b6df",
+        "question": "Which two layers have an almost constant retraining accuracy for all weights?",
+        "answer_pred": "[10, 11]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Layer sensitivity with DistilBERT model.\n\nQuestion: Which two layers have an almost constant retraining accuracy for all weights?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "1f05c11ba1be86682d377506293ec559",
+        "question": "Does the green line initially increase and then decrease?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Layer sensitivity with DistilBERT model.\n\nQuestion: Does the green line initially increase and then decrease?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "011a6fd56b2a53f12add29b1636ded54",
+        "question": "Does the retraining accuracy for the CoLA model consistently increase with the number of model weights?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Layer sensitivity with DistilBERT model.\n\nQuestion: Does the retraining accuracy for the CoLA model consistently increase with the number of model weights?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a2fcfa3968583690a3d939b4b63fc179",
+        "question": "Which line represents the MRPC model?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Layer sensitivity with DistilBERT model.\n\nQuestion: Which line represents the MRPC model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "b1da21a0eb7a5fea82ad6a01eb11fa51",
+        "question": "What are the three models being evaluated for layer sensitivity with DistilBERT?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Layer sensitivity with DistilBERT model.\n\nQuestion: What are the three models being evaluated for layer sensitivity with DistilBERT?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'CoLA, MRPC, BERT'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "1662f885682c6994ec82693d301cf1eb",
+        "question": "What is the specific DistilBERT model architecture used in this figure?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "6849338dcc2c64eb3e61a83a94637fea",
+        "question": "What is the approximate maximum value on the y-axis for the black solid line?",
+        "answer_pred": "0.99",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 16: Retrieval results of the tf.idf weighted link translations, combined with different concept models.\n\nQuestion: What is the approximate maximum value on the y-axis for the black solid line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "832354b684bfe4f7d0a5e51021da78ce",
+        "question": "Which concept model has the highest map value for \u03b1 = 0.4?",
+        "answer_pred": "(A) Conceptual Blending",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 16: Retrieval results of the tf.idf weighted link translations, combined with different concept models.\n\nQuestion: Which concept model has the highest map value for \u03b1 = 0.4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "235c5888832eec6a11679fc95916f2f5",
+        "question": "Does the line formed with very small dots reach its peak at alpha = 0.6?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 16: Retrieval results of the tf.idf weighted link translations, combined with different concept models.\n\nQuestion: Does the line formed with very small dots reach its peak at alpha = 0.6?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

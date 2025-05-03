@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "45161d7d81830eceb2c0d8cbd86957b0",
+        "question": "Is the semantic distance at segment 25 higher in the bottom graph compared to the top graph?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: From 1000-tweet stream of the New York Times, @nytimes. The Euclidean distances between the word and tweet segments 1 to 31. All words and all tweet segments are embedded in the Correspondence Analysis factor space. This latent semantic space is endowed with the Euclidean metric and all points (words, tweet segments) are of equal mass. To aid in visualization, the distances are connected in a continuous curve. Small values of distance indicate a close semantic association of word and tweet segment.\n\nQuestion: Is the semantic distance at segment 25 higher in the bottom graph compared to the top graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "14d492390f6e5ffaf480fc55af23d633",
+        "question": "Do the semantic distances of both 'hysteria' and 'threats' from segment reach a maximum value at segment 27?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: From 1000-tweet stream of the New York Times, @nytimes. The Euclidean distances between the word and tweet segments 1 to 31. All words and all tweet segments are embedded in the Correspondence Analysis factor space. This latent semantic space is endowed with the Euclidean metric and all points (words, tweet segments) are of equal mass. To aid in visualization, the distances are connected in a continuous curve. Small values of distance indicate a close semantic association of word and tweet segment.\n\nQuestion: Do the semantic distances of both 'hysteria' and 'threats' from segment reach a maximum value at segment 27?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a8603094589714a0d1ee1d4cfd28e3c3",
+        "question": "Which of the following has the highest distance at Segment 30?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: From 1000-tweet stream of the New York Times, @nytimes. The Euclidean distances between the word and tweet segments 1 to 31. All words and all tweet segments are embedded in the Correspondence Analysis factor space. This latent semantic space is endowed with the Euclidean metric and all points (words, tweet segments) are of equal mass. To aid in visualization, the distances are connected in a continuous curve. Small values of distance indicate a close semantic association of word and tweet segment.\n\nQuestion: Which of the following has the highest distance at Segment 30?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "4cba14c60be1675641a24c5ad68ec9f8",
+        "question": "At which of the following segments is the distance of 'threats' greater than 4?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: From 1000-tweet stream of the New York Times, @nytimes. The Euclidean distances between the word and tweet segments 1 to 31. All words and all tweet segments are embedded in the Correspondence Analysis factor space. This latent semantic space is endowed with the Euclidean metric and all points (words, tweet segments) are of equal mass. To aid in visualization, the distances are connected in a continuous curve. Small values of distance indicate a close semantic association of word and tweet segment.\n\nQuestion: At which of the following segments is the distance of 'threats' greater than 4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '30'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "1ee2b6c2902bcd792f837a2ae11f74bb",
+        "question": "What are the topics of the 31 tweet segments from the New York Times account? ",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "e25700a221facf601883cf42aece0ae2",
+        "question": "What is the approximate value of the precision for the red curve in the right graph when the recall is 0.775?",
+        "answer_pred": "0.81",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Smoothed precision-recall curves for models with BiLM pretraining and no pretraining. Best viewed in color.\n\nQuestion: What is the approximate value of the precision for the red curve in the right graph when the recall is 0.775?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "259354cdb0f38540a0ae0c1c3a482d07",
+        "question": "What are the two datasets analyzed in Figure 6?",
+        "answer_pred": "[CLINICAL TRIALS, MEDICAL RESEARCH]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Smoothed precision-recall curves for models with BiLM pretraining and no pretraining. Best viewed in color.\n\nQuestion: What are the two datasets analyzed in Figure 6?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "059b15f3186618b26c91e5aad3286a3c",
+        "question": "Does the blue curve have a consistently higher precision value than the red curve in both graphs?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Smoothed precision-recall curves for models with BiLM pretraining and no pretraining. Best viewed in color.\n\nQuestion: Does the blue curve have a consistently higher precision value than the red curve in both graphs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "589d1449a08aff539712baa47ce7f550",
+        "question": "Does BiLM pretraining consistently result in higher precision than no pretraining across both datasets?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Smoothed precision-recall curves for models with BiLM pretraining and no pretraining. Best viewed in color.\n\nQuestion: Does BiLM pretraining consistently result in higher precision than no pretraining across both datasets?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "98beaa4d1eb0e0bb611d06cb841f91e8",
+        "question": "Which line in the leftmost graph represents the model with BiLM pretraining?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Smoothed precision-recall curves for models with BiLM pretraining and no pretraining. Best viewed in color.\n\nQuestion: Which line in the leftmost graph represents the model with BiLM pretraining?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

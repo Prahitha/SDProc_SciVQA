@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "a4812fb625e819829ee4ed413322a41d",
+        "question": "How many yellow lines are there?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 4 Results for LSTM, 160 units (red) and GRU (yellow)\n\nQuestion: How many yellow lines are there?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b62d53cf100157fc1ae1d1ebc3e8a67a",
+        "question": "What RNN's are compared in the study?",
+        "answer_pred": "[LSTM, GRU]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 4 Results for LSTM, 160 units (red) and GRU (yellow)\n\nQuestion: What RNN's are compared in the study?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b880ff9508d52436593ed7bff9a2a23d",
+        "question": "Are the red lines consistently higher than the yellow lines in the figure?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 4 Results for LSTM, 160 units (red) and GRU (yellow)\n\nQuestion: Are the red lines consistently higher than the yellow lines in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "3ef9f4680b2ad78144854e6f22eeaa9a",
+        "question": "Is the maximum y-value 2?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 4 Results for LSTM, 160 units (red) and GRU (yellow)\n\nQuestion: Is the maximum y-value 2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d3ec67e6105c462f4ad1930a3438c2ef",
+        "question": "Which of the lines never achieve a y-value lower than 0.5?",
+        "answer_pred": "A",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 4 Results for LSTM, 160 units (red) and GRU (yellow)\n\nQuestion: Which of the lines never achieve a y-value lower than 0.5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "363688aa40fe8ca752a7d0d5807dedd3",
+        "question": "Which model performs worst at x=15?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 4 Results for LSTM, 160 units (red) and GRU (yellow)\n\nQuestion: Which model performs worst at x=15?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "75d87a40f56ca9b1f13ad4fdb6a0e075",
+        "question": "What specific dataset was used to train these LSTM and GRU models?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "c71b11d7c278d995b4b4215089922c4c",
+        "question": "What is the highest value on the y-axis for the green line representing the Harmonic Progression?",
+        "answer_pred": "1.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3. Distributions of popularity scores calculated by arithmetic, geometric and harmonic progressions on the same datasets.\n\nQuestion: What is the highest value on the y-axis for the green line representing the Harmonic Progression?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "daf89e778c2c4bb4106d600f032d9524",
+        "question": "Which progression has the highest starting popularity score?",
+        "answer_pred": "Arithmetic",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3. Distributions of popularity scores calculated by arithmetic, geometric and harmonic progressions on the same datasets.\n\nQuestion: Which progression has the highest starting popularity score?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "7f439affda969d08ca843ad6348a1cc3",
+        "question": "Does the red line represent the 'Arithmetic Progression'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3. Distributions of popularity scores calculated by arithmetic, geometric and harmonic progressions on the same datasets.\n\nQuestion: Does the red line represent the 'Arithmetic Progression'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

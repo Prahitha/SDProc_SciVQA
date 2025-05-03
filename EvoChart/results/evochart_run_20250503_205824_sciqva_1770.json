@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "8631385a30f7b8fa949c651664c311f8",
+        "question": "What color is the line representing the training accuracy for the weight matrix block division with 128 blocks?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Reweighted training accuracy of different weight matrix block division on CoLA dataset with DistilBERT model.\n\nQuestion: What color is the line representing the training accuracy for the weight matrix block division with 128 blocks?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Brown'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "da1ceb4e71a00a1173be5533bb8ee44d",
+        "question": "Which of these are weight matrix block divisions used in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Reweighted training accuracy of different weight matrix block division on CoLA dataset with DistilBERT model.\n\nQuestion: Which of these are weight matrix block divisions used in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '512 blocks'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "24e20a30ea6a45e5808a54e1b039f527",
+        "question": "What is the specific learning rate used for the different weight matrix block divisions in the DistilBERT model?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "6067b05839df67150b490c957c79094e",
+        "question": "What is the approximate accuracy of the blue line at depth 4 in the top graph?",
+        "answer_pred": "86.2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5. Comparisons with different depths of GCN in our model.\n\nQuestion: What is the approximate accuracy of the blue line at depth 4 in the top graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "364d6237cb58fad01df799eaea594572",
+        "question": "What are the two categories being compared in the graph?",
+        "answer_pred": "[Incorrect]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5. Comparisons with different depths of GCN in our model.\n\nQuestion: What are the two categories being compared in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "4f7f944f1867c360535279f00cf7a504",
+        "question": "Is the value of the blue line at depth 4 lower than that of the green line at the same depth?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5. Comparisons with different depths of GCN in our model.\n\nQuestion: Is the value of the blue line at depth 4 lower than that of the green line at the same depth?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "551934da862101fbb4f64b7ad0f29981",
+        "question": "Does the Macro-F1 value for Restaurant decrease as the depth of GCN increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5. Comparisons with different depths of GCN in our model.\n\nQuestion: Does the Macro-F1 value for Restaurant decrease as the depth of GCN increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "6b6cf7830aaf75c251fd328b1e41533f",
+        "question": "Which of the following statements are true about the lines in the top graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5. Comparisons with different depths of GCN in our model.\n\nQuestion: Which of the following statements are true about the lines in the top graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "bc36bafbdabc29e2fa8a5a829b6af329",
+        "question": "What metrics do the y-axis in the plots represent?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5. Comparisons with different depths of GCN in our model.\n\nQuestion: What metrics do the y-axis in the plots represent?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Accuracy, Log Loss'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "a0a9678b66bc37162b763c23f3324d51",
+        "question": "What is the specific type of GCN used in the model?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

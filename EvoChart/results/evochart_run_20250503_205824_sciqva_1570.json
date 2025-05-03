@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "fec5c138dce9916863526cb3a3a80379",
+        "question": "What is the approximate normalised z-score value of the red line at x-axis value of 10??",
+        "answer_pred": "-0.2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Triad significance profile for 5 datasets\n\nQuestion: What is the approximate normalised z-score value of the red line at x-axis value of 10??\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "bd4d087bcc12ce9939a4ab0a945df74e",
+        "question": "What is the approximate highest normalised z-score achieved on the NN dataset?",
+        "answer_pred": "2.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Triad significance profile for 5 datasets\n\nQuestion: What is the approximate highest normalised z-score achieved on the NN dataset?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "2502e9ef859ada2206ed65083850de87",
+        "question": "Is the red line consistently above the green line?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Triad significance profile for 5 datasets\n\nQuestion: Is the red line consistently above the green line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "4f8934e1fa55949f5eef39254a60e5b6",
+        "question": "Is the value of ML higher than the value of BO for dataset 4?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Triad significance profile for 5 datasets\n\nQuestion: Is the value of ML higher than the value of BO for dataset 4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "3fcc807bcde91696d32e9ababc2fa5d0",
+        "question": "What is the colour of the line representing FL dataset?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Triad significance profile for 5 datasets\n\nQuestion: What is the colour of the line representing FL dataset?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'yellow'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "0a5ee4cfedd5a8b5e7eea9f83b8d2b28",
+        "question": "Which of the following datasets is not represented in the graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Triad significance profile for 5 datasets\n\nQuestion: Which of the following datasets is not represented in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'NN'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "14ea2f1fd7f7812dd894ec885321591a",
+        "question": "What is the specific experimental design used to generate the data presented in Figure 5?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "ff1bbba188c917e543b7c42211fdf577",
+        "question": "What is the approximate value of the green line at training step 3?",
+        "answer_pred": "0.67",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: BLEU scores on tst2010, using ASR transcripts as inputs, varying \u03b1\n\nQuestion: What is the approximate value of the green line at training step 3?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c131f6fe25873c63cb20dd6901108674",
+        "question": "What is the BLEU score of the baseline model?",
+        "answer_pred": "29.3",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: BLEU scores on tst2010, using ASR transcripts as inputs, varying \u03b1\n\nQuestion: What is the BLEU score of the baseline model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "9d7062b58ea803ab02e74f385076e736",
+        "question": "Is the value of the red line at 3 training steps higher than the green line at the same training step?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: BLEU scores on tst2010, using ASR transcripts as inputs, varying \u03b1\n\nQuestion: Is the value of the red line at 3 training steps higher than the green line at the same training step?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

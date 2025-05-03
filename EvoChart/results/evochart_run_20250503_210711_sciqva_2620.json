@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "6fc9c6780bf5098ec1376e1cea91a2d7",
+        "question": "What is the label of the arrow pointing from E1 to E2?",
+        "answer_pred": "R",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Conceptual view of entities and relations\n\nQuestion: What is the label of the arrow pointing from E1 to E2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "2a115796ba4897b4cb4ac8042126e297",
+        "question": "How many relations are there between entities?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Conceptual view of entities and relations\n\nQuestion: How many relations are there between entities?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "7177cdc5c171203cfd215827285eca35",
+        "question": "Is there a curved arrow pointing from E3 to E1?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Conceptual view of entities and relations\n\nQuestion: Is there a curved arrow pointing from E3 to E1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "c019824cc08fed67200356b415e12c66",
+        "question": "Are there more than two relations between the entities?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Conceptual view of entities and relations\n\nQuestion: Are there more than two relations between the entities?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "bc73ff734d043ebe9d8864c0ed95485d",
+        "question": "Which entities are connected to each other through curved lines labeled R32?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Conceptual view of entities and relations\n\nQuestion: Which entities are connected to each other through curved lines labeled R32?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'E1 and E2 and E3'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "cacf1343da049693dae1a94afb4a7270",
+        "question": "What relations are associated with E1?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Conceptual view of entities and relations\n\nQuestion: What relations are associated with E1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'R12, R32'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "bd9f8cc0418e74daf92825848285133f",
+        "question": "What specific NLP tasks are represented by entities E1, E2, and E3?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "9c3587d40c8b7192479f4b870970f477",
+        "question": "In which part of the image are there more blue circles?",
+        "answer_pred": "Left",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 3 Scatter plot of arousal score vs. publication year for 88 19th century poems, 71 Imagist poems, and 100 contemporary poems. Following the Imagist movement, poems scored increasingly lower on emotional arousal.\n\nQuestion: In which part of the image are there more blue circles?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "cf28162949973f84f04402373f4a430b",
+        "question": "In which span of years were most of the Imagist poems published?",
+        "answer_pred": "1890-1910",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 3 Scatter plot of arousal score vs. publication year for 88 19th century poems, 71 Imagist poems, and 100 contemporary poems. Following the Imagist movement, poems scored increasingly lower on emotional arousal.\n\nQuestion: In which span of years were most of the Imagist poems published?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "3ddeaf72c4cd58e06cb01837805a39e1",
+        "question": "Are the blue circles (representing 19th century poems) generally positioned to the left of the blue triangles (representing Imagist poems) in the plot?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 3 Scatter plot of arousal score vs. publication year for 88 19th century poems, 71 Imagist poems, and 100 contemporary poems. Following the Imagist movement, poems scored increasingly lower on emotional arousal.\n\nQuestion: Are the blue circles (representing 19th century poems) generally positioned to the left of the blue triangles (representing Imagist poems) in the plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

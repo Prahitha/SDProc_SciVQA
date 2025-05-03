@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "61a2514ce747a46099c92dc82c8c61e2",
+        "question": "What is the specific value of BLEU for Ke=4 when the AMR graph size is between 11 and 20?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "e2741fd3b275358590ae790dfad98916",
+        "question": "What is the approximate value of the blue line in the bottom plot at the end of the graph?",
+        "answer_pred": "0.01",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Loss (Y axis) on development set, trained with 5% labeled data, over different epochs (X axis).\n\nQuestion: What is the approximate value of the blue line in the bottom plot at the end of the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "e3ad22437daf21ce94faeefdf289de7d",
+        "question": "How many different models are represented in the figure?",
+        "answer_pred": "3",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Loss (Y axis) on development set, trained with 5% labeled data, over different epochs (X axis).\n\nQuestion: How many different models are represented in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "cde9e9d8948db36a09cbb0c284b7edb3",
+        "question": "Does the green line in the bottom plot have a lower value than the blue line at epoch 5?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Loss (Y axis) on development set, trained with 5% labeled data, over different epochs (X axis).\n\nQuestion: Does the green line in the bottom plot have a lower value than the blue line at epoch 5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a4b2400abf41f8cf4ea68a71324ab36f",
+        "question": "Does the loss for BERT+Inter-LADA generally decrease over the epochs in the CoNLL dataset?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Loss (Y axis) on development set, trained with 5% labeled data, over different epochs (X axis).\n\nQuestion: Does the loss for BERT+Inter-LADA generally decrease over the epochs in the CoNLL dataset?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e16e33ca269e0e3a2c0f5f4cdca0fa62",
+        "question": "Which line represents 'BERT+Semi-Inter-LADA'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Loss (Y axis) on development set, trained with 5% labeled data, over different epochs (X axis).\n\nQuestion: Which line represents 'BERT+Semi-Inter-LADA'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Orange'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "17e8fc91708926cc886075ae91fccc9e",
+        "question": "Which of the following models are represented in the figure?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Loss (Y axis) on development set, trained with 5% labeled data, over different epochs (X axis).\n\nQuestion: Which of the following models are represented in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'LSTM'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "f0e35cc0e69e1b37a80c7f37034b51b4",
+        "question": "What is the size of the datasets used in the training?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "90d59695fee9ac4168dc5f0383f5a6e2",
+        "question": "What is the approximate precision value for the blue curve with K=1 at 0.5 recall?",
+        "answer_pred": "0.9",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Precision-Recall curves for the top-3 claim matching configurations (all using HM) on test.\n\nQuestion: What is the approximate precision value for the blue curve with K=1 at 0.5 recall?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "218a48e0664092868107a1316372e1a9",
+        "question": "What are the three claim matching configurations represented in the figure?",
+        "answer_pred": "[HM-1, HM-2, HM-3]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Precision-Recall curves for the top-3 claim matching configurations (all using HM) on test.\n\nQuestion: What are the three claim matching configurations represented in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

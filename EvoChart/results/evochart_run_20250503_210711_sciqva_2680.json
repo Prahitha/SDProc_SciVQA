@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "4d78986a9ae91a5cd17e3e03cf5d48c1",
+        "question": "What is the colour of the nodes represented in the graph?",
+        "answer_pred": "B,C",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: DLSTM based nonlinear feature mapping for bigram xt1xt. Three LSTM units are used to extract features from each word position. The bottom LSTM0 is used for first order feature extraction from the current word. The output from the lower LSTM unit at current word position and the memory cell from lower LSTM at previous word position are fed to the higher LSTM units. Such information propagation is highlighted in the figure by bold orange lines.\n\nQuestion: What is the colour of the nodes represented in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Green'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "d1c6d6fdc1f28a2ed3e598cb8c2a8703",
+        "question": "Which of the following functions is used in the model?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: DLSTM based nonlinear feature mapping for bigram xt1xt. Three LSTM units are used to extract features from each word position. The bottom LSTM0 is used for first order feature extraction from the current word. The output from the lower LSTM unit at current word position and the memory cell from lower LSTM at previous word position are fed to the higher LSTM units. Such information propagation is highlighted in the figure by bold orange lines.\n\nQuestion: Which of the following functions is used in the model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Tanh'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "cdc925bed608b2a3b07782daf866999d",
+        "question": "What is the specific value of the activation function f1,t-1 in the given architecture?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "f9a6565e779a3043ce48860c0a16941a",
+        "question": "What is the color of the rectangle labeled 'Softmax'?",
+        "answer_pred": "blue",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Illustration of Our Multi-domain NMT Model: Normalization and residual connection are omitted for simplicity. For all other detail, please refer to Vaswani et al. (2017).\n\nQuestion: What is the color of the rectangle labeled 'Softmax'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "e5f4f8ab3ceb3a15c6a9d7b192e67d6a",
+        "question": "What activation function is used in the feed-forward layers?",
+        "answer_pred": "ReLU",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Illustration of Our Multi-domain NMT Model: Normalization and residual connection are omitted for simplicity. For all other detail, please refer to Vaswani et al. (2017).\n\nQuestion: What activation function is used in the feed-forward layers?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "a5fe2c0c744c55d9ac9e306e70945a95",
+        "question": "Is the  'Multihead Attention' block positioned above the 'Feed Forward' block in the upper right of the figure?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Illustration of Our Multi-domain NMT Model: Normalization and residual connection are omitted for simplicity. For all other detail, please refer to Vaswani et al. (2017).\n\nQuestion: Is the  'Multihead Attention' block positioned above the 'Feed Forward' block in the upper right of the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "2ef403ec1cc82982c55170696eef82f4",
+        "question": "Is Domain Mixing used in both the encoder and decoder?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Illustration of Our Multi-domain NMT Model: Normalization and residual connection are omitted for simplicity. For all other detail, please refer to Vaswani et al. (2017).\n\nQuestion: Is Domain Mixing used in both the encoder and decoder?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "9da9de5f7805d96a61964f7e6787166b",
+        "question": "How many 'Domain Mixing' blocks are positioned above the 'Output Embedding' block?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Illustration of Our Multi-domain NMT Model: Normalization and residual connection are omitted for simplicity. For all other detail, please refer to Vaswani et al. (2017).\n\nQuestion: How many 'Domain Mixing' blocks are positioned above the 'Output Embedding' block?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Four'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "dc7451a50e25f374b0abb8b68cd2295b",
+        "question": "Which of the following is not a component of the model?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Illustration of Our Multi-domain NMT Model: Normalization and residual connection are omitted for simplicity. For all other detail, please refer to Vaswani et al. (2017).\n\nQuestion: Which of the following is not a component of the model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Multihead Attention'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "f9a0796baa1faa621cc525b6136476b0",
+        "question": "What is the specific implementation of the normalization and residual connection used in this multi-domain NMT model?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

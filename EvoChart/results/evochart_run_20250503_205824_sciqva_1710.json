@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "037fb0a8153467e93a9f6a8c6cb94f69",
+        "question": "What is the WER value of the orange line in the left graph at a beam width of 512",
+        "answer_pred": "11.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5. Performance comparison between CTC and CTCC using different size of beam for LM rescoring\n\nQuestion: What is the WER value of the orange line in the left graph at a beam width of 512\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "1650a3a760e9d07ac577b5da5ab1503e",
+        "question": "What is the approximate WER value for CTCC at a beam width of 1024 in the TH-CS model?",
+        "answer_pred": "11.9",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5. Performance comparison between CTC and CTCC using different size of beam for LM rescoring\n\nQuestion: What is the approximate WER value for CTCC at a beam width of 1024 in the TH-CS model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "eb62d95f6d83c1e7539afbb3d26a3d7f",
+        "question": "Is the value of the orange line higher than the value of the blue line for the beam width of 128 in the TH plot?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5. Performance comparison between CTC and CTCC using different size of beam for LM rescoring\n\nQuestion: Is the value of the orange line higher than the value of the blue line for the beam width of 128 in the TH plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a79eee701aea092953c0086b2f1393ec",
+        "question": "Is the WER (Word Error Rate) consistently lower for CTCC compared to CTC in the TH-CS setting?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5. Performance comparison between CTC and CTCC using different size of beam for LM rescoring\n\nQuestion: Is the WER (Word Error Rate) consistently lower for CTCC compared to CTC in the TH-CS setting?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d510e40097a93d4fcb89c2e3ee446f63",
+        "question": "Which line in the 'TH-CS' graph represents 'CTCC'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5. Performance comparison between CTC and CTCC using different size of beam for LM rescoring\n\nQuestion: Which line in the 'TH-CS' graph represents 'CTCC'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The solid orange line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "6e8de62e5de3f4e181b9092c7dd212fd",
+        "question": "Which of the following is NOT a beam size used in the performance comparison between CTC and CTCC?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5. Performance comparison between CTC and CTCC using different size of beam for LM rescoring\n\nQuestion: Which of the following is NOT a beam size used in the performance comparison between CTC and CTCC?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '2564'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "e55fbde14845d1cb379bcb4b1c209496",
+        "question": "What is the exact WER (Word Error Rate) of CTCC with beam width of 128 in the 'TH-CS' experiment?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "3da36210052052f3630a0a0e42e30345",
+        "question": "What is the approximate value of the red line at at 7 sentences by length?",
+        "answer_pred": "29.4",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: BLEU scores vs. source sequence length. Five lines are our Deep-Att single model, Deep-Att ensemble model, our Deep-ED model, previous Enc-Dec model with four layers and SMT model.\n\nQuestion: What is the approximate value of the red line at at 7 sentences by length?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "20b095ce7a492f5c3815ac2681d5430d",
+        "question": "What is the maximum BLUE score achieved by the Deep-Att ensemble model?",
+        "answer_pred": "39.8",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: BLEU scores vs. source sequence length. Five lines are our Deep-Att single model, Deep-Att ensemble model, our Deep-ED model, previous Enc-Dec model with four layers and SMT model.\n\nQuestion: What is the maximum BLUE score achieved by the Deep-Att ensemble model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "5094f5e13b72ffc9ed0363480a737f94",
+        "question": "Is the dark blue line consistently above the green line?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: BLEU scores vs. source sequence length. Five lines are our Deep-Att single model, Deep-Att ensemble model, our Deep-ED model, previous Enc-Dec model with four layers and SMT model.\n\nQuestion: Is the dark blue line consistently above the green line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

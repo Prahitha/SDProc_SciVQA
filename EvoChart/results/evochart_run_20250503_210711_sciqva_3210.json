@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "d70084d64e1dd16f37d7e9a4ace2dfd8",
+        "question": "Is the green dashed line in the left plot starting at y=2?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Distance labels Figure 2: Times labels\n\nQuestion: Is the green dashed line in the left plot starting at y=2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d9b83441861478ac6722b5659a7937f4",
+        "question": "Do the 'Times' labels correspond to a value of zero when the distance is 'Very Near'?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Distance labels Figure 2: Times labels\n\nQuestion: Do the 'Times' labels correspond to a value of zero when the distance is 'Very Near'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "bd9b44970317000c6aabab6aa8f4670c",
+        "question": "Which line(s) in the left figure are(is) dotted?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Distance labels Figure 2: Times labels\n\nQuestion: Which line(s) in the left figure are(is) dotted?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Very Near'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "abe79aa3509a88d8051f580684773af3",
+        "question": "Which of the following distance categories have y = 1 within the first 250 cm?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Distance labels Figure 2: Times labels\n\nQuestion: Which of the following distance categories have y = 1 within the first 250 cm?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Not Far'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8edfae0f104c033fa10f538a360fc370",
+        "question": "What is the specific relationship between the distance labels and the times labels in the given figure?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "0d32592efb80dc7c010441ce9165a8f1",
+        "question": "What is the approximate accuracy of the metric represented by a circle and a solid line?",
+        "answer_pred": "89.5",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 16: Baseline Artificial Corpus\n\nQuestion: What is the approximate accuracy of the metric represented by a circle and a solid line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "87ddeb953d5f59b17b9766683a2b2f59",
+        "question": "What is the maximum accuracy achieved by the Artificial Corpus?",
+        "answer_pred": "91.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 16: Baseline Artificial Corpus\n\nQuestion: What is the maximum accuracy achieved by the Artificial Corpus?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "decdde527ad8aa6d51d1eaa7b650671e",
+        "question": "Is the recall represented by a dashed line?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 16: Baseline Artificial Corpus\n\nQuestion: Is the recall represented by a dashed line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "12ec5bb6e94764a5d4ac96a6a90b6ab7",
+        "question": "Does the precision and recall values reach above 95%?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 16: Baseline Artificial Corpus\n\nQuestion: Does the precision and recall values reach above 95%?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "0cba32b024551086faaedb3265b600b6",
+        "question": "How many dots are there before training example 200?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 16: Baseline Artificial Corpus\n\nQuestion: How many dots are there before training example 200?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '4'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "fd992ed539bf0fbf3714f40582cde354",
+        "question": "Is the red dashed line consistently higher than the other red lines in the figure?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: ROCs for CRNN Attention-based model with soft attention.\n\nQuestion: Is the red dashed line consistently higher than the other red lines in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "35bff6236daee024653dc1ad7176b6aa",
+        "question": "Do false rejects decrease with false alarms per hour?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: ROCs for CRNN Attention-based model with soft attention.\n\nQuestion: Do false rejects decrease with false alarms per hour?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "b7ad13fecc123f9398ae3db87e6d03f3",
+        "question": "Which of the lines in the graph represent CRNN-16-2-64?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: ROCs for CRNN Attention-based model with soft attention.\n\nQuestion: Which of the lines in the graph represent CRNN-16-2-64?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The red dashdotted line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "7ff7f8bd582faaa99f24516c2aae2225",
+        "question": "Which model has the lowest false rejects for a given number of false alarms per hour of at least 1?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: ROCs for CRNN Attention-based model with soft attention.\n\nQuestion: Which model has the lowest false rejects for a given number of false alarms per hour of at least 1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'CRNN-16-2-64'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8d14166c81d3fa7e83e67662fbd56d39",
+        "question": "What is the optimal model configuration for the CRNN Attention-based model with soft attention, considering both false rejects and false alarms?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "180d7e0587d7ee1e40a4090ea0208d0d",
+        "question": "What is the value of the green line at phase number 1?",
+        "answer_pred": "1.05",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Plot of average Query-Centre distance vs Phase Number.\n\nQuestion: What is the value of the green line at phase number 1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "17a768f3fccacdc1a3e55bbddb49fc6b",
+        "question": "Which category has the highest average query-centre distance at phase 1?",
+        "answer_pred": "retail",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Plot of average Query-Centre distance vs Phase Number.\n\nQuestion: Which category has the highest average query-centre distance at phase 1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "bcec0ba6c6ec257a50b78609240f5514",
+        "question": "Does the blue line (retail) start at a value greater than the red line (health)?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Plot of average Query-Centre distance vs Phase Number.\n\nQuestion: Does the blue line (retail) start at a value greater than the red line (health)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a577f2047ea4e56b84f26bd38c02707e",
+        "question": "Does the average Query-Centre distance for the 'phone' category decrease as the Phase Number increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Plot of average Query-Centre distance vs Phase Number.\n\nQuestion: Does the average Query-Centre distance for the 'phone' category decrease as the Phase Number increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "9330991de946d41cc173799763c76c90",
+        "question": "Which color line is the lowest at Phase Number 13?",
+        "answer_pred": "Turquoise",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Plot of average Query-Centre distance vs Phase Number.\n\nQuestion: Which color line is the lowest at Phase Number 13?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Turquoise'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

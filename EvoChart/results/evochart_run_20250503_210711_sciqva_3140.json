@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "66e46452247389f0fcd3e6e3419707de",
+        "question": "Does the red line connect a green square with a red cross?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: HUSE-D vs HUSE-Q for loss truncation, truncation + rejection sampling, and baselines. The red line shows the best achievable frontier via ensembling. Truncation and rejection outperform all baselines.\n\nQuestion: Does the red line connect a green square with a red cross?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "fe6818f7af92bf8d19130b9296fef371",
+        "question": "Do both Huse-Q and Huse-D rank from 0-10?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: HUSE-D vs HUSE-Q for loss truncation, truncation + rejection sampling, and baselines. The red line shows the best achievable frontier via ensembling. Truncation and rejection outperform all baselines.\n\nQuestion: Do both Huse-Q and Huse-D rank from 0-10?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "c81cee9e27faf4e045844efe1936d1b7",
+        "question": "Considering the visual attributes of Figure 5, which of the following statements are true?  Select all that apply.",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: HUSE-D vs HUSE-Q for loss truncation, truncation + rejection sampling, and baselines. The red line shows the best achievable frontier via ensembling. Truncation and rejection outperform all baselines.\n\nQuestion: Considering the visual attributes of Figure 5, which of the following statements are true?  Select all that apply.\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The grey diagonal line is crossed by a blue line.'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "62145802ca79471bdaddf60a95aa40a9",
+        "question": "Which of the following methods has a HUSE-D of 1 and HUSE-Q of 0.6?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: HUSE-D vs HUSE-Q for loss truncation, truncation + rejection sampling, and baselines. The red line shows the best achievable frontier via ensembling. Truncation and rejection outperform all baselines.\n\nQuestion: Which of the following methods has a HUSE-D of 1 and HUSE-Q of 0.6?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'top-p'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "f668add03dae37131bb49fbc5f00eb6d",
+        "question": "What specific hyperparameter settings were used for each of the truncation, rejection sampling, and baseline methods presented in Figure 5, and how did these settings influence the final HUSE-D and HUSE-Q scores?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "4398b117ff80da9ad31b10874828d61a",
+        "question": "What color is the line representing 'W2V'?",
+        "answer_pred": "Red",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Effect of augmentation on different training set sizes for AG News\n\nQuestion: What color is the line representing 'W2V'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "804adeb5d496234e24c8cb06897be0b5",
+        "question": "How many different augmentation techniques are presented in the image?",
+        "answer_pred": "3",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Effect of augmentation on different training set sizes for AG News\n\nQuestion: How many different augmentation techniques are presented in the image?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "45c9784a9398aaeae672d50e462f021b",
+        "question": "In the first graph, does the green dashed line representing \"RTT (fr) Mixup\" have a consistently higher validation error than the black solid line representing \"No Augmentation\"?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Effect of augmentation on different training set sizes for AG News\n\nQuestion: In the first graph, does the green dashed line representing \"RTT (fr) Mixup\" have a consistently higher validation error than the black solid line representing \"No Augmentation\"?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "3f1f91ec8260255efac56c260fa829b5",
+        "question": "Does the experiment involve training on different sizes of training sets?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Effect of augmentation on different training set sizes for AG News\n\nQuestion: Does the experiment involve training on different sizes of training sets?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "5636ccfb0e86abdeb6c536fc4c39cd5a",
+        "question": "Which lines on the left graph depict a technique called 'Mixup'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Effect of augmentation on different training set sizes for AG News\n\nQuestion: Which lines on the left graph depict a technique called 'Mixup'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Black Solid, Red Solid'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

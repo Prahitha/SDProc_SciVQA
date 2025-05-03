@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "54c279c400ecff9269febe2ce8dce71e",
+        "question": "Do all 19th-century poems have an arousal score of over 3.5?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 3 Scatter plot of arousal score vs. publication year for 88 19th century poems, 71 Imagist poems, and 100 contemporary poems. Following the Imagist movement, poems scored increasingly lower on emotional arousal.\n\nQuestion: Do all 19th-century poems have an arousal score of over 3.5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "64192e12ab28e5e7976433f04f6915b4",
+        "question": "Which of the following shapes are used to represent the poems from the Imagist movement? ",
+        "answer_pred": "stars",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 3 Scatter plot of arousal score vs. publication year for 88 19th century poems, 71 Imagist poems, and 100 contemporary poems. Following the Imagist movement, poems scored increasingly lower on emotional arousal.\n\nQuestion: Which of the following shapes are used to represent the poems from the Imagist movement? \n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'stars'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "63154e63898326ce3f16fba934b3279a",
+        "question": "Which types of poems had higher arousal scores compared to contemporary poems?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 3 Scatter plot of arousal score vs. publication year for 88 19th century poems, 71 Imagist poems, and 100 contemporary poems. Following the Imagist movement, poems scored increasingly lower on emotional arousal.\n\nQuestion: Which types of poems had higher arousal scores compared to contemporary poems?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither 19th century nor Imagist'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "4952e89a5bdbb2fdd3ed2e31870d2fa7",
+        "question": "What is the exact arousal score of the 19th century poem published in 1890?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "5d34ec2a0cbfe32025346786fe0c8fab",
+        "question": "What is the approximate PPL value where the dark-blue colored dots are most concentrated, near the vertical dashed line indicating human level?",
+        "answer_pred": "0.02",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: ELI5: Perplexity vs. label repeats as a function of  in the label unlikelihood objective.\n\nQuestion: What is the approximate PPL value where the dark-blue colored dots are most concentrated, near the vertical dashed line indicating human level?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "a0e9b78d53567c2832f2302e7dacdd31",
+        "question": "What is the dependent variable in Figure 2?",
+        "answer_pred": "PPLM",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: ELI5: Perplexity vs. label repeats as a function of  in the label unlikelihood objective.\n\nQuestion: What is the dependent variable in Figure 2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "e451562af11889f816fcabdb31d782d5",
+        "question": "Are there any data points in the scatter plot that are colored dark blue and located to the right of the vertical dashed line?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: ELI5: Perplexity vs. label repeats as a function of  in the label unlikelihood objective.\n\nQuestion: Are there any data points in the scatter plot that are colored dark blue and located to the right of the vertical dashed line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "68a8c95865e3efeba2f5c08cf14046f9",
+        "question": "Does the perplexity decreases when the label repeats?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: ELI5: Perplexity vs. label repeats as a function of  in the label unlikelihood objective.\n\nQuestion: Does the perplexity decreases when the label repeats?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "afb433bcf7cbcf4468fbb83cd3683ba4",
+        "question": "Considering the scatter plot in Figure 2, which of the following statements are true regarding the relationship between 'ELI5 Label Repeats' and 'PPL', considering the color gradient representing '\u03b1'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: ELI5: Perplexity vs. label repeats as a function of  in the label unlikelihood objective.\n\nQuestion: Considering the scatter plot in Figure 2, which of the following statements are true regarding the relationship between 'ELI5 Label Repeats' and 'PPL', considering the color gradient representing '\u03b1'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': \"Points with lower '\u03b1' values are uniformly distributed across all 'ELI5 Label Repeats' values.\"}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "c2b477d5d8edb6510944f4a2e11f6298",
+        "question": "Which are possible \u03b1 values?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: ELI5: Perplexity vs. label repeats as a function of  in the label unlikelihood objective.\n\nQuestion: Which are possible \u03b1 values?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '1.0'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

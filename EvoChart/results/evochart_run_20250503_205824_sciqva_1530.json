@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "231daa029ac40ab7263cb42762057d5d",
+        "question": "Is the blue line consistently above the dotted orange line?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. The percentage of correct logical form returned for training as the number of epoch increases.\n\nQuestion: Is the blue line consistently above the dotted orange line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "aa488093005bbd3713faea2c37f0d293",
+        "question": "Does the percentage of correct logical form returned for training with brackets reach a higher value than without brackets at the end of training?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. The percentage of correct logical form returned for training as the number of epoch increases.\n\nQuestion: Does the percentage of correct logical form returned for training with brackets reach a higher value than without brackets at the end of training?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a4b7f2c242c8774d7b5d5a65a22109d5",
+        "question": "Which line represents \"without brackets\"?",
+        "answer_pred": "A",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. The percentage of correct logical form returned for training as the number of epoch increases.\n\nQuestion: Which line represents \"without brackets\"?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Both'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "09f7860dd21d27de35fb40cbcc3db652",
+        "question": "At what epoch does the percentage of correct logical form returned for training with brackets reach a higher value than without brackets at the end of training?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. The percentage of correct logical form returned for training as the number of epoch increases.\n\nQuestion: At what epoch does the percentage of correct logical form returned for training with brackets reach a higher value than without brackets at the end of training?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'It never reaches a higher value'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "c8a1780e05014120aae6844b74318e70",
+        "question": "What is the dataset used to train the model? ",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "8274573deb04d0adc138f86ccfcc165f",
+        "question": "What is the approximate maximum value of the red line in the left plot?",
+        "answer_pred": "0.99",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 17: Loss for sequence-to-sequence TextSum Model\n\nQuestion: What is the approximate maximum value of the red line in the left plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f2afd0566ab782be60585408169eb4d9",
+        "question": "What type of loss is shown in (b)?",
+        "answer_pred": "Euclidean distance",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 17: Loss for sequence-to-sequence TextSum Model\n\nQuestion: What type of loss is shown in (b)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "1f572b965f6505d1db80d2d922610ac2",
+        "question": "Does the Training Loss graph show a downward trend over the first 100 epochs?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 17: Loss for sequence-to-sequence TextSum Model\n\nQuestion: Does the Training Loss graph show a downward trend over the first 100 epochs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "7c74d4427c6699eb46d6ebac11ad8f9d",
+        "question": "Does the evaluation loss consistently decrease over time?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 17: Loss for sequence-to-sequence TextSum Model\n\nQuestion: Does the evaluation loss consistently decrease over time?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "5c8609a895cb2f83d4ae9528487e0753",
+        "question": "What does the evaluation loss line look like?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 17: Loss for sequence-to-sequence TextSum Model\n\nQuestion: What does the evaluation loss line look like?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Gently curved'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

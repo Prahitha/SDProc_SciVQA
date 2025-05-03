@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "be87c8c3043c0e03a5408cbe7089a2dc",
+        "question": "Which PoS are considered in the study?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: UAS accuracy for the average models (BERT 13, ELMo 3) on incoming dependencies of different part-of-speech categories.\n\nQuestion: Which PoS are considered in the study?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Interrogation'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "93116f013fda536bfc7bcd59a4f9dd46",
+        "question": "Considering only the provided Figure 4 and caption, what is the precise difference in UAS accuracy between the BERT-SUD and ELMO-SUD models for the 'VERB' part-of-speech category, and what are the statistical significance levels associated with this difference?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "a62321eda5e6eae92dd8d7e1a47f64b0",
+        "question": "What is the number of terms that are unique to the purple circle in the evaluation data?",
+        "answer_pred": "11",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Venn diagram: number of unique terms from the generated vocabularies found in the evaluation data: UMLS, WordNet with linguistic heuristics (WNling), and word2vec.\n\nQuestion: What is the number of terms that are unique to the purple circle in the evaluation data?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "2a509a8b328eaee41f27fb6e247063b5",
+        "question": "How many unique terms from the generated vocabularies are found in both UMLS and word2vec?",
+        "answer_pred": "11",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Venn diagram: number of unique terms from the generated vocabularies found in the evaluation data: UMLS, WordNet with linguistic heuristics (WNling), and word2vec.\n\nQuestion: How many unique terms from the generated vocabularies are found in both UMLS and word2vec?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "2b544c56b0fa03ca02b4985e3620ea5c",
+        "question": "Is the number of unique terms found in both the red circle and the purple circle greater than the number of terms found only in WNling?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Venn diagram: number of unique terms from the generated vocabularies found in the evaluation data: UMLS, WordNet with linguistic heuristics (WNling), and word2vec.\n\nQuestion: Is the number of unique terms found in both the red circle and the purple circle greater than the number of terms found only in WNling?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "22bd5aef1799532a08c629286def21af",
+        "question": "Is the number of unique terms found only in UMLS greater than the number of terms found only in WNling?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Venn diagram: number of unique terms from the generated vocabularies found in the evaluation data: UMLS, WordNet with linguistic heuristics (WNling), and word2vec.\n\nQuestion: Is the number of unique terms found only in UMLS greater than the number of terms found only in WNling?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "67d0797a13b45a04fa475c433a40d3b5",
+        "question": "Which of the following is not a color representing vocabulary in the Venn diagram?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Venn diagram: number of unique terms from the generated vocabularies found in the evaluation data: UMLS, WordNet with linguistic heuristics (WNling), and word2vec.\n\nQuestion: Which of the following is not a color representing vocabulary in the Venn diagram?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'yellow'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "15c3ac594c6943dbe18e7b414e3c7821",
+        "question": "Which of the following vocabularies share at least one term in common with all three vocabularies in the Venn diagram?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Venn diagram: number of unique terms from the generated vocabularies found in the evaluation data: UMLS, WordNet with linguistic heuristics (WNling), and word2vec.\n\nQuestion: Which of the following vocabularies share at least one term in common with all three vocabularies in the Venn diagram?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "5ec52152ef73a174e41b19de8239d64e",
+        "question": "What is the total number of adjectives in the evaluation data?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "acce9c0f12302c4cea65d051ce1e8285",
+        "question": "What is the percentage value of the blue slice of the pie chart labeled (a)?",
+        "answer_pred": "33.33",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Statistics : (a) Source across the dataset, (b) Overall speaker distribution.\n\nQuestion: What is the percentage value of the blue slice of the pie chart labeled (a)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

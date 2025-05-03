@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "d496fa0f9d665de313a1fb9bd3c55f83",
+        "question": "Does log-perplexity consistently decrease with steps for any of the encoder-decoder or attention scores for en-fi?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparing training curves for en-fi and en-tr with sigmoid encoder scoring and softmax decoder scoring and position encoding. Note that en-tr curves converged very quickly.\n\nQuestion: Does log-perplexity consistently decrease with steps for any of the encoder-decoder or attention scores for en-fi?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "2a3f91f4a1739f9d8e5a8792468a9ea7",
+        "question": "Which curve in the right panel is the highest at 25 steps?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparing training curves for en-fi and en-tr with sigmoid encoder scoring and softmax decoder scoring and position encoding. Note that en-tr curves converged very quickly.\n\nQuestion: Which curve in the right panel is the highest at 25 steps?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "1643ae95dea227126de1b1aab59c1fe9",
+        "question": "At approximately what number of steps does log perplexity reach its minimum for en-tr?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparing training curves for en-fi and en-tr with sigmoid encoder scoring and softmax decoder scoring and position encoding. Note that en-tr curves converged very quickly.\n\nQuestion: At approximately what number of steps does log perplexity reach its minimum for en-tr?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '200'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "f01b453c7e2f5ff42ae9df123d2987ca",
+        "question": "What is the specific implementation of the 'sigmoid encoder scoring and softmax decoder scoring and position encoding' technique used in this study, and how does it affect the convergence speed of the training curves? ",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "531290583d2f68780d5b7e5c08fb94ee",
+        "question": "What is the value of the purple line marked with squares at the third decoder layer in the left graph?",
+        "answer_pred": "0.222222222",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 11. Comparing the fraction of gL = 1.0 (equivalent to the fraction of times a particular sub-network was active) for all layers in the encoder and decoder at different budgets. SA, FF and CA correspond to the self-attention, feed-forward (averaged over M ) and cross-attention sub-networks respectively, while p0.2 and p0.5 indicate the computation budget.\n\nQuestion: What is the value of the purple line marked with squares at the third decoder layer in the left graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "537bede08d881d2293eff62e3517299d",
+        "question": "Which subnetwork had highest fraction of compute used per layer at decoder layer 3?",
+        "answer_pred": "FF",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 11. Comparing the fraction of gL = 1.0 (equivalent to the fraction of times a particular sub-network was active) for all layers in the encoder and decoder at different budgets. SA, FF and CA correspond to the self-attention, feed-forward (averaged over M ) and cross-attention sub-networks respectively, while p0.2 and p0.5 indicate the computation budget.\n\nQuestion: Which subnetwork had highest fraction of compute used per layer at decoder layer 3?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "dedc6fc4498e7e1eb74a1e4b98b0b19d",
+        "question": "Is the blue line on the left plot higher than the red line at encoder layer 2?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 11. Comparing the fraction of gL = 1.0 (equivalent to the fraction of times a particular sub-network was active) for all layers in the encoder and decoder at different budgets. SA, FF and CA correspond to the self-attention, feed-forward (averaged over M ) and cross-attention sub-networks respectively, while p0.2 and p0.5 indicate the computation budget.\n\nQuestion: Is the blue line on the left plot higher than the red line at encoder layer 2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d21149d7d76b2dc4183a9a065edb46db",
+        "question": "Is the fraction of compute used for the feed-forward sub-network at a computation budget of 0.2 consistently lower than that of the cross-attention sub-network in the decoder?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 11. Comparing the fraction of gL = 1.0 (equivalent to the fraction of times a particular sub-network was active) for all layers in the encoder and decoder at different budgets. SA, FF and CA correspond to the self-attention, feed-forward (averaged over M ) and cross-attention sub-networks respectively, while p0.2 and p0.5 indicate the computation budget.\n\nQuestion: Is the fraction of compute used for the feed-forward sub-network at a computation budget of 0.2 consistently lower than that of the cross-attention sub-network in the decoder?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "16adf45bdcaf4bc1e674ffc9ffbf1659",
+        "question": "What color are the triangle markings in figure 11?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 11. Comparing the fraction of gL = 1.0 (equivalent to the fraction of times a particular sub-network was active) for all layers in the encoder and decoder at different budgets. SA, FF and CA correspond to the self-attention, feed-forward (averaged over M ) and cross-attention sub-networks respectively, while p0.2 and p0.5 indicate the computation budget.\n\nQuestion: What color are the triangle markings in figure 11?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Purple'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "06083c12b1a398b2033f488480cecf35",
+        "question": "Which of the following sub-networks are represented in the figure for p=0.5?",
+        "answer_pred": "SA,FF,CA",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 11. Comparing the fraction of gL = 1.0 (equivalent to the fraction of times a particular sub-network was active) for all layers in the encoder and decoder at different budgets. SA, FF and CA correspond to the self-attention, feed-forward (averaged over M ) and cross-attention sub-networks respectively, while p0.2 and p0.5 indicate the computation budget.\n\nQuestion: Which of the following sub-networks are represented in the figure for p=0.5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'FF, CA'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "35b865a52d0374643c0d95b814c78b9a",
+        "question": "Is the highest value of the dashed line in the right graph less than 10?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3: WERs (%) obtained with # of estimation iterations by WPE+MPDR and WPE+wMPDR with joint and separate optimization schemes\n\nQuestion: Is the highest value of the dashed line in the right graph less than 10?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "27d66d7f05709d16d686acb2e190be82",
+        "question": "Does the WER obtained with WPE+MPDR using separate optimization scheme always decrease with the increase in number of iterations for the REVERB dataset?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3: WERs (%) obtained with # of estimation iterations by WPE+MPDR and WPE+wMPDR with joint and separate optimization schemes\n\nQuestion: Does the WER obtained with WPE+MPDR using separate optimization scheme always decrease with the increase in number of iterations for the REVERB dataset?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "49430026ecc8ee75a7941c080c3da599",
+        "question": "Which line in the left graph has the highest value at 1 iteration?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3: WERs (%) obtained with # of estimation iterations by WPE+MPDR and WPE+wMPDR with joint and separate optimization schemes\n\nQuestion: Which line in the left graph has the highest value at 1 iteration?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All lines have the same value'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "d2602ca90bafb21ffdb95119a8477525",
+        "question": "What is the value of WER for the WPE+wMPDR (joint opt.) at 3 iterations in the REVERB graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3: WERs (%) obtained with # of estimation iterations by WPE+MPDR and WPE+wMPDR with joint and separate optimization schemes\n\nQuestion: What is the value of WER for the WPE+wMPDR (joint opt.) at 3 iterations in the REVERB graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Between 10 and 10.5'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "05b8710537feb8300bd05bac08682822",
+        "question": "What is the specific value of WER (%) for the WPE+wMPDR scheme using joint optimization for 3 iterations in the REVERB dataset?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "081a2ff096c15e94ce9b01a8d73e2488",
+        "question": "What is the approximate log-likelihood of the blue line in the leftmost plot at 18 iterations?",
+        "answer_pred": "-1.01",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Increase in log-likelihood (scaled by 10e+ 07) of the data per-iteration in the five domains.\n\nQuestion: What is the approximate log-likelihood of the blue line in the leftmost plot at 18 iterations?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c2b4b0c5258d02dfd81ef25b7782e2bb",
+        "question": "What is the approximate value of the Log-likelihood at iteration 12 for the 'Food' domain?",
+        "answer_pred": "-1.01",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Increase in log-likelihood (scaled by 10e+ 07) of the data per-iteration in the five domains.\n\nQuestion: What is the approximate value of the Log-likelihood at iteration 12 for the 'Food' domain?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "94dca51a0dabff8fab2e34089bc655ac",
+        "question": "Do all five blue lines in Figure 2 show an increase in log-likelihood (scaled by 10e+07) as the number of iterations increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Increase in log-likelihood (scaled by 10e+ 07) of the data per-iteration in the five domains.\n\nQuestion: Do all five blue lines in Figure 2 show an increase in log-likelihood (scaled by 10e+07) as the number of iterations increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "5ef8c87353901e7ec6a7680a314a4bee",
+        "question": "Is one of the five domains represented in the graph 'Movies'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Increase in log-likelihood (scaled by 10e+ 07) of the data per-iteration in the five domains.\n\nQuestion: Is one of the five domains represented in the graph 'Movies'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "83e4388cfbbc9df89ff42ef64bf3544b",
+        "question": "Which of these best describes the shape of the lines in the plots?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Increase in log-likelihood (scaled by 10e+ 07) of the data per-iteration in the five domains.\n\nQuestion: Which of these best describes the shape of the lines in the plots?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Curved, then flat'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

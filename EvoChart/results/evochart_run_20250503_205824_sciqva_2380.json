@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "7f6dedd00ca4226f471bf8b2d832aa2c",
+        "question": "Which of the following datasets are shown in Figure 6? ",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Smoothed precision-recall curves for models with BiLM pretraining and no pretraining. Best viewed in color.\n\nQuestion: Which of the following datasets are shown in Figure 6? \n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "7f83464617559168b127cf171fa18f9e",
+        "question": "What is the difference in area under the curve (AUC) between the BiLM pretraining and no pretraining models for the BC5CDR dataset?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "e9b9f85179c1fc4c556d01a335563a4c",
+        "question": "What is the approximate value of the x-axis where the arrow labeled 'pos 3' is pointing on the main line?",
+        "answer_pred": "-0.1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 12: Principle Component Analysis on the Cs neurons (with different object locations)\n\nQuestion: What is the approximate value of the x-axis where the arrow labeled 'pos 3' is pointing on the main line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "5fe4ed8e2a64873146f957c5474eb903",
+        "question": "How many different object locations are shown in figure 12?",
+        "answer_pred": "3",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 12: Principle Component Analysis on the Cs neurons (with different object locations)\n\nQuestion: How many different object locations are shown in figure 12?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "1e4560181c94bf286cf679e2cbe2d86a",
+        "question": "Is the pos 4 arrow located below the main line?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 12: Principle Component Analysis on the Cs neurons (with different object locations)\n\nQuestion: Is the pos 4 arrow located below the main line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "71f21aacfd915c24feb03d16925a0520",
+        "question": "Is the x-value of 'pos 6' text location more than 0.2?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 12: Principle Component Analysis on the Cs neurons (with different object locations)\n\nQuestion: Is the x-value of 'pos 6' text location more than 0.2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "1a969c202ad26275f2ab17ca46e21a80",
+        "question": "Which of the following object locations are represented by arrows pointing in a rightwards direction?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 12: Principle Component Analysis on the Cs neurons (with different object locations)\n\nQuestion: Which of the following object locations are represented by arrows pointing in a rightwards direction?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'pos 6'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "454fa2ce5be79523a70487bbeda6b90b",
+        "question": "What is the maximum value recorded in figure 12?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 12: Principle Component Analysis on the Cs neurons (with different object locations)\n\nQuestion: What is the maximum value recorded in figure 12?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0.9'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "c9b823d2f1d0113d57eee0b51e27510f",
+        "question": "What is the mean firing rate of the Cs neurons for object location pos 1?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "a71cbef8104d9104df82c3e3fc858e94",
+        "question": "What is the highest value of the sentiment trajectory in the top plot?",
+        "answer_pred": "0.99",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Two example sentiment trajectories.\n\nQuestion: What is the highest value of the sentiment trajectory in the top plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

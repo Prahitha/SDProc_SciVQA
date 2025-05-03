@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "237baf6a7e38617d72a38f7b4ef2fa27",
+        "question": "Is the confusion matrix showing predicted labels for TIN, UNT and RMT?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Confusion Matrix shows results for Sub-task B using Bidirectional GRU\n\nQuestion: Is the confusion matrix showing predicted labels for TIN, UNT and RMT?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e4fe0a84e3877cc0ec2128ca01896f85",
+        "question": "Considering the color intensity of the cells in the confusion matrix shown in Figure 4, which of the following statements are true?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Confusion Matrix shows results for Sub-task B using Bidirectional GRU\n\nQuestion: Considering the color intensity of the cells in the confusion matrix shown in Figure 4, which of the following statements are true?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The color intensity is directly proportional to the value displayed in each cell.'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "7c1bf660e4f4a6c6ea86c632a4e59144",
+        "question": "Based on Figure 4's caption and the provided data, which of the following statements are true regarding the results for Sub-task B using Bidirectional GRU?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Confusion Matrix shows results for Sub-task B using Bidirectional GRU\n\nQuestion: Based on Figure 4's caption and the provided data, which of the following statements are true regarding the results for Sub-task B using Bidirectional GRU?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The model achieved perfect accuracy.'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "3a98539005d47fd05e69a5d51192184d",
+        "question": "Considering the provided confusion matrix from Figure 4, what is the F1-score for the 'UNT' class in Sub-task B, and how does this compare to the F1-score achieved for the same class using a different model, such as a recurrent neural network (RNN) with LSTM units, in Sub-task A?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "00948e37540b93b30792ac2176b29b41",
+        "question": "In the figure, are there more shaded cells representing matches between the reference and the one-step system or more dots representing matches between the reference and the two-step system?",
+        "answer_pred": "dots",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: METEOR X-ray alignment of the sentence in table 6. The left side is the output of the one-step system, the right side is the output of the two-step system, and the top is the reference. The shaded cells represent matches between the reference and the one-step system, and the dots represent matches between the reference and the twostep system.\n\nQuestion: In the figure, are there more shaded cells representing matches between the reference and the one-step system or more dots representing matches between the reference and the two-step system?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "4d03e8d0bba647ecb843db75fa3f7b1b",
+        "question": "Which system produced the most matches with the reference?",
+        "answer_pred": "one-step system",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: METEOR X-ray alignment of the sentence in table 6. The left side is the output of the one-step system, the right side is the output of the two-step system, and the top is the reference. The shaded cells represent matches between the reference and the one-step system, and the dots represent matches between the reference and the twostep system.\n\nQuestion: Which system produced the most matches with the reference?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "fbd9de5e55c9a9d8e979bcd36a229628",
+        "question": "Is there a black dot in the cell below the cell with the grey shaded area?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: METEOR X-ray alignment of the sentence in table 6. The left side is the output of the one-step system, the right side is the output of the two-step system, and the top is the reference. The shaded cells represent matches between the reference and the one-step system, and the dots represent matches between the reference and the twostep system.\n\nQuestion: Is there a black dot in the cell below the cell with the grey shaded area?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "de5fea0bb2ba45331447aa3bec1fe6fb",
+        "question": "Does the one-step system match the reference more than the two-step system?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: METEOR X-ray alignment of the sentence in table 6. The left side is the output of the one-step system, the right side is the output of the two-step system, and the top is the reference. The shaded cells represent matches between the reference and the one-step system, and the dots represent matches between the reference and the twostep system.\n\nQuestion: Does the one-step system match the reference more than the two-step system?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e1602a77affd10523c623c1af8b61654",
+        "question": "Which cells have matches between the reference and the two-step system?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: METEOR X-ray alignment of the sentence in table 6. The left side is the output of the one-step system, the right side is the output of the two-step system, and the top is the reference. The shaded cells represent matches between the reference and the one-step system, and the dots represent matches between the reference and the twostep system.\n\nQuestion: Which cells have matches between the reference and the two-step system?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The cell in the 2nd column and the 1st row.'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "760da8eb16392063dc1b4a1a2855657c",
+        "question": "Which system matches the reference for the sentence '\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627'",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: METEOR X-ray alignment of the sentence in table 6. The left side is the output of the one-step system, the right side is the output of the two-step system, and the top is the reference. The shaded cells represent matches between the reference and the one-step system, and the dots represent matches between the reference and the twostep system.\n\nQuestion: Which system matches the reference for the sentence '\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0627'\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'both systems'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

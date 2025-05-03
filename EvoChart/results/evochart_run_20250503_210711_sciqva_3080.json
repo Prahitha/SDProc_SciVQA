@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "43178519b010132c4c608c8fbfac063c",
+        "question": "Which reviewer numbers correspond to a sentence count of 2?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4. Sentence overlap between the summary of document 3 and 16 human summaries\n\nQuestion: Which reviewer numbers correspond to a sentence count of 2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '1'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "0ce9feab2816c26ea878290197db9764",
+        "question": "What are the specific topics covered in the summary of document 3?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "8c01eadfd55e0c151433b7633174fb92",
+        "question": "How many dots are there in y=1?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 4: Lasso Classifier with word counts validation/dev sensitivity-specificity curve\n\nQuestion: How many dots are there in y=1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "6e9978761abd8fe08bbd68086143d196",
+        "question": "What is the maximum specificity value?",
+        "answer_pred": "1.00",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 4: Lasso Classifier with word counts validation/dev sensitivity-specificity curve\n\nQuestion: What is the maximum specificity value?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "5b8a9846afb29d1a55fe9af6b270e13f",
+        "question": "Are there more than 4 dots between  y = 0.4 and y = 0.6?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 4: Lasso Classifier with word counts validation/dev sensitivity-specificity curve\n\nQuestion: Are there more than 4 dots between  y = 0.4 and y = 0.6?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "1fb85057a06c453b31c99dbbcdcc77b9",
+        "question": "Does the specifity decrease when sensitivity increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 4: Lasso Classifier with word counts validation/dev sensitivity-specificity curve\n\nQuestion: Does the specifity decrease when sensitivity increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "dec82fa56842d36aa164da2aaebab48e",
+        "question": "Which of the following values are indicated by the black circles in the graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 4: Lasso Classifier with word counts validation/dev sensitivity-specificity curve\n\nQuestion: Which of the following values are indicated by the black circles in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Sensitivity = 1 and Specificity = 0.5'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "e6b1cb79fb6552a1d2449190c945a55a",
+        "question": "What type of validation/dev curve is shown in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 4: Lasso Classifier with word counts validation/dev sensitivity-specificity curve\n\nQuestion: What type of validation/dev curve is shown in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'F1-score-AUC'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "855340924f16b25cf23a4775bace6bd2",
+        "question": "What is the specific type of Lasso Classifier used in the study and its corresponding hyperparameter values?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "91647b455cb83b1ab5549507c1b938bf",
+        "question": "In the third graph, what is the approximate value of the red circle on the y-axis for the construction method at an input size of 8GiB?",
+        "answer_pred": "1.02",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Memory and runtime statistics for CST and KenLM for construction and querying with different amounts of German Common Crawl training data and different Markov orders, m. We compare the query runtimes against the optimised version of KenLM for memory (lazy) and speed (populate). For clarity, in the figure we only show CST numbers form = 10; the results for other settings ofm are very similar. KenLM was trained to match the construction memory requirements of the CST-precompute method.\n\nQuestion: In the third graph, what is the approximate value of the red circle on the y-axis for the construction method at an input size of 8GiB?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

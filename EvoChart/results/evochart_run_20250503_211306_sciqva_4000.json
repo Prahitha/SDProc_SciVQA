@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "6f739c2487d24b6f48b69c653a097146",
+        "question": "What is the maximum value of the density function after 100 iterations of extended Baum-Welch across all standard deviations?",
+        "answer_pred": "0.0211",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 13: Densities of the scaled standard deviations before (blue) and after (black) 100 iterations of extended Baum-Welch.\n\nQuestion: What is the maximum value of the density function after 100 iterations of extended Baum-Welch across all standard deviations?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "9e185af3f5862ade6d53ccfe95b3cc0a",
+        "question": "Is the black line in the graph consistently higher than the blue line?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 13: Densities of the scaled standard deviations before (blue) and after (black) 100 iterations of extended Baum-Welch.\n\nQuestion: Is the black line in the graph consistently higher than the blue line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "f168fc4f8354d82b1efd4b4a00b238ae",
+        "question": "Did the peak of the density function shift towards lower standard deviations after 100 iterations of extended Baum-Welch?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 13: Densities of the scaled standard deviations before (blue) and after (black) 100 iterations of extended Baum-Welch.\n\nQuestion: Did the peak of the density function shift towards lower standard deviations after 100 iterations of extended Baum-Welch?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "70f8f3727ebb87fd89bf926d2f74dee8",
+        "question": "Which line is more symmetrical?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 13: Densities of the scaled standard deviations before (blue) and after (black) 100 iterations of extended Baum-Welch.\n\nQuestion: Which line is more symmetrical?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither is symmetrical at all.'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "fd919770a0524b066e294f5772c92eaf",
+        "question": "What is the difference between two consecutive tick values on the y axis?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 13: Densities of the scaled standard deviations before (blue) and after (black) 100 iterations of extended Baum-Welch.\n\nQuestion: What is the difference between two consecutive tick values on the y axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '1.0'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "09c1818cf6b28decf6c3c4cf5f39d4e5",
+        "question": "What variable produces the standard deviations that form the densities in figure 13?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "f45e2a1d0d7968f246b148d51f89e831",
+        "question": "What is the number inside the double-ringed circle?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Projection of Output tape of GestLang Transducer\n\nQuestion: What is the number inside the double-ringed circle?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "4a98f64eb2c8af0d00240df9187fdffd",
+        "question": "What is the label of the transition from the state represented by number 5?",
+        "answer_pred": "organization",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Projection of Output tape of GestLang Transducer\n\nQuestion: What is the label of the transition from the state represented by number 5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "1b5cf9b908e12596466824f4ee23976d",
+        "question": "Is the circle labeled '0' the only one with a thicker line for its border?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Projection of Output tape of GestLang Transducer\n\nQuestion: Is the circle labeled '0' the only one with a thicker line for its border?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "07cfb32caf0d99157c29406f10064d8e",
+        "question": "Is there a transition from state 5 to state 4?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 9: Projection of Output tape of GestLang Transducer\n\nQuestion: Is there a transition from state 5 to state 4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "5b78927861dce083e8b4cdfdb101e19f",
+        "question": "Which of the following best describes the relationship between the black line and the red dashed line in Figure 1?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Rank vs. sentiment scores in SCL-NMA.\n\nQuestion: Which of the following best describes the relationship between the black line and the red dashed line in Figure 1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The red dashed line is above the black line for most of the graph, but below the black line at the beginning and end.'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "aa86d24b7725856a3f3c85c82c998520",
+        "question": "What is the lower possible score?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Rank vs. sentiment scores in SCL-NMA.\n\nQuestion: What is the lower possible score?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '-0.5'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "4812d88b4360be6209a51c70f578e04b",
+        "question": "What is the p-value for the correlation between rank and sentiment scores in SCL-NMA?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "a68a0eb1b55867cdbdcf645785613a84",
+        "question": "What is the approximate perplexity value for the line with circles in June?",
+        "answer_pred": "11.4",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Perplexity results for the job advertisements from February to September in 2014.\n\nQuestion: What is the approximate perplexity value for the line with circles in June?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "4e4be4c5384839bcd9807a55cfc7afb1",
+        "question": "What is the range of months for which the perplexity data is provided?",
+        "answer_pred": "[2, 9]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Perplexity results for the job advertisements from February to September in 2014.\n\nQuestion: What is the range of months for which the perplexity data is provided?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "0bd9e58102d7aeed11a69ca471033e69",
+        "question": "Does the line with squares have a higher value in September than in August?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Perplexity results for the job advertisements from February to September in 2014.\n\nQuestion: Does the line with squares have a higher value in September than in August?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e9f44d18b28b8135ca0f631d69fa85d0",
+        "question": "Did perplexity values for all three categories increase from February to September in 2014?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Perplexity results for the job advertisements from February to September in 2014.\n\nQuestion: Did perplexity values for all three categories increase from February to September in 2014?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "6d90553e1dcd43dad565411d7acef3b5",
+        "question": "Which line has the lowest value in August?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Perplexity results for the job advertisements from February to September in 2014.\n\nQuestion: Which line has the lowest value in August?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All have the same value'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "efe24b93a8d31e949cc5cfcf17c2443a",
+        "question": "How many months are being considered?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Perplexity results for the job advertisements from February to September in 2014.\n\nQuestion: How many months are being considered?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'nine'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "02efb1d847bab6aa29db446dd242af59",
+        "question": "What is the standard deviation of perplexity values for LDA in March?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "436f7e10a6f9cd6e679b20df534ba96d",
+        "question": "What is the specific algorithm or methodology used to generate the 11x11 and 16x16 Use viewpoint thematic maps shown in Figure 6, and how does this methodology contribute to the observed differences in the 'machine oil' topic's representation between the two maps?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "3d0adcf7a4e061c9469381b2e02f9bdd",
+        "question": "What is the value in the bottom right cell?",
+        "answer_pred": "0.02",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Confusion Matrix for MIDAS submission 2 for Sub-task A.\n\nQuestion: What is the value in the bottom right cell?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b72ce63527f37e66ecf05da4763d4f71",
+        "question": "What is the highest number in any cell of the confusion matrix",
+        "answer_pred": "11",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Confusion Matrix for MIDAS submission 2 for Sub-task A.\n\nQuestion: What is the highest number in any cell of the confusion matrix\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "ea00ac662beae82b18b387f5f59ff8d6",
+        "question": "Does the darkest colored cell have the smallest number?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Confusion Matrix for MIDAS submission 2 for Sub-task A.\n\nQuestion: Does the darkest colored cell have the smallest number?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "6399780ca162111c6abd2b55835bafd3",
+        "question": "Are values on the diagonal larger than the values in cells not on the diagonal?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Confusion Matrix for MIDAS submission 2 for Sub-task A.\n\nQuestion: Are values on the diagonal larger than the values in cells not on the diagonal?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "c671e0b03d1b77467ed0a4919476c13d",
+        "question": "Which cell is colored yellow?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Confusion Matrix for MIDAS submission 2 for Sub-task A.\n\nQuestion: Which cell is colored yellow?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Bottom right'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "f23997c62864242c9d2484fd7e745dc6",
+        "question": "What is the sum of all cells in the matrix?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Confusion Matrix for MIDAS submission 2 for Sub-task A.\n\nQuestion: What is the sum of all cells in the matrix?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '900'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "92f3f7e0a8d515f44edb70c65802d231",
+        "question": "What is Sub-task A?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "3d7ee91f16399797ab9c7fa9fc35f4f0",
+        "question": "What is the approximate accuracy of the blue bar at constituent height 2 in the bottom graph?",
+        "answer_pred": "0.83",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Accuracy breakdown w.r.t. constituent height in unbiased trees derived from the syntactic task distances in our model (top) and the language modeling distances (bottom). A constituent is considered as correct if its boundaries correspond to a true constituent. The constituents heights are those in the predicted tree. Since constituents that represent the whole sentence always have correct boundaries, they are excluded from the calculation.\n\nQuestion: What is the approximate accuracy of the blue bar at constituent height 2 in the bottom graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "53c44a64fbee1e4894ea31a066b5e3f7",
+        "question": "How many different constituent heights are plotted for unbiased trees derived from the syntactic task distances in the model?",
+        "answer_pred": "11",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Accuracy breakdown w.r.t. constituent height in unbiased trees derived from the syntactic task distances in our model (top) and the language modeling distances (bottom). A constituent is considered as correct if its boundaries correspond to a true constituent. The constituents heights are those in the predicted tree. Since constituents that represent the whole sentence always have correct boundaries, they are excluded from the calculation.\n\nQuestion: How many different constituent heights are plotted for unbiased trees derived from the syntactic task distances in the model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

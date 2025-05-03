@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "3c5d838d6ebeee3004928d5d70c942c9",
+        "question": "Does the value of LAS (F1) scores change based on dependency distance?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3 LAS (F1) scores by dependency distance.\n\nQuestion: Does the value of LAS (F1) scores change based on dependency distance?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "9b739a6bbaf79e471839b74f86f91209",
+        "question": "Which line in the right figure has a value higher than 90 at the x-axis value of -1?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3 LAS (F1) scores by dependency distance.\n\nQuestion: Which line in the right figure has a value higher than 90 at the x-axis value of -1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "aed5b289e0e3e0f5891644095ffb7d5d",
+        "question": "At what dependency distance does 'Stanford-Biaffine' have the highest F1 score?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3 LAS (F1) scores by dependency distance.\n\nQuestion: At what dependency distance does 'Stanford-Biaffine' have the highest F1 score?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '2'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "78067dc36421e28268c1dae347645f4d",
+        "question": "What is the specific research question addressed in the paper from which this figure is taken?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "006bed68852189cd8ffa2a2da89daa7d",
+        "question": "What is the approximate accuracy value of the blue line at 250 examples?",
+        "answer_pred": "89.5",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The accuracy range of the annotators on the NLI training and hidden unanimous examples as they annotated their first 300 examples.\n\nQuestion: What is the approximate accuracy value of the blue line at 250 examples?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "9a876cf6e1c8cdd1f4664e764af149c2",
+        "question": "What is the accuracy of the annotation at 50 examples?",
+        "answer_pred": "89.1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The accuracy range of the annotators on the NLI training and hidden unanimous examples as they annotated their first 300 examples.\n\nQuestion: What is the accuracy of the annotation at 50 examples?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "47b6af90dfc1bf7128ebf4b30831cf69",
+        "question": "Does the blue line representing the accuracy reach a value greater than 0.95?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The accuracy range of the annotators on the NLI training and hidden unanimous examples as they annotated their first 300 examples.\n\nQuestion: Does the blue line representing the accuracy reach a value greater than 0.95?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "1d40b66635489e00dfbd80ee92cbe8fe",
+        "question": "Does the accuracy of the annotators generally decrease as they annotate more examples?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The accuracy range of the annotators on the NLI training and hidden unanimous examples as they annotated their first 300 examples.\n\nQuestion: Does the accuracy of the annotators generally decrease as they annotate more examples?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a32a4e4d61dd69bb0ec988651e497c7d",
+        "question": "What best describes the shape of the line in Figure 2?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The accuracy range of the annotators on the NLI training and hidden unanimous examples as they annotated their first 300 examples.\n\nQuestion: What best describes the shape of the line in Figure 2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Slopes downward steadily'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "67d6129e80e1df4789a02c058859f87c",
+        "question": "what is the approximate range of annotator accuracy after 300 examples have been annotated?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The accuracy range of the annotators on the NLI training and hidden unanimous examples as they annotated their first 300 examples.\n\nQuestion: what is the approximate range of annotator accuracy after 300 examples have been annotated?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

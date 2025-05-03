@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "a39c500f43e2c24c83ffcbdf5bfb99f2",
+        "question": "Does the BLEU score for the Multi-Unit model increase as the number of units increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The effect on the number of units: (a) BLEU scores (%) against number of units used in the MUTE model. (b) Inference speed (tokens per second) on GPU against number of units used in the MUTE model. Experiments are conducted on the valid set of NIST ZhEn with decoding batch size = 30 and beam size = 4.\n\nQuestion: Does the BLEU score for the Multi-Unit model increase as the number of units increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "2df97f22ade1e544ef8f605861222750",
+        "question": "How does the line in the right plot move as the number of units increases?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The effect on the number of units: (a) BLEU scores (%) against number of units used in the MUTE model. (b) Inference speed (tokens per second) on GPU against number of units used in the MUTE model. Experiments are conducted on the valid set of NIST ZhEn with decoding batch size = 30 and beam size = 4.\n\nQuestion: How does the line in the right plot move as the number of units increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Zigzag'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "d04d6863d6f8350e495cd52ace1d582e",
+        "question": "Which of the following statements is true about the BLEU scores? ",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The effect on the number of units: (a) BLEU scores (%) against number of units used in the MUTE model. (b) Inference speed (tokens per second) on GPU against number of units used in the MUTE model. Experiments are conducted on the valid set of NIST ZhEn with decoding batch size = 30 and beam size = 4.\n\nQuestion: Which of the following statements is true about the BLEU scores? \n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The graph in Figure (a) shows an increasing trend, the graph in Figure (b) shows an increasing trend'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "cac216089d0d69e0ed05cda9885441c6",
+        "question": "What is the specific implementation of the Transformer-Base model used in this study?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "b45652cee25c7e9a2c585fab2fe5b86d",
+        "question": "What is the approximate BLEU value for the red line in the right graph at the x-axis label 2~3?",
+        "answer_pred": "0.29",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: BLEU variation between models with different Ke with respect to size of AMR graph and (left) and reentrancy numbers (right).\n\nQuestion: What is the approximate BLEU value for the red line in the right graph at the x-axis label 2~3?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "1105ecfa2c586bd3b195cd78d1a2fd54",
+        "question": "What is the approximate BLEU score for Ke=0 when the size of the AMR graph is 11-20?",
+        "answer_pred": "0.29",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: BLEU variation between models with different Ke with respect to size of AMR graph and (left) and reentrancy numbers (right).\n\nQuestion: What is the approximate BLEU score for Ke=0 when the size of the AMR graph is 11-20?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "4aff91f7117f4ba442aa816a4d0bbc0c",
+        "question": "Is the blue line consistently higher than the red line in the right graph?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: BLEU variation between models with different Ke with respect to size of AMR graph and (left) and reentrancy numbers (right).\n\nQuestion: Is the blue line consistently higher than the red line in the right graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "1c70addf35631f20d13286a2087153d1",
+        "question": "Is the BLEU value for Ke=4 higher than Ke=0 when the size of the AMR graph is between 11-20?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: BLEU variation between models with different Ke with respect to size of AMR graph and (left) and reentrancy numbers (right).\n\nQuestion: Is the BLEU value for Ke=4 higher than Ke=0 when the size of the AMR graph is between 11-20?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "c821f6a7522b0534b102f97ed5a9d5b5",
+        "question": "Which of the following is true about the graph on the right side of the figure? ",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: BLEU variation between models with different Ke with respect to size of AMR graph and (left) and reentrancy numbers (right).\n\nQuestion: Which of the following is true about the graph on the right side of the figure? \n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The red line representing Ke=4 is consistently lower than the blue line representing Ke=0'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "d8788111194d7c489340e4e6f1acd4a2",
+        "question": "What value of Ke corresponds to the blue line?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: BLEU variation between models with different Ke with respect to size of AMR graph and (left) and reentrancy numbers (right).\n\nQuestion: What value of Ke corresponds to the blue line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '2'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

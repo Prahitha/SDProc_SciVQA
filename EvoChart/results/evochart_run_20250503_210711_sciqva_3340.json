@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "5ad566c31c9afe9114e2d26c81e5bd3f",
+        "question": "What is the specific topic of the scientific research conducted, and what are the key findings in relation to the interactions between Nigerian entities?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "2fbb6fc621ca45707172172f78140cc4",
+        "question": "What is the approximate value of the number of entries for the rightmost plot in 2007?",
+        "answer_pred": "1.8",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5. Average Entries Per Sentence. Graph showing the average number of entries that each sentence appears in for (A) Swiss-Prot and (B) TrEMBL.\n\nQuestion: What is the approximate value of the number of entries for the rightmost plot in 2007?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c735e8db0baf70f6c479f65b5a15b569",
+        "question": "Which database, Swiss-Prot or TrEMBL, has a higher average number of entries per sentence?",
+        "answer_pred": "Swiss-Prot",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5. Average Entries Per Sentence. Graph showing the average number of entries that each sentence appears in for (A) Swiss-Prot and (B) TrEMBL.\n\nQuestion: Which database, Swiss-Prot or TrEMBL, has a higher average number of entries per sentence?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "d16dc0cd33f0f79c025de2d2508f83dc",
+        "question": "Are the blue circles in the left graph consistently increasing in value as the database release date goes later?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5. Average Entries Per Sentence. Graph showing the average number of entries that each sentence appears in for (A) Swiss-Prot and (B) TrEMBL.\n\nQuestion: Are the blue circles in the left graph consistently increasing in value as the database release date goes later?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "684ec6991b21fa0a608dacc5d4bdbaea",
+        "question": "Are the average entries per sentence for Swiss-Prot and TrEMBL represented by the same type of graph?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5. Average Entries Per Sentence. Graph showing the average number of entries that each sentence appears in for (A) Swiss-Prot and (B) TrEMBL.\n\nQuestion: Are the average entries per sentence for Swiss-Prot and TrEMBL represented by the same type of graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a1446cefe18f072a58409e229185c3f9",
+        "question": "Which graph shows a larger maximum number of entries? ",
+        "answer_pred": "A",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5. Average Entries Per Sentence. Graph showing the average number of entries that each sentence appears in for (A) Swiss-Prot and (B) TrEMBL.\n\nQuestion: Which graph shows a larger maximum number of entries? \n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "1b19aeb1a58e6aa0668989741e5c8866",
+        "question": "Which database has a dataset that comprises more decades?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5. Average Entries Per Sentence. Graph showing the average number of entries that each sentence appears in for (A) Swiss-Prot and (B) TrEMBL.\n\nQuestion: Which database has a dataset that comprises more decades?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "105183386cbf3e4040f654ab11c293d1",
+        "question": "What is the average number of entries per sentence for Swiss-Prot in 1995?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "4a6b2fb0de69782b9679f869ced04971",
+        "question": "What is the value of the normalized word count for the red plus sign at a word rank of 1000?",
+        "answer_pred": "0.0015",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Word Rank Distribution\n\nQuestion: What is the value of the normalized word count for the red plus sign at a word rank of 1000?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b5576e132d33b474ba93f29b1418b90e",
+        "question": "What is the maximum word rank?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Word Rank Distribution\n\nQuestion: What is the maximum word rank?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

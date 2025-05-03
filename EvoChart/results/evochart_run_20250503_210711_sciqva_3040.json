@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "c60b6d737c762d89aa9037eb8eecc7b9",
+        "question": "What is the approximate value of the red line on the date labelled as 2020-04-13?",
+        "answer_pred": "-0.01",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The change of the polarity-over-time (POT) score of \u201ccoronavirus\u201d, \u201clockdown\u201d, and \u201cpandemic\u201d early in 2020.\n\nQuestion: What is the approximate value of the red line on the date labelled as 2020-04-13?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "56c76e2608ed7bd27cd4ef0789af816d",
+        "question": "Which term had the highest POT score on April 13, 2020?",
+        "answer_pred": "lockdown",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The change of the polarity-over-time (POT) score of \u201ccoronavirus\u201d, \u201clockdown\u201d, and \u201cpandemic\u201d early in 2020.\n\nQuestion: Which term had the highest POT score on April 13, 2020?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "8213811bef62b239fd93ecabe44421a7",
+        "question": "Is the value of the yellow line consistently higher than the cyan line throughout the visual?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The change of the polarity-over-time (POT) score of \u201ccoronavirus\u201d, \u201clockdown\u201d, and \u201cpandemic\u201d early in 2020.\n\nQuestion: Is the value of the yellow line consistently higher than the cyan line throughout the visual?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "34cf703a27e1caef2d98ba0cd022af32",
+        "question": "Did the POT score of \"lockdown\" increase between 2020-03-02 and 2020-03-16?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The change of the polarity-over-time (POT) score of \u201ccoronavirus\u201d, \u201clockdown\u201d, and \u201cpandemic\u201d early in 2020.\n\nQuestion: Did the POT score of \"lockdown\" increase between 2020-03-02 and 2020-03-16?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "c1ca363302d5b621b34c4c830a925cf4",
+        "question": "Which line represents the 'pandemic' score?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The change of the polarity-over-time (POT) score of \u201ccoronavirus\u201d, \u201clockdown\u201d, and \u201cpandemic\u201d early in 2020.\n\nQuestion: Which line represents the 'pandemic' score?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Red solid line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "61cce36c5a63e71f7e28a33dcab959d6",
+        "question": "Which of the following terms had a POT score that decreased early in 2020?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The change of the polarity-over-time (POT) score of \u201ccoronavirus\u201d, \u201clockdown\u201d, and \u201cpandemic\u201d early in 2020.\n\nQuestion: Which of the following terms had a POT score that decreased early in 2020?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'S&P 500 Index'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "27c47306121923d08638b6b268e2a83a",
+        "question": "What was the correlation between the POT score of \u201ccoronavirus\u201d and the S&P 500 Index during this period?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "4aed9416c58fbb36361ae884889808fb",
+        "question": "What is the value of the red line at the LM score of 2?",
+        "answer_pred": "0.01",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Results on the EMNLP 2017 News dataset. (lower is better for all metrics). MLE under a temperature sweep achieves better quality-diversity trade-off compared to the GAN approaches.\n\nQuestion: What is the value of the red line at the LM score of 2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "54c8356c597fef64093210758f4f9f5f",
+        "question": "What type of metrics are used?",
+        "answer_pred": "(A) Quality-diversity trade-off",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Results on the EMNLP 2017 News dataset. (lower is better for all metrics). MLE under a temperature sweep achieves better quality-diversity trade-off compared to the GAN approaches.\n\nQuestion: What type of metrics are used?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "eefcb73980c9e91bc4f19e45828bb5ba",
+        "question": "Is the blue line representing RL-GAN consistently higher than the red line representing MLE on the right plot?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Results on the EMNLP 2017 News dataset. (lower is better for all metrics). MLE under a temperature sweep achieves better quality-diversity trade-off compared to the GAN approaches.\n\nQuestion: Is the blue line representing RL-GAN consistently higher than the red line representing MLE on the right plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

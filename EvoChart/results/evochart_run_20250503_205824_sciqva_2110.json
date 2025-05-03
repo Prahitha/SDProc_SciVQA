@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "d349424f3df4876dc56fc53ce0bce0fb",
+        "question": "What is the most popular subreddit for females according to Figure 4?",
+        "answer_pred": "Asking for the most popular subreddit for females according to Figure 4 is not possible because the image is not shown. The image cannot be described as having a visual content. Figure 4 is not shown.",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Most popular subreddits for genders\n\nQuestion: What is the most popular subreddit for females according to Figure 4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "49cb8ac15dd361df9a371b429160ce64",
+        "question": "Does the chart have an outer ring colored based on gender?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Most popular subreddits for genders\n\nQuestion: Does the chart have an outer ring colored based on gender?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d23e9531ac57e10a30ad6f2fc2c94d1f",
+        "question": "Is the subreddit 'AskReddit' among the most popular subreddits for males?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Most popular subreddits for genders\n\nQuestion: Is the subreddit 'AskReddit' among the most popular subreddits for males?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8dbc6a20b77abadf5e854270a1deddc2",
+        "question": "Which side of the pie chart does the section for AskReddit colored in blue lie?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Most popular subreddits for genders\n\nQuestion: Which side of the pie chart does the section for AskReddit colored in blue lie?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Bottom'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "f2014c964e8608e4b47a8195e381d647",
+        "question": "Which of the subreddits below have different rank among males and females?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Most popular subreddits for genders\n\nQuestion: Which of the subreddits below have different rank among males and females?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'funny'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "dadb7b4217c14cdeb20e4928e8dc8c89",
+        "question": "What is the total number of users who subscribe to the subreddits listed in the figure?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "857b6d8a8324baf097c94f079f1f5d4f",
+        "question": "What color are the slices of the pie chart different shades of?",
+        "answer_pred": "#0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Average composition of a CSI summary based on different crime-related aspects.\n\nQuestion: What color are the slices of the pie chart different shades of?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b56a38c638bf303704fed0d5975abe8f",
+        "question": "What percentage of a CSI summary is dedicated to the crime scene?",
+        "answer_pred": "29.1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Average composition of a CSI summary based on different crime-related aspects.\n\nQuestion: What percentage of a CSI summary is dedicated to the crime scene?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "74c7f6186b8090e6a3d4e52690a9fb59",
+        "question": "Does a darker or lighter shade correspond to a higher or lower size of a slice?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Average composition of a CSI summary based on different crime-related aspects.\n\nQuestion: Does a darker or lighter shade correspond to a higher or lower size of a slice?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a756a4a3a2b4c430b33af823e902f8f3",
+        "question": "Is the percentage of information related to the motive higher than the percentage of information related to the victim?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Average composition of a CSI summary based on different crime-related aspects.\n\nQuestion: Is the percentage of information related to the motive higher than the percentage of information related to the victim?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "da1fd00f18004cc99933e5eea4d86681",
+        "question": "Which line represents the average results for models trained on NSP?",
+        "answer_pred": "NSP",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Average results on a) all GLUE tasks, b) only inference tasks (MNLI, QNLI, RTE), and c) non-inference tasks (QQP, SST-2, CoLA, STS-B, MRPC) for models trained on MLM, MLM + NSP, and MLM with NSP\u2019s split context but no NSP loss (Split) throughout training over 10 billion tokens.\n\nQuestion: Which line represents the average results for models trained on NSP?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "c202f0616cff66949c8919fbfc5cbf53",
+        "question": "Which of the following models has the highest average score on all GLUE tasks with 10 billion tokens?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Average results on a) all GLUE tasks, b) only inference tasks (MNLI, QNLI, RTE), and c) non-inference tasks (QQP, SST-2, CoLA, STS-B, MRPC) for models trained on MLM, MLM + NSP, and MLM with NSP\u2019s split context but no NSP loss (Split) throughout training over 10 billion tokens.\n\nQuestion: Which of the following models has the highest average score on all GLUE tasks with 10 billion tokens?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "45a18b0e08f8cecbaa63dc285b3a32d7",
+        "question": "What is the score achieved by the model trained on MLM + NSP for the non-inference tasks when trained on 5 billion tokens, and how is it presented in the figure?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "bd27b7aa0867bf59745a8230e4f9289f",
+        "question": "What is the approximate value of corrected errors for the blue line at an update frequency of 100 minutes?",
+        "answer_pred": "1.2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Errors corrected for dynamic-proposed and several other settings (see Table 7.2), plotted against update frequency (first 3 methods) or enrollment time (following 2 methods) as described in the text.\n\nQuestion: What is the approximate value of corrected errors for the blue line at an update frequency of 100 minutes?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "2a569bb32cdfcd807387c9ed2a3197ef",
+        "question": "What is the name of the method with the highest number of corrected errors at an update frequency of 10?",
+        "answer_pred": "dynamic-proposed",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Errors corrected for dynamic-proposed and several other settings (see Table 7.2), plotted against update frequency (first 3 methods) or enrollment time (following 2 methods) as described in the text.\n\nQuestion: What is the name of the method with the highest number of corrected errors at an update frequency of 10?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f6b815adf19bde8f7b89c8bfb877abd5",
+        "question": "Does the black line with triangles intersect with the blue line with stars at any point on the graph?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Errors corrected for dynamic-proposed and several other settings (see Table 7.2), plotted against update frequency (first 3 methods) or enrollment time (following 2 methods) as described in the text.\n\nQuestion: Does the black line with triangles intersect with the blue line with stars at any point on the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "ba0f994a6df46d648a9973882a1ca679",
+        "question": "Is the value of 'dynamic-naivePrior' higher than the value of 'static' when the update frequency is 10?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Errors corrected for dynamic-proposed and several other settings (see Table 7.2), plotted against update frequency (first 3 methods) or enrollment time (following 2 methods) as described in the text.\n\nQuestion: Is the value of 'dynamic-naivePrior' higher than the value of 'static' when the update frequency is 10?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "504e6f506b6a18010cf140d8fb5849aa",
+        "question": "Which lines in the plot are below the blue dashed line representing the \"linear\" method at 100 on the x-axis?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Errors corrected for dynamic-proposed and several other settings (see Table 7.2), plotted against update frequency (first 3 methods) or enrollment time (following 2 methods) as described in the text.\n\nQuestion: Which lines in the plot are below the blue dashed line representing the \"linear\" method at 100 on the x-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "1590a1f36db5e0f514e949af37257b27",
+        "question": "Which of the following settings are dynamic?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Errors corrected for dynamic-proposed and several other settings (see Table 7.2), plotted against update frequency (first 3 methods) or enrollment time (following 2 methods) as described in the text.\n\nQuestion: Which of the following settings are dynamic?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'linear'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "0618c3ba1f0b417c9f2991dec75719cd",
+        "question": "What is the type of error that is being corrected in the figure, and how is it measured?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

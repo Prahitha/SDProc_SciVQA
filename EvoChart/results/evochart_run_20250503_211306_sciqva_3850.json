@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "9825c44d96b59b16ebffade838ec6595",
+        "question": "At approximately what \u03bbDIM does F1 become maximum for INFOWORD on SQuAD?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: The left plot shows F1 scores of BERT-NCE and INFOWORD as we increase the percentage of training examples on SQuAD (dev). The right plot shows F1 scores of INFOWORD on SQuAD (dev) as a function of \u03bbDIM.\n\nQuestion: At approximately what \u03bbDIM does F1 become maximum for INFOWORD on SQuAD?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0.8'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "5c0af6a187cf8ebb93f10b51dca25baf",
+        "question": "What is the specific dataset used for training the BERT-NCE model and what is the maximum percentage of training data used?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "32fdf4aca0666a843d25e1aa7805e08e",
+        "question": "What is the maximum value of the green dashed line in the right plot?",
+        "answer_pred": "0.002",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Effect of increasing number of factors on R2 of residualized factor adaptation (RFA), factor adaptation (FA) and residualized controls (RC) for heart disease outcome. Factors are obtained through Recursive Feature Elimination (RFE) or PCA. Left plot is with original factors, and right plot is with interaction factors (the product from pairing factors).\n\nQuestion: What is the maximum value of the green dashed line in the right plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "5dee28d4642852ba48228a1d3f71f96a",
+        "question": "What is the effect on R2 of residualized factor adaptation (RFA) when increasing the number of factors obtained through PCA?",
+        "answer_pred": "0.01",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Effect of increasing number of factors on R2 of residualized factor adaptation (RFA), factor adaptation (FA) and residualized controls (RC) for heart disease outcome. Factors are obtained through Recursive Feature Elimination (RFE) or PCA. Left plot is with original factors, and right plot is with interaction factors (the product from pairing factors).\n\nQuestion: What is the effect on R2 of residualized factor adaptation (RFA) when increasing the number of factors obtained through PCA?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "037441f21022e9b568e1d6e7ccc417a5",
+        "question": "Does the blue dashed line representing 'FA (PCA)' trend upwards with an increasing number of factors in the right plot?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Effect of increasing number of factors on R2 of residualized factor adaptation (RFA), factor adaptation (FA) and residualized controls (RC) for heart disease outcome. Factors are obtained through Recursive Feature Elimination (RFE) or PCA. Left plot is with original factors, and right plot is with interaction factors (the product from pairing factors).\n\nQuestion: Does the blue dashed line representing 'FA (PCA)' trend upwards with an increasing number of factors in the right plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "29cc633b55396816f50e90744e03119a",
+        "question": "Does R^2consistently increase for FA (RFE) with original factors?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Effect of increasing number of factors on R2 of residualized factor adaptation (RFA), factor adaptation (FA) and residualized controls (RC) for heart disease outcome. Factors are obtained through Recursive Feature Elimination (RFE) or PCA. Left plot is with original factors, and right plot is with interaction factors (the product from pairing factors).\n\nQuestion: Does R^2consistently increase for FA (RFE) with original factors?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "90661743f49c2d58aaeb86f6effd7dcc",
+        "question": "Where is the legend located?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Effect of increasing number of factors on R2 of residualized factor adaptation (RFA), factor adaptation (FA) and residualized controls (RC) for heart disease outcome. Factors are obtained through Recursive Feature Elimination (RFE) or PCA. Left plot is with original factors, and right plot is with interaction factors (the product from pairing factors).\n\nQuestion: Where is the legend located?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Inside the right plot'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "c404ed0603cee043aeb77ab6411f448e",
+        "question": "What is the highest number of factors plotted in the left figure?",
+        "answer_pred": "30",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Effect of increasing number of factors on R2 of residualized factor adaptation (RFA), factor adaptation (FA) and residualized controls (RC) for heart disease outcome. Factors are obtained through Recursive Feature Elimination (RFE) or PCA. Left plot is with original factors, and right plot is with interaction factors (the product from pairing factors).\n\nQuestion: What is the highest number of factors plotted in the left figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '30'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "6a459a8621a80aeaf63978617eeb74a4",
+        "question": "What is the specific heart disease outcome being studied in Figure 3?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "2398466c1621c115cf8bf95ce6745fca",
+        "question": "What is the value of the red dashed line at the sentence length range of 11-20?",
+        "answer_pred": "29.4",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Test BLEU score of various sentence lengths\n\nQuestion: What is the value of the red dashed line at the sentence length range of 11-20?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

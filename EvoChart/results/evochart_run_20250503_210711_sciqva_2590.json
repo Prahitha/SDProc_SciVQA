@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "26016297fa8a4913720f54228c45cc3c",
+        "question": "Did the performance of the model on the in-domain data increase or decrease after continually training the model with the laws domain data?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Performance trend for continual training of NMT on the Chinese to English translation task. The model is first trained with the news domain data and then continually trained with the laws domain data (from epoch 0). The y-axis represents the BLEU scores on the test sets of the corresponding domains.\n\nQuestion: Did the performance of the model on the in-domain data increase or decrease after continually training the model with the laws domain data?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'It goes to 0'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "e97c78929d3a0b9dd6d70fc09d6058a0",
+        "question": "What is the specific news domain used in the initial training?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "268aecbdaedd1f29192affbe3c3e5ea5",
+        "question": "What is the approximate maximum value of the KL Divergence for the blue dots in Figure 4b?",
+        "answer_pred": "0.42",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: In this Figure we show the KL divergence to human attention of CNN and the LSTM models (cf. Figure 4a as well as of CNN and the XLNet models (cf. Figure 4b) to point out the differences between models. The CNN model divergences are highlighted in the large blue dots, and LSTM and XLNet models are indicated in smaller orange dots. The correctness (in red) indicated on the right y-axis, shows the number correct CNN models per document.\n\nQuestion: What is the approximate maximum value of the KL Divergence for the blue dots in Figure 4b?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "2dbebaa514f680486f91b7b2185d5979",
+        "question": "What is the maximum number of correct CNN models per document shown in the figure?",
+        "answer_pred": "3",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: In this Figure we show the KL divergence to human attention of CNN and the LSTM models (cf. Figure 4a as well as of CNN and the XLNet models (cf. Figure 4b) to point out the differences between models. The CNN model divergences are highlighted in the large blue dots, and LSTM and XLNet models are indicated in smaller orange dots. The correctness (in red) indicated on the right y-axis, shows the number correct CNN models per document.\n\nQuestion: What is the maximum number of correct CNN models per document shown in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "015c2dbbf20c0ffad54c637e369fa50c",
+        "question": "Are the blue dots in Figure 4b representing the CNN model?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: In this Figure we show the KL divergence to human attention of CNN and the LSTM models (cf. Figure 4a as well as of CNN and the XLNet models (cf. Figure 4b) to point out the differences between models. The CNN model divergences are highlighted in the large blue dots, and LSTM and XLNet models are indicated in smaller orange dots. The correctness (in red) indicated on the right y-axis, shows the number correct CNN models per document.\n\nQuestion: Are the blue dots in Figure 4b representing the CNN model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "b81fb67f3471a382a2c00de83db6e412",
+        "question": "Does the y-axis show a maximum KL Divergence of 0.03 in the bottom graph?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: In this Figure we show the KL divergence to human attention of CNN and the LSTM models (cf. Figure 4a as well as of CNN and the XLNet models (cf. Figure 4b) to point out the differences between models. The CNN model divergences are highlighted in the large blue dots, and LSTM and XLNet models are indicated in smaller orange dots. The correctness (in red) indicated on the right y-axis, shows the number correct CNN models per document.\n\nQuestion: Does the y-axis show a maximum KL Divergence of 0.03 in the bottom graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "ce03fe5a317c67791ee9a2e4d48c46e2",
+        "question": "Which of the following models is represented by the smaller orange dots in the bottom plot?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: In this Figure we show the KL divergence to human attention of CNN and the LSTM models (cf. Figure 4a as well as of CNN and the XLNet models (cf. Figure 4b) to point out the differences between models. The CNN model divergences are highlighted in the large blue dots, and LSTM and XLNet models are indicated in smaller orange dots. The correctness (in red) indicated on the right y-axis, shows the number correct CNN models per document.\n\nQuestion: Which of the following models is represented by the smaller orange dots in the bottom plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Both B and C'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "05b2909907f5b076a9b3e20db950978f",
+        "question": "Against what are CNN, LSTM, and XLNet being compared?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: In this Figure we show the KL divergence to human attention of CNN and the LSTM models (cf. Figure 4a as well as of CNN and the XLNet models (cf. Figure 4b) to point out the differences between models. The CNN model divergences are highlighted in the large blue dots, and LSTM and XLNet models are indicated in smaller orange dots. The correctness (in red) indicated on the right y-axis, shows the number correct CNN models per document.\n\nQuestion: Against what are CNN, LSTM, and XLNet being compared?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Documents'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "7a474a8227b1f10be9ad56d2535bcae9",
+        "question": "What is the average KL divergence of the LSTM model for all documents shown in the figure?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "e8aa357291b9ac97d700f63ebda141d2",
+        "question": "How many peaks are higher than 5500?",
+        "answer_pred": "2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Total Phoenix Events Over Time\n\nQuestion: How many peaks are higher than 5500?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

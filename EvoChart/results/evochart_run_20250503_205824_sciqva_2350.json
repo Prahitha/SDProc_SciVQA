@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "9440248cf4143336d644f743ec602f29",
+        "question": "Does the F1 score of the baseline model remain constant with an increase in the number of labeled Chinese QApairs?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Performance curves given labeled training data from target domain. Vertical axis shows F1 score. Performance curve of GAN-CH is plotted to compare with baseline model.\n\nQuestion: Does the F1 score of the baseline model remain constant with an increase in the number of labeled Chinese QApairs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "36e714f5eb44b27afc85d46d263ed1b7",
+        "question": "Which of the following lines has the highest F1 score at 25k labeled Chinese QA pairs?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Performance curves given labeled training data from target domain. Vertical axis shows F1 score. Performance curve of GAN-CH is plotted to compare with baseline model.\n\nQuestion: Which of the following lines has the highest F1 score at 25k labeled Chinese QA pairs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "91183931cc7097ee1fb56d330b1f4c80",
+        "question": "Which model had the highest F1 score for 15,000 labeled Chinese QApairs?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Performance curves given labeled training data from target domain. Vertical axis shows F1 score. Performance curve of GAN-CH is plotted to compare with baseline model.\n\nQuestion: Which model had the highest F1 score for 15,000 labeled Chinese QApairs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Both B and C'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "704822af03984bb37b26a82bda7047bc",
+        "question": "What is the F1 score for the baseline model when there are 30,000 labeled Chinese QApairs?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "a5fd638421c67f2cb52f11fada7ccc31",
+        "question": "What is the value of the red line when k is 40?",
+        "answer_pred": "0.52",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: The impact of number of principal components (k) on parsing accuracy (UAS, LAS); development set.\n\nQuestion: What is the value of the red line when k is 40?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c95a50e1f022657e3f8ab2b08a247ea3",
+        "question": "What is the approximate highest value of k for which a data point is shown on the graph?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: The impact of number of principal components (k) on parsing accuracy (UAS, LAS); development set.\n\nQuestion: What is the approximate highest value of k for which a data point is shown on the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "88f77ba7e77a41320d2eca7d8728b177",
+        "question": "Is the red square at the value of 80 on the x-axis higher than the black circle at the same position?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: The impact of number of principal components (k) on parsing accuracy (UAS, LAS); development set.\n\nQuestion: Is the red square at the value of 80 on the x-axis higher than the black circle at the same position?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "30d990389724474dd1091a7ab244301f",
+        "question": "Does LAS consistently score higher than UAS for all values of k?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: The impact of number of principal components (k) on parsing accuracy (UAS, LAS); development set.\n\nQuestion: Does LAS consistently score higher than UAS for all values of k?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "82de706d2c1dcf723d659e01e33a6b57",
+        "question": "Which line is the highest at k = 300?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: The impact of number of principal components (k) on parsing accuracy (UAS, LAS); development set.\n\nQuestion: Which line is the highest at k = 300?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "131071e49789ac9bda872e4e58828bca",
+        "question": "Which of the following have an attachment score more than 60 after a k value of 100?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: The impact of number of principal components (k) on parsing accuracy (UAS, LAS); development set.\n\nQuestion: Which of the following have an attachment score more than 60 after a k value of 100?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

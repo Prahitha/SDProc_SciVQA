@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "212fd5cb7350df19edd036d70cf2ae74",
+        "question": "Which line on the graph is closest to the average pairwise cosine similarity at the version 10,000? ",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Evolution of cosine similarity between pairs of actions that are functionally similar within DotA 2. Actions prefixed with item_ correspond to the usage of that item within the game. As the model trained, the cosine similarity measure grew for these functionally similar pairings.\n\nQuestion: Which line on the graph is closest to the average pairwise cosine similarity at the version 10,000? \n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Orange line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "1a8b199c5bd7fada3639ded0e65ad9db",
+        "question": "Which of the following reaches the highest cosine similarity at version 50,000?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Evolution of cosine similarity between pairs of actions that are functionally similar within DotA 2. Actions prefixed with item_ correspond to the usage of that item within the game. As the model trained, the cosine similarity measure grew for these functionally similar pairings.\n\nQuestion: Which of the following reaches the highest cosine similarity at version 50,000?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'item_magic_stick & item_magic_wand'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8980564140db8450ac9fa3d9b5eace6a",
+        "question": "What is the Dota 2 patch version where the cosine similarity between item_force_staff & item_hurricane_pike crossed 0.9?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "e53eb625f205934c739516bbcde9220b",
+        "question": "What is the approximate accuracy of the blue line when the ratio of external knowledge is 1?",
+        "answer_pred": "0.5",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Accuracies of models under different sizes of external knowledge. More external knowledge corresponds to higher accuracies.\n\nQuestion: What is the approximate accuracy of the blue line when the ratio of external knowledge is 1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "e661843a406777e526283298c666c74f",
+        "question": "Which training set results in the highest accuracy when the ratio of external knowledge is 1?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Accuracies of models under different sizes of external knowledge. More external knowledge corresponds to higher accuracies.\n\nQuestion: Which training set results in the highest accuracy when the ratio of external knowledge is 1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "8b9257faa43b6336810a48622c8b66c3",
+        "question": "Does the accuracy of the orange line cross 85%?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Accuracies of models under different sizes of external knowledge. More external knowledge corresponds to higher accuracies.\n\nQuestion: Does the accuracy of the orange line cross 85%?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "f559313c9f108a2e59402072dead1181",
+        "question": "Do the accuracies of all models increase as the ratio of external knowledge increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Accuracies of models under different sizes of external knowledge. More external knowledge corresponds to higher accuracies.\n\nQuestion: Do the accuracies of all models increase as the ratio of external knowledge increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "2f5ffe7b1b0709caa8194c5cc7c182ce",
+        "question": "Which line represents the model with the highest accuracy for all sizes of external knowledge?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Accuracies of models under different sizes of external knowledge. More external knowledge corresponds to higher accuracies.\n\nQuestion: Which line represents the model with the highest accuracy for all sizes of external knowledge?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Purple line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "bb4b4f4d5b67b100fdf451228138b840",
+        "question": "Which of the following reach an accuracy more than 80%?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Accuracies of models under different sizes of external knowledge. More external knowledge corresponds to higher accuracies.\n\nQuestion: Which of the following reach an accuracy more than 80%?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '100% training set'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8854ef2f3651f459e918b80228254458",
+        "question": "What is the specific type of external knowledge used in this experiment?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

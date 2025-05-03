@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "3bf02ece4e5333b85f81adfcc3c07b2d",
+        "question": "What is the input to the block labeled 'Lexical-IL Grammar'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: ILustrate Design: Lexical Component View\n\nQuestion: What is the input to the block labeled 'Lexical-IL Grammar'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Check Entry'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "145dcc58af76d7b417aca5996a2fe9fc",
+        "question": "What is the processing time for a lexical entry using this system, and what are the factors influencing it?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "25bfdcd011375356a5a1e448d0dbb062",
+        "question": "How many boxes in the figure are colored green?",
+        "answer_pred": "0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The framework for extracting partial translations from monolingual data.\n\nQuestion: How many boxes in the figure are colored green?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "2dc40c937720b91b84574f78c39a321d",
+        "question": "What is the final output of the framework?",
+        "answer_pred": "partial translations",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The framework for extracting partial translations from monolingual data.\n\nQuestion: What is the final output of the framework?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "9d25431b2d4146ceaf8399c7131c3073",
+        "question": "Is the process that results in partial translations represented by a green box?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The framework for extracting partial translations from monolingual data.\n\nQuestion: Is the process that results in partial translations represented by a green box?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "bc1bd84604f3798e94eaeb6954e09727",
+        "question": "Is the block labeled 'induced phrase table' directly connected to the block labeled 'target word embeddings'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The framework for extracting partial translations from monolingual data.\n\nQuestion: Is the block labeled 'induced phrase table' directly connected to the block labeled 'target word embeddings'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e3787d80078c5d40505f3e8d873062dc",
+        "question": "Which boxes in the framework are directly connected to the box labeled 'bilingual word embeddings' by a downward pointing arrow?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The framework for extracting partial translations from monolingual data.\n\nQuestion: Which boxes in the framework are directly connected to the box labeled 'bilingual word embeddings' by a downward pointing arrow?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Target phrases'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "f74c65439df5d35dc7c695d3f98b684c",
+        "question": "Which of the following is extracted from source language monolingual data?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The framework for extracting partial translations from monolingual data.\n\nQuestion: Which of the following is extracted from source language monolingual data?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Bilingual word embeddings'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "6164dff256eb7a10fcb962988253b71d",
+        "question": "What is the specific method used for unsupervised phrase table induction?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "9f7933adbe316146ded8a8bab2c78010",
+        "question": "How many cylindrical 'Rules' boxes are directly connected to 'TRAN' boxes?",
+        "answer_pred": "2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2\n\nQuestion: How many cylindrical 'Rules' boxes are directly connected to 'TRAN' boxes?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

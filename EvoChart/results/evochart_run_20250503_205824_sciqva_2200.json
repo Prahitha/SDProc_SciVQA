@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "829172bfe6f4c0f1260c6b8eb520b1cf",
+        "question": "What is the approximate value of the dashed line at a vocabulary size of 100,000?",
+        "answer_pred": "100",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 4: Decomposition of morpheme segmentation algorithm into unsupervised morpheme mining then vocabulary segmentation.\n\nQuestion: What is the approximate value of the dashed line at a vocabulary size of 100,000?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "19cdfccaa98b7ba647654524ebe9cec6",
+        "question": "What is the runtime of morpheme mining at a vocabulary size of 100000?",
+        "answer_pred": "1.2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 4: Decomposition of morpheme segmentation algorithm into unsupervised morpheme mining then vocabulary segmentation.\n\nQuestion: What is the runtime of morpheme mining at a vocabulary size of 100000?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "2f67396396126025c3c450a343741d86",
+        "question": "Are the marker shapes for the solid and dashed lines the same?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 4: Decomposition of morpheme segmentation algorithm into unsupervised morpheme mining then vocabulary segmentation.\n\nQuestion: Are the marker shapes for the solid and dashed lines the same?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "1efc09facb9d91d3788e171955145df7",
+        "question": "Is morpheme mining faster than morpheme segmentation for all vocabulary sizes shown?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 4: Decomposition of morpheme segmentation algorithm into unsupervised morpheme mining then vocabulary segmentation.\n\nQuestion: Is morpheme mining faster than morpheme segmentation for all vocabulary sizes shown?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "bfc79d0c08b74e5aa04eeae69d224629",
+        "question": "At which corner of the figure is the legend located?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 4: Decomposition of morpheme segmentation algorithm into unsupervised morpheme mining then vocabulary segmentation.\n\nQuestion: At which corner of the figure is the legend located?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Bottom left'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "4b35e1956b94296955ad17d6278ed397",
+        "question": "Which of the following describes the runtime trend of morpheme mining with increased vocabulary size?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 4: Decomposition of morpheme segmentation algorithm into unsupervised morpheme mining then vocabulary segmentation.\n\nQuestion: Which of the following describes the runtime trend of morpheme mining with increased vocabulary size?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'First decreases then increases'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "c4da8bb029c7e5de9f4a2a2c821b94de",
+        "question": "What is the exact runtime of the morpheme mining algorithm for a vocabulary size of 5,000?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "c2b2ce1e296c4aa983ab745931d71621",
+        "question": "What is the CER (%) value for the orange line at 100 adaptation utterances?",
+        "answer_pred": "49.8",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: CERs (%) for different method combinations.\n\nQuestion: What is the CER (%) value for the orange line at 100 adaptation utterances?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "4f2d8bf042f8de9b40f4cbae0e09a656",
+        "question": "What is the highest CER (%) for any method and any number of adaptation utterances?",
+        "answer_pred": "49.05",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: CERs (%) for different method combinations.\n\nQuestion: What is the highest CER (%) for any method and any number of adaptation utterances?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c76d44ed0cc32131a612bbd3388279c7",
+        "question": "Does the black line representing KLD have a value higher than 16% at 50 adaptation utterances?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: CERs (%) for different method combinations.\n\nQuestion: Does the black line representing KLD have a value higher than 16% at 50 adaptation utterances?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

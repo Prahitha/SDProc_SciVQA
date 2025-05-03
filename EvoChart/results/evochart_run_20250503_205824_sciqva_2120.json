@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "5ffdc73aabfd1a09501c8ebb84f39bb6",
+        "question": "The slice of which aspect lies at the bottom of the pie chart?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Average composition of a CSI summary based on different crime-related aspects.\n\nQuestion: The slice of which aspect lies at the bottom of the pie chart?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Motive'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "cee7554662d33c69e4cd25b2f51cdd02",
+        "question": "Which of the following aspects account for more than 10% of the CSI summary?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Average composition of a CSI summary based on different crime-related aspects.\n\nQuestion: Which of the following aspects account for more than 10% of the CSI summary?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Cause of death'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "3254ee0411fa2b36790f09b0052f0b68",
+        "question": "How many summaries were evaluated to obtain the chart of figure 4?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "11709bd35a07d1676db5aea941e25563",
+        "question": "What is the approximate value on the y-axis corresponding to the black solid line at 300 volumes on the bottom graph?",
+        "answer_pred": "-0.01",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4.6: Darwin\u2019s reading order more exploratory than the culture\u2019s production. Text-to-text (top) and text-to-past (bottom) cumulative surprise over the reading order (solid) and the publication order (dashed). More negative (downward) slope indicates lower surprise (exploitation); more positive (upward) slope indicates greater surprise (exploration). In both cases, Darwin\u2019s cumulative surprise is higher than the publication order; in the second case, very significantly so. We mark the positions of three biographically significant books: Charles Lyell\u2019s Principles of Geology (3rd ed., 1837; read in 1837), Thomas Malthus\u2019s An Essay on the Principle of Population (1803; read on October 3, 1838), and Robert Chambers\u2019s Vestiges of the Natural History of Creation (1844; read on November 20, 1844). Darwin\u2019s juxtaposition of Lyell and Malthus, for example, is characteristic of how Darwin\u2019s reading strategies reordered the products of his culture.\n\nQuestion: What is the approximate value on the y-axis corresponding to the black solid line at 300 volumes on the bottom graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "5f92dec4c7bf2442269bd904741d1ef8",
+        "question": "What is the lowest value of Darwin's text-to-text cumulative surprise show in figure 4.6?",
+        "answer_pred": "-0.01",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4.6: Darwin\u2019s reading order more exploratory than the culture\u2019s production. Text-to-text (top) and text-to-past (bottom) cumulative surprise over the reading order (solid) and the publication order (dashed). More negative (downward) slope indicates lower surprise (exploitation); more positive (upward) slope indicates greater surprise (exploration). In both cases, Darwin\u2019s cumulative surprise is higher than the publication order; in the second case, very significantly so. We mark the positions of three biographically significant books: Charles Lyell\u2019s Principles of Geology (3rd ed., 1837; read in 1837), Thomas Malthus\u2019s An Essay on the Principle of Population (1803; read on October 3, 1838), and Robert Chambers\u2019s Vestiges of the Natural History of Creation (1844; read on November 20, 1844). Darwin\u2019s juxtaposition of Lyell and Malthus, for example, is characteristic of how Darwin\u2019s reading strategies reordered the products of his culture.\n\nQuestion: What is the lowest value of Darwin's text-to-text cumulative surprise show in figure 4.6?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "2b80e0763b4585eec5b1e6a76ccdacdf",
+        "question": "Is the gray circle representing 'Malthus' in the bottom graph positioned to the left of the gray circle representing 'Lyell'?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4.6: Darwin\u2019s reading order more exploratory than the culture\u2019s production. Text-to-text (top) and text-to-past (bottom) cumulative surprise over the reading order (solid) and the publication order (dashed). More negative (downward) slope indicates lower surprise (exploitation); more positive (upward) slope indicates greater surprise (exploration). In both cases, Darwin\u2019s cumulative surprise is higher than the publication order; in the second case, very significantly so. We mark the positions of three biographically significant books: Charles Lyell\u2019s Principles of Geology (3rd ed., 1837; read in 1837), Thomas Malthus\u2019s An Essay on the Principle of Population (1803; read on October 3, 1838), and Robert Chambers\u2019s Vestiges of the Natural History of Creation (1844; read on November 20, 1844). Darwin\u2019s juxtaposition of Lyell and Malthus, for example, is characteristic of how Darwin\u2019s reading strategies reordered the products of his culture.\n\nQuestion: Is the gray circle representing 'Malthus' in the bottom graph positioned to the left of the gray circle representing 'Lyell'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "2f5bd0eab66e080e3a22ae1375656b47",
+        "question": "Do the graphs for text-to-text cumulative surprise and text-to-past cumulative surprise use the same scale for their y axes?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4.6: Darwin\u2019s reading order more exploratory than the culture\u2019s production. Text-to-text (top) and text-to-past (bottom) cumulative surprise over the reading order (solid) and the publication order (dashed). More negative (downward) slope indicates lower surprise (exploitation); more positive (upward) slope indicates greater surprise (exploration). In both cases, Darwin\u2019s cumulative surprise is higher than the publication order; in the second case, very significantly so. We mark the positions of three biographically significant books: Charles Lyell\u2019s Principles of Geology (3rd ed., 1837; read in 1837), Thomas Malthus\u2019s An Essay on the Principle of Population (1803; read on October 3, 1838), and Robert Chambers\u2019s Vestiges of the Natural History of Creation (1844; read on November 20, 1844). Darwin\u2019s juxtaposition of Lyell and Malthus, for example, is characteristic of how Darwin\u2019s reading strategies reordered the products of his culture.\n\nQuestion: Do the graphs for text-to-text cumulative surprise and text-to-past cumulative surprise use the same scale for their y axes?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "6e4b2ef040a80300879e7d3896bc026f",
+        "question": "In which of the graphs is a crossing of the straight lines connecting the solid and dashed curves visible?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4.6: Darwin\u2019s reading order more exploratory than the culture\u2019s production. Text-to-text (top) and text-to-past (bottom) cumulative surprise over the reading order (solid) and the publication order (dashed). More negative (downward) slope indicates lower surprise (exploitation); more positive (upward) slope indicates greater surprise (exploration). In both cases, Darwin\u2019s cumulative surprise is higher than the publication order; in the second case, very significantly so. We mark the positions of three biographically significant books: Charles Lyell\u2019s Principles of Geology (3rd ed., 1837; read in 1837), Thomas Malthus\u2019s An Essay on the Principle of Population (1803; read on October 3, 1838), and Robert Chambers\u2019s Vestiges of the Natural History of Creation (1844; read on November 20, 1844). Darwin\u2019s juxtaposition of Lyell and Malthus, for example, is characteristic of how Darwin\u2019s reading strategies reordered the products of his culture.\n\nQuestion: In which of the graphs is a crossing of the straight lines connecting the solid and dashed curves visible?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "0a741295ff9715cc7794b2a9a1844c25",
+        "question": "What is the difference between consecutive y ticks for the text-to-text cumulative surprise graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4.6: Darwin\u2019s reading order more exploratory than the culture\u2019s production. Text-to-text (top) and text-to-past (bottom) cumulative surprise over the reading order (solid) and the publication order (dashed). More negative (downward) slope indicates lower surprise (exploitation); more positive (upward) slope indicates greater surprise (exploration). In both cases, Darwin\u2019s cumulative surprise is higher than the publication order; in the second case, very significantly so. We mark the positions of three biographically significant books: Charles Lyell\u2019s Principles of Geology (3rd ed., 1837; read in 1837), Thomas Malthus\u2019s An Essay on the Principle of Population (1803; read on October 3, 1838), and Robert Chambers\u2019s Vestiges of the Natural History of Creation (1844; read on November 20, 1844). Darwin\u2019s juxtaposition of Lyell and Malthus, for example, is characteristic of how Darwin\u2019s reading strategies reordered the products of his culture.\n\nQuestion: What is the difference between consecutive y ticks for the text-to-text cumulative surprise graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '100'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "4af95e62e0b37b9938b0b8c94c1cb50a",
+        "question": "How many datapoints are the graphs of figure 4.6 created from?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

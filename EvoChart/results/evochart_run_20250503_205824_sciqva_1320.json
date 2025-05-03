@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "e664fd11542303bce3743a86b188a618",
+        "question": "Is there a thick red path in the figure between 'AdjCN' to 'cat_N'?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 11 An RGL abstract syntax tree annotated with dependency labels, and the corresponding dependency trees for English and Italian. The thick red path from DefArt to cat N shows how the dependency tree algorithm finds the head of a word by walking up the tree until a label is reached, and then walking down along the head spine.\n\nQuestion: Is there a thick red path in the figure between 'AdjCN' to 'cat_N'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "7e8b6169ab2702b289cf53582bae2aa5",
+        "question": "Does the syntax tree contain an 'NP' node?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 11 An RGL abstract syntax tree annotated with dependency labels, and the corresponding dependency trees for English and Italian. The thick red path from DefArt to cat N shows how the dependency tree algorithm finds the head of a word by walking up the tree until a label is reached, and then walking down along the head spine.\n\nQuestion: Does the syntax tree contain an 'NP' node?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "ab01e9d18f4e9bb3f7adf6c9c1a92ab1",
+        "question": "What is the root for the dependency tree in the bottom of figure 11?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 11 An RGL abstract syntax tree annotated with dependency labels, and the corresponding dependency trees for English and Italian. The thick red path from DefArt to cat N shows how the dependency tree algorithm finds the head of a word by walking up the tree until a label is reached, and then walking down along the head spine.\n\nQuestion: What is the root for the dependency tree in the bottom of figure 11?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'vede'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "bd34e02b4f0e80e9885976771ab9d8a7",
+        "question": "Which of the following are leaves of the syntax tree?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 11 An RGL abstract syntax tree annotated with dependency labels, and the corresponding dependency trees for English and Italian. The thick red path from DefArt to cat N shows how the dependency tree algorithm finds the head of a word by walking up the tree until a label is reached, and then walking down along the head spine.\n\nQuestion: Which of the following are leaves of the syntax tree?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'advmod'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "a4407251bb8f098e44f14ff0ad403cfb",
+        "question": "What is the accuracy of the dependency tree algorithm depicted in figure 11?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "45f303a73c42a5c71e1ed17e46110eb1",
+        "question": "How many rectangular boxes are positioned to the right of the \"Design-Testing Module\" box in Figure 1?",
+        "answer_pred": "2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: ILustrate Design: Lexical Component View\n\nQuestion: How many rectangular boxes are positioned to the right of the \"Design-Testing Module\" box in Figure 1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "d3f6b86ebf818afaa66542b0f2576e93",
+        "question": "What component of the design is responsible for generating lexical entries?",
+        "answer_pred": "Lexical Component",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: ILustrate Design: Lexical Component View\n\nQuestion: What component of the design is responsible for generating lexical entries?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c8aacfaf3804df9f212281e73b8ce3b0",
+        "question": "Does the figure show a unidirectional flow from 'Build Lexical Entries' to 'Lexical-IL Entry'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: ILustrate Design: Lexical Component View\n\nQuestion: Does the figure show a unidirectional flow from 'Build Lexical Entries' to 'Lexical-IL Entry'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "72491c78f8a90f8b2b3fcd47905d2908",
+        "question": "Does the figure have a block labeled 'Check Exit'?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: ILustrate Design: Lexical Component View\n\nQuestion: Does the figure have a block labeled 'Check Exit'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a43cbb346929e0bdd8fb7511d196f9e9",
+        "question": "Considering the figure's flow chart, how many blocks are present inside the middle block labeled 'Design-Testing Module'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: ILustrate Design: Lexical Component View\n\nQuestion: Considering the figure's flow chart, how many blocks are present inside the middle block labeled 'Design-Testing Module'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '4'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "c08d420f44cc77d34cb0ab207b9a8e30",
+        "question": "Which of the following datasets have normalized sufficiency values that are greater than 0.4 for C=10?",
+        "answer_pred": "E",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 12: Accuracy, sufficiency and comprehensiveness of logistic regressions models by regularization term C.\n\nQuestion: Which of the following datasets have normalized sufficiency values that are greater than 0.4 for C=10?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8b1b427edd2ba682ed4a9d6a13a5473c",
+        "question": "What is the optimal regularization term C for each dataset based on the accuracy, sufficiency, and comprehensiveness of the logistic regression models?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "fc51afedf7bb5dc75e9ed0e061433294",
+        "question": "What is the approximate percentage of female employment in 1990?",
+        "answer_pred": "49.5",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Female Employment Numbers\n\nQuestion: What is the approximate percentage of female employment in 1990?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "8df234ae631cf7139f40a0361556428c",
+        "question": "What is the highest percentage of female employment displayed in the figure?",
+        "answer_pred": "95.1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Female Employment Numbers\n\nQuestion: What is the highest percentage of female employment displayed in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "028be8960dc05b539731be34e4e475d2",
+        "question": "Does the solid black line ever dip below 27%?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Female Employment Numbers\n\nQuestion: Does the solid black line ever dip below 27%?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "4675cc4ab918984eb773ce1949ce50b5",
+        "question": "Did female employment numbers consistently increase from 1950 to 1965?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Female Employment Numbers\n\nQuestion: Did female employment numbers consistently increase from 1950 to 1965?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "4e840cca935820b96af8bc2993fd4478",
+        "question": "What is the highest percentage of female employment between 1965 and 1975?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Female Employment Numbers\n\nQuestion: What is the highest percentage of female employment between 1965 and 1975?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'approximately 25'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "428aa6d4f6b7ca6bc4555c59fc69700b",
+        "question": "What is the range of the values presented in the y-axis?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Female Employment Numbers\n\nQuestion: What is the range of the values presented in the y-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '20 to 40'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "904a134cef9cbba7149116f13efd85d8",
+        "question": "What was the percentage of female employment in 1962, and how does it differ from those of 2000 and 1900?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "fec134d89a2bdd52a0ec13698a68bde8",
+        "question": "What is the percentage of green line when the threshold type frequency is 10^3?",
+        "answer_pred": "12",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Percentage of types and sentences covered as a function of type frequency. The vast majority of types (80%) are rare (have less than 10 occurrences). At least one such type is present in a non-negligible part of the corpus (12% of the overall sentences). A significant portion of types (45%) appears just once throughout the corpus.\n\nQuestion: What is the percentage of green line when the threshold type frequency is 10^3?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "0936ae79c974804ebb94fa7d743ede7b",
+        "question": "Does the BLEU score for 'authoritative' reach a higher value than the BLEU score for 'permissive'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: BLEU when comparing to the master\n\nQuestion: Does the BLEU score for 'authoritative' reach a higher value than the BLEU score for 'permissive'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "698c006c48ff59cb0a15d4296c716b69",
+        "question": "Which line in Figure 2 is green?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: BLEU when comparing to the master\n\nQuestion: Which line in Figure 2 is green?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'permissive'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "0d1185a43ea68ae3a4ef243895c1a476",
+        "question": "Which of these methods shows the highest BLEU score after 20 iterations?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: BLEU when comparing to the master\n\nQuestion: Which of these methods shows the highest BLEU score after 20 iterations?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'permissive'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "40c2fb1551d836cbab5f465f05780d1b",
+        "question": "What is the specific task or dataset being evaluated in this figure?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "81622e9946f36bf781a35117a80d1756",
+        "question": "What is the approximate value of the green line at 20,000 episodes on the 'I2C on Gtrain' graph (sub-figure (a))?",
+        "answer_pred": "1.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 12: Exploration metrics for different goal imagination mechanisms: (a) Interesting interaction count (IC) on training set, IC on testing set, (c) IC on extra set. Goal imagination starts early (vertical line), except for the no imagination baseline (green). Standard errors of the mean plotted for clarity (as usual, 10 seeds).\n\nQuestion: What is the approximate value of the green line at 20,000 episodes on the 'I2C on Gtrain' graph (sub-figure (a))?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "0d02c2ea14c10cd9f0e7603c7e56d131",
+        "question": "How many episodes were used in the experiment?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 12: Exploration metrics for different goal imagination mechanisms: (a) Interesting interaction count (IC) on training set, IC on testing set, (c) IC on extra set. Goal imagination starts early (vertical line), except for the no imagination baseline (green). Standard errors of the mean plotted for clarity (as usual, 10 seeds).\n\nQuestion: How many episodes were used in the experiment?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "52632313b3134d76a61f287887c37cfe",
+        "question": "Does the green line in graph (a) consistently remain below the yellow line?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 12: Exploration metrics for different goal imagination mechanisms: (a) Interesting interaction count (IC) on training set, IC on testing set, (c) IC on extra set. Goal imagination starts early (vertical line), except for the no imagination baseline (green). Standard errors of the mean plotted for clarity (as usual, 10 seeds).\n\nQuestion: Does the green line in graph (a) consistently remain below the yellow line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "6efe36db56eff34dc592ed534f2745ec",
+        "question": "Is the maximum y-value 900?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 12: Exploration metrics for different goal imagination mechanisms: (a) Interesting interaction count (IC) on training set, IC on testing set, (c) IC on extra set. Goal imagination starts early (vertical line), except for the no imagination baseline (green). Standard errors of the mean plotted for clarity (as usual, 10 seeds).\n\nQuestion: Is the maximum y-value 900?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "fd5848f006536d2629058a2bd36b2341",
+        "question": "Which line in graph (c) shows the highest value of I2C at the end of the x-axis (100 episodes)?  ",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 12: Exploration metrics for different goal imagination mechanisms: (a) Interesting interaction count (IC) on training set, IC on testing set, (c) IC on extra set. Goal imagination starts early (vertical line), except for the no imagination baseline (green). Standard errors of the mean plotted for clarity (as usual, 10 seeds).\n\nQuestion: Which line in graph (c) shows the highest value of I2C at the end of the x-axis (100 episodes)?  \n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Green'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "fd1e0d138b261d074933ac4bf8aa5935",
+        "question": "Based on the caption and provided data, in which datasets does goal imagination start early?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 12: Exploration metrics for different goal imagination mechanisms: (a) Interesting interaction count (IC) on training set, IC on testing set, (c) IC on extra set. Goal imagination starts early (vertical line), except for the no imagination baseline (green). Standard errors of the mean plotted for clarity (as usual, 10 seeds).\n\nQuestion: Based on the caption and provided data, in which datasets does goal imagination start early?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Training, testing, and extra sets'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

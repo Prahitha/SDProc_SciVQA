@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "cf8d618168935019575ace55a2e9c508",
+        "question": "What are the ranges of the values for the normalized erasure in the y-axis for the rightmost plot?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Effect of dynamic mask with different source prediction strategies. The strategies are explained in Section 3, and the oracle means that we use the full-sentence translation to set the mask.\n\nQuestion: What are the ranges of the values for the normalized erasure in the y-axis for the rightmost plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "e0c64ef963d1ca0864f3ef99682ae809",
+        "question": "What is the method used for the dynamic masking in the en->zh MT system shown in Figure 5b, and how does it affect the results?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "ea1d117670254430c7bbc6d2debb6ed3",
+        "question": "What is the UAS value of the blue dotted line in the bottom right graph at 12K number of trees?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: UAS for different models for Arabic, Dutch, Finnish, and Russian development treebanks.\n\nQuestion: What is the UAS value of the blue dotted line in the bottom right graph at 12K number of trees?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "a35562bb67ebc9e9f865057edf493037",
+        "question": "What is the maximum value for UAS in the y-axis?",
+        "answer_pred": "0.99",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: UAS for different models for Arabic, Dutch, Finnish, and Russian development treebanks.\n\nQuestion: What is the maximum value for UAS in the y-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "ae1a6519515a8474e69c509d0fa9a559",
+        "question": "Does the green line, in the bottom left plot, have a higher UAS value than the orange line at the 12K trees mark?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: UAS for different models for Arabic, Dutch, Finnish, and Russian development treebanks.\n\nQuestion: Does the green line, in the bottom left plot, have a higher UAS value than the orange line at the 12K trees mark?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "65d031b823c15bcf455bb06f7cf7976e",
+        "question": "Is the maximum number of tress 15K?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: UAS for different models for Arabic, Dutch, Finnish, and Russian development treebanks.\n\nQuestion: Is the maximum number of tress 15K?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "21434ca68a29982c1c8f066c74a0fe41",
+        "question": "Which languages are presented in the top plots?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: UAS for different models for Arabic, Dutch, Finnish, and Russian development treebanks.\n\nQuestion: Which languages are presented in the top plots?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Russian and Finnish'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "87b6055156cf09770e081dec65235d37",
+        "question": "Which language development treebank has the highest UAS value for 100?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: UAS for different models for Arabic, Dutch, Finnish, and Russian development treebanks.\n\nQuestion: Which language development treebank has the highest UAS value for 100?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Russian'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "7a7b7ef1550e46555abb0772abbbda00",
+        "question": "What is the data processing method used to generate these UAS values for each language model, and how does it affect the results?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "a1d2ede98bbad55957efb634ef82b103",
+        "question": "What is the BLEU score of the red line at \u03bb = 0.7 in the ZH-EN validate set?",
+        "answer_pred": "0.57",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: BLEU scores of Trans.based, the proposed Model I, and Model II with different \u03bb on the EN-DE and ZH-EN validate sets.\n\nQuestion: What is the BLEU score of the red line at \u03bb = 0.7 in the ZH-EN validate set?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

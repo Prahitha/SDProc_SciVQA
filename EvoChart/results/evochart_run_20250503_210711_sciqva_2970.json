@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "434be2a466001635e5fd8335ed4cfca7",
+        "question": "What is the approximate value of the green line when the number of preceding segments is 2 and the number of labels is 42?",
+        "answer_pred": "92.5",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3 Accuracy (%) results obtained on the Switchboard corpus using context information extracted from the n preceding segments in different forms.\n\nQuestion: What is the approximate value of the green line when the number of preceding segments is 2 and the number of labels is 42?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f03d83615f23f0c43c60893bfd55f5c7",
+        "question": "What is the number of used labels?",
+        "answer_pred": "2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3 Accuracy (%) results obtained on the Switchboard corpus using context information extracted from the n preceding segments in different forms.\n\nQuestion: What is the number of used labels?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "ba52a3d4e875db20fa7b8667c8fb5c7b",
+        "question": "Does the green line have a higher accuracy percentage than the red line when the number of preceding segments is 4?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3 Accuracy (%) results obtained on the Switchboard corpus using context information extracted from the n preceding segments in different forms.\n\nQuestion: Does the green line have a higher accuracy percentage than the red line when the number of preceding segments is 4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "be995258d18cacac67ed55e95ade9a39",
+        "question": "Does the accuracy of the 'Index-Tagged N-Grams' method increase as the number of preceding segments increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3 Accuracy (%) results obtained on the Switchboard corpus using context information extracted from the n preceding segments in different forms.\n\nQuestion: Does the accuracy of the 'Index-Tagged N-Grams' method increase as the number of preceding segments increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "3bec4f39bad23b7de4cbadfa13d67a56",
+        "question": "Which line(s) represent an accuracy that is higher than 80% when the number of preceding segments is 4?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3 Accuracy (%) results obtained on the Switchboard corpus using context information extracted from the n preceding segments in different forms.\n\nQuestion: Which line(s) represent an accuracy that is higher than 80% when the number of preceding segments is 4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Both the red and green lines'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "ecf4f7dedf206d228dbe06edd0978301",
+        "question": "What type of context information was extracted?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3 Accuracy (%) results obtained on the Switchboard corpus using context information extracted from the n preceding segments in different forms.\n\nQuestion: What type of context information was extracted?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8357c56971790b7d13912308cb441fc3",
+        "question": "What is the impact of using different forms of context information on the accuracy of the Switchboard corpus?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "4477bc2c337a17f395d1a3fb815973a6",
+        "question": "What is the value of the orange line at the score of 2 in figure (a)?",
+        "answer_pred": "1.2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Relation between some of the different gaze features and the score. The gaze features are (a) RD, (b) SFD, (c) FC and (d) RC. For figures (a) and (b), the units on the y-axis are milliseconds. For figures (c) and (d) the numbers are a ratio to the number of interest areas in the text. The x-axis in all 4 graphs is the score given by the annotators.\n\nQuestion: What is the value of the orange line at the score of 2 in figure (a)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "62bec5760cabe1d12bc95dd903aa5aa8",
+        "question": "What is the highest score given by the annotators?",
+        "answer_pred": "0.99",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Relation between some of the different gaze features and the score. The gaze features are (a) RD, (b) SFD, (c) FC and (d) RC. For figures (a) and (b), the units on the y-axis are milliseconds. For figures (c) and (d) the numbers are a ratio to the number of interest areas in the text. The x-axis in all 4 graphs is the score given by the annotators.\n\nQuestion: What is the highest score given by the annotators?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c23dedc03ff0ff6ea78fb79db92816c1",
+        "question": "In the graph labeled (a), is the value of the blue square at the score of 3 higher than the value of the orange circle at the same score?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Relation between some of the different gaze features and the score. The gaze features are (a) RD, (b) SFD, (c) FC and (d) RC. For figures (a) and (b), the units on the y-axis are milliseconds. For figures (c) and (d) the numbers are a ratio to the number of interest areas in the text. The x-axis in all 4 graphs is the score given by the annotators.\n\nQuestion: In the graph labeled (a), is the value of the blue square at the score of 3 higher than the value of the orange circle at the same score?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

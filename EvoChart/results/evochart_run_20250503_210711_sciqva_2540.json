@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "c2f39c130bfd95abc725622d04f90f3f",
+        "question": "Which plot shows the green line above the red line?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Hyper-parameter tuning of D2V for each testing scenario.\n\nQuestion: Which plot shows the green line above the red line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "b3232c17c57c864bd6f865eca55ec09d",
+        "question": "Regarding the first plot, which of the following statements is true regarding the performance of D2V with default parameters?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Hyper-parameter tuning of D2V for each testing scenario.\n\nQuestion: Regarding the first plot, which of the following statements is true regarding the performance of D2V with default parameters?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'D2V with default parameters performs better than simple TFIDF baseline'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "991053f1787619826d05a8a86bc0eeb6",
+        "question": "What is the specific hyper-parameter configuration that achieves the best performance for the 'Title' scenario in Figure 2?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "03ce912ebb6c1debaa33a45ed19b465f",
+        "question": "What is the approximate observed game score of the model represented by the green line at 500 Monte-Carlo rollouts?",
+        "answer_pred": "10.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: Observed game score as a function of Monte-Carlo roll-outs for our text-aware full model, and the text-unaware latent-variable model. Model parameters are updated after each roll-out, thus performance improves with roll-outs. As can be seen, our full model\u2019s performance improves dramatically over a small number of roll-outs, demonstrating the benefit it derives from textual information.\n\nQuestion: What is the approximate observed game score of the model represented by the green line at 500 Monte-Carlo rollouts?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "ff99b978d2b62a7b74b20a560c77e9bd",
+        "question": "What type of model has the lowest performance for the first 100 Monte-Carlo rollouts?",
+        "answer_pred": "Latent-variable model",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: Observed game score as a function of Monte-Carlo roll-outs for our text-aware full model, and the text-unaware latent-variable model. Model parameters are updated after each roll-out, thus performance improves with roll-outs. As can be seen, our full model\u2019s performance improves dramatically over a small number of roll-outs, demonstrating the benefit it derives from textual information.\n\nQuestion: What type of model has the lowest performance for the first 100 Monte-Carlo rollouts?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "bf7f6f4aae2038a087b291e3c0b7b8ca",
+        "question": "Is the observed game score of the red line higher than that of the green line when the number of Monte-Carlo rollouts is approximately 350?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: Observed game score as a function of Monte-Carlo roll-outs for our text-aware full model, and the text-unaware latent-variable model. Model parameters are updated after each roll-out, thus performance improves with roll-outs. As can be seen, our full model\u2019s performance improves dramatically over a small number of roll-outs, demonstrating the benefit it derives from textual information.\n\nQuestion: Is the observed game score of the red line higher than that of the green line when the number of Monte-Carlo rollouts is approximately 350?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "1a6aa07da5721d12fd84a9e5a4ba92c2",
+        "question": "Does the full model's performance improve faster than the latent-variable model's performance with a small number of roll-outs?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: Observed game score as a function of Monte-Carlo roll-outs for our text-aware full model, and the text-unaware latent-variable model. Model parameters are updated after each roll-out, thus performance improves with roll-outs. As can be seen, our full model\u2019s performance improves dramatically over a small number of roll-outs, demonstrating the benefit it derives from textual information.\n\nQuestion: Does the full model's performance improve faster than the latent-variable model's performance with a small number of roll-outs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "cedf167dacafbf8be7878f3274eebb7f",
+        "question": "Which line (green or red) shows a more dramatic increase in game score after 100 Monte-Carlo rollouts?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: Observed game score as a function of Monte-Carlo roll-outs for our text-aware full model, and the text-unaware latent-variable model. Model parameters are updated after each roll-out, thus performance improves with roll-outs. As can be seen, our full model\u2019s performance improves dramatically over a small number of roll-outs, demonstrating the benefit it derives from textual information.\n\nQuestion: Which line (green or red) shows a more dramatic increase in game score after 100 Monte-Carlo rollouts?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither line shows a dramatic increase'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "864825e6d09c6c229591b10d4de22174",
+        "question": "What is the approximate maximum game score observed?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: Observed game score as a function of Monte-Carlo roll-outs for our text-aware full model, and the text-unaware latent-variable model. Model parameters are updated after each roll-out, thus performance improves with roll-outs. As can be seen, our full model\u2019s performance improves dramatically over a small number of roll-outs, demonstrating the benefit it derives from textual information.\n\nQuestion: What is the approximate maximum game score observed?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '1'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "ddc744e07961a9e95739dec521043320",
+        "question": "What is the specific game being played in the experiment depicted in Figure 10?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

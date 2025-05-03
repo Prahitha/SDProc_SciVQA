@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "4a89e177412316a30b0ab6a76575236f",
+        "question": "What is the value of the blue line at the threshold of 0.7 in the graph on the right?",
+        "answer_pred": "0.81",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 13: Enron corpus, LDA and LDA-GN spam filtering precision and recall scores using different threshold settings\n\nQuestion: What is the value of the blue line at the threshold of 0.7 in the graph on the right?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "99c0741fbaf7e049592291cc9239108c",
+        "question": "What is the range of the threshold in the two graphs of figure 13?",
+        "answer_pred": "[0.0, 1.0]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 13: Enron corpus, LDA and LDA-GN spam filtering precision and recall scores using different threshold settings\n\nQuestion: What is the range of the threshold in the two graphs of figure 13?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "71ab53b6fb7cdd0df76e9a7db94b904d",
+        "question": "Does the blue line representing LDA-GN precision consistently have a higher value than the red dotted line representing LDA precision across all threshold values?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 13: Enron corpus, LDA and LDA-GN spam filtering precision and recall scores using different threshold settings\n\nQuestion: Does the blue line representing LDA-GN precision consistently have a higher value than the red dotted line representing LDA precision across all threshold values?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "68a9c4a634d776d14696cd39e01d7469",
+        "question": "Does LDA-GN consistently outperform LDA in terms of spam filtering recall?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 13: Enron corpus, LDA and LDA-GN spam filtering precision and recall scores using different threshold settings\n\nQuestion: Does LDA-GN consistently outperform LDA in terms of spam filtering recall?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "1ee886e5b6ba8ffb593ca7ab2f5a4275",
+        "question": "Which graph has a higher value at the threshold of 0.5?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 13: Enron corpus, LDA and LDA-GN spam filtering precision and recall scores using different threshold settings\n\nQuestion: Which graph has a higher value at the threshold of 0.5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither graph has a value at threshold 0.5'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "903428d6d3cbebc78417e5f512fdd93a",
+        "question": "The graph of which of the metrics has 0.4 marked on its y axis?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 13: Enron corpus, LDA and LDA-GN spam filtering precision and recall scores using different threshold settings\n\nQuestion: The graph of which of the metrics has 0.4 marked on its y axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Netiher'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "4b0b81ed7959d2fa495e2f160586cf01",
+        "question": "What is the total number of emails in the Enron corpus?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "3f2146e582670c0e7e97a07ce9210dda",
+        "question": "What is the approximate value of the green line at the x-axis value of 100 in the rightmost plot?",
+        "answer_pred": "0.999",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparing training curves for en-fi and en-tr with sigmoid encoder scoring and softmax decoder scoring and position encoding. Note that en-tr curves converged very quickly.\n\nQuestion: What is the approximate value of the green line at the x-axis value of 100 in the rightmost plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "259151916626482ce8de0a9b4ee00d21",
+        "question": "What approximate value does the log perplexity of attention reach for 'en-fi' after 1000 k steps?",
+        "answer_pred": "1.5",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparing training curves for en-fi and en-tr with sigmoid encoder scoring and softmax decoder scoring and position encoding. Note that en-tr curves converged very quickly.\n\nQuestion: What approximate value does the log perplexity of attention reach for 'en-fi' after 1000 k steps?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "6772a4d5918cc410a591673d9712cc00",
+        "question": "Is the green line the lowest in the graph on the right at 50 steps?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparing training curves for en-fi and en-tr with sigmoid encoder scoring and softmax decoder scoring and position encoding. Note that en-tr curves converged very quickly.\n\nQuestion: Is the green line the lowest in the graph on the right at 50 steps?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

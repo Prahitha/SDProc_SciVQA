@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "88c55184549a9da12bee52d33b6d7b1c",
+        "question": "What is the value of the green line at the 'rnn5' layer?",
+        "answer_pred": "0.83",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2: Evaluation on robust VGG-LSTM ASR\n\nQuestion: What is the value of the green line at the 'rnn5' layer?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b049b67ebeaba007380b6750b596a30f",
+        "question": "What is the evaluation method used for the robust VGG-LSTM ASR in the human test?",
+        "answer_pred": "human test",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2: Evaluation on robust VGG-LSTM ASR\n\nQuestion: What is the evaluation method used for the robust VGG-LSTM ASR in the human test?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "067c0046794e9010d9a4e668489c322b",
+        "question": "Is the value of the blue line at the \"rnn5\" layer higher than 40%?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2: Evaluation on robust VGG-LSTM ASR\n\nQuestion: Is the value of the blue line at the \"rnn5\" layer higher than 40%?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "5bd6daf3ba511d3dd6badf8a598be072",
+        "question": "Does the evaluation of the d-vector method indicate a higher error rate compared to ThinResNet at the RNN3 layer?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2: Evaluation on robust VGG-LSTM ASR\n\nQuestion: Does the evaluation of the d-vector method indicate a higher error rate compared to ThinResNet at the RNN3 layer?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "19bfe469b59065b45d40edc058cb5d15",
+        "question": "Which line represents the \"human evaluation\"?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2: Evaluation on robust VGG-LSTM ASR\n\nQuestion: Which line represents the \"human evaluation\"?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The green line in the left graph'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "9a0fc67174fbd718ac3f71cf1a6903ea",
+        "question": "Which of the following were used in the evaluation of Robust VGG-LSTM ASR?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2: Evaluation on robust VGG-LSTM ASR\n\nQuestion: Which of the following were used in the evaluation of Robust VGG-LSTM ASR?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "a841366e4cab69847c75fb025938b012",
+        "question": "What is the specific dataset used for the \"human evaluation\" in Fig. 2 (b) of the paper?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "834bad8f9cfec6bbda620be214882429",
+        "question": "What is the approximate value of the blue line at the word 'amazing'?",
+        "answer_pred": "0.12",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Attention weights obtained by senti-emoji embedding and word-emoji embedding across words. Tweet contexts are given in sub-captions.\n\nQuestion: What is the approximate value of the blue line at the word 'amazing'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "79a8c208ec05222a3e426a8b347f1185",
+        "question": "What are the two types of attention weights obtained by the embeddings?",
+        "answer_pred": "[0.12, 0.88]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Attention weights obtained by senti-emoji embedding and word-emoji embedding across words. Tweet contexts are given in sub-captions.\n\nQuestion: What are the two types of attention weights obtained by the embeddings?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "7df4e187a98e4033a07f002b27211688",
+        "question": "Is the value of the orange line higher than the blue line at the word 'wait'?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Attention weights obtained by senti-emoji embedding and word-emoji embedding across words. Tweet contexts are given in sub-captions.\n\nQuestion: Is the value of the orange line higher than the blue line at the word 'wait'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

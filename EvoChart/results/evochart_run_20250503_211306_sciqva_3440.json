@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "d8f66c82356de402e3cd3abbd358ee9b",
+        "question": "Which tasks are used in the intermediate training phase?",
+        "answer_pred": "ReCoRD and MNLI",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: jiant pipeline stages using RoBERTa as the sentence encoder, ReCoRD and MNLI tasks as intermediate tasks, and MNLI and BoolQ as tasks for target training and evaluation. The diagram highlights that during target training and evaluation phases, copies are made of the sentence encoder model, and fine tuning and evaluation for each task are conducted on separate copies.\n\nQuestion: Which tasks are used in the intermediate training phase?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "28843248b8af8872b1e89a278d813a28",
+        "question": "Is the Sentence Encoder located to the right of the last phase?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: jiant pipeline stages using RoBERTa as the sentence encoder, ReCoRD and MNLI tasks as intermediate tasks, and MNLI and BoolQ as tasks for target training and evaluation. The diagram highlights that during target training and evaluation phases, copies are made of the sentence encoder model, and fine tuning and evaluation for each task are conducted on separate copies.\n\nQuestion: Is the Sentence Encoder located to the right of the last phase?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "c576d580126e1790998323fde747a69d",
+        "question": "Are there three copies of RoBERTa used in the 4 Phase?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: jiant pipeline stages using RoBERTa as the sentence encoder, ReCoRD and MNLI tasks as intermediate tasks, and MNLI and BoolQ as tasks for target training and evaluation. The diagram highlights that during target training and evaluation phases, copies are made of the sentence encoder model, and fine tuning and evaluation for each task are conducted on separate copies.\n\nQuestion: Are there three copies of RoBERTa used in the 4 Phase?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "c3ca2733e53e63206cb089d2550c358e",
+        "question": "Which phase is located in the middle of the block that contains the beginning configuration and the block that loads the encoder?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: jiant pipeline stages using RoBERTa as the sentence encoder, ReCoRD and MNLI tasks as intermediate tasks, and MNLI and BoolQ as tasks for target training and evaluation. The diagram highlights that during target training and evaluation phases, copies are made of the sentence encoder model, and fine tuning and evaluation for each task are conducted on separate copies.\n\nQuestion: Which phase is located in the middle of the block that contains the beginning configuration and the block that loads the encoder?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Process Config'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "0d7e3a8af11a453d5effbfe8d30ad9ab",
+        "question": "Which tasks are used for the intermediate training phase of the sentence encoder?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: jiant pipeline stages using RoBERTa as the sentence encoder, ReCoRD and MNLI tasks as intermediate tasks, and MNLI and BoolQ as tasks for target training and evaluation. The diagram highlights that during target training and evaluation phases, copies are made of the sentence encoder model, and fine tuning and evaluation for each task are conducted on separate copies.\n\nQuestion: Which tasks are used for the intermediate training phase of the sentence encoder?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'MNLI, ReCoRD'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "0680c7b5bff46ec5e3c9a80a802748f5",
+        "question": "What is the specific RoBERTa model used in the 'input_module' configuration? ",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "5bb3bbf10c58b87925228fb144853e52",
+        "question": "What is the approximate height of the box plot representing the accuracy of the classifier for 'Filmmaker'?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Accuracy of classifier trained and tested on balanced set contrasting agreed upon Twitter users of a given role, against users pulled at random from the 1% stream.\n\nQuestion: What is the approximate height of the box plot representing the accuracy of the classifier for 'Filmmaker'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "3146e51927ac9cb13c8f4b66b3731d05",
+        "question": "What is the Accuracy for Artist?",
+        "answer_pred": "0.83",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Accuracy of classifier trained and tested on balanced set contrasting agreed upon Twitter users of a given role, against users pulled at random from the 1% stream.\n\nQuestion: What is the Accuracy for Artist?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "17ea7c6e758bb826f6028a7baafd060a",
+        "question": "Is the height of the boxplot for 'Filmmaker' greater than the height of the boxplot for 'Producer'?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Accuracy of classifier trained and tested on balanced set contrasting agreed upon Twitter users of a given role, against users pulled at random from the 1% stream.\n\nQuestion: Is the height of the boxplot for 'Filmmaker' greater than the height of the boxplot for 'Producer'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "4d5d8cb3901b3a0f8a18b666710ebc56",
+        "question": "Is the classifier evaluated on 15 types of Twitter users?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Accuracy of classifier trained and tested on balanced set contrasting agreed upon Twitter users of a given role, against users pulled at random from the 1% stream.\n\nQuestion: Is the classifier evaluated on 15 types of Twitter users?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

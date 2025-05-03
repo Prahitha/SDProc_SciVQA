@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "24a53eb1d840ba8554346fbbe9b25bd6",
+        "question": "What is the temporal relation between 'cascaded' and 'ordered'?",
+        "answer_pred": "BEFORE",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: The desired event temporal graph for Ex1. Reverse TLINKs such as hurt is after ripping are omitted for simplicity.\n\nQuestion: What is the temporal relation between 'cascaded' and 'ordered'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "2e603b8f9fe9c52f256e2879d889a16b",
+        "question": "Is there a directed arrow from 'ripping' to 'ordered'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: The desired event temporal graph for Ex1. Reverse TLINKs such as hurt is after ripping are omitted for simplicity.\n\nQuestion: Is there a directed arrow from 'ripping' to 'ordered'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e9f2c0dfb6ffaeb04d8ef8cda51299c9",
+        "question": "Does the event 'hurt' occur before any other events?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: The desired event temporal graph for Ex1. Reverse TLINKs such as hurt is after ripping are omitted for simplicity.\n\nQuestion: Does the event 'hurt' occur before any other events?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "5d7bc0512d18a2922b76bf4cd34d2873",
+        "question": "Which event is represented by the leftmost node in the graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: The desired event temporal graph for Ex1. Reverse TLINKs such as hurt is after ripping are omitted for simplicity.\n\nQuestion: Which event is represented by the leftmost node in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'monitor'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "0707ff8ad6e3685193ad129b04c03203",
+        "question": "Which of the following events occur before cascading?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: The desired event temporal graph for Ex1. Reverse TLINKs such as hurt is after ripping are omitted for simplicity.\n\nQuestion: Which of the following events occur before cascading?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'hurt'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "043b17d20e2e28fea75c6b55a4c415ea",
+        "question": "What is the probability of an event occurring given the temporal graph shown in Figure 1?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "03008c1b7fcfe305f9f8fc7d26321c3b",
+        "question": "What color is the arrow pointing from node 'c' to node 'f'?",
+        "answer_pred": "purple",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: A dialogue graph using a state machine approach with NATEX to dialogue management.\n\nQuestion: What color is the arrow pointing from node 'c' to node 'f'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "ca883752272cb93e9e64b91e3770f59f",
+        "question": "From state c, which user intent can lead to state e?",
+        "answer_pred": "[SEARCH, INQUIRY, CONVERSATION]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: A dialogue graph using a state machine approach with NATEX to dialogue management.\n\nQuestion: From state c, which user intent can lead to state e?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "ac9cb75253d15ce27e0ba426aca7c85c",
+        "question": "Is the arrow connecting nodes 'a' and 'c' colored green?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: A dialogue graph using a state machine approach with NATEX to dialogue management.\n\nQuestion: Is the arrow connecting nodes 'a' and 'c' colored green?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "da9d3bb0840048362dd081cb03c1cd2a",
+        "question": "Does state g represent a question about a favourite movie?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: A dialogue graph using a state machine approach with NATEX to dialogue management.\n\nQuestion: Does state g represent a question about a favourite movie?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "31128ccedb21a76fe6f1f98daaf94a3f",
+        "question": "Which of the following statements about the plot is true?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Learning curve of 10-fold cross validation\n\nQuestion: Which of the following statements about the plot is true?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'There is no clear relationship between the F1 score and the percentage of annotated data used in training.'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "7de879a878c34732a1a2bf6581e27519",
+        "question": "What type of evaluation metric is used in this learning curve?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Learning curve of 10-fold cross validation\n\nQuestion: What type of evaluation metric is used in this learning curve?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Recall'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "de11eacfe6d87751ba440696a5608620",
+        "question": "What is the specific machine learning model used in this study?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "bdd3c9d933524eb78b62892ee490d3ad",
+        "question": "What is the value of the constraint violation error of TWID for the orange line at the 1st iteration?",
+        "answer_pred": "0.0123",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Left: Pearson correlation as a function of the number of iteration in Sinkhorn algorithm. Right: the convergence rate of the Sinkhorn algorithm. The underlying model in this figure is roberta-base with batch mean centered word vectors.\n\nQuestion: What is the value of the constraint violation error of TWID for the orange line at the 1st iteration?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "59198d11b08f6e1b9f17dc91adbb3c2d",
+        "question": "Which value of T corresponds to the green line on the right side of the figure?",
+        "answer_pred": "100",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Left: Pearson correlation as a function of the number of iteration in Sinkhorn algorithm. Right: the convergence rate of the Sinkhorn algorithm. The underlying model in this figure is roberta-base with batch mean centered word vectors.\n\nQuestion: Which value of T corresponds to the green line on the right side of the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "d3d686d57ef269cb614794bd77c156ae",
+        "question": "Is the red line representing 'T = 0.3' consistently decreasing in the left graph?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Left: Pearson correlation as a function of the number of iteration in Sinkhorn algorithm. Right: the convergence rate of the Sinkhorn algorithm. The underlying model in this figure is roberta-base with batch mean centered word vectors.\n\nQuestion: Is the red line representing 'T = 0.3' consistently decreasing in the left graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "7ac8b93f55b0e293c51a4b6fb2c19cec",
+        "question": "Does the convergence rate of the Sinkhorn algorithm increase as the value of T increases?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Left: Pearson correlation as a function of the number of iteration in Sinkhorn algorithm. Right: the convergence rate of the Sinkhorn algorithm. The underlying model in this figure is roberta-base with batch mean centered word vectors.\n\nQuestion: Does the convergence rate of the Sinkhorn algorithm increase as the value of T increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "23e46c7edc474b1fed3c7e8d241514cd",
+        "question": "Which line in the right figure corresponds to 'T = 0.3'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Left: Pearson correlation as a function of the number of iteration in Sinkhorn algorithm. Right: the convergence rate of the Sinkhorn algorithm. The underlying model in this figure is roberta-base with batch mean centered word vectors.\n\nQuestion: Which line in the right figure corresponds to 'T = 0.3'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The red line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "bfb2a415bc8d1ded32c9ccf2c2283ee9",
+        "question": "What are the values of T used in the Sinkhorn algorithm?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Left: Pearson correlation as a function of the number of iteration in Sinkhorn algorithm. Right: the convergence rate of the Sinkhorn algorithm. The underlying model in this figure is roberta-base with batch mean centered word vectors.\n\nQuestion: What are the values of T used in the Sinkhorn algorithm?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0.2, 0.3, 0.5, 0.8'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8cc22c2a0e3b68799130f7956bd09447",
+        "question": "What is the specific task the roberta-base model was trained on?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

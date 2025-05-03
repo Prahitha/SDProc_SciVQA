@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "0abd6a53d66e2b02bf9e662308af4050",
+        "question": "How many epochs are shown in the graph?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 12: Mean MLM (left) and TC/CC (right) losses (each point is the average of a 1000 training steps) for Stage 2 of the Adjectives treatment. BERT-MLM refers to the model variant which is trained only on the MLM task. BERT-CF refers to the model variant which employs MLM alongside both TC and CC tasks and BERT-CF no control refers to to the same model without the CC task.\n\nQuestion: How many epochs are shown in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "8a7225458e5234a13fa1bbde1aa7aab0",
+        "question": "Is the red dotted line (BERT-CF (CC)) consistently lower than the green dashed line (BERT-CF No control (TC)) in the right graph?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 12: Mean MLM (left) and TC/CC (right) losses (each point is the average of a 1000 training steps) for Stage 2 of the Adjectives treatment. BERT-MLM refers to the model variant which is trained only on the MLM task. BERT-CF refers to the model variant which employs MLM alongside both TC and CC tasks and BERT-CF no control refers to to the same model without the CC task.\n\nQuestion: Is the red dotted line (BERT-CF (CC)) consistently lower than the green dashed line (BERT-CF No control (TC)) in the right graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e821f627c104715c2aa58b0cd5a11370",
+        "question": "Does the loss decrease for 'BERT-CF (TC)' as the number of epoch increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 12: Mean MLM (left) and TC/CC (right) losses (each point is the average of a 1000 training steps) for Stage 2 of the Adjectives treatment. BERT-MLM refers to the model variant which is trained only on the MLM task. BERT-CF refers to the model variant which employs MLM alongside both TC and CC tasks and BERT-CF no control refers to to the same model without the CC task.\n\nQuestion: Does the loss decrease for 'BERT-CF (TC)' as the number of epoch increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "140b3cf7a1694ff2a3ad1a1daf4b0559",
+        "question": "What is the colour of the line representing BERT-MLM in the left graph?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 12: Mean MLM (left) and TC/CC (right) losses (each point is the average of a 1000 training steps) for Stage 2 of the Adjectives treatment. BERT-MLM refers to the model variant which is trained only on the MLM task. BERT-CF refers to the model variant which employs MLM alongside both TC and CC tasks and BERT-CF no control refers to to the same model without the CC task.\n\nQuestion: What is the colour of the line representing BERT-MLM in the left graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'green'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "b4a2a0b4d1dc3910bd694e064fb4d8e3",
+        "question": "Which of the following models is not represented in the graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 12: Mean MLM (left) and TC/CC (right) losses (each point is the average of a 1000 training steps) for Stage 2 of the Adjectives treatment. BERT-MLM refers to the model variant which is trained only on the MLM task. BERT-CF refers to the model variant which employs MLM alongside both TC and CC tasks and BERT-CF no control refers to to the same model without the CC task.\n\nQuestion: Which of the following models is not represented in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'BERT-CF and BERT-CF No control'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "c9ff8992fc63bcd19959e7f83d826783",
+        "question": "What are the specific hyperparameters used for the training of each model variant?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "241e8faa550fbf8ac62742e7ff295d0f",
+        "question": "What is the approximate accuracy value of the red line with circles in the second graph from the left at 0.5 number of questions?",
+        "answer_pred": "0.8",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison of probability- and dropoutbased error detection.\n\nQuestion: What is the approximate accuracy value of the red line with circles in the second graph from the left at 0.5 number of questions?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "594378d0c558d3d892f7767ecf45f583",
+        "question": "How many datasets are represented in the graph?",
+        "answer_pred": "2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison of probability- and dropoutbased error detection.\n\nQuestion: How many datasets are represented in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "6a0a6a6eb2cc8ebaede493ac63e06e69",
+        "question": "In the leftmost graph, is the accuracy value of the red triangle higher than the accuracy value of the blue square at the point where the average number of questions is 1.5?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison of probability- and dropoutbased error detection.\n\nQuestion: In the leftmost graph, is the accuracy value of the red triangle higher than the accuracy value of the blue square at the point where the average number of questions is 1.5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "b6fbdb1421f208a228080b5aa620c767",
+        "question": "Does the accuracy increase as the number of questions increases across all graph?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison of probability- and dropoutbased error detection.\n\nQuestion: Does the accuracy increase as the number of questions increases across all graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

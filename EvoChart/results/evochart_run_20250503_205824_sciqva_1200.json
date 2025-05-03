@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "f82995e2510e53eae03e6ee397ef6f57",
+        "question": "Which variable is directly influenced by both 'HIST' and 'MWE'?",
+        "answer_pred": "TRT",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Bayesian Network for MWE identification\n\nQuestion: Which variable is directly influenced by both 'HIST' and 'MWE'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "047bc0ee463ebfe37293cdbb474b7ff5",
+        "question": "Does the circle labeled 'MWE' have an arrow pointing to the circle labeled 'FRZN'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Bayesian Network for MWE identification\n\nQuestion: Does the circle labeled 'MWE' have an arrow pointing to the circle labeled 'FRZN'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8f5313ff229d247d186713f307acd329",
+        "question": "Is the HAPAX variable directly connected to the FRZN variable?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Bayesian Network for MWE identification\n\nQuestion: Is the HAPAX variable directly connected to the FRZN variable?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "c72099ab99774f78da3518f85d460bda",
+        "question": "Which node(s) receive input from the node labeled 'MWE' and that are below the node 'MWE'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Bayesian Network for MWE identification\n\nQuestion: Which node(s) receive input from the node labeled 'MWE' and that are below the node 'MWE'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'HIST'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "2b71bf8a543cb1705e160fe6e34ab83e",
+        "question": "Which of the following nodes in the Bayesian Network are directly influenced by the node 'MWE'?",
+        "answer_pred": "MWE,CNTXT",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Bayesian Network for MWE identification\n\nQuestion: Which of the following nodes in the Bayesian Network are directly influenced by the node 'MWE'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'CNTXT'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "79efde23aebf18bf817abf6ca4b77900",
+        "question": "What are the specific values for the conditional probability tables (CPTs) used in this Bayesian Network?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "0c18aa34e4ec91237e6e71df3bca7642",
+        "question": "What is the label of the arrow directly to the right of the circle labelled '6'?",
+        "answer_pred": "Go",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: GestLang Transducer\n\nQuestion: What is the label of the arrow directly to the right of the circle labelled '6'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "e4f7c2311c50c3e86c4e03ff607e6b97",
+        "question": "How many nodes are in figure 8?",
+        "answer_pred": "19",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: GestLang Transducer\n\nQuestion: How many nodes are in figure 8?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c0b67b8529db860c1e9c3d9ecffa8122",
+        "question": "Is the circle labeled '8' the only circle with a double border?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: GestLang Transducer\n\nQuestion: Is the circle labeled '8' the only circle with a double border?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "1357a37ae463cb3b926fff10cff550f5",
+        "question": "Does the GestLang Transducer have more than ten states?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: GestLang Transducer\n\nQuestion: Does the GestLang Transducer have more than ten states?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

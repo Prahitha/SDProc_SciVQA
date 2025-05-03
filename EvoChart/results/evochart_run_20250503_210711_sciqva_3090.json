@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "f748ca86dd0f44543ff43a91628663cf",
+        "question": "What is the maximum input size?",
+        "answer_pred": "100000",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Memory and runtime statistics for CST and KenLM for construction and querying with different amounts of German Common Crawl training data and different Markov orders, m. We compare the query runtimes against the optimised version of KenLM for memory (lazy) and speed (populate). For clarity, in the figure we only show CST numbers form = 10; the results for other settings ofm are very similar. KenLM was trained to match the construction memory requirements of the CST-precompute method.\n\nQuestion: What is the maximum input size?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "5a5a0c7e375f7da8d4706b98a07433ee",
+        "question": "Is the value of the black square, representing the CST method, always higher than the value of the red circle for '8gram' when comparing construction memory for 16 GB input size?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Memory and runtime statistics for CST and KenLM for construction and querying with different amounts of German Common Crawl training data and different Markov orders, m. We compare the query runtimes against the optimised version of KenLM for memory (lazy) and speed (populate). For clarity, in the figure we only show CST numbers form = 10; the results for other settings ofm are very similar. KenLM was trained to match the construction memory requirements of the CST-precompute method.\n\nQuestion: Is the value of the black square, representing the CST method, always higher than the value of the red circle for '8gram' when comparing construction memory for 16 GB input size?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "50de44daeb71f1d2adefcbee817ad677",
+        "question": "Does KenLM's query runtime increase with larger training data size for all Markov orders?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Memory and runtime statistics for CST and KenLM for construction and querying with different amounts of German Common Crawl training data and different Markov orders, m. We compare the query runtimes against the optimised version of KenLM for memory (lazy) and speed (populate). For clarity, in the figure we only show CST numbers form = 10; the results for other settings ofm are very similar. KenLM was trained to match the construction memory requirements of the CST-precompute method.\n\nQuestion: Does KenLM's query runtime increase with larger training data size for all Markov orders?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "199800a1d110225f01212773259f2717",
+        "question": "Which of the following represents a 10gram ken (lazy)?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Memory and runtime statistics for CST and KenLM for construction and querying with different amounts of German Common Crawl training data and different Markov orders, m. We compare the query runtimes against the optimised version of KenLM for memory (lazy) and speed (populate). For clarity, in the figure we only show CST numbers form = 10; the results for other settings ofm are very similar. KenLM was trained to match the construction memory requirements of the CST-precompute method.\n\nQuestion: Which of the following represents a 10gram ken (lazy)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'yellow line with circles'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8ed5e1aba08e96526e6fd76c20c9a184",
+        "question": "Which of the following methods are compared in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Memory and runtime statistics for CST and KenLM for construction and querying with different amounts of German Common Crawl training data and different Markov orders, m. We compare the query runtimes against the optimised version of KenLM for memory (lazy) and speed (populate). For clarity, in the figure we only show CST numbers form = 10; the results for other settings ofm are very similar. KenLM was trained to match the construction memory requirements of the CST-precompute method.\n\nQuestion: Which of the following methods are compared in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'KenLM (populate), KenLM (lazy), CST'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "c384b5fe88181cb04e246758467b0cfc",
+        "question": "What is the specific amount of German Common Crawl training data used in the experiment to generate the data point for 10gram with the CST method and an input size of 8 GB for the 'load+query' phase?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "4b5a1abb6d2f6ea1c1edc30728ae2b35",
+        "question": "What is the approximate BLEU score of the red line at 10 ms/word in the left graph?",
+        "answer_pred": "39.8",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison among the decoding results of the MT03 test dataset on the single GeForce GTX TITAN X GPU server under the three different searching settings. y-axis represents the BLEU score of translations, x-axis indicates that how long it will take for translating one word on average.\n\nQuestion: What is the approximate BLEU score of the red line at 10 ms/word in the left graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "84b9dbc5f877486f308c9157462b1002",
+        "question": "What is the highest BLEU score achieved by the ACP+SN method in the experiment?",
+        "answer_pred": "39.8",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison among the decoding results of the MT03 test dataset on the single GeForce GTX TITAN X GPU server under the three different searching settings. y-axis represents the BLEU score of translations, x-axis indicates that how long it will take for translating one word on average.\n\nQuestion: What is the highest BLEU score achieved by the ACP+SN method in the experiment?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "5c372585b9ddf4c7f2ed3c9169406f73",
+        "question": "Is the red line consistently higher than the blue dotted line in the right graph?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison among the decoding results of the MT03 test dataset on the single GeForce GTX TITAN X GPU server under the three different searching settings. y-axis represents the BLEU score of translations, x-axis indicates that how long it will take for translating one word on average.\n\nQuestion: Is the red line consistently higher than the blue dotted line in the right graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "b96b17822813bc60491f6891adae3844",
+        "question": "Does the BLEU score for translations increase with decoding speed?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison among the decoding results of the MT03 test dataset on the single GeForce GTX TITAN X GPU server under the three different searching settings. y-axis represents the BLEU score of translations, x-axis indicates that how long it will take for translating one word on average.\n\nQuestion: Does the BLEU score for translations increase with decoding speed?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

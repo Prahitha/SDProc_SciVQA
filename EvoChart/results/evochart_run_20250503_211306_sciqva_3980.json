@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "7451fa35ca22861e2b9207dfb97ab332",
+        "question": "Is the orange dashed line in the bottom right plot consistently above the blue solid line?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison between our model (solid lines) and Attention-Informed Mixed Training (Att.) model (dashed lines). Results with different \u03b2 in (a) and (b) and different subset size of training data in (c) and (d). In (c) and (d), it\u2019s worth that the dashline denotes Att. performance with 100% training data and the solid line represents our model performance by varying the proportion training data size.\n\nQuestion: Is the orange dashed line in the bottom right plot consistently above the blue solid line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8feb0398f386d8d56d5216b7889f631e",
+        "question": "In slot filling performance, is the performance of the Spanish model better than the performance of the Thai model, when using 100% of the training data?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison between our model (solid lines) and Attention-Informed Mixed Training (Att.) model (dashed lines). Results with different \u03b2 in (a) and (b) and different subset size of training data in (c) and (d). In (c) and (d), it\u2019s worth that the dashline denotes Att. performance with 100% training data and the solid line represents our model performance by varying the proportion training data size.\n\nQuestion: In slot filling performance, is the performance of the Spanish model better than the performance of the Thai model, when using 100% of the training data?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "0319a0cb1a783696cffdb29ca5f29e13",
+        "question": "Where are the legends located with respect to each subplot?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison between our model (solid lines) and Attention-Informed Mixed Training (Att.) model (dashed lines). Results with different \u03b2 in (a) and (b) and different subset size of training data in (c) and (d). In (c) and (d), it\u2019s worth that the dashline denotes Att. performance with 100% training data and the solid line represents our model performance by varying the proportion training data size.\n\nQuestion: Where are the legends located with respect to each subplot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'At the bottom right corner'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "675e560f82b2f18a7220fb9213492cf4",
+        "question": "What is the range for subset size of training data?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison between our model (solid lines) and Attention-Informed Mixed Training (Att.) model (dashed lines). Results with different \u03b2 in (a) and (b) and different subset size of training data in (c) and (d). In (c) and (d), it\u2019s worth that the dashline denotes Att. performance with 100% training data and the solid line represents our model performance by varying the proportion training data size.\n\nQuestion: What is the range for subset size of training data?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0 to 0.6'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "d154c274504c084bc09a4f837ace3229",
+        "question": "On what task was the model evaluated on in figure 4?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "13cac1f3b65ea08121de73ec5343adc3",
+        "question": "What is the value of the red circle at TopK = 10 in the left subplot?",
+        "answer_pred": "0.0012",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Performances on the 20NG dataset.\n\nQuestion: What is the value of the red circle at TopK = 10 in the left subplot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "6a1ffb934e204283e02d3e7df51b6feb",
+        "question": "What is the maximum value marking on the y axis for PMI?",
+        "answer_pred": "0.99",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Performances on the 20NG dataset.\n\nQuestion: What is the maximum value marking on the y axis for PMI?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "6abd38000f455fe992a7dbcb1366ce11",
+        "question": "Does the green square in the rightmost graph have a higher value than the red circle at the point where the x-axis value is 10?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Performances on the 20NG dataset.\n\nQuestion: Does the green square in the rightmost graph have a higher value than the red circle at the point where the x-axis value is 10?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "14fcaf95bf20e22adbcaa7e0080265d2",
+        "question": "Does the algorithm PLSA-TopK have a higher PMI than DivPLSA-TopK?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Performances on the 20NG dataset.\n\nQuestion: Does the algorithm PLSA-TopK have a higher PMI than DivPLSA-TopK?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "ee1a2298c6544f43ac15f6b52bf4dac2",
+        "question": "What color represents the 'DivPLSA-TopK' line in the left-most figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Performances on the 20NG dataset.\n\nQuestion: What color represents the 'DivPLSA-TopK' line in the left-most figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Black'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

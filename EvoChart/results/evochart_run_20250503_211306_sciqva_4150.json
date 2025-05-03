@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "7d662962dfa0a1efdf087051ea993972",
+        "question": "Where is the legend located in the image?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Distribution of the lexical items\n\nQuestion: Where is the legend located in the image?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Bottom right'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "5f159838745abf11c80b9f87091ffc7e",
+        "question": "What is the second highest value marked on the y axis?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Distribution of the lexical items\n\nQuestion: What is the second highest value marked on the y axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0.75'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "d951810abb3ba632142549c4f0f4d749",
+        "question": "Where does the distribution in figure 4 come from?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "b742b8f27a986dd3bcd3632635340c4c",
+        "question": "What is the approximate value of the red 'x' at the word 'food' in the left panel of Figure 13?",
+        "answer_pred": "0.25",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 13: Influence of the number of perturbed samples on the explanation given for a small decision tree on a Yelp review (\u03bd = 0.25, nexp = 100, d = 29). Left panel: n = 50, right panel: n = 8000. Empirical values are less likely to be close to the theoretical predictions for small n.\n\nQuestion: What is the approximate value of the red 'x' at the word 'food' in the left panel of Figure 13?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "a1334ad33bf8fab3077d9cc4c23947e5",
+        "question": "How many words are analyzed in figure 13?",
+        "answer_pred": "29",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 13: Influence of the number of perturbed samples on the explanation given for a small decision tree on a Yelp review (\u03bd = 0.25, nexp = 100, d = 29). Left panel: n = 50, right panel: n = 8000. Empirical values are less likely to be close to the theoretical predictions for small n.\n\nQuestion: How many words are analyzed in figure 13?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "53e409d4aba06b7146cb256b544029c9",
+        "question": "Are the blue lines always right in the middle of the boxes, with an equal distance to the top and bottom sides of the box?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 13: Influence of the number of perturbed samples on the explanation given for a small decision tree on a Yelp review (\u03bd = 0.25, nexp = 100, d = 29). Left panel: n = 50, right panel: n = 8000. Empirical values are less likely to be close to the theoretical predictions for small n.\n\nQuestion: Are the blue lines always right in the middle of the boxes, with an equal distance to the top and bottom sides of the box?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "81d17e8910880c9cca3080816e1be0f4",
+        "question": "Are there any theoretical predictions with negative values?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 13: Influence of the number of perturbed samples on the explanation given for a small decision tree on a Yelp review (\u03bd = 0.25, nexp = 100, d = 29). Left panel: n = 50, right panel: n = 8000. Empirical values are less likely to be close to the theoretical predictions for small n.\n\nQuestion: Are there any theoretical predictions with negative values?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "faa4822f953d8a31a0b629bfcb9c8958",
+        "question": "Which word has a higher black dot above its box's top whisker in the left chart?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 13: Influence of the number of perturbed samples on the explanation given for a small decision tree on a Yelp review (\u03bd = 0.25, nexp = 100, d = 29). Left panel: n = 50, right panel: n = 8000. Empirical values are less likely to be close to the theoretical predictions for small n.\n\nQuestion: Which word has a higher black dot above its box's top whisker in the left chart?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'about'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "4925f7580567fd94d65642c5e55100b4",
+        "question": "Which of the following values has no word with theoretical prediction equal to it?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 13: Influence of the number of perturbed samples on the explanation given for a small decision tree on a Yelp review (\u03bd = 0.25, nexp = 100, d = 29). Left panel: n = 50, right panel: n = 8000. Empirical values are less likely to be close to the theoretical predictions for small n.\n\nQuestion: Which of the following values has no word with theoretical prediction equal to it?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0.60'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8be863777b3173f8bb089c116edd9219",
+        "question": "According to what theory of formula do the theoretical predictions come from? ",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

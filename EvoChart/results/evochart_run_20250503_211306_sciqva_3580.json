@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "9e31b96e9eb3fafce52d3cc33948c492",
+        "question": "What is the last bucket on the horizontal axis?",
+        "answer_pred": "> 160",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The BLEU scores of various systems with respect to the reference sentence lengths on WMT\u201914 EN-DE testset.\n\nQuestion: What is the last bucket on the horizontal axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "e59ce2d2eacef10a8ab7c7b1db22b80b",
+        "question": "Does the blue line represent the performance of CMLM-1 system?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The BLEU scores of various systems with respect to the reference sentence lengths on WMT\u201914 EN-DE testset.\n\nQuestion: Does the blue line represent the performance of CMLM-1 system?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "02f34078d55290b3546a3abb2a8dbbde",
+        "question": "Does the BLEU score of CMLM-10 consistently increase with respect to the reference sentence lengths?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The BLEU scores of various systems with respect to the reference sentence lengths on WMT\u201914 EN-DE testset.\n\nQuestion: Does the BLEU score of CMLM-10 consistently increase with respect to the reference sentence lengths?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "4dacea84894fef0a5886c8b83843ea44",
+        "question": "Which lines show the highest BLEU score at a reference sentence length of between 10 and 20 words?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The BLEU scores of various systems with respect to the reference sentence lengths on WMT\u201914 EN-DE testset.\n\nQuestion: Which lines show the highest BLEU score at a reference sentence length of between 10 and 20 words?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Grey and dark blue'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8cb92bbaadff87fc61da098a936dc7b1",
+        "question": "Which of these systems consistently achieve BLEU scores below 25?",
+        "answer_pred": "C",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The BLEU scores of various systems with respect to the reference sentence lengths on WMT\u201914 EN-DE testset.\n\nQuestion: Which of these systems consistently achieve BLEU scores below 25?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'AT-L'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "95f74848b39266801eb1e066b804d750",
+        "question": "What is the specific implementation detail of the CMLM-1 system?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "46a224c1f3a758539c3eda48b3feceb5",
+        "question": "What is the highest value of any line on the right graph?",
+        "answer_pred": "0.99",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Accuracy on the validation set over time for models trained on (a) the full SLU dataset or (b) 10% of the dataset.\n\nQuestion: What is the highest value of any line on the right graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "4948e0f2783937445c2b1c514bfb4629",
+        "question": "What is the maximum training time (epochs) shown in the figure for the model trained on the full SLU dataset?",
+        "answer_pred": "100",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Accuracy on the validation set over time for models trained on (a) the full SLU dataset or (b) 10% of the dataset.\n\nQuestion: What is the maximum training time (epochs) shown in the figure for the model trained on the full SLU dataset?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "624694491ef57d9e5f2b134b9dafec78",
+        "question": "Do the lines in the right graph ever reach higher than the maximum height of the lines on the left graph?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Accuracy on the validation set over time for models trained on (a) the full SLU dataset or (b) 10% of the dataset.\n\nQuestion: Do the lines in the right graph ever reach higher than the maximum height of the lines on the left graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "9fcaddb94307d1399f4d41b9b3eab945",
+        "question": "Was the model trained for the same number of epochs on the full dataset as for 10% of the data?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Accuracy on the validation set over time for models trained on (a) the full SLU dataset or (b) 10% of the dataset.\n\nQuestion: Was the model trained for the same number of epochs on the full dataset as for 10% of the data?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

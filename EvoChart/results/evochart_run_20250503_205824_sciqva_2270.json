@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "ffaeffe956869ef0048f87ba90b4cec0",
+        "question": "What is the approximate CPU time of the cyan line at C = 10 in the left graph?",
+        "answer_pred": "1.2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1. The average CPU time on PKU dataset by varying C on five randomly sample of training and testing datasets.\n\nQuestion: What is the approximate CPU time of the cyan line at C = 10 in the left graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "17523a5f612fec0fe5c2739a47ed6057",
+        "question": "Which method has the lowest CPU time on the PKU dataset when C is equal to 1 in graph (a)?",
+        "answer_pred": "CRF",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1. The average CPU time on PKU dataset by varying C on five randomly sample of training and testing datasets.\n\nQuestion: Which method has the lowest CPU time on the PKU dataset when C is equal to 1 in graph (a)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "e027738df345b7b20780667e30fc0321",
+        "question": "Is the CPU time for 'OnlineMKL' represented by the blue line consistently higher than the CPU time for 'IRW-CRF' represented by the cyan line on TP1?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1. The average CPU time on PKU dataset by varying C on five randomly sample of training and testing datasets.\n\nQuestion: Is the CPU time for 'OnlineMKL' represented by the blue line consistently higher than the CPU time for 'IRW-CRF' represented by the cyan line on TP1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "416a5acc90de543204eb446f0efc1863",
+        "question": "Does the average CPU time for OnlineMKL consistently increase as C increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1. The average CPU time on PKU dataset by varying C on five randomly sample of training and testing datasets.\n\nQuestion: Does the average CPU time for OnlineMKL consistently increase as C increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "56609f577d999b65811dbf9b5f1c77d4",
+        "question": "Which line in the graph labeled (a) TP1 represent the fastest CPU times?",
+        "answer_pred": "Blue line",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1. The average CPU time on PKU dataset by varying C on five randomly sample of training and testing datasets.\n\nQuestion: Which line in the graph labeled (a) TP1 represent the fastest CPU times?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Red line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "bea3895d7e0352a9c6dda85e02379c52",
+        "question": "What is the average CPU time for CRF(I2) at C = 10 in TP1?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1. The average CPU time on PKU dataset by varying C on five randomly sample of training and testing datasets.\n\nQuestion: What is the average CPU time for CRF(I2) at C = 10 in TP1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '10000'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "d370804d536184970d4ec4c9db3f8f53",
+        "question": "What is the average CPU time for CRF(I2) at C = 1000 in TP1?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "3194e058fdf35dcf4d75b15fe66cfffb",
+        "question": "What is the accuracy of the line with circle markers in the Amazon dataset when \u03bb is 0.2?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Tuning the hyper-parameter \u03bb.\n\nQuestion: What is the accuracy of the line with circle markers in the Amazon dataset when \u03bb is 0.2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "12e89825ac85c19bcf6514b3238cc942",
+        "question": "What are the two datasets shown in figure 4?",
+        "answer_pred": "[20 Newsgroups, 20 Newsgroups]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Tuning the hyper-parameter \u03bb.\n\nQuestion: What are the two datasets shown in figure 4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "2e23b8c6988906da98f6cb287f31edef",
+        "question": "Does the line with circle markers in the Amazon dataset graph (a) show a peak accuracy above 95?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Tuning the hyper-parameter \u03bb.\n\nQuestion: Does the line with circle markers in the Amazon dataset graph (a) show a peak accuracy above 95?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

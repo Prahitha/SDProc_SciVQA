@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "f22ce6b1a18cecc96edcf5b320beff41",
+        "question": "What color is the section of the pie chart that represents 'other verbs'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Distribution of verbs in the VQA dataset (Antol et al., 2015a), to be versus other verbs.\n\nQuestion: What color is the section of the pie chart that represents 'other verbs'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Green'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "579bd0c7874a6856d5e5c9bd3d158e2c",
+        "question": "How many slices does the pie of figure 1 have?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Distribution of verbs in the VQA dataset (Antol et al., 2015a), to be versus other verbs.\n\nQuestion: How many slices does the pie of figure 1 have?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'five'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "b41aaf5f77a443c098bd229b7c5c75ea",
+        "question": "What is the absolute number of questions in the VQA dataset that use the verb 'to be'?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "c9ba70eae969d7ba9a9c238fa664bdeb",
+        "question": "What is the approximate value of the solid black line at around 8000 sentences?",
+        "answer_pred": "8000",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Cumulative BLEU scores on the validation set sorted by the sentence-level score difference according to the larger-context model.\n\nQuestion: What is the approximate value of the solid black line at around 8000 sentences?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b8d55e1234d257cbd8cfd593883b8c44",
+        "question": "What are the two models being compared?",
+        "answer_pred": "LSTM and Transformer",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Cumulative BLEU scores on the validation set sorted by the sentence-level score difference according to the larger-context model.\n\nQuestion: What are the two models being compared?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "9220ac3f45cc0d73b45f1669a02130e0",
+        "question": "Does the black solid line represent the 'LC' model?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Cumulative BLEU scores on the validation set sorted by the sentence-level score difference according to the larger-context model.\n\nQuestion: Does the black solid line represent the 'LC' model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "f0e514767ffaf8958f3cbd01f700a130",
+        "question": "Are the scores for LC and LC+Rand consistently the same?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Cumulative BLEU scores on the validation set sorted by the sentence-level score difference according to the larger-context model.\n\nQuestion: Are the scores for LC and LC+Rand consistently the same?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8c9390f5a814f6f8123184c75634852e",
+        "question": "In which corner of the figure is the legend located?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Cumulative BLEU scores on the validation set sorted by the sentence-level score difference according to the larger-context model.\n\nQuestion: In which corner of the figure is the legend located?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Bottom right'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "4b43b1084c138d37b49a8789fc4bde50",
+        "question": "What models reach their cumulative BLEU score at around 8000 sentences?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Cumulative BLEU scores on the validation set sorted by the sentence-level score difference according to the larger-context model.\n\nQuestion: What models reach their cumulative BLEU score at around 8000 sentences?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "02a4da60ff7a33de5c61a2414330808d",
+        "question": "What specific language pairs were used in the experiment to generate the BLEU scores?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

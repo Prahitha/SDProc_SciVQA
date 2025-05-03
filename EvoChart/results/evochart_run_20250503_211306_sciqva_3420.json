@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "d9f900cf64c5ca5f66361cc5a2a30845",
+        "question": "Are all three tree structures depicted in Figure 13 oriented vertically, with the top node positioned above the bottom nodes?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 13: This figure shows trees that with the atomic proposition trees construct (from left to right) negation, conjunction, and disjunction.\n\nQuestion: Are all three tree structures depicted in Figure 13 oriented vertically, with the top node positioned above the bottom nodes?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "6ccc39e48ff3b47fdaec5eb463532524",
+        "question": "Do these trees use negation, conjunction, disjunction and implication?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 13: This figure shows trees that with the atomic proposition trees construct (from left to right) negation, conjunction, and disjunction.\n\nQuestion: Do these trees use negation, conjunction, disjunction and implication?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "5dfdfe491116d758c642978e23a6d74d",
+        "question": "Considering the position and symbols in Figure 13, which options correctly describe the tree representing conjunction?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 13: This figure shows trees that with the atomic proposition trees construct (from left to right) negation, conjunction, and disjunction.\n\nQuestion: Considering the position and symbols in Figure 13, which options correctly describe the tree representing conjunction?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'It is the leftmost tree which shows a negation of V\u2082.'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "7e9c8466d2ab096e92f845f753b022f0",
+        "question": "Which of the following logical connectives are used in Figure 13?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 13: This figure shows trees that with the atomic proposition trees construct (from left to right) negation, conjunction, and disjunction.\n\nQuestion: Which of the following logical connectives are used in Figure 13?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Implication'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "b3b147f8fd2ddb0722762085c8af58ff",
+        "question": "What is the specific logical equivalence represented by the conjunction tree in Figure 13, considering potential contextual axioms or theorems from the associated paper?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "ed1f87088ef7c80aca4af1c2a38bf8d9",
+        "question": "What is the text in the box to the right of \"Sense Detection\"?",
+        "answer_pred": "Molecular",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Dialog system used in this work.\n\nQuestion: What is the text in the box to the right of \"Sense Detection\"?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "fc4e19f6544a416b6552196b7ed5a6d0",
+        "question": "How many users are there?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Dialog system used in this work.\n\nQuestion: How many users are there?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "4101f1b7989e8cd991b92a23ee90bb22",
+        "question": "Does the figure illustrate the system flow from right to left?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Dialog system used in this work.\n\nQuestion: Does the figure illustrate the system flow from right to left?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d689747fa6551db4f89596762198ab02",
+        "question": "Is the dialog system designed to handle interactions between four users?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Dialog system used in this work.\n\nQuestion: Is the dialog system designed to handle interactions between four users?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "ffec749d411d063cba0e325966985ed7",
+        "question": "Which boxes are connected to the box labeled \"Dialog Manager\"?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Dialog system used in this work.\n\nQuestion: Which boxes are connected to the box labeled \"Dialog Manager\"?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

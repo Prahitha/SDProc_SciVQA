@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "8faa856d2fc168bc617175bb24c9a439",
+        "question": "Does the accuracy of the orange line surpass the accuracy of the green line at the third fine-tuning iteration?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The per-turn accuracy of different methods on the test set during fine-tuning with 1 dialog adaptation where the target domain is restaurant.\n\nQuestion: Does the accuracy of the orange line surpass the accuracy of the green line at the third fine-tuning iteration?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8cbcb53200f7fc26cdcbe28053f8b078",
+        "question": "Does the accuracy of 'Mem' method stabilize after 5 fine-tuning iterations?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The per-turn accuracy of different methods on the test set during fine-tuning with 1 dialog adaptation where the target domain is restaurant.\n\nQuestion: Does the accuracy of 'Mem' method stabilize after 5 fine-tuning iterations?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "da0852be11d420c6026a20a0bec9c667",
+        "question": "Which line shows the highest accuracy at fine-tuning iteration 1?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The per-turn accuracy of different methods on the test set during fine-tuning with 1 dialog adaptation where the target domain is restaurant.\n\nQuestion: Which line shows the highest accuracy at fine-tuning iteration 1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Brown'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "f8edaacace977d351cd69fc53078e28f",
+        "question": "Which line shows the highest accuracy after fine-tuning iteration 10?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The per-turn accuracy of different methods on the test set during fine-tuning with 1 dialog adaptation where the target domain is restaurant.\n\nQuestion: Which line shows the highest accuracy after fine-tuning iteration 10?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'MDSrand'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "594faed8a199282ffa881ee6bb5db4e0",
+        "question": "What was the size of the test set?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "4a08aec6efa01696897083a249a20027",
+        "question": "What is the highest correlation value of the orange dotted line in the 'BERT' graph?",
+        "answer_pred": "0.74",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Correlation on BiRD dataset with phrases embedded in sentence context (context-available input setting).\n\nQuestion: What is the highest correlation value of the orange dotted line in the 'BERT' graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "fa5bb8b37797eac4f22e8f4f9f30a0b4",
+        "question": "What is the highest correlation value for CLS in the 'XLM-RoBERTa' graph?",
+        "answer_pred": "0.74",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Correlation on BiRD dataset with phrases embedded in sentence context (context-available input setting).\n\nQuestion: What is the highest correlation value for CLS in the 'XLM-RoBERTa' graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "82a1e9b272d08b689c0110b95758018a",
+        "question": "Is the correlation value of the red line at layer 8 higher than the value of the green line at the same layer in the 'BERT-ABBA' subplot?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Correlation on BiRD dataset with phrases embedded in sentence context (context-available input setting).\n\nQuestion: Is the correlation value of the red line at layer 8 higher than the value of the green line at the same layer in the 'BERT-ABBA' subplot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "ba7582008b48582a8ee050c1033af8c8",
+        "question": " Is the maximum correlation reached by 'Avg Phrase' across all layers on the BiRD dataset always higher for models without ABBA than the ones with ABBA?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Correlation on BiRD dataset with phrases embedded in sentence context (context-available input setting).\n\nQuestion:  Is the maximum correlation reached by 'Avg Phrase' across all layers on the BiRD dataset always higher for models without ABBA than the ones with ABBA?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "447d71f94b61061a4c6b5ec518642a70",
+        "question": "In the first row of plots, what color represents the correlation between the average phrase and the layer?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Correlation on BiRD dataset with phrases embedded in sentence context (context-available input setting).\n\nQuestion: In the first row of plots, what color represents the correlation between the average phrase and the layer?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Green'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

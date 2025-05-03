@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "7f210bd432fba8ee433918d45db0d545",
+        "question": "Which of the following conversation segments have statistically significant differences between risk-assessed and non-risk-assessed conversations in the 'naive distance' plot?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Mean naive distance, backwards-range (\u2190\u2212\u03c3 ), and % of utterances with questions, per segment for riskassessed (orange) and non-risk-assessed (black) conversations; solid circles indicate statistically significant differences (Wilcoxon p < 0.01, comparing conversation types within counselor).\n\nQuestion: Which of the following conversation segments have statistically significant differences between risk-assessed and non-risk-assessed conversations in the 'naive distance' plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '60%'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "5b45178e78b51ddb1c20b5c16549a56d",
+        "question": "What is the specific number of risk-assessed conversations analyzed in this study?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "4576e5766991476030d06dfa46681531",
+        "question": "What is the nearest neighbor translation accuracy of the solid green line when the parallel corpus size is 20K?",
+        "answer_pred": "0.63",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Nearest neighbor translation accuracy as a function of (log) parallel corpus size. The legend shows the average accuracies of each model using 1M parallel sentences.\n\nQuestion: What is the nearest neighbor translation accuracy of the solid green line when the parallel corpus size is 20K?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "9028827432a0ba3c36f70fbe41e0f1c5",
+        "question": "What is the exact average accuracy for InferSent (Transfer) using 1 million parallel sentences?",
+        "answer_pred": "0.69",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Nearest neighbor translation accuracy as a function of (log) parallel corpus size. The legend shows the average accuracies of each model using 1M parallel sentences.\n\nQuestion: What is the exact average accuracy for InferSent (Transfer) using 1 million parallel sentences?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b91cccf6f2007cf96f76a0f96aaa3d98",
+        "question": "Does the blue line representing 'InferSent (sent)' have a lower accuracy than the green line representing 'FastText (sent)' at the '20K' parallel corpus size?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Nearest neighbor translation accuracy as a function of (log) parallel corpus size. The legend shows the average accuracies of each model using 1M parallel sentences.\n\nQuestion: Does the blue line representing 'InferSent (sent)' have a lower accuracy than the green line representing 'FastText (sent)' at the '20K' parallel corpus size?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d5eb3612eeffa64f76da1dfac444f927",
+        "question": "Does the translation accuracy of InferSent (Transfer) model exceed 80% when trained on 0.5M parallel sentences?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Nearest neighbor translation accuracy as a function of (log) parallel corpus size. The legend shows the average accuracies of each model using 1M parallel sentences.\n\nQuestion: Does the translation accuracy of InferSent (Transfer) model exceed 80% when trained on 0.5M parallel sentences?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a34eace2ac4ce7d1fd6ed435cd0c1a35",
+        "question": "Which line represents the model 'InferSent (Transfer)' on the graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Nearest neighbor translation accuracy as a function of (log) parallel corpus size. The legend shows the average accuracies of each model using 1M parallel sentences.\n\nQuestion: Which line represents the model 'InferSent (Transfer)' on the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The line with squares'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "12756862388518ed8f89f1a97f191269",
+        "question": "Which model has the highest average accuracy?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Nearest neighbor translation accuracy as a function of (log) parallel corpus size. The legend shows the average accuracies of each model using 1M parallel sentences.\n\nQuestion: Which model has the highest average accuracy?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'FastText'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "541f5d6776dd5bab0454d54615256830",
+        "question": "What is the average accuracy of the InferSent model using 2M parallel sentences?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "d7033b2e868a931adb6c581dca5776ba",
+        "question": "What is the accuracy of the line with yellow markers when alpha is 0.6?",
+        "answer_pred": "0.74",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Accuracy of C&W, word2vec and our radical-enhanced model with K=10.\n\nQuestion: What is the accuracy of the line with yellow markers when alpha is 0.6?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "dfb2dbae564ea87be967012d6787e7ff",
+        "question": "What is the label of the node directly below the topmost node with label 't'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Tree Set for some fundraiser\n\nQuestion: What is the label of the node directly below the topmost node with label 't'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "9547dcd5fcee4fc49ff9a220a43be9a1",
+        "question": "How many trees are there in the tree set?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Tree Set for some fundraiser\n\nQuestion: How many trees are there in the tree set?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "302ee060ca00de225ead1b344ef4a4bc",
+        "question": "Is the number '2' contained within a box located to the right of the word 'fundraiser'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Tree Set for some fundraiser\n\nQuestion: Is the number '2' contained within a box located to the right of the word 'fundraiser'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "fee56877f9df8cdd5a66a73f7f552dd3",
+        "question": "Does one of the trees in figure 1 consist of only a single edge?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Tree Set for some fundraiser\n\nQuestion: Does one of the trees in figure 1 consist of only a single edge?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "5542aa2e3214cd7e62f2b0eb382a0757",
+        "question": "Which of the following labels appear directly below the lower 't' label with a '2' in the box?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Tree Set for some fundraiser\n\nQuestion: Which of the following labels appear directly below the lower 't' label with a '2' in the box?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'fundraiser'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "022b3f75893c3486fcea740cef90fd69",
+        "question": "What is the value of the node labeled 'NP'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Tree Set for some fundraiser\n\nQuestion: What is the value of the node labeled 'NP'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '4'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "ed807d1b7344990f71159784309698e4",
+        "question": "What function do the curly braces serve in the tree set of figure 1?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "80aebbd3edfa5c5c9d98f83cf4debe10",
+        "question": "What is the name of the node below and to the right of A?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Abstract example tree.\n\nQuestion: What is the name of the node below and to the right of A?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "581e76df08ba48bd5a1aec6777035683",
+        "question": "How many branches does node B have?",
+        "answer_pred": "2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Abstract example tree.\n\nQuestion: How many branches does node B have?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "e52b9921c537a0196de3125e6e023b6c",
+        "question": "Is the letter 'A' positioned above the letter 'C' in the tree?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Abstract example tree.\n\nQuestion: Is the letter 'A' positioned above the letter 'C' in the tree?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

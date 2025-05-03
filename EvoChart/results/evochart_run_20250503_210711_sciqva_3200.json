@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "27963c1558b5261b3b211a4cbe71fb64",
+        "question": "What is the precise p-value associated with the difference in Interesting Interaction Count (IC) between the 'CGH' and 'No Imag.' methods on the testing set (Gtest) at episode 50,000?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "67cb433f8897467d2c734a2d57a4e0a3",
+        "question": "What is the approximate maximum success rate achieved by the blue line?",
+        "answer_pred": "81",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 11: Zero-shot versus n-shot. We look at the Low Coverage variant of our goal imagination mechanism that only covers 43.7% the test set with a 45% precision. We report success rates on testing goals of Type 5 (grow + plant) and compare with the no imagination baseline (green). We split in two: goals that were imagined (blue), and goals that were not (orange).\n\nQuestion: What is the approximate maximum success rate achieved by the blue line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "371e9703ecbcc4727043c72dcd5dc437",
+        "question": "What is the approximate highest success rate achieved by test imagined?",
+        "answer_pred": "81",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 11: Zero-shot versus n-shot. We look at the Low Coverage variant of our goal imagination mechanism that only covers 43.7% the test set with a 45% precision. We report success rates on testing goals of Type 5 (grow + plant) and compare with the no imagination baseline (green). We split in two: goals that were imagined (blue), and goals that were not (orange).\n\nQuestion: What is the approximate highest success rate achieved by test imagined?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "2388b8c3d2a2c4757a25f0d232741784",
+        "question": "Does the blue line represent 'Test Imagined' goals at the 60k episode mark?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 11: Zero-shot versus n-shot. We look at the Low Coverage variant of our goal imagination mechanism that only covers 43.7% the test set with a 45% precision. We report success rates on testing goals of Type 5 (grow + plant) and compare with the no imagination baseline (green). We split in two: goals that were imagined (blue), and goals that were not (orange).\n\nQuestion: Does the blue line represent 'Test Imagined' goals at the 60k episode mark?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "be53f6599ed83ef616c9546a531eeb56",
+        "question": "Is the success rate for 'Test Not Imagined' consistently lower than the 'No Imagination Baseline'?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 11: Zero-shot versus n-shot. We look at the Low Coverage variant of our goal imagination mechanism that only covers 43.7% the test set with a 45% precision. We report success rates on testing goals of Type 5 (grow + plant) and compare with the no imagination baseline (green). We split in two: goals that were imagined (blue), and goals that were not (orange).\n\nQuestion: Is the success rate for 'Test Not Imagined' consistently lower than the 'No Imagination Baseline'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8436fc8b33fffd3cba1d555803254950",
+        "question": "Which line in the graph represents the success rate for goals that were not imagined?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 11: Zero-shot versus n-shot. We look at the Low Coverage variant of our goal imagination mechanism that only covers 43.7% the test set with a 45% precision. We report success rates on testing goals of Type 5 (grow + plant) and compare with the no imagination baseline (green). We split in two: goals that were imagined (blue), and goals that were not (orange).\n\nQuestion: Which line in the graph represents the success rate for goals that were not imagined?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "abcae625097f480c61d0ea7f410925c4",
+        "question": "Which of the following describes the success rate trend of the No Imagination Baseline?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 11: Zero-shot versus n-shot. We look at the Low Coverage variant of our goal imagination mechanism that only covers 43.7% the test set with a 45% precision. We report success rates on testing goals of Type 5 (grow + plant) and compare with the no imagination baseline (green). We split in two: goals that were imagined (blue), and goals that were not (orange).\n\nQuestion: Which of the following describes the success rate trend of the No Imagination Baseline?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Fluctuating'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "ef1dc2fb917d977a4f907df87ebf2e7c",
+        "question": "What are the success rates of the imagination mechanism for goals of Type 5 (grow + plant) at 50,000 episodes for both imagined and not imagined goals?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "6d19923e643b935c443a49a2c6a0e025",
+        "question": "What is the distance value at which the dashed green line reaches a value of 0?",
+        "answer_pred": "0.02",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Distance labels Figure 2: Times labels\n\nQuestion: What is the distance value at which the dashed green line reaches a value of 0?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "ddf9e409310054be504f2c1b9c63f538",
+        "question": "What is the maximum value of times?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Distance labels Figure 2: Times labels\n\nQuestion: What is the maximum value of times?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "5c510568a886494faa4ea9d168abf0e6",
+        "question": "What was the task that these subnetworks were used for?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "a0110718385e4af87bd86dfc33931758",
+        "question": "What is the approximate value of the y-axis at the point where the orange line reaches its maximum value?",
+        "answer_pred": "0.01",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Learning curves of the KL term in the VAE loss function (\u03bb \u00b7KL) for different values of \u03bb, and the variant where \u03bb is annealed.\n\nQuestion: What is the approximate value of the y-axis at the point where the orange line reaches its maximum value?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f76f3b2a3bf088fbe46691e7f12633fd",
+        "question": "What are the different values of \u03bb used in the experiment?",
+        "answer_pred": "[0.01, 0.1, 1, 10, 100]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Learning curves of the KL term in the VAE loss function (\u03bb \u00b7KL) for different values of \u03bb, and the variant where \u03bb is annealed.\n\nQuestion: What are the different values of \u03bb used in the experiment?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "307e86c5b907498c34fc29b0c9024ecf",
+        "question": "Does the red line representing \u03bb = 1.0 have a higher value than the orange line representing \u03bb Annealed at the 1000th iteration?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Learning curves of the KL term in the VAE loss function (\u03bb \u00b7KL) for different values of \u03bb, and the variant where \u03bb is annealed.\n\nQuestion: Does the red line representing \u03bb = 1.0 have a higher value than the orange line representing \u03bb Annealed at the 1000th iteration?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "be4892b91faa1405dce35aab33a18996",
+        "question": "Does the KL term for \u03bb = 1.0 decrease over the course of iterations?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Learning curves of the KL term in the VAE loss function (\u03bb \u00b7KL) for different values of \u03bb, and the variant where \u03bb is annealed.\n\nQuestion: Does the KL term for \u03bb = 1.0 decrease over the course of iterations?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "64c5250450b9d32d10609089c64c4643",
+        "question": "Which of the lines in the figure represents the highest value of \u03bb \u00b7 KL (Batch Average) around 4000 iterations?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Learning curves of the KL term in the VAE loss function (\u03bb \u00b7KL) for different values of \u03bb, and the variant where \u03bb is annealed.\n\nQuestion: Which of the lines in the figure represents the highest value of \u03bb \u00b7 KL (Batch Average) around 4000 iterations?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The orange line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "b9cdb80d685e57b3021145838d571027",
+        "question": "Which value of \u03bb had the lowest \u03bb \u00b7 KL (Batch Average) after 500 iterations?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Learning curves of the KL term in the VAE loss function (\u03bb \u00b7KL) for different values of \u03bb, and the variant where \u03bb is annealed.\n\nQuestion: Which value of \u03bb had the lowest \u03bb \u00b7 KL (Batch Average) after 500 iterations?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0.001'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "2ba0df9773fe2ddde94a276eb3d0b0e8",
+        "question": "What is the specific dataset used for training the VAE model shown in Figure 3?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "22015fed71ba4fcf4b2c717cde6bc4af",
+        "question": "What is the approximate value of the per-turn accuracy for the green line at the 10th fine-tuning iteration?",
+        "answer_pred": "59.4",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The per-turn accuracy of different methods on the test set during fine-tuning with 1 dialog adaptation where the target domain is restaurant.\n\nQuestion: What is the approximate value of the per-turn accuracy for the green line at the 10th fine-tuning iteration?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "8b186f0ad8487a1e6802411f1ff0aecc",
+        "question": "What is the lowest value marked on the y axis?",
+        "answer_pred": "39.7",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: The per-turn accuracy of different methods on the test set during fine-tuning with 1 dialog adaptation where the target domain is restaurant.\n\nQuestion: What is the lowest value marked on the y axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

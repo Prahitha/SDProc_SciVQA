@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "e72601bb15bd0a17c5d63078defa63b3",
+        "question": "Which line in the bottom plot has the highest peak?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Time series distribution for sources in the FinLin corpus. The bottom plot shows the distribution for the Company Reports, Investor Reports, and News, using a smaller y-axis.\n\nQuestion: Which line in the bottom plot has the highest peak?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Red line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "a808f237daa9719cf37cb9ae224e13cd",
+        "question": "Which source type shows the highest frequency in September in the plot with smaller y-axis?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Time series distribution for sources in the FinLin corpus. The bottom plot shows the distribution for the Company Reports, Investor Reports, and News, using a smaller y-axis.\n\nQuestion: Which source type shows the highest frequency in September in the plot with smaller y-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'StockTwits'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "8d725b53fbca29a90ebbf730e9f6383e",
+        "question": "What is the average number of 'News' reports during the month of September?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "8198080ed790c1c3c55ccdbe171abf32",
+        "question": "What is the label of the vertical dashed line in the bottom plot?",
+        "answer_pred": "Xmin",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Hypernym frequency distribution for the PAN 2016 (Age) data set. The equation above the upper plot denotes the coefficients of a power law distribution (C is a constant). In real world phenomena, the exponent of the rightmost expression was observed to range between \u2248 2 and \u2248 3, indicating the hypernym structure of the feature space is subject to a heavy-tailed (possibly best fit\u2014power law) distribution. The Xmin denotes the hypernym count, after which notable differences in hypernym counts\u2014scale free behavior is observed. Such distribution is to some extent expected, as some hypernyms are more general than others, and thus present in more document-hypernym mappings.\n\nQuestion: What is the label of the vertical dashed line in the bottom plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "0e1bfdd28094af82adfb52e5a1f8067a",
+        "question": "What is the value of the exponent in the power law distribution?",
+        "answer_pred": "2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Hypernym frequency distribution for the PAN 2016 (Age) data set. The equation above the upper plot denotes the coefficients of a power law distribution (C is a constant). In real world phenomena, the exponent of the rightmost expression was observed to range between \u2248 2 and \u2248 3, indicating the hypernym structure of the feature space is subject to a heavy-tailed (possibly best fit\u2014power law) distribution. The Xmin denotes the hypernym count, after which notable differences in hypernym counts\u2014scale free behavior is observed. Such distribution is to some extent expected, as some hypernyms are more general than others, and thus present in more document-hypernym mappings.\n\nQuestion: What is the value of the exponent in the power law distribution?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "2a3bda2a4c8c465cfa93a94ab5a31cd2",
+        "question": "Is the red line labeled 'Exponential' consistently higher than the green line labeled 'Power law' in the bottom plot?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Hypernym frequency distribution for the PAN 2016 (Age) data set. The equation above the upper plot denotes the coefficients of a power law distribution (C is a constant). In real world phenomena, the exponent of the rightmost expression was observed to range between \u2248 2 and \u2248 3, indicating the hypernym structure of the feature space is subject to a heavy-tailed (possibly best fit\u2014power law) distribution. The Xmin denotes the hypernym count, after which notable differences in hypernym counts\u2014scale free behavior is observed. Such distribution is to some extent expected, as some hypernyms are more general than others, and thus present in more document-hypernym mappings.\n\nQuestion: Is the red line labeled 'Exponential' consistently higher than the green line labeled 'Power law' in the bottom plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "fbcb2e727a89bf37a9662d3510732d26",
+        "question": "Does the graph include a fit for truncated power law?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Hypernym frequency distribution for the PAN 2016 (Age) data set. The equation above the upper plot denotes the coefficients of a power law distribution (C is a constant). In real world phenomena, the exponent of the rightmost expression was observed to range between \u2248 2 and \u2248 3, indicating the hypernym structure of the feature space is subject to a heavy-tailed (possibly best fit\u2014power law) distribution. The Xmin denotes the hypernym count, after which notable differences in hypernym counts\u2014scale free behavior is observed. Such distribution is to some extent expected, as some hypernyms are more general than others, and thus present in more document-hypernym mappings.\n\nQuestion: Does the graph include a fit for truncated power law?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "69a33c85baf9123ff97e2eeb516c5fc3",
+        "question": "Which line represents 'power law' in Figure 7?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Hypernym frequency distribution for the PAN 2016 (Age) data set. The equation above the upper plot denotes the coefficients of a power law distribution (C is a constant). In real world phenomena, the exponent of the rightmost expression was observed to range between \u2248 2 and \u2248 3, indicating the hypernym structure of the feature space is subject to a heavy-tailed (possibly best fit\u2014power law) distribution. The Xmin denotes the hypernym count, after which notable differences in hypernym counts\u2014scale free behavior is observed. Such distribution is to some extent expected, as some hypernyms are more general than others, and thus present in more document-hypernym mappings.\n\nQuestion: Which line represents 'power law' in Figure 7?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Solid yellow line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "597c5db649a0db9ff1cc8841e48a3ed6",
+        "question": "Which of the following distributions is present in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Hypernym frequency distribution for the PAN 2016 (Age) data set. The equation above the upper plot denotes the coefficients of a power law distribution (C is a constant). In real world phenomena, the exponent of the rightmost expression was observed to range between \u2248 2 and \u2248 3, indicating the hypernym structure of the feature space is subject to a heavy-tailed (possibly best fit\u2014power law) distribution. The Xmin denotes the hypernym count, after which notable differences in hypernym counts\u2014scale free behavior is observed. Such distribution is to some extent expected, as some hypernyms are more general than others, and thus present in more document-hypernym mappings.\n\nQuestion: Which of the following distributions is present in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "485f6a09894b16ec4367f006f1da1b3e",
+        "question": "What specific research question is the experiment represented by the figure aiming to answer?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]

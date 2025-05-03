@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "535677e33394fccb737d6af6d923354b",
+        "question": "How many models are compared in figure 2?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Comparison of PR curves between our proposed model and baselines on the NYT dataset\n\nQuestion: How many models are compared in figure 2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '9'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "79d5f957a4076a405733b4a561603d21",
+        "question": "What is the task that the authors' model is being evaluated on in figure 2?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "0b547675fcb8e6841109d86c70e86cd0",
+        "question": "Which line in the plot represents the 'Top-k sampling, k=20' method?",
+        "answer_pred": "Top-k sampling, k=20",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Mean probability for each of the first 150 word-level story tokens. When teacher-forcing the model on human text, probability increases slowly. When generating with top-k sampling, probability increases faster, especially for smaller k. This plot is for the Fusion Model; similar patterns hold for GPT2-117.\n\nQuestion: Which line in the plot represents the 'Top-k sampling, k=20' method?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "a15f95b67719046e5074f322c70111ff",
+        "question": "What is the maximum number of story tokens represented in the plot?",
+        "answer_pred": "150",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Mean probability for each of the first 150 word-level story tokens. When teacher-forcing the model on human text, probability increases slowly. When generating with top-k sampling, probability increases faster, especially for smaller k. This plot is for the Fusion Model; similar patterns hold for GPT2-117.\n\nQuestion: What is the maximum number of story tokens represented in the plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "80e246f915aad0361579a83f5f56a5a1",
+        "question": "Does the legend cover a part of any curve?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Mean probability for each of the first 150 word-level story tokens. When teacher-forcing the model on human text, probability increases slowly. When generating with top-k sampling, probability increases faster, especially for smaller k. This plot is for the Fusion Model; similar patterns hold for GPT2-117.\n\nQuestion: Does the legend cover a part of any curve?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "748880c3854a60d800dc1a4401b846c8",
+        "question": "Does the probability increase faster when generating with top-k sampling than when teacher-forcing the model on human text?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Mean probability for each of the first 150 word-level story tokens. When teacher-forcing the model on human text, probability increases slowly. When generating with top-k sampling, probability increases faster, especially for smaller k. This plot is for the Fusion Model; similar patterns hold for GPT2-117.\n\nQuestion: Does the probability increase faster when generating with top-k sampling than when teacher-forcing the model on human text?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "0a4190c3877871eca9dfc0cd8aa73634",
+        "question": "Which is the color of the line that represents 'Top-k sampling, k=5'?",
+        "answer_pred": "C",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Mean probability for each of the first 150 word-level story tokens. When teacher-forcing the model on human text, probability increases slowly. When generating with top-k sampling, probability increases faster, especially for smaller k. This plot is for the Fusion Model; similar patterns hold for GPT2-117.\n\nQuestion: Which is the color of the line that represents 'Top-k sampling, k=5'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Black'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "727c3fe9433f590f45e030419dfd9a77",
+        "question": "Which of the following methods has the mean probability of token decrease in the window of indices 5 to 25?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Mean probability for each of the first 150 word-level story tokens. When teacher-forcing the model on human text, probability increases slowly. When generating with top-k sampling, probability increases faster, especially for smaller k. This plot is for the Fusion Model; similar patterns hold for GPT2-117.\n\nQuestion: Which of the following methods has the mean probability of token decrease in the window of indices 5 to 25?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "823c719c12a38e3d76db537234696e90",
+        "question": "What is the average word-level story token probability for the first 150 tokens when using top-k sampling with k=10?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "67d9002fa34c6214f970346023882654",
+        "question": "What is the percentage of the gray bar representing 'w/o COPT' in the 'High' reward interval of Epoch-7 in the reward distribution of REGS?",
+        "answer_pred": "0.01",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Reward distribution and the average reward of the counterfactual response (w/ COPT) and the standard response (w/o COPT). The y-axis in (a) and (b) is the percentage, and the x-axis corresponds to three reward intervals in different epochs, including: Low reward interval [0.00, 0.33], Middle reward interval (0.33, 0.66], and High reward interval (0.66, 1.00]. The y-axis in (c) and (d) is the reward, and the x-axis corresponds to epochs.\n\nQuestion: What is the percentage of the gray bar representing 'w/o COPT' in the 'High' reward interval of Epoch-7 in the reward distribution of REGS?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

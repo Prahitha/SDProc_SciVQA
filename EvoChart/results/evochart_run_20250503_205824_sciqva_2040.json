@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "81df888e493ae09450044d1a87b6767d",
+        "question": "How many epochs are used in training the RNN?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Ratios at depth 10 in each epoch of training the RNN (a) and the RLSTM (b).\n\nQuestion: How many epochs are used in training the RNN?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "5dfb974deb3c2e9a349dfcbedd438036",
+        "question": "Are all the boxes in the bottom figure (b) blue?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Ratios at depth 10 in each epoch of training the RNN (a) and the RLSTM (b).\n\nQuestion: Are all the boxes in the bottom figure (b) blue?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "290c1307993dfd5f84af90a0df073e8b",
+        "question": "In the RLSTM boxplot, is the maximum ratio value at epoch 2 greater than 2.5?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Ratios at depth 10 in each epoch of training the RNN (a) and the RLSTM (b).\n\nQuestion: In the RLSTM boxplot, is the maximum ratio value at epoch 2 greater than 2.5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "48753c179bb71412f0d893729b60953e",
+        "question": "In the boxplot of the RLSTM (b), what is the approximate value of the red horizontal line in the boxplot corresponding to epoch 3?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Ratios at depth 10 in each epoch of training the RNN (a) and the RLSTM (b).\n\nQuestion: In the boxplot of the RLSTM (b), what is the approximate value of the red horizontal line in the boxplot corresponding to epoch 3?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0.1'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "e307d20a23d2c5e819834c661dffca96",
+        "question": "What is the approximate accuracy at epoch 2 in the RLSTM plot?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Ratios at depth 10 in each epoch of training the RNN (a) and the RLSTM (b).\n\nQuestion: What is the approximate accuracy at epoch 2 in the RLSTM plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '100'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "9ad0ad56e58e73880b352221794a909a",
+        "question": "What is the difference in performance between RNN and RLSTM at depth 10 in the 10th epoch?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "20199c3a31d89166ecba9b37056d3d04",
+        "question": "What is the approximate value of the red line in the box plot labeled 'Non-Rumour' in the third plot?",
+        "answer_pred": "0.02",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Effect of class labels on uncertainty estimates.\n\nQuestion: What is the approximate value of the red line in the box plot labeled 'Non-Rumour' in the third plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "be8d4b842fc6321f2d0c37fbab847114",
+        "question": "How many labels are represented in the graph (a)?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Effect of class labels on uncertainty estimates.\n\nQuestion: How many labels are represented in the graph (a)?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "5c386f991ce333c8add8abc2bd6d5282",
+        "question": "Are all the red horizontal lines in the figure positioned at the same height?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Effect of class labels on uncertainty estimates.\n\nQuestion: Are all the red horizontal lines in the figure positioned at the same height?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "5516e28b788044b8600479064b46417b",
+        "question": "In Figure 6(a) Epistemic PHEME, is the median uncertainty for the 'Unverified' class below 0.2?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Effect of class labels on uncertainty estimates.\n\nQuestion: In Figure 6(a) Epistemic PHEME, is the median uncertainty for the 'Unverified' class below 0.2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

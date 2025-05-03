@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "3f75808bcc79c852886413ed5d7f3f8b",
+        "question": "What specific dataset was used for the utterance prediction task shown in Figure 4?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "2c83d4b310a2d8a1a1a43edb66c9fc42",
+        "question": "What is the value of the green dashed line in the leftmost plot window size of 10?",
+        "answer_pred": "0.83",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: BLI performance for each PoS in the comparable setting.\n\nQuestion: What is the value of the green dashed line in the leftmost plot window size of 10?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f4bd8531b2a698987c95dbf9517a6b81",
+        "question": "How many PoS categories are represented in the graph?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: BLI performance for each PoS in the comparable setting.\n\nQuestion: How many PoS categories are represented in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "6427508be71dfe066133a58b10f37cf6",
+        "question": "Is the blue line for NOUN higher than the orange line at the window size of 20?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: BLI performance for each PoS in the comparable setting.\n\nQuestion: Is the blue line for NOUN higher than the orange line at the window size of 20?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a2dc81cf7b63a651528870290512b1c8",
+        "question": "Is BLI performance generally higher for VERB than NOUN?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: BLI performance for each PoS in the comparable setting.\n\nQuestion: Is BLI performance generally higher for VERB than NOUN?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "80d7a6fae0ad2335160b2ceb2113f31e",
+        "question": "Which line represents the performance of the 'ru' PoS?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: BLI performance for each PoS in the comparable setting.\n\nQuestion: Which line represents the performance of the 'ru' PoS?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Dotted red line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "c089cbc9c47aff63282e5711d88d505c",
+        "question": "Which PoS category shows the highest BLI performance for the 'de' language?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: BLI performance for each PoS in the comparable setting.\n\nQuestion: Which PoS category shows the highest BLI performance for the 'de' language?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'ADV'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "804e991544a90ba7d70ed06106ae9022",
+        "question": "What dataset was used to generate the results displayed in the graph?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "09051ce2a604d35e7c95810d4c044c85",
+        "question": "What is the approximate WERs value of the line with diamond shapes in the left graph at first iteration?",
+        "answer_pred": "29.4",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3: WERs (%) obtained with # of estimation iterations by WPE+MPDR and WPE+wMPDR with joint and separate optimization schemes\n\nQuestion: What is the approximate WERs value of the line with diamond shapes in the left graph at first iteration?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "3ab56337f5f1e850867fdb607c518fb0",
+        "question": "What is the maximum number of estimation iterations shown in the graph?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 3: WERs (%) obtained with # of estimation iterations by WPE+MPDR and WPE+wMPDR with joint and separate optimization schemes\n\nQuestion: What is the maximum number of estimation iterations shown in the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

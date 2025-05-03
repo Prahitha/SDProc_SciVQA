@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "0854220c51b39f3d7fb14d081d08d47a",
+        "question": "What are the specific values of the model parameters corresponding to English that are used in the plots of ln gm,k and ln gm?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "a06d6c70dcf220baef925e2ef4e0b6b3",
+        "question": "What is the approximate F1-score of the red line at the 3rd iteration in the first chart?",
+        "answer_pred": "0.69",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5 Comparisons between different sampling strategies when the ratio of initial labeled set and unlabeled set is 3:7.\n\nQuestion: What is the approximate F1-score of the red line at the 3rd iteration in the first chart?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "10fcf256c0498dc6fab39c3dacc38ec9",
+        "question": "In the second chart, at which iteration does RAND achieve an F1-score of over 96?",
+        "answer_pred": "5",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5 Comparisons between different sampling strategies when the ratio of initial labeled set and unlabeled set is 3:7.\n\nQuestion: In the second chart, at which iteration does RAND achieve an F1-score of over 96?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "105f24664f4a553051dc721868e5480e",
+        "question": "Does the red line representing 'LC' consistently increase with each iteration?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5 Comparisons between different sampling strategies when the ratio of initial labeled set and unlabeled set is 3:7.\n\nQuestion: Does the red line representing 'LC' consistently increase with each iteration?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "f736ffa487cda83349db9bd60c78642e",
+        "question": "Does the first chart use bigram features?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5 Comparisons between different sampling strategies when the ratio of initial labeled set and unlabeled set is 3:7.\n\nQuestion: Does the first chart use bigram features?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "232544a6d1a9301d508df9965c638418",
+        "question": "Which sampling strategy has the highest F1-score after 8 iterations without bigram features?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5 Comparisons between different sampling strategies when the ratio of initial labeled set and unlabeled set is 3:7.\n\nQuestion: Which sampling strategy has the highest F1-score after 8 iterations without bigram features?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'green'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "bc99369495a90e089e3aaeaa0ca297a5",
+        "question": "What is the range of improvement in the F1 score with bigram features as the number of iterations increases?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 5 Comparisons between different sampling strategies when the ratio of initial labeled set and unlabeled set is 3:7.\n\nQuestion: What is the range of improvement in the F1 score with bigram features as the number of iterations increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'There is no improvement'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "62d32cb4dd7016b6c0f8503106e9b31e",
+        "question": "What is the specific application or dataset used in this study?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "bde146fbba163c37876f0c3ad9be2113",
+        "question": "What is the approximate value of the red line at a positive edge of 40%?",
+        "answer_pred": "0.22",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6. Proportion of balanced triangles with different proportions of positive edges in traditional balance theory\n\nQuestion: What is the approximate value of the red line at a positive edge of 40%?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "2ae3b800bd0870c0e555ed5a8111d898",
+        "question": "How many triadic closures are studied?",
+        "answer_pred": "12",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6. Proportion of balanced triangles with different proportions of positive edges in traditional balance theory\n\nQuestion: How many triadic closures are studied?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

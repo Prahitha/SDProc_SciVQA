@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "eed3678a7d32b3d29f63ed1a72f43d42",
+        "question": "Are the attention weights obtained by senti-emoji embedding and word-emoji embedding across words different?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Attention weights obtained by senti-emoji embedding and word-emoji embedding across words. Tweet contexts are given in sub-captions.\n\nQuestion: Are the attention weights obtained by senti-emoji embedding and word-emoji embedding across words different?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "3080ae1aba565d8b75164b0dbe897b3c",
+        "question": "Which word in the tweet corresponds to the peak of the orange line?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Attention weights obtained by senti-emoji embedding and word-emoji embedding across words. Tweet contexts are given in sub-captions.\n\nQuestion: Which word in the tweet corresponds to the peak of the orange line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'first'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "e59aa5349b4d0db20f1c29c02fd269ad",
+        "question": "Which embedding method(s) show(s) a high attention weight for the word 'amazing'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Attention weights obtained by senti-emoji embedding and word-emoji embedding across words. Tweet contexts are given in sub-captions.\n\nQuestion: Which embedding method(s) show(s) a high attention weight for the word 'amazing'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither ATT-E nor MATT-BIE'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "feef4ab919a22b315f3c589cd839911c",
+        "question": "What is the specific dataset used to obtain these attention weights? ",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "ff45efe3f78c512fe3efb30175c52413",
+        "question": "What is the decoding speed in words/sec of the model represented by the red line at 24 threads?",
+        "answer_pred": "19.8",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Decoding speed for fr-en model\n\nQuestion: What is the decoding speed in words/sec of the model represented by the red line at 24 threads?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "0cb987c132efee9ca24ca479cef507c7",
+        "question": "What is the decoding speed for the \"Our work\" model at 12 threads?",
+        "answer_pred": "1.6",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Decoding speed for fr-en model\n\nQuestion: What is the decoding speed for the \"Our work\" model at 12 threads?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b1ac85b06165f8e928e875b7a4cc3a24",
+        "question": "Does the blue line represent 'Our work'?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Decoding speed for fr-en model\n\nQuestion: Does the blue line represent 'Our work'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "f85fe12342991bf788b60802ecfcf3f9",
+        "question": "Does the decoding speed for 'Our work' consistently exceed that of 'Moses' throughout the entire range of threads?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Decoding speed for fr-en model\n\nQuestion: Does the decoding speed for 'Our work' consistently exceed that of 'Moses' throughout the entire range of threads?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "18169139644cd666559a83ed7ba14f93",
+        "question": "Which lines show the decoding speed of Moses and Our work models, respectively?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Decoding speed for fr-en model\n\nQuestion: Which lines show the decoding speed of Moses and Our work models, respectively?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Both are orange'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "f7ef4105319602b3f9020c18f51b68ca",
+        "question": "What is the maximum number of threads used?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Decoding speed for fr-en model\n\nQuestion: What is the maximum number of threads used?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '28'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

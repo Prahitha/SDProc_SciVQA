@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "9797a048747cc7d3753c6cb611725747",
+        "question": "What is the maximum value of N?",
+        "answer_pred": "1000",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Approximate error \u2016G\u0303t,N\u2212\u03b1\u2212G\u0303t,N\u2016\u221e as a function of samples N . \u03b1 = 10, \u03b3\u2032 = 10\u22123.\n\nQuestion: What is the maximum value of N?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "2704eb5ee44e77ea908e787ef122e2ed",
+        "question": "Does the blue line representing Recurrent GAN initially start above the red horizontal line indicating the threshold?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Approximate error \u2016G\u0303t,N\u2212\u03b1\u2212G\u0303t,N\u2016\u221e as a function of samples N . \u03b1 = 10, \u03b3\u2032 = 10\u22123.\n\nQuestion: Does the blue line representing Recurrent GAN initially start above the red horizontal line indicating the threshold?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a8276232ba744be06b5f63d33a047f30",
+        "question": "Does the error for Recurrent GAN consistently decrease as the number of generator runs increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Approximate error \u2016G\u0303t,N\u2212\u03b1\u2212G\u0303t,N\u2016\u221e as a function of samples N . \u03b1 = 10, \u03b3\u2032 = 10\u22123.\n\nQuestion: Does the error for Recurrent GAN consistently decrease as the number of generator runs increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "f3a3bc027036d260aef1158936dee962",
+        "question": "Which line represents 'seqGAN'?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Approximate error \u2016G\u0303t,N\u2212\u03b1\u2212G\u0303t,N\u2016\u221e as a function of samples N . \u03b1 = 10, \u03b3\u2032 = 10\u22123.\n\nQuestion: Which line represents 'seqGAN'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "dad89150893f19f11e10c523010e16ad",
+        "question": "Is the error at N=1400 greater than 10^-3 for both seqGAN and Recurrent GAN?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Approximate error \u2016G\u0303t,N\u2212\u03b1\u2212G\u0303t,N\u2016\u221e as a function of samples N . \u03b1 = 10, \u03b3\u2032 = 10\u22123.\n\nQuestion: Is the error at N=1400 greater than 10^-3 for both seqGAN and Recurrent GAN?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Only for Recurrent GAN'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "631736848db0de097dd955fd170a4115",
+        "question": "How were the GANs trained?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "73084de3c294db66216a1e71cbdce9ba",
+        "question": "Is the red dashed line above or below the black solid line in the leftmost part of the graph?",
+        "answer_pred": "above",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Rank vs. sentiment scores in SCL-NMA.\n\nQuestion: Is the red dashed line above or below the black solid line in the leftmost part of the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "456952afb4f063487cba0236df2c1059",
+        "question": "Is the relationship between rank and sentiment scores in SCL-NMA positive or negative?",
+        "answer_pred": "negative",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Rank vs. sentiment scores in SCL-NMA.\n\nQuestion: Is the relationship between rank and sentiment scores in SCL-NMA positive or negative?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "0b1dae30abe3bd518e35d647be3d22b5",
+        "question": "Does the red dashed line have a much larger steep slope than the black line?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Rank vs. sentiment scores in SCL-NMA.\n\nQuestion: Does the red dashed line have a much larger steep slope than the black line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "6aa96f0bc3d9d3403205b735d4ada9f2",
+        "question": "Does the figure show a relationship between rank and sentiment scores?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Rank vs. sentiment scores in SCL-NMA.\n\nQuestion: Does the figure show a relationship between rank and sentiment scores?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

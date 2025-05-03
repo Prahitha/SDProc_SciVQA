@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "ec24b79eb6fe1025f976db016824b2f8",
+        "question": "Does the DIP-DQN algorithm perform better than the GP-Sarsa algorithm in Env. 4?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Learning curves for Feudal-DQN and DIPDQN in Env. 4, compared to the two best performing algorithms in (Casanueva et al., 2017) (DQN and GPSarsa). The shaded area depicts the mean \u00b1 the standard deviation over ten random seeds.\n\nQuestion: Does the DIP-DQN algorithm perform better than the GP-Sarsa algorithm in Env. 4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "114d75b07196279aa22d672e45b4377c",
+        "question": "Which learning curve is represented by a dashed red line?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Learning curves for Feudal-DQN and DIPDQN in Env. 4, compared to the two best performing algorithms in (Casanueva et al., 2017) (DQN and GPSarsa). The shaded area depicts the mean \u00b1 the standard deviation over ten random seeds.\n\nQuestion: Which learning curve is represented by a dashed red line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'GP-Sarsa'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "c1921868f26f5da2973e7abf41658da2",
+        "question": "Which algorithms are compared in this figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Learning curves for Feudal-DQN and DIPDQN in Env. 4, compared to the two best performing algorithms in (Casanueva et al., 2017) (DQN and GPSarsa). The shaded area depicts the mean \u00b1 the standard deviation over ten random seeds.\n\nQuestion: Which algorithms are compared in this figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'GP-Sarsa'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "f5a6df5823196980d884032389629f0e",
+        "question": "What are the specific reward values for the DIP-DQN algorithm in the SF Restaurants environment at 6000 training dialogues?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "3f1e6ec2db7d0e2096535572628c0564",
+        "question": "What is the approximate k-NN accuracy of the green line in the 'WEB OF SCIENCE' plot at 200 #Topics?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: k-NN accuracy in the visualization space by PLSV-VAE with different RBFs (k = 10).\n\nQuestion: What is the approximate k-NN accuracy of the green line in the 'WEB OF SCIENCE' plot at 200 #Topics?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "233a0f47f3fa60abb0fccb534d52cbc4",
+        "question": "How many RBFs are compared in figure 10?",
+        "answer_pred": "4",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: k-NN accuracy in the visualization space by PLSV-VAE with different RBFs (k = 10).\n\nQuestion: How many RBFs are compared in figure 10?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "26aaa785323536b76763ce796024e65f",
+        "question": "In the second graph, does the red line representing inverse quadratic accuracy reach a higher value than the blue line representing Gaussian accuracy at 100 #Topics value?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: k-NN accuracy in the visualization space by PLSV-VAE with different RBFs (k = 10).\n\nQuestion: In the second graph, does the red line representing inverse quadratic accuracy reach a higher value than the blue line representing Gaussian accuracy at 100 #Topics value?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "69cea8d555d0409f9da65492374de0dd",
+        "question": "Is the k-NN accuracy for the inverse multiquadratic RBF consistently higher than the inverse quadratic RBF for all datasets?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: k-NN accuracy in the visualization space by PLSV-VAE with different RBFs (k = 10).\n\nQuestion: Is the k-NN accuracy for the inverse multiquadratic RBF consistently higher than the inverse quadratic RBF for all datasets?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "5270f8322dfeba5c2a00987a9a89f41a",
+        "question": "Which line represents the 'Inverse quadratic' RBF?",
+        "answer_pred": "red",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: k-NN accuracy in the visualization space by PLSV-VAE with different RBFs (k = 10).\n\nQuestion: Which line represents the 'Inverse quadratic' RBF?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "fcebc97ec007210ad0f397d137aeed8c",
+        "question": "Which RBFs show a decreasing trend in accuracy as the number of topics increases in the ARXIV dataset?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 10: k-NN accuracy in the visualization space by PLSV-VAE with different RBFs (k = 10).\n\nQuestion: Which RBFs show a decreasing trend in accuracy as the number of topics increases in the ARXIV dataset?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

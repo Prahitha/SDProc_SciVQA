@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "cf89d32499cbde97857219a883cf3fc5",
+        "question": "Which method reaches the highest accuracy in figure 3?",
+        "answer_pred": "Radical-enhanced model",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Accuracy of C&W, word2vec and our radical-enhanced model with K=10.\n\nQuestion: Which method reaches the highest accuracy in figure 3?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "08e3a1b5514826e7464b38b0d1915d19",
+        "question": "Does the accuracy of the line with yellow markers decrease as the value of alpha increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Accuracy of C&W, word2vec and our radical-enhanced model with K=10.\n\nQuestion: Does the accuracy of the line with yellow markers decrease as the value of alpha increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d62a7c4a72ae802386c32431b4148e54",
+        "question": "Is the accuracy of the C&W method consistently decreasing with increasing alpha?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Accuracy of C&W, word2vec and our radical-enhanced model with K=10.\n\nQuestion: Is the accuracy of the C&W method consistently decreasing with increasing alpha?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "c7ae9d467531cbb14697322125bd94aa",
+        "question": "Which of the following remain at the same accuracy when alpha increases?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Accuracy of C&W, word2vec and our radical-enhanced model with K=10.\n\nQuestion: Which of the following remain at the same accuracy when alpha increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "c12abcc1a64d07277270749f67b0c4b7",
+        "question": "Which of these models has the highest accuracy when alpha is equal to 0?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Accuracy of C&W, word2vec and our radical-enhanced model with K=10.\n\nQuestion: Which of these models has the highest accuracy when alpha is equal to 0?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All models have the same accuracy'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "72d1373f18c1149c29d8ec62eace30fa",
+        "question": "What architectures are used in the Radical-enhanced model?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "afe5cda2f96590532cc91fcaef04d906",
+        "question": "What is the value of the BLI for the orange dashed line when the source window size is 10, for the target window size 10?",
+        "answer_pred": "0.5",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: BLI performance in the comparable setting. The target window size is fixed and the source window size is varied.\n\nQuestion: What is the value of the BLI for the orange dashed line when the source window size is 10, for the target window size 10?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "7cc2e8b58bc37837d8d062940fd2e4dd",
+        "question": "How many languages are compared in figure 1?",
+        "answer_pred": "2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: BLI performance in the comparable setting. The target window size is fixed and the source window size is varied.\n\nQuestion: How many languages are compared in figure 1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "633c9fbc817e342ca17a991f440d4d12",
+        "question": "Is the blue line consistently above the orange line in the graph labeled 'target window size 5'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: BLI performance in the comparable setting. The target window size is fixed and the source window size is varied.\n\nQuestion: Is the blue line consistently above the orange line in the graph labeled 'target window size 5'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d8458db045c142183b6e7d8c6975cdc9",
+        "question": "Is the BLI performance for the target window size of 10 lower than the performance for the target window size of 5 for all source window sizes?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: BLI performance in the comparable setting. The target window size is fixed and the source window size is varied.\n\nQuestion: Is the BLI performance for the target window size of 10 lower than the performance for the target window size of 5 for all source window sizes?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

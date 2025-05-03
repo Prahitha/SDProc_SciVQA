@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "41cf905097ada72b2d0b7533b30b322a",
+        "question": "What is the approximate value of the red line at the 10th component in (b) u?",
+        "answer_pred": "0.012",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: (a),(b): Distribution of values for each principal component on c and u. Vertical axis represents a standard deviation. (c),(d): PCA and re-PCA (see text) results of u vectors in learned LSTM. From left, VB, VBZ, NN, NNS, and CD, respectively. Characteristic dimensions of each POS can be distinguished. Note that LSTM is learned from raw text in this scenario.\n\nQuestion: What is the approximate value of the red line at the 10th component in (b) u?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "af02ec06eef785467da2c8f2e6201c02",
+        "question": "What type of word is NN?",
+        "answer_pred": "noun",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: (a),(b): Distribution of values for each principal component on c and u. Vertical axis represents a standard deviation. (c),(d): PCA and re-PCA (see text) results of u vectors in learned LSTM. From left, VB, VBZ, NN, NNS, and CD, respectively. Characteristic dimensions of each POS can be distinguished. Note that LSTM is learned from raw text in this scenario.\n\nQuestion: What type of word is NN?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "35eee3348a172ebefcc36a986b479497",
+        "question": "Is the blue line in the bottom-left graph starting at 9?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: (a),(b): Distribution of values for each principal component on c and u. Vertical axis represents a standard deviation. (c),(d): PCA and re-PCA (see text) results of u vectors in learned LSTM. From left, VB, VBZ, NN, NNS, and CD, respectively. Characteristic dimensions of each POS can be distinguished. Note that LSTM is learned from raw text in this scenario.\n\nQuestion: Is the blue line in the bottom-left graph starting at 9?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e3e473e18fdf3165efd6f79bc90543e7",
+        "question": "Is 100 the maximum number of components?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: (a),(b): Distribution of values for each principal component on c and u. Vertical axis represents a standard deviation. (c),(d): PCA and re-PCA (see text) results of u vectors in learned LSTM. From left, VB, VBZ, NN, NNS, and CD, respectively. Characteristic dimensions of each POS can be distinguished. Note that LSTM is learned from raw text in this scenario.\n\nQuestion: Is 100 the maximum number of components?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8e5cab71e6bc8fdeb307ddceeb3d094b",
+        "question": "Which of the following are represented on both graphs?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: (a),(b): Distribution of values for each principal component on c and u. Vertical axis represents a standard deviation. (c),(d): PCA and re-PCA (see text) results of u vectors in learned LSTM. From left, VB, VBZ, NN, NNS, and CD, respectively. Characteristic dimensions of each POS can be distinguished. Note that LSTM is learned from raw text in this scenario.\n\nQuestion: Which of the following are represented on both graphs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Green line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "a7fb8ceffdb84c6882f4a86d31e0ea19",
+        "question": "What are the primary components analyzed in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: (a),(b): Distribution of values for each principal component on c and u. Vertical axis represents a standard deviation. (c),(d): PCA and re-PCA (see text) results of u vectors in learned LSTM. From left, VB, VBZ, NN, NNS, and CD, respectively. Characteristic dimensions of each POS can be distinguished. Note that LSTM is learned from raw text in this scenario.\n\nQuestion: What are the primary components analyzed in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'VB, VBZ, NN, NNS, and CD'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "2f40735eb260c22cc2e98a3a97b6e47c",
+        "question": "What is the specific dataset used for training the LSTM model discussed in this figure?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "dcb5fb746e20930002b1e760610af31d",
+        "question": "How many ellipses are there in the second graph?",
+        "answer_pred": "10",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Confidence bands for Moses produced 5-gram MT method. Green lines show 10 folds and small red circles indicate ranking position for a given curve on the precision/recall chart. For each position there are as many points as there are folds and the coordinates for these positions, according to our assumption, are normally distributed for both precision and recall. After computing elliptical density contours, shown in light blue, we connected the endpoints of the longest principle axis of the neighboring ellipses to produce confidence bands (indicated by dashed light blue lines).\n\nQuestion: How many ellipses are there in the second graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "8587103c2b73d38cb0d89599b6f22865",
+        "question": "What is the approximate recall that corresponds to a precision of 0.3 in the first graph?",
+        "answer_pred": "0.2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Confidence bands for Moses produced 5-gram MT method. Green lines show 10 folds and small red circles indicate ranking position for a given curve on the precision/recall chart. For each position there are as many points as there are folds and the coordinates for these positions, according to our assumption, are normally distributed for both precision and recall. After computing elliptical density contours, shown in light blue, we connected the endpoints of the longest principle axis of the neighboring ellipses to produce confidence bands (indicated by dashed light blue lines).\n\nQuestion: What is the approximate recall that corresponds to a precision of 0.3 in the first graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "8cecf0f86d06b331ba789ee2ca005518",
+        "question": "Are there any red circles outside of the light blue ellipses?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Confidence bands for Moses produced 5-gram MT method. Green lines show 10 folds and small red circles indicate ranking position for a given curve on the precision/recall chart. For each position there are as many points as there are folds and the coordinates for these positions, according to our assumption, are normally distributed for both precision and recall. After computing elliptical density contours, shown in light blue, we connected the endpoints of the longest principle axis of the neighboring ellipses to produce confidence bands (indicated by dashed light blue lines).\n\nQuestion: Are there any red circles outside of the light blue ellipses?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

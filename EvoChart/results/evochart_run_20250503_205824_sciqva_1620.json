@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "5bd32b1c072a83ef2679f22fce5ac1a7",
+        "question": "What is the maximum performance of the NN model on the test set?",
+        "answer_pred": "89.2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: NN model (with GloVe embedding) performance with different negative sample ratio for RED.\n\nQuestion: What is the maximum performance of the NN model on the test set?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "421774ccc68e8c455286354eab4f2bae",
+        "question": "Is the red line consistently above the blue line?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: NN model (with GloVe embedding) performance with different negative sample ratio for RED.\n\nQuestion: Is the red line consistently above the blue line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a14d91f6cadb33647bcabc5213834925",
+        "question": "Does the performance of the NN model on the test set reach its peak at the same negative sample ratio as the development set?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: NN model (with GloVe embedding) performance with different negative sample ratio for RED.\n\nQuestion: Does the performance of the NN model on the test set reach its peak at the same negative sample ratio as the development set?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "b0c8498599340c4ff78c7d3126c5633d",
+        "question": "At what negative sample ratio does the blue line reach its peak?",
+        "answer_pred": "4.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: NN model (with GloVe embedding) performance with different negative sample ratio for RED.\n\nQuestion: At what negative sample ratio does the blue line reach its peak?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '4.0'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "66cc11680d503bb9250f20d81a9db99f",
+        "question": "Which of these represents the negative sample ratio in training where the performance of the NN model (with GloVe embedding) on the dev set is the highest?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: NN model (with GloVe embedding) performance with different negative sample ratio for RED.\n\nQuestion: Which of these represents the negative sample ratio in training where the performance of the NN model (with GloVe embedding) on the dev set is the highest?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '8'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "42664b95d8e784437374434b764a540f",
+        "question": "What is the exact value of the micro-average F1 score for the Dev set at a negative sample ratio of 6?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "605a0d96db16f0279f63e2f1fe83301c",
+        "question": "What is the approximate Query Match Accuracy of the red line at the fifth training iteration in the bottom graph?",
+        "answer_pred": "89.2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Parsing accuracy on Spider Dev set when systems are trained with various numbers of user/expert annotations and for different iterations.\n\nQuestion: What is the approximate Query Match Accuracy of the red line at the fifth training iteration in the bottom graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "e68de74718d75efd513cb1a452d6b4b6",
+        "question": "What is the maximum number of training iterations for which the parsing accuracy was measured in this experiment?",
+        "answer_pred": "5",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Parsing accuracy on Spider Dev set when systems are trained with various numbers of user/expert annotations and for different iterations.\n\nQuestion: What is the maximum number of training iterations for which the parsing accuracy was measured in this experiment?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "5fa9937b5566f1b5e4059c610f618d03",
+        "question": "Is the blue line representing 'Full Expert' consistently higher than the red line representing 'MISP-NEIL' in the bottom graph?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Parsing accuracy on Spider Dev set when systems are trained with various numbers of user/expert annotations and for different iterations.\n\nQuestion: Is the blue line representing 'Full Expert' consistently higher than the red line representing 'MISP-NEIL' in the bottom graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "4e463245d56ae3583e61578a8fdf4908",
+        "question": "Does the 'Full Expert' training method consistently achieve a higher Query Match Accuracy than the 'Self Train' method?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Parsing accuracy on Spider Dev set when systems are trained with various numbers of user/expert annotations and for different iterations.\n\nQuestion: Does the 'Full Expert' training method consistently achieve a higher Query Match Accuracy than the 'Self Train' method?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

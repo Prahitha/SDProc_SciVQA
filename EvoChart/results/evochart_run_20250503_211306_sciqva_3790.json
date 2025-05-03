@@ -1,0 +1,107 @@
+[
+    {
+        "instance_id": "2920a742664ee3aa08424954422b162f",
+        "question": "What are the models compared in Figure 3?",
+        "answer_pred": "[NMT-1, NMT-2]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Word accuracy on the development sets for different amounts of training data (note that the x-axis is log-scaled); NMT-1 is the model by Bollmann (2018), NMT-2 is the model by Tang et al. (2018).\n\nQuestion: What are the models compared in Figure 3?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "05dc59a1ca5e44936fe89c5f03f7236b",
+        "question": "Does the red line in the left graph in the middle row consistently have higher values than the dashed green line in the same graph?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Word accuracy on the development sets for different amounts of training data (note that the x-axis is log-scaled); NMT-1 is the model by Bollmann (2018), NMT-2 is the model by Tang et al. (2018).\n\nQuestion: Does the red line in the left graph in the middle row consistently have higher values than the dashed green line in the same graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8428124bee15a296b8d6a5812db623fb",
+        "question": "Are the maximum amounts of training data the same for all development sets?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Word accuracy on the development sets for different amounts of training data (note that the x-axis is log-scaled); NMT-1 is the model by Bollmann (2018), NMT-2 is the model by Tang et al. (2018).\n\nQuestion: Are the maximum amounts of training data the same for all development sets?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8518c5e2e9c022a5baae40d789f7f0e9",
+        "question": "Which line is the lowest at the beginning of the graph in the bottom-right figure (labeled 'Portuguese')?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Word accuracy on the development sets for different amounts of training data (note that the x-axis is log-scaled); NMT-1 is the model by Bollmann (2018), NMT-2 is the model by Tang et al. (2018).\n\nQuestion: Which line is the lowest at the beginning of the graph in the bottom-right figure (labeled 'Portuguese')?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Dotted blue line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "6db5eba78f2f902d59f6750b4d359db1",
+        "question": "On which development set does cSMTiser+LM not reach 70% accuracy at 10k training data?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Word accuracy on the development sets for different amounts of training data (note that the x-axis is log-scaled); NMT-1 is the model by Bollmann (2018), NMT-2 is the model by Tang et al. (2018).\n\nQuestion: On which development set does cSMTiser+LM not reach 70% accuracy at 10k training data?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Portuguese'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "babb11dec62a25c39fcdf41938abe680",
+        "question": "For how many iterations was training carried out for and how long was the training time?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "64a6c96b5954bb40b90bcf0a25f2a817",
+        "question": "What is the recall@k value of the purple triangle at k = 16?",
+        "answer_pred": "0.28",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: recall@k for neural reranking models (BERTmulti, BERTen, BioBERT), and word- (BM25) and character-level (TFIDFchar) models.\n\nQuestion: What is the recall@k value of the purple triangle at k = 16?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "a00aa6ccf1dba44b8a0b3422a3f7e0be",
+        "question": "Which model has the lowest recall@k at k=64?",
+        "answer_pred": "BERTmulti",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: recall@k for neural reranking models (BERTmulti, BERTen, BioBERT), and word- (BM25) and character-level (TFIDFchar) models.\n\nQuestion: Which model has the lowest recall@k at k=64?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "ca19a2ba22bd040043180baffbc354e2",
+        "question": "Is the recall@k value of the green line higher than the orange line at the value of k = 8?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: recall@k for neural reranking models (BERTmulti, BERTen, BioBERT), and word- (BM25) and character-level (TFIDFchar) models.\n\nQuestion: Is the recall@k value of the green line higher than the orange line at the value of k = 8?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d34546f7fd48e7465a1e1b92c14e99f9",
+        "question": "Is the recall@k value for BioBERT consistently higher than or equal to BM25?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: recall@k for neural reranking models (BERTmulti, BERTen, BioBERT), and word- (BM25) and character-level (TFIDFchar) models.\n\nQuestion: Is the recall@k value for BioBERT consistently higher than or equal to BM25?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

@@ -1,0 +1,102 @@
+[
+    {
+        "instance_id": "d3a68f8180878cee14c18bdf2740a02a",
+        "question": "What is the specific algorithm used to generate the GIB layout in this figure?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "44ff6da8a2297ff537b35e4542e34025",
+        "question": "What is the approximate concreteness value for the top-left white circle with blue border?",
+        "answer_pred": "0.8",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 2 Scatter plot of concreteness score vs. publication year for 88 19th century poems, 71 Imagist poems, and 100 contemporary poems. Poems published after the the Imagist movement have significantly higher concreteness scores; however, within each group of poems, there is no positive correlation between publication year and concreteness.\n\nQuestion: What is the approximate concreteness value for the top-left white circle with blue border?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "0ba93e880e846f52634fded8330205c3",
+        "question": "How many different entities are compared in figure 2?",
+        "answer_pred": "3",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 2 Scatter plot of concreteness score vs. publication year for 88 19th century poems, 71 Imagist poems, and 100 contemporary poems. Poems published after the the Imagist movement have significantly higher concreteness scores; however, within each group of poems, there is no positive correlation between publication year and concreteness.\n\nQuestion: How many different entities are compared in figure 2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "cacebf0b598cc4aa2d4577066d04203e",
+        "question": "Are the Imagist poems represented by blue circles on the plot?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 2 Scatter plot of concreteness score vs. publication year for 88 19th century poems, 71 Imagist poems, and 100 contemporary poems. Poems published after the the Imagist movement have significantly higher concreteness scores; however, within each group of poems, there is no positive correlation between publication year and concreteness.\n\nQuestion: Are the Imagist poems represented by blue circles on the plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "08438938cc8baaffba152f72ca5d26f5",
+        "question": "Are all the contemporary poems published after the year 1925?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 2 Scatter plot of concreteness score vs. publication year for 88 19th century poems, 71 Imagist poems, and 100 contemporary poems. Poems published after the the Imagist movement have significantly higher concreteness scores; however, within each group of poems, there is no positive correlation between publication year and concreteness.\n\nQuestion: Are all the contemporary poems published after the year 1925?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e69b6d6bf0bed232699a35312cb10d49",
+        "question": "Which of the following has the highest concreteness score in figure 2?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 2 Scatter plot of concreteness score vs. publication year for 88 19th century poems, 71 Imagist poems, and 100 contemporary poems. Poems published after the the Imagist movement have significantly higher concreteness scores; however, within each group of poems, there is no positive correlation between publication year and concreteness.\n\nQuestion: Which of the following has the highest concreteness score in figure 2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "600ca519f482402f6f207ccca576f46d",
+        "question": "Which type of poem has the lowest concreteness score recorded?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 2 Scatter plot of concreteness score vs. publication year for 88 19th century poems, 71 Imagist poems, and 100 contemporary poems. Poems published after the the Imagist movement have significantly higher concreteness scores; however, within each group of poems, there is no positive correlation between publication year and concreteness.\n\nQuestion: Which type of poem has the lowest concreteness score recorded?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "46b3e77f9872717d5344a0f7d01f1433",
+        "question": "What is the average concreteness score for each group of poems?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "105627304007460bb9054ebc6dbf5c48",
+        "question": "What is the maximum value of the red dashed line in the plot labeled \"Year-wise Average Speed of Songs\"?",
+        "answer_pred": "150",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison of Length, Duration, and Speed of songs\n\nQuestion: What is the maximum value of the red dashed line in the plot labeled \"Year-wise Average Speed of Songs\"?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "747f3af68d00cefc4b8e9e38d6893850",
+        "question": "What are the labels used to represent the data on the average duration of songs?",
+        "answer_pred": "BB, DD, EE",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison of Length, Duration, and Speed of songs\n\nQuestion: What are the labels used to represent the data on the average duration of songs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]
