@@ -21,7 +21,7 @@ import json
 from tqdm import tqdm
 from datasets import load_dataset
 import argparse
-import openai
+
 
 from pydantic import BaseModel, Field, HttpUrl, model_validator
 from typing import List, Optional
@@ -105,11 +105,6 @@ class QAImageData(BaseModel):
 
 
 class SciQVAEvoChartInference():
-
-    import os
-
-
-class EvoChartModel:
     def __init__(self, model_path='EvoChart'):
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
         self.device_map = "auto"  # Better for multi-GPU; use "cuda:0" for single
