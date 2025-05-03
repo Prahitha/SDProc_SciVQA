@@ -1,0 +1,5 @@
+transformers
+datasets
+pydantic
+accelerate
+flash-attn
