@@ -215,7 +215,7 @@ class SciQVAEvoChartInference():
         )
 
     def _get_visual_prompt(self):
-        return "\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+        return "\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations."
 
     def _get_binary_qa_pair_prompt(self):
         return (
@@ -223,7 +223,7 @@ class SciQVAEvoChartInference():
         )
 
     def _get_qa_pair_prompt(self):
-        return "If the graph is too complicated, take approximations from the axis scale. Give the answer, with no extra explanation."
+        return "Give the exact correct answer, with no extra explanation."
 
     def direct_qa(self, input):
         """Direct question answering with single call"""
