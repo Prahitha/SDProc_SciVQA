@@ -204,6 +204,19 @@ class SciQVAEvoChartInference():
         ]
         return self._generate_response(messages, images)
 
+    def direct_qa(self, input):
+        """Direct question answering with single call"""
+        images = [input.load_image()]
+
+        messages = [
+            {
+                'role': 'user',
+                'content': f"<|image_1|>\n{input.caption}\n\nQuestion: {input.question}\nAnswer:"
+            }
+        ]
+
+        return self._generate_response(messages, images)
+
     def structured_chain_of_thought(self, input):
         """Structured chain-of-thought with specific analysis steps"""
         images = [input.load_image()]
@@ -355,7 +368,7 @@ class SciQVAEvoChartInference():
 
             try:
                 input = QAImageData(**data)
-                result = self.simplified_chain_of_thought(input)
+                result = self.direct_qa(input)
 
                 # if self._should_override_with_unanswerable(reasoning):
                 #     result = "It is not possible to answer this question based only on the provided data."
