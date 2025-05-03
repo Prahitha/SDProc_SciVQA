@@ -7,9 +7,11 @@ import os
 input_pattern = "run_20250501_185100_sciqva_llamaVo1_*.json"
 output_file = "unified_llamaVo1.json"
 
+
 def extract_index(filename):
     match = re.search(r"_(\d+)\.json$", filename)
     return int(match.group(1)) if match else -1
+
 
 # Sort files based on the numeric suffix
 files = sorted(glob.glob(input_pattern), key=extract_index)
