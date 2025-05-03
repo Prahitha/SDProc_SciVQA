@@ -14,7 +14,6 @@ import argparse
 from datasets import load_dataset
 import tqdm
 from PIL import Image
-from dotenv import load_dotenv
 import os
 import torch
 import json
@@ -204,14 +203,45 @@ class SciQVAEvoChartInference():
         ]
         return self._generate_response(messages, images)
 
+    def _get_non_binary_qa_pair_prompt(self, answer_options):
+        return (
+            f"Based on the reasoning above, match it to one or more of the provided answer options: {answer_options}. "
+            "Return only the corresponding letter(s) of the correct answer(s). "
+            "Do not explain your choice, do not rephrase the answer, and do not repeat the option text. "
+            "Only output the letter(s) corresponding to the correct choice. "
+            "If multiple letters are correct, separate them by commas without spaces (for example: B,C). "
+            "If all options are correct, return A,B,C,D. "
+            "Do not add anything else."
+        )
+
+    def _get_binary_qa_pair_prompt(self):
+        return (
+            "Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+        )
+
+    def _get_qa_pair_prompt(self):
+        return "Give the exact correct answer, with no extra explanation."
+
     def direct_qa(self, input):
         """Direct question answering with single call"""
         images = [input.load_image()]
 
+        qa_pair_prompt = ""
+        if "closed-ended" in input.qa_pair_type and "finite answer set" in input.qa_pair_type:
+            if "non-binary" in input.qa_pair_type and input.answer_options:
+                qa_pair_prompt = self._get_non_binary_qa_pair_prompt(
+                    input.answer_options)
+            elif "binary" in input.qa_pair_type:
+                qa_pair_prompt = self._get_binary_qa_pair_prompt()
+            else:
+                qa_pair_prompt = self._get_qa_pair_prompt()
+        else:
+            qa_pair_prompt = self._get_qa_pair_prompt()
+
         messages = [
             {
                 'role': 'user',
-                'content': f"<|image_1|>\n{input.caption}\n\nQuestion: {input.question}\nAnswer:"
+                'content': f"<|image_1|>\n{input.caption}\n\nQuestion: {input.question}\n{qa_pair_prompt}"
             }
         ]
 
@@ -370,8 +400,8 @@ class SciQVAEvoChartInference():
                 input = QAImageData(**data)
                 result = self.direct_qa(input)
 
-                # if self._should_override_with_unanswerable(reasoning):
-                #     result = "It is not possible to answer this question based only on the provided data."
+                if self._should_override_with_unanswerable(reasoning):
+                    result = "It is not possible to answer this question based only on the provided data."
                 print(input.question)
                 print(result)
                 self.outputs.append({
