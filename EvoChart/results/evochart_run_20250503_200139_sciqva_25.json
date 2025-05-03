@@ -1,0 +1,273 @@
+[
+    {
+        "instance_id": "21b0f38822e386f952d628dce0d5006b",
+        "question": "What percentage of the votes corresponds to the smallest slice of the pie chart?",
+        "answer_pred": "11.11",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Distribution of votes in the final version of the corpus. The numbers 1 to 5 are the different scores the annotators could assign to the humorous tweets.\n\nQuestion: What percentage of the votes corresponds to the smallest slice of the pie chart?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "a73335d8352c93f9ac1956c190bd8cbe",
+        "question": "What are all the labels for the slices of the pie chart?",
+        "answer_pred": "['1', '2', '3', '4', '5']",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Distribution of votes in the final version of the corpus. The numbers 1 to 5 are the different scores the annotators could assign to the humorous tweets.\n\nQuestion: What are all the labels for the slices of the pie chart?\nGive the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "caac73b5ab6a6d3354be6ebe1b43a96b",
+        "question": "Is the green slice labeled '3' smaller than the green slice labeled '5'?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Distribution of votes in the final version of the corpus. The numbers 1 to 5 are the different scores the annotators could assign to the humorous tweets.\n\nQuestion: Is the green slice labeled '3' smaller than the green slice labeled '5'?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "c551d1f0a7b2c5a68d02abc3be1eed41",
+        "question": "Is the percentage of tweets considered 'not humor' greater than the percentage of tweets with a score of 2?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Distribution of votes in the final version of the corpus. The numbers 1 to 5 are the different scores the annotators could assign to the humorous tweets.\n\nQuestion: Is the percentage of tweets considered 'not humor' greater than the percentage of tweets with a score of 2?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e5fe50886ea6512fd2e13ebbc43289cf",
+        "question": "Which section of the pie chart represents the highest percentage?",
+        "answer_pred": "A",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Distribution of votes in the final version of the corpus. The numbers 1 to 5 are the different scores the annotators could assign to the humorous tweets.\n\nQuestion: Which section of the pie chart represents the highest percentage?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "3cf8604eff230ce0530582a2203a5d53",
+        "question": "Which score was given most often by annotators?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Distribution of votes in the final version of the corpus. The numbers 1 to 5 are the different scores the annotators could assign to the humorous tweets.\n\nQuestion: Which score was given most often by annotators?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "e404565c67a4037a36f41c11aed3a894",
+        "question": "What is the mean score assigned by the annotators to the humorous tweets, and how is it presented in the figure?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "633bb6a028f8633f9c06ce6cbd8079a4",
+        "question": "What is the value of the light blue slice?",
+        "answer_pred": "111",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Allocation of the 977 CoNLL test sentences.\n\nQuestion: What is the value of the light blue slice?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "54439f3c8296012d879d62e502452270",
+        "question": "How many CoNLL test sentences have a depth of 0?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Allocation of the 977 CoNLL test sentences.\n\nQuestion: How many CoNLL test sentences have a depth of 0?\nGive the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "67c52a24842af023ddb4f72335e300e1",
+        "question": "Is the smallest slice of the pie chart labeled 'Sentence depth 0'?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Allocation of the 977 CoNLL test sentences.\n\nQuestion: Is the smallest slice of the pie chart labeled 'Sentence depth 0'?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "aae7ab943a464200d8fe5dba0faafc36",
+        "question": "Are more than half of the CoNLL test sentences allocated to sentence depth 0?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Allocation of the 977 CoNLL test sentences.\n\nQuestion: Are more than half of the CoNLL test sentences allocated to sentence depth 0?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d570cbc2d1291226fb0a693dafbdbff9",
+        "question": "What is the color and the label of the smallest slice?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Allocation of the 977 CoNLL test sentences.\n\nQuestion: What is the color and the label of the smallest slice?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'red, Sentence depth 3'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "fcd2e7c677e66864c61ef529d52a2805",
+        "question": "Which of the following sentence depths are represented in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Allocation of the 977 CoNLL test sentences.\n\nQuestion: Which of the following sentence depths are represented in the figure?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "912a4cc2587f4fb68c4ac798b4f88589",
+        "question": "What is the average sentence depth of the 977 CoNLL test sentences, and how is it presented in the figure?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "290dbeb896bd06f3955d607a3cc10156",
+        "question": "What is the accuracy on Yelp reviews for the blue line at its highest point?",
+        "answer_pred": "91.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Varying the amount of training data for the discourse parser, we can see how parsing F1 performance affects accuracy on the Yelp review task.\n\nQuestion: What is the accuracy on Yelp reviews for the blue line at its highest point?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "f372e3f6ad05397f97b030f9c80b0330",
+        "question": "What is the macro-label of the x-axis?",
+        "answer_pred": "F1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Varying the amount of training data for the discourse parser, we can see how parsing F1 performance affects accuracy on the Yelp review task.\n\nQuestion: What is the macro-label of the x-axis?\nGive the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "95427a20e5cd43dbbae102cc002dadbe",
+        "question": "Is the blue line always decreasing?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Varying the amount of training data for the discourse parser, we can see how parsing F1 performance affects accuracy on the Yelp review task.\n\nQuestion: Is the blue line always decreasing?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "1ade3768a000c139b5ad6bcb997b9e8b",
+        "question": "Does increasing the amount of training data for the discourse parser improve accuracy on the Yelp review task?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Varying the amount of training data for the discourse parser, we can see how parsing F1 performance affects accuracy on the Yelp review task.\n\nQuestion: Does increasing the amount of training data for the discourse parser improve accuracy on the Yelp review task?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "37262522fc9ab6ad4e8c85f728455c54",
+        "question": "How many triangles are presented in the line and what is their color?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Varying the amount of training data for the discourse parser, we can see how parsing F1 performance affects accuracy on the Yelp review task.\n\nQuestion: How many triangles are presented in the line and what is their color?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '4, blue'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "2fbc13ae7d6aef21a2a7f891e08b203f",
+        "question": "What is the range of the accuracy values?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Varying the amount of training data for the discourse parser, we can see how parsing F1 performance affects accuracy on the Yelp review task.\n\nQuestion: What is the range of the accuracy values?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '70.8 to 90'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "67ea316f6ae0265d00a2e7f2b1381951",
+        "question": "What is the amount of training data used to achieve the accuracy of 71.2 on the Yelp review task, and how does it affect the accuracy results?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "c4fed97546e2280f2e1932d4df5aa8bc",
+        "question": "What is the Cohen's Kappa value for the black solid line with triangles at its highest triangle?",
+        "answer_pred": "0.58",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Cohen\u2019s \u03ba agreement for stance annotation on 98 comments. As a trade-off between reducing costs (i.e., discarding fewer instances) and increasing reliability, we chose 5 annotators and a threshold of 0.95 for this task, which resulted in \u03ba = 0.58 (moderate to substantial agreement).\n\nQuestion: What is the Cohen's Kappa value for the black solid line with triangles at its highest triangle?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "99f7e8687723b3f3a8c6d4a2867f935c",
+        "question": "What is the macro-label of the x-axis?",
+        "answer_pred": "Workload",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Cohen\u2019s \u03ba agreement for stance annotation on 98 comments. As a trade-off between reducing costs (i.e., discarding fewer instances) and increasing reliability, we chose 5 annotators and a threshold of 0.95 for this task, which resulted in \u03ba = 0.58 (moderate to substantial agreement).\n\nQuestion: What is the macro-label of the x-axis?\nGive the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "fb9ae6b3886c08f35bf9db2c06fd0a57",
+        "question": "Does the black dashed line with circles represents MACE Threshold of 1?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Cohen\u2019s \u03ba agreement for stance annotation on 98 comments. As a trade-off between reducing costs (i.e., discarding fewer instances) and increasing reliability, we chose 5 annotators and a threshold of 0.95 for this task, which resulted in \u03ba = 0.58 (moderate to substantial agreement).\n\nQuestion: Does the black dashed line with circles represents MACE Threshold of 1?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "80337bc61b1547c88d1539a565501dc6",
+        "question": "Is the Cohen's \u03ba agreement higher for 5 annotators with a threshold of 0.95 than for 5 annotators with a threshold of 0.85?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Cohen\u2019s \u03ba agreement for stance annotation on 98 comments. As a trade-off between reducing costs (i.e., discarding fewer instances) and increasing reliability, we chose 5 annotators and a threshold of 0.95 for this task, which resulted in \u03ba = 0.58 (moderate to substantial agreement).\n\nQuestion: Is the Cohen's \u03ba agreement higher for 5 annotators with a threshold of 0.95 than for 5 annotators with a threshold of 0.85?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "735becea342da7c933918e8d33241dc8",
+        "question": "Which line represents MACE Threshold 0.85?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Cohen\u2019s \u03ba agreement for stance annotation on 98 comments. As a trade-off between reducing costs (i.e., discarding fewer instances) and increasing reliability, we chose 5 annotators and a threshold of 0.95 for this task, which resulted in \u03ba = 0.58 (moderate to substantial agreement).\n\nQuestion: Which line represents MACE Threshold 0.85?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The line with triangle markers'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    }
+]

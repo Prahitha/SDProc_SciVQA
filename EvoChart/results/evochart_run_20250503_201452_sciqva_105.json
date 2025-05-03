@@ -1,0 +1,1093 @@
+[
+    {
+        "instance_id": "21b0f38822e386f952d628dce0d5006b",
+        "question": "What percentage of the votes corresponds to the smallest slice of the pie chart?",
+        "answer_pred": "11.11",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Distribution of votes in the final version of the corpus. The numbers 1 to 5 are the different scores the annotators could assign to the humorous tweets.\n\nQuestion: What percentage of the votes corresponds to the smallest slice of the pie chart?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "a73335d8352c93f9ac1956c190bd8cbe",
+        "question": "What are all the labels for the slices of the pie chart?",
+        "answer_pred": "[1, 2, 3, 4, 5]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Distribution of votes in the final version of the corpus. The numbers 1 to 5 are the different scores the annotators could assign to the humorous tweets.\n\nQuestion: What are all the labels for the slices of the pie chart?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "caac73b5ab6a6d3354be6ebe1b43a96b",
+        "question": "Is the green slice labeled '3' smaller than the green slice labeled '5'?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Distribution of votes in the final version of the corpus. The numbers 1 to 5 are the different scores the annotators could assign to the humorous tweets.\n\nQuestion: Is the green slice labeled '3' smaller than the green slice labeled '5'?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "c551d1f0a7b2c5a68d02abc3be1eed41",
+        "question": "Is the percentage of tweets considered 'not humor' greater than the percentage of tweets with a score of 2?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Distribution of votes in the final version of the corpus. The numbers 1 to 5 are the different scores the annotators could assign to the humorous tweets.\n\nQuestion: Is the percentage of tweets considered 'not humor' greater than the percentage of tweets with a score of 2?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "e5fe50886ea6512fd2e13ebbc43289cf",
+        "question": "Which section of the pie chart represents the highest percentage?",
+        "answer_pred": "A",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Distribution of votes in the final version of the corpus. The numbers 1 to 5 are the different scores the annotators could assign to the humorous tweets.\n\nQuestion: Which section of the pie chart represents the highest percentage?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "3cf8604eff230ce0530582a2203a5d53",
+        "question": "Which score was given most often by annotators?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Distribution of votes in the final version of the corpus. The numbers 1 to 5 are the different scores the annotators could assign to the humorous tweets.\n\nQuestion: Which score was given most often by annotators?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "e404565c67a4037a36f41c11aed3a894",
+        "question": "What is the mean score assigned by the annotators to the humorous tweets, and how is it presented in the figure?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "633bb6a028f8633f9c06ce6cbd8079a4",
+        "question": "What is the value of the light blue slice?",
+        "answer_pred": "111",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Allocation of the 977 CoNLL test sentences.\n\nQuestion: What is the value of the light blue slice?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "54439f3c8296012d879d62e502452270",
+        "question": "How many CoNLL test sentences have a depth of 0?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Allocation of the 977 CoNLL test sentences.\n\nQuestion: How many CoNLL test sentences have a depth of 0?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "67c52a24842af023ddb4f72335e300e1",
+        "question": "Is the smallest slice of the pie chart labeled 'Sentence depth 0'?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Allocation of the 977 CoNLL test sentences.\n\nQuestion: Is the smallest slice of the pie chart labeled 'Sentence depth 0'?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "aae7ab943a464200d8fe5dba0faafc36",
+        "question": "Are more than half of the CoNLL test sentences allocated to sentence depth 0?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Allocation of the 977 CoNLL test sentences.\n\nQuestion: Are more than half of the CoNLL test sentences allocated to sentence depth 0?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "d570cbc2d1291226fb0a693dafbdbff9",
+        "question": "What is the color and the label of the smallest slice?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Allocation of the 977 CoNLL test sentences.\n\nQuestion: What is the color and the label of the smallest slice?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'red, Sentence depth 3'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "fcd2e7c677e66864c61ef529d52a2805",
+        "question": "Which of the following sentence depths are represented in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Allocation of the 977 CoNLL test sentences.\n\nQuestion: Which of the following sentence depths are represented in the figure?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "912a4cc2587f4fb68c4ac798b4f88589",
+        "question": "What is the average sentence depth of the 977 CoNLL test sentences, and how is it presented in the figure?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "290dbeb896bd06f3955d607a3cc10156",
+        "question": "What is the accuracy on Yelp reviews for the blue line at its highest point?",
+        "answer_pred": "91.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Varying the amount of training data for the discourse parser, we can see how parsing F1 performance affects accuracy on the Yelp review task.\n\nQuestion: What is the accuracy on Yelp reviews for the blue line at its highest point?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "f372e3f6ad05397f97b030f9c80b0330",
+        "question": "What is the macro-label of the x-axis?",
+        "answer_pred": "F1 Score",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Varying the amount of training data for the discourse parser, we can see how parsing F1 performance affects accuracy on the Yelp review task.\n\nQuestion: What is the macro-label of the x-axis?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "95427a20e5cd43dbbae102cc002dadbe",
+        "question": "Is the blue line always decreasing?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Varying the amount of training data for the discourse parser, we can see how parsing F1 performance affects accuracy on the Yelp review task.\n\nQuestion: Is the blue line always decreasing?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "1ade3768a000c139b5ad6bcb997b9e8b",
+        "question": "Does increasing the amount of training data for the discourse parser improve accuracy on the Yelp review task?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Varying the amount of training data for the discourse parser, we can see how parsing F1 performance affects accuracy on the Yelp review task.\n\nQuestion: Does increasing the amount of training data for the discourse parser improve accuracy on the Yelp review task?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "37262522fc9ab6ad4e8c85f728455c54",
+        "question": "How many triangles are presented in the line and what is their color?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Varying the amount of training data for the discourse parser, we can see how parsing F1 performance affects accuracy on the Yelp review task.\n\nQuestion: How many triangles are presented in the line and what is their color?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '4, blue'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "2fbc13ae7d6aef21a2a7f891e08b203f",
+        "question": "What is the range of the accuracy values?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Varying the amount of training data for the discourse parser, we can see how parsing F1 performance affects accuracy on the Yelp review task.\n\nQuestion: What is the range of the accuracy values?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '70.8 to 90'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "67ea316f6ae0265d00a2e7f2b1381951",
+        "question": "What is the amount of training data used to achieve the accuracy of 71.2 on the Yelp review task, and how does it affect the accuracy results?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "c4fed97546e2280f2e1932d4df5aa8bc",
+        "question": "What is the Cohen's Kappa value for the black solid line with triangles at its highest triangle?",
+        "answer_pred": "0.58",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Cohen\u2019s \u03ba agreement for stance annotation on 98 comments. As a trade-off between reducing costs (i.e., discarding fewer instances) and increasing reliability, we chose 5 annotators and a threshold of 0.95 for this task, which resulted in \u03ba = 0.58 (moderate to substantial agreement).\n\nQuestion: What is the Cohen's Kappa value for the black solid line with triangles at its highest triangle?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "99f7e8687723b3f3a8c6d4a2867f935c",
+        "question": "What is the macro-label of the x-axis?",
+        "answer_pred": "Workflow",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Cohen\u2019s \u03ba agreement for stance annotation on 98 comments. As a trade-off between reducing costs (i.e., discarding fewer instances) and increasing reliability, we chose 5 annotators and a threshold of 0.95 for this task, which resulted in \u03ba = 0.58 (moderate to substantial agreement).\n\nQuestion: What is the macro-label of the x-axis?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "fb9ae6b3886c08f35bf9db2c06fd0a57",
+        "question": "Does the black dashed line with circles represents MACE Threshold of 1?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Cohen\u2019s \u03ba agreement for stance annotation on 98 comments. As a trade-off between reducing costs (i.e., discarding fewer instances) and increasing reliability, we chose 5 annotators and a threshold of 0.95 for this task, which resulted in \u03ba = 0.58 (moderate to substantial agreement).\n\nQuestion: Does the black dashed line with circles represents MACE Threshold of 1?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "80337bc61b1547c88d1539a565501dc6",
+        "question": "Is the Cohen's \u03ba agreement higher for 5 annotators with a threshold of 0.95 than for 5 annotators with a threshold of 0.85?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Cohen\u2019s \u03ba agreement for stance annotation on 98 comments. As a trade-off between reducing costs (i.e., discarding fewer instances) and increasing reliability, we chose 5 annotators and a threshold of 0.95 for this task, which resulted in \u03ba = 0.58 (moderate to substantial agreement).\n\nQuestion: Is the Cohen's \u03ba agreement higher for 5 annotators with a threshold of 0.95 than for 5 annotators with a threshold of 0.85?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "735becea342da7c933918e8d33241dc8",
+        "question": "Which line represents MACE Threshold 0.85?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Cohen\u2019s \u03ba agreement for stance annotation on 98 comments. As a trade-off between reducing costs (i.e., discarding fewer instances) and increasing reliability, we chose 5 annotators and a threshold of 0.95 for this task, which resulted in \u03ba = 0.58 (moderate to substantial agreement).\n\nQuestion: Which line represents MACE Threshold 0.85?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The line with triangle markers'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "73cc71b26ac8b203a8c9a4ae8ef0a883",
+        "question": "What is maximum Cohen's Kappa value in y-axis?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Cohen\u2019s \u03ba agreement for stance annotation on 98 comments. As a trade-off between reducing costs (i.e., discarding fewer instances) and increasing reliability, we chose 5 annotators and a threshold of 0.95 for this task, which resulted in \u03ba = 0.58 (moderate to substantial agreement).\n\nQuestion: What is maximum Cohen's Kappa value in y-axis?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0.3'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "f21489a1f78b2067fadcfafe69ae6517",
+        "question": "How was Cohen's  Kappa calculated and how does it affect the results? ",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "8798887b79cacaeeef9e562501d9a338",
+        "question": "What is the average number of threads for the green circle with average emotional response of 0?",
+        "answer_pred": "0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 7. Average number of discussions (threads) initiated by websites (squares) and users (circles) that have received a specific average emotional response. All threads with a threshold Ncomments \u2265 8.\n\nQuestion: What is the average number of threads for the green circle with average emotional response of 0?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "724c348e5cd3acde6c28a7f725d072db",
+        "question": "What is the range of the average emotional response?",
+        "answer_pred": "-0.06",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 7. Average number of discussions (threads) initiated by websites (squares) and users (circles) that have received a specific average emotional response. All threads with a threshold Ncomments \u2265 8.\n\nQuestion: What is the range of the average emotional response?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "8ce379fa6d15ed95d18e892bdd6d0977",
+        "question": "Is there a blue and green line in the figure?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 7. Average number of discussions (threads) initiated by websites (squares) and users (circles) that have received a specific average emotional response. All threads with a threshold Ncomments \u2265 8.\n\nQuestion: Is there a blue and green line in the figure?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "55763b7826096e95a31d9c30a704d74f",
+        "question": "Do websites and users start at the same number of threads for a given average emotional response?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 7. Average number of discussions (threads) initiated by websites (squares) and users (circles) that have received a specific average emotional response. All threads with a threshold Ncomments \u2265 8.\n\nQuestion: Do websites and users start at the same number of threads for a given average emotional response?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "7ecac9c46c0b62aa4e4ba93506998bef",
+        "question": "What is the peak value and the lowest value for the green line?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 7. Average number of discussions (threads) initiated by websites (squares) and users (circles) that have received a specific average emotional response. All threads with a threshold Ncomments \u2265 8.\n\nQuestion: What is the peak value and the lowest value for the green line?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "1e2178e771e2417e37bc85aa4284235a",
+        "question": "What is the range of the average number of threads?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 7. Average number of discussions (threads) initiated by websites (squares) and users (circles) that have received a specific average emotional response. All threads with a threshold Ncomments \u2265 8.\n\nQuestion: What is the range of the average number of threads?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0 to 10'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "36c419cde3ca2e26a013feb32a70cc61",
+        "question": "What is the average emotional response that corresponds to the peak of the blue line representing websites, and how is it presented in the figure?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "233e3a6694b9c3b51a5b374f6b2bc892",
+        "question": "In the leftmost plot, what is the value of the red line with x-axis 0.7?",
+        "answer_pred": "0.8",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Impact of the threshold on the classification results\n\nQuestion: In the leftmost plot, what is the value of the red line with x-axis 0.7?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "63ed8de0518c18b5b1efb5ad7e9b9d23",
+        "question": "What is the classification result measured by F-measure at the threshold 0.7, in the second plot?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Impact of the threshold on the classification results\n\nQuestion: What is the classification result measured by F-measure at the threshold 0.7, in the second plot?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "3965c230b4b6ec2079eb166497fbefdd",
+        "question": "In all subplots, is the value of the red square higher than 0.6 when the threshold is 0.6?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Impact of the threshold on the classification results\n\nQuestion: In all subplots, is the value of the red square higher than 0.6 when the threshold is 0.6?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "2a0769147b2417fdadaa382353f00777",
+        "question": "Does the F-measure consistently decrease as the threshold increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Impact of the threshold on the classification results\n\nQuestion: Does the F-measure consistently decrease as the threshold increases?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "2902c663ec443a66cca63806e2e124b6",
+        "question": "Which line in the first plot of the figure is increasing?",
+        "answer_pred": "precision",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Impact of the threshold on the classification results\n\nQuestion: Which line in the first plot of the figure is increasing?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All three lines are equally consistent'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "55b03b0f9408194955db99a4b565c13c",
+        "question": "Which of the following classification performance metrics decreases as the threshold increases?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Impact of the threshold on the classification results\n\nQuestion: Which of the following classification performance metrics decreases as the threshold increases?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "96a721c0ceefcafbde75995125ca4112",
+        "question": "What is the dataset used in this study and what is the exact implementation of the classification method?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "b6400a3a78885aaf601fa23db9b6679d",
+        "question": "What is the approximate perplexity value of the red line in the third plot at iteration 100?",
+        "answer_pred": "10.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Evaluation of perplexity variation during the training on MR dataset\n\nQuestion: What is the approximate perplexity value of the red line in the third plot at iteration 100?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "0cab5e18f9771931481dca5cb2f1b910",
+        "question": "What is the dataset name associated with the middle graph?",
+        "answer_pred": "MR",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Evaluation of perplexity variation during the training on MR dataset\n\nQuestion: What is the dataset name associated with the middle graph?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "0cfcb9194f4f565267f7685d923cd181",
+        "question": "Is the red line in MR3 consistently lower than the blue dashed line?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Evaluation of perplexity variation during the training on MR dataset\n\nQuestion: Is the red line in MR3 consistently lower than the blue dashed line?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "876720eacf77ce6812aeb9971b6e5c55",
+        "question": "Does the perplexity of the MR1 dataset decrease with more training iterations?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Evaluation of perplexity variation during the training on MR dataset\n\nQuestion: Does the perplexity of the MR1 dataset decrease with more training iterations?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "9625ad38d206d1dbdabd71219ae6c226",
+        "question": "Which of the graphs show a final perplexity value that is higher for  blue line than red line?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Evaluation of perplexity variation during the training on MR dataset\n\nQuestion: Which of the graphs show a final perplexity value that is higher for  blue line than red line?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "24c25027e02893e73b3a04ff2bd0cb54",
+        "question": "What is the range of the values in x-axis?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Evaluation of perplexity variation during the training on MR dataset\n\nQuestion: What is the range of the values in x-axis?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0 to 1000'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "39a0628cac72dbc2037a49e11e0a3644",
+        "question": "Which of the three MR datasets performed better during training, considering both the perplexity without sentiment and the perplexity with sentiment, and how is it presented in the figures?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "911ded09d70fa146e1cb91016a341c77",
+        "question": "In the bottom plot, at a noise ratio of 4%, what is the approximate change in BLEU score for the red line representing the encoder input?",
+        "answer_pred": "-0.02",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: (a) The convergence speed of the encoder and the decoder. (b) The performance when adding noise to the encoder input, encoder output and decoder input in the inference stage of a basic NAT model.\n\nQuestion: In the bottom plot, at a noise ratio of 4%, what is the approximate change in BLEU score for the red line representing the encoder input?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "debd0c30b110da746611d682795742df",
+        "question": "In subplot (a), what is the BLEU score for the Decoder at 2M steps?",
+        "answer_pred": "29.3",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: (a) The convergence speed of the encoder and the decoder. (b) The performance when adding noise to the encoder input, encoder output and decoder input in the inference stage of a basic NAT model.\n\nQuestion: In subplot (a), what is the BLEU score for the Decoder at 2M steps?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "b4c02dc7a824c137b52178f11fd5f148",
+        "question": "In the bottom subplot,  is the red line always lower than the green dashed line across all shown noise ratios?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: (a) The convergence speed of the encoder and the decoder. (b) The performance when adding noise to the encoder input, encoder output and decoder input in the inference stage of a basic NAT model.\n\nQuestion: In the bottom subplot,  is the red line always lower than the green dashed line across all shown noise ratios?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "d5477e539b26ff4f50f8fa345a3786dd",
+        "question": "In subplot b, is the maximum value of Change of Bleu Score 0?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: (a) The convergence speed of the encoder and the decoder. (b) The performance when adding noise to the encoder input, encoder output and decoder input in the inference stage of a basic NAT model.\n\nQuestion: In subplot b, is the maximum value of Change of Bleu Score 0?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "b6dc68e293ed630d3eb57525099ec2db",
+        "question": "In the bottom subplot, which line represents Decoder Input?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: (a) The convergence speed of the encoder and the decoder. (b) The performance when adding noise to the encoder input, encoder output and decoder input in the inference stage of a basic NAT model.\n\nQuestion: In the bottom subplot, which line represents Decoder Input?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "7e67cfbe2b4f02fcd12ed248a6ac7dad",
+        "question": "What is the range of steps presented in the x-axis of plot (a)?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: (a) The convergence speed of the encoder and the decoder. (b) The performance when adding noise to the encoder input, encoder output and decoder input in the inference stage of a basic NAT model.\n\nQuestion: What is the range of steps presented in the x-axis of plot (a)?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "55bf344f5653aa69ed56e72325e05a14",
+        "question": "What is the exact BLEU score at 1 million steps for the encoder and decoder, and how does the difference in BLEU scores between the encoder and decoder at this point compare to the difference at 2 million steps?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "7c7da65e03fb8156bde47f98c056b2fe",
+        "question": "What is the accuracy of the green line at 1M parallel sentences for the second subplot on the left?",
+        "answer_pred": "0.67",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Nearest neighbor translation accuracy as a function of (log) parallel corpus size. (sent) to sentence-level mapping, and (dict) refers to the baseline (using a static dictionary for mapping). The legend shows the average accuracies of each model using 1M parallel sentences.\n\nQuestion: What is the accuracy of the green line at 1M parallel sentences for the second subplot on the left?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "93c7ddf0b89769104858abd6b24839e6",
+        "question": "What is the accuracy of the FastText(dict) model in the de-->es plot with all parallel sentences?",
+        "answer_pred": "81.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Nearest neighbor translation accuracy as a function of (log) parallel corpus size. (sent) to sentence-level mapping, and (dict) refers to the baseline (using a static dictionary for mapping). The legend shows the average accuracies of each model using 1M parallel sentences.\n\nQuestion: What is the accuracy of the FastText(dict) model in the de-->es plot with all parallel sentences?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "fb2c20af3e5156df4ce1579fb1fd05a4",
+        "question": "In the top right plot, does the blue line with circles reach an accuracy of approximately 0.8 at the x-axis value of 1M?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Nearest neighbor translation accuracy as a function of (log) parallel corpus size. (sent) to sentence-level mapping, and (dict) refers to the baseline (using a static dictionary for mapping). The legend shows the average accuracies of each model using 1M parallel sentences.\n\nQuestion: In the top right plot, does the blue line with circles reach an accuracy of approximately 0.8 at the x-axis value of 1M?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "cb011292989a941ad61a251535aeebc3",
+        "question": "In en-->de plot, does the model SDAE (sent) have an accuracy of over 75% when trained on 1 million parallel sentences?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Nearest neighbor translation accuracy as a function of (log) parallel corpus size. (sent) to sentence-level mapping, and (dict) refers to the baseline (using a static dictionary for mapping). The legend shows the average accuracies of each model using 1M parallel sentences.\n\nQuestion: In en-->de plot, does the model SDAE (sent) have an accuracy of over 75% when trained on 1 million parallel sentences?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "4889440da40d939a8a905d9e31539797",
+        "question": "Which line represents the model with the highest accuracy at 1 million parallel sentences in the middle right plot?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Nearest neighbor translation accuracy as a function of (log) parallel corpus size. (sent) to sentence-level mapping, and (dict) refers to the baseline (using a static dictionary for mapping). The legend shows the average accuracies of each model using 1M parallel sentences.\n\nQuestion: Which line represents the model with the highest accuracy at 1 million parallel sentences in the middle right plot?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'green solid line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "c3ff866f19c7d21b8b9c0fd015547e82",
+        "question": "How many models are presented in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Nearest neighbor translation accuracy as a function of (log) parallel corpus size. (sent) to sentence-level mapping, and (dict) refers to the baseline (using a static dictionary for mapping). The legend shows the average accuracies of each model using 1M parallel sentences.\n\nQuestion: How many models are presented in the figure?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '5'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "058d1ae4ab1a093d24b2f227e06eb740",
+        "question": "What is the data used for training, and how does it influence the accuracy results for each language pair?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "3796989767c48d01f46310aabee7d155",
+        "question": "What is the accuracy of the green line at relation length 9 in rightmost plot?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Systematic generalization performance of different models when trained on clauses of length k = 2, 3 (Left) and k = 2, 3, 4 (Right).\n\nQuestion: What is the accuracy of the green line at relation length 9 in rightmost plot?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "7515aea8731ed64f3c245c86f9be0e51",
+        "question": "Which model presents a decrease in accuracy after 5 relation length when trained on k=2,3,4?",
+        "answer_pred": "BERT",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Systematic generalization performance of different models when trained on clauses of length k = 2, 3 (Left) and k = 2, 3, 4 (Right).\n\nQuestion: Which model presents a decrease in accuracy after 5 relation length when trained on k=2,3,4?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "28386730f95e03538ffd8ad0ecaff171",
+        "question": "Is the accuracy value of the green line consistently higher than the accuracy of the orange line for the left figure?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Systematic generalization performance of different models when trained on clauses of length k = 2, 3 (Left) and k = 2, 3, 4 (Right).\n\nQuestion: Is the accuracy value of the green line consistently higher than the accuracy of the orange line for the left figure?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "c7ed2717ce238dc3b9d6b18dff0a89ec",
+        "question": "Is the accuracy of the model 'BERT - LSTM' consistently higher than the model 'RN' when trained on clauses of length k=2, 3?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Systematic generalization performance of different models when trained on clauses of length k = 2, 3 (Left) and k = 2, 3, 4 (Right).\n\nQuestion: Is the accuracy of the model 'BERT - LSTM' consistently higher than the model 'RN' when trained on clauses of length k=2, 3?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "9d4b20c0dcfbb420196ec70ad1880237",
+        "question": "In rightmost plot, which model has the highest accuracy at a relation length of 3?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Systematic generalization performance of different models when trained on clauses of length k = 2, 3 (Left) and k = 2, 3, 4 (Right).\n\nQuestion: In rightmost plot, which model has the highest accuracy at a relation length of 3?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'RN'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "feb4e6691a5301f4a226277e69ed7e19",
+        "question": "What is the maximum clause length used for training the models in Figure 5?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Systematic generalization performance of different models when trained on clauses of length k = 2, 3 (Left) and k = 2, 3, 4 (Right).\n\nQuestion: What is the maximum clause length used for training the models in Figure 5?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '10'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "27b9ae65d5629318a46e8cf05e0c2bf0",
+        "question": "What is the dataset used to train these models, and how does it affect the results?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "442a68ee1ffceef6fd844828f8af8211",
+        "question": "What is the value of the orange line at 10 segments?",
+        "answer_pred": "10.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Comparison of performance obtained by text segmentation algorithms: Bayesian segmentation (BayesSeg) and LCSeg. \u201cDefault\u201d setting does not require the number of segments to be explicitly stated when computing segment boundaries using LCSeg.\n\nQuestion: What is the value of the orange line at 10 segments?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "166763d548cb4de537a42d0b6772f6eb",
+        "question": "What is the number of segments for 'BayesSeg' with an average F-measure of 0.73?",
+        "answer_pred": "3",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Comparison of performance obtained by text segmentation algorithms: Bayesian segmentation (BayesSeg) and LCSeg. \u201cDefault\u201d setting does not require the number of segments to be explicitly stated when computing segment boundaries using LCSeg.\n\nQuestion: What is the number of segments for 'BayesSeg' with an average F-measure of 0.73?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "cb5b56852a8c1d1d19a6cc0500f21bc7",
+        "question": "Does the blue dashed line reach its highest point at the number of segments equal to 14?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Comparison of performance obtained by text segmentation algorithms: Bayesian segmentation (BayesSeg) and LCSeg. \u201cDefault\u201d setting does not require the number of segments to be explicitly stated when computing segment boundaries using LCSeg.\n\nQuestion: Does the blue dashed line reach its highest point at the number of segments equal to 14?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "0b80156d7cf3fe38f2fed1af892292a2",
+        "question": "Does the LCSeg algorithm perform better than the BayesSeg algorithm when the number of segments is 14?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Comparison of performance obtained by text segmentation algorithms: Bayesian segmentation (BayesSeg) and LCSeg. \u201cDefault\u201d setting does not require the number of segments to be explicitly stated when computing segment boundaries using LCSeg.\n\nQuestion: Does the LCSeg algorithm perform better than the BayesSeg algorithm when the number of segments is 14?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "022644beef43ed6fb51e6a9e06a7e51d",
+        "question": "Which line represents the algorithm that had a higher 'Average F-measure' when the 'Number of segments' was 12?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Comparison of performance obtained by text segmentation algorithms: Bayesian segmentation (BayesSeg) and LCSeg. \u201cDefault\u201d setting does not require the number of segments to be explicitly stated when computing segment boundaries using LCSeg.\n\nQuestion: Which line represents the algorithm that had a higher 'Average F-measure' when the 'Number of segments' was 12?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "59020b10afbcd65a3a66b9ea933270f5",
+        "question": "What is the range of the values presented for 'Average F-Measure'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Comparison of performance obtained by text segmentation algorithms: Bayesian segmentation (BayesSeg) and LCSeg. \u201cDefault\u201d setting does not require the number of segments to be explicitly stated when computing segment boundaries using LCSeg.\n\nQuestion: What is the range of the values presented for 'Average F-Measure'?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '40 to 80'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "b6e258fa204dab6827c4bae858b06384",
+        "question": "What is the dataset used to generate the performance results shown in the plot, and how does it influence the results?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "75cca6d6141a06d536bc15e4b0977404",
+        "question": "What is the value of the dashed line at 117.5 on the x-axis?",
+        "answer_pred": "0.69",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: English-Turkish BLEU over training set size.\n\nQuestion: What is the value of the dashed line at 117.5 on the x-axis?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "4fb81dcdbe2623ad5e29ad3c36e628ec",
+        "question": "What is the name of the variable measured on the y-axis?",
+        "answer_pred": "Deviance",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: English-Turkish BLEU over training set size.\n\nQuestion: What is the name of the variable measured on the y-axis?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "ba9d3842b2279fd6f631ccc20060a4b4",
+        "question": "Is the blue line representing 'PostNorm' higher than the orange line representing 'Baseline' at the point where the number of training sentences is 117.5?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: English-Turkish BLEU over training set size.\n\nQuestion: Is the blue line representing 'PostNorm' higher than the orange line representing 'Baseline' at the point where the number of training sentences is 117.5?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "e3d81c43122e7808f17a99330eeb2823",
+        "question": "Does the BLEU score of PostNorm consistently exceed the Baseline BLEU score across all training set sizes?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: English-Turkish BLEU over training set size.\n\nQuestion: Does the BLEU score of PostNorm consistently exceed the Baseline BLEU score across all training set sizes?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "017b9206809c1e5120c4d12494682fe8",
+        "question": "Which line represents the \"Baseline\" model?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: English-Turkish BLEU over training set size.\n\nQuestion: Which line represents the \"Baseline\" model?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "1dc89bf076d51cac2bba7a217c555ca9",
+        "question": "What is the size of the training set corresponding to the highest BLEU score for the 'Baseline' system?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: English-Turkish BLEU over training set size.\n\nQuestion: What is the size of the training set corresponding to the highest BLEU score for the 'Baseline' system?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '210'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "babc7e32958c678f98f9d3acf838beb0",
+        "question": "What is the difference in BLEU score between PostNorm and Baseline with 100 training sentences?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "8b552689a61fe9e0fa1cc3e7449c54fc",
+        "question": "What is the value of the validation loss for purple line at epoch 5, in right bottom plot?",
+        "answer_pred": "0.19",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Accuracies and losses of CNN submodels\n\nQuestion: What is the value of the validation loss for purple line at epoch 5, in right bottom plot?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "3cb278da87db98fabb80b787795f157c",
+        "question": "What is the type of loss measured in the plots?",
+        "answer_pred": "Cross Entropy Loss",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Accuracies and losses of CNN submodels\n\nQuestion: What is the type of loss measured in the plots?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "2a57a35cc2e45bce9a722032fc6d3091",
+        "question": "In the left bottom plot, does the red line has a higher accuracy score than the green line at epoch 4? ",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Accuracies and losses of CNN submodels\n\nQuestion: In the left bottom plot, does the red line has a higher accuracy score than the green line at epoch 4? \nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "4e8ea981f3882f24886b0a9eddae4efa",
+        "question": "Does the validation accuracy of all models reach a value of 1?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Accuracies and losses of CNN submodels\n\nQuestion: Does the validation accuracy of all models reach a value of 1?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "56a826be331cf533ba68f8cf35e72fac",
+        "question": "In rightmost bottom plot, which line represents the  model has the highest validation loss at the 8th epoch?",
+        "answer_pred": "yellow",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Accuracies and losses of CNN submodels\n\nQuestion: In rightmost bottom plot, which line represents the  model has the highest validation loss at the 8th epoch?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'yellow line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "9f2df9dd1aadc0958af1f2cb936e765e",
+        "question": "In 'Model accuracy (training)' plot what is the range of the accuracy values in y-axis?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFig. 2. Accuracies and losses of CNN submodels\n\nQuestion: In 'Model accuracy (training)' plot what is the range of the accuracy values in y-axis?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '98 to 100'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "03f370c101e138cd6b4dec8106fa662f",
+        "question": "Which dataset was used for training and validation, and how does it affect the results?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "6d87cead899129c2deefab1e9da5547b",
+        "question": "In the top left plot, what is the training time of the yellow line at 100 features?",
+        "answer_pred": "1.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 24. Training time comparison across the ML algorithms and the feature selection methods.\n\nQuestion: In the top left plot, what is the training time of the yellow line at 100 features?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "6ba709f5ab3a2a55d264de25a5668fd4",
+        "question": "How many ML algorithms are compared in Figure 24?",
+        "answer_pred": "3",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 24. Training time comparison across the ML algorithms and the feature selection methods.\n\nQuestion: How many ML algorithms are compared in Figure 24?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "0c7f00deb5ae88c1ca77aa162d85329d",
+        "question": "Is the purple line higher than the red line for at the point where the number of selected features is 40 in the 'Bagging' chart?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 24. Training time comparison across the ML algorithms and the feature selection methods.\n\nQuestion: Is the purple line higher than the red line for at the point where the number of selected features is 40 in the 'Bagging' chart?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "f87429617b831506d07b3751d7d61cfe",
+        "question": "Is the training time for the Random Forest algorithm consistently higher than that of the Adaptive Boosting algorithm?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 24. Training time comparison across the ML algorithms and the feature selection methods.\n\nQuestion: Is the training time for the Random Forest algorithm consistently higher than that of the Adaptive Boosting algorithm?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "084983c7cb2990c451c41122a384a024",
+        "question": "In the top right plot, which line has the highest training time with a number of selected features of 80?",
+        "answer_pred": "A",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 24. Training time comparison across the ML algorithms and the feature selection methods.\n\nQuestion: In the top right plot, which line has the highest training time with a number of selected features of 80?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "8daff804c1622107a601f3bd8d9bbb04",
+        "question": "Which ML algorithm has the highest training time when the number of selected features is 100?",
+        "answer_pred": "Adaptive Boosting",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 24. Training time comparison across the ML algorithms and the feature selection methods.\n\nQuestion: Which ML algorithm has the highest training time when the number of selected features is 100?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Adaptive Boosting'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "81acb52e353cbb12c26df662a3c8e242",
+        "question": "What dataset was used for training, and how does it influence the results?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "b9a160dacc7e27c514ea7eb7f8ed6606",
+        "question": "What is the approximate value of the highest red line at 10^4 training pairs in the rightmost plot?",
+        "answer_pred": "1000",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison with ORACLE that uses direct source-target parallel or comparable corpora. The JOINT model corresponds to horizontal lines.\n\nQuestion: What is the approximate value of the highest red line at 10^4 training pairs in the rightmost plot?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "0424ecfcd61a9a6c7aa7299249bbcdf0",
+        "question": "Which languages are presented in the plot?",
+        "answer_pred": "[English, German, French, Spanish]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison with ORACLE that uses direct source-target parallel or comparable corpora. The JOINT model corresponds to horizontal lines.\n\nQuestion: Which languages are presented in the plot?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "76afd084f2879181eabf48c3d5f547a0",
+        "question": "In the rightmost plot, is the red line  higher than the blue line representing at the point where the number of training pairs is approximately 10^4?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison with ORACLE that uses direct source-target parallel or comparable corpora. The JOINT model corresponds to horizontal lines.\n\nQuestion: In the rightmost plot, is the red line  higher than the blue line representing at the point where the number of training pairs is approximately 10^4?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "626b75a1410ec363ae04ebc13e83e2ca",
+        "question": "Is the performance of the JOINT model consistently better than ORACLE across different numbers of training pairs?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison with ORACLE that uses direct source-target parallel or comparable corpora. The JOINT model corresponds to horizontal lines.\n\nQuestion: Is the performance of the JOINT model consistently better than ORACLE across different numbers of training pairs?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "b85df166bc20b89514ab24208a2fa0cc",
+        "question": "Which of the following represents the trend of the JOINT model in the right graph (b)?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison with ORACLE that uses direct source-target parallel or comparable corpora. The JOINT model corresponds to horizontal lines.\n\nQuestion: Which of the following represents the trend of the JOINT model in the right graph (b)?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither the red solid line nor the blue dashed line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "cde3923dfe5dc47f0499413ac53255ed",
+        "question": "What is the range of the values presented in y-axis in plot (a)?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Comparison with ORACLE that uses direct source-target parallel or comparable corpora. The JOINT model corresponds to horizontal lines.\n\nQuestion: What is the range of the values presented in y-axis in plot (a)?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '0 to 70'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "f776d07de0adb73715e3bb77b167f9ee",
+        "question": "What is the specific performance of the JOINT model on the 'IAPR-TC12' dataset with 1,000 training pairs for the De-En translation, and how is it depicted in the figures?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "863a8dc05e538ee7358d84489353c6a1",
+        "question": "In the bottom left plot, what is the value of the red line at the WE training size of 10^5?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Test performance (accuracy) in the FGET task for different segmentation methods in data scarcity simulation experiments across 4 languages representing 4 broad morphological types, averaged over 5 runs. Some data points with Chinese (ZH) are not shown as in those cases the subword model is reduced to single characters only.\n\nQuestion: In the bottom left plot, what is the value of the red line at the WE training size of 10^5?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    }
+]

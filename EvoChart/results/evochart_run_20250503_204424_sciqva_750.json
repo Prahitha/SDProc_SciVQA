@@ -1,0 +1,13 @@
+[
+    {
+        "instance_id": "56ffabcefe4267bfe590eb95b9d392f1",
+        "question": "Which model achieves the lowest score at round 2 in the '9 random' plot?",
+        "answer_pred": "Stage 1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Task performance (guessing game accuracy) over rounds of dialog. Performance increases over rounds for all models except the Stage 1 models.\n\nQuestion: Which model achieves the lowest score at round 2 in the '9 random' plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.If the graph is too complicated, take approximations from the axis scale. Give the answer, with no extra explanation."
+            }
+        ]
+    }
+]

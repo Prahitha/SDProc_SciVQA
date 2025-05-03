@@ -1,0 +1,118 @@
+[
+    {
+        "instance_id": "56ffabcefe4267bfe590eb95b9d392f1",
+        "question": "Which model achieves the lowest score at round 2 in the '9 random' plot?",
+        "answer_pred": "Stage 1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Task performance (guessing game accuracy) over rounds of dialog. Performance increases over rounds for all models except the Stage 1 models.\n\nQuestion: Which model achieves the lowest score at round 2 in the '9 random' plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.If the graph is too complicated, take approximations from the axis scale. Give the answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c480f9e386fd0b94106605df7933f05e",
+        "question": "Does the blue line representing ''Non-Var Cont Stage 1\" have the lowest accuracy in the bottom graph at round 8?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Task performance (guessing game accuracy) over rounds of dialog. Performance increases over rounds for all models except the Stage 1 models.\n\nQuestion: Does the blue line representing ''Non-Var Cont Stage 1\" have the lowest accuracy in the bottom graph at round 8?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a85ae18250f42a77af6223b84e641a8f",
+        "question": "Are all graphs plotted for 8 rounds?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Task performance (guessing game accuracy) over rounds of dialog. Performance increases over rounds for all models except the Stage 1 models.\n\nQuestion: Are all graphs plotted for 8 rounds?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "35d4491225470b9f923c0aa35f1b504e",
+        "question": "Which line represents the 'Cont Stage 2 A' model?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Task performance (guessing game accuracy) over rounds of dialog. Performance increases over rounds for all models except the Stage 1 models.\n\nQuestion: Which line represents the 'Cont Stage 2 A' model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'blue'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "ed122995bd7a4d6a66d59fa59e234271",
+        "question": "Which model has the highest accuracy in the plot '4 random' in the first round?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Task performance (guessing game accuracy) over rounds of dialog. Performance increases over rounds for all models except the Stage 1 models.\n\nQuestion: Which model has the highest accuracy in the plot '4 random' in the first round?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Fine Decoder'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "65d66daf4a98b7b07d94e078eda6bf4c",
+        "question": "Which model had the highest accuracy on round 5, with 2 contrast?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "c6128392d35bd0a462b083798ebd2b6c",
+        "question": "What is the value of the blue line at 30 seed examples?",
+        "answer_pred": "0.62",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: IC accuracy on SNIPS\u2019s AddToPlaylist intent with varying number of seed examples. 100 examples are generated using different FDA techniques. As indicated by the accuracy trend, increasing the seed examples leads to better performance.\n\nQuestion: What is the value of the blue line at 30 seed examples?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.If the graph is too complicated, take approximations from the axis scale. Give the answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "7e9555b063c7079388582909e5f29078",
+        "question": "What is the intent accuracy for the 'DeltaS' method when the number of seed examples is 15?",
+        "answer_pred": "0.61",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: IC accuracy on SNIPS\u2019s AddToPlaylist intent with varying number of seed examples. 100 examples are generated using different FDA techniques. As indicated by the accuracy trend, increasing the seed examples leads to better performance.\n\nQuestion: What is the intent accuracy for the 'DeltaS' method when the number of seed examples is 15?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.If the graph is too complicated, take approximations from the axis scale. Give the answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "d328cb0b0e68627b26a7bb56bd798cae",
+        "question": "Does the accuracy of the blue line increase between 10 and 20 seed examples?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: IC accuracy on SNIPS\u2019s AddToPlaylist intent with varying number of seed examples. 100 examples are generated using different FDA techniques. As indicated by the accuracy trend, increasing the seed examples leads to better performance.\n\nQuestion: Does the accuracy of the blue line increase between 10 and 20 seed examples?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d35abdc96223a4229fc654b918cd6876",
+        "question": "Does the intent accuracy always increase as the number of seed examples increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: IC accuracy on SNIPS\u2019s AddToPlaylist intent with varying number of seed examples. 100 examples are generated using different FDA techniques. As indicated by the accuracy trend, increasing the seed examples leads to better performance.\n\nQuestion: Does the intent accuracy always increase as the number of seed examples increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "ff962cc41d3194599213d8137b37a2d9",
+        "question": "Which line represents the method with the highest accuracy when the number of seed examples is at its minimum?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: IC accuracy on SNIPS\u2019s AddToPlaylist intent with varying number of seed examples. 100 examples are generated using different FDA techniques. As indicated by the accuracy trend, increasing the seed examples leads to better performance.\n\nQuestion: Which line represents the method with the highest accuracy when the number of seed examples is at its minimum?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Pink line with square markers'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

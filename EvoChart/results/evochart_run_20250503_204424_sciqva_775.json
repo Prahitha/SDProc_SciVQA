@@ -1,0 +1,273 @@
+[
+    {
+        "instance_id": "56ffabcefe4267bfe590eb95b9d392f1",
+        "question": "Which model achieves the lowest score at round 2 in the '9 random' plot?",
+        "answer_pred": "Stage 1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Task performance (guessing game accuracy) over rounds of dialog. Performance increases over rounds for all models except the Stage 1 models.\n\nQuestion: Which model achieves the lowest score at round 2 in the '9 random' plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.If the graph is too complicated, take approximations from the axis scale. Give the answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c480f9e386fd0b94106605df7933f05e",
+        "question": "Does the blue line representing ''Non-Var Cont Stage 1\" have the lowest accuracy in the bottom graph at round 8?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Task performance (guessing game accuracy) over rounds of dialog. Performance increases over rounds for all models except the Stage 1 models.\n\nQuestion: Does the blue line representing ''Non-Var Cont Stage 1\" have the lowest accuracy in the bottom graph at round 8?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a85ae18250f42a77af6223b84e641a8f",
+        "question": "Are all graphs plotted for 8 rounds?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Task performance (guessing game accuracy) over rounds of dialog. Performance increases over rounds for all models except the Stage 1 models.\n\nQuestion: Are all graphs plotted for 8 rounds?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "35d4491225470b9f923c0aa35f1b504e",
+        "question": "Which line represents the 'Cont Stage 2 A' model?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Task performance (guessing game accuracy) over rounds of dialog. Performance increases over rounds for all models except the Stage 1 models.\n\nQuestion: Which line represents the 'Cont Stage 2 A' model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'blue'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "ed122995bd7a4d6a66d59fa59e234271",
+        "question": "Which model has the highest accuracy in the plot '4 random' in the first round?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 8: Task performance (guessing game accuracy) over rounds of dialog. Performance increases over rounds for all models except the Stage 1 models.\n\nQuestion: Which model has the highest accuracy in the plot '4 random' in the first round?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Fine Decoder'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "65d66daf4a98b7b07d94e078eda6bf4c",
+        "question": "Which model had the highest accuracy on round 5, with 2 contrast?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "c6128392d35bd0a462b083798ebd2b6c",
+        "question": "What is the value of the blue line at 30 seed examples?",
+        "answer_pred": "0.62",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: IC accuracy on SNIPS\u2019s AddToPlaylist intent with varying number of seed examples. 100 examples are generated using different FDA techniques. As indicated by the accuracy trend, increasing the seed examples leads to better performance.\n\nQuestion: What is the value of the blue line at 30 seed examples?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.If the graph is too complicated, take approximations from the axis scale. Give the answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "7e9555b063c7079388582909e5f29078",
+        "question": "What is the intent accuracy for the 'DeltaS' method when the number of seed examples is 15?",
+        "answer_pred": "0.61",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: IC accuracy on SNIPS\u2019s AddToPlaylist intent with varying number of seed examples. 100 examples are generated using different FDA techniques. As indicated by the accuracy trend, increasing the seed examples leads to better performance.\n\nQuestion: What is the intent accuracy for the 'DeltaS' method when the number of seed examples is 15?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.If the graph is too complicated, take approximations from the axis scale. Give the answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "d328cb0b0e68627b26a7bb56bd798cae",
+        "question": "Does the accuracy of the blue line increase between 10 and 20 seed examples?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: IC accuracy on SNIPS\u2019s AddToPlaylist intent with varying number of seed examples. 100 examples are generated using different FDA techniques. As indicated by the accuracy trend, increasing the seed examples leads to better performance.\n\nQuestion: Does the accuracy of the blue line increase between 10 and 20 seed examples?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d35abdc96223a4229fc654b918cd6876",
+        "question": "Does the intent accuracy always increase as the number of seed examples increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: IC accuracy on SNIPS\u2019s AddToPlaylist intent with varying number of seed examples. 100 examples are generated using different FDA techniques. As indicated by the accuracy trend, increasing the seed examples leads to better performance.\n\nQuestion: Does the intent accuracy always increase as the number of seed examples increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "ff962cc41d3194599213d8137b37a2d9",
+        "question": "Which line represents the method with the highest accuracy when the number of seed examples is at its minimum?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: IC accuracy on SNIPS\u2019s AddToPlaylist intent with varying number of seed examples. 100 examples are generated using different FDA techniques. As indicated by the accuracy trend, increasing the seed examples leads to better performance.\n\nQuestion: Which line represents the method with the highest accuracy when the number of seed examples is at its minimum?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Pink line with square markers'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "dd936c20df59b59060cdaeac5ab472e8",
+        "question": "Which method(s) achieve an accuracy of at least 95% with 25 seed examples?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: IC accuracy on SNIPS\u2019s AddToPlaylist intent with varying number of seed examples. 100 examples are generated using different FDA techniques. As indicated by the accuracy trend, increasing the seed examples leads to better performance.\n\nQuestion: Which method(s) achieve an accuracy of at least 95% with 25 seed examples?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'No_aug'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "ffd5dac5e8593d935e51c693c2d78cb9",
+        "question": "What is the average accuracy for the 'No_aug' method when using 35 seed examples?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "72fd881c0b654756d6a3ae2780315015",
+        "question": "In the top right plot, what is the value of the blue dashed line at input symbol X4?",
+        "answer_pred": "0.83",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Averaged visualization about (a and c) controller gate and (b and d) read-write policy for TANN and SANN on mirror task. Note that all the plots are derived from being averaging over 500 random samples. The x-axis shows each time step represented by input xi or output yi. The \u3008EOS\u3009 represent the input delimiter.\n\nQuestion: In the top right plot, what is the value of the blue dashed line at input symbol X4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.If the graph is too complicated, take approximations from the axis scale. Give the answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "a6f118970c97f291a46ec6bf6900126e",
+        "question": "How many methods are compared in plot 'c'?",
+        "answer_pred": "2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Averaged visualization about (a and c) controller gate and (b and d) read-write policy for TANN and SANN on mirror task. Note that all the plots are derived from being averaging over 500 random samples. The x-axis shows each time step represented by input xi or output yi. The \u3008EOS\u3009 represent the input delimiter.\n\nQuestion: How many methods are compared in plot 'c'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.If the graph is too complicated, take approximations from the axis scale. Give the answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "d253fe4836589d44066efe87c0cbdc52",
+        "question": "Does the 'read (dec)' line in the top right plot have a higher value at the 'Y1' time step than at the 'Y2' time step?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Averaged visualization about (a and c) controller gate and (b and d) read-write policy for TANN and SANN on mirror task. Note that all the plots are derived from being averaging over 500 random samples. The x-axis shows each time step represented by input xi or output yi. The \u3008EOS\u3009 represent the input delimiter.\n\nQuestion: Does the 'read (dec)' line in the top right plot have a higher value at the 'Y1' time step than at the 'Y2' time step?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a4d3d04322fa15ae8bc3e58a73b4edcd",
+        "question": "Does 'in_r' always have a higher saturated percentage compared to others in plot 'c'?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Averaged visualization about (a and c) controller gate and (b and d) read-write policy for TANN and SANN on mirror task. Note that all the plots are derived from being averaging over 500 random samples. The x-axis shows each time step represented by input xi or output yi. The \u3008EOS\u3009 represent the input delimiter.\n\nQuestion: Does 'in_r' always have a higher saturated percentage compared to others in plot 'c'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "bf1e846dd6cd008704732da296ae5ae0",
+        "question": "Which of the plots are related to TANN?",
+        "answer_pred": "B,C",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Averaged visualization about (a and c) controller gate and (b and d) read-write policy for TANN and SANN on mirror task. Note that all the plots are derived from being averaging over 500 random samples. The x-axis shows each time step represented by input xi or output yi. The \u3008EOS\u3009 represent the input delimiter.\n\nQuestion: Which of the plots are related to TANN?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'bottom left'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "ef8035cfe6e548a839c73fad972839a6",
+        "question": "Which of the following methods are compared in plot 'd'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Averaged visualization about (a and c) controller gate and (b and d) read-write policy for TANN and SANN on mirror task. Note that all the plots are derived from being averaging over 500 random samples. The x-axis shows each time step represented by input xi or output yi. The \u3008EOS\u3009 represent the input delimiter.\n\nQuestion: Which of the following methods are compared in plot 'd'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'pop (dec)'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "cbc555eaa2ca350147bf9610ce4f9ffb",
+        "question": "What is the specific mirror task being used in the experiment?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "662dd11132612c954a9990b69485510f",
+        "question": "What is the approximate impact of the black line at month 6?",
+        "answer_pred": "100",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Impact Of Topic1\n\nQuestion: What is the approximate impact of the black line at month 6?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.If the graph is too complicated, take approximations from the axis scale. Give the answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "ad66d2e7d5ccec1a9213d5d714e1ae6c",
+        "question": "What is the impact of Topic1 in month 5?",
+        "answer_pred": "12",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Impact Of Topic1\n\nQuestion: What is the impact of Topic1 in month 5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.If the graph is too complicated, take approximations from the axis scale. Give the answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "db9098ced1ec150e561bba64da038db3",
+        "question": "Does the impact of the black line reach its peak at month 2?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Impact Of Topic1\n\nQuestion: Does the impact of the black line reach its peak at month 2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "f571807127f3614f97ce7bc94908ef31",
+        "question": "Does the impact of Topic1 increase during the first three months?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Impact Of Topic1\n\nQuestion: Does the impact of Topic1 increase during the first three months?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "ee66d4cc1333bb09514ec069a3575cee",
+        "question": "In which month does the impact of the black line reach its lowest value?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Impact Of Topic1\n\nQuestion: In which month does the impact of the black line reach its lowest value?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Month 9'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "94ecc4d454cf091a60615b5b9ff3390b",
+        "question": "At which of the following months is the impact of Topic 1 more than 6?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Impact Of Topic1\n\nQuestion: At which of the following months is the impact of Topic 1 more than 6?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Month 9'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

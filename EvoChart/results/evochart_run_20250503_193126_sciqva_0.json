@@ -1,0 +1,13 @@
+[
+    {
+        "instance_id": "795f4ef16511f4f3496aac9b62885a1c",
+        "question": "What is the approximate maximum value of the shaded area for the blue line in the lower plot?",
+        "answer_pred": "0.022",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Number of documents with an \u201cattack\u201ding country per 3-month period, and coreference posterior uncertainty for that quantity. The dark line is the posterior mean, and the shaded region is the 95% posterior credible interval. See appendix for more examples.\n\nQuestion: What is the approximate maximum value of the shaded area for the blue line in the lower plot?\nGive the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

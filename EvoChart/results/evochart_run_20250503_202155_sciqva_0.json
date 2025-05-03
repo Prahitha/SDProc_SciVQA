@@ -1,0 +1,13 @@
+[
+    {
+        "instance_id": "21b0f38822e386f952d628dce0d5006b",
+        "question": "What percentage of the votes corresponds to the smallest slice of the pie chart?",
+        "answer_pred": "16.67",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Distribution of votes in the final version of the corpus. The numbers 1 to 5 are the different scores the annotators could assign to the humorous tweets.\n\nQuestion: What percentage of the votes corresponds to the smallest slice of the pie chart?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    }
+]

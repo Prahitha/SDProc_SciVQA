@@ -1,0 +1,899 @@
+[
+    {
+        "instance_id": "61f52220593c8b6f031776aa5d47e112",
+        "question": "Does the yellow line representing \"R^2 (Quadratic)\" have a lower value than the green line representing \"PCNN+ATT\" at the recall value of 0.1?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Results for the relation extraction from the NYT corpus: comparison with state-of-the-art neural network models.\n\nQuestion: Does the yellow line representing \"R^2 (Quadratic)\" have a lower value than the green line representing \"PCNN+ATT\" at the recall value of 0.1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "514443c443afb8a395e2ddb1a60fa26e",
+        "question": "Is the precision of the CNN+ATT model consistently higher than that of the PCNN+ATT model?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Results for the relation extraction from the NYT corpus: comparison with state-of-the-art neural network models.\n\nQuestion: Is the precision of the CNN+ATT model consistently higher than that of the PCNN+ATT model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8fd522ca4565648551b38ba3f6e99455",
+        "question": "Which of the following have a precision value greater than 0.8 when the recall value is 0.1?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Results for the relation extraction from the NYT corpus: comparison with state-of-the-art neural network models.\n\nQuestion: Which of the following have a precision value greater than 0.8 when the recall value is 0.1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Red line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "76e186cbcc76913f9892a72beac73cb7",
+        "question": "Which of the following model names are used in the comparison of relation extraction results shown in Figure 2?",
+        "answer_pred": "A",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Results for the relation extraction from the NYT corpus: comparison with state-of-the-art neural network models.\n\nQuestion: Which of the following model names are used in the comparison of relation extraction results shown in Figure 2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'HOFFMANN'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "23042ce4ada10a4c6665c247a2954543",
+        "question": "What is the precision of the Hoffmann model when the recall is 0.4?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "4c3c86f3609ddfbdcb91474e53d12440",
+        "question": "What is the value of the green line at the '256' entity space dimensionality on the Sports & Outdoors plot?",
+        "answer_pred": "0.22",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7.4: Comparison of LSE (with window size n = 4) with latent vector space baselines (LSI, LDA and word2vec; Section 7.4.5) on Home & Kitchen, Clothing, Shoes & Jewelry, Pet Supplies and Sports & Outdoors product search benchmarks (Section 7.4.3) and evaluated on the test sets. Significance (Section 7.4.4) is computed between LSE and the baselines for each vector space size.\n\nQuestion: What is the value of the green line at the '256' entity space dimensionality on the Sports & Outdoors plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c3db75450ef468b94ac48249ffdf6b90",
+        "question": "For which product search benchmark is the highest NDCG value achieved for LSE with an entity space dimensionality of 512?",
+        "answer_pred": "Home & Kitchen",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7.4: Comparison of LSE (with window size n = 4) with latent vector space baselines (LSI, LDA and word2vec; Section 7.4.5) on Home & Kitchen, Clothing, Shoes & Jewelry, Pet Supplies and Sports & Outdoors product search benchmarks (Section 7.4.3) and evaluated on the test sets. Significance (Section 7.4.4) is computed between LSE and the baselines for each vector space size.\n\nQuestion: For which product search benchmark is the highest NDCG value achieved for LSE with an entity space dimensionality of 512?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "ea7dc16fd7685df0f8e3c77474e02d70",
+        "question": "Is the blue diamond line consistently higher than the purple triangle line in the 'Home & Kitchen' graph?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7.4: Comparison of LSE (with window size n = 4) with latent vector space baselines (LSI, LDA and word2vec; Section 7.4.5) on Home & Kitchen, Clothing, Shoes & Jewelry, Pet Supplies and Sports & Outdoors product search benchmarks (Section 7.4.3) and evaluated on the test sets. Significance (Section 7.4.4) is computed between LSE and the baselines for each vector space size.\n\nQuestion: Is the blue diamond line consistently higher than the purple triangle line in the 'Home & Kitchen' graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "671e1c2dd468d6753d60dc9da90f7bfc",
+        "question": "Is LSI's performance consistently higher than LDA for all product search benchmarks?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7.4: Comparison of LSE (with window size n = 4) with latent vector space baselines (LSI, LDA and word2vec; Section 7.4.5) on Home & Kitchen, Clothing, Shoes & Jewelry, Pet Supplies and Sports & Outdoors product search benchmarks (Section 7.4.3) and evaluated on the test sets. Significance (Section 7.4.4) is computed between LSE and the baselines for each vector space size.\n\nQuestion: Is LSI's performance consistently higher than LDA for all product search benchmarks?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "550f1ca69f065d291fa6cf534eaac7e1",
+        "question": "Which of the following colors represents 'word2vec'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7.4: Comparison of LSE (with window size n = 4) with latent vector space baselines (LSI, LDA and word2vec; Section 7.4.5) on Home & Kitchen, Clothing, Shoes & Jewelry, Pet Supplies and Sports & Outdoors product search benchmarks (Section 7.4.3) and evaluated on the test sets. Significance (Section 7.4.4) is computed between LSE and the baselines for each vector space size.\n\nQuestion: Which of the following colors represents 'word2vec'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Green'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "b19fdbcdc0f5c502b1c9db75cefe67a7",
+        "question": "Which of the product search benchmarks shows the highest value of LSE when the entity space dimensionality is 128?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7.4: Comparison of LSE (with window size n = 4) with latent vector space baselines (LSI, LDA and word2vec; Section 7.4.5) on Home & Kitchen, Clothing, Shoes & Jewelry, Pet Supplies and Sports & Outdoors product search benchmarks (Section 7.4.3) and evaluated on the test sets. Significance (Section 7.4.4) is computed between LSE and the baselines for each vector space size.\n\nQuestion: Which of the product search benchmarks shows the highest value of LSE when the entity space dimensionality is 128?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Sports & Outdoors'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "36b2190972561a54099a183447047d6c",
+        "question": "What is the specific value of the LSE model's NDCG for the Clothing, Shoes & Jewelry category with an entity space dimensionality of 2048?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "bb99fca9a4c8f2efe21743f0972a3c1c",
+        "question": "What is the accuracy of the blue line when the training data size is 50% in the left graph?",
+        "answer_pred": "0.83",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Learning curve on the training dataset.\n\nQuestion: What is the accuracy of the blue line when the training data size is 50% in the left graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "9d91192e981dd08cac843daf7f4317d0",
+        "question": "How many methods are compared in figure 4?",
+        "answer_pred": "2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Learning curve on the training dataset.\n\nQuestion: How many methods are compared in figure 4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "bcb53f84c3f236cfa93ab6327ed2bb19",
+        "question": "Is the accuracy of the orange line higher than the blue line at the 10% mark on the x-axis in both the graphs?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Learning curve on the training dataset.\n\nQuestion: Is the accuracy of the orange line higher than the blue line at the 10% mark on the x-axis in both the graphs?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "70afdf1887f0391e1a9aec13fb0ec4cd",
+        "question": "Does the accuracy of the 'ours' method always increase with increasing training data size in subtask a?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Learning curve on the training dataset.\n\nQuestion: Does the accuracy of the 'ours' method always increase with increasing training data size in subtask a?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "2a1d9fc1f0d5bb5634486199cff26cde",
+        "question": "At what percentage of training data (subtask b) does the orange line reach its highest value?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Learning curve on the training dataset.\n\nQuestion: At what percentage of training data (subtask b) does the orange line reach its highest value?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '100'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "ab0de898e59a69461659fb6d51e9244e",
+        "question": "Which of the following subtasks reach a value more than 0.93 at 20% training data for 'ours' methods?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Learning curve on the training dataset.\n\nQuestion: Which of the following subtasks reach a value more than 0.93 at 20% training data for 'ours' methods?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "e9419d309774dbaed7b64983ef0d9813",
+        "question": "What was the specific algorithm used for training the model represented by the orange line in Figure 4?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "2d5be7bc9a44d7ec3e5ff29f001ed761",
+        "question": "What is the value of the computational time (in ms) of the orange plus marker where the head cluster size (kh) is approximately 20,000?",
+        "answer_pred": "11.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Computational time for the two-clusters adaptive softmax on the Bulgarian Europarl data, as a function of the size of the head cluster kh. We report values predicted by our model (theoretical) as well as measured on a K40 (empirical). Even with this very simple hierarchy, we observe more than 5\u00d7 speedup over the full softmax. The red dotted line indicates the value of the parameter kh such that both clusters have equal probability: ph = pt = 0.5.\n\nQuestion: What is the value of the computational time (in ms) of the orange plus marker where the head cluster size (kh) is approximately 20,000?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c7d863359b9d059cd0ff3c207889ceb1",
+        "question": "What is the approximate computational time for the 'theoretical' method when the size of the head cluster kh is approximately 1,000?",
+        "answer_pred": "0.02",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Computational time for the two-clusters adaptive softmax on the Bulgarian Europarl data, as a function of the size of the head cluster kh. We report values predicted by our model (theoretical) as well as measured on a K40 (empirical). Even with this very simple hierarchy, we observe more than 5\u00d7 speedup over the full softmax. The red dotted line indicates the value of the parameter kh such that both clusters have equal probability: ph = pt = 0.5.\n\nQuestion: What is the approximate computational time for the 'theoretical' method when the size of the head cluster kh is approximately 1,000?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "045c0c185bdb3c0709ae95ae5fa5c390",
+        "question": "Does the blue line representing the theoretical value start at a computational time of more than 100ms?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Computational time for the two-clusters adaptive softmax on the Bulgarian Europarl data, as a function of the size of the head cluster kh. We report values predicted by our model (theoretical) as well as measured on a K40 (empirical). Even with this very simple hierarchy, we observe more than 5\u00d7 speedup over the full softmax. The red dotted line indicates the value of the parameter kh such that both clusters have equal probability: ph = pt = 0.5.\n\nQuestion: Does the blue line representing the theoretical value start at a computational time of more than 100ms?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "4d6745ec7e8deec7a79b7378aaf2b788",
+        "question": "Does the computational time always increase as the size of the head cluster increases?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Computational time for the two-clusters adaptive softmax on the Bulgarian Europarl data, as a function of the size of the head cluster kh. We report values predicted by our model (theoretical) as well as measured on a K40 (empirical). Even with this very simple hierarchy, we observe more than 5\u00d7 speedup over the full softmax. The red dotted line indicates the value of the parameter kh such that both clusters have equal probability: ph = pt = 0.5.\n\nQuestion: Does the computational time always increase as the size of the head cluster increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "bfcd81704fb09312f4ab8613dd801e8c",
+        "question": "What is the approximate value of the orange marker when the blue line is at its lowest point? ",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Computational time for the two-clusters adaptive softmax on the Bulgarian Europarl data, as a function of the size of the head cluster kh. We report values predicted by our model (theoretical) as well as measured on a K40 (empirical). Even with this very simple hierarchy, we observe more than 5\u00d7 speedup over the full softmax. The red dotted line indicates the value of the parameter kh such that both clusters have equal probability: ph = pt = 0.5.\n\nQuestion: What is the approximate value of the orange marker when the blue line is at its lowest point? \n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '150ms'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "a924458245e34da0a43c51dfeeffb52b",
+        "question": "Which of the following is a type of computational time reported in Figure 2?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Computational time for the two-clusters adaptive softmax on the Bulgarian Europarl data, as a function of the size of the head cluster kh. We report values predicted by our model (theoretical) as well as measured on a K40 (empirical). Even with this very simple hierarchy, we observe more than 5\u00d7 speedup over the full softmax. The red dotted line indicates the value of the parameter kh such that both clusters have equal probability: ph = pt = 0.5.\n\nQuestion: Which of the following is a type of computational time reported in Figure 2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Measured'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "5c01c33257742e300a54960eb7102ea1",
+        "question": "What is the value of the blue line at a kh value of 100,000?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "e53340772a8a1c8c446c12b550a970d0",
+        "question": "Which line is green and dashed?",
+        "answer_pred": "CRF100",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Effect of the number of feature maps.\n\nQuestion: Which line is green and dashed?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b5a4aa80e04deacca7bc862cf6fc937a",
+        "question": "What is the dependent variable in this figure?",
+        "answer_pred": "Change in accuracy",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Effect of the number of feature maps.\n\nQuestion: What is the dependent variable in this figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "2f019683f60eb76ef1d22422832c81e7",
+        "question": "Is the green line consistently above the blue line throughout the graph?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Effect of the number of feature maps.\n\nQuestion: Is the green line consistently above the blue line throughout the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "f771459c0bdeda49c6317a397c98eda6",
+        "question": "Does the change in accuracy for Opi start at a point more than -4 at 10 feature maps?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Effect of the number of feature maps.\n\nQuestion: Does the change in accuracy for Opi start at a point more than -4 at 10 feature maps?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "518673c956a4eb625bbcd8c7c280cc66",
+        "question": "Which of the following line colors represents SST-1?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Effect of the number of feature maps.\n\nQuestion: Which of the following line colors represents SST-1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Orange'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "d428efba2b90e4ae1b5d50210286310c",
+        "question": "Which of the following methods have a value less than -2 at 10 feature maps?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Effect of the number of feature maps.\n\nQuestion: Which of the following methods have a value less than -2 at 10 feature maps?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Opi'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "5059c6f6affc90cc7ec2f673296e1ac7",
+        "question": "What is the specific machine learning model used in the experiment depicted in Figure 4?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "83e338c233d0681016f9075ab20843f8",
+        "question": "What is the approximate value of the red line at target token position 15 in the left graph?",
+        "answer_pred": "0.022222222",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Results for random prefixes. For each generation step, the figure shows (a) contribution of source, (b) entropy of source contributions.\n\nQuestion: What is the approximate value of the red line at target token position 15 in the left graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "6a214291823abd143772eebc7badc121",
+        "question": "What are the different models compared in Figure 5?",
+        "answer_pred": "baseline model",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Results for random prefixes. For each generation step, the figure shows (a) contribution of source, (b) entropy of source contributions.\n\nQuestion: What are the different models compared in Figure 5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "0e123afc81ebd639111dae685d3276c4",
+        "question": "Does the red line in the right graph reach a higher entropy value than the orange line?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Results for random prefixes. For each generation step, the figure shows (a) contribution of source, (b) entropy of source contributions.\n\nQuestion: Does the red line in the right graph reach a higher entropy value than the orange line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "973be9d940474cd99b3583588a101280",
+        "question": "Does the entropy of the baseline method increase between tokens 5 and 10?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Results for random prefixes. For each generation step, the figure shows (a) contribution of source, (b) entropy of source contributions.\n\nQuestion: Does the entropy of the baseline method increase between tokens 5 and 10?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "5fffb6e6797c9b6cd64d298a55924ffa",
+        "question": "Which of the following has the highest source contribution at target token position 20?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Results for random prefixes. For each generation step, the figure shows (a) contribution of source, (b) entropy of source contributions.\n\nQuestion: Which of the following has the highest source contribution at target token position 20?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Red line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "850249aa9668023f24852ed42aa34306",
+        "question": "Which of the models have a source contribution entropy greater than 2.992 at target token position 15?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Results for random prefixes. For each generation step, the figure shows (a) contribution of source, (b) entropy of source contributions.\n\nQuestion: Which of the models have a source contribution entropy greater than 2.992 at target token position 15?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'MRT'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "fb3b4d1b64972983b4e4aa7c344c25a3",
+        "question": "What is the specific value of the source contribution for the MRT model at target token position 25?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "490535ad50b9969025ad8ee931daca49",
+        "question": "What is the overall accuracy of the green line with 10,000 questions on the leftmost plot?",
+        "answer_pred": "0.52",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5. Question answering accuracy on the CLEVR-CoGenT dataset (higher is better). Top: We train models on Condition A, then test them on both Condition A and Condition B. We then finetune these models on Condition B using 3K images and 30K questions, and again test on both Conditions. Our model uses 18K programs during training on Condition A, and does not use any programs during finetuning on Condition B. Bottom: We investigate the effects of using different amounts of data when finetuning on Condition B. We show overall accuracy as well as accuracy on color-query and shape-query questions.\n\nQuestion: What is the overall accuracy of the green line with 10,000 questions on the leftmost plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "25b4667fb877ea1c762ce275c0ac4b45",
+        "question": "What is the highest accuracy achieved by 'Ours' in the table?",
+        "answer_pred": "81.4",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5. Question answering accuracy on the CLEVR-CoGenT dataset (higher is better). Top: We train models on Condition A, then test them on both Condition A and Condition B. We then finetune these models on Condition B using 3K images and 30K questions, and again test on both Conditions. Our model uses 18K programs during training on Condition A, and does not use any programs during finetuning on Condition B. Bottom: We investigate the effects of using different amounts of data when finetuning on Condition B. We show overall accuracy as well as accuracy on color-query and shape-query questions.\n\nQuestion: What is the highest accuracy achieved by 'Ours' in the table?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "d0d9982213f7ba37706316535be2f47f",
+        "question": "Does the green line representing 'Ours' model achieve a higher accuracy than the light green line representing 'CNN+LSTM' model in the middle plot?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5. Question answering accuracy on the CLEVR-CoGenT dataset (higher is better). Top: We train models on Condition A, then test them on both Condition A and Condition B. We then finetune these models on Condition B using 3K images and 30K questions, and again test on both Conditions. Our model uses 18K programs during training on Condition A, and does not use any programs during finetuning on Condition B. Bottom: We investigate the effects of using different amounts of data when finetuning on Condition B. We show overall accuracy as well as accuracy on color-query and shape-query questions.\n\nQuestion: Does the green line representing 'Ours' model achieve a higher accuracy than the light green line representing 'CNN+LSTM' model in the middle plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e8c0a8b846e42c1d2056ac9b0e362292",
+        "question": "Is the accuracy of 'Ours (18K prog.)' on Condition A lower than the accuracy of 'CNN+LSTM+SA+MLP' on Condition A?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5. Question answering accuracy on the CLEVR-CoGenT dataset (higher is better). Top: We train models on Condition A, then test them on both Condition A and Condition B. We then finetune these models on Condition B using 3K images and 30K questions, and again test on both Conditions. Our model uses 18K programs during training on Condition A, and does not use any programs during finetuning on Condition B. Bottom: We investigate the effects of using different amounts of data when finetuning on Condition B. We show overall accuracy as well as accuracy on color-query and shape-query questions.\n\nQuestion: Is the accuracy of 'Ours (18K prog.)' on Condition A lower than the accuracy of 'CNN+LSTM+SA+MLP' on Condition A?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "fa0204f6f250003be09e590a72ed85a8",
+        "question": "Which line represents the CNN+LSTM+SA+MLP model's accuracy?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5. Question answering accuracy on the CLEVR-CoGenT dataset (higher is better). Top: We train models on Condition A, then test them on both Condition A and Condition B. We then finetune these models on Condition B using 3K images and 30K questions, and again test on both Conditions. Our model uses 18K programs during training on Condition A, and does not use any programs during finetuning on Condition B. Bottom: We investigate the effects of using different amounts of data when finetuning on Condition B. We show overall accuracy as well as accuracy on color-query and shape-query questions.\n\nQuestion: Which line represents the CNN+LSTM+SA+MLP model's accuracy?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Yellow'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "4d6d1aee9c65af5ae324bb4f7c8851d7",
+        "question": "Which method achieves the highest accuracy on Condition B after finetuning?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5. Question answering accuracy on the CLEVR-CoGenT dataset (higher is better). Top: We train models on Condition A, then test them on both Condition A and Condition B. We then finetune these models on Condition B using 3K images and 30K questions, and again test on both Conditions. Our model uses 18K programs during training on Condition A, and does not use any programs during finetuning on Condition B. Bottom: We investigate the effects of using different amounts of data when finetuning on Condition B. We show overall accuracy as well as accuracy on color-query and shape-query questions.\n\nQuestion: Which method achieves the highest accuracy on Condition B after finetuning?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Ours (18K prog.)'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "9e35bc917c7f7363edb5069f3d2c7dd3",
+        "question": "What specific image features are used in the 'Ours (18K prog.)' model that lead to its high accuracy on the CLEVR-CoGenT dataset?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "4121f535cff6ce193555dc6c252f8425",
+        "question": "What is the value of the highest point on the red line in the top-middle graph?",
+        "answer_pred": "99.5",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The comparison between 3 kinds of agent. ComNet achieved performance close to the upper bound (hand-crafted) while there is still room for improvement for vanilla DQN.\n\nQuestion: What is the value of the highest point on the red line in the top-middle graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "933f21635bc435201ea0f8a299842f40",
+        "question": "How many different environments (env) are shown in figure 3?",
+        "answer_pred": "3",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The comparison between 3 kinds of agent. ComNet achieved performance close to the upper bound (hand-crafted) while there is still room for improvement for vanilla DQN.\n\nQuestion: How many different environments (env) are shown in figure 3?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "8ca686914505437b29ce9a47dc9badda",
+        "question": "Is the blue dashed line for 'Vanilla HDQN' consistently lower than the red solid line for 'ComNet' in the second row, third column?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The comparison between 3 kinds of agent. ComNet achieved performance close to the upper bound (hand-crafted) while there is still room for improvement for vanilla DQN.\n\nQuestion: Is the blue dashed line for 'Vanilla HDQN' consistently lower than the red solid line for 'ComNet' in the second row, third column?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d3ad74d7f1cd96bf67b51bdaa871e34c",
+        "question": "Does the performance of ComNet decrease as the number of dialogues increase?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The comparison between 3 kinds of agent. ComNet achieved performance close to the upper bound (hand-crafted) while there is still room for improvement for vanilla DQN.\n\nQuestion: Does the performance of ComNet decrease as the number of dialogues increase?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d36c67c70e0d7ca2626575d811bf44d2",
+        "question": "Which line in the third row of plots represents the 'ComNet' agent?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The comparison between 3 kinds of agent. ComNet achieved performance close to the upper bound (hand-crafted) while there is still room for improvement for vanilla DQN.\n\nQuestion: Which line in the third row of plots represents the 'ComNet' agent?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "9d7092e8d78dd0f9d952512c9c69988a",
+        "question": "In which of the following task does the Hand-crafted method have the highest value for CR+LAP?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: The comparison between 3 kinds of agent. ComNet achieved performance close to the upper bound (hand-crafted) while there is still room for improvement for vanilla DQN.\n\nQuestion: In which of the following task does the Hand-crafted method have the highest value for CR+LAP?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "c07d42837f0fa09e3cfefb59cd05da3a",
+        "question": "What is the specific type of task that each 'env' (environment) represents?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "73f9402829ddcc0fdcaa14acb7a3cdcc",
+        "question": "What is the F Measure value for the red line at a threshold of 5?",
+        "answer_pred": "0.65",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1. F Measure over Threshold (LVB=0.3 UVB=0.65)\n\nQuestion: What is the F Measure value for the red line at a threshold of 5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "16e38b10062151255234734edaf953f8",
+        "question": "What is the lowest F measure value of 'Sad'?",
+        "answer_pred": "0.2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1. F Measure over Threshold (LVB=0.3 UVB=0.65)\n\nQuestion: What is the lowest F measure value of 'Sad'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "7e05af0d7a147e1b41fd7192f0647f0d",
+        "question": "Is the F Measure for the red line higher than that of the green line at a threshold of 5?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1. F Measure over Threshold (LVB=0.3 UVB=0.65)\n\nQuestion: Is the F Measure for the red line higher than that of the green line at a threshold of 5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "6f778b20ed89e9518a3631b601fbb19a",
+        "question": "Is the F-Measure for Sad consistently lower than that of Fear?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1. F Measure over Threshold (LVB=0.3 UVB=0.65)\n\nQuestion: Is the F-Measure for Sad consistently lower than that of Fear?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "0e5670350613504bf96d950b23f761cb",
+        "question": "Which line(s) are above 0.7 at a threshold of 1?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1. F Measure over Threshold (LVB=0.3 UVB=0.65)\n\nQuestion: Which line(s) are above 0.7 at a threshold of 1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Green line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "7426930ee5d3582834f358570b74f9e4",
+        "question": "What emotions are represented in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1. F Measure over Threshold (LVB=0.3 UVB=0.65)\n\nQuestion: What emotions are represented in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Sad'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "3e55b04eb2bbac586a3eaafa1f36f58b",
+        "question": "What is the F-measure for Happy when the threshold is 0?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "5472e70673e710904ce511a4d0af81f8",
+        "question": "What is the value of the red line at a beam size of 30?",
+        "answer_pred": "0.81",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Performance with NPLM over beam size on English-German news-test2015. A beam of 12 corresponds to row 15 in Tab. 3.\n\nQuestion: What is the value of the red line at a beam size of 30?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c14aabc4716bb8753ccd0dddefad75d1",
+        "question": "What is the highest number of node expansions shown in figure 1's x-axis?",
+        "answer_pred": "15",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Performance with NPLM over beam size on English-German news-test2015. A beam of 12 corresponds to row 15 in Tab. 3.\n\nQuestion: What is the highest number of node expansions shown in figure 1's x-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "f8fb3b208662af89c5f6115b2a752d67",
+        "question": "Does the red line representing BLEU score reach its highest point at a beam size of 30?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Performance with NPLM over beam size on English-German news-test2015. A beam of 12 corresponds to row 15 in Tab. 3.\n\nQuestion: Does the red line representing BLEU score reach its highest point at a beam size of 30?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "7577a9205f12d5c451d1da9643b6efa5",
+        "question": "Does the BLEU score plateau at a beam size of 10?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Performance with NPLM over beam size on English-German news-test2015. A beam of 12 corresponds to row 15 in Tab. 3.\n\nQuestion: Does the BLEU score plateau at a beam size of 10?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "e43887a75c25ee0103aeddccb824f970",
+        "question": "What is the approximate value of the red line at the point where the beam size is 10?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Performance with NPLM over beam size on English-German news-test2015. A beam of 12 corresponds to row 15 in Tab. 3.\n\nQuestion: What is the approximate value of the red line at the point where the beam size is 10?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '24.1'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "07ebd27be228c1a80b70c16fdd9ee053",
+        "question": "At which of the following beam sizes is the BLEU score greater than 23.8?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Performance with NPLM over beam size on English-German news-test2015. A beam of 12 corresponds to row 15 in Tab. 3.\n\nQuestion: At which of the following beam sizes is the BLEU score greater than 23.8?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '15'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "2a8a449b56193ac6d0921ce515e2aa7e",
+        "question": "What is the performance with NPLM over beam size for row 14 in Tab. 3?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "95d53455da216e069920a04fca35de23",
+        "question": "What is the approximate value of the orange line at the x-axis point labeled \"3\"?",
+        "answer_pred": "1.2",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 4 Graph of stylistic change for Tiresias\n\nQuestion: What is the approximate value of the orange line at the x-axis point labeled \"3\"?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "d4f53e450538182b3d605a6c2489fcb1",
+        "question": "What is the value of stylistic change for 'concrete' at stage 5?",
+        "answer_pred": "0.01",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 4 Graph of stylistic change for Tiresias\n\nQuestion: What is the value of stylistic change for 'concrete' at stage 5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "a9f31ea6abe99f4ae2ef61b686e7a1a4",
+        "question": "Is the value of the green line higher than the value of the orange line at the point labeled 4?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 4 Graph of stylistic change for Tiresias\n\nQuestion: Is the value of the green line higher than the value of the orange line at the point labeled 4?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "9f2dd2c1443b8143916fa08668401b2f",
+        "question": "Is the stylistic change for Tiresias in 'abstract' higher than 'colloquial' at the value of 5?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 4 Graph of stylistic change for Tiresias\n\nQuestion: Is the stylistic change for Tiresias in 'abstract' higher than 'colloquial' at the value of 5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8d3fc5547374769fae7b3bc52f59bb82",
+        "question": "Which line in the graph has the lowest value at point 2?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 4 Graph of stylistic change for Tiresias\n\nQuestion: Which line in the graph has the lowest value at point 2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Purple line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "73f5f54617d3ee3a7c33ef4b00257f26",
+        "question": "Which style(s) show a decreasing trend in stylistic change for Tiresias between x-value of 4 and 5?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFIGURE 4 Graph of stylistic change for Tiresias\n\nQuestion: Which style(s) show a decreasing trend in stylistic change for Tiresias between x-value of 4 and 5?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Literary'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "f2957b7d04d942ba1e64332e5dc22101",
+        "question": "What is the specific textual source for the data presented in Figure 4 on Tiresias?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "8d8f0c2e8cf1751addc31b4e9a46fc39",
+        "question": "What is the smoothed distance at an angle of 100 degrees in the bottom graph?",
+        "answer_pred": "1.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Smoothed distances (abscissa) plotted against radial bins (ordinate) over 360 degrees, for bass (top panel, ) versus oxidation (bottom panel, ), as computed over Grolier\u2019s Encyclopedia, with the following parameter settings: , , , .\n\nQuestion: What is the smoothed distance at an angle of 100 degrees in the bottom graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "978c47ec8d888657cc6aa98b861f75d9",
+        "question": "What is the highest smoothed distance recorded for bass?",
+        "answer_pred": "1.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Smoothed distances (abscissa) plotted against radial bins (ordinate) over 360 degrees, for bass (top panel, ) versus oxidation (bottom panel, ), as computed over Grolier\u2019s Encyclopedia, with the following parameter settings: , , , .\n\nQuestion: What is the highest smoothed distance recorded for bass?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "8f54fa212e1bb21b38107e1e9c48f37f",
+        "question": "Is the smoothed distance value at 200 degrees greater for oxidation than bass?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Smoothed distances (abscissa) plotted against radial bins (ordinate) over 360 degrees, for bass (top panel, ) versus oxidation (bottom panel, ), as computed over Grolier\u2019s Encyclopedia, with the following parameter settings: , , , .\n\nQuestion: Is the smoothed distance value at 200 degrees greater for oxidation than bass?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "2a6ff03406d71a272c39715030b259e4",
+        "question": "Is the smoothed distance for bass have two different peaks?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Smoothed distances (abscissa) plotted against radial bins (ordinate) over 360 degrees, for bass (top panel, ) versus oxidation (bottom panel, ), as computed over Grolier\u2019s Encyclopedia, with the following parameter settings: , , , .\n\nQuestion: Is the smoothed distance for bass have two different peaks?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "9909348549ca7718e6904a3226bca808",
+        "question": "Which of the plots shows a higher maximum value on the y-axis?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Smoothed distances (abscissa) plotted against radial bins (ordinate) over 360 degrees, for bass (top panel, ) versus oxidation (bottom panel, ), as computed over Grolier\u2019s Encyclopedia, with the following parameter settings: , , , .\n\nQuestion: Which of the plots shows a higher maximum value on the y-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "3bb3bc737ba8e86e98a8df2dbdabf6f7",
+        "question": "Where do the peaks for bass occur approximately?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Smoothed distances (abscissa) plotted against radial bins (ordinate) over 360 degrees, for bass (top panel, ) versus oxidation (bottom panel, ), as computed over Grolier\u2019s Encyclopedia, with the following parameter settings: , , , .\n\nQuestion: Where do the peaks for bass occur approximately?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '300 degrees'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "a9544698734229f2d03a4b98876680a7",
+        "question": "How many instances from Grolier\u2019s Encyclopedia are used in computing the smoothed distances for bass and oxidation?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "f0671c9434cb6db2e7c84749a61be353",
+        "question": "What is the highest value of the black line in the Sentiment graph?",
+        "answer_pred": "0.99",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Gender and sentiment trajectories in the Senate corpus.\n\nQuestion: What is the highest value of the black line in the Sentiment graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "d6319b5bf6ed310c592eaa164c2e6c98",
+        "question": "What are the two entities being compared for Sentiment trajectory?",
+        "answer_pred": "[Senate, President]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Gender and sentiment trajectories in the Senate corpus.\n\nQuestion: What are the two entities being compared for Sentiment trajectory?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "1ad3c90f2783e5930027275ffeb2d9e2",
+        "question": "Is the value of the black line on the 'Sentiment' graph lower than the value of the grey line at year 2000?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Gender and sentiment trajectories in the Senate corpus.\n\nQuestion: Is the value of the black line on the 'Sentiment' graph lower than the value of the grey line at year 2000?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "1b7a0428afb91a91d23f0bb25a6b26f9",
+        "question": "Does the gender trajectory show a consistently positive correlation?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Gender and sentiment trajectories in the Senate corpus.\n\nQuestion: Does the gender trajectory show a consistently positive correlation?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "5a6f45188460d1f5108d267373ea9603",
+        "question": "Which of the following statements about the plots in Figure 2 are correct?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Gender and sentiment trajectories in the Senate corpus.\n\nQuestion: Which of the following statements about the plots in Figure 2 are correct?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'The right plot shows the trend for gender and the left plot shows the trend for sentiment.'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

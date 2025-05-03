@@ -1,0 +1,168 @@
+[
+    {
+        "instance_id": "ed05b4d5c7f7078a474fb7202a450ae7",
+        "question": "Does the blue line consistently have a higher classification accuracy than the orange line?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Accuracy of two discriminators: one is given access to the source context x while the other is not. The x-axis corresponds to the length of the discriminated sub-sequences.\n\nQuestion: Does the blue line consistently have a higher classification accuracy than the orange line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a642755d690b7ae9068d5ab0f88b7191",
+        "question": "Is the label of y-axis 'classification precision'?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Accuracy of two discriminators: one is given access to the source context x while the other is not. The x-axis corresponds to the length of the discriminated sub-sequences.\n\nQuestion: Is the label of y-axis 'classification precision'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "7e045cc686098f3bf59ae4d1aefd1bf6",
+        "question": "What is the accuracy value of the blue line at t=120?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Accuracy of two discriminators: one is given access to the source context x while the other is not. The x-axis corresponds to the length of the discriminated sub-sequences.\n\nQuestion: What is the accuracy value of the blue line at t=120?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'between 0.95 and 100'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "0bf99552b78a8baeecd6ea3497e93746",
+        "question": "What is the range of values for t?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Accuracy of two discriminators: one is given access to the source context x while the other is not. The x-axis corresponds to the length of the discriminated sub-sequences.\n\nQuestion: What is the range of values for t?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "3ea0395cba052d9149fd27e112275d60",
+        "question": "What is the exact value of the accuracy of the discriminator with context at t=75?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "ac89d97c9df115b3f1b1f6f255dfc6e2",
+        "question": "What is the size of the blue line when the number of keywords is 500, in the rightmost plot?",
+        "answer_pred": "100",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Index size for varying vertices and keywords\n\nQuestion: What is the size of the blue line when the number of keywords is 500, in the rightmost plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "d7d6eb7377118c5f130d49b6438a3070",
+        "question": "What are the two index sizes being compared in Figure 7?",
+        "answer_pred": "[10, 20]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Index size for varying vertices and keywords\n\nQuestion: What are the two index sizes being compared in Figure 7?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "319f1b8c9e27cf277c488e38b94d592b",
+        "question": "Is the blue dashed line in the left graph consistently increasing as the number of vertices increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Index size for varying vertices and keywords\n\nQuestion: Is the blue dashed line in the left graph consistently increasing as the number of vertices increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8a0e9cb0a3f2394fcb972d93ba4fe575",
+        "question": "Is the size of the KIC-tree consistently lower than the size of the graph for all values of vertices and keywords?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Index size for varying vertices and keywords\n\nQuestion: Is the size of the KIC-tree consistently lower than the size of the graph for all values of vertices and keywords?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "cbcba0f0e3ff6ae79e06ea1fcc2bce22",
+        "question": "Which line represents the KIC-tree size?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Index size for varying vertices and keywords\n\nQuestion: Which line represents the KIC-tree size?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'purple'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "0de9b8454d76c8807d6e57771230fe6d",
+        "question": "What is the range of the size values in the vertices plot?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Index size for varying vertices and keywords\n\nQuestion: What is the range of the size values in the vertices plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "b356470a1442b2f3d40f9a178be4a0b5",
+        "question": "What are the keywords, and how do they influence the results?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "25a68cf49a395fe80dbb74522a524478",
+        "question": "What is the approximate value of the black line at 200 on the x-axis in the bottom plot?",
+        "answer_pred": "1.9",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 17: English question-answer interview sequence extracted from Aix-Marsec corpus, item J0104G (male voices).\n\nQuestion: What is the approximate value of the black line at 200 on the x-axis in the bottom plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "da9a103b47f8da8f5e7c2d8289de8962",
+        "question": "What is the label of y-axis?",
+        "answer_pred": "F1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 17: English question-answer interview sequence extracted from Aix-Marsec corpus, item J0104G (male voices).\n\nQuestion: What is the label of y-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "2ebb6e97f15ba4e41862400f513814d0",
+        "question": "Does the black line value in the second graph increase from x-axis value 100 to x-axis value 200?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 17: English question-answer interview sequence extracted from Aix-Marsec corpus, item J0104G (male voices).\n\nQuestion: Does the black line value in the second graph increase from x-axis value 100 to x-axis value 200?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "cd730e437e3daa074d6c80f6244840a1",
+        "question": "Is the first plot presenting the information regarding the question?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 17: English question-answer interview sequence extracted from Aix-Marsec corpus, item J0104G (male voices).\n\nQuestion: Is the first plot presenting the information regarding the question?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

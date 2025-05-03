@@ -1,0 +1,13 @@
+[
+    {
+        "instance_id": "debd0c30b110da746611d682795742df",
+        "question": "In subplot (a), what is the BLEU score for the Decoder at 2M steps?",
+        "answer_pred": "39.8",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: (a) The convergence speed of the encoder and the decoder. (b) The performance when adding noise to the encoder input, encoder output and decoder input in the inference stage of a basic NAT model.\n\nQuestion: In subplot (a), what is the BLEU score for the Decoder at 2M steps?\nGive the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

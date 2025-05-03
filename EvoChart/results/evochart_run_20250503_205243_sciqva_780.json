@@ -1,0 +1,24 @@
+[
+    {
+        "instance_id": "61f52220593c8b6f031776aa5d47e112",
+        "question": "Does the yellow line representing \"R^2 (Quadratic)\" have a lower value than the green line representing \"PCNN+ATT\" at the recall value of 0.1?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Results for the relation extraction from the NYT corpus: comparison with state-of-the-art neural network models.\n\nQuestion: Does the yellow line representing \"R^2 (Quadratic)\" have a lower value than the green line representing \"PCNN+ATT\" at the recall value of 0.1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "514443c443afb8a395e2ddb1a60fa26e",
+        "question": "Is the precision of the CNN+ATT model consistently higher than that of the PCNN+ATT model?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Results for the relation extraction from the NYT corpus: comparison with state-of-the-art neural network models.\n\nQuestion: Is the precision of the CNN+ATT model consistently higher than that of the PCNN+ATT model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

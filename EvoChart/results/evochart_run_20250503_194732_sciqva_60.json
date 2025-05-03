@@ -1,0 +1,112 @@
+[
+    {
+        "instance_id": "debd0c30b110da746611d682795742df",
+        "question": "In subplot (a), what is the BLEU score for the Decoder at 2M steps?",
+        "answer_pred": "39.8",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: (a) The convergence speed of the encoder and the decoder. (b) The performance when adding noise to the encoder input, encoder output and decoder input in the inference stage of a basic NAT model.\n\nQuestion: In subplot (a), what is the BLEU score for the Decoder at 2M steps?\nGive the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b4c02dc7a824c137b52178f11fd5f148",
+        "question": "In the bottom subplot,  is the red line always lower than the green dashed line across all shown noise ratios?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: (a) The convergence speed of the encoder and the decoder. (b) The performance when adding noise to the encoder input, encoder output and decoder input in the inference stage of a basic NAT model.\n\nQuestion: In the bottom subplot,  is the red line always lower than the green dashed line across all shown noise ratios?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d5477e539b26ff4f50f8fa345a3786dd",
+        "question": "In subplot b, is the maximum value of Change of Bleu Score 0?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: (a) The convergence speed of the encoder and the decoder. (b) The performance when adding noise to the encoder input, encoder output and decoder input in the inference stage of a basic NAT model.\n\nQuestion: In subplot b, is the maximum value of Change of Bleu Score 0?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "b6dc68e293ed630d3eb57525099ec2db",
+        "question": "In the bottom subplot, which line represents Decoder Input?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: (a) The convergence speed of the encoder and the decoder. (b) The performance when adding noise to the encoder input, encoder output and decoder input in the inference stage of a basic NAT model.\n\nQuestion: In the bottom subplot, which line represents Decoder Input?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "55bf344f5653aa69ed56e72325e05a14",
+        "question": "What is the exact BLEU score at 1 million steps for the encoder and decoder, and how does the difference in BLEU scores between the encoder and decoder at this point compare to the difference at 2 million steps?",
+        "answer_pred": "[1.0, 1.0]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: (a) The convergence speed of the encoder and the decoder. (b) The performance when adding noise to the encoder input, encoder output and decoder input in the inference stage of a basic NAT model.\n\nQuestion: What is the exact BLEU score at 1 million steps for the encoder and decoder, and how does the difference in BLEU scores between the encoder and decoder at this point compare to the difference at 2 million steps?\nGive the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "7c7da65e03fb8156bde47f98c056b2fe",
+        "question": "What is the accuracy of the green line at 1M parallel sentences for the second subplot on the left?",
+        "answer_pred": "0.67",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Nearest neighbor translation accuracy as a function of (log) parallel corpus size. (sent) to sentence-level mapping, and (dict) refers to the baseline (using a static dictionary for mapping). The legend shows the average accuracies of each model using 1M parallel sentences.\n\nQuestion: What is the accuracy of the green line at 1M parallel sentences for the second subplot on the left?\nGive the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "93c7ddf0b89769104858abd6b24839e6",
+        "question": "What is the accuracy of the FastText(dict) model in the de-->es plot with all parallel sentences?",
+        "answer_pred": "81.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Nearest neighbor translation accuracy as a function of (log) parallel corpus size. (sent) to sentence-level mapping, and (dict) refers to the baseline (using a static dictionary for mapping). The legend shows the average accuracies of each model using 1M parallel sentences.\n\nQuestion: What is the accuracy of the FastText(dict) model in the de-->es plot with all parallel sentences?\nGive the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "fb2c20af3e5156df4ce1579fb1fd05a4",
+        "question": "In the top right plot, does the blue line with circles reach an accuracy of approximately 0.8 at the x-axis value of 1M?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Nearest neighbor translation accuracy as a function of (log) parallel corpus size. (sent) to sentence-level mapping, and (dict) refers to the baseline (using a static dictionary for mapping). The legend shows the average accuracies of each model using 1M parallel sentences.\n\nQuestion: In the top right plot, does the blue line with circles reach an accuracy of approximately 0.8 at the x-axis value of 1M?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "cb011292989a941ad61a251535aeebc3",
+        "question": "In en-->de plot, does the model SDAE (sent) have an accuracy of over 75% when trained on 1 million parallel sentences?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Nearest neighbor translation accuracy as a function of (log) parallel corpus size. (sent) to sentence-level mapping, and (dict) refers to the baseline (using a static dictionary for mapping). The legend shows the average accuracies of each model using 1M parallel sentences.\n\nQuestion: In en-->de plot, does the model SDAE (sent) have an accuracy of over 75% when trained on 1 million parallel sentences?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "4889440da40d939a8a905d9e31539797",
+        "question": "Which line represents the model with the highest accuracy at 1 million parallel sentences in the middle right plot?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 5: Nearest neighbor translation accuracy as a function of (log) parallel corpus size. (sent) to sentence-level mapping, and (dict) refers to the baseline (using a static dictionary for mapping). The legend shows the average accuracies of each model using 1M parallel sentences.\n\nQuestion: Which line represents the model with the highest accuracy at 1 million parallel sentences in the middle right plot?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'green solid line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

@@ -1,0 +1,68 @@
+[
+    {
+        "instance_id": "21b0f38822e386f952d628dce0d5006b",
+        "question": "What percentage of the votes corresponds to the smallest slice of the pie chart?",
+        "answer_pred": "11.11",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Distribution of votes in the final version of the corpus. The numbers 1 to 5 are the different scores the annotators could assign to the humorous tweets.\n\nQuestion: What percentage of the votes corresponds to the smallest slice of the pie chart?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "a73335d8352c93f9ac1956c190bd8cbe",
+        "question": "What are all the labels for the slices of the pie chart?",
+        "answer_pred": "[1, 2, 3, 4, 5]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Distribution of votes in the final version of the corpus. The numbers 1 to 5 are the different scores the annotators could assign to the humorous tweets.\n\nQuestion: What are all the labels for the slices of the pie chart?\nGive the exact correct answer, with no extra explanation.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "caac73b5ab6a6d3354be6ebe1b43a96b",
+        "question": "Is the green slice labeled '3' smaller than the green slice labeled '5'?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Distribution of votes in the final version of the corpus. The numbers 1 to 5 are the different scores the annotators could assign to the humorous tweets.\n\nQuestion: Is the green slice labeled '3' smaller than the green slice labeled '5'?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "c551d1f0a7b2c5a68d02abc3be1eed41",
+        "question": "Is the percentage of tweets considered 'not humor' greater than the percentage of tweets with a score of 2?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Distribution of votes in the final version of the corpus. The numbers 1 to 5 are the different scores the annotators could assign to the humorous tweets.\n\nQuestion: Is the percentage of tweets considered 'not humor' greater than the percentage of tweets with a score of 2?\nReturn either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "e5fe50886ea6512fd2e13ebbc43289cf",
+        "question": "Which section of the pie chart represents the highest percentage?",
+        "answer_pred": "A",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Distribution of votes in the final version of the corpus. The numbers 1 to 5 are the different scores the annotators could assign to the humorous tweets.\n\nQuestion: Which section of the pie chart represents the highest percentage?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    },
+    {
+        "instance_id": "3cf8604eff230ce0530582a2203a5d53",
+        "question": "Which score was given most often by annotators?",
+        "answer_pred": "1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Distribution of votes in the final version of the corpus. The numbers 1 to 5 are the different scores the annotators could assign to the humorous tweets.\n\nQuestion: Which score was given most often by annotators?\nBased on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations."
+            }
+        ]
+    }
+]

@@ -1,0 +1,13 @@
+[
+    {
+        "instance_id": "ed05b4d5c7f7078a474fb7202a450ae7",
+        "question": "Does the blue line consistently have a higher classification accuracy than the orange line?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Accuracy of two discriminators: one is given access to the source context x while the other is not. The x-axis corresponds to the length of the discriminated sub-sequences.\n\nQuestion: Does the blue line consistently have a higher classification accuracy than the orange line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    }
+]

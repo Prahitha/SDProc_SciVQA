@@ -1,0 +1,13 @@
+[
+    {
+        "instance_id": "662dd11132612c954a9990b69485510f",
+        "question": "What is the approximate impact of the black line at month 6?",
+        "answer_pred": "12.4",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Impact Of Topic1\n\nQuestion: What is the approximate impact of the black line at month 6?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    }
+]

@@ -1,0 +1,478 @@
+[
+    {
+        "instance_id": "ed05b4d5c7f7078a474fb7202a450ae7",
+        "question": "Does the blue line consistently have a higher classification accuracy than the orange line?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Accuracy of two discriminators: one is given access to the source context x while the other is not. The x-axis corresponds to the length of the discriminated sub-sequences.\n\nQuestion: Does the blue line consistently have a higher classification accuracy than the orange line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "a642755d690b7ae9068d5ab0f88b7191",
+        "question": "Is the label of y-axis 'classification precision'?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Accuracy of two discriminators: one is given access to the source context x while the other is not. The x-axis corresponds to the length of the discriminated sub-sequences.\n\nQuestion: Is the label of y-axis 'classification precision'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "7e045cc686098f3bf59ae4d1aefd1bf6",
+        "question": "What is the accuracy value of the blue line at t=120?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Accuracy of two discriminators: one is given access to the source context x while the other is not. The x-axis corresponds to the length of the discriminated sub-sequences.\n\nQuestion: What is the accuracy value of the blue line at t=120?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'between 0.95 and 100'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "0bf99552b78a8baeecd6ea3497e93746",
+        "question": "What is the range of values for t?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2. Accuracy of two discriminators: one is given access to the source context x while the other is not. The x-axis corresponds to the length of the discriminated sub-sequences.\n\nQuestion: What is the range of values for t?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "3ea0395cba052d9149fd27e112275d60",
+        "question": "What is the exact value of the accuracy of the discriminator with context at t=75?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "ac89d97c9df115b3f1b1f6f255dfc6e2",
+        "question": "What is the size of the blue line when the number of keywords is 500, in the rightmost plot?",
+        "answer_pred": "100",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Index size for varying vertices and keywords\n\nQuestion: What is the size of the blue line when the number of keywords is 500, in the rightmost plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "d7d6eb7377118c5f130d49b6438a3070",
+        "question": "What are the two index sizes being compared in Figure 7?",
+        "answer_pred": "[10, 20]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Index size for varying vertices and keywords\n\nQuestion: What are the two index sizes being compared in Figure 7?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "319f1b8c9e27cf277c488e38b94d592b",
+        "question": "Is the blue dashed line in the left graph consistently increasing as the number of vertices increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Index size for varying vertices and keywords\n\nQuestion: Is the blue dashed line in the left graph consistently increasing as the number of vertices increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8a0e9cb0a3f2394fcb972d93ba4fe575",
+        "question": "Is the size of the KIC-tree consistently lower than the size of the graph for all values of vertices and keywords?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Index size for varying vertices and keywords\n\nQuestion: Is the size of the KIC-tree consistently lower than the size of the graph for all values of vertices and keywords?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "cbcba0f0e3ff6ae79e06ea1fcc2bce22",
+        "question": "Which line represents the KIC-tree size?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Index size for varying vertices and keywords\n\nQuestion: Which line represents the KIC-tree size?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'purple'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "0de9b8454d76c8807d6e57771230fe6d",
+        "question": "What is the range of the size values in the vertices plot?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7: Index size for varying vertices and keywords\n\nQuestion: What is the range of the size values in the vertices plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "b356470a1442b2f3d40f9a178be4a0b5",
+        "question": "What are the keywords, and how do they influence the results?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "25a68cf49a395fe80dbb74522a524478",
+        "question": "What is the approximate value of the black line at 200 on the x-axis in the bottom plot?",
+        "answer_pred": "1.9",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 17: English question-answer interview sequence extracted from Aix-Marsec corpus, item J0104G (male voices).\n\nQuestion: What is the approximate value of the black line at 200 on the x-axis in the bottom plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "da9a103b47f8da8f5e7c2d8289de8962",
+        "question": "What is the label of y-axis?",
+        "answer_pred": "F1",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 17: English question-answer interview sequence extracted from Aix-Marsec corpus, item J0104G (male voices).\n\nQuestion: What is the label of y-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "2ebb6e97f15ba4e41862400f513814d0",
+        "question": "Does the black line value in the second graph increase from x-axis value 100 to x-axis value 200?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 17: English question-answer interview sequence extracted from Aix-Marsec corpus, item J0104G (male voices).\n\nQuestion: Does the black line value in the second graph increase from x-axis value 100 to x-axis value 200?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "cd730e437e3daa074d6c80f6244840a1",
+        "question": "Is the first plot presenting the information regarding the question?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 17: English question-answer interview sequence extracted from Aix-Marsec corpus, item J0104G (male voices).\n\nQuestion: Is the first plot presenting the information regarding the question?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "d9c68707320e7905d1c8f312a931531f",
+        "question": "Which of the following lines are labelled as 'local mps' in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 17: English question-answer interview sequence extracted from Aix-Marsec corpus, item J0104G (male voices).\n\nQuestion: Which of the following lines are labelled as 'local mps' in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither the black or the gray line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "76663426848ccb8731b63dc4483f10b2",
+        "question": "In the plot \"English_J0104G-Argentina, tier \"Syllables\"\" what is the maximum value presented in the x-axis?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 17: English question-answer interview sequence extracted from Aix-Marsec corpus, item J0104G (male voices).\n\nQuestion: In the plot \"English_J0104G-Argentina, tier \"Syllables\"\" what is the maximum value presented in the x-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': '500'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "585c3f5176577d272bde8bfb510b3823",
+        "question": "How many speakers are involved in the interview, and how does it influence the results?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "92acf589c9f76e76bb5cd9cc13eef9ab",
+        "question": "What is the maximum value reached by the blue line on the right plot?",
+        "answer_pred": "1.0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Blogcatalog classify result1\n\nQuestion: What is the maximum value reached by the blue line on the right plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "9d745950211725e3606b125e738389f6",
+        "question": "What are the two types of classifiers being compared in the figure?",
+        "answer_pred": "[Blogcatalog, classify]",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Blogcatalog classify result1\n\nQuestion: What are the two types of classifiers being compared in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "6fe7a4735cfb5521019cac60c39e3f52",
+        "question": "Does the blue line, on the left graph, reach a higher value than the red line at the x-axis value of 10,000?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Blogcatalog classify result1\n\nQuestion: Does the blue line, on the left graph, reach a higher value than the red line at the x-axis value of 10,000?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "fe550c3b18fadde715e80f172dacd787",
+        "question": "Does the Embedded Classifier consistently outperform the Normal Classifier in the Micro F1 Score?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Blogcatalog classify result1\n\nQuestion: Does the Embedded Classifier consistently outperform the Normal Classifier in the Micro F1 Score?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "0930a0eb3fce83b191769c294e2b342c",
+        "question": "In the leftmost plot, which of the following lines show the highest score by the end of the graph?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Blogcatalog classify result1\n\nQuestion: In the leftmost plot, which of the following lines show the highest score by the end of the graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Neither of the lines have the highest score'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "cc9c54971f2e5accb167f6b0fdc9f308",
+        "question": "Which of the following are plotted on the Y-axis in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 6: Blogcatalog classify result1\n\nQuestion: Which of the following are plotted on the Y-axis in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "3edb42ed0644f7ad94d1aeaaeb143a5c",
+        "question": "What is the dataset used to generate the results depicted in Figure 6, and how does it influence the results? ",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "3370ae4d9deb43d2842cfeb7a0df8737",
+        "question": "What is the value of the accuracy at the top 1000 examples with highest MCD for the blue line?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Accuracy of the teacher\u2019s predictions on the top n target domain examples with the highest MCD value for the K->D domain pair.\n\nQuestion: What is the value of the accuracy at the top 1000 examples with highest MCD for the blue line?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c5941515af46fd93260fb2c139f32651",
+        "question": "What is the accuracy of the teacher's predictions on the top 2000 target domain examples with the highest MCD value?",
+        "answer_pred": "0.82",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Accuracy of the teacher\u2019s predictions on the top n target domain examples with the highest MCD value for the K->D domain pair.\n\nQuestion: What is the accuracy of the teacher's predictions on the top 2000 target domain examples with the highest MCD value?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b8c36e0a384cc0c8bd9cccccd9c09383",
+        "question": "Does the accuracy of the blue line consistently decrease as the number of top n examples with highest MCD increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Accuracy of the teacher\u2019s predictions on the top n target domain examples with the highest MCD value for the K->D domain pair.\n\nQuestion: Does the accuracy of the blue line consistently decrease as the number of top n examples with highest MCD increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "6851972a335370179eaade42c0b03221",
+        "question": "Does the accuracy of the teacher's predictions decrease as the number of target domain examples increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Accuracy of the teacher\u2019s predictions on the top n target domain examples with the highest MCD value for the K->D domain pair.\n\nQuestion: Does the accuracy of the teacher's predictions decrease as the number of target domain examples increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "9f0e6d93a24af2c8ae8d780d6e8feb47",
+        "question": "What is the color of the line in the figure?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Accuracy of the teacher\u2019s predictions on the top n target domain examples with the highest MCD value for the K->D domain pair.\n\nQuestion: What is the color of the line in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'black'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "e0d4076126d68c00676f493a413ca57b",
+        "question": "What is the range of the values in the x-axis?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 3: Accuracy of the teacher\u2019s predictions on the top n target domain examples with the highest MCD value for the K->D domain pair.\n\nQuestion: What is the range of the values in the x-axis?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "11e6222cb760a157d9508c2eaefff8b2",
+        "question": "How was the accuracy score calculated, and how does it influence the results?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "fb8fd21e97d3d4596c9d323efd1e6003",
+        "question": "What is the highest value the red dashed line reaches in the left graph?",
+        "answer_pred": "0.81",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Learning curves in two tasks. For each task the best performing LM is shown alongside the NO LANG. control and baseline model. (A) is the correct answer.\n\nQuestion: What is the highest value the red dashed line reaches in the left graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "a947571099337ed52ff5c48da0446049",
+        "question": "Which task shows the best performing LM with the highest dev-set accuracy at 4K training examples?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Learning curves in two tasks. For each task the best performing LM is shown alongside the NO LANG. control and baseline model. (A) is the correct answer.\n\nQuestion: Which task shows the best performing LM with the highest dev-set accuracy at 4K training examples?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "21aae97a5bb19d967e9f518753a51b8c",
+        "question": "Is the red solid line consistently above the green line  in the figure on the left side?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Learning curves in two tasks. For each task the best performing LM is shown alongside the NO LANG. control and baseline model. (A) is the correct answer.\n\nQuestion: Is the red solid line consistently above the green line  in the figure on the left side?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "7f6d646e84192aca4a46e1fd0f9868e9",
+        "question": "In the Antonym Negation task, does the model performance of ROBERTA-L increase as the number of training examples increases?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Learning curves in two tasks. For each task the best performing LM is shown alongside the NO LANG. control and baseline model. (A) is the correct answer.\n\nQuestion: In the Antonym Negation task, does the model performance of ROBERTA-L increase as the number of training examples increases?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "c70269865337db73576e31a9753c91ee",
+        "question": "What is the maximum accuracy reached by the green line in the rightmost graph?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Learning curves in two tasks. For each task the best performing LM is shown alongside the NO LANG. control and baseline model. (A) is the correct answer.\n\nQuestion: What is the maximum accuracy reached by the green line in the rightmost graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'between 0.5 and 0,6'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "c8b5c877683cfecbd7b67b3552e23962",
+        "question": "Which of the following represents the model that performs best in 'Antonym Negation'?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Learning curves in two tasks. For each task the best performing LM is shown alongside the NO LANG. control and baseline model. (A) is the correct answer.\n\nQuestion: Which of the following represents the model that performs best in 'Antonym Negation'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'BERT-WWM'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "85b21f4e23b1c84e5ecb9d29104846fe",
+        "question": "How is the dev-set accuracy calculated, and how does it influence the results?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "2618a20734e05bb3f042f6d987bc1ab6",
+        "question": "What is the label of the circle directly below the circle labeled 'tk'?",
+        "answer_pred": "fk",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Plate diagram depicting the morphology model (adapted from Goldwater et al. (2006)). Hyperparameters have been omitted for clarity. The left-hand plate depicts the base distribution P0; note that the morphological analyses lk are generated deterministically as (tk,sk, fk). The observed words wi are also deterministic given zi = k and lk, since wi = sk fk.\n\nQuestion: What is the label of the circle directly below the circle labeled 'tk'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b3e95209ee4c39dfba9aae2253515a51",
+        "question": "How many circles are in the figure?",
+        "answer_pred": "12",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Plate diagram depicting the morphology model (adapted from Goldwater et al. (2006)). Hyperparameters have been omitted for clarity. The left-hand plate depicts the base distribution P0; note that the morphological analyses lk are generated deterministically as (tk,sk, fk). The observed words wi are also deterministic given zi = k and lk, since wi = sk fk.\n\nQuestion: How many circles are in the figure?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "7ad3f8dec4270aaa261a0bcac1e86a34",
+        "question": "Is the circle labeled 'wi' gray?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Plate diagram depicting the morphology model (adapted from Goldwater et al. (2006)). Hyperparameters have been omitted for clarity. The left-hand plate depicts the base distribution P0; note that the morphological analyses lk are generated deterministically as (tk,sk, fk). The observed words wi are also deterministic given zi = k and lk, since wi = sk fk.\n\nQuestion: Is the circle labeled 'wi' gray?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "b662e9f7a91aff562b1708b0885cef68",
+        "question": "Are the circles z_i and w_i directly connected?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Plate diagram depicting the morphology model (adapted from Goldwater et al. (2006)). Hyperparameters have been omitted for clarity. The left-hand plate depicts the base distribution P0; note that the morphological analyses lk are generated deterministically as (tk,sk, fk). The observed words wi are also deterministic given zi = k and lk, since wi = sk fk.\n\nQuestion: Are the circles z_i and w_i directly connected?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "0e7ad448ec5506e098d6bc9468c3ce93",
+        "question": "Which of the following circles in the left-hand plate of the diagram are connected to the circle labeled 'lk'?",
+        "answer_pred": "t",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Plate diagram depicting the morphology model (adapted from Goldwater et al. (2006)). Hyperparameters have been omitted for clarity. The left-hand plate depicts the base distribution P0; note that the morphological analyses lk are generated deterministically as (tk,sk, fk). The observed words wi are also deterministic given zi = k and lk, since wi = sk fk.\n\nQuestion: Which of the following circles in the left-hand plate of the diagram are connected to the circle labeled 'lk'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "dd807b04079fc255ce807c75d902072a",
+        "question": "What is the label of the left plate in the diagram?",
+        "answer_pred": "f",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 1: Plate diagram depicting the morphology model (adapted from Goldwater et al. (2006)). Hyperparameters have been omitted for clarity. The left-hand plate depicts the base distribution P0; note that the morphological analyses lk are generated deterministically as (tk,sk, fk). The observed words wi are also deterministic given zi = k and lk, since wi = sk fk.\n\nQuestion: What is the label of the left plate in the diagram?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'sk'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    }
+]

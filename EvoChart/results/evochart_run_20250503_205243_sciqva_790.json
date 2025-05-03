@@ -1,0 +1,124 @@
+[
+    {
+        "instance_id": "61f52220593c8b6f031776aa5d47e112",
+        "question": "Does the yellow line representing \"R^2 (Quadratic)\" have a lower value than the green line representing \"PCNN+ATT\" at the recall value of 0.1?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Results for the relation extraction from the NYT corpus: comparison with state-of-the-art neural network models.\n\nQuestion: Does the yellow line representing \"R^2 (Quadratic)\" have a lower value than the green line representing \"PCNN+ATT\" at the recall value of 0.1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "514443c443afb8a395e2ddb1a60fa26e",
+        "question": "Is the precision of the CNN+ATT model consistently higher than that of the PCNN+ATT model?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Results for the relation extraction from the NYT corpus: comparison with state-of-the-art neural network models.\n\nQuestion: Is the precision of the CNN+ATT model consistently higher than that of the PCNN+ATT model?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "8fd522ca4565648551b38ba3f6e99455",
+        "question": "Which of the following have a precision value greater than 0.8 when the recall value is 0.1?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Results for the relation extraction from the NYT corpus: comparison with state-of-the-art neural network models.\n\nQuestion: Which of the following have a precision value greater than 0.8 when the recall value is 0.1?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Red line'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "76e186cbcc76913f9892a72beac73cb7",
+        "question": "Which of the following model names are used in the comparison of relation extraction results shown in Figure 2?",
+        "answer_pred": "A",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Results for the relation extraction from the NYT corpus: comparison with state-of-the-art neural network models.\n\nQuestion: Which of the following model names are used in the comparison of relation extraction results shown in Figure 2?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'HOFFMANN'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "23042ce4ada10a4c6665c247a2954543",
+        "question": "What is the precision of the Hoffmann model when the recall is 0.4?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "4c3c86f3609ddfbdcb91474e53d12440",
+        "question": "What is the value of the green line at the '256' entity space dimensionality on the Sports & Outdoors plot?",
+        "answer_pred": "0.22",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7.4: Comparison of LSE (with window size n = 4) with latent vector space baselines (LSI, LDA and word2vec; Section 7.4.5) on Home & Kitchen, Clothing, Shoes & Jewelry, Pet Supplies and Sports & Outdoors product search benchmarks (Section 7.4.3) and evaluated on the test sets. Significance (Section 7.4.4) is computed between LSE and the baselines for each vector space size.\n\nQuestion: What is the value of the green line at the '256' entity space dimensionality on the Sports & Outdoors plot?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "c3db75450ef468b94ac48249ffdf6b90",
+        "question": "For which product search benchmark is the highest NDCG value achieved for LSE with an entity space dimensionality of 512?",
+        "answer_pred": "Home & Kitchen",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7.4: Comparison of LSE (with window size n = 4) with latent vector space baselines (LSI, LDA and word2vec; Section 7.4.5) on Home & Kitchen, Clothing, Shoes & Jewelry, Pet Supplies and Sports & Outdoors product search benchmarks (Section 7.4.3) and evaluated on the test sets. Significance (Section 7.4.4) is computed between LSE and the baselines for each vector space size.\n\nQuestion: For which product search benchmark is the highest NDCG value achieved for LSE with an entity space dimensionality of 512?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "ea7dc16fd7685df0f8e3c77474e02d70",
+        "question": "Is the blue diamond line consistently higher than the purple triangle line in the 'Home & Kitchen' graph?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7.4: Comparison of LSE (with window size n = 4) with latent vector space baselines (LSI, LDA and word2vec; Section 7.4.5) on Home & Kitchen, Clothing, Shoes & Jewelry, Pet Supplies and Sports & Outdoors product search benchmarks (Section 7.4.3) and evaluated on the test sets. Significance (Section 7.4.4) is computed between LSE and the baselines for each vector space size.\n\nQuestion: Is the blue diamond line consistently higher than the purple triangle line in the 'Home & Kitchen' graph?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "671e1c2dd468d6753d60dc9da90f7bfc",
+        "question": "Is LSI's performance consistently higher than LDA for all product search benchmarks?",
+        "answer_pred": "No",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7.4: Comparison of LSE (with window size n = 4) with latent vector space baselines (LSI, LDA and word2vec; Section 7.4.5) on Home & Kitchen, Clothing, Shoes & Jewelry, Pet Supplies and Sports & Outdoors product search benchmarks (Section 7.4.3) and evaluated on the test sets. Significance (Section 7.4.4) is computed between LSE and the baselines for each vector space size.\n\nQuestion: Is LSI's performance consistently higher than LDA for all product search benchmarks?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "550f1ca69f065d291fa6cf534eaac7e1",
+        "question": "Which of the following colors represents 'word2vec'?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7.4: Comparison of LSE (with window size n = 4) with latent vector space baselines (LSI, LDA and word2vec; Section 7.4.5) on Home & Kitchen, Clothing, Shoes & Jewelry, Pet Supplies and Sports & Outdoors product search benchmarks (Section 7.4.3) and evaluated on the test sets. Significance (Section 7.4.4) is computed between LSE and the baselines for each vector space size.\n\nQuestion: Which of the following colors represents 'word2vec'?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Green'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "b19fdbcdc0f5c502b1c9db75cefe67a7",
+        "question": "Which of the product search benchmarks shows the highest value of LSE when the entity space dimensionality is 128?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 7.4: Comparison of LSE (with window size n = 4) with latent vector space baselines (LSI, LDA and word2vec; Section 7.4.5) on Home & Kitchen, Clothing, Shoes & Jewelry, Pet Supplies and Sports & Outdoors product search benchmarks (Section 7.4.3) and evaluated on the test sets. Significance (Section 7.4.4) is computed between LSE and the baselines for each vector space size.\n\nQuestion: Which of the product search benchmarks shows the highest value of LSE when the entity space dimensionality is 128?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'Sports & Outdoors'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "36b2190972561a54099a183447047d6c",
+        "question": "What is the specific value of the LSE model's NDCG for the Clothing, Shoes & Jewelry category with an entity space dimensionality of 2048?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]
