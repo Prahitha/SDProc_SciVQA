@@ -1,0 +1,91 @@
+[
+    {
+        "instance_id": "d0feabce9817d12051335c04b1355a2c",
+        "question": "Which models were compared in the first round of comparison?",
+        "answer_pred": "D",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 4: Human evaluations on IMAGE-CHAT. Engagingness win rates of pairwise comparisons between human utterances and TRANSRESNETRET (ResNet152 or ResNeXt-IG-3.5B) or TRANSRESNETGEN , comparing over the rounds of dialogue.\n\nQuestion: Which models were compared in the first round of comparison?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "0b142d1aefe74d205a17ae661ac69999",
+        "question": "What is the specific task that the models were trained for and evaluated on?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    },
+    {
+        "instance_id": "582bd1b652604a4f2d0c00fff729a92a",
+        "question": "What color is the intersection (overlap) of two annotators?",
+        "answer_pred": "gray",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Number of sentences annotated by different annotators in the testing dataset.\n\nQuestion: What color is the intersection (overlap) of two annotators?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "b5119e5a15281623d945754c17601a15",
+        "question": "How many sentences were annotated by both Annotator 1 and Annotator 3?",
+        "answer_pred": "0",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Number of sentences annotated by different annotators in the testing dataset.\n\nQuestion: How many sentences were annotated by both Annotator 1 and Annotator 3?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Give the exact correct answer, with no extra explanation."
+            }
+        ]
+    },
+    {
+        "instance_id": "cf942d7720a371f1fdd32fc8282baff3",
+        "question": "Are the set of sentences annotated by each annotator represented by circles?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Number of sentences annotated by different annotators in the testing dataset.\n\nQuestion: Are the set of sentences annotated by each annotator represented by circles?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "3284274a2282a348c3d339de80ee2aa5",
+        "question": "Did Annotator 1 annotate more sentences than Annotator 3?",
+        "answer_pred": "Yes",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Number of sentences annotated by different annotators in the testing dataset.\n\nQuestion: Did Annotator 1 annotate more sentences than Annotator 3?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            }
+        ]
+    },
+    {
+        "instance_id": "88cb4d9bba5c1c31d0e09f6fddb26067",
+        "question": "Which annotator's label is located at the very bottom center of the image?",
+        "answer_pred": "B",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Number of sentences annotated by different annotators in the testing dataset.\n\nQuestion: Which annotator's label is located at the very bottom center of the image?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "4e0ab279dcbc293f3578dfd63b4bacb3",
+        "question": "Which annotator(s) annotated more than 300 sentences?",
+        "answer_pred": "A",
+        "reasoning": [
+            {
+                "role": "user",
+                "content": "<|image_1|>\nFigure 2: Number of sentences annotated by different annotators in the testing dataset.\n\nQuestion: Which annotator(s) annotated more than 300 sentences?\n\nRely on the visual content of the graph like labels, axis content to infer the answer. If the graph is too complicated, take approximations from the axis scale. Need not do intense calculations.Based on the reasoning above, match it to one or more of the provided answer options: {'A': None, 'B': None, 'C': None, 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else."
+            }
+        ]
+    },
+    {
+        "instance_id": "33bd06fbd59dfb64a6393cd697c0f53a",
+        "question": "What data did the annotator annotate, and what kind of annotation was it?",
+        "answer_pred": "It is not possible to answer this question based only on the provided data.",
+        "reasoning": "unanswerable"
+    }
+]
