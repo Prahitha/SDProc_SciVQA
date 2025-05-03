@@ -105,9 +105,9 @@ class QAImageData(BaseModel):
 
 
 class SciQVAEvoChartInference():
-    def __init__(self, model_path='EvoChart'):
+    def __init__(self, model_path='Evochart'):
         self.device = "cuda" if torch.cuda.is_available() else "cpu"
-        self.device_map = "auto"  # Better for multi-GPU; use "cuda:0" for single
+        self.device_map = "auto"  # Better for multi-GPU; use "cuda:0" for singl
         self.offload_folder = "model_offload"
 
         self.model = AutoModelForCausalLM.from_pretrained(
@@ -131,7 +131,7 @@ class SciQVAEvoChartInference():
         os.makedirs("results", exist_ok=True)
 
         self.kwargs = {
-            "max_new_tokens": 512,
+            "max_new_tokens": 2560,
             "temperature": 0.0,
             "do_sample": False,
             "use_cache": False,

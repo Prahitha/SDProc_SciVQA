@@ -1,0 +1,11 @@
+[
+    {
+        "instance_id": "795f4ef16511f4f3496aac9b62885a1c",
+        "question": "What is the approximate maximum value of the shaded area for the blue line in the lower plot?",
+        "answer_pred": "The answer is:",
+        "reasoning": {
+            "final_answer": "The answer is:",
+            "analysis": "The question is asking for the approximate maximum value of the shaded area for the blue line in the lower plot of the chart.\n\nUnfortunately, the chart only shows the posterior mean and 95% credible interval for the posterior uncertainty of the number of documents with an \"attack\"ing country per 3-month period. There is no shaded area displayed for the blue line in the lower plot.\n\nTherefore, the chart does not provide enough information to answer the question."
+        }
+    }
+]

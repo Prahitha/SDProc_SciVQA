@@ -1,0 +1,14 @@
+[
+    {
+        "instance_id": "795f4ef16511f4f3496aac9b62885a1c",
+        "question": "What is the approximate maximum value of the shaded area for the blue line in the lower plot?",
+        "answer_pred": "11",
+        "reasoning": {
+            "final_answer": "11",
+            "chart_analysis": "1. The chart is a line chart.\n2. The x-axis is labeled \"3-month period\" and the y-axis is labeled \"number of documents\".\n3. The legend items are \"attack\" and \"coreference posterior uncertainty\".\n4. There are two data series present: \"attack\" and \"coreference posterior uncertainty\".\n5. The chart has a dark line representing the posterior mean and a shaded region representing the 95% posterior credible interval.\nThe image is not shown.",
+            "data_extraction": "1. Key data points:\n\nThe image is not shown.\n\n2. Trends or patterns:\n\nThe image is not shown.\n\n3. Maximum/minimum values if relevant:\n\nThe image is not shown.",
+            "question_analysis": "1. The answer is expected to be a numerical value.\n2. The specific data points needed are the x-axis values (3-month periods) and the y-axis values (number of documents) for the blue line in the lower plot.\n3. No calculations are required.",
+            "reasoning_process": "1. The answer is "
+        }
+    }
+]
