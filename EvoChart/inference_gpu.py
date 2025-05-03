@@ -245,7 +245,7 @@ class SciQVAEvoChartInference():
             }
         ]
 
-        return self._generate_response(messages, images)
+        return self._generate_response(messages, images), messages[1]
 
     def structured_chain_of_thought(self, input):
         """Structured chain-of-thought with specific analysis steps"""
@@ -398,7 +398,7 @@ class SciQVAEvoChartInference():
 
             try:
                 input = QAImageData(**data)
-                result = self.direct_qa(input)
+                result, reasoning = self.direct_qa(input)
 
                 if self._should_override_with_unanswerable(reasoning):
                     result = "It is not possible to answer this question based only on the provided data."
@@ -407,8 +407,8 @@ class SciQVAEvoChartInference():
                 self.outputs.append({
                     "instance_id": input.instance_id,
                     "question": input.question,
-                    "answer_pred": result["final_answer"],
-                    "reasoning": result,
+                    "answer_pred": result,
+                    "reasoning": reasoning,
                 })
                 if idx % 5 == 0:
                     with open(f"results/{self.run_name}_sciqva_{idx}.json", "w") as json_file:
