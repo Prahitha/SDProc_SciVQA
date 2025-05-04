@@ -10,3 +10,5 @@ SciVQA/*
 !SciVQA/scoring.py
 SciVQA-inference/slurm-*
 SciVQA-inference/inference*.sh
+SciVQA-inference/results/run_*
+EvoChart/results/evochart_run_*
