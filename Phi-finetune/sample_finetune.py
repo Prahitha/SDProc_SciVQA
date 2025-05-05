@@ -29,13 +29,16 @@ from transformers import (
     BatchFeature,
     Trainer,
     TrainingArguments,
+    EarlyStoppingCallback,
 )
 
-DEFAULT_INSTSRUCTION = "Answer with the option's letter from the given choices directly."
+DEFAULT_INSTSRUCTION = "Answer the question based on the information in the image. Do not hallucinate or infer information from general knowledge."
 _IGNORE_INDEX = -100
-_TRAIN_SIZE = 8000
-_EVAL_SIZE = 500
-_MAX_TRAINING_LENGTH = 8192
+# _TRAIN_SIZE = 15100
+# _EVAL_SIZE = 1680
+_TRAIN_SIZE = 1000
+_EVAL_SIZE = 200
+_MAX_TRAINING_LENGTH = 15200
 
 
 class PmcVqaTrainDataset(Dataset):
@@ -83,19 +86,44 @@ class PmcVqaTrainDataset(Dataset):
         annotation = self.annotations[idx]
         image = Image.open(self.image_folder / annotation['image_file'])
         question = annotation['question']
+        choices = annotation['answer_options']
+        caption = annotation['caption'] 
+        figures = annotation['figs_numb'] # if there are 2 figures or multiple plots, we should compare the scales of the axes
+        figure_type = annotation['figure_type']
+        qa_pair_type = annotation['qa_pair_type']
+
+        if "closed-ended" in qa_pair_type and "finite answer set" in qa_pair_type:
+            if "non-binary" in qa_pair_type and answer_options:
+                final_prompt = self.instruction + " " + (
+                    f"Match the answer to one or more of the provided answer options: {{{answer_options}}}. "
+                    "Return only the corresponding letter(s) of the correct answer(s). "
+                    "Do not explain your choice, do not rephrase the answer, and do not repeat the option text. "
+                    "Only output the letter(s) corresponding to the correct choice. "
+                    "If multiple letters are correct, separate them by commas without spaces (for example: B,C). "
+                    "If all options are correct, return A,B,C,D. "
+                    "Do not add anything else."
+                )
+            elif "binary" in qa_pair_type:
+                final_prompt = self.instruction + " " + "Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            else:
+                final_prompt = self.instruction + " " + "Give the exact correct answer, with no extra explanation. If the reasoning says the answer cannot be determined or that the information is insufficient, \
+                return exactly: 'It is not possible to answer this question based only on the provided data.'"
+        else:
+            final_prompt = self.instruction + " " + "Give the exact correct answer, with no extra explanation. If the reasoning says the answer cannot be determined or that the information is insufficient, \
+                return exactly: 'It is not possible to answer this question based only on the provided data.'"
+
 
         user_message = {
             'role': 'user',
-            'content': '<|image_1|>' + '\n'.join([question] + [self.instruction]),
+            'content': '<|image_1|>' + '\n'.join([question] + choices + [final_prompt]),
         }
         prompt = self.processor.tokenizer.apply_chat_template(
             [user_message], tokenize=False, add_generation_prompt=True
         )
-        answer = f'{annotation["Answer"]}<|end|><|endoftext|>'
+        answer = f'{annotation["answer"]}<|end|><|endoftext|>'
         inputs = self.processor(prompt, images=[image], return_tensors='pt')
 
-        answer_ids = self.processor.tokenizer(
-            answer, return_tensors='pt').input_ids
+        answer_ids = self.processor.tokenizer(answer, return_tensors='pt').input_ids
 
         input_ids = torch.cat([inputs.input_ids, answer_ids], dim=1)
         labels = torch.full_like(input_ids, _IGNORE_INDEX)
@@ -140,7 +168,7 @@ class PmcVqaEvalDataset(Dataset):
             zip_ref.extractall(self.image_folder)
 
         data_files = {
-            'test': 'https://huggingface.co/datasets/katebor/SciVQA/blob/main/validation_2025-03-27_18-34-44.json',
+            'validation': 'https://huggingface.co/datasets/katebor/SciVQA/blob/main/validation_2025-03-27_18-34-44.json',
         }
         split = 'validation' if data_size is None else f'validation[:{data_size}]'
         self.annotations = load_dataset(
@@ -166,20 +194,46 @@ class PmcVqaEvalDataset(Dataset):
          'split': 'test'}
         """
         annotation = self.annotations[idx]
-        image = Image.open(self.image_folder /
-                           annotation['image_file'])
+        image = Image.open(self.image_folder / annotation['image_file'])
         question = annotation['question']
+        choices = annotation['answer_options']
+        caption = annotation['caption'] 
+        figures = annotation['figs_numb'] # if there are 2 figures or multiple plots, we should compare the scales of the axes
+        figure_type = annotation['figure_type']
+        qa_pair_type = annotation['qa_pair_type']
+
+        if "closed-ended" in qa_pair_type and "finite answer set" in qa_pair_type:
+            if "non-binary" in qa_pair_type and answer_options:
+                final_prompt = self.instruction + " " + (
+                    f"Match the answer to one or more of the provided answer options: {{{answer_options}}}. "
+                    "Return only the corresponding letter(s) of the correct answer(s). "
+                    "Do not explain your choice, do not rephrase the answer, and do not repeat the option text. "
+                    "Only output the letter(s) corresponding to the correct choice. "
+                    "If multiple letters are correct, separate them by commas without spaces (for example: B,C). "
+                    "If all options are correct, return A,B,C,D. "
+                    "Do not add anything else."
+                )
+            elif "binary" in qa_pair_type:
+                final_prompt = self.instruction + " " + "Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks."
+            else:
+                final_prompt = self.instruction + " " + "Give the exact correct answer, with no extra explanation. If the reasoning says the answer cannot be determined or that the information is insufficient, \
+                return exactly: 'It is not possible to answer this question based only on the provided data.'"
+        else:
+            final_prompt = self.instruction + " " + "Give the exact correct answer, with no extra explanation. If the reasoning says the answer cannot be determined or that the information is insufficient, \
+                return exactly: 'It is not possible to answer this question based only on the provided data.'"
+
+
         user_message = {
             'role': 'user',
-            'content': '<|image_1|>' + '\n'.join([question] + [self.instruction]),
+            'content': '<|image_1|>' + '\n'.join([question] + choices + [final_prompt]),
         }
         prompt = self.processor.tokenizer.apply_chat_template(
             [user_message], tokenize=False, add_generation_prompt=True
         )
-        answer = annotation['Answer']
+        answer = annotation['answer']
         inputs = self.processor(prompt, images=[image], return_tensors='pt')
 
-        unique_id = f'{annotation["index"]:010d}'
+        unique_id = f'{annotation["instance_id"]}'
         return {
             'id': unique_id,
             'input_ids': inputs.input_ids,
@@ -193,6 +247,7 @@ class PmcVqaEvalDataset(Dataset):
         __import__('shutil').rmtree(self.image_folder)
 
 
+## do we need this?
 def pad_sequence(sequences, padding_side='right', padding_value=0):
     """
     Pad a list of sequences to the same length.
@@ -203,8 +258,7 @@ def pad_sequence(sequences, padding_side='right', padding_value=0):
     trailing_dims = max_size[1:]
     max_len = max(len(seq) for seq in sequences)
     batch_size = len(sequences)
-    output = sequences[0].new_full(
-        (batch_size, max_len) + trailing_dims, padding_value)
+    output = sequences[0].new_full((batch_size, max_len) + trailing_dims, padding_value)
     for i, seq in enumerate(sequences):
         length = seq.size(0)
         if padding_side == 'right':
@@ -214,6 +268,7 @@ def pad_sequence(sequences, padding_side='right', padding_value=0):
     return output
 
 
+## do we need this?
 def cat_with_pad(tensors, dim, padding_value=0):
     """
     cat along dim, while pad to max for all other dims
@@ -253,8 +308,7 @@ def pmc_vqa_collate_fn(batch):
         image_attention_mask_list.append(inputs['image_attention_mask'])
         image_sizes_list.append(inputs['image_sizes'])
 
-    input_ids = pad_sequence(
-        input_ids_list, padding_side='right', padding_value=0)
+    input_ids = pad_sequence(input_ids_list, padding_side='right', padding_value=0)
     labels = pad_sequence(labels_list, padding_side='right', padding_value=0)
     attention_mask = (input_ids != 0).long()
     input_image_embeds = cat_with_pad(input_image_embeds_list, dim=0)
@@ -289,8 +343,7 @@ def pmc_vqa_eval_collate_fn(batch):
         all_unique_ids.append(inputs['id'])
         all_answers.append(inputs['answer'])
 
-    input_ids = pad_sequence(
-        input_ids_list, padding_side='left', padding_value=0)
+    input_ids = pad_sequence(input_ids_list, padding_side='left', padding_value=0)
     attention_mask = (input_ids != 0).long()
     input_image_embeds = cat_with_pad(input_image_embeds_list, dim=0)
     image_attention_mask = cat_with_pad(image_attention_mask_list, dim=0)
@@ -361,8 +414,7 @@ def evaluate(
     for ids, answers, inputs in tqdm(
         eval_dataloader, disable=(rank != 0) or disable_tqdm, desc='running eval'
     ):
-        all_answers.extend({'id': i, 'answer': a.strip().lower()}
-                           for i, a in zip(ids, answers))
+        all_answers.extend({'id': i, 'answer': a.strip().lower()} for i, a in zip(ids, answers))
 
         inputs = inputs.to(f'cuda:{local_rank}')
         generated_ids = model.generate(
@@ -409,12 +461,9 @@ def main():
         default='microsoft/Phi-4-multimodal-instruct',
         help='Model name or path to load from',
     )
-    parser.add_argument('--use_flash_attention',
-                        action='store_true', help='Use Flash Attention')
-    parser.add_argument('--output_dir', type=str,
-                        default='./output/', help='Output directory')
-    parser.add_argument('--batch_size', type=int,
-                        default=16, help='Batch size')
+    parser.add_argument('--use_flash_attention', action='store_true', help='Use Flash Attention')
+    parser.add_argument('--output_dir', type=str, default='./output/', help='Output directory')
+    parser.add_argument('--batch_size', type=int, default=16, help='Batch size')
     parser.add_argument(
         '--batch_size_per_gpu',
         type=int,
@@ -430,13 +479,10 @@ def main():
     parser.add_argument(
         '--num_train_epochs', type=int, default=1, help='Number of training epochs'
     )
-    parser.add_argument('--learning_rate', type=float,
-                        default=4.0e-5, help='Learning rate')
+    parser.add_argument('--learning_rate', type=float, default=4.0e-5, help='Learning rate')
     parser.add_argument('--wd', type=float, default=0.01, help='Weight decay')
-    parser.add_argument('--no_tqdm', dest='tqdm',
-                        action='store_false', help='Disable tqdm')
-    parser.add_argument('--full_run', action='store_true',
-                        help='Run the full training and eval')
+    parser.add_argument('--no_tqdm', dest='tqdm', action='store_false', help='Disable tqdm')
+    parser.add_argument('--full_run', action='store_true', help='Run the full training and eval')
     args = parser.parse_args()
 
     accelerator = Accelerator()
@@ -451,6 +497,8 @@ def main():
             args.model_name_or_path,
             use_flash_attention=args.use_flash_attention,
         )
+
+    # model.load_adapter(args.model_name_or_path, adapter_name="vision", device_map="auto", adapter_kwargs={"subfolder": 'vision-lora'})
     # tune vision encoder and lora
     model.set_lora_adapter('vision')
     for param in model.model.embed_tokens_extend.image_embed.parameters():
@@ -459,8 +507,7 @@ def main():
     rank = int(os.environ.get('RANK', 0))
     world_size = int(os.environ.get('WORLD_SIZE', 1))
 
-    train_dataset = PmcVqaTrainDataset(
-        processor, data_size=None if args.full_run else _TRAIN_SIZE)
+    train_dataset = PmcVqaTrainDataset(processor, data_size=None if args.full_run else _TRAIN_SIZE)
     eval_dataset = PmcVqaEvalDataset(
         processor,
         data_size=None if args.full_run else _EVAL_SIZE,
@@ -473,8 +520,7 @@ def main():
     assert (
         args.batch_size % (num_gpus * args.batch_size_per_gpu) == 0
     ), 'Batch size must be divisible by the number of GPUs'
-    gradient_accumulation_steps = args.batch_size // (
-        num_gpus * args.batch_size_per_gpu)
+    gradient_accumulation_steps = args.batch_size // (num_gpus * args.batch_size_per_gpu)
 
     if args.use_flash_attention:
         fp16 = False
@@ -501,9 +547,15 @@ def main():
         warmup_steps=50,
         logging_steps=10,
         output_dir=args.output_dir,
-        save_strategy='no',
-        save_total_limit=10,
+        save_strategy='steps',
+        save_steps=200,
+        save_total_limit=2,
         save_only_model=True,
+        evaluation_strategy='steps',
+        eval_steps=200,  # or however often you want validation
+        metric_for_best_model='eval_loss',  # can use custom metric if desired
+        greater_is_better=False,
+        load_best_model_at_end=True,
         bf16=bf16,
         fp16=fp16,
         remove_unused_columns=False,
@@ -534,6 +586,8 @@ def main():
         args=training_args,
         data_collator=pmc_vqa_collate_fn,
         train_dataset=train_dataset,
+        eval_dataset=eval_dataset,  # Needed for evaluation
+        callbacks=[EarlyStoppingCallback(early_stopping_patience=2)],  # Stop after 2 bad evals
     )
     trainer.train()
     trainer.save_model()
