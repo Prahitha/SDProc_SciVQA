@@ -48,6 +48,7 @@ class PmcVqaTrainDataset(Dataset):
             repo_id='katebor/SciVQA',  # repository name
             filename='images_train.zip',  # file to download
             repo_type='dataset',  # specify it's a dataset repo
+            force_download=True,
         )
 
         # file_path will be the local path where the file was downloaded
@@ -59,7 +60,7 @@ class PmcVqaTrainDataset(Dataset):
             zip_ref.extractall(self.image_folder)
 
         data_files = {
-            'train': 'https://huggingface.co/datasets/katebor/SciVQA/blob/main/train_2025-03-27_18-34-44.json',
+            'train': 'https://huggingface.co/datasets/katebor/SciVQA/resolve/main/train_2025-03-27_18-34-44.json',
         }
         split = 'train' if data_size is None else f'train[:{data_size}]'
         self.annotations = load_dataset(
@@ -84,18 +85,18 @@ class PmcVqaTrainDataset(Dataset):
          'split': 'train'}
         """
         annotation = self.annotations[idx]
-        image = Image.open(self.image_folder / annotation['image_file'])
+        image = Image.open(self.image_folder / "images_train" / annotation['image_file'])
         question = annotation['question']
-        choices = annotation['answer_options']
+        choices = [f"{list(choice.keys())[0]}: {list(choice.values())[0]}" for choice in annotation['answer_options']]
         caption = annotation['caption'] 
         figures = annotation['figs_numb'] # if there are 2 figures or multiple plots, we should compare the scales of the axes
         figure_type = annotation['figure_type']
         qa_pair_type = annotation['qa_pair_type']
 
         if "closed-ended" in qa_pair_type and "finite answer set" in qa_pair_type:
-            if "non-binary" in qa_pair_type and answer_options:
+            if "non-binary" in qa_pair_type and choices:
                 final_prompt = self.instruction + " " + (
-                    f"Match the answer to one or more of the provided answer options: {{{answer_options}}}. "
+                    f"Match the answer to one or more of the provided answer options: {{{choices}}}. "
                     "Return only the corresponding letter(s) of the correct answer(s). "
                     "Do not explain your choice, do not rephrase the answer, and do not repeat the option text. "
                     "Only output the letter(s) corresponding to the correct choice. "
@@ -157,6 +158,7 @@ class PmcVqaEvalDataset(Dataset):
             repo_id='katebor/SciVQA',  # repository name
             filename='images_validation.zip',  # file to download
             repo_type='dataset',  # specify it's a dataset repo
+            force_download=True,
         )
 
         # file_path will be the local path where the file was downloaded
@@ -168,7 +170,7 @@ class PmcVqaEvalDataset(Dataset):
             zip_ref.extractall(self.image_folder)
 
         data_files = {
-            'validation': 'https://huggingface.co/datasets/katebor/SciVQA/blob/main/validation_2025-03-27_18-34-44.json',
+            'validation': 'https://huggingface.co/datasets/katebor/SciVQA/resolve/main/validation_2025-03-27_18-34-44.json',
         }
         split = 'validation' if data_size is None else f'validation[:{data_size}]'
         self.annotations = load_dataset(
@@ -194,18 +196,18 @@ class PmcVqaEvalDataset(Dataset):
          'split': 'test'}
         """
         annotation = self.annotations[idx]
-        image = Image.open(self.image_folder / annotation['image_file'])
+        image = Image.open(self.image_folder / "images_validation" / annotation['image_file'])
         question = annotation['question']
-        choices = annotation['answer_options']
+        choices = [f"{list(choice.keys())[0]}: {list(choice.values())[0]}" for choice in annotation['answer_options']]
         caption = annotation['caption'] 
         figures = annotation['figs_numb'] # if there are 2 figures or multiple plots, we should compare the scales of the axes
         figure_type = annotation['figure_type']
         qa_pair_type = annotation['qa_pair_type']
 
         if "closed-ended" in qa_pair_type and "finite answer set" in qa_pair_type:
-            if "non-binary" in qa_pair_type and answer_options:
+            if "non-binary" in qa_pair_type and choices:
                 final_prompt = self.instruction + " " + (
-                    f"Match the answer to one or more of the provided answer options: {{{answer_options}}}. "
+                    f"Match the answer to one or more of the provided answer options: {{{choices}}}. "
                     "Return only the corresponding letter(s) of the correct answer(s). "
                     "Do not explain your choice, do not rephrase the answer, and do not repeat the option text. "
                     "Only output the letter(s) corresponding to the correct choice. "
@@ -371,6 +373,7 @@ def create_model(model_name_or_path, use_flash_attention=False):
         torch_dtype=torch.bfloat16 if use_flash_attention else torch.float32,
         _attn_implementation='flash_attention_2' if use_flash_attention else 'sdpa',
         trust_remote_code=True,
+        device_map="auto",
     ).to('cuda')
     # remove parameters irrelevant to vision tasks
     del model.model.embed_tokens_extend.audio_embed  # remove audio encoder
@@ -551,7 +554,7 @@ def main():
         save_steps=200,
         save_total_limit=2,
         save_only_model=True,
-        evaluation_strategy='steps',
+        eval_strategy='steps',
         eval_steps=200,  # or however often you want validation
         metric_for_best_model='eval_loss',  # can use custom metric if desired
         greater_is_better=False,
@@ -606,6 +609,7 @@ def main():
         torch_dtype=torch.bfloat16 if args.use_flash_attention else torch.float32,
         trust_remote_code=True,
         _attn_implementation='flash_attention_2' if args.use_flash_attention else 'sdpa',
+        device_map="auto",
     ).to('cuda')
 
     acc = evaluate(
