@@ -1,145 +1,173 @@
-from datetime import datetime
 import argparse
 import json
 import os
+import tempfile
+import zipfile
 import base64
+import io
+import time
 from pathlib import Path
-from typing import Optional, Dict, List, Any, Union
+from typing import List, Dict, Any, Optional
 
+import numpy as np
 import requests
-from pydantic import BaseModel, model_validator, HttpUrl, Field
 from PIL import Image
 from tqdm import tqdm
 from datasets import load_dataset
-
-
-class QAImageData(BaseModel):
-    instance_id: str = Field(default_factory=lambda: f"id-{id(object())}")
-    image_file: str
-    figure_id: str = ""
-    caption: str = ""
-    figure_type: str = ""
-    compound: bool = False
-    figs_numb: str = ""
-    qa_pair_type: str = ""
-    question: str
-    answer: Optional[str] = None
-    answer_options: dict = {}
-    venue: str = ""
-    categories: str = ""
-    source_dataset: str = ""
-    paper_id: str = ""
-    pdf_url: HttpUrl = "https://example.com"
-
-    @model_validator(mode="before")
-    def merge_answer_options(cls, values):
-        options = values.get('answer_options')
-        if isinstance(options, list):
-            if all(isinstance(item, dict) for item in options):
-                merged = {}
-                for item in options:
-                    merged.update(item)
-                values['answer_options'] = merged
-        return values
-
-
-def load_and_validate_dataset(split="validation", data_size=None):
-    """Load dataset from HuggingFace and validate with Pydantic"""
-    print(f"Loading {split} dataset from HuggingFace...")
-
-    try:
-        # Load the dataset using HuggingFace
-        raw_dataset = load_dataset("katebor/SciVQA", split=split)
-
-        # Limit size if needed
-        if data_size is not None:
-            raw_dataset = raw_dataset.select(
-                range(min(data_size, len(raw_dataset))))
-
-        # Validate and convert to Pydantic models
-        validated_data = []
-
-        for i, item in enumerate(tqdm(raw_dataset, desc="Validating data")):
-            try:
-                # Convert from Dataset format to dictionary
-                item_dict = dict(item)
-
-                # Validate using Pydantic
-                qa_item = QAImageData(**item_dict)
-                validated_data.append(qa_item)
-            except Exception as e:
-                print(f"Error validating item {i}: {e}")
-                # Skip invalid items
-
-        print(f"Successfully loaded and validated {len(validated_data)} items")
-        return validated_data
-
-    except Exception as e:
-        print(f"Error loading dataset: {e}")
-        return []
+from huggingface_hub import hf_hub_download
 
 
 class SciVQAInferenceDataset:
-    def __init__(self, data_size=None, split="validation", data_dir="./scivqa_data"):
-        self.data_dir = Path(data_dir)
-        self.data_dir.mkdir(parents=True, exist_ok=True)
-        self.image_folder = self.data_dir / "images_validation"
-        self.image_folder.mkdir(parents=True, exist_ok=True)
+    def __init__(self, data_size=None, split="test", data_dir="./scivqa_data"):
+        try:
+            # Create a fixed directory instead of temp
+            self.data_dir = Path(data_dir)
+            self.data_dir.mkdir(parents=True, exist_ok=True)
+            self.image_folder = self.data_dir / f"images_{split}"
+            self.image_folder.mkdir(parents=True, exist_ok=True)
 
-        # Load and validate the dataset
-        self.annotations = load_and_validate_dataset(split, data_size)
-        print(f"Dataset loaded with {len(self.annotations)} examples")
+            # Download the image file
+            print(f"Downloading images for {split} split...")
+            image_file_path = hf_hub_download(
+                repo_id='katebor/SciVQA',
+                filename=f'images_{split}.zip',
+                repo_type='dataset',
+            )
+            print(f'Image file downloaded to: {image_file_path}')
+
+            # Download the JSON file
+            print(f"Downloading annotations for {split} split...")
+            json_file_path = hf_hub_download(
+                repo_id='katebor/SciVQA',
+                filename='test_without_answers_2025-04-14_15-30.json',
+                repo_type='dataset',
+            )
+            print(f'JSON file downloaded to: {json_file_path}')
+
+            # Extract images to the fixed folder instead of temp
+            print(f"Extracting images to {self.image_folder}...")
+            with zipfile.ZipFile(image_file_path, 'r') as zip_ref:
+                zip_ref.extractall(self.image_folder)
+
+            # Load annotations directly from JSON file
+            print("Loading JSON annotations...")
+            with open(json_file_path, 'r') as f:
+                annotations = json.load(f)
+
+            # Convert to list format and limit size if specified
+            if isinstance(annotations, dict):
+                if 'data' in annotations:
+                    self.annotations = annotations['data']
+                elif 'annotations' in annotations:
+                    self.annotations = annotations['annotations']
+                else:
+                    # Try the first key if it has a list value
+                    for key, value in annotations.items():
+                        if isinstance(value, list):
+                            self.annotations = value
+                            break
+                    else:
+                        self.annotations = []
+            elif isinstance(annotations, list):
+                self.annotations = annotations
+            else:
+                self.annotations = []
+
+            if data_size is not None:
+                self.annotations = self.annotations[:data_size]
+
+            print(
+                f"Loaded {len(self.annotations)} examples from {split} split")
+
+            # Print a sample to debug
+            if len(self.annotations) > 0:
+                print("Sample annotation structure:")
+                sample = self.annotations[0]
+                for key, value in sample.items():
+                    print(
+                        f"  {key}: {str(value)[:50]}{'...' if len(str(value)) > 50 else ''}")
+
+                # List image files to verify extraction
+                # image_files = list(self.image_folder.glob(
+                #     "*"))[:5]  # List first 5 files
+                # print(
+                #     f"Sample image files (showing first 5 of {len(list(self.image_folder.glob('*')))}):")
+                # for img in image_files:
+                #     print(f"  {img}")
+
+        except Exception as e:
+            import traceback
+            print(f"Error initializing dataset: {e}")
+            print(traceback.format_exc())
+            self.annotations = []
+            self.image_folder = None
 
     def __len__(self):
         return len(self.annotations)
 
     def __getitem__(self, idx):
         try:
-            qa_data = self.annotations[idx]
+            annotation = self.annotations[idx]
+
+            # Try different possible image file keys
+            image_file_key = None
+            for key in ['image_file', 'image_path', 'image', 'Figure_path']:
+                if key in annotation and annotation[key]:
+                    image_file_key = key
+                    break
+
+            if not image_file_key:
+                raise KeyError("Could not find image file key in annotation")
 
             # Get image path
-            image_file_name = qa_data.image_file
+            image_file_name = annotation[image_file_key]
+            # Handle potential path formats
             if isinstance(image_file_name, str):
                 image_file_name = image_file_name.split(
                     '/')[-1]  # Get just the filename
 
-            image_path = self.image_folder / "images_validation" / image_file_name
-            # print(image_path)
+            image_path = self.image_folder / "images_test" / image_file_name
+
             # Check if image exists
-            if not os.path.exists(image_path):
-                image_path = None
-                print("Warning: Image file not found")
-
-            # Extract fields from Pydantic model
-            choices = qa_data.answer_options
-            if isinstance(choices, dict):
-                choices_list = [f"{k}: {v}" for k, v in choices.items()]
-            elif isinstance(choices, list):
-                if all(isinstance(c, dict) for c in choices):
-                    choices_list = []
-                    for c in choices:
-                        for k, v in c.items():
-                            choices_list.append(f"{k}: {v}")
+            if not image_path.exists():
+                print(
+                    f"Warning: Image file {image_path} does not exist. Searching for alternatives...")
+                # Try to find the image with a slightly different name
+                possible_matches = list(
+                    self.image_folder.glob(f"*{image_file_name}*"))
+                if possible_matches:
+                    image_path = possible_matches[0]
+                    print(f"Found alternative image: {image_path}")
                 else:
-                    choices_list = choices
-            else:
-                choices_list = []
+                    print(f"No alternative image found for {image_file_name}")
+                    # Return a placeholder instead of failing
+                    return {
+                        'id': annotation.get('instance_id', annotation.get('id', idx)),
+                        'image_path': None,
+                        'question': annotation.get('question', ''),
+                        'caption': annotation.get('caption', ''),
+                        'answer': annotation.get('answer', ''),
+                        'choices': annotation.get('answer_options', annotation.get('choices', [])),
+                        'qa_pair_type': annotation.get('qa_pair_type', ''),
+                        'figure_type': annotation.get('figure_type', '')
+                    }
 
+            # Extract all the possible fields
             return {
-                'id': qa_data.instance_id,
-                'image_path': str(image_path) if image_path else None,
-                'question': qa_data.question,
-                'caption': qa_data.caption,
-                'answer': qa_data.answer if qa_data.answer else "",
-                'choices': choices_list,
-                'qa_pair_type': qa_data.qa_pair_type,
-                'figure_type': qa_data.figure_type
+                'id': annotation.get('instance_id', annotation.get('id', idx)),
+                'image_path': str(image_path),
+                'question': annotation.get('question', ''),
+                'caption': annotation.get('caption', ''),
+                'answer': annotation.get('answer', ''),
+                'choices': annotation.get('answer_options', annotation.get('choices', [])),
+                'qa_pair_type': annotation.get('qa_pair_type', ''),
+                'figure_type': annotation.get('figure_type', '')
             }
         except Exception as e:
-            print(f"Error getting item {idx}")
+            print(f"Error getting item {idx}: {e}")
             # Return a placeholder
             return {
-                'id': str(idx),
+                'id': idx,
                 'image_path': None,
                 'question': '',
                 'caption': '',
@@ -157,7 +185,7 @@ class SciVQAInferenceDataset:
 def encode_image_to_base64(image_path):
     """Convert an image to base64 encoding, handling None values"""
     if image_path is None:
-        print("Warning: No image available")
+        print("Warning: Image path is None, returning empty string")
         return ""
 
     try:
@@ -165,7 +193,7 @@ def encode_image_to_base64(image_path):
             encoded_string = base64.b64encode(image_file.read())
         return encoded_string.decode('utf-8')
     except Exception as e:
-        print("Error encoding image")
+        print(f"Error encoding image {image_path}: {e}")
         return ""
 
 
@@ -176,37 +204,13 @@ def vllm_inference(prompt, image_path, vllm_url="http://localhost:8000/v1/chat/c
     }
 
     try:
-        if image_path and os.path.exists(image_path):
-            # Read the image file and encode to base64
-            with open(image_path, "rb") as f:
-                encoded_string = base64.b64encode(f.read()).decode("utf-8")
+        # Check if image path is valid
+        image_base64 = encode_image_to_base64(image_path)
 
-            # Prepare the request payload with image
-            payload = {
-                "model": "microsoft/Phi-4-multimodal-instruct",
-                "messages": [
-                    {
-                        "role": "user",
-                        "content": [
-                            {
-                                "type": "text",
-                                "text": prompt
-                            },
-                            {
-                                "type": "image_url",
-                                "image_url": {
-                                    "url": f"data:image/jpeg;base64,{encoded_string}"
-                                }
-                            }
-                        ]
-                    }
-                ],
-                "max_tokens": 150,
-                "temperature": 0.0  # Use 0 for deterministic output
-            }
-        else:
+        if not image_base64:
+            print(
+                f"Warning: No valid image data for {image_path}. Proceeding with text-only query.")
             # Text-only query
-            print("Warning: No valid image data. Proceeding with text-only query.")
             payload = {
                 "model": "microsoft/Phi-4-multimodal-instruct",
                 "messages": [
@@ -221,7 +225,29 @@ def vllm_inference(prompt, image_path, vllm_url="http://localhost:8000/v1/chat/c
                     }
                 ],
                 "max_tokens": 150,
-                "temperature": 0.0
+                "temperature": 0.0,  # Use 0 for deterministic output
+            }
+        else:
+            # Prepare the request payload with image
+            payload = {
+                "model": "Phi-4-multimodal-instruct",
+                "messages": [
+                    {
+                        "role": "user",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": prompt
+                            },
+                            {
+                                "type": "image",
+                                "image": image_base64
+                            }
+                        ]
+                    }
+                ],
+                "max_tokens": 150,
+                "temperature": 0.0,  # Use 0 for deterministic output
             }
 
         # Make the API call
@@ -233,7 +259,7 @@ def vllm_inference(prompt, image_path, vllm_url="http://localhost:8000/v1/chat/c
         return None
 
 
-def create_prompt(example, instruction="Answer the question based on the information in the image, caption. Do not hallucinate or infer information from general knowledge."):
+def create_prompt(example, instruction="Answer the question based on the information in the image. Do not hallucinate or infer information from general knowledge."):
     """Create a prompt for the model based on the example"""
     question = example['question']
     caption = example['caption']
@@ -254,16 +280,9 @@ def create_prompt(example, instruction="Answer the question based on the informa
     if "closed-ended" in qa_pair_type and "finite answer set" in qa_pair_type:
         if "non-binary" in qa_pair_type and choices:
             prompt_parts.append(
-                f"{instruction} Based on the reasoning above, match it to one or more of the provided answer options: {choices}. "
-                "Return only the corresponding letter(s) of the correct answer(s). "
-                "Do not explain your choice, do not rephrase the answer, and do not repeat the option text. "
-                "Only output the letter(s) corresponding to the correct choice. "
-                "If multiple letters are correct, separate them by commas without spaces (for example: B,C). "
-                "If all options are correct, return A,B,C,D. "
-                "Do not add anything else.")
+                f"{instruction} Match the answer to one or more of the provided answer options. Return only the corresponding letter(s) of the correct answer(s).")
         elif "binary" in qa_pair_type:
-            prompt_parts.append(
-                f"{instruction} Return either 'Yes' or 'No'. Do not add anything else - not even punctuation marks.")
+            prompt_parts.append(f"{instruction} Return either 'Yes' or 'No'.")
         else:
             prompt_parts.append(
                 f"{instruction} Give the exact correct answer, with no extra explanation.")
@@ -274,35 +293,25 @@ def create_prompt(example, instruction="Answer the question based on the informa
     return "\n".join(prompt_parts)
 
 
-# Format current datetime
-
-
 def main():
-    time = datetime.now().strftime("%Y%m%d_%H%M%S")
     parser = argparse.ArgumentParser(
         description="Run inference with Phi-4-MM on SciVQA dataset using vLLM")
     parser.add_argument("--vllm_url", type=str,
                         default="http://localhost:8000/v1/chat/completions", help="URL for vLLM API server")
     parser.add_argument("--output_file", type=str,
-                        default=f"{time}_phi4mm_validation_scivqa_results.json", help="Output JSON file path")
+                        default="phi4mm_scivqa_results.json", help="Output JSON file path")
     parser.add_argument("--batch_size", type=int, default=8,
                         help="Batch size for processing")
     parser.add_argument("--max_examples", type=int, default=None,
                         help="Maximum number of examples to process")
-    parser.add_argument("--split", type=str, default="validation",
-                        choices=["train", "validation"], help="Dataset split to use")
-    parser.add_argument("--data_dir", type=str, default="./scivqa_data",
-                        help="Directory to store dataset files")
+    parser.add_argument("--split", type=str, default="test",
+                        choices=["test", "validation"], help="Dataset split to use")
     args = parser.parse_args()
 
     # Load dataset
     dataset = SciVQAInferenceDataset(
-        data_size=args.max_examples,
-        split=args.split,
-        data_dir=args.data_dir
-    )
+        data_size=args.max_examples, split=args.split)
 
-    # Results storage
     results = []
 
     # Process dataset in batches
@@ -314,10 +323,11 @@ def main():
         for example in tqdm(batch, desc=f"Batch {batch_idx+1}/{n_batches}", leave=False):
             # Prepare data
             prompt = create_prompt(example)
-            image_path = example['image_path']
+            image_base64 = encode_image_to_base64(example['image_path'])
 
             # Run inference
-            response = vllm_inference(prompt, image_path, args.vllm_url)
+            response = vllm_inference(
+                prompt, image_base64, args.vllm_url)
 
             # Process response
             if response and 'choices' in response and len(response['choices']) > 0:
@@ -360,7 +370,7 @@ def main():
                         'progress': f"{len(results)}/{len(dataset)}"
                     }, f, indent=2)
 
-    # Calculate metrics and save final results (same as before)
+    # Calculate overall metrics
     correct = sum(1 for r in results if r['correct'])
     total = len(results)
     accuracy = correct / total if total > 0 else 0
