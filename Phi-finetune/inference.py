@@ -3,7 +3,7 @@ import torch
 import os
 import io
 from PIL import Image
-import soundfile as sf
+#import soundfile as sf
 from transformers import AutoModelForCausalLM, AutoProcessor, GenerationConfig
 from urllib.request import urlopen
 
