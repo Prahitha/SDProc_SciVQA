@@ -232,6 +232,7 @@ def vllm_inference(prompt, image_path, vllm_url="http://localhost:8000/v1/chat/c
         response = requests.post(vllm_url, headers=headers, json=payload)
         response.raise_for_status()  # Raise an exception for bad status codes
         return response.json()
+
     except Exception as e:
         print(f"Error in vllm_inference: {e}")
         return None
