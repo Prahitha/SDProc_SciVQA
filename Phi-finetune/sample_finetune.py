@@ -387,37 +387,57 @@ def create_model(model_name_or_path, use_flash_attention=False):
         trust_remote_code=True,
     )
     
-    class DummyAudioEmbed(nn.Module):
+    original_audio_module = model.model.embed_tokens_extend.audio_embed
+    
+    class SmartDummyAudioEmbed(nn.Module):
+        def __init__(self, hidden_size=model.config.hidden_size):
+            super().__init__()
+            self.hidden_size = hidden_size
+            
+        def forward(self, *args, **kwargs):
+            if 'audio_inputs' in kwargs and kwargs['audio_inputs'] is not None:
+                batch_size = kwargs['audio_inputs'].shape[0]
+                seq_length = kwargs['audio_inputs'].shape[1] if len(kwargs['audio_inputs'].shape) > 1 else 1
+                device = kwargs['audio_inputs'].device
+            else:
+                batch_size = 1
+                seq_length = 1
+                device = next(model.parameters()).device
+                
+            return torch.zeros((batch_size, seq_length, self.hidden_size), 
+                              device=device, 
+                              dtype=next(model.parameters()).dtype)
+    
+    model.model.embed_tokens_extend.audio_embed = SmartDummyAudioEmbed()
+    
+    class DummyLoRAAdapter(nn.Module):
         def __init__(self):
             super().__init__()
             
-        def forward(self, *args, **kwargs):
-            return None
-    
-    model.model.embed_tokens_extend.audio_embed = DummyAudioEmbed()
+        def forward(self, x):
+            return torch.zeros_like(x)
     
     for layer in model.model.layers:
-        layer.mlp.down_proj.lora_A.speech = DummyAudioEmbed()
-        layer.mlp.down_proj.lora_B.speech = DummyAudioEmbed()
-        layer.mlp.gate_up_proj.lora_A.speech = DummyAudioEmbed()
-        layer.mlp.gate_up_proj.lora_B.speech = DummyAudioEmbed()
-        layer.self_attn.o_proj.lora_A.speech = DummyAudioEmbed()
-        layer.self_attn.o_proj.lora_B.speech = DummyAudioEmbed()
-        layer.self_attn.qkv_proj.lora_A.speech = DummyAudioEmbed()
-        layer.self_attn.qkv_proj.lora_B.speech = DummyAudioEmbed()
+        layer.mlp.down_proj.lora_A.speech = DummyLoRAAdapter()
+        layer.mlp.down_proj.lora_B.speech = DummyLoRAAdapter()
+        layer.mlp.gate_up_proj.lora_A.speech = DummyLoRAAdapter()
+        layer.mlp.gate_up_proj.lora_B.speech = DummyLoRAAdapter()
+        layer.self_attn.o_proj.lora_A.speech = DummyLoRAAdapter()
+        layer.self_attn.o_proj.lora_B.speech = DummyLoRAAdapter()
+        layer.self_attn.qkv_proj.lora_A.speech = DummyLoRAAdapter()
+        layer.self_attn.qkv_proj.lora_B.speech = DummyLoRAAdapter()
 
     for param in model.parameters():
         param.requires_grad = False
         
-    model.gradient_checkpointing_enable()    
-    model.set_lora_adapter('vision')
+    model.gradient_checkpointing_enable()
     
-    for param in model.model.embed_tokens_extend.image_embed.parameters():
-        param.requires_grad = True
+    model.set_lora_adapter('vision')
     
     trainable_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
     total_params = sum(p.numel() for p in model.parameters())
-    print(f"Training {trainable_params} parameters out of {total_params} total parameters")
+    print(f"Training {trainable_params:,} parameters out of {total_params:,} total parameters")
+    print(f"Percentage of parameters being trained: {trainable_params/total_params*100:.2f}%")
     
     return model
 
