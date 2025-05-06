@@ -1,13 +1,3 @@
-"""
-finetune Phi-4-multimodal-instruct on an image task
-
-scipy==1.15.1
-peft==0.13.2
-backoff==2.2.1
-transformers==4.47.0
-accelerate==1.3.0
-"""
-
 import argparse
 import json
 import os
@@ -16,6 +6,7 @@ import zipfile
 from pathlib import Path
 
 import torch
+import torch.nn as nn
 from accelerate import Accelerator
 from accelerate.utils import gather_object
 from datasets import load_dataset
@@ -122,31 +113,79 @@ class PmcVqaTrainDataset(Dataset):
             [user_message], tokenize=False, add_generation_prompt=True
         )
         answer = f'{annotation["answer"]}<|end|><|endoftext|>'
-        inputs = self.processor(prompt, images=[image], return_tensors='pt')
+        # inputs = self.processor(prompt, images=[image], return_tensors='pt')
 
-        answer_ids = self.processor.tokenizer(answer, return_tensors='pt').input_ids
+        # answer_ids = self.processor.tokenizer(answer, return_tensors='pt').input_ids
 
-        input_ids = torch.cat([inputs.input_ids, answer_ids], dim=1)
-        labels = torch.full_like(input_ids, _IGNORE_INDEX)
-        labels[:, -answer_ids.shape[1]:] = answer_ids
+        # input_ids = torch.cat([inputs.input_ids, answer_ids], dim=1)
+        # labels = torch.full_like(input_ids, _IGNORE_INDEX)
+        # labels[:, -answer_ids.shape[1]:] = answer_ids
 
-        if input_ids.size(1) > _MAX_TRAINING_LENGTH:
-            input_ids = input_ids[:, :_MAX_TRAINING_LENGTH]
-            labels = labels[:, :_MAX_TRAINING_LENGTH]
-            if torch.all(labels == _IGNORE_INDEX).item():
-                # workaround to make sure loss compute won't fail
-                labels[:, -1] = self.processor.tokenizer.eos_token_id
+        # if input_ids.size(1) > _MAX_TRAINING_LENGTH:
+        #     input_ids = input_ids[:, :_MAX_TRAINING_LENGTH]
+        #     labels = labels[:, :_MAX_TRAINING_LENGTH]
+        #     if torch.all(labels == _IGNORE_INDEX).item():
+        #         # workaround to make sure loss compute won't fail
+        #         labels[:, -1] = self.processor.tokenizer.eos_token_id
 
         return {
-            'input_ids': input_ids,
-            'labels': labels,
-            'input_image_embeds': inputs.input_image_embeds,
-            'image_attention_mask': inputs.image_attention_mask,
-            'image_sizes': inputs.image_sizes,
+            # 'input_ids': input_ids,
+            # 'labels': labels,
+            'prompt': prompt,
+            'image': image.convert("RGB"),
+            'answer': answer,
+            # 'input_image_embeds': inputs.input_image_embeds,
+            # 'image_attention_mask': inputs.image_attention_mask,
+            # 'image_sizes': inputs.image_sizes,
         }
 
     def __del__(self):
         __import__('shutil').rmtree(self.image_folder)
+
+
+class DataCollatorWithProcessor:
+    def __init__(self, processor, ignore_index=_IGNORE_INDEX, max_length=_MAX_TRAINING_LENGTH):
+        self.processor = processor
+        self.ignore_index = ignore_index
+        self.max_length = max_length
+        self.tokenizer = processor.tokenizer
+
+    def __call__(self, batch):
+        prompts = [x['prompt'] for x in batch]
+        images = [x['image'] for x in batch]
+        answers = [f"{x['answer']}<|end|><|endoftext|>" for x in batch]
+
+        # Tokenize prompt + image
+        inputs = self.processor(prompts, images=images, return_tensors='pt', padding=True, truncation=True)
+
+        # Tokenize answers
+        answer_ids = self.tokenizer(answers, return_tensors='pt', padding=True, truncation=True).input_ids
+
+        labels = torch.full_like(inputs.input_ids, _IGNORE_INDEX)
+        for i in range(len(answer_ids)):
+            answer_len = answer_ids[i].shape[0]
+            labels[i, -answer_len:] = answer_ids[i]
+
+        inputs['labels'] = labels
+        inputs['input_mode'] = torch.ones(len(images), dtype=torch.long)  # vision mode
+
+        return BatchFeature(inputs)
+
+
+class EvalCollatorWithProcessor:
+    def __init__(self, processor):
+        self.processor = processor
+
+    def __call__(self, batch):
+        ids = [x['id'] for x in batch]
+        prompts = [x['prompt'] for x in batch]
+        images = [x['image'] for x in batch]
+        answers = [x['answer'] for x in batch]
+
+        inputs = self.processor(prompts, images=images, return_tensors='pt', padding=True, truncation=True)
+        inputs['input_mode'] = torch.ones(len(images), dtype=torch.long)
+
+        return ids, answers, BatchFeature(inputs)
 
 
 class PmcVqaEvalDataset(Dataset):
@@ -233,15 +272,17 @@ class PmcVqaEvalDataset(Dataset):
             [user_message], tokenize=False, add_generation_prompt=True
         )
         answer = annotation['answer']
-        inputs = self.processor(prompt, images=[image], return_tensors='pt')
+        # inputs = self.processor(prompt, images=[image], return_tensors='pt')
 
-        unique_id = f'{annotation["instance_id"]}'
+        unique_id = annotation["instance_id"]
         return {
             'id': unique_id,
-            'input_ids': inputs.input_ids,
-            'input_image_embeds': inputs.input_image_embeds,
-            'image_attention_mask': inputs.image_attention_mask,
-            'image_sizes': inputs.image_sizes,
+            # 'input_ids': inputs.input_ids,
+            'prompt': prompt,
+            'image': image.convert("RGB"),
+            # 'input_image_embeds': inputs.input_image_embeds,
+            # 'image_attention_mask': inputs.image_attention_mask,
+            # 'image_sizes': inputs.image_sizes,
             'answer': answer,
         }
 
@@ -298,72 +339,43 @@ def cat_with_pad(tensors, dim, padding_value=0):
 
 
 def pmc_vqa_collate_fn(batch):
-    input_ids_list = []
-    labels_list = []
-    input_image_embeds_list = []
-    image_attention_mask_list = []
-    image_sizes_list = []
-    for inputs in batch:
-        input_ids_list.append(inputs['input_ids'][0])
-        labels_list.append(inputs['labels'][0])
-        input_image_embeds_list.append(inputs['input_image_embeds'])
-        image_attention_mask_list.append(inputs['image_attention_mask'])
-        image_sizes_list.append(inputs['image_sizes'])
-
-    input_ids = pad_sequence(input_ids_list, padding_side='right', padding_value=0)
-    labels = pad_sequence(labels_list, padding_side='right', padding_value=0)
+    input_ids = pad_sequence([x['input_ids'][0] for x in batch], padding_side='right')
+    labels = pad_sequence([x['labels'][0] for x in batch], padding_side='right')
+    images = [x['image'] for x in batch]
     attention_mask = (input_ids != 0).long()
-    input_image_embeds = cat_with_pad(input_image_embeds_list, dim=0)
-    image_attention_mask = cat_with_pad(image_attention_mask_list, dim=0)
-    image_sizes = torch.cat(image_sizes_list)
-
-    return BatchFeature(
-        {
-            'input_ids': input_ids,
-            'labels': labels,
-            'attention_mask': attention_mask,
-            'input_image_embeds': input_image_embeds,
-            'image_attention_mask': image_attention_mask,
-            'image_sizes': image_sizes,
-            'input_mode': 1,  # vision mode
-        }
-    )
+    return BatchFeature({
+        'input_ids': input_ids,
+        'labels': labels,
+        'attention_mask': attention_mask,
+        'images': images,
+        'input_mode': 1,
+    })
 
 
 def pmc_vqa_eval_collate_fn(batch):
     input_ids_list = []
-    input_image_embeds_list = []
-    image_attention_mask_list = []
-    image_sizes_list = []
+    images = []
     all_unique_ids = []
     all_answers = []
+    
     for inputs in batch:
         input_ids_list.append(inputs['input_ids'][0])
-        input_image_embeds_list.append(inputs['input_image_embeds'])
-        image_attention_mask_list.append(inputs['image_attention_mask'])
-        image_sizes_list.append(inputs['image_sizes'])
+        images.append(inputs['image'])  # raw image
         all_unique_ids.append(inputs['id'])
         all_answers.append(inputs['answer'])
 
     input_ids = pad_sequence(input_ids_list, padding_side='left', padding_value=0)
     attention_mask = (input_ids != 0).long()
-    input_image_embeds = cat_with_pad(input_image_embeds_list, dim=0)
-    image_attention_mask = cat_with_pad(image_attention_mask_list, dim=0)
-    image_sizes = torch.cat(image_sizes_list)
 
     return (
         all_unique_ids,
         all_answers,
-        BatchFeature(
-            {
-                'input_ids': input_ids,
-                'attention_mask': attention_mask,
-                'input_image_embeds': input_image_embeds,
-                'image_attention_mask': image_attention_mask,
-                'image_sizes': image_sizes,
-                'input_mode': 1,  # vision mode
-            }
-        ),
+        BatchFeature({
+            'input_ids': input_ids,
+            'attention_mask': attention_mask,
+            'images': images,
+            'input_mode': 1,
+        }),
     )
 
 
@@ -373,23 +385,40 @@ def create_model(model_name_or_path, use_flash_attention=False):
         torch_dtype=torch.bfloat16 if use_flash_attention else torch.float32,
         _attn_implementation='flash_attention_2' if use_flash_attention else 'sdpa',
         trust_remote_code=True,
-        device_map="auto",
-    ).to('cuda')
-    # remove parameters irrelevant to vision tasks
-    del model.model.embed_tokens_extend.audio_embed  # remove audio encoder
+    )
+    
+    class DummyAudioEmbed(nn.Module):
+        def __init__(self):
+            super().__init__()
+            
+        def forward(self, *args, **kwargs):
+            return None
+    
+    model.model.embed_tokens_extend.audio_embed = DummyAudioEmbed()
+    
     for layer in model.model.layers:
-        # remove audio lora
-        del layer.mlp.down_proj.lora_A.speech
-        del layer.mlp.down_proj.lora_B.speech
-        del layer.mlp.gate_up_proj.lora_A.speech
-        del layer.mlp.gate_up_proj.lora_B.speech
-        del layer.self_attn.o_proj.lora_A.speech
-        del layer.self_attn.o_proj.lora_B.speech
-        del layer.self_attn.qkv_proj.lora_A.speech
-        del layer.self_attn.qkv_proj.lora_B.speech
+        layer.mlp.down_proj.lora_A.speech = DummyAudioEmbed()
+        layer.mlp.down_proj.lora_B.speech = DummyAudioEmbed()
+        layer.mlp.gate_up_proj.lora_A.speech = DummyAudioEmbed()
+        layer.mlp.gate_up_proj.lora_B.speech = DummyAudioEmbed()
+        layer.self_attn.o_proj.lora_A.speech = DummyAudioEmbed()
+        layer.self_attn.o_proj.lora_B.speech = DummyAudioEmbed()
+        layer.self_attn.qkv_proj.lora_A.speech = DummyAudioEmbed()
+        layer.self_attn.qkv_proj.lora_B.speech = DummyAudioEmbed()
 
-    # TODO remove unused vision layers?
-
+    for param in model.parameters():
+        param.requires_grad = False
+        
+    model.gradient_checkpointing_enable()    
+    model.set_lora_adapter('vision')
+    
+    for param in model.model.embed_tokens_extend.image_embed.parameters():
+        param.requires_grad = True
+    
+    trainable_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
+    total_params = sum(p.numel() for p in model.parameters())
+    print(f"Training {trainable_params} parameters out of {total_params} total parameters")
+    
     return model
 
 
@@ -400,14 +429,20 @@ def evaluate(
     rank = int(os.environ.get('RANK', 0))
     local_rank = int(os.environ.get('LOCAL_RANK', 0))
 
-    model.eval()
+    # Get the actual model if it's wrapped in DDP
+    if hasattr(model, 'module'):
+        inference_model = model.module
+    else:
+        inference_model = model
+        
+    inference_model.eval()
     all_answers = []
     all_generated_texts = []
 
     eval_dataloader = torch.utils.data.DataLoader(
         eval_dataset,
         batch_size=eval_batch_size,
-        collate_fn=pmc_vqa_eval_collate_fn,
+        collate_fn=EvalCollatorWithProcessor(processor),
         shuffle=False,
         drop_last=False,
         num_workers=4,
@@ -419,9 +454,9 @@ def evaluate(
     ):
         all_answers.extend({'id': i, 'answer': a.strip().lower()} for i, a in zip(ids, answers))
 
-        inputs = inputs.to(f'cuda:{local_rank}')
-        generated_ids = model.generate(
-            **inputs, eos_token_id=processor.tokenizer.eos_token_id, max_new_tokens=64
+        inputs = inputs.to(inference_model.device)
+        generated_ids = inference_model.generate(
+            **inputs, eos_token_id=processor.tokenizer.eos_token_id, max_new_tokens=64, num_logits_to_keep=1
         )
 
         input_len = inputs.input_ids.size(1)
@@ -489,27 +524,26 @@ def main():
     args = parser.parse_args()
 
     accelerator = Accelerator()
-
-    with accelerator.local_main_process_first():
+    
+    rank = int(os.environ.get('RANK', 0))
+    world_size = int(os.environ.get('WORLD_SIZE', 1))
+    
+    # First load the processor on all ranks
+    with accelerator.main_process_first():
         processor = AutoProcessor.from_pretrained(
             args.model_name_or_path,
             trust_remote_code=True,
             dynamic_hd=args.dynamic_hd,
         )
-        model = create_model(
-            args.model_name_or_path,
-            use_flash_attention=args.use_flash_attention,
-        )
 
-    # model.load_adapter(args.model_name_or_path, adapter_name="vision", device_map="auto", adapter_kwargs={"subfolder": 'vision-lora'})
-    # tune vision encoder and lora
-    model.set_lora_adapter('vision')
-    for param in model.model.embed_tokens_extend.image_embed.parameters():
-        param.requires_grad = True
+    # Then create and prepare the model
+    # Important: create_model now contains the gradient_checkpointing_enable and other setup
+    model = create_model(
+        args.model_name_or_path,
+        use_flash_attention=args.use_flash_attention,
+    )
 
-    rank = int(os.environ.get('RANK', 0))
-    world_size = int(os.environ.get('WORLD_SIZE', 1))
-
+    # Create datasets
     train_dataset = PmcVqaTrainDataset(processor, data_size=None if args.full_run else _TRAIN_SIZE)
     eval_dataset = PmcVqaEvalDataset(
         processor,
@@ -518,13 +552,18 @@ def main():
         world_size=world_size,
     )
 
+    # Prepare with accelerator (this wraps model with DDP if using distributed training)
+    model, train_dataset, eval_dataset = accelerator.prepare(model, train_dataset, eval_dataset)
+
+    # Calculate gradient accumulation steps
     num_gpus = accelerator.num_processes
-    print(f'training on {num_gpus} GPUs')
+    print(f'Training on {num_gpus} GPUs')
     assert (
         args.batch_size % (num_gpus * args.batch_size_per_gpu) == 0
     ), 'Batch size must be divisible by the number of GPUs'
     gradient_accumulation_steps = args.batch_size // (num_gpus * args.batch_size_per_gpu)
 
+    # Set precision flags
     if args.use_flash_attention:
         fp16 = False
         bf16 = True
@@ -532,11 +571,11 @@ def main():
         fp16 = True
         bf16 = False
 
-    # hard coded training args
+    # Training args
     training_args = TrainingArguments(
         num_train_epochs=args.num_train_epochs,
         per_device_train_batch_size=args.batch_size_per_gpu,
-        gradient_checkpointing=True,
+        gradient_checkpointing=False,
         gradient_checkpointing_kwargs={'use_reentrant': False},
         gradient_accumulation_steps=gradient_accumulation_steps,
         optim='adamw_torch',
@@ -555,8 +594,8 @@ def main():
         save_total_limit=2,
         save_only_model=True,
         eval_strategy='steps',
-        eval_steps=200,  # or however often you want validation
-        metric_for_best_model='eval_loss',  # can use custom metric if desired
+        eval_steps=200,
+        metric_for_best_model='eval_loss',
         greater_is_better=False,
         load_best_model_at_end=True,
         bf16=bf16,
@@ -569,10 +608,11 @@ def main():
         ddp_find_unused_parameters=True,  # for unused SigLIP layers
     )
 
-    # eval before fine-tuning
+    # Make output directory
     out_path = Path(training_args.output_dir)
     out_path.mkdir(parents=True, exist_ok=True)
 
+    # Evaluate before fine-tuning
     acc = evaluate(
         model,
         processor,
@@ -581,37 +621,45 @@ def main():
         disable_tqdm=not args.tqdm,
         eval_batch_size=args.batch_size_per_gpu,
     )
+    
     if accelerator.is_main_process:
         print(f'Accuracy before finetuning: {acc}')
 
+    # Setup trainer
     trainer = Trainer(
         model=model,
         args=training_args,
-        data_collator=pmc_vqa_collate_fn,
+        data_collator=DataCollatorWithProcessor(processor),
         train_dataset=train_dataset,
-        eval_dataset=eval_dataset,  # Needed for evaluation
-        callbacks=[EarlyStoppingCallback(early_stopping_patience=2)],  # Stop after 2 bad evals
+        eval_dataset=eval_dataset,
+        callbacks=[EarlyStoppingCallback(early_stopping_patience=2)],
     )
+    
+    # Train the model
     trainer.train()
+    
+    # Save model
     trainer.save_model()
     accelerator.wait_for_everyone()
 
-    # eval after fine-tuning (load saved checkpoint)
-    # first try to clear GPU memory
+    # Free memory
     del model
     del trainer
     __import__('gc').collect()
     torch.cuda.empty_cache()
 
-    # reload the model for inference
+    # Reload the model for inference evaluation
     model = AutoModelForCausalLM.from_pretrained(
         training_args.output_dir,
         torch_dtype=torch.bfloat16 if args.use_flash_attention else torch.float32,
         trust_remote_code=True,
         _attn_implementation='flash_attention_2' if args.use_flash_attention else 'sdpa',
-        device_map="auto",
-    ).to('cuda')
+    )
 
+    # Prepare model for evaluation
+    model = accelerator.prepare(model)
+    
+    # Evaluate after fine-tuning
     acc = evaluate(
         model,
         processor,
@@ -620,6 +668,7 @@ def main():
         disable_tqdm=not args.tqdm,
         eval_batch_size=args.batch_size_per_gpu,
     )
+    
     if accelerator.is_main_process:
         print(f'Accuracy after finetuning: {acc}')
 
