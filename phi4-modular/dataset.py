@@ -177,7 +177,7 @@ class SciVQADataset:
         batch = []
         for i in range(start_idx, end_idx):
             item = self[i]
-            print(item)
+            #print(item)
             if item['question'] and item['image_path']:
                 batch.append(item)
             else:

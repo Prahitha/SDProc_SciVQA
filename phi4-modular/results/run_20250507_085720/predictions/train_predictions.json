@@ -1,0 +1,290 @@
+[
+  {
+    "id": "6fa31dce39b3cdab7283fb73e58a7879",
+    "question": "What is the approximate value of the orange line at the cut range of 6?",
+    "response": "0.66",
+    "qa_pair_type": "closed-ended infinite answer set visual",
+    "fig_type": "line chart",
+    "answer": "0.66",
+    "correct": true
+  },
+  {
+    "id": "e1278c33fb169d1f9a22d90fb3217d49",
+    "question": "What metric is used for the y-axis of the graph?",
+    "response": "R10@1 metric; Y-axis range: 0.60 to 0.67; X-axis: cut range (2, 4, 6, 8, 10, 12); Y-axis: R10@1 values; Red line: segmentation algorithm; Blue line: segment with fixed range; Red line trend: peak at 6, then decline; Blue line trend: peak at 6, then decline; Blue line less steep; Blue line more stable; Red line more variable; Blue line more consistent; Red line: 0.61, 0.66, 0.67, 0.63, 0.62, 0.61; Blue line: 0.61",
+    "qa_pair_type": "closed-ended infinite answer set non-visual",
+    "fig_type": "line chart",
+    "answer": "R10@1",
+    "correct": false
+  },
+  {
+    "id": "0bb8d6aa6393500189600efd1f083911",
+    "question": "Is the value of the red line higher than the value of the blue line at the cut range of 6?",
+    "response": "Yes",
+    "qa_pair_type": "closed-ended finite answer set binary visual",
+    "fig_type": "line chart",
+    "answer": "Yes",
+    "correct": true
+  },
+  {
+    "id": "6f4dcd1a775aee8b9d7a7f1d14f999e6",
+    "question": "Does the R10@1 value for the segmentation algorithm always exceed the R10@1 value for the segment with fixed range?",
+    "response": "No",
+    "qa_pair_type": "closed-ended finite answer set binary non-visual",
+    "fig_type": "line chart",
+    "answer": "No",
+    "correct": true
+  },
+  {
+    "id": "e625bb6492dfcdc87ddddf1596583f49",
+    "question": "Which line represents the 'segment with fixed range'?",
+    "response": "B",
+    "qa_pair_type": "closed-ended finite answer set non-binary visual",
+    "fig_type": "line chart",
+    "answer": "B",
+    "correct": true
+  },
+  {
+    "id": "4ccbe51e50b00f032216e56de07a1d65",
+    "question": "Which of the following is/are represented in Figure 3?",
+    "response": "A,B,C,D",
+    "qa_pair_type": "closed-ended finite answer set non-binary non-visual",
+    "fig_type": "line chart",
+    "answer": "ABCD",
+    "correct": false
+  },
+  {
+    "id": "6cc5389be76f48fb50fe738db343f0b5",
+    "question": "What is the specific E-commerce platform used in this experiment? ",
+    "response": "It is not possible to answer this question based only on the provided data.",
+    "qa_pair_type": "unanswerable",
+    "fig_type": "line chart",
+    "answer": "It is not possible to answer this question based only on the provided data.",
+    "correct": true
+  },
+  {
+    "id": "fbb69ee2e4a067c336416ca2059ab50b",
+    "question": "What is the approximate PWCCA distance value for the dark green line representing 'sentence termination' at layer 5-6 for MT (a)?",
+    "response": "0.04",
+    "qa_pair_type": "closed-ended infinite answer set visual",
+    "fig_type": "line chart",
+    "answer": "0.06",
+    "correct": false
+  },
+  {
+    "id": "0379dbe07035efcf568bcf9faa3f746b",
+    "question": "What is the name of the language model represented by the figure labeled (b)?",
+    "response": "The language model represented by the figure labeled (b) is LM (Long Short-Term Memory).",
+    "qa_pair_type": "closed-ended infinite answer set non-visual",
+    "fig_type": "line chart",
+    "answer": "LM",
+    "correct": false
+  },
+  {
+    "id": "3bd0b48651e13d5aa59e22bffbd94197",
+    "question": "Is the line representing 'NN: nouns' consistently lower than the line representing 'PRP: personal pronouns' in the figure labeled (a) MT?",
+    "response": "No",
+    "qa_pair_type": "closed-ended finite answer set binary visual",
+    "fig_type": "line chart",
+    "answer": "Yes",
+    "correct": false
+  },
+  {
+    "id": "47720082423f7d50323d417d4cd791d8",
+    "question": "Does any POS exceed 0.12 on the y-axis in the MT model?",
+    "response": "No",
+    "qa_pair_type": "closed-ended finite answer set binary non-visual",
+    "fig_type": "line chart",
+    "answer": "No",
+    "correct": true
+  },
+  {
+    "id": "108a65058147a0cb158054c12faeed50",
+    "question": "Which of the following lines on the plot labelled (a) MT represent nouns (NN) according to the legend?",
+    "response": "A,B,C",
+    "qa_pair_type": "closed-ended finite answer set non-binary visual",
+    "fig_type": "line chart",
+    "answer": "B",
+    "correct": false
+  },
+  {
+    "id": "85ddb313c276916c5643d69f935a486d",
+    "question": "How many models are featured in Figure 13?",
+    "response": "D",
+    "qa_pair_type": "closed-ended finite answer set non-binary non-visual",
+    "fig_type": "line chart",
+    "answer": "C",
+    "correct": false
+  },
+  {
+    "id": "5a4c2fc084d68e064a2e2ae1039bf1c3",
+    "question": "What dataset was used to train the models in Figure 13?",
+    "response": "It is not possible to answer this question based only on the provided data.",
+    "qa_pair_type": "unanswerable",
+    "fig_type": "line chart",
+    "answer": "It is not possible to answer this question based only on the provided data.",
+    "correct": true
+  },
+  {
+    "id": "703cdb8d70192609f1de7c2bd7fa56cb",
+    "question": "What is the approximate value of the y-coordinate where the blue line (Series 1) intersects the green line (Series 3) between the x-axis values of 300 and 400?",
+    "response": "The blue line (Series 1) intersects the green line (Series 3) at approximately 350.",
+    "qa_pair_type": "closed-ended infinite answer set visual",
+    "fig_type": "line chart",
+    "answer": "300",
+    "correct": false
+  },
+  {
+    "id": "00e7b992fcb4db97f8739f57470df85d",
+    "question": "What is the approximate y-value where the Maxwell-Boltzmann distribution (Series 3) reaches its peak?",
+    "response": "The y-value where the Maxwell-Boltzmann distribution (Series 3) reaches its peak is approximately 1000.",
+    "qa_pair_type": "closed-ended infinite answer set non-visual",
+    "fig_type": "line chart",
+    "answer": "1000",
+    "correct": false
+  },
+  {
+    "id": "5285d21ebdd0405eca295cfdac61f572",
+    "question": "Does the green line (Series 3) reach a higher value than the red line (Series 2) at any point on the graph?",
+    "response": "No",
+    "qa_pair_type": "closed-ended finite answer set binary visual",
+    "fig_type": "line chart",
+    "answer": "Yes",
+    "correct": false
+  },
+  {
+    "id": "3914fa5dfe4372715fe049ac7a0e936e",
+    "question": "Does Series 2 drop below a y-value of 200 before the graph ends?",
+    "response": "No",
+    "qa_pair_type": "closed-ended finite answer set binary non-visual",
+    "fig_type": "line chart",
+    "answer": "No",
+    "correct": true
+  },
+  {
+    "id": "7a19ea34bb341970aa5ba6789ab9b8a5",
+    "question": "Which line is the closest to the blue line between the x-axis values of 100 and 200?",
+    "response": "B",
+    "qa_pair_type": "closed-ended finite answer set non-binary visual",
+    "fig_type": "line chart",
+    "answer": "A",
+    "correct": false
+  },
+  {
+    "id": "24782f75fda087d61456c6cb20acbabf",
+    "question": "Which series eventually surpasses Series 2 at higher x-values?",
+    "response": "B",
+    "qa_pair_type": "closed-ended finite answer set non-binary non-visual",
+    "fig_type": "line chart",
+    "answer": "A",
+    "correct": false
+  },
+  {
+    "id": "83e43099575f4fa0e89ce2a94e9798ad",
+    "question": "What is the specific word in the text of the Winnie the Pooh story that corresponds to the highest Ri \u00d7 Ni value in the blue graph (Series 1)?",
+    "response": "It is not possible to answer this question based only on the provided data.",
+    "qa_pair_type": "unanswerable",
+    "fig_type": "line chart",
+    "answer": "It is not possible to answer this question based only on the provided data.",
+    "correct": true
+  },
+  {
+    "id": "91c0756d475a44fed086a6235ccd16ed",
+    "question": "At which frame does the red line exhibit the highest attention for the word 'the'?",
+    "response": "The red line exhibits the highest attention for the word 'the' at frame 3.",
+    "qa_pair_type": "closed-ended infinite answer set visual",
+    "fig_type": "line chart",
+    "answer": "Third",
+    "correct": false
+  },
+  {
+    "id": "52d1f2670c83b2fdf25880f5f48598ad",
+    "question": "How many frames are presented in Figure 11?",
+    "response": "The figure presents 6 frames.",
+    "qa_pair_type": "closed-ended infinite answer set non-visual",
+    "fig_type": "line chart",
+    "answer": "10",
+    "correct": false
+  },
+  {
+    "id": "8f0f649e8b7238f572d6e66d19befb24",
+    "question": "Is the cyan curve higher than the red curve for the word 'What' at the 4th frame?",
+    "response": "No",
+    "qa_pair_type": "closed-ended finite answer set binary visual",
+    "fig_type": "line chart",
+    "answer": "No",
+    "correct": true
+  },
+  {
+    "id": "da74d4b392e683e44bedb1d5585ef751",
+    "question": "Does the TreeMN algorithm compute attentions for visual words?",
+    "response": "No",
+    "qa_pair_type": "closed-ended finite answer set binary non-visual",
+    "fig_type": "line chart",
+    "answer": "Yes",
+    "correct": false
+  },
+  {
+    "id": "3788875f67132c0a8283a63286164a27",
+    "question": "Which word has the least variation in attention values across the frames?",
+    "response": "B,C",
+    "qa_pair_type": "closed-ended finite answer set non-binary visual",
+    "fig_type": "line chart",
+    "answer": "B",
+    "correct": false
+  },
+  {
+    "id": "c2a18a8af2d5afe096fbf4459ea2e378",
+    "question": "Which algorithm computes the attentions for the verbal words?",
+    "response": "B",
+    "qa_pair_type": "closed-ended finite answer set non-binary non-visual",
+    "fig_type": "line chart",
+    "answer": "B",
+    "correct": true
+  },
+  {
+    "id": "12cf3c3b417463c4f4a73a7baa771284",
+    "question": "What is the specific visual event in the frames corresponding to the peak of the red curve in the \"by\" row?",
+    "response": "It is not possible to answer this question based only on the provided data.",
+    "qa_pair_type": "unanswerable",
+    "fig_type": "line chart",
+    "answer": "It is not possible to answer this question based only on the provided data.",
+    "correct": true
+  },
+  {
+    "id": "a094f076cf92d0c5376aae9fed38a39a",
+    "question": "What is the approximate value of log probability for the uppermost line labeled 'P(O_1|M)' at the 5th EM iteration?",
+    "response": "The approximate value of log probability for the uppermost line labeled 'P(O_1|M)' at the 5th EM iteration is 20.",
+    "qa_pair_type": "closed-ended infinite answer set visual",
+    "fig_type": "line chart",
+    "answer": "-13",
+    "correct": false
+  },
+  {
+    "id": "38ddd13b084183c782f2940e336f5387",
+    "question": "Over how many EM iterations is the data observed according to Figure 4?",
+    "response": "10 EM iterations",
+    "qa_pair_type": "closed-ended infinite answer set non-visual",
+    "fig_type": "line chart",
+    "answer": "10",
+    "correct": false
+  },
+  {
+    "id": "d2155058eb2605575c8e0e110d1d2bbc",
+    "question": "Does the line represented by triangle-shaped markers labeled P(O|M) show a decreasing trend from iteration 2 to iteration 10?",
+    "response": "No",
+    "qa_pair_type": "closed-ended finite answer set binary visual",
+    "fig_type": "line chart",
+    "answer": "No",
+    "correct": true
+  },
+  {
+    "id": "6273a2015efffc73289fd22bb7187874",
+    "question": "Is the initial log probability value at iteration 1 less than -40?",
+    "response": "No",
+    "qa_pair_type": "closed-ended finite answer set binary non-visual",
+    "fig_type": "line chart",
+    "answer": "Yes",
+    "correct": false
+  }
+]

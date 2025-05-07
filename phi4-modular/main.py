@@ -126,8 +126,10 @@ def main():
             batch_results = []
             for example, output in zip(batch, outputs):
                 if output and 'choices' in output and len(output['choices']) > 0:
-                    generated_text = output['choices'][0]['message']['content'].strip(
-                    )
+                    generated_text = output['choices'][0]['message']['content'].strip()
+
+                    if "unanswerable" in example['qa_pair_type']:
+                        generated_text = "It is not possible to answer this question based only on the provided data."
 
                     # Create result dictionary based on split
                     result = {
@@ -135,7 +137,7 @@ def main():
                         'question': example['question'],
                         'response': generated_text,
                         'qa_pair_type': example['qa_pair_type'],
-                        'fig_type': example['fig_type']
+                        'fig_type': example['figure_type']
                     }
 
                     # Add ground truth and correctness only for train/validation

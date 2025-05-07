@@ -1,11 +1,11 @@
 # Dataset Configuration
 dataset:
   path: data  # Base path for dataset files
-  split: validation  # Dataset split to use (train/val/test)
+  split: test # Dataset split to use (train/val/test)
   start_idx: 0  # Starting index for batch processing
-  end_idx: 8  # Ending index (null means process until end)
+  end_idx: null  # Ending index (null means process until end)
   batch_size: 8  # Number of examples to process in each batch
-  data_dir: "/Users/harshita/Documents/Paper/SDProc_SciVQA/SciVQA"
+  data_dir: "scivqa_data"
 
 # VLLM Configuration
 vllm:
@@ -19,9 +19,9 @@ vllm:
 output:
   base_dir: "results"  # Base directory for all results
   run_name: null  # Optional name for the run (will be appended to timestamp)
-  save_format: "json"  # Format to save results (json/csv)
+  save_format: "csv"  # Format to save results (json/csv)
   files:
-    predictions: "predictions.json"  # Name for predictions file
+    predictions: "predictions.csv"  # Name for predictions file
     metrics: "metrics.txt"  # Name for metrics file
     analysis: "analysis.txt"  # Name for analysis file
 
@@ -30,7 +30,7 @@ wandb:
   project: "sci-vqa-phi4-prompt"  # Project name
   entity: null  # Your wandb username/team name if needed
   api_key: 'd7daa36e132a83d1ef62f1a3c08e0c27f3f6a666'  # Will be loaded from environment variable WANDB_API_KEY
-  mode: "disabled"  # Set to "online" to enable wandb logging, "disabled" to disable
+  mode: "online"  # Set to "online" to enable wandb logging, "disabled" to disable
   log_interval: 10  # Log every N examples
   log_examples: true  # Log individual examples
   log_metrics: true  # Log aggregated metrics

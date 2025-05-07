@@ -1,0 +1,290 @@
+[
+  {
+    "id": "795f4ef16511f4f3496aac9b62885a1c",
+    "question": "What is the approximate maximum value of the shaded area for the blue line in the lower plot?",
+    "response": "The approximate maximum value of the shaded area for the blue line in the lower plot is 30.",
+    "qa_pair_type": "closed-ended infinite answer set visual",
+    "fig_type": "line chart",
+    "answer": "15",
+    "correct": false
+  },
+  {
+    "id": "52e8d789c0d9ce7e1ab2f379da7ada5a",
+    "question": "Which country is referenced in the first plot?",
+    "response": "Serbia/Yugo.",
+    "qa_pair_type": "closed-ended infinite answer set non-visual",
+    "fig_type": "line chart",
+    "answer": "USA",
+    "correct": false
+  },
+  {
+    "id": "a635ada76a4f9093c8da14c0daa1eaa2",
+    "question": "Is the shaded region for 'NATO' consistently below that of 'Serbia/Yugo.' in the bottom plot?",
+    "response": "No",
+    "qa_pair_type": "closed-ended finite answer set binary visual",
+    "fig_type": "line chart",
+    "answer": "No",
+    "correct": true
+  },
+  {
+    "id": "245acd477189c90de73f3e203bdaac4b",
+    "question": "Is the number of documents with an \"attacking\" country per 3-month period for the USA consistently higher than that of Serbia/Yugoslavia?",
+    "response": "Yes",
+    "qa_pair_type": "closed-ended finite answer set binary non-visual",
+    "fig_type": "line chart",
+    "answer": "No",
+    "correct": false
+  },
+  {
+    "id": "c0774879c6c363397342aa618ece9a59",
+    "question": "Which line represents the quantity of documents with an \"attacking\" country for Serbia/Yugoslavia?",
+    "response": "B",
+    "qa_pair_type": "closed-ended finite answer set non-binary visual",
+    "fig_type": "line chart",
+    "answer": "B",
+    "correct": true
+  },
+  {
+    "id": "47c14eccb3142b9464a3583bd8ae4685",
+    "question": "Which of the following has the highest number of documents with an \"attack\"ing country per 3-month period, during the time period shown in the figure?",
+    "response": "A,B",
+    "qa_pair_type": "closed-ended finite answer set non-binary non-visual",
+    "fig_type": "line chart",
+    "answer": "A",
+    "correct": false
+  },
+  {
+    "id": "09b3b3fa0698b1ff9418353b6d2375f9",
+    "question": "What is the relationship between the number of documents mentioning an 'attacking' country and the coreference posterior uncertainty?",
+    "response": "N/A",
+    "qa_pair_type": "unanswerable",
+    "fig_type": "line chart",
+    "answer": "It is not possible to answer this question based only on the provided data.",
+    "correct": false
+  },
+  {
+    "id": "bb604bafa63c2ee962816fb015e27c8d",
+    "question": "What is the shape of the curve representing the logistic function?",
+    "response": "The curve representing the logistic function is a smooth, S-shaped curve that starts near 0, increases rapidly around the midpoint, and then levels off near 1. The blue dotted line represents the linear function, and the red solid line represents the logistic function. The X-axis represents the input values (x), and the Y-axis represents the output values (h(x)). The scale ranges from 0 to 1 on the Y-axis. The logistic function curve is concave up, while the linear function curve is a straight line.",
+    "qa_pair_type": "closed-ended infinite answer set visual",
+    "fig_type": "line chart",
+    "answer": "S-shaped",
+    "correct": false
+  },
+  {
+    "id": "a68ab9204d5b33a082d95740357be109",
+    "question": "Which functions are represented in the graph?",
+    "response": "The graph represents the logistic function h(x) = 1 / (1 + exp{\u2212x}). The red solid line represents the logistic function, and the blue dashed line represents the linear function. The x-axis is labeled as \"x\" and the y-axis is labeled as \"h(x)\". The scale of the x-axis ranges from 0 to 1, and the scale of the y-axis ranges from 0 to 1. The logistic function h(x) = 1 / (1 + exp{\u2212x}) smoothly truncates polarity values to (0, 1) and is used as polarity probabilities. The linear function h(x) = x is represented by the blue dashed line.",
+    "qa_pair_type": "closed-ended infinite answer set non-visual",
+    "fig_type": "line chart",
+    "answer": "Linear function and Logistic function",
+    "correct": false
+  },
+  {
+    "id": "37d72e680ccbb6e77170d8b81160299d",
+    "question": "Does the red line, representing the logistic function,  approach the blue dashed line, representing the linear function, as the x-axis values increase?",
+    "response": "No",
+    "qa_pair_type": "closed-ended finite answer set binary visual",
+    "fig_type": "line chart",
+    "answer": "No",
+    "correct": true
+  },
+  {
+    "id": "34bf899a5351f5a38045ce6d4e692738",
+    "question": "Does the linear function have a constant increase?",
+    "response": "No",
+    "qa_pair_type": "closed-ended finite answer set binary non-visual",
+    "fig_type": "line chart",
+    "answer": "Yes",
+    "correct": false
+  },
+  {
+    "id": "b2eeafd1ecb4a1ad0fe1365ff37e6908",
+    "question": "Which line in the graph represents the logistic function?",
+    "response": "A",
+    "qa_pair_type": "closed-ended finite answer set non-binary visual",
+    "fig_type": "line chart",
+    "answer": "A",
+    "correct": true
+  },
+  {
+    "id": "2cf8e217725cc8ce34ea8ec3706240f7",
+    "question": "At what value do both the logistic and linear functions meet the halfway point?",
+    "response": "B",
+    "qa_pair_type": "closed-ended finite answer set non-binary non-visual",
+    "fig_type": "line chart",
+    "answer": "B",
+    "correct": true
+  },
+  {
+    "id": "c1085cbd85d0322728ad39b71ebb539a",
+    "question": "What is the specific application of the logistic function in this study and what data were used to generate the plot?",
+    "response": "The question is not answerable based on the information provided. Provide 'N/A' as the answer.",
+    "qa_pair_type": "unanswerable",
+    "fig_type": "line chart",
+    "answer": "It is not possible to answer this question based only on the provided data.",
+    "correct": false
+  },
+  {
+    "id": "dfc84746a77f1826f4428b525f0ad6cb",
+    "question": "What is the approximate maximum value of the blue solid line in the lower right plot?",
+    "response": "The approximate maximum value of the blue solid line in the lower right plot is 0.6.",
+    "qa_pair_type": "closed-ended infinite answer set visual",
+    "fig_type": "line chart",
+    "answer": "0.58",
+    "correct": false
+  },
+  {
+    "id": "8696af9321fe3b85fc928f0f43da0cef",
+    "question": "Besides 'with sa' and 'w/o sa', what other method is being compared in the graph?",
+    "response": "The other method being compared in the graph is L2RW (L2 Regularization Without).",
+    "qa_pair_type": "closed-ended infinite answer set non-visual",
+    "fig_type": "line chart",
+    "answer": "L2RW",
+    "correct": false
+  },
+  {
+    "id": "29e3147dab88e8a5c4a4ee7cb5bc510c",
+    "question": "Does the blue dashed line with circles, representing the 'w/o sa' model, consistently have a higher F1 score than the turquoise line with triangles, representing the 'L2RW' model, in the 'test' section of the figure?",
+    "response": "No",
+    "qa_pair_type": "closed-ended finite answer set binary visual",
+    "fig_type": "line chart",
+    "answer": "No",
+    "correct": true
+  },
+  {
+    "id": "133b769bb2f74d35b8951d9f13961ef4",
+    "question": "Are the F1 scores for models with 'sa' consistently higher than the F1 scores for models without 'sa' in the validation set?",
+    "response": "Yes",
+    "qa_pair_type": "closed-ended finite answer set binary non-visual",
+    "fig_type": "line chart",
+    "answer": "No",
+    "correct": false
+  },
+  {
+    "id": "ddd7d7b14748c89026fb14c7cf49de3f",
+    "question": "What shape is the turquoise line marked with?",
+    "response": "D",
+    "qa_pair_type": "closed-ended finite answer set non-binary visual",
+    "fig_type": "line chart",
+    "answer": "A",
+    "correct": false
+  },
+  {
+    "id": "474023184bc856cd55a246cd8b086e15",
+    "question": "Which model has the highest F1 score at epoch 10 in the 'test' set?",
+    "response": "A",
+    "qa_pair_type": "closed-ended finite answer set non-binary non-visual",
+    "fig_type": "line chart",
+    "answer": "C",
+    "correct": false
+  },
+  {
+    "id": "d898e15c34a3dd10890f45ba93f9c299",
+    "question": "What is the specific implementation of the 'sa' technique used in the models shown in Figure 6?",
+    "response": "N/A",
+    "qa_pair_type": "unanswerable",
+    "fig_type": "line chart",
+    "answer": "It is not possible to answer this question based only on the provided data.",
+    "correct": false
+  },
+  {
+    "id": "a9aabfe2880b2e317a028240f597b5bb",
+    "question": "What is the approximate value of relative IC accuracy for the green line at an average entropy of 6?",
+    "response": "The approximate value of relative IC accuracy for the green line at an average entropy of 6 is around 0.85.",
+    "qa_pair_type": "closed-ended infinite answer set visual",
+    "fig_type": "line chart",
+    "answer": "0.95",
+    "correct": false
+  },
+  {
+    "id": "f8eb4162479102f4fe8176be08ecb4bb",
+    "question": "How many training strategies are shown in the graph?",
+    "response": "Four training strategies are shown in the graph.",
+    "qa_pair_type": "closed-ended infinite answer set non-visual",
+    "fig_type": "line chart",
+    "answer": "4",
+    "correct": false
+  },
+  {
+    "id": "9aac3c5b3b175e0d0c46a4b87ef2f5c3",
+    "question": "Is the purple line representing the 'Multi-task Model in [10]' consistently above the red line representing the 'Model in [9] - No Unfreezing'?",
+    "response": "No",
+    "qa_pair_type": "closed-ended finite answer set binary visual",
+    "fig_type": "line chart",
+    "answer": "Yes",
+    "correct": false
+  },
+  {
+    "id": "614da39b77210bc992512a7fddb6e9b2",
+    "question": "Is the relative IC accuracy of the 'Multi-task Model [10]' lower than the accuracy of the 'Model in [9] - Unfreeze all layers' when the average entropy is 8?",
+    "response": "No",
+    "qa_pair_type": "closed-ended finite answer set binary non-visual",
+    "fig_type": "line chart",
+    "answer": "Yes",
+    "correct": false
+  },
+  {
+    "id": "d6616be735e75934a62c7b90f0a06d01",
+    "question": "Which line represents the training strategy 'Unfreeze All Layers'?",
+    "response": "C",
+    "qa_pair_type": "closed-ended finite answer set non-binary visual",
+    "fig_type": "line chart",
+    "answer": "C",
+    "correct": true
+  },
+  {
+    "id": "1888d868b87f60174e10129f0083a996",
+    "question": "What is the starting value of Relative IC Accuracy shown on the graph?",
+    "response": "B,D",
+    "qa_pair_type": "closed-ended finite answer set non-binary non-visual",
+    "fig_type": "line chart",
+    "answer": "D",
+    "correct": false
+  },
+  {
+    "id": "7243c2017a77b011a51752ab145c847e",
+    "question": "On which task are models being evaluated on?",
+    "response": "The question is not answerable based on the information provided. Provide 'N/A' as the answer.",
+    "qa_pair_type": "unanswerable",
+    "fig_type": "line chart",
+    "answer": "It is not possible to answer this question based only on the provided data.",
+    "correct": false
+  },
+  {
+    "id": "5fe86db41d235af229b308fa74bcfab3",
+    "question": "What is the approximate value of the solid black line at a training size of 200?",
+    "response": "The solid black line represents the overall F1 score, and at a training size of 200, the approximate value is around 0.3.",
+    "qa_pair_type": "closed-ended infinite answer set visual",
+    "fig_type": "line chart",
+    "answer": "0.43",
+    "correct": false
+  },
+  {
+    "id": "85e1371d1faa12bdc6c64c4abf927d46",
+    "question": "What is the approximate F1 score for 'Chemistry' when using full datasets?",
+    "response": "The approximate F1 score for 'Chemistry' when using full datasets is around 0.65.",
+    "qa_pair_type": "closed-ended infinite answer set non-visual",
+    "fig_type": "line chart",
+    "answer": "0.65",
+    "correct": false
+  },
+  {
+    "id": "decec01e4c9022e301e7bd08e576a583",
+    "question": "Does the dashed line representing 'Overall' fall above the dashed line representing 'Chemistry' at the training size of 500?",
+    "response": "No",
+    "qa_pair_type": "closed-ended finite answer set binary visual",
+    "fig_type": "line chart",
+    "answer": "No",
+    "correct": true
+  },
+  {
+    "id": "5d3b4558e1076ef01f316f40a3f960c4",
+    "question": "Is the performance of 'Computer science' on full datasets lower than that of 'Political science'?",
+    "response": "No",
+    "qa_pair_type": "closed-ended finite answer set binary non-visual",
+    "fig_type": "line chart",
+    "answer": "Yes",
+    "correct": false
+  }
+]
