@@ -8,6 +8,7 @@ from rouge_score import rouge_scorer
 from prompts import QAPairType, FigureType
 from evaluate import calculate_rouge, calculate_bertscore
 from wandb_config import init_wandb
+import wandb
 
 
 def load_results(file_path: str) -> pd.DataFrame:
