@@ -1,0 +1,74 @@
+[
+  {
+    "id": "795f4ef16511f4f3496aac9b62885a1c",
+    "question": "What is the approximate maximum value of the shaded area for the blue line in the lower plot?",
+    "response": "14.0<|end|>",
+    "qa_pair_type": "closed-ended infinite answer set visual",
+    "fig_type": "line chart",
+    "answer": "15",
+    "correct": false
+  },
+  {
+    "id": "52e8d789c0d9ce7e1ab2f379da7ada5a",
+    "question": "Which country is referenced in the first plot?",
+    "response": "USA<|end|>",
+    "qa_pair_type": "closed-ended infinite answer set non-visual",
+    "fig_type": "line chart",
+    "answer": "USA",
+    "correct": false
+  },
+  {
+    "id": "a635ada76a4f9093c8da14c0daa1eaa2",
+    "question": "Is the shaded region for 'NATO' consistently below that of 'Serbia/Yugo.' in the bottom plot?",
+    "response": "No<|end|>",
+    "qa_pair_type": "closed-ended finite answer set binary visual",
+    "fig_type": "line chart",
+    "answer": "No",
+    "correct": false
+  },
+  {
+    "id": "245acd477189c90de73f3e203bdaac4b",
+    "question": "Is the number of documents with an \"attacking\" country per 3-month period for the USA consistently higher than that of Serbia/Yugoslavia?",
+    "response": "No<|end|>",
+    "qa_pair_type": "closed-ended finite answer set binary non-visual",
+    "fig_type": "line chart",
+    "answer": "No",
+    "correct": false
+  },
+  {
+    "id": "c0774879c6c363397342aa618ece9a59",
+    "question": "Which line represents the quantity of documents with an \"attacking\" country for Serbia/Yugoslavia?",
+    "response": "C<|end|>",
+    "qa_pair_type": "closed-ended finite answer set non-binary visual",
+    "fig_type": "line chart",
+    "answer": "B",
+    "correct": false
+  },
+  {
+    "id": "47c14eccb3142b9464a3583bd8ae4685",
+    "question": "Which of the following has the highest number of documents with an \"attack\"ing country per 3-month period, during the time period shown in the figure?",
+    "response": "A,C<|end|>",
+    "qa_pair_type": "closed-ended finite answer set non-binary non-visual",
+    "fig_type": "line chart",
+    "answer": "A",
+    "correct": false
+  },
+  {
+    "id": "09b3b3fa0698b1ff9418353b6d2375f9",
+    "question": "What is the relationship between the number of documents mentioning an 'attacking' country and the coreference posterior uncertainty?",
+    "response": "It is not possible to answer this question based only on the provided data.",
+    "qa_pair_type": "unanswerable",
+    "fig_type": "line chart",
+    "answer": "It is not possible to answer this question based only on the provided data.",
+    "correct": true
+  },
+  {
+    "id": "bb604bafa63c2ee962816fb015e27c8d",
+    "question": "What is the shape of the curve representing the logistic function?",
+    "response": "S-shaped curve<|end|>",
+    "qa_pair_type": "closed-ended infinite answer set visual",
+    "fig_type": "line chart",
+    "answer": "S-shaped",
+    "correct": false
+  }
+]

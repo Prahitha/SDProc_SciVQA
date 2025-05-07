@@ -121,13 +121,15 @@ def main():
 
             # Run inference
             outputs = vllm.batch_infer(prompts, image_paths)
-
-            # Process results
+            import re 
+            def remove_all_tags(text):
+                pattern = r'<\|?[a-zA-Z0-9_\s]*\|?>'
+                return re.sub(pattern, '', text)
             batch_results = []
             for example, output in zip(batch, outputs):
                 if output and 'choices' in output and len(output['choices']) > 0:
                     generated_text = output['choices'][0]['message']['content'].strip()
-
+                    generated_text = remove_all_tags(generated_text)
                     if "unanswerable" in example['qa_pair_type']:
                         generated_text = "It is not possible to answer this question based only on the provided data."
 

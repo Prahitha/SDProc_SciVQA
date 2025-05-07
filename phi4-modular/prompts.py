@@ -42,7 +42,7 @@ class PromptCreator:
         self.base_instruction = "Answer the question based on the information in the image, caption and the context provided. Do not hallucinate or infer information from general knowledge. Provide only the direct answer without any explanation or reasoning."
         self.base_instruction = "Answer the question with only the exact value or fact, without any sentences, explanations, or additional text."
         self.base_instruction = "Answer the question with only the raw value (number, word, or phrase) without any units, explanations, or complete sentences."
-        self.base_instruction = "Answer the question with only the raw numerical value or single word/phrase, omitting all units, context words, and explanatory text."
+        self.base_instruction = "Answer the question with only the raw numerical value or single word/phrase, omitting all units, context words, and explanatory text, remove <|end|> tag in the end answer."
 
     def _format_choices(self, choices: Dict[str, str]) -> List[str]:
         """Format choices into a readable format."""

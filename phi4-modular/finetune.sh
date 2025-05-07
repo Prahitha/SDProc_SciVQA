@@ -2,7 +2,7 @@
 
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
-#source $HOME/.local/bin/env bash
+source $HOME/.local/bin/env bash
 # Step 2: Install vLLM using uv
 uv pip install vllm
 

@@ -1,7 +1,7 @@
 # Dataset Configuration
 dataset:
   path: data  # Base path for dataset files
-  split: validation # Dataset split to use (train/val/test)
+  split: test # Dataset split to use (train/val/test)
   start_idx: 0  # Starting index for batch processing
   end_idx: null  # Ending index (null means process until end)
   batch_size: 8  # Number of examples to process in each batch
