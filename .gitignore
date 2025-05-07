@@ -9,4 +9,6 @@ LlamaV-o1/LlamaV-o1-env/
 SciVQA/*
 !SciVQA/scoring.py
 SciVQA-inference/slurm-*
+phi4-modular/Qwen2.5-VL-7B-Instruct-SciVQA/
+phi4-modular/scivqa_data
 SciVQA-inference/inference*.sh
