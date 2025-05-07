@@ -1,7 +1,7 @@
 # Dataset Configuration
 dataset:
   path: data  # Base path for dataset files
-  split: test # Dataset split to use (train/val/test)
+  split: validation # Dataset split to use (train/val/test)
   start_idx: 0  # Starting index for batch processing
   end_idx: null  # Ending index (null means process until end)
   batch_size: 8  # Number of examples to process in each batch
@@ -9,7 +9,8 @@ dataset:
 
 # VLLM Configuration
 vllm:
-  model: "microsoft/Phi-4-multimodal-instruct"  # Model name for inference
+  #model: "microsoft/Phi-4-multimodal-instruct"  # Model name for inference
+  model: "Qwen/Qwen2.5-VL-7B-Instruct"
   temperature: 0.0  # Sampling temperature
   max_tokens: 150  # Maximum number of tokens to generate
   batch_size: 8  # Batch size for processing
@@ -27,7 +28,7 @@ output:
 
 # Wandb Configuration
 wandb:
-  project: "sci-vqa-phi4-prompt"  # Project name
+  project: "sci-vqa-qwen-prompt"  # Project name
   entity: null  # Your wandb username/team name if needed
   api_key: 'd7daa36e132a83d1ef62f1a3c08e0c27f3f6a666'  # Will be loaded from environment variable WANDB_API_KEY
   mode: "online"  # Set to "online" to enable wandb logging, "disabled" to disable

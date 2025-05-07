@@ -61,7 +61,7 @@ class VLLMInference:
             encoded_image = self._encode_image(image_path)
             if encoded_image:
                 return {
-                    "model": self.config.model_name,
+                  #  "model": self.config.model_name,
                     "messages": [
                         {
                             "role": "user",
