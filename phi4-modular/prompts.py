@@ -39,10 +39,9 @@ class PromptCreator:
 
     def __init__(self):
         """Initialize the prompt creator."""
-        self.base_instruction = "Answer the question based on the information in the image, caption and the context provided. Do not hallucinate or infer information from general knowledge. Provide only the direct answer without any explanation or reasoning."
-        self.base_instruction = "Answer the question with only the exact value or fact, without any sentences, explanations, or additional text."
-        self.base_instruction = "Answer the question with only the raw value (number, word, or phrase) without any units, explanations, or complete sentences."
-        self.base_instruction = "Answer the question with only the raw numerical value or single word/phrase, omitting all units, context words, and explanatory text."
+        self.base_instruction = """Please think step by step, and regularly perform self-questioning, self-verification, self-correction to check your ongoing reasoning, using connectives such as 'Wait a moment', 'Wait, does it seem right?', etc.
+                Answer the question based on the information in the image, caption and the context provided. Do not hallucinate or infer information from general knowledge. Provide only the direct answer without any explanation or reasoning.
+                Answer the question with only the raw numerical value or single word/phrase, omitting all units, context words, and explanatory text."""
 
     def _format_choices(self, choices: Dict[str, str]) -> List[str]:
         """Format choices into a readable format."""
