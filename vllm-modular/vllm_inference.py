@@ -161,27 +161,33 @@ class VLLMInference:
         """
         try:
             # Create the two-step prompts
-            analysis_prompt, answer_prompt = self.cot_creator.create_prompt(
+            question_analysis_prompt, qa_type_analysis_prompt, answer_prompt = self.cot_creator.create_prompt(
                 example)
 
             # Step 1: Initial Analysis
-            initial_response = self.infer(analysis_prompt, image_path)
-            if not initial_response:
-                print("Failed to get initial analysis response")
+            question_analysis_response = self.infer(
+                question_analysis_prompt, image_path)
+            if not question_analysis_response:
+                print("Failed to get question analysis response")
                 return None
 
             # Step 2: Detailed Analysis
             # Combine initial response with detailed prompt
-            combined_prompt = f"{analysis_prompt}\n\n{initial_response}\n\n{answer_prompt}"
+            combined_prompt = f"{question_analysis_response}\n\n{qa_type_analysis_prompt}"
+            qa_type_analysis_response = self.infer(combined_prompt, image_path)
+
+            # Step 3: Final Answer
+            combined_prompt = f"{qa_type_analysis_response}\n\n{answer_prompt}"
             final_response = self.infer(combined_prompt, image_path)
 
             if not final_response:
-                print("Failed to get final analysis response")
+                print("Failed to get final answer response")
                 return None
 
             return {
-                'initial_analysis': initial_response,
-                'final_answer': final_response,
+                'question_analysis': question_analysis_response,
+                'qa_type_analysis': qa_type_analysis_response,
+                'final_answer': final_response
             }
 
         except Exception as e:

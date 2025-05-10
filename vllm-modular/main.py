@@ -1,9 +1,8 @@
 import json
 import os
 from pathlib import Path
-from typing import List, Dict, Any, Union
+from typing import List, Dict, Any
 import yaml
-from prompts import PromptCreator, COTPromptCreator, QAPairType, FigureType
 from wandb_config import init_wandb
 import pandas as pd
 import time
@@ -37,8 +36,16 @@ def create_run_directory(config: dict) -> Path:
     return run_dir
 
 
-def save_results(results: List[Dict[str, Any]], config: dict, split: str, run_dir: Path):
-    """Save results to file and log to wandb."""
+def save_results(results: List[Dict[str, Any]], config: dict, split: str, run_dir: Path, wandb_run=None):
+    """Save results to file and log to wandb.
+
+    Args:
+        results: List of result dictionaries
+        config: Configuration dictionary
+        split: Dataset split name
+        run_dir: Directory to save results
+        wandb_run: Optional wandb run instance
+    """
     # Create predictions directory in run directory
     predictions_dir = run_dir / 'predictions'
     predictions_dir.mkdir(parents=True, exist_ok=True)
@@ -48,12 +55,16 @@ def save_results(results: List[Dict[str, Any]], config: dict, split: str, run_di
     with open(output_path, 'w') as f:
         json.dump(results, f, indent=2)
 
-    # Log to wandb for all splits
-    wandb.log({
-        f"{split}_results": wandb.Table(
-            dataframe=pd.DataFrame(results)
-        )
-    })
+    # Log to wandb if initialized
+    if wandb_run is not None:
+        try:
+            wandb_run.log({
+                f"{split}_results": wandb.Table(
+                    dataframe=pd.DataFrame(results)
+                )
+            })
+        except Exception as e:
+            print(f"Warning: Failed to log to wandb: {e}")
 
 
 def should_override_with_unanswerable(reasoning: str) -> bool:
@@ -96,9 +107,6 @@ def main():
             vllm_url=config['vllm']['url']
         )
         vllm = VLLMInference(config=vllm_config)
-
-        # Initialize prompt creator
-        prompt_creator = COTPromptCreator()
 
         # Load dataset
         dataset = SciVQADataset.from_huggingface(
@@ -144,24 +152,27 @@ def main():
 
             batch_results = []
             for example, output in zip(batch, outputs):
-                if output and 'initial_analysis' in output and 'final_answer' in output:
+                if output and 'question_analysis' in output and 'qa_type_analysis' in output and 'final_answer' in output:
                     # Get initial analysis
-                    initial_text = output['initial_analysis']['choices'][0]['message']['content'].strip(
+                    question_analysis = output['initial_analysis']['choices'][0]['message']['content'].strip(
                     )
                     # Get final answer
-                    final_text = output['final_answer']['choices'][0]['message']['content'].strip(
+                    qa_type_analysis = output['final_answer']['choices'][0]['message']['content'].strip(
                     )
-                    final_text = remove_all_tags(final_text)
 
-                    if should_override_with_unanswerable(initial_text) or should_override_with_unanswerable(final_text):
-                        final_text = "It is not possible to answer this question based only on the provided data."
+                    final_answer = output['final_answer']['choices'][0]['message']['content'].strip(
+                    )
+
+                    if should_override_with_unanswerable(final_answer):
+                        final_answer = "It is not possible to answer this question based only on the provided data."
 
                     # Create result dictionary based on split
                     result = {
                         'id': example.get('id', ''),
                         'question': example['question'],
-                        'initial_analysis': initial_text,
-                        'response': final_text,
+                        'question_analysis': question_analysis,
+                        'qa_pair_type_analysis': qa_type_analysis,
+                        'final_answer': final_answer,
                         'qa_pair_type': example['qa_pair_type'],
                         'fig_type': example['figure_type']
                     }
@@ -169,7 +180,7 @@ def main():
                     # Add ground truth and correctness only for train/validation
                     if config['dataset']['split'] != 'test':
                         ground_truth = example['answer'].strip().lower()
-                        generated_clean = final_text.strip().lower()
+                        generated_clean = final_answer.strip().lower()
                         is_correct = generated_clean == ground_truth
                         result.update({
                             'answer': example['answer'],
@@ -179,16 +190,18 @@ def main():
                         # Print example details for train/validation
                         print(f"\nExample {len(results)}:")
                         print(f"Question: {example['question']}")
-                        print(f"Initial Analysis: {initial_text}")
-                        print(f"Final Answer: {final_text}")
+                        print(f"Question Analysis: {question_analysis}")
+                        print(f"QA Type Analysis: {qa_type_analysis}")
+                        print(f"Final Answer: {final_answer}")
                         print(f"Ground Truth: {example['answer']}")
                         print(f"Correct: {'✅' if is_correct else '❌'}")
                     else:
                         # Print only question and responses for test
                         print(f"\nExample {len(results)}:")
                         print(f"Question: {example['question']}")
-                        print(f"Initial Analysis: {initial_text}")
-                        print(f"Final Answer: {final_text}")
+                        print(f"Question Analysis: {question_analysis}")
+                        print(f"QA Type Analysis: {qa_type_analysis}")
+                        print(f"Final Answer: {final_answer}")
 
                     batch_results.append(result)
                     results.append(result)
@@ -204,63 +217,74 @@ def main():
 
             # Log batch results to wandb
             if wandb_run and batch_results:
-                # Log individual examples
-                for result in batch_results:
+                try:
+                    # Log individual examples
+                    for result in batch_results:
+                        wandb_run.log({
+                            "example": wandb.Table(
+                                dataframe=pd.DataFrame([result])
+                            )
+                        })
+
+                    # Log batch metrics
                     wandb_run.log({
-                        "example": wandb.Table(
-                            dataframe=pd.DataFrame([result])
-                        )
+                        "progress": progress,
+                        "examples_processed": batch_end - start_idx
                     })
 
-                # Log batch metrics
-                wandb_run.log({
-                    "progress": progress,
-                    "examples_processed": batch_end - start_idx
-                })
-
-                # Log additional metrics for train/validation
-                if config['dataset']['split'] != 'test':
-                    batch_accuracy = sum(r['correct']
-                                         for r in batch_results) / len(batch_results)
-                    wandb_run.log({
-                        "batch_accuracy": batch_accuracy,
-                        "correct": sum(r['correct'] for r in batch_results)
-                    })
+                    # Log additional metrics for train/validation
+                    if config['dataset']['split'] != 'test':
+                        batch_accuracy = sum(r['correct']
+                                             for r in batch_results) / len(batch_results)
+                        wandb_run.log({
+                            "batch_accuracy": batch_accuracy,
+                            "correct": sum(r['correct'] for r in batch_results)
+                        })
+                except Exception as e:
+                    print(
+                        f"Warning: Failed to log batch results to wandb: {e}")
 
             # Save intermediate results
             if len(results) % 5 == 0:
                 save_results(results, config,
-                             config['dataset']['split'], run_dir)
+                             config['dataset']['split'], run_dir, wandb_run)
                 print(
                     f"\nIntermediate results saved to {run_dir}/predictions/{config['dataset']['split']}_predictions.json")
 
         # Save final results
-        save_results(results, config, config['dataset']['split'], run_dir)
+        save_results(results, config,
+                     config['dataset']['split'], run_dir, wandb_run)
 
         # Calculate and log final metrics
         print(f"\nFinal Results:")
         print(f"Total examples processed: {len(results)}")
 
         if wandb_run:
-            wandb_run.log({
-                "total_examples": len(results),
-                "completion_time": time.time() - start_time
-            })
-
-            # Log additional metrics for train/validation
-            if config['dataset']['split'] != 'test':
-                total_accuracy = sum(
-                    r['correct'] for r in results) / len(results) if results else 0
-                print(f"Overall accuracy: {total_accuracy:.2%}")
+            try:
                 wandb_run.log({
-                    "final_accuracy": total_accuracy
+                    "total_examples": len(results),
+                    "completion_time": time.time() - start_time
                 })
+
+                # Log additional metrics for train/validation
+                if config['dataset']['split'] != 'test':
+                    total_accuracy = sum(
+                        r['correct'] for r in results) / len(results) if results else 0
+                    print(f"Overall accuracy: {total_accuracy:.2%}")
+                    wandb_run.log({
+                        "final_accuracy": total_accuracy
+                    })
+            except Exception as e:
+                print(f"Warning: Failed to log final metrics to wandb: {e}")
 
     finally:
         # Close wandb
         if wandb_run:
-            wandb_run.finish()
-            print("\nWandb run completed and logged")
+            try:
+                wandb_run.finish()
+                print("\nWandb run completed and logged")
+            except Exception as e:
+                print(f"Warning: Failed to finish wandb run: {e}")
 
 
 if __name__ == "__main__":

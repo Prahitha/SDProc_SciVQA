@@ -2,6 +2,9 @@
 
 git config --global user.name "NagaHarshita"
 git config --global user.email "nagaharshitamarupaka@gmail.com"
+pip install -r requirements.txt
+huggingface-cli login
+python qwen.py
 mkdir scivqa_data
 cd scivqa_data
 git clone https://huggingface.co/datasets/katebor/SciVQA

@@ -180,7 +180,8 @@ class COTPromptCreator:
     def __init__(self):
         """Initialize the COT prompt creator."""
         self.base_instruction = (
-            "Answer the question with only the raw numerical value or single word/phrase, omitting all units, context words, and explanatory text, remove < |end | > tag in the end answer."
+            "Answer the question with only the raw numerical value or single word/phrase, omitting all units, context words, and explanatory text."
+            "For the question, How many iterations are there?, if the answer is 10 iterations, it should be written as 10."
         )
 
     def _get_figure_type_instruction(self, figure_type: str) -> str:
@@ -478,11 +479,12 @@ class COTPromptCreator:
         initial_analysis = self.create_initial_analysis_prompt(example)
 
         # Then create the answer instruction
-        instruction = self._create_answer_instruction(
-            example) + "\n\n" + self.base_instruction
+        instruction = self.base_instruction + "\n\n" + self._create_answer_instruction(
+            example)
 
+        final_prompt = example['question'] + "\n\n" + self.base_instruction
         # Combine both parts with the base instruction
-        return [initial_analysis, instruction]
+        return [initial_analysis, instruction, final_prompt]
 
     def create_batch_prompts(self, examples: List[Dict[str, Any]]) -> List[str]:
         """Create Chain of Thought prompts for a batch of examples."""
