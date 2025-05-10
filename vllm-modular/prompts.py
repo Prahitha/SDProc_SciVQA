@@ -259,7 +259,7 @@ class COTPromptCreator:
         # Step 1: Initial Analysis
         prompt_parts.append("STEP 1: INITIAL ANALYSIS")
         prompt_parts.append(
-            "Given the figure, caption, and question for a given figure, provide analysis using following ideas")
+            "Given the figure, caption, and question, analyze and answer step by step.")
 
         # Combined Analysis
         analysis_parts = []
@@ -268,8 +268,8 @@ class COTPromptCreator:
         figure_type = example.get('figure_type', '').lower()
         analysis_parts.append(
             f"Figure Type: {figure_type.replace('_', ' ')}\n"
-            "1. Identify the visualization type and its key elements\n"
-            "2. Note the main components and their relationships\n"
+            "1. What type of visualization is this?\n"
+            "2. What are the key elements?\n"
         )
 
         # Caption Analysis
@@ -277,23 +277,23 @@ class COTPromptCreator:
             analysis_parts.append(
                 "Caption Analysis:\n"
                 f"{example['caption']}\n"
-                "1. Summarize the main topic and key information\n"
-                "2. Note any specific terms or units mentioned\n"
+                "1. What is the main topic?\n"
+                "2. What key information is provided?\n"
             )
 
         # Question Analysis
         analysis_parts.append(
             "Question Analysis:\n"
             f"{example['question']}\n"
-            "1. Identify the required information and its location in the figure\n"
-            "2. Determine the type of answer needed\n"
+            "1. What information is needed?\n"
+            "2. Where can we find it in the figure?\n"
         )
 
         # Integration Analysis
         analysis_parts.append(
             "Integration Analysis:\n"
-            "1. Connect the caption context with the question requirements\n"
-            "2. Identify the relevant figure elements for answering\n"
+            "1. How do caption and question relate?\n"
+            "2. Which parts of the figure are relevant?\n"
         )
         prompt_parts.append("\n".join(analysis_parts))
 
@@ -312,6 +312,7 @@ class COTPromptCreator:
         # Then create the answer instruction
         instruction = self.base_instruction + "\n\n" + \
             example['question'] + "\n\n" + \
+            self._get_figure_type_instruction(example.get('figure_type', '')) + "\n\n" + \
             self._create_answer_instruction(example)
         # Combine both parts with the base instruction
         return [initial_analysis, instruction]
@@ -357,9 +358,9 @@ class COTPromptCreator:
         if "infinite_answer_set" in qa_pair_type:
             instruction_parts.append(
                 "This question requires a precise numerical answer:\n"
-                "1. Identify the required value\n"
+                "1. Identify the required value(s) from the figure\n"
                 "2. Locate it in the figure\n"
-                "3. Provide the exact numerical value\n"
+                "3. Provide the exact numerical value, approximations in the scale are allowed\n"
             )
 
         # Handle visual questions
