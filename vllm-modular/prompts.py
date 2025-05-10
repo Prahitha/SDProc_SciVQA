@@ -330,10 +330,10 @@ class COTPromptCreator:
         )
 
         # Handle compound figures if not already handled in initial analysis
-        if example.get('compound'):
-            instruction_parts.append(
-                f"Navigate to the {example.get('fig_numb', 1)} graph in the compound figure and analyze it.\n"
-            )
+        # if example.get('compound'):
+        #     instruction_parts.append(
+        #         f"Navigate to the {example.get('fig_numb', 1)} graph in the compound figure and analyze it.\n"
+        #     )
 
         qa_pair_type = example.get('qa_pair_type', '').lower()
 
@@ -363,30 +363,30 @@ class COTPromptCreator:
                 "This question requires a precise numerical answer:\n"
                 "1. Identify the required value(s) from the figure\n"
                 "2. Locate it in the figure\n"
-                "3. Provide the exact numerical value, approximations in the scale are allowed\n"
+                "3. Provide the numerical value, approximations in the scale are allowed\n"
             )
 
-        # Handle visual questions
-        if "non-visual" in qa_pair_type:
-            instruction_parts.append(
-                "This question is based on textual information:\n"
-                "1. Identify the relevant text\n"
-                "2. Provide a concise answer\n"
-            )
-        elif "visual" in qa_pair_type:
-            instruction_parts.append(
-                "This question requires visual analysis:\n"
-                "1. Identify the relevant visual elements\n"
-                "2. Provide a concise answer based on visual evidence, approximations in the scale are allowed\n"
-            )
+        # # Handle visual questions
+        # if "non-visual" in qa_pair_type:
+        #     instruction_parts.append(
+        #         "This question is based on textual information:\n"
+        #         "1. Identify the relevant text\n"
+        #         "2. Provide a concise answer\n"
+        #     )
+        # elif "visual" in qa_pair_type:
+        #     instruction_parts.append(
+        #         "This question requires visual analysis:\n"
+        #         "1. Identify the relevant visual elements\n"
+        #         "2. Provide a concise answer based on visual evidence, approximations in the scale are allowed\n"
+        #     )
 
-        if "unanswerable" in qa_pair_type:
-            instruction_parts.append(
-                "This question appears to be unanswerable:\n"
-                "1. Identify what information is needed\n"
-                "2. Check if it's available\n"
-                "3. Confirm if the question can be answered\n"
-            )
+        # if "unanswerable" in qa_pair_type:
+        #     instruction_parts.append(
+        #         "This question appears to be unanswerable:\n"
+        #         "1. Identify what information is needed\n"
+        #         "2. Check if it's available\n"
+        #         "3. Confirm if the question can be answered\n"
+        #     )
 
         return "\n".join(instruction_parts)
 
