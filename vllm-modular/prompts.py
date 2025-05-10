@@ -311,6 +311,7 @@ class COTPromptCreator:
 
         # Then create the answer instruction
         instruction = self.base_instruction + "\n\n" + \
+            example['question'] + "\n\n" + \
             self._create_answer_instruction(example)
         # Combine both parts with the base instruction
         return [initial_analysis, instruction]
@@ -318,6 +319,11 @@ class COTPromptCreator:
     def _create_answer_instruction(self, example: Dict[str, Any]) -> str:
         """Create the answer instruction based on QA pair type."""
         instruction_parts = []
+
+        instruction_parts.append(
+            "STEP 2: ANSWER INSTRUCTION"
+            "Answer to the original question asked based on the analysis provided in the previous step. "
+        )
 
         # Handle compound figures if not already handled in initial analysis
         if example.get('compound'):
