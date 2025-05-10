@@ -16,5 +16,5 @@ python -m vllm.entrypoints.openai.api_server \
 #curl -LsSf https://astral.sh/uv/install.sh | sh
 #uv pip install vllm
 
-#python -m vllm.entrypoints.openai.api_server --model 'microsoft/Phi-4-multimodal-instruct' --dtype auto --trust-remote-code --max-model-len 131072 --enable-lora --max-lora-rank 320  --limit-mm-per-prompt image=3 --max-loras 2 --lora-modules vision="~/.cache/huggingface/hub/models--microsoft--Phi-4-multimodal-instruct/snapshots/33e62acdd07cd7d6635badd529aa0a3467bb9c6a/vision-lora/"
+#python -m vllm.entrypoints.openai.api_server --model 'microsoft/Phi-4-multimodal-instruct' --dtype auto --trust-remote-code --max-model-len 131072 --enable-lora --max-lora-rank 320  --limit-mm-per-prompt image=3 --max-loras 2 
 

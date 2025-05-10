@@ -3,7 +3,7 @@ import os
 from pathlib import Path
 from typing import List, Dict, Any, Union
 import yaml
-from prompts import PromptCreator, QAPairType, FigureType
+from prompts import PromptCreator, COTPromptCreator, QAPairType, FigureType
 from wandb_config import init_wandb
 import pandas as pd
 import time
@@ -30,7 +30,7 @@ def create_run_directory(config: dict) -> Path:
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     run_name = config['output'].get('run_name')
     if run_name is None:
-        run_name = f'run_{timestamp}'
+        run_name = f'{config["vllm"]["model"]}_{config["dataset"]["split"]}_{timestamp}'
     run_dir = base_dir / run_name
     run_dir.mkdir(parents=True, exist_ok=True)
 
@@ -82,7 +82,7 @@ def main():
         vllm = VLLMInference(config=vllm_config)
 
         # Initialize prompt creator
-        prompt_creator = PromptCreator()
+        prompt_creator = COTPromptCreator()
 
         # Load dataset
         dataset = SciVQADataset.from_huggingface(
@@ -116,19 +116,21 @@ def main():
                 f"\nProcessing batch {batch_idx+1}/{n_batches} with {len(batch)} examples")
 
             # Create prompts for batch
-            prompts = prompt_creator.create_batch_prompts(batch)
             image_paths = [example['image_path'] for example in batch]
 
             # Run inference
-            outputs = vllm.batch_infer(prompts, image_paths)
-            import re 
+            outputs = vllm.cot_batch_infer(batch, image_paths)
+            import re
+
             def remove_all_tags(text):
                 pattern = r'<\|?[a-zA-Z0-9_\s]*\|?>'
                 return re.sub(pattern, '', text)
+
             batch_results = []
             for example, output in zip(batch, outputs):
                 if output and 'choices' in output and len(output['choices']) > 0:
-                    generated_text = output['choices'][0]['message']['content'].strip()
+                    generated_text = output['choices'][0]['message']['content'].strip(
+                    )
                     generated_text = remove_all_tags(generated_text)
                     if "unanswerable" in example['qa_pair_type']:
                         generated_text = "It is not possible to answer this question based only on the provided data."

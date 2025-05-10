@@ -9,4 +9,4 @@ unzip SciVQA/images_validation
 unzip SciVQA/images_test
 unzip SciVQA/images_train
 cd ..
-bash finetune.sh
+bash inference.sh

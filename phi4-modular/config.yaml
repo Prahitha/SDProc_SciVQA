@@ -12,13 +12,13 @@ vllm:
   #model: "microsoft/Phi-4-multimodal-instruct"  # Model name for inference
   model: "Qwen/Qwen2.5-VL-7B-Instruct"
   temperature: 0.0  # Sampling temperature
-  max_tokens: 150  # Maximum number of tokens to generate
+  max_tokens: 600  # Maximum number of tokens to generate
   batch_size: 8  # Batch size for processing
   url: "http://localhost:8000/v1/chat/completions"  # VLLM API URL
 
 # Output Configuration
 output:
-  base_dir: "results"  # Base directory for all results
+  base_dir: "results_qwen"  # Base directory for all results
   run_name: null  # Optional name for the run (will be appended to timestamp)
   save_format: "csv"  # Format to save results (json/csv)
   files:

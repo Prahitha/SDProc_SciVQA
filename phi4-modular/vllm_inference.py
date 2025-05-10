@@ -1,9 +1,10 @@
 import os
 import base64
 import requests
-from typing import Optional, Dict, Any, Union
+from typing import Optional, Dict, Any, Union, List
 from pathlib import Path
 from dataclasses import dataclass
+from prompts import COTPromptCreator, PromptCreator
 
 
 @dataclass
@@ -26,6 +27,8 @@ class VLLMInference:
         """
         self.config = config or VLLMConfig()
         self.headers = {"Content-Type": "application/json"}
+        self.cot_creator = COTPromptCreator()
+        self.prompt_creator = PromptCreator()
 
     def _encode_image(self, image_path: Union[str, Path]) -> Optional[str]:
         """Encode image to base64 string.
@@ -61,7 +64,7 @@ class VLLMInference:
             encoded_image = self._encode_image(image_path)
             if encoded_image:
                 return {
-                  #  "model": self.config.model_name,
+                    #  "model": self.config.model_name,
                     "messages": [
                         {
                             "role": "user",
@@ -143,5 +146,65 @@ class VLLMInference:
         for i, prompt in enumerate(prompts):
             image_path = image_paths[i] if image_paths else None
             result = self.infer(prompt, image_path)
+            results.append(result)
+        return results
+
+    def cot_infer(self, example: Dict[str, Any], image_path: Optional[Union[str, Path]] = None) -> Optional[Dict[str, Any]]:
+        """Perform Chain of Thought inference with two-step prompting.
+
+        Args:
+            example: Dictionary containing the example data (caption, question, etc.)
+            image_path: Optional path to the image file.
+
+        Returns:
+            Dictionary containing the model's final response if successful, None otherwise.
+        """
+        try:
+            # Create the two-step prompts
+            analysis_prompt, answer_prompt = self.cot_creator.create_prompt(
+                example)
+
+            # Step 1: Initial Analysis
+            initial_response = self.infer(analysis_prompt, image_path)
+            if not initial_response:
+                print("Failed to get initial analysis response")
+                return None
+
+            # Step 2: Detailed Analysis
+            # Combine initial response with detailed prompt
+            combined_prompt = f"{analysis_prompt}\n\n{initial_response}\n\n{answer_prompt}"
+            final_response = self.infer(combined_prompt, image_path)
+
+            if not final_response:
+                print("Failed to get final analysis response")
+                return None
+
+            return {
+                'initial_analysis': initial_response,
+                'final_answer': final_response,
+            }
+
+        except Exception as e:
+            print(f"Error in COT inference: {e}")
+            return None
+
+    def cot_batch_infer(self, examples: List[Dict[str, Any]], image_paths: Optional[List[Union[str, Path]]] = None) -> List[Optional[Dict[str, Any]]]:
+        """Perform batch Chain of Thought inference with two-step prompting.
+
+        Args:
+            examples: List of dictionaries containing example data
+            image_paths: Optional list of image paths. If provided, must match length of examples.
+
+        Returns:
+            List of dictionaries containing model responses, with None for failed inferences.
+        """
+        if image_paths and len(examples) != len(image_paths):
+            raise ValueError(
+                "Number of examples must match number of image paths")
+
+        results = []
+        for i, example in enumerate(examples):
+            image_path = image_paths[i] if image_paths else None
+            result = self.cot_infer(example, image_path)
             results.append(result)
         return results
