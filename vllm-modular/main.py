@@ -1,9 +1,8 @@
 import json
 import os
 from pathlib import Path
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 import yaml
-from wandb_config import init_wandb
 import pandas as pd
 import time
 import wandb
@@ -11,6 +10,8 @@ from vllm_inference import VLLMInference, VLLMConfig
 from tqdm import tqdm
 from dataset import SciVQADataset
 from datetime import datetime
+
+run_name = 'inference'
 
 
 def load_config(config_path: str) -> dict:
@@ -27,13 +28,65 @@ def create_run_directory(config: dict) -> Path:
 
     # Create run name with timestamp and optional custom name
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    run_name = config['output'].get('run_name')
-    if run_name is None:
-        run_name = f'{config["vllm"]["model"]}_{config["dataset"]["split"]}_{timestamp}'
+    run_name = f'{config["vllm"]["model"]}_{config["dataset"]["split"]}_{timestamp}'
     run_dir = base_dir / run_name
     run_dir.mkdir(parents=True, exist_ok=True)
 
     return run_dir
+
+
+def init_wandb(config: dict) -> Optional[Any]:
+    """Initialize wandb with configuration from config.yaml.
+
+    Args:
+        config: Configuration dictionary containing wandb settings
+
+    Returns:
+        Optional[Any]: Wandb run instance if successful, None otherwise
+    """
+    if 'wandb' not in config:
+        print("Warning: No wandb configuration found in config file")
+        return None
+
+    wandb_config = config['wandb']
+
+    # Validate required fields
+    if not wandb_config.get('project'):
+        print("Warning: No project name specified in wandb config")
+        return None
+
+    if not wandb_config.get('api_key'):
+        print("Warning: No API key specified in wandb config")
+        return None
+
+    # Set environment variables
+    os.environ["WANDB_API_KEY"] = wandb_config['api_key']
+    os.environ["WANDB_MODE"] = wandb_config.get('mode', 'online')
+
+    try:
+        # Initialize wandb with run configuration
+        wandb_run = wandb.init(
+            project=wandb_config['project'],
+            entity=wandb_config.get('entity'),
+            name=run_name,
+            config={
+                'model': config['vllm']['model'],
+                'dataset': config['dataset']['split'],
+                'batch_size': config['vllm']['batch_size'],
+                'max_tokens': config['vllm']['max_tokens'],
+                'temperature': config['vllm']['temperature'],
+                'start_idx': config['dataset']['start_idx'],
+                'end_idx': config['dataset']['end_idx'],
+                'data_dir': config['dataset']['data_dir']
+            },
+            mode=wandb_config.get('mode', 'online')
+        )
+        print(f"Initialized wandb run: {wandb_run.name}")
+        return wandb_run
+    except Exception as e:
+        print(f"Warning: Failed to initialize wandb: {e}")
+        print("Continuing without wandb logging...")
+        return None
 
 
 def save_results(results: List[Dict[str, Any]], config: dict, split: str, run_dir: Path, wandb_run=None):
@@ -93,8 +146,8 @@ def main():
     run_dir = create_run_directory(config)
     print(f"Created run directory: {run_dir}")
 
-    # Initialize wandb for all splits
-    wandb_run = init_wandb("inference", config)
+    # Initialize wandb
+    wandb_run = init_wandb(config)
     if wandb_run is None:
         print("Warning: Running without wandb logging")
 
@@ -154,18 +207,14 @@ def main():
             for example, output in zip(batch, outputs):
                 if output and 'question_analysis' in output and 'qa_type_analysis' in output and 'final_answer' in output:
                     # Get initial analysis
-                    question_analysis = output['question_analysis']['choices'][0]['message']['content'].strip(
+                    question_analysis = output['initial_analysis']['choices'][0]['message']['content'].strip(
                     )
                     # Get final answer
-                    qa_type_analysis = output['qa_type_analysis']['choices'][0]['message']['content'].strip(
+                    qa_type_analysis = output['final_answer']['choices'][0]['message']['content'].strip(
                     )
-                    if example['choices'] is None:
-                        final_answer = output['final_answer']['choices'][0]['message']['content'].strip(
-                        )
-                    else:
-                        final_answer = qa_type_analysis
+                    final_answer = output['final_answer']['choices'][0]['message']['content'].strip(
+                    )
 
-                    final_answer = remove_all_tags(final_answer)
                     if should_override_with_unanswerable(final_answer):
                         final_answer = "It is not possible to answer this question based only on the provided data."
 
@@ -237,8 +286,8 @@ def main():
 
                     # Log additional metrics for train/validation
                     if config['dataset']['split'] != 'test':
-                        batch_accuracy = sum(r['correct']
-                                             for r in batch_results) / len(batch_results)
+                        batch_accuracy = sum(
+                            r['correct'] for r in batch_results) / len(batch_results)
                         wandb_run.log({
                             "batch_accuracy": batch_accuracy,
                             "correct": sum(r['correct'] for r in batch_results)
