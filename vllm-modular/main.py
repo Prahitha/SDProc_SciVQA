@@ -154,10 +154,10 @@ def main():
             for example, output in zip(batch, outputs):
                 if output and 'question_analysis' in output and 'qa_type_analysis' in output and 'final_answer' in output:
                     # Get initial analysis
-                    question_analysis = output['initial_analysis']['choices'][0]['message']['content'].strip(
+                    question_analysis = output['question_analysis']['choices'][0]['message']['content'].strip(
                     )
                     # Get final answer
-                    qa_type_analysis = output['final_answer']['choices'][0]['message']['content'].strip(
+                    qa_type_analysis = output['qa_type_analysis']['choices'][0]['message']['content'].strip(
                     )
 
                     final_answer = output['final_answer']['choices'][0]['message']['content'].strip(
