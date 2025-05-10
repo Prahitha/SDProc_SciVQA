@@ -175,13 +175,12 @@ class PromptCreator:
 
 
 class COTPromptCreator:
-    """Class to create Chain of Thought prompts with self-questioning and verification."""
+    """Class to create Chain of Thought prompts with streamlined reasoning."""
 
     def __init__(self):
         """Initialize the COT prompt creator."""
         self.base_instruction = (
             "Answer the question with only the raw numerical value or single word/phrase, omitting all units, context words, and explanatory text."
-            "For the question, How many iterations are there?, if the answer is 10 iterations, it should be written as 10."
         )
 
     def _get_figure_type_instruction(self, figure_type: str) -> str:
@@ -190,232 +189,77 @@ class COTPromptCreator:
 
         if figure_type in FigureType.LINE_CHART:
             return (
-                "Let's analyze this line chart step by step:\n"
-                "1. First, let's identify the colors of different lines and their meanings\n"
-                "2. Next, examine the X and Y axis labels and their units\n"
-                "3. Consider the scale and range of values\n"
-                "4. Finally, analyze the trends and patterns in the lines\n"
+                "Analyze this line chart:\n"
+                "1. Identify the lines and their meanings\n"
+                "2. Note the axes labels and units\n"
+                "3. Analyze the trends and patterns\n"
             )
         elif figure_type in FigureType.BAR_CHART:
             return (
-                "Let's analyze this bar chart step by step:\n"
-                "1. First, identify the colors of different bars and their meanings\n"
-                "2. Next, examine the X and Y axis labels and their units\n"
-                "3. Consider the scale and range of values\n"
-                "4. Finally, analyze the height and position of bars\n"
+                "Analyze this bar chart:\n"
+                "1. Identify the bars and their meanings\n"
+                "2. Note the axes labels and units\n"
+                "3. Compare the bar heights\n"
             )
         elif figure_type in FigureType.BOX_PLOT:
             return (
-                "Let's analyze this box plot step by step:\n"
-                "1. First, locate the median line position\n"
-                "2. Next, identify the box boundaries (Q1 and Q3)\n"
-                "3. Consider the whisker extent\n"
-                "4. Finally, check for any outliers\n"
+                "Analyze this box plot:\n"
+                "1. Note the median line position\n"
+                "2. Identify the box boundaries (Q1 and Q3)\n"
+                "3. Check for outliers\n"
             )
         elif figure_type in FigureType.CONFUSION_MATRIX:
             return (
-                "Let's analyze this confusion matrix step by step:\n"
-                "1. First, identify the row and column labels\n"
-                "2. Next, examine the numerical values in each cell\n"
-                "3. Consider the color intensity if present\n"
-                "4. Finally, analyze the overall distribution of values\n"
+                "Analyze this confusion matrix:\n"
+                "1. Note the row and column labels\n"
+                "2. Examine the numerical values\n"
+                "3. Identify the distribution pattern\n"
             )
         elif figure_type in FigureType.PIE_CHART:
             return (
-                "Let's analyze this pie chart step by step:\n"
-                "1. First, identify the segments and their labels\n"
-                "2. Next, examine the percentage or proportion values\n"
-                "3. Consider the colors of different segments\n"
-                "4. Finally, analyze the size of each segment relative to others\n"
+                "Analyze this pie chart:\n"
+                "1. Identify the segments and their labels\n"
+                "2. Note the percentage values\n"
+                "3. Compare segment sizes\n"
             )
         return (
-            "Let's analyze this figure step by step:\n"
-            "1. First, identify the colors and labels present\n"
-            "2. Next, examine any other relevant information\n"
-            "3. Finally, consider how these elements relate to the question\n"
+            "Analyze this figure:\n"
+            "1. Identify the key elements\n"
+            "2. Note the relevant information\n"
+            "3. Consider how it relates to the question\n"
         )
 
     def _get_binary_instruction(self, question: str, qa_pair_type: str = "") -> str:
         """Get appropriate binary instruction based on question type."""
         question_lower = question.lower()
-
-        # Determine if it's True/False or Yes/No
-        if any(phrase in question_lower for phrase in ['is it true', 'is it false', 'is this true', 'is this false']):
-            answer_format = "True or False"
-            evidence_type = "visual" if "visual" in qa_pair_type else "textual"
-        else:
-            answer_format = "Yes or No"
-            evidence_type = "visual" if "visual" in qa_pair_type else "textual"
+        answer_format = "True or False" if any(phrase in question_lower for phrase in [
+                                               'is it true', 'is it false', 'is this true', 'is this false']) else "Yes or No"
+        evidence_type = "visual" if "visual" in qa_pair_type else "textual"
 
         return (
             f"This is a binary question requiring a {answer_format} answer based on {evidence_type} evidence.\n"
-            "Let's analyze this step by step:\n"
-            "1. First, identify the key elements in the question\n"
-            "2. Next, examine the evidence carefully\n"
-            "3. Consider if the evidence supports or contradicts the statement\n"
-            "4. Verify your reasoning by asking: 'Does this make sense?'\n"
-            "5. Finally, provide your {answer_format} answer with confidence\n"
+            "1. Identify the key elements in the question\n"
+            "2. Examine the evidence\n"
+            "3. Provide your {answer_format} answer\n"
         )
 
     def _get_compound_navigation(self, example: Dict[str, Any]) -> str:
         """Get navigation instructions for compound figures."""
         fig_numb = example.get('fig_numb', 1)
         return (
-            "This is a compound figure containing multiple subfigures.\n"
-            f"Let's navigate to the {fig_numb} graph in the compound figure:\n"
-            "1. First, locate the correct subfigure\n"
-            "2. Next, verify we're looking at the right one\n"
-            "3. Finally, proceed with our analysis\n"
+            f"Navigate to the {fig_numb} graph in the compound figure:\n"
+            "1. Locate the correct subfigure\n"
+            "2. Proceed with analysis\n"
         )
-
-    def _create_base_prompt(self, example: Dict[str, Any]) -> List[str]:
-        """Create the base prompt parts with step-by-step analysis."""
-        prompt_parts = []
-
-        # Add caption if available
-        if example.get('caption'):
-            prompt_parts.append(
-                "Let's start by analyzing the caption:\n"
-                f"{example['caption']}\n"
-                "1. What key information does the caption provide?\n"
-                "2. How does this relate to our question?\n"
-            )
-
-        # Handle compound figures
-        if example.get('compound'):
-            prompt_parts.append(self._get_compound_navigation(example))
-
-        # Add figure type information and specific instructions
-        figure_type = example.get('figure_type', '').lower()
-        prompt_parts.append(
-            f"This is a {figure_type.replace('_', ' ')}.")
-        type_instruction = self._get_figure_type_instruction(figure_type)
-        if type_instruction:
-            prompt_parts.append(type_instruction)
-
-        # Add question with step-by-step analysis
-        prompt_parts.append(
-            f"Now, let's analyze the question:\n"
-            f"{example['question']}\n"
-            "1. What is the question asking?\n"
-            "2. What information do we need to answer it?\n"
-            "3. How can we find this information in the figure?\n"
-        )
-
-        # Add choices if available
-        if example.get('choices'):
-            prompt_parts.append("Let's examine the available options:")
-            for k, v in example['choices'].items():
-                prompt_parts.append(f"Option {k}: {v}")
-            prompt_parts.append(
-                "For each option:\n"
-                "1. What evidence supports this option?\n"
-                "2. What evidence contradicts this option?\n"
-                "3. Is this option consistent with the figure?\n"
-            )
-
-        return prompt_parts
-
-    def _create_answer_instruction(self, example: Dict[str, Any]) -> str:
-        """Create the answer instruction based on QA pair type, compound navigation, and choices."""
-        instruction_parts = []
-
-        # Handle compound figures if not already handled in initial analysis
-        if example.get('compound'):
-            instruction_parts.append(
-                "Let's navigate to the correct subfigure:\n"
-                f"1. Locate the {example.get('fig_numb', 1)} graph in the compound figure\n"
-                "2. Verify we're looking at the right one\n"
-                "3. Focus our analysis on this specific subfigure\n"
-            )
-
-        qa_pair_type = example.get('qa_pair_type', '').lower()
-
-        # Handle non-binary multiple choice
-        if "non-binary" in qa_pair_type and example.get('choices'):
-            instruction_parts.append(
-                "This is a multiple-choice question. Let's analyze it step by step:\n"
-                "1. First, examine each option carefully\n"
-                "2. For each option, ask: 'Is this supported by the evidence?'\n"
-                "3. Verify your reasoning: 'Have I considered all possibilities?'\n"
-                "4. If multiple options are correct, ensure they're all justified\n"
-                "5. Finally, provide the letter(s) of the correct option(s)\n"
-                "Remember: If multiple letters are correct, separate them by commas without spaces (e.g., B,C)"
-            )
-
-            # Add choices analysis
-            instruction_parts.append("\nLet's examine each option:")
-            for k, v in example['choices'].items():
-                instruction_parts.append(f"Option {k}: {v}")
-            instruction_parts.append(
-                "For each option:\n"
-                "1. What evidence supports this option?\n"
-                "2. What evidence contradicts this option?\n"
-                "3. Is this option consistent with the figure?\n"
-            )
-
-        # Handle binary questions
-        elif "binary" in qa_pair_type:
-            instruction_parts.append(self._get_binary_instruction(
-                example['question'], qa_pair_type))
-
-        # Handle infinite answer set
-        if "infinite_answer_set" in qa_pair_type:
-            instruction_parts.append(
-                "This question requires a precise numerical answer. Let's analyze it step by step:\n"
-                "1. First, identify what numerical value we need to find\n"
-                "2. Next, locate this information in the figure\n"
-                "3. Consider the scale and units carefully\n"
-                "4. Verify your calculation: 'Does this make sense?'\n"
-                "5. Finally, provide the exact numerical value\n"
-            )
-
-        # Handle visual questions
-        if "non-visual" in qa_pair_type:
-            instruction_parts.append(
-                "This question is based on textual information. Let's analyze it step by step:\n"
-                "1. First, identify the relevant text information\n"
-                "2. Next, consider how it relates to the question\n"
-                "3. Verify your understanding: 'Have I interpreted this correctly?'\n"
-                "4. Finally, provide a concise answer\n"
-            )
-        elif "visual" in qa_pair_type:
-            instruction_parts.append(
-                "This question requires visual analysis. Let's examine it step by step:\n"
-                "1. First, identify the relevant visual elements\n"
-                "2. Next, analyze their properties (shape, size, position, etc.)\n"
-                "3. Verify your observations: 'Am I seeing this correctly?'\n"
-                "4. Finally, provide a concise answer based on visual evidence\n"
-            )
-
-        if "unanswerable" in qa_pair_type:
-            instruction_parts.append(
-                "This question appears to be unanswerable. Let's verify this step by step:\n"
-                "1. First, identify what information we would need to answer it\n"
-                "2. Next, check if this information is available\n"
-                "3. Verify our conclusion: 'Have we missed any relevant information?'\n"
-                "4. Finally, confirm that the question cannot be answered\n"
-            )
-
-        # Add final verification
-        instruction_parts.append(
-            "\nBefore providing the final answer, let's verify:\n"
-            "1. Have we considered all relevant information?\n"
-            "2. Is our reasoning consistent with the evidence?\n"
-            "3. Have we double-checked our analysis?\n"
-            "4. Are we confident in our answer?\n"
-        )
-
-        return "\n".join(instruction_parts)
 
     def create_initial_analysis_prompt(self, example: Dict[str, Any]) -> str:
-        """Create an initial analysis prompt focusing on caption, question, and image analysis first."""
+        """Create an initial analysis prompt focusing on caption, question, and image analysis."""
         prompt_parts = []
 
-        # Step 1: Comprehensive Initial Analysis
-        prompt_parts.append("STEP 1: COMPREHENSIVE INITIAL ANALYSIS")
+        # Step 1: Initial Analysis
+        prompt_parts.append("STEP 1: INITIAL ANALYSIS")
         prompt_parts.append(
-            "Let's analyze the figure, caption, and question together:")
+            "Given the figure, caption, and question, analyze and answer step by step.")
 
         # Combined Analysis
         analysis_parts = []
@@ -425,7 +269,7 @@ class COTPromptCreator:
         analysis_parts.append(
             f"Figure Type: {figure_type.replace('_', ' ')}\n"
             "1. What type of visualization is this?\n"
-            "2. What are the key visual elements we should focus on?\n"
+            "2. What are the key elements?\n"
         )
 
         # Caption Analysis
@@ -433,37 +277,24 @@ class COTPromptCreator:
             analysis_parts.append(
                 "Caption Analysis:\n"
                 f"{example['caption']}\n"
-                "1. What is the main topic and purpose of this figure?\n"
-                "2. What key information and context does the caption provide?\n"
-                "3. Are there any specific terms, units, or concepts we should note?\n"
+                "1. What is the main topic?\n"
+                "2. What key information is provided?\n"
             )
 
         # Question Analysis
         analysis_parts.append(
             "Question Analysis:\n"
             f"{example['question']}\n"
-            "1. What specific information is the question asking for?\n"
-            "2. How does this relate to the figure and caption?\n"
-            "3. What visual elements or data points will we need to examine?\n"
+            "1. What information is needed?\n"
+            "2. Where can we find it in the figure?\n"
         )
 
         # Integration Analysis
         analysis_parts.append(
             "Integration Analysis:\n"
-            "1. How do the caption and question work together?\n"
-            "2. Which parts of the figure are most relevant to the question?\n"
-            "3. What connections can we make between the caption, question, and visual elements?\n"
+            "1. How do caption and question relate?\n"
+            "2. Which parts of the figure are relevant?\n"
         )
-
-        # Add self-verification for initial analysis
-        analysis_parts.append(
-            "\nLet's verify our initial understanding:\n"
-            "1. Have we correctly identified the figure type and its key elements?\n"
-            "2. Do we understand how the caption provides context for the question?\n"
-            "3. Are we clear about what information we need to find in the figure?\n"
-            "4. Have we identified the most relevant parts of the figure to focus on?\n"
-        )
-
         prompt_parts.append("\n".join(analysis_parts))
 
         # Step 2: Compound Figure Navigation (if applicable)
@@ -479,12 +310,77 @@ class COTPromptCreator:
         initial_analysis = self.create_initial_analysis_prompt(example)
 
         # Then create the answer instruction
-        instruction = self.base_instruction + "\n\n" + self._create_answer_instruction(
-            example)
+        instruction = self.base_instruction + "\n\n" + \
+            self._create_answer_instruction(example)
 
         final_prompt = example['question'] + "\n\n" + self.base_instruction
         # Combine both parts with the base instruction
         return [initial_analysis, instruction, final_prompt]
+
+    def _create_answer_instruction(self, example: Dict[str, Any]) -> str:
+        """Create the answer instruction based on QA pair type."""
+        instruction_parts = []
+
+        # Handle compound figures if not already handled in initial analysis
+        if example.get('compound'):
+            instruction_parts.append(
+                f"Navigate to the {example.get('fig_numb', 1)} graph in the compound figure and analyze it.\n"
+            )
+
+        qa_pair_type = example.get('qa_pair_type', '').lower()
+
+        # Handle non-binary multiple choice
+        if "non-binary" in qa_pair_type and example.get('choices'):
+            instruction_parts.append(
+                "This is a multiple-choice question:\n"
+                "1. Examine each option\n"
+                "2. Match with the evidence\n"
+                "3. Provide the letter(s) of correct option(s)\n"
+                "Remember: If multiple letters are correct, separate them by commas without spaces (e.g., B,C)"
+            )
+
+            # Add choices analysis
+            instruction_parts.append("\nOptions:")
+            for k, v in example['choices'].items():
+                instruction_parts.append(f"Option {k}: {v}")
+
+        # Handle binary questions
+        elif "binary" in qa_pair_type:
+            instruction_parts.append(self._get_binary_instruction(
+                example['question'], qa_pair_type))
+
+        # Handle infinite answer set
+        if "infinite_answer_set" in qa_pair_type:
+            instruction_parts.append(
+                "This question requires a precise numerical answer:\n"
+                "1. Identify the required value\n"
+                "2. Locate it in the figure\n"
+                "3. Provide the exact numerical value\n"
+            )
+
+        # Handle visual questions
+        if "non-visual" in qa_pair_type:
+            instruction_parts.append(
+                "This question is based on textual information:\n"
+                "1. Identify the relevant text\n"
+                "2. Provide a concise answer\n"
+            )
+        elif "visual" in qa_pair_type:
+            instruction_parts.append(
+                "This question requires visual analysis:\n"
+                "1. Identify the relevant visual elements\n"
+                "2. Provide a concise answer based on visual evidence, approximations in the scale are allowed\n"
+            )
+
+        if "unanswerable" in qa_pair_type:
+            instruction_parts.append(
+                "This question appears to be unanswerable:\n"
+                "1. Identify what information is needed\n"
+                "2. Check if it's available\n"
+                "3. Confirm if the question can be answered\n"
+            )
+
+        return "\n".join(instruction_parts)
 
     def create_batch_prompts(self, examples: List[Dict[str, Any]]) -> List[str]:
         """Create Chain of Thought prompts for a batch of examples."""
