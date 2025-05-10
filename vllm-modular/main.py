@@ -212,14 +212,9 @@ def main():
                     # Get final answer
                     qa_type_analysis = output['qa_type_analysis']['choices'][0]['message']['content'].strip(
                     )
-                    final_answer = output['final_answer']['choices'][0]['message']['content'].strip(
-                    )
 
-                    if example['choices'] is None:
-                        final_answer = qa_type_analysis
-
-                    final_answer = remove_all_tags(final_answer)
-                    if should_override_with_unanswerable(final_answer):
+                    final_answer = remove_all_tags(qa_type_analysis)
+                    if example['qa_pair_type'] == 'unanswerable':
                         final_answer = "It is not possible to answer this question based only on the provided data."
 
                     # Create result dictionary based on split

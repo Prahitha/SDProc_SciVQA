@@ -176,18 +176,13 @@ class VLLMInference:
             combined_prompt = f"{question_analysis_response}\n\n{qa_type_analysis_prompt}"
             qa_type_analysis_response = self.infer(combined_prompt, image_path)
 
-            # Step 3: Final Answer
-            combined_prompt = f"{qa_type_analysis_response}\n\n{answer_prompt}"
-            final_response = self.infer(combined_prompt, image_path)
-
-            if not final_response:
+            if not qa_type_analysis_response:
                 print("Failed to get final answer response")
                 return None
 
             return {
                 'question_analysis': question_analysis_response,
                 'qa_type_analysis': qa_type_analysis_response,
-                'final_answer': final_response
             }
 
         except Exception as e:
