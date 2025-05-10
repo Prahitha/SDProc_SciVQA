@@ -180,7 +180,7 @@ class COTPromptCreator:
     def __init__(self):
         """Initialize the COT prompt creator."""
         self.base_instruction = (
-            "Answer the question with only the raw numerical value or single word/phrase, omitting all units, context words, and explanatory text."
+            "Answer the question with only the raw numerical value or single word/phrase, omitting all units, context words, and explanatory text, remove <|end|> tag in the end answer."
         )
 
     def _get_figure_type_instruction(self, figure_type: str) -> str:
@@ -259,7 +259,7 @@ class COTPromptCreator:
         # Step 1: Initial Analysis
         prompt_parts.append("STEP 1: INITIAL ANALYSIS")
         prompt_parts.append(
-            "Given the figure, caption, and question, analyze and answer step by step.")
+            "Given the figure, caption, and question for a given figure, provide analysis using following ideas")
 
         # Combined Analysis
         analysis_parts = []
