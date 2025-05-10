@@ -259,35 +259,38 @@ class COTPromptCreator:
         # Step 1: Initial Analysis
         prompt_parts.append("STEP 1: INITIAL ANALYSIS")
         prompt_parts.append(
-            "Given the figure, caption, and question, analyze and answer step by step.")
+            "Given the figure, caption, and question, analyze and answer step by step."
+            "Please think step by step, and regularly perform self-questioning, self-verification, self-correction to check your ongoing reasoning, using connectives such as"
+            "\"Wait a moment\", \"Wait, does it seem right?\"etc."
+        )
 
         # Combined Analysis
         analysis_parts = []
 
-        # Figure Type Analysis
-        figure_type = example.get('figure_type', '').lower()
-        analysis_parts.append(
-            f"Figure Type: {figure_type.replace('_', ' ')}\n"
-            "1. What type of visualization is this?\n"
-            "2. What are the key elements?\n"
-        )
+        # # Figure Type Analysis
+        # figure_type = example.get('figure_type', '').lower()
+        # analysis_parts.append(
+        #     f"Figure Type: {figure_type.replace('_', ' ')}\n"
+        #     "1. What type of visualization is this?\n"
+        #     "2. What are the key elements?\n"
+        # )
 
-        # Caption Analysis
-        if example.get('caption'):
-            analysis_parts.append(
-                "Caption Analysis:\n"
-                f"{example['caption']}\n"
-                "1. What is the main topic?\n"
-                "2. What key information is provided?\n"
-            )
+        # # Caption Analysis
+        # if example.get('caption'):
+        #     analysis_parts.append(
+        #         "Caption Analysis:\n"
+        #         f"{example['caption']}\n"
+        #         "1. What is the main topic?\n"
+        #         "2. What key information is provided?\n"
+        #     )
 
-        # Question Analysis
-        analysis_parts.append(
-            "Question Analysis:\n"
-            f"{example['question']}\n"
-            "1. What information is needed?\n"
-            "2. Where can we find it in the figure?\n"
-        )
+        # # Question Analysis
+        # analysis_parts.append(
+        #     "Question Analysis:\n"
+        #     f"{example['question']}\n"
+        #     "1. What information is needed?\n"
+        #     "2. Where can we find it in the figure?\n"
+        # )
 
         # Integration Analysis
         analysis_parts.append(
