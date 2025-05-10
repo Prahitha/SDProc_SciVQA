@@ -56,6 +56,22 @@ def save_results(results: List[Dict[str, Any]], config: dict, split: str, run_di
     })
 
 
+def should_override_with_unanswerable(reasoning: str) -> bool:
+    reasoning_lower = reasoning.lower()
+    keywords = [
+        "cannot be determined",
+        "cannot determine",
+        "not possible to determine",
+        "insufficient information",
+        "not enough information",
+        "unanswerable",
+        "data is missing",
+        "lack of information",
+        "figure is not provided"
+    ]
+    return any(keyword in reasoning_lower for keyword in keywords)
+
+
 def main():
     start_time = time.time()
 
@@ -128,18 +144,24 @@ def main():
 
             batch_results = []
             for example, output in zip(batch, outputs):
-                if output and 'choices' in output and len(output['choices']) > 0:
-                    generated_text = output['choices'][0]['message']['content'].strip(
+                if output and 'initial_analysis' in output and 'final_answer' in output:
+                    # Get initial analysis
+                    initial_text = output['initial_analysis']['choices'][0]['message']['content'].strip(
                     )
-                    generated_text = remove_all_tags(generated_text)
-                    if "unanswerable" in example['qa_pair_type']:
-                        generated_text = "It is not possible to answer this question based only on the provided data."
+                    # Get final answer
+                    final_text = output['final_answer']['choices'][0]['message']['content'].strip(
+                    )
+                    final_text = remove_all_tags(final_text)
+
+                    if should_override_with_unanswerable(initial_text) or should_override_with_unanswerable(final_text):
+                        final_text = "It is not possible to answer this question based only on the provided data."
 
                     # Create result dictionary based on split
                     result = {
                         'id': example.get('id', ''),
                         'question': example['question'],
-                        'response': generated_text,
+                        'initial_analysis': initial_text,
+                        'response': final_text,
                         'qa_pair_type': example['qa_pair_type'],
                         'fig_type': example['figure_type']
                     }
@@ -147,7 +169,7 @@ def main():
                     # Add ground truth and correctness only for train/validation
                     if config['dataset']['split'] != 'test':
                         ground_truth = example['answer'].strip().lower()
-                        generated_clean = generated_text.strip().lower()
+                        generated_clean = final_text.strip().lower()
                         is_correct = generated_clean == ground_truth
                         result.update({
                             'answer': example['answer'],
@@ -157,14 +179,16 @@ def main():
                         # Print example details for train/validation
                         print(f"\nExample {len(results)}:")
                         print(f"Question: {example['question']}")
-                        print(f"Generated: {generated_text}")
-                        print(f"Answer: {example['answer']}")
+                        print(f"Initial Analysis: {initial_text}")
+                        print(f"Final Answer: {final_text}")
+                        print(f"Ground Truth: {example['answer']}")
                         print(f"Correct: {'✅' if is_correct else '❌'}")
                     else:
-                        # Print only question and response for test
+                        # Print only question and responses for test
                         print(f"\nExample {len(results)}:")
                         print(f"Question: {example['question']}")
-                        print(f"Generated: {generated_text}")
+                        print(f"Initial Analysis: {initial_text}")
+                        print(f"Final Answer: {final_text}")
 
                     batch_results.append(result)
                     results.append(result)

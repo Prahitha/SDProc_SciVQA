@@ -180,10 +180,7 @@ class COTPromptCreator:
     def __init__(self):
         """Initialize the COT prompt creator."""
         self.base_instruction = (
-            "Please think step by step, and regularly perform self-questioning, "
-            "self-verification, self-correction to check your ongoing reasoning, "
-            "using connectives such as 'Wait a moment', 'Wait, does it seem right?', etc.\n\n"
-            "After your reasoning, provide your final answer in a new line starting with 'Final Answer:'"
+            "Answer the question with only the raw numerical value or single word/phrase, omitting all units, context words, and explanatory text, remove < |end | > tag in the end answer."
         )
 
     def _get_figure_type_instruction(self, figure_type: str) -> str:
@@ -481,7 +478,8 @@ class COTPromptCreator:
         initial_analysis = self.create_initial_analysis_prompt(example)
 
         # Then create the answer instruction
-        instruction = self._create_answer_instruction(example)
+        instruction = self._create_answer_instruction(
+            example) + "\n\n" + self.base_instruction
 
         # Combine both parts with the base instruction
         return [initial_analysis, instruction]
