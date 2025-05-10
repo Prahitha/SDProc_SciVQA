@@ -161,7 +161,7 @@ class VLLMInference:
         """
         try:
             # Create the two-step prompts
-            question_analysis_prompt, qa_type_analysis_prompt, answer_prompt = self.cot_creator.create_prompt(
+            question_analysis_prompt, qa_type_analysis_prompt = self.cot_creator.create_prompt(
                 example)
 
             # Step 1: Initial Analysis

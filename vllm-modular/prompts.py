@@ -312,10 +312,8 @@ class COTPromptCreator:
         # Then create the answer instruction
         instruction = self.base_instruction + "\n\n" + \
             self._create_answer_instruction(example)
-
-        final_prompt = example['question'] + "\n\n" + self.base_instruction
         # Combine both parts with the base instruction
-        return [initial_analysis, instruction, final_prompt]
+        return [initial_analysis, instruction]
 
     def _create_answer_instruction(self, example: Dict[str, Any]) -> str:
         """Create the answer instruction based on QA pair type."""
