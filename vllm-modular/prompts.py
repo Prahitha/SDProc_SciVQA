@@ -337,8 +337,17 @@ class COTPromptCreator:
 
         qa_pair_type = example.get('qa_pair_type', '').lower()
 
+        # Handle infinite answer set
+        if "infinite_answer_set" in qa_pair_type:
+            instruction_parts.append(
+                "This question requires a precise numerical answer:\n"
+                "1. Identify the required value(s) from the figure\n"
+                "2. Locate it in the figure\n"
+                "3. Provide the numerical value, approximations in the scale are allowed\n"
+            )
+
         # Handle non-binary multiple choice
-        if "non-binary" in qa_pair_type and example.get('choices'):
+        elif "non-binary" in qa_pair_type and example.get('choices'):
             instruction_parts.append(
                 "This is a multiple-choice question:\n"
                 "1. Examine each option\n"
@@ -356,15 +365,6 @@ class COTPromptCreator:
         elif "binary" in qa_pair_type:
             instruction_parts.append(self._get_binary_instruction(
                 example['question'], qa_pair_type))
-
-        # Handle infinite answer set
-        if "infinite_answer_set" in qa_pair_type:
-            instruction_parts.append(
-                "This question requires a precise numerical answer:\n"
-                "1. Identify the required value(s) from the figure\n"
-                "2. Locate it in the figure\n"
-                "3. Provide the numerical value, approximations in the scale are allowed\n"
-            )
 
         # # Handle visual questions
         # if "non-visual" in qa_pair_type:
