@@ -159,9 +159,12 @@ def main():
                     # Get final answer
                     qa_type_analysis = output['qa_type_analysis']['choices'][0]['message']['content'].strip(
                     )
+                    if example['choices'] is None:
+                        final_answer = output['final_answer']['choices'][0]['message']['content'].strip(
+                        )
+                    else:
+                        final_answer = qa_type_analysis
 
-                    final_answer = output['final_answer']['choices'][0]['message']['content'].strip(
-                    )
                     final_answer = remove_all_tags(final_answer)
                     if should_override_with_unanswerable(final_answer):
                         final_answer = "It is not possible to answer this question based only on the provided data."

@@ -268,8 +268,8 @@ class COTPromptCreator:
         figure_type = example.get('figure_type', '').lower()
         analysis_parts.append(
             f"Figure Type: {figure_type.replace('_', ' ')}\n"
-            "1. What type of visualization is this?\n"
-            "2. What are the key elements?\n"
+            "1. Identify the visualization type and its key elements\n"
+            "2. Note the main components and their relationships\n"
         )
 
         # Caption Analysis
@@ -277,23 +277,23 @@ class COTPromptCreator:
             analysis_parts.append(
                 "Caption Analysis:\n"
                 f"{example['caption']}\n"
-                "1. What is the main topic?\n"
-                "2. What key information is provided?\n"
+                "1. Summarize the main topic and key information\n"
+                "2. Note any specific terms or units mentioned\n"
             )
 
         # Question Analysis
         analysis_parts.append(
             "Question Analysis:\n"
             f"{example['question']}\n"
-            "1. What information is needed?\n"
-            "2. Where can we find it in the figure?\n"
+            "1. Identify the required information and its location in the figure\n"
+            "2. Determine the type of answer needed\n"
         )
 
         # Integration Analysis
         analysis_parts.append(
             "Integration Analysis:\n"
-            "1. How do caption and question relate?\n"
-            "2. Which parts of the figure are relevant?\n"
+            "1. Connect the caption context with the question requirements\n"
+            "2. Identify the relevant figure elements for answering\n"
         )
         prompt_parts.append("\n".join(analysis_parts))
 
