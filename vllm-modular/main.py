@@ -205,7 +205,7 @@ def main():
 
             batch_results = []
             for example, output in zip(batch, outputs):
-                if output and 'question_analysis' in output and 'qa_type_analysis' in output and 'final_answer' in output:
+                if output and 'question_analysis' in output and 'qa_type_analysis' in output:
                     # Get initial analysis
                     question_analysis = output['question_analysis']['choices'][0]['message']['content'].strip(
                     )
