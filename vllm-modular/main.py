@@ -218,7 +218,7 @@ def main():
                     if example['choices'] is None:
                         final_answer = qa_type_analysis
 
-                    remove_all_tags(final_answer)
+                    final_answer = remove_all_tags(final_answer)
                     if should_override_with_unanswerable(final_answer):
                         final_answer = "It is not possible to answer this question based only on the provided data."
 
