@@ -9,16 +9,18 @@ uv pip install vllm
 # Step 3: Launch vLLM OpenAI-compatible API server with Phi-4-multimodal-instruct
 python -m vllm.entrypoints.openai.api_server \
   --model "/workspace/SDProc_SciVQA/phi4-modular/Qwen2.5-VL-7B-Instruct-SciVQA" \
-  --dtype bfloat16 \
+  --dtype auto \
   --trust-remote-code \
   --max-model-len 32768 \
-  --gpu-memory-utilization 0.95 \
-  --max-num-batched-tokens 4096 \
-  --max-num-seqs 256 \
-  --quantization awq \
-  --tensor-parallel-size 1 \
-  --block-size 16 \
-  --swap-space 4 \
+  # --gpu-memory-utilization 0.95 \
+  # --max-num-batched-tokens 4096 \
+  # --max-num-seqs 256 \
+  # --quantization awq \
+  # --tensor-parallel-size 1 \
+  # --block-size 16 \
+  # --swap-space 4 \
+
+# Qwen2_5_VLForConditionalGeneration
 #curl -LsSf https://astral.sh/uv/install.sh | sh
 #uv pip install vllm
 
