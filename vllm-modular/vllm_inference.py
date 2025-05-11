@@ -117,6 +117,7 @@ class VLLMInference:
         """
         try:
             payload = self._create_payload(prompt, image_path)
+            #print(prompt, image_path)
             response = requests.post(
                 self.config.vllm_url, headers=self.headers, json=payload)
             response.raise_for_status()
