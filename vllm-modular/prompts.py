@@ -221,7 +221,7 @@ class COTPromptCreator:
         # Caption Analysis
         if example.get('caption'):
             analysis_parts.append(
-                "Caption: \n"
+                "\nCaption: \n"
                 f"{example['caption']}\n"
                 # "1. What is the main topic?\n"
                 # "2. What key information is provided?\n"
@@ -326,7 +326,7 @@ class COTPromptCreator:
         # Add choices if available
         if example.get('choices') and len(example['choices']) > 0:
             instruction.append(
-                f"Based on the reasoning above, match it to one or more of the provided answer options: {example['choices']}. "
+                f"Based on the reasoning above, match it to one or more of the provided answer options: {self._format_choices(example['choices'])}. "
                 "Return only the corresponding letter(s) of the correct answer(s). "
                 "Do not explain your choice, do not rephrase the answer, and do not repeat the option text. "
                 "Only output the letter(s) corresponding to the correct choice. "
