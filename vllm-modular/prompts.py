@@ -161,8 +161,7 @@ class COTPromptCreator:
     def __init__(self):
         """Initialize the COT prompt creator."""
         self.base_instruction = (
-            "Answer the question with only the raw numerical value or single word/phrase, omitting all units, context words, and explanatory text. Approximations in the scale are allowed. For the question to provide the range, provide the [min - max] range in the answer."
-        )
+            "Answer the question with only the raw numerical value or single word/phrase, omitting all units, context words, and explanatory text. Approximations in the scale are allowed.")
 
     def _format_choices(self, choices: Dict[str, str]) -> List[str]:
         """Format choices into a readable format."""
@@ -174,7 +173,7 @@ class COTPromptCreator:
         if qa_pair_type == QAPairType.BINARY:
             question_lower = question.lower()
             answer_format = "True or False" if any(phrase in question_lower for phrase in [
-                'is it true', 'is it false', 'is this true', 'is this false']) else "Yes or No"
+                'is it true', 'is it false', 'is this true', 'is this false']) else "\"Yes\" or \"No\""
             evidence_type = "visual" if "visual" in qa_pair_type else "textual"
 
             return (
@@ -249,7 +248,7 @@ class COTPromptCreator:
 
         # Step 2: Compound Figure Navigation (if applicable)
         if example.get('compound'):
-            prompt_parts.append("\nSTEP 2: COMPOUND FIGURE NAVIGATION")
+           # prompt_parts.append("\nSTEP 2: COMPOUND FIGURE NAVIGATION")
             prompt_parts.append(self._get_compound_navigation(example))
 
         return "\n".join(prompt_parts)
