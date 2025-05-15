@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["d45b418c7910de51c83af6c626088a86", "What is the lower loss that train loss achieves?", "The lower loss that the train loss achieves is approximately 0.002.", "A", "A", "closed-ended finite answer set non-binary non-visual", "line chart"]]}

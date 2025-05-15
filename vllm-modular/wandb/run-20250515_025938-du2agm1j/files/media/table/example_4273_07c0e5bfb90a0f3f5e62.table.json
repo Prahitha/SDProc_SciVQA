@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["2bed3fdf9b028c579a76897e6e3ffd33", "Which color line is placed highest in the legend?", "The green line is placed highest in the legend.", "Green", "Green", "closed-ended infinite answer set visual", "line chart"]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["0319a0cb1a783696cffdb29ca5f29e13", "Where are the legends located with respect to each subplot?", "The legends are located at the bottom right corner of each subplot.", "D", "D", "closed-ended finite answer set non-binary visual", "line chart"]]}

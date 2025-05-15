@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["3d3aa8e678838c50528df6ad7b4b8c74", "What is the root node of the syntax tree?", "The root node of the syntax tree is PredVP.", "PredVP", "PredVP", "closed-ended infinite answer set non-visual", "tree"]]}

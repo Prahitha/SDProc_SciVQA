@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["579806df9550dbdbb51ea144de7701ae", "What color is the edge connecting \"rendus\" and \"S\"?", "The edge connecting \"rendus\" and \"S\" is colored purple.", "purple", "purple", "closed-ended infinite answer set visual", "tree"]]}

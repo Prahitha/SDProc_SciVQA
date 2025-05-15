@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["f40dac22f753fe062022742c1d53cb59", "What state does the transition labeled 'HAS SWORD' lead to?", "The transition labeled 'HAS SWORD' leads to node E.", "E", "E", "closed-ended finite answer set non-binary non-visual", "Graph"]]}

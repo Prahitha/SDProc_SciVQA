@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["282f664f0458d1e55d9cdb2a13b7f6e2", "What is the highest layer index shown in figure 9?", "The highest layer index shown in Figure 9 is 14.", "B", "B", "closed-ended finite answer set non-binary non-visual", "line chart"]]}

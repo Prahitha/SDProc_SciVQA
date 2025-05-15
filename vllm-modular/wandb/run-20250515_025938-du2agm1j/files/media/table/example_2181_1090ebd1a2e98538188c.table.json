@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["03008c1b7fcfe305f9f8fc7d26321c3b", "What color is the arrow pointing from node 'c' to node 'f'?", "The arrow pointing from node 'c' to node 'f' is purple.", "purple", "purple", "closed-ended infinite answer set visual", "graph"]]}

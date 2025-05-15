@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["7168c8e7b272975c422705a98f03b0cd", "What is the range of the epochs?", "The range of the epochs is from 0 to 10.", "0 to 10", "0 to 10", "closed-ended infinite answer set non-visual", "line chart"]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["7b34a62b525a4281b755eab88f730e23", "What is the abbreviation for the metric being compared?", "The abbreviation for the metric being compared is RINC.", "RINC", "RINC", "closed-ended infinite answer set non-visual", "line chart"]]}

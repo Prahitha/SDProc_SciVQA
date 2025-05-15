@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["5d06e45ef30da4a3e1fa9f07d00d476a", "For which game is the bar tallest?", "The bar representing HD-5 is the tallest among all the games shown in the figure.", "B", "B", "closed-ended finite answer set non-binary visual", "bar chart"]]}

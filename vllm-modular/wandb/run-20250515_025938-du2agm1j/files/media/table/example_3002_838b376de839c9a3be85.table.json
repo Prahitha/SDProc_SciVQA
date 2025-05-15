@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["6fc9c6780bf5098ec1376e1cea91a2d7", "What is the label of the arrow pointing from E1 to E2?", "The label of the arrow pointing from E1 to E2 is R32.", "R32", "R32", "closed-ended infinite answer set visual", "graph"]]}

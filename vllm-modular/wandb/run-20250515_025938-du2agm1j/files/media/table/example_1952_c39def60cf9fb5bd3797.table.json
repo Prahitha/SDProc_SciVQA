@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["69a33c85baf9123ff97e2eeb516c5fc3", "Which line represents 'power law' in Figure 7?", "The green dashed line represents the 'Power law' in Figure 7.", "B", "B", "closed-ended finite answer set non-binary visual", "line chart"]]}

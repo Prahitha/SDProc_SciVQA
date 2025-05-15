@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["37262522fc9ab6ad4e8c85f728455c54", "How many triangles are presented in the line and what is their color?", "There are no triangles in the line. The line is blue.", "A", "A", "closed-ended finite answer set non-binary visual", "line chart"]]}

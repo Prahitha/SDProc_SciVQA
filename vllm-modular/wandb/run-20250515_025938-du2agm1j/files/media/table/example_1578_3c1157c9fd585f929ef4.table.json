@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["a8ee62eea031aa1275251cd5ffa3731d", "What is the exact p-value for the bar plot in figure 10?", "The exact p-value for the bar plot in Figure 10 is 7.53E-05.", "7.53E-05", "7.53E-05", "closed-ended infinite answer set non-visual", "bar chart"]]}

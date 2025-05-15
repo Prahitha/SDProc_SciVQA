@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["4a555676b122b0e16d76ee8504a3e167", "What is the color of the arrow that points to  'e^c_i'?", "The arrow pointing to 'e^c_i' in Figure 2 is orange.", "orange", "orange", "closed-ended infinite answer set visual", "neural networks"]]}

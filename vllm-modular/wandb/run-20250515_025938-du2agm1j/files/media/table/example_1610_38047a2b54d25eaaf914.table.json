@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["ff172091eb5d06923f29b5a88c1de13c", "What is the largest slice in the pie chart?", "The largest slice in the pie chart corresponds to the word \"what\".", "what", "what", "closed-ended infinite answer set visual", "pie chart"]]}

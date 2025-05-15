@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["026436e2ef65e7a7fcbe921ca2d82edd", "What is the approximate value of the tallest bar in the figure?", "The tallest bar in the figure appears to be around 5.0.", "5.0", "5.0", "closed-ended infinite answer set visual", "bar chart"]]}

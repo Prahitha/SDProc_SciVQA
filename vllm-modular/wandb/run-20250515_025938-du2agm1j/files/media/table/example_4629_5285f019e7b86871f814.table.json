@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["09628c2a63c63db2648892afb3efe309", "What is the maximum value marked on the x axis for TFN?", "The maximum value marked on the x-axis for TFN is approximately 40.", "40", "40", "closed-ended infinite answer set non-visual", "scatter plot"]]}

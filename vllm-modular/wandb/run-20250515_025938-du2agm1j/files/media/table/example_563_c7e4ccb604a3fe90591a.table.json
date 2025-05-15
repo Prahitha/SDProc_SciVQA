@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["2618a20734e05bb3f042f6d987bc1ab6", "What is the label of the circle directly below the circle labeled 'tk'?", "The circle directly below the circle labeled 'tk' is labeled 'fk'.", "fk", "fk", "closed-ended infinite answer set visual", "graph"]]}

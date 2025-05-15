@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["eac9fab19295172b691a3cce9eaf81e0", "Is 'Diversity^-1' the y-axis label?", "Yes, 'Diversity^-1' is the y-axis label.", "Yes", "Yes", "closed-ended finite answer set binary non-visual", "scatter plot"]]}

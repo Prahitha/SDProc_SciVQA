@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["9cdbf4b81b1c9b5aa11d3650bb27189b", "In plot (b), what is the label of the y-axis?", "The y-axis label in plot (b) is \"Time spent until meeting dismisses (min)\".", "B", "B", "closed-ended finite answer set non-binary non-visual", "line chart"]]}

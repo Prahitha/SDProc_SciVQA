@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["ad01e9185d9c66e0d8ac3de26262d18d", "What is the metric used in the third graph?", "The third graph shows the metric H@5.", "H@5", "H@5", "closed-ended infinite answer set non-visual", "line chart"]]}

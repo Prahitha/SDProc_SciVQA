@@ -11,8 +11,8 @@ from tqdm import tqdm
 from dataset import SciVQADataset
 from datetime import datetime
 
-run_name = 'inference'
-
+def get_run_name(config):
+    return f'{config["vllm"]["model_name"]}_{config["dataset"]["split"]}'
 
 def load_config(config_path: str) -> dict:
     """Load configuration from YAML file."""
@@ -27,8 +27,8 @@ def create_run_directory(config: dict) -> Path:
     base_dir.mkdir(parents=True, exist_ok=True)
 
     # Create run name with timestamp and optional custom name
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    run_name = f'{config["vllm"]["model"]}_{config["dataset"]["split"]}_{timestamp}'
+    
+    run_name = get_run_name(config)
     run_dir = base_dir / run_name
     run_dir.mkdir(parents=True, exist_ok=True)
 
@@ -68,7 +68,7 @@ def init_wandb(config: dict) -> Optional[Any]:
         wandb_run = wandb.init(
             project=wandb_config['project'],
             entity=wandb_config.get('entity'),
-            name=run_name,
+            name=get_run_name(config),
             config={
                 'model': config['vllm']['model'],
                 'dataset': config['dataset']['split'],
@@ -100,8 +100,7 @@ def save_results(results: List[Dict[str, Any]], config: dict, split: str, run_di
         wandb_run: Optional wandb run instance
     """
     # Create predictions directory in run directory
-    predictions_dir = run_dir / 'predictions'
-    predictions_dir.mkdir(parents=True, exist_ok=True)
+    predictions_dir = run_dir
 
     # Save to file with split name
     output_path = predictions_dir / f"{split}_predictions.json"
@@ -265,7 +264,7 @@ def main():
             progress = (batch_end - start_idx) / (end_idx - start_idx) * 100
             print(
                 f"\nProgress: {progress:.1f}% ({batch_end - start_idx}/{end_idx - start_idx} examples)")
-
+            print(wandb_run)
             # Log batch results to wandb
             if wandb_run and batch_results:
                 try:

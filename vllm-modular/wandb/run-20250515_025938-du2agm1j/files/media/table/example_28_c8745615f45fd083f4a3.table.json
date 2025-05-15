@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["735becea342da7c933918e8d33241dc8", "Which line represents MACE Threshold 0.85?", "The line representing MACE Threshold 0.85 is represented by 'x' markers.", "A", "A", "closed-ended finite answer set non-binary visual", "line chart"]]}

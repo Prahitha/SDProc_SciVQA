@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["a2c3ac62237178964eefc24cbbc2627e", "What is the direction of the black arrow?", "The black arrow points upwards and slightly to the right.", "A,D", "A,D", "closed-ended finite answer set non-binary visual", "scatter plot"]]}

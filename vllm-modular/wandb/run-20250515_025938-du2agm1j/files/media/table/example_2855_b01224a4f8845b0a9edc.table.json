@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["74f78d157abf7fce718ffe767639359a", "What is the range of the values for k-step Look-ahead?", "The range of the values for k-step Look-ahead is from 1 to 5.", "C", "C", "closed-ended finite answer set non-binary non-visual", "line chart"]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["76799b41ac39d94ff20fa6fc448957f7", "How many arrows are there?", "There are 7 arrows in the figure.", "7", "7", "closed-ended infinite answer set visual", "architecture diagram"]]}

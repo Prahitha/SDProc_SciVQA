@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["eeb703baa0566fa4be10d5e62450dccf", "What is the label of the node directly above the node labeled 'POS'?", "The node directly above the node labeled 'POS' is 'MWE'.", "MWE", "MWE", "closed-ended infinite answer set visual", "graph"]]}

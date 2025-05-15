@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["7d662962dfa0a1efdf087051ea993972", "Where is the legend located in the image?", "The legend is located on the right side of the image.", "D", "D", "closed-ended finite answer set non-binary visual", "Bar Chart"]]}

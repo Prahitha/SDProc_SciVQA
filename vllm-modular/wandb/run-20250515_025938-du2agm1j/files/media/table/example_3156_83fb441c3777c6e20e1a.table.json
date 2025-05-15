@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["1d93d5815bab4ea7adc7eae2911bb868", "What does the y-axis represent?", "The y-axis represents the Polarity score.", "Polarity score", "Polarity score", "closed-ended infinite answer set non-visual", "Violin plot"]]}

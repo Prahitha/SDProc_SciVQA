@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["f048d883f7c63547e6144c07e85c839b", "What does the x-axis represent?", "The x-axis represents the number of dimensions.", "Number of dimensions", "Number of dimensions", "closed-ended infinite answer set non-visual", "line chart"]]}

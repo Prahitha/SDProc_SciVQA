@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["cfb8cea3303157571354c3acf5438479", "Which box is colored blue?", "The third box is colored blue.", "C", "C", "closed-ended finite answer set non-binary visual", "neural networks"]]}

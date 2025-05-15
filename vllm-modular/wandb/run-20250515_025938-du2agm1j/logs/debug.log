@@ -1,0 +1,48 @@
+2025-05-15 02:59:38,533 INFO    MainThread:4431 [wandb_setup.py:_flush():70] Current SDK version is 0.19.11
+2025-05-15 02:59:38,533 INFO    MainThread:4431 [wandb_setup.py:_flush():70] Configure stats pid to 4431
+2025-05-15 02:59:38,533 INFO    MainThread:4431 [wandb_setup.py:_flush():70] Loading settings from /root/.config/wandb/settings
+2025-05-15 02:59:38,533 INFO    MainThread:4431 [wandb_setup.py:_flush():70] Loading settings from /workspace/SDProc_SciVQA/vllm-modular/wandb/settings
+2025-05-15 02:59:38,533 INFO    MainThread:4431 [wandb_setup.py:_flush():70] Loading settings from environment variables
+2025-05-15 02:59:38,533 INFO    MainThread:4431 [wandb_init.py:setup_run_log_directory():724] Logging user logs to /workspace/SDProc_SciVQA/vllm-modular/wandb/run-20250515_025938-du2agm1j/logs/debug.log
+2025-05-15 02:59:38,533 INFO    MainThread:4431 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to /workspace/SDProc_SciVQA/vllm-modular/wandb/run-20250515_025938-du2agm1j/logs/debug-internal.log
+2025-05-15 02:59:38,534 INFO    MainThread:4431 [wandb_init.py:init():852] calling init triggers
+2025-05-15 02:59:38,534 INFO    MainThread:4431 [wandb_init.py:init():857] wandb.init called with sweep_config: {}
+config: {'model': 'Qwen/Qwen2.5-VL-7B-Instruct', 'dataset': 'test', 'batch_size': 8, 'max_tokens': 300, 'temperature': 0.0, 'start_idx': 0, 'end_idx': None, 'data_dir': 'scivqa_data', '_wandb': {}}
+2025-05-15 02:59:38,534 INFO    MainThread:4431 [wandb_init.py:init():893] starting backend
+2025-05-15 02:59:38,534 INFO    MainThread:4431 [wandb_init.py:init():897] sending inform_init request
+2025-05-15 02:59:38,540 INFO    MainThread:4431 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-05-15 02:59:38,540 INFO    MainThread:4431 [wandb_init.py:init():907] backend started and connected
+2025-05-15 02:59:38,541 INFO    MainThread:4431 [wandb_init.py:init():1005] updated telemetry
+2025-05-15 02:59:38,551 INFO    MainThread:4431 [wandb_init.py:init():1029] communicating run to backend with 90.0 second timeout
+2025-05-15 02:59:39,046 INFO    MainThread:4431 [wandb_init.py:init():1104] starting run threads in backend
+2025-05-15 02:59:39,213 INFO    MainThread:4431 [wandb_run.py:_console_start():2573] atexit reg
+2025-05-15 02:59:39,213 INFO    MainThread:4431 [wandb_run.py:_redirect():2421] redirect: wrap_raw
+2025-05-15 02:59:39,213 INFO    MainThread:4431 [wandb_run.py:_redirect():2490] Wrapping output streams.
+2025-05-15 02:59:39,213 INFO    MainThread:4431 [wandb_run.py:_redirect():2513] Redirects installed.
+2025-05-15 02:59:39,215 INFO    MainThread:4431 [wandb_init.py:init():1150] run started, returning control to user process
+2025-05-15 03:08:27,785 INFO    MainThread:4431 [retry.py:__call__():175] Retry attempt failed:
+Traceback (most recent call last):
+  File "/venv/main/lib/python3.12/site-packages/wandb/sdk/lib/retry.py", line 134, in __call__
+    result = self._call_fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/site-packages/wandb/apis/public/api.py", line 108, in execute
+    return self._client.execute(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/venv/main/lib/python3.12/site-packages/wandb/sdk/lib/gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "/venv/main/lib/python3.12/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://api.wandb.ai/graphql
+2025-05-15 07:34:49,637 INFO    MainThread:4431 [wandb_run.py:_finish():2321] finishing run prahitha-movva03-umass-amherst/sci-vqa-bespoke-grpo-rethink/du2agm1j
+2025-05-15 07:34:49,638 INFO    MainThread:4431 [wandb_run.py:_atexit_cleanup():2538] got exitcode: 0
+2025-05-15 07:34:49,638 INFO    MainThread:4431 [wandb_run.py:_restore():2520] restore
+2025-05-15 07:34:49,638 INFO    MainThread:4431 [wandb_run.py:_restore():2526] restore done
+2025-05-15 07:35:01,407 INFO    MainThread:4431 [wandb_run.py:_footer_history_summary_info():4188] rendering history
+2025-05-15 07:35:01,408 INFO    MainThread:4431 [wandb_run.py:_footer_history_summary_info():4220] rendering summary
+2025-05-15 07:35:01,409 INFO    MainThread:4431 [wandb_run.py:_footer_sync_info():4149] logging synced files

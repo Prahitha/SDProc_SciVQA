@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["3bb3bc737ba8e86e98a8df2dbdabf6f7", "Where do the peaks for bass occur approximately?", "The peaks for bass occur at approximately 100 degrees and 200 degrees.", "B,C", "B,C", "closed-ended finite answer set non-binary non-visual", "line chart"]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["299c0572cf565defcf183856bb26518c", "What is the x-axis representing in the second graph?", "The x-axis represents the parameter \u03b2 in the second graph.", "\u03b2", "\u03b2", "closed-ended infinite answer set non-visual", "line chart"]]}

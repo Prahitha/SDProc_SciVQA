@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["bf64681b2bacc89434a84d1817f97f77", "What is the label of the bottom left rectangle block?", "The label of the bottom left rectangle block is \"LSTM\".", "LSTM", "LSTM", "closed-ended infinite answer set visual", "Architecture Diagram"]]}

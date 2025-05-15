@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["79e42e614c932fa9fc3e579954da3826", "What is the maximum number of estimators tested?", "The maximum number of estimators tested is 512.", "512", "512", "closed-ended infinite answer set non-visual", "line chart"]]}

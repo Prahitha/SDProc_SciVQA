@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["da08c4aab59002c944d21f71e005df4c", "What is the color of the line representing \"Heap Law\"?", "The line representing \"Heap Law\" is red.", "Red", "Red", "closed-ended infinite answer set visual", "line chart"]]}

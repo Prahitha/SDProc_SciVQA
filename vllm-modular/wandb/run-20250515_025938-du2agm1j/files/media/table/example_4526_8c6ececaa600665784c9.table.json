@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["51604e6e1103b30dd842dea813e37142", "Is the 'bush' line green and dashed?", "The 'bush' line is green and dashed.", "yes", "yes", "closed-ended finite answer set binary visual", "line chart"]]}

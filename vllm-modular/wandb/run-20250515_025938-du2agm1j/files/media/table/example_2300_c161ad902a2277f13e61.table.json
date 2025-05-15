@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["0718db4b69dafd36dc3415efcf7fb066", "What is the label of the word 'dokonce'?", "The label of the word 'dokonce' is 'RHEM'.", "A", "A", "closed-ended finite answer set non-binary non-visual", "tree"]]}

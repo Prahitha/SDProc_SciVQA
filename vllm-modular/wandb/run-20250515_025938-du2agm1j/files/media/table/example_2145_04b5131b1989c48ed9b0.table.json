@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["e16e33ca269e0e3a2c0f5f4cdca0fa62", "Which line represents 'BERT+Semi-Inter-LADA'?", "The green line represents 'BERT+Semi-Inter-LADA'.", "C", "C", "closed-ended finite answer set non-binary visual", "line chart"]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["ac9cb75253d15ce27e0ba426aca7c85c", "Is the arrow connecting nodes 'a' and 'c' colored green?", "The arrow connecting nodes 'a' and 'c' is colored green.", "yes", "yes", "closed-ended finite answer set binary visual", "graph"]]}

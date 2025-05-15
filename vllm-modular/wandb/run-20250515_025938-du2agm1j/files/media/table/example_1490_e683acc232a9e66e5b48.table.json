@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["e91658ded876c2ad0a3c86b4e52f9436", "What is the number assigned to the word 'malu'?", "The number assigned to the word 'malu' is 2.", "2", "2", "closed-ended infinite answer set non-visual", "tree"]]}

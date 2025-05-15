@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["a132470f77ffcbb6eb80f95362ac1d6b", "Which word is below S2 in the left side of the figure?", "The word below S2 in the left side of the figure is \"\u0110i\u1ec3n\".", "B", "B", "closed-ended finite answer set non-binary visual", "tree"]]}

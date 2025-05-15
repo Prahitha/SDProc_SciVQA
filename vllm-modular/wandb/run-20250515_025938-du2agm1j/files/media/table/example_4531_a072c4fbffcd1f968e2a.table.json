@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["6035bd1633520eacb4f1b516a8759b09", "What color are the bars in the bar chart of figure 4?", "The bars in the bar chart of figure 4 are cyan.", "cyan", "cyan", "closed-ended infinite answer set visual", "line chart"]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["c94829196b36aaaeb96f89213eb48719", "What is the rightmost token shown in figure 3?", "The rightmost token shown in Figure 3 is 'umum', which corresponds to position number 7.", "umum", "umum", "closed-ended infinite answer set visual", "tree"]]}

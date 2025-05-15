@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["25bfdcd011375356a5a1e448d0dbb062", "How many boxes in the figure are colored green?", "There are three boxes in the figure that are colored green.", "3", "3", "closed-ended infinite answer set visual", "architecture diagram"]]}

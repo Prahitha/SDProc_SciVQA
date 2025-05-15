@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["9797a048747cc7d3753c6cb611725747", "What is the maximum value of N?", "The maximum value of N is approximately 3000.", "3000", "3000", "closed-ended infinite answer set non-visual", "line chart"]]}

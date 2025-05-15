@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["4519a732a5ae41969808c0ec06d93847", "What is the label of the x-axis?", "The label of the x-axis is Quality^-1.", "Quality^-1", "Quality^-1", "closed-ended infinite answer set non-visual", "scatter plot"]]}

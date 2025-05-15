@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["022b3f75893c3486fcea740cef90fd69", "What is the value of the node labeled 'NP'?", "The node labeled 'NP' has a value of 2.", "B", "B", "closed-ended finite answer set non-binary non-visual", "tree"]]}

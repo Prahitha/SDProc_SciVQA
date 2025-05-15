@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["3d0adcf7a4e061c9469381b2e02f9bdd", "What is the value in the bottom right cell?", "The value in the bottom right cell of the confusion matrix is 181.", "181", "181", "closed-ended infinite answer set visual", "confusion matrix"]]}

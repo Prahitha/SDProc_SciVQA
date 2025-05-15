@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["6549555d0296fa80642a7695bde7640e", "Is the bottom graph in the left panel labeled 'movie'?", "The bottom graph in the left panel is labeled 'movie'.", "yes", "yes", "closed-ended finite answer set binary visual", "Line Chart,Heat Map"]]}

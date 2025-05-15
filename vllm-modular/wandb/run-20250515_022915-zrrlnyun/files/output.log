@@ -1,0 +1,45 @@
+Initialized wandb run: bespoke_grpo_validation
+Loading dataset from HuggingFace...
+Initializing dataset with data_dir: scivqa_data and split: validation
+Raw dataset loaded with 1680 examples for split 'validation'
+Validating validation data: 100%|███████████████████████████████████████████████████████████████████████████| 1680/1680 [00:00<00:00, 5762.54it/s]
+Successfully loaded and validated 1680 items for split 'validation'
+Loaded 1680 examples
+
+Processing examples from 0 to 8 with batch size 8
+Processing batches: 100%|███████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  1.85it/s]
+
+Processing batch 1/1 with 8 examples
+Error in API request: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f12c010f650>: Failed to establish a new connection: [Errno 111] Connection refused'))
+Failed to get question analysis response
+Error in API request: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f12bf43ecf0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+Failed to get question analysis response
+Error in API request: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f12bf43f500>: Failed to establish a new connection: [Errno 111] Connection refused'))
+Failed to get question analysis response
+Error in API request: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f12bf43fd10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+Failed to get question analysis response
+Error in API request: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f137d332450>: Failed to establish a new connection: [Errno 111] Connection refused'))
+Failed to get question analysis response
+Error in API request: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f12bf43f470>: Failed to establish a new connection: [Errno 111] Connection refused'))
+Failed to get question analysis response
+Error in API request: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f12bf43e840>: Failed to establish a new connection: [Errno 111] Connection refused'))
+Failed to get question analysis response
+Error in API request: HTTPConnectionPool(host='localhost', port=8000): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f12bf284650>: Failed to establish a new connection: [Errno 111] Connection refused'))
+Failed to get question analysis response
+Failed to get response for example 795f4ef16511f4f3496aac9b62885a1c
+Failed to get response for example 52e8d789c0d9ce7e1ab2f379da7ada5a
+Failed to get response for example a635ada76a4f9093c8da14c0daa1eaa2
+Failed to get response for example 245acd477189c90de73f3e203bdaac4b
+Failed to get response for example c0774879c6c363397342aa618ece9a59
+Failed to get response for example 47c14eccb3142b9464a3583bd8ae4685
+Failed to get response for example 09b3b3fa0698b1ff9418353b6d2375f9
+Failed to get response for example bb604bafa63c2ee962816fb015e27c8d
+
+Progress: 100.0% (8/8 examples)
+<wandb.sdk.wandb_run.Run object at 0x7f137d6632f0>
+
+Intermediate results saved to results_spoke/bespoke_grpo_validation/predictions/validation_predictions.json
+
+Final Results:
+Total examples processed: 0
+Overall accuracy: 0.00%

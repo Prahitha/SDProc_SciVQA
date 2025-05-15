@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["f84d5dcbafa41349a1988f7fac769c02", "What year does the horizontal axis begin with?", "The horizontal axis begins in the year 2005.", "2005", "2005", "closed-ended infinite answer set non-visual", "line chart"]]}

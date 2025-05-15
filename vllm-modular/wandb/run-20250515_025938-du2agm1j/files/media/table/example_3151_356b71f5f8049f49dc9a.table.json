@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["da4fe68b969759835acfd560f456c67e", "What is the colour of the boxes represented in the graph?", "The boxes in the graph are light blue.", "D", "D", "closed-ended finite answer set non-binary visual", "box plot"]]}

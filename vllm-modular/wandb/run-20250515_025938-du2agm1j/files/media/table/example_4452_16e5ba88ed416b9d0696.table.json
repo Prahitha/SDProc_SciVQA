@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["b51c47561800abd3c6c867150dc2d4fa", "What is the label of the y axis?", "The label of the y-axis is \"Number of couples\".", "Number of couples", "Number of couples", "closed-ended infinite answer set non-visual", "line chart"]]}

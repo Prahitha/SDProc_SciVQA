@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["2f04915e452e49ac112fa00e3d4fd976", "What is the maximum value marked on the relative frequency axis?", "The maximum value marked on the relative frequency axis is 6000.", "6000", "6000", "closed-ended infinite answer set non-visual", "line chart"]]}

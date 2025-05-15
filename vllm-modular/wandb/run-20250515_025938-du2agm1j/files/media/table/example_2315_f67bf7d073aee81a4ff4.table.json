@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["6bd3512172248755a5bbfe79cbaae306", "What is the grammatical function of the word 'gens'?", "The grammatical function of the word 'gens' is NC.", "C", "C", "closed-ended finite answer set non-binary non-visual", "tree"]]}

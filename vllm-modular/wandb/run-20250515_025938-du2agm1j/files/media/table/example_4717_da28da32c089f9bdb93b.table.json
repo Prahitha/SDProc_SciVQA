@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["f21418fbfb5e0ca90d3bea39d8816027", "How many words is the Japanese sentence in EN made up of?", "The Japanese sentence in EN is made up of 6 words.", "6", "6", "closed-ended infinite answer set non-visual", "tree"]]}

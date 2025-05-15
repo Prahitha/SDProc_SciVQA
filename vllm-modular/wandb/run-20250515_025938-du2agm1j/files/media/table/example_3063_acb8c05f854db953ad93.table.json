@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["124c863ef62e1ed6d39dd4b99847f367", "What color are the circles representing z_a^(i)?", "The circles representing \\( z_a^{(i)} \\) are blue.", "B", "B", "closed-ended finite answer set non-binary visual", "neural networks"]]}

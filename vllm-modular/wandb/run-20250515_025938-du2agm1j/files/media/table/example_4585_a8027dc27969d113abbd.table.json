@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["c9c4aec0059b7b00315d5abecb5f6188", "How many ticks does the y axis in figure 4 have?", "The y-axis has 5 ticks.", "A", "A", "closed-ended finite answer set non-binary non-visual", "line chart"]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["eebf5b9c24d844fe11a9c5578b5a0a80", "What color are the circles representing 'aanrijding'?", "The circles representing 'aanrijding' in the figure are blue.", "blue", "blue", "closed-ended infinite answer set visual", "scatter plot"]]}

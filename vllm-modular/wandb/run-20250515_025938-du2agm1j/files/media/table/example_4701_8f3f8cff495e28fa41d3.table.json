@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["80aebbd3edfa5c5c9d98f83cf4debe10", "What is the name of the node below and to the right of A?", "The node below and to the right of A is C.", "C", "C", "closed-ended infinite answer set visual", "tree"]]}

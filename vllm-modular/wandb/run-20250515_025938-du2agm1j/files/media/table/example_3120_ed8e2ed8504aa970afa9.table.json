@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["ea3c804dfe75b345c57a7278fd081287", "Which word is the auxiliary in the sentence?", "The word 'sja' is the auxiliary in the sentence.", "B", "B", "closed-ended finite answer set non-binary non-visual", "tree"]]}

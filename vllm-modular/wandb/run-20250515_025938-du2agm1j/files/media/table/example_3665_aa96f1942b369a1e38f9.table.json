@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["6efe36db56eff34dc592ed534f2745ec", "Is the maximum y-value 900?", "The maximum y-value is not 900. The maximum y-value appears to be around 500.", "No", "No", "closed-ended finite answer set binary non-visual", "line chart"]]}

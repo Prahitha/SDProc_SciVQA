@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["698c006c48ff59cb0a15d4296c716b69", "Which line in Figure 2 is green?", "The green line represents the authoritarian approach.", "A", "A", "closed-ended finite answer set non-binary visual", "line chart"]]}

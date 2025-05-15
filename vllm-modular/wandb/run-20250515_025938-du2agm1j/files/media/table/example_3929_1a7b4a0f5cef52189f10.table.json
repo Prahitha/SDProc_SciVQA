@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["fc4e19f6544a416b6552196b7ed5a6d0", "How many users are there?", "The figure shows two users: User A and User B. Therefore, there are two users in total.", "Two", "Two", "closed-ended infinite answer set non-visual", "architecture diagram"]]}

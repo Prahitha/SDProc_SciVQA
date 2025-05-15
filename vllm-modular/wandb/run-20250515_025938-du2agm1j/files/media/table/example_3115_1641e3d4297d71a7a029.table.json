@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["92ca0b2019db7d5cfbbc8b6e0fcd6eac", "What is the syntactic function of 'uboja\u0161ja' in the structure?", "The syntactic function of 'uboja\u0161ja' in the structure is PRED.", "PRED", "PRED", "closed-ended infinite answer set non-visual", "tree"]]}

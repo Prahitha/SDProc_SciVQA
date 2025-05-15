@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["f68fa44e4dc27965294ca497b5268dbc", "Which method on the plot is represented by green dotted line?", "The green dotted line represents the Origin method.", "B", "B", "closed-ended finite answer set non-binary visual", "line chart"]]}

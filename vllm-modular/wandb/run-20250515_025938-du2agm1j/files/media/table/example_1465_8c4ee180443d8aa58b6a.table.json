@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["d5c227c02b5f535157bb2cb270baa861", "What is the root of both the trees?", "The root of both trees is PredVP: Cl.", "PredVP: Cl", "PredVP: Cl", "closed-ended infinite answer set non-visual", "tree"]]}

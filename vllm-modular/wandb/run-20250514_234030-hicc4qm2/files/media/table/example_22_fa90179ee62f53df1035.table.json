@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ddd7d7b14748c89026fb14c7cf49de3f", "What shape is the turquoise line marked with?", "The turquoise line is marked with circles.", "C", "C", "closed-ended finite answer set non-binary visual", "line chart", "A", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["9e31b96e9eb3fafce52d3cc33948c492", "What is the last bucket on the horizontal axis?", "The last bucket on the horizontal axis is \"> 40\".", "> 40", "> 40", "closed-ended infinite answer set non-visual", "line chart"]]}

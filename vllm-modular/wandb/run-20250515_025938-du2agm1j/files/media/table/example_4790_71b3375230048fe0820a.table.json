@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["f712316a15f4a34229158b74126b5cc8", "How many labels does the 11x11 map extract contain?", "The 11x11 map extract contains 15 labels.", "15", "15", "closed-ended infinite answer set non-visual", "Other"]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["dd0ac1989256dd0dffe1ba2009c1d184", "What is the approximate height of the black bar at n=0?", "The black bar at n=0 appears to be approximately 0.08 high on the y-axis.", "0.08", "0.08", "closed-ended infinite answer set visual", "bar chart"]]}

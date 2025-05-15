@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["2ebf25f6640cc895f751ec13f99bcf73", "What is the color of the bar containing \"FE1\"?", "The bar containing \"FE1\" is colored in light blue.", "light blue", "light blue", "closed-ended infinite answer set visual", "neural networks"]]}

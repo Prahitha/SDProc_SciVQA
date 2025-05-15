@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["518f8cb607bda51c2472fcc6a41ea26f", "What is the color of the line representing \"ResNet: PT-SP-RU-FR-GE\"?", "The line representing \"ResNet: PT-SP-RU-FR-GE\" is blue.", "blue", "blue", "closed-ended infinite answer set visual", "line chart"]]}

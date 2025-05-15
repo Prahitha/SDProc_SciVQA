@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["acdaf4877ac17ef5d179394e436abc7a", "In step (2), are three elements visible in the stack?", "In step (2), there are two elements visible in the stack.", "No", "No", "closed-ended finite answer set binary non-visual", "neural networks"]]}

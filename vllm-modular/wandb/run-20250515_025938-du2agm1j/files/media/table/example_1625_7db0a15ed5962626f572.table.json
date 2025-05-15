@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["33a8264a18a73ac7a8c5e6ad35a4c057", "What color is the line representing the function \u03c8?", "The line representing the function \u03c8 is red.", "Red", "Red", "closed-ended infinite answer set visual", "line chart"]]}

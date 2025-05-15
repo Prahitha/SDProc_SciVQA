@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["bedd4ce2cb205e7d1957f351358b511e", "What is the box directly below tokenization?", "The box directly below tokenization is Multi-word Token Expansion.", "A", "A", "closed-ended finite answer set non-binary visual", "architecture diagram"]]}

@@ -1,0 +1,18 @@
+{"time":"2025-05-15T02:29:15.453901999Z","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/workspace/SDProc_SciVQA/vllm-modular/wandb/run-20250515_022915-zrrlnyun/logs/debug-core.log"}
+{"time":"2025-05-15T02:29:15.780176975Z","level":"INFO","msg":"created new stream","id":"zrrlnyun"}
+{"time":"2025-05-15T02:29:15.780270714Z","level":"INFO","msg":"stream: started","id":"zrrlnyun"}
+{"time":"2025-05-15T02:29:15.780307314Z","level":"INFO","msg":"sender: started","stream_id":"zrrlnyun"}
+{"time":"2025-05-15T02:29:15.780337584Z","level":"INFO","msg":"writer: Do: started","stream_id":"zrrlnyun"}
+{"time":"2025-05-15T02:29:15.780356814Z","level":"INFO","msg":"handler: started","stream_id":"zrrlnyun"}
+{"time":"2025-05-15T02:29:15.988009546Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-15T02:29:19.351840037Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-15T02:29:19.351932966Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-15T02:29:20.354677801Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-zrrlnyun-validation_results","runtime_seconds":1.510505958},{"desc":"uploading artifact run-zrrlnyun-validation_results","runtime_seconds":1.009040161}],"total_operations":2}}
+{"time":"2025-05-15T02:29:48.075780305Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-15T02:30:09.34611103Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-15T02:30:09.39741503Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-15T02:30:09.580472893Z","level":"INFO","msg":"stream: closing","id":"zrrlnyun"}
+{"time":"2025-05-15T02:30:09.580498633Z","level":"INFO","msg":"handler: closed","stream_id":"zrrlnyun"}
+{"time":"2025-05-15T02:30:09.580514762Z","level":"INFO","msg":"writer: Close: closed","stream_id":"zrrlnyun"}
+{"time":"2025-05-15T02:30:09.580534072Z","level":"INFO","msg":"sender: closed","stream_id":"zrrlnyun"}
+{"time":"2025-05-15T02:30:09.580628922Z","level":"INFO","msg":"stream: closed","id":"zrrlnyun"}

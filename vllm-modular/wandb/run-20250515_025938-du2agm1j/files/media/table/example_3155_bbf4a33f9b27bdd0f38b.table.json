@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["5099ca70935468ff8b6d15603c69f277", "What is the color of the 'HardWEAT' violin plot?", "The color of the 'HardWEAT' violin plot is blue.", "blue", "blue", "closed-ended infinite answer set visual", "Violin plot"]]}

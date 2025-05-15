@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["92f5138b680244ec7a2d8e26886117ab", "Are there three yt in the figure?", "Yes, there are three y0 in the figure.", "yes", "yes", "closed-ended finite answer set binary non-visual", "neural networks"]]}

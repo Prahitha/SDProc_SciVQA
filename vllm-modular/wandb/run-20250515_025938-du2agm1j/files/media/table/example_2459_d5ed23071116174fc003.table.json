@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["16adf45bdcaf4bc1e674ffc9ffbf1659", "What color are the triangle markings in figure 11?", "The triangle markings in Figure 11 are yellow.", "A", "A", "closed-ended finite answer set non-binary visual", "line chart"]]}

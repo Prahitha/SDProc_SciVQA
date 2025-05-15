@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["1483223b4fabbbc3690f21aee83bbc39", "What are the labels shown in figure 1?", "The labels shown in Figure 1 are 'NOT' and 'OFF'.", "NOT OFF", "NOT OFF", "closed-ended infinite answer set non-visual", "confusion matrix"]]}

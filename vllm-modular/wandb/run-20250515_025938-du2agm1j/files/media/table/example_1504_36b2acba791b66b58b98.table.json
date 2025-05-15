@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["8da27dd65dabf42929478d3f6b4d1bd1", "What color are the edges in the dependency tree in Figure 11?", "The edges in the dependency tree in Figure 11 are red.", "red", "red", "closed-ended infinite answer set visual", "tree"]]}

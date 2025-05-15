@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["b4b2d3abfe9a7f98bb69b3baaa7f8b2b", "According to Figure 3.5, what is the y-value at the point T60?", "The y-value at the point T60 is approximately -60 dB.", "-60", "-60", "closed-ended infinite answer set non-visual", "line chart"]]}

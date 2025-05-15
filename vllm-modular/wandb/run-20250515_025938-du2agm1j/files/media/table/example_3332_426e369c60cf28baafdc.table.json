@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["1b81a2437102645ef646b3a5bf33a466", "What is the approximate value of the highest peak?", "The highest peak appears to be approximately 3.5 on the y-axis.", "3.5", "3.5", "closed-ended infinite answer set visual", "line chart"]]}

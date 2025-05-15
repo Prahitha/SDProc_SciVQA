@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["14b88986eb1aec141653b257e3757c58", "What is the label of the y-axis?", "The label of the y-axis is '1-B01'.", "B", "B", "closed-ended finite answer set non-binary non-visual", "Other"]]}

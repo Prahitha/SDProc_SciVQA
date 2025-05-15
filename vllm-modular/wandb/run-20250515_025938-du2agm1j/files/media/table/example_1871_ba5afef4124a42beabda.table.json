@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["c898e3376e0215e43ee276e7ff26a831", "What color are the error bars on the left plot?", "The error bars on the left plot are red.", "B", "B", "closed-ended finite answer set non-binary visual", "line chart"]]}

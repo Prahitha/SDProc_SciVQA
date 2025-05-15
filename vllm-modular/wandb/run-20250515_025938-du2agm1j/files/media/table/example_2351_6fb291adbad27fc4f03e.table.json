@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["bcb1c3fe0f57806f7aef9c34a840abe2", "What is the value for correctly predicted OFF labels?", "The value for correctly predicted OFF labels is 118.", "118", "118", "closed-ended infinite answer set non-visual", "confusion matrix"]]}

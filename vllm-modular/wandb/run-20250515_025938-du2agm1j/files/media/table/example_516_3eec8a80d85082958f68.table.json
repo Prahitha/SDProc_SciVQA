@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["be0e88c647360f1d7a4556c03e71ccb0", "What is the label of the x-axis?", "The x-axis represents the length of the discriminated sub-sequences.", "length", "length", "closed-ended infinite answer set non-visual", "line chart"]]}

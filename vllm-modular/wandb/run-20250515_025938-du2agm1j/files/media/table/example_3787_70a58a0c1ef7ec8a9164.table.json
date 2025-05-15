@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["b5d1ac6ae660f6e1c097e1829fcda5dc", "Which labels are connected to the vertex \"?\" ?", "The vertex labeled \"?\" is connected to the following labels: 1, 2, and 3.", "A,B,C", "A,B,C", "closed-ended finite answer set non-binary visual", "graph"]]}

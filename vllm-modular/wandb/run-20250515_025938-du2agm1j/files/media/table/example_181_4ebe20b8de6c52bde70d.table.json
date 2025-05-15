@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["c38dadf72e1d790382a7a2b6aae12eb3", "Which are the labels of the y-axis?", "The y-axis has two labels: Accuracy and Gain percentage.", "C", "C", "closed-ended finite answer set non-binary non-visual", "line chart"]]}

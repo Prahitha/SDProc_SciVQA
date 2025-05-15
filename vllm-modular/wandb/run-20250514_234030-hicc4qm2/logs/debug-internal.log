@@ -1,0 +1,76 @@
+{"time":"2025-05-14T23:40:30.258601808Z","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/workspace/SDProc_SciVQA/vllm-modular/wandb/run-20250514_234030-hicc4qm2/logs/debug-core.log"}
+{"time":"2025-05-14T23:40:30.523429899Z","level":"INFO","msg":"created new stream","id":"hicc4qm2"}
+{"time":"2025-05-14T23:40:30.523500929Z","level":"INFO","msg":"stream: started","id":"hicc4qm2"}
+{"time":"2025-05-14T23:40:30.524839187Z","level":"INFO","msg":"handler: started","stream_id":"hicc4qm2"}
+{"time":"2025-05-14T23:40:30.524887937Z","level":"INFO","msg":"writer: Do: started","stream_id":"hicc4qm2"}
+{"time":"2025-05-14T23:40:30.524948306Z","level":"INFO","msg":"sender: started","stream_id":"hicc4qm2"}
+{"time":"2025-05-14T23:40:30.842466001Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-14T23:41:19.669400397Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:41:25.329372996Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:41:29.593368711Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:41:32.957401688Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:41:36.651106966Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:41:40.200961863Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:41:43.521078383Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:41:46.561249979Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:41:50.478355497Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:41:56.666517121Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:42:04.371798747Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:42:13.262889615Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:42:21.560000097Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:42:29.190968186Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:42:35.402674691Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:42:39.597303352Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:42:43.00238458Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:42:47.036039988Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:42:52.62970068Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:42:58.578649272Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:43:04.357026941Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:43:09.896365431Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:43:15.34864838Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:43:20.28757002Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:43:20.969842932Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:43:27.010381249Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:43:32.787713692Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:43:39.552290683Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:43:47.927963429Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:43:55.28993569Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:44:04.074251669Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:44:12.836483643Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:44:18.835239994Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:44:19.983381305Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-14T23:44:19.983486444Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-14T23:44:20.989347945Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-hicc4qm2-example","runtime_seconds":68.183943233},{"desc":"uploading artifact run-hicc4qm2-example","runtime_seconds":67.97246998},{"desc":"uploading artifact run-hicc4qm2-example","runtime_seconds":67.706027144},{"desc":"uploading artifact run-hicc4qm2-example","runtime_seconds":67.542187007},{"desc":"uploading artifact run-hicc4qm2-example","runtime_seconds":67.315692801},{"desc":"uploading artifact run-hicc4qm2-example","runtime_seconds":67.13230928},{"desc":"uploading artifact run-hicc4qm2-example","runtime_seconds":66.964461236},{"desc":"uploading artifact run-hicc4qm2-example","runtime_seconds":66.77212103},{"desc":"uploading artifact run-hicc4qm2-example","runtime_seconds":31.551128791},{"desc":"uploading artifact run-hicc4qm2-example","runtime_seconds":31.368261505}],"total_operations":25}}
+{"time":"2025-05-14T23:44:25.170126282Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:44:25.939153466Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:44:30.271557409Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:44:35.108640772Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:44:39.165492406Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:44:42.756770051Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:44:46.279891259Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:44:50.173901447Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:44:54.182842835Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:44:59.684666714Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:45:05.842292215Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:45:12.309037928Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:45:19.718276006Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:45:21.059302554Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-hicc4qm2-example","runtime_seconds":90.878867398},{"desc":"uploading artifact run-hicc4qm2-example","runtime_seconds":90.67745408},{"desc":"uploading artifact run-hicc4qm2-example","runtime_seconds":90.532195394},{"desc":"uploading artifact run-hicc4qm2-example","runtime_seconds":90.3208466},{"desc":"uploading artifact run-hicc4qm2-example","runtime_seconds":62.490542695},{"desc":"uploading artifact run-hicc4qm2-example","runtime_seconds":62.317390956},{"desc":"uploading artifact run-hicc4qm2-example","runtime_seconds":62.16057195},{"desc":"uploading artifact run-hicc4qm2-example","runtime_seconds":61.944609245},{"desc":"uploading artifact run-hicc4qm2-example","runtime_seconds":61.785650856},{"desc":"uploading artifact run-hicc4qm2-example","runtime_seconds":61.621984898}],"total_operations":12}}
+{"time":"2025-05-14T23:45:26.167608013Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:45:33.101213021Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:45:39.797303218Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:45:45.841605987Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:45:52.497276196Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:45:59.69554525Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:46:05.855794851Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:46:12.160386201Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:46:18.27562292Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:46:21.132980181Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-hicc4qm2-example","runtime_seconds":121.695646676},{"desc":"uploading artifact run-hicc4qm2-example","runtime_seconds":121.535362408},{"desc":"uploading artifact run-hicc4qm2-example","runtime_seconds":121.34456279}],"total_operations":3}}
+{"time":"2025-05-14T23:46:23.630767953Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:46:28.484024102Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:46:34.241572007Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-14T23:46:34.29296528Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-14T23:46:34.495654046Z","level":"INFO","msg":"stream: closing","id":"hicc4qm2"}
+{"time":"2025-05-14T23:46:34.495692836Z","level":"INFO","msg":"handler: closed","stream_id":"hicc4qm2"}
+{"time":"2025-05-14T23:46:34.495712955Z","level":"INFO","msg":"writer: Close: closed","stream_id":"hicc4qm2"}
+{"time":"2025-05-14T23:46:34.495736425Z","level":"INFO","msg":"sender: closed","stream_id":"hicc4qm2"}
+{"time":"2025-05-14T23:46:34.499120227Z","level":"INFO","msg":"stream: closed","id":"hicc4qm2"}

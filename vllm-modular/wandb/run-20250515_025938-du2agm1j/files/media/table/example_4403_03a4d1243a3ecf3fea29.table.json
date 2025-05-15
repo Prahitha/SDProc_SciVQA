@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["fe57542a8089f0f48a508c2af99b91c8", "What is the largest source data size shown on the graph?", "The largest source data size shown on the graph is 2G.", "2G", "2G", "closed-ended infinite answer set non-visual", "line chart"]]}

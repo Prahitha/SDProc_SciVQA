@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["633bb6a028f8633f9c06ce6cbd8079a4", "What is the value of the light blue slice?", "The value of the light blue slice is 249.", "249", "249", "closed-ended infinite answer set visual", "pie chart"]]}

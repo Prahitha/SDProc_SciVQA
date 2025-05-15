@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["a6ea4c53c0777b6a3e2ae143ec75aaa0", "Which color represents Frequency?", "The black bars represent the Frequency.", "C", "C", "closed-ended finite answer set non-binary visual", "bar chart"]]}

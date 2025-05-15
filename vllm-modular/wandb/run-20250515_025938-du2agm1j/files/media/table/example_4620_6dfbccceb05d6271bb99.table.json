@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["2f2eed066c8c38ce04a29eae50d9313b", "What shape are the markers in the scatter plot?", "The markers in the scatter plot are circles.", "circles", "circles", "closed-ended infinite answer set visual", "scatter plot"]]}

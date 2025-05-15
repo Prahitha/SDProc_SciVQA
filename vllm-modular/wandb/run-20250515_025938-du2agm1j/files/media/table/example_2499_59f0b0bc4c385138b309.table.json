@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["c6fd31a10595c3ebc91678d8b1d42e09", "In which corner of the graphs is the legend located?", "The legend is located in the top right corner of each graph.", "B", "B", "closed-ended finite answer set non-binary visual", "line chart"]]}

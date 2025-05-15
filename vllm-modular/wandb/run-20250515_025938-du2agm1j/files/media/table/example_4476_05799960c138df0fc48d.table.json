@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["c80854ff011787b076a52a98a4a04fed", "What is the maximum HF iteration marked on the horizontal axis?", "The maximum HF iteration marked on the horizontal axis is 25.", "25", "25", "closed-ended infinite answer set non-visual", "line chart"]]}

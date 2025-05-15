@@ -1,0 +1,25 @@
+{"time":"2025-05-15T00:08:38.842353988Z","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/workspace/SDProc_SciVQA/vllm-modular/wandb/run-20250515_000838-jo16ku8r/logs/debug-core.log"}
+{"time":"2025-05-15T00:08:39.119560264Z","level":"INFO","msg":"created new stream","id":"jo16ku8r"}
+{"time":"2025-05-15T00:08:39.119658193Z","level":"INFO","msg":"stream: started","id":"jo16ku8r"}
+{"time":"2025-05-15T00:08:39.120385967Z","level":"INFO","msg":"handler: started","stream_id":"jo16ku8r"}
+{"time":"2025-05-15T00:08:39.120443517Z","level":"INFO","msg":"writer: Do: started","stream_id":"jo16ku8r"}
+{"time":"2025-05-15T00:08:39.120454487Z","level":"INFO","msg":"sender: started","stream_id":"jo16ku8r"}
+{"time":"2025-05-15T00:08:39.343858501Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-15T00:09:23.41027363Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-15T00:09:23.410528268Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-15T00:09:24.41859713Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-jo16ku8r-example","runtime_seconds":2.632634886},{"desc":"uploading artifact run-jo16ku8r-example","runtime_seconds":2.192596227},{"desc":"uploading artifact run-jo16ku8r-example","runtime_seconds":2.029198834},{"desc":"uploading artifact run-jo16ku8r-example","runtime_seconds":1.8444720449999998},{"desc":"uploading artifact run-jo16ku8r-example","runtime_seconds":1.6865361509999999},{"desc":"uploading artifact run-jo16ku8r-example","runtime_seconds":1.516204792},{"desc":"uploading artifact run-jo16ku8r-example","runtime_seconds":1.340496833},{"desc":"uploading artifact run-jo16ku8r-example","runtime_seconds":1.184914501},{"desc":"uploading artifact run-jo16ku8r-validation_results","runtime_seconds":1.014572393}],"total_operations":9}}
+{"time":"2025-05-15T00:09:24.85066861Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-15T00:09:30.482298049Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-15T00:09:31.61227972Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-15T00:09:36.580633998Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-15T00:09:42.475813508Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-15T00:09:47.977894485Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-15T00:09:53.21072468Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-15T00:09:59.71858729Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-15T00:10:05.827063546Z","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-05-15T00:10:05.883548182Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-15T00:10:06.130478796Z","level":"INFO","msg":"stream: closing","id":"jo16ku8r"}
+{"time":"2025-05-15T00:10:06.130516486Z","level":"INFO","msg":"handler: closed","stream_id":"jo16ku8r"}
+{"time":"2025-05-15T00:10:06.130537646Z","level":"INFO","msg":"writer: Close: closed","stream_id":"jo16ku8r"}
+{"time":"2025-05-15T00:10:06.130554796Z","level":"INFO","msg":"sender: closed","stream_id":"jo16ku8r"}
+{"time":"2025-05-15T00:10:06.130677035Z","level":"INFO","msg":"stream: closed","id":"jo16ku8r"}

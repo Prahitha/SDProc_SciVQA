@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["e4f7c2311c50c3e86c4e03ff607e6b97", "How many nodes are in figure 8?", "The figure contains 9 nodes.", "9", "9", "closed-ended infinite answer set non-visual", "graph"]]}

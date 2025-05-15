@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["0d738904bc6d85a075a8b284f2c6924d", "What is the colour of the bar representing the RNNG model?", "The bar representing the RNNG model is pink.", "B", "B", "closed-ended finite answer set non-binary visual", "bar chart"]]}

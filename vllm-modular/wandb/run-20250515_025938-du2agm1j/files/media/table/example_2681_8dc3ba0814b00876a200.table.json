@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "question_analysis", "qa_pair_type_analysis", "final_answer", "qa_pair_type", "fig_type"], "data": [["5e84da097e93a7a36b0c74db238e45fd", "What is the maximum x-value in figure 4?", "The x-axis ranges from 0 to 7. The maximum x-value in Figure 4 is 7.", "7", "7", "closed-ended infinite answer set non-visual", "line chart"]]}
