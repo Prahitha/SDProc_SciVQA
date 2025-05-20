@@ -13,16 +13,16 @@ def convert_predictions_to_csv(json_path: str, output_path: str):
         output_path (str): Path to save the CSV file
     """
     # Read JSON file
-    with open(json_path, 'r') as f:
-        predictions = json.load(f)
+    # with open(json_path, 'r') as f:
+    #     predictions = json.load(f)
 
-    # Convert to DataFrame
-    df = pd.DataFrame(predictions)
-
+    # # Convert to DataFrame
+    # df = pd.DataFrame(predictions)
+    df = pd.read_csv(json_path)
     # Rename columns
     df = df.rename(columns={
         'id': 'instance_id',
-        'response': 'answer_pred'
+        'final_answer': 'answer_pred'
     })
 
     # Select only required columns
@@ -36,8 +36,8 @@ def convert_predictions_to_csv(json_path: str, output_path: str):
 def main():
     parser = argparse.ArgumentParser(
         description='Convert JSON predictions to CSV format')
-    parser.add_argument('--json_path', type=str, required=True,
-                        help='Path to JSON predictions file')
+    parser.add_argument('--json_path', type=str,
+                        help='Path to JSON predictions file', default='wand.csv')
     parser.add_argument('--output_path', type=str,
                         default='predictions.csv', help='Path to save CSV file')
 

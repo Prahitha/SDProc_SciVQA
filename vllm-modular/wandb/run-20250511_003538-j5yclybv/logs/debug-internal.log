@@ -1,0 +1,16 @@
+{"time":"2025-05-11T00:35:38.791777-07:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/Users/harshita/Documents/Paper/SDProc_SciVQA/vllm-modular/wandb/run-20250511_003538-j5yclybv/logs/debug-core.log"}
+{"time":"2025-05-11T00:35:39.112543-07:00","level":"INFO","msg":"created new stream","id":"j5yclybv"}
+{"time":"2025-05-11T00:35:39.112578-07:00","level":"INFO","msg":"stream: started","id":"j5yclybv"}
+{"time":"2025-05-11T00:35:39.1126-07:00","level":"INFO","msg":"writer: Do: started","stream_id":"j5yclybv"}
+{"time":"2025-05-11T00:35:39.112962-07:00","level":"INFO","msg":"handler: started","stream_id":"j5yclybv"}
+{"time":"2025-05-11T00:35:39.112982-07:00","level":"INFO","msg":"sender: started","stream_id":"j5yclybv"}
+{"time":"2025-05-11T00:35:39.32348-07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-11T00:35:47.46984-07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-11T00:35:47.469886-07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-11T00:35:47.96626-07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-11T00:35:48.476733-07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-10, summary, console lines 3-337","runtime_seconds":0.50975075}],"total_operations":1}}
+{"time":"2025-05-11T00:35:48.577357-07:00","level":"INFO","msg":"stream: closing","id":"j5yclybv"}
+{"time":"2025-05-11T00:35:48.577388-07:00","level":"INFO","msg":"handler: closed","stream_id":"j5yclybv"}
+{"time":"2025-05-11T00:35:48.57741-07:00","level":"INFO","msg":"sender: closed","stream_id":"j5yclybv"}
+{"time":"2025-05-11T00:35:48.577404-07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"j5yclybv"}
+{"time":"2025-05-11T00:35:48.577673-07:00","level":"INFO","msg":"stream: closed","id":"j5yclybv"}

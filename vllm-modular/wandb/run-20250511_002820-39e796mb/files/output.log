@@ -1,0 +1,426 @@
+Initialized wandb run: inference
+Loading dataset from HuggingFace...
+Initializing dataset with data_dir: scivqa_data and split: validation
+Raw dataset loaded with 1680 examples for split 'validation'
+Validating validation data: 100%|███████████████████████████████████| 1680/1680 [00:00<00:00, 24444.87it/s]
+Successfully loaded and validated 1680 items for split 'validation'
+Loaded 1680 examples
+
+Processing examples from 0 to 8 with batch size 1
+Processing batches:   0%|                                                            | 0/8 [00:00<?, ?it/s]
+
+Processing batch 1/8 with 1 examples
+STEP 1: INITIAL ANALYSIS
+Given the figure, caption, and question, analyze and answer step by step. Please think step by step, and regularly perform self-questioning, self-verification, self-correction to check your ongoing reasoning, using connectives such as "Wait a moment", "Wait, does it seem right?" etc.
+Figure Type: line chart
+1. What type of visualization is this?
+2. What are the key elements?
+
+Caption Analysis:
+Figure 6: Number of documents with an “attack”ing country per 3-month period, and coreference posterior uncertainty for that quantity. The dark line is the posterior mean, and the shaded region is the 95% posterior credible interval. See appendix for more examples.
+1. What is the main topic?
+2. What key information is provided?
+
+Question Analysis:
+What is the approximate maximum value of the shaded area for the blue line in the lower plot?
+1. What information is needed?
+2. Where can we find it in the figure?
+
+Integration Analysis:
+1. How do caption and question relate?
+2. Which parts of the figure are relevant?
+
+
+STEP 2: COMPOUND FIGURE NAVIGATION
+Navigate to the 1 graph in the compound figure:
+1. Locate the correct subfigure
+2. Proceed with analysis
+
+STEP 2: COT INFERENCE
+Answer the question with only the raw numerical value or single word/phrase, omitting all units, context words, and explanatory text. Approximations in the scale are allowed. For the question to provide the range, provide the [min - max] range in the answer.
+This is a line chart.
+Focus on the following aspects of the line chart:
+- Colors of different lines and their meanings
+- X and Y axis labels and their units
+- Scale and range of values
+- Trends and patterns in the lines
+
+What is the approximate maximum value of the shaded area for the blue line in the lower plot?
+This is a binary question requiring a Yes or No answer based on visual evidence.
+1. Identify the key elements in the question
+2. Examine the evidence
+3. Provide your Yes or No answer
+
+Warning: Image file not found at scivqa_data/images_validation/1508.05154v2-Figure6-1.png
+Warning: No valid image data. Proceeding with text-only query.
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Failed to get question analysis response
+Failed to get response for example 795f4ef16511f4f3496aac9b62885a1c
+
+Progress: 12.5% (1/8 examples)
+
+Intermediate results saved to results_qwen/Qwen/Qwen2.5-VL-7B-Instruct_validation_20250511_002819/predictions/validation_predictions.json
+
+Processing batch 2/8 with 1 examples
+STEP 1: INITIAL ANALYSIS
+Given the figure, caption, and question, analyze and answer step by step. Please think step by step, and regularly perform self-questioning, self-verification, self-correction to check your ongoing reasoning, using connectives such as "Wait a moment", "Wait, does it seem right?" etc.
+Figure Type: line chart
+1. What type of visualization is this?
+2. What are the key elements?
+
+Caption Analysis:
+Figure 6: Number of documents with an “attack”ing country per 3-month period, and coreference posterior uncertainty for that quantity. The dark line is the posterior mean, and the shaded region is the 95% posterior credible interval. See appendix for more examples.
+1. What is the main topic?
+2. What key information is provided?
+
+Question Analysis:
+Which country is referenced in the first plot?
+1. What information is needed?
+2. Where can we find it in the figure?
+
+Integration Analysis:
+1. How do caption and question relate?
+2. Which parts of the figure are relevant?
+
+
+STEP 2: COMPOUND FIGURE NAVIGATION
+Navigate to the 1 graph in the compound figure:
+1. Locate the correct subfigure
+2. Proceed with analysis
+
+STEP 2: COT INFERENCE
+Answer the question with only the raw numerical value or single word/phrase, omitting all units, context words, and explanatory text. Approximations in the scale are allowed. For the question to provide the range, provide the [min - max] range in the answer.
+This is a line chart.
+Focus on the following aspects of the line chart:
+- Colors of different lines and their meanings
+- X and Y axis labels and their units
+- Scale and range of values
+- Trends and patterns in the lines
+
+Which country is referenced in the first plot?
+This is a binary question requiring a Yes or No answer based on visual evidence.
+1. Identify the key elements in the question
+2. Examine the evidence
+3. Provide your Yes or No answer
+
+Warning: Image file not found at scivqa_data/images_validation/1508.05154v2-Figure6-1.png
+Warning: No valid image data. Proceeding with text-only query.
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Failed to get question analysis response
+Failed to get response for example 52e8d789c0d9ce7e1ab2f379da7ada5a
+
+Progress: 25.0% (2/8 examples)
+
+Intermediate results saved to results_qwen/Qwen/Qwen2.5-VL-7B-Instruct_validation_20250511_002819/predictions/validation_predictions.json
+
+Processing batch 3/8 with 1 examples
+STEP 1: INITIAL ANALYSIS
+Given the figure, caption, and question, analyze and answer step by step. Please think step by step, and regularly perform self-questioning, self-verification, self-correction to check your ongoing reasoning, using connectives such as "Wait a moment", "Wait, does it seem right?" etc.
+Figure Type: line chart
+1. What type of visualization is this?
+2. What are the key elements?
+
+Caption Analysis:
+Figure 6: Number of documents with an “attack”ing country per 3-month period, and coreference posterior uncertainty for that quantity. The dark line is the posterior mean, and the shaded region is the 95% posterior credible interval. See appendix for more examples.
+1. What is the main topic?
+2. What key information is provided?
+
+Question Analysis:
+Is the shaded region for 'NATO' consistently below that of 'Serbia/Yugo.' in the bottom plot?
+1. What information is needed?
+2. Where can we find it in the figure?
+
+Integration Analysis:
+1. How do caption and question relate?
+2. Which parts of the figure are relevant?
+
+
+STEP 2: COMPOUND FIGURE NAVIGATION
+Navigate to the 1 graph in the compound figure:
+1. Locate the correct subfigure
+2. Proceed with analysis
+
+STEP 2: COT INFERENCE
+Answer the question with only the raw numerical value or single word/phrase, omitting all units, context words, and explanatory text. Approximations in the scale are allowed. For the question to provide the range, provide the [min - max] range in the answer.
+This is a line chart.
+Focus on the following aspects of the line chart:
+- Colors of different lines and their meanings
+- X and Y axis labels and their units
+- Scale and range of values
+- Trends and patterns in the lines
+
+Is the shaded region for 'NATO' consistently below that of 'Serbia/Yugo.' in the bottom plot?
+This is a binary question requiring a Yes or No answer based on visual evidence.
+1. Identify the key elements in the question
+2. Examine the evidence
+3. Provide your Yes or No answer
+
+Warning: Image file not found at scivqa_data/images_validation/1508.05154v2-Figure6-1.png
+Warning: No valid image data. Proceeding with text-only query.
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Failed to get question analysis response
+Failed to get response for example a635ada76a4f9093c8da14c0daa1eaa2
+
+Progress: 37.5% (3/8 examples)
+
+Intermediate results saved to results_qwen/Qwen/Qwen2.5-VL-7B-Instruct_validation_20250511_002819/predictions/validation_predictions.json
+
+Processing batch 4/8 with 1 examples
+STEP 1: INITIAL ANALYSIS
+Given the figure, caption, and question, analyze and answer step by step. Please think step by step, and regularly perform self-questioning, self-verification, self-correction to check your ongoing reasoning, using connectives such as "Wait a moment", "Wait, does it seem right?" etc.
+Figure Type: line chart
+1. What type of visualization is this?
+2. What are the key elements?
+
+Caption Analysis:
+Figure 6: Number of documents with an “attack”ing country per 3-month period, and coreference posterior uncertainty for that quantity. The dark line is the posterior mean, and the shaded region is the 95% posterior credible interval. See appendix for more examples.
+1. What is the main topic?
+2. What key information is provided?
+
+Question Analysis:
+Is the number of documents with an "attacking" country per 3-month period for the USA consistently higher than that of Serbia/Yugoslavia?
+1. What information is needed?
+2. Where can we find it in the figure?
+
+Integration Analysis:
+1. How do caption and question relate?
+2. Which parts of the figure are relevant?
+
+
+STEP 2: COMPOUND FIGURE NAVIGATION
+Navigate to the 1 graph in the compound figure:
+1. Locate the correct subfigure
+2. Proceed with analysis
+
+STEP 2: COT INFERENCE
+Answer the question with only the raw numerical value or single word/phrase, omitting all units, context words, and explanatory text. Approximations in the scale are allowed. For the question to provide the range, provide the [min - max] range in the answer.
+This is a line chart.
+Focus on the following aspects of the line chart:
+- Colors of different lines and their meanings
+- X and Y axis labels and their units
+- Scale and range of values
+- Trends and patterns in the lines
+
+Is the number of documents with an "attacking" country per 3-month period for the USA consistently higher than that of Serbia/Yugoslavia?
+This is a binary question requiring a Yes or No answer based on visual evidence.
+1. Identify the key elements in the question
+2. Examine the evidence
+3. Provide your Yes or No answer
+
+Warning: Image file not found at scivqa_data/images_validation/1508.05154v2-Figure6-1.png
+Warning: No valid image data. Proceeding with text-only query.
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Failed to get question analysis response
+Failed to get response for example 245acd477189c90de73f3e203bdaac4b
+
+Progress: 50.0% (4/8 examples)
+
+Intermediate results saved to results_qwen/Qwen/Qwen2.5-VL-7B-Instruct_validation_20250511_002819/predictions/validation_predictions.json
+
+Processing batch 5/8 with 1 examples
+STEP 1: INITIAL ANALYSIS
+Given the figure, caption, and question, analyze and answer step by step. Please think step by step, and regularly perform self-questioning, self-verification, self-correction to check your ongoing reasoning, using connectives such as "Wait a moment", "Wait, does it seem right?" etc.
+Figure Type: line chart
+1. What type of visualization is this?
+2. What are the key elements?
+
+Caption Analysis:
+Figure 6: Number of documents with an “attack”ing country per 3-month period, and coreference posterior uncertainty for that quantity. The dark line is the posterior mean, and the shaded region is the 95% posterior credible interval. See appendix for more examples.
+1. What is the main topic?
+2. What key information is provided?
+
+Question Analysis:
+Which line represents the quantity of documents with an "attacking" country for Serbia/Yugoslavia?
+1. What information is needed?
+2. Where can we find it in the figure?
+
+Integration Analysis:
+1. How do caption and question relate?
+2. Which parts of the figure are relevant?
+
+
+STEP 2: COMPOUND FIGURE NAVIGATION
+Navigate to the 1 graph in the compound figure:
+1. Locate the correct subfigure
+2. Proceed with analysis
+
+STEP 2: COT INFERENCE
+Answer the question with only the raw numerical value or single word/phrase, omitting all units, context words, and explanatory text. Approximations in the scale are allowed. For the question to provide the range, provide the [min - max] range in the answer.
+This is a line chart.
+Focus on the following aspects of the line chart:
+- Colors of different lines and their meanings
+- X and Y axis labels and their units
+- Scale and range of values
+- Trends and patterns in the lines
+
+Which line represents the quantity of documents with an "attacking" country for Serbia/Yugoslavia?
+This is a binary question requiring a Yes or No answer based on visual evidence.
+1. Identify the key elements in the question
+2. Examine the evidence
+3. Provide your Yes or No answer
+
+Based on the reasoning above, match it to one or more of the provided answer options: {'A': 'The blue line', 'B': 'The red line', 'C': 'The gray line', 'D': 'All of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.
+Warning: Image file not found at scivqa_data/images_validation/1508.05154v2-Figure6-1.png
+Warning: No valid image data. Proceeding with text-only query.
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Failed to get question analysis response
+Failed to get response for example c0774879c6c363397342aa618ece9a59
+
+Progress: 62.5% (5/8 examples)
+
+Intermediate results saved to results_qwen/Qwen/Qwen2.5-VL-7B-Instruct_validation_20250511_002819/predictions/validation_predictions.json
+
+Processing batch 6/8 with 1 examples
+STEP 1: INITIAL ANALYSIS
+Given the figure, caption, and question, analyze and answer step by step. Please think step by step, and regularly perform self-questioning, self-verification, self-correction to check your ongoing reasoning, using connectives such as "Wait a moment", "Wait, does it seem right?" etc.
+Figure Type: line chart
+1. What type of visualization is this?
+2. What are the key elements?
+
+Caption Analysis:
+Figure 6: Number of documents with an “attack”ing country per 3-month period, and coreference posterior uncertainty for that quantity. The dark line is the posterior mean, and the shaded region is the 95% posterior credible interval. See appendix for more examples.
+1. What is the main topic?
+2. What key information is provided?
+
+Question Analysis:
+Which of the following has the highest number of documents with an "attack"ing country per 3-month period, during the time period shown in the figure?
+1. What information is needed?
+2. Where can we find it in the figure?
+
+Integration Analysis:
+1. How do caption and question relate?
+2. Which parts of the figure are relevant?
+
+
+STEP 2: COMPOUND FIGURE NAVIGATION
+Navigate to the 1 graph in the compound figure:
+1. Locate the correct subfigure
+2. Proceed with analysis
+
+STEP 2: COT INFERENCE
+Answer the question with only the raw numerical value or single word/phrase, omitting all units, context words, and explanatory text. Approximations in the scale are allowed. For the question to provide the range, provide the [min - max] range in the answer.
+This is a line chart.
+Focus on the following aspects of the line chart:
+- Colors of different lines and their meanings
+- X and Y axis labels and their units
+- Scale and range of values
+- Trends and patterns in the lines
+
+Which of the following has the highest number of documents with an "attack"ing country per 3-month period, during the time period shown in the figure?
+This is a binary question requiring a Yes or No answer based on visual evidence.
+1. Identify the key elements in the question
+2. Examine the evidence
+3. Provide your Yes or No answer
+
+Based on the reasoning above, match it to one or more of the provided answer options: {'A': 'USA', 'B': 'NATO', 'C': 'Serbia/Yugo.', 'D': 'None of the above'}. Return only the corresponding letter(s) of the correct answer(s). Do not explain your choice, do not rephrase the answer, and do not repeat the option text. Only output the letter(s) corresponding to the correct choice. If multiple letters are correct, separate them by commas without spaces (for example: B,C). If all options are correct, return A,B,C,D. Do not add anything else.
+Warning: Image file not found at scivqa_data/images_validation/1508.05154v2-Figure6-1.png
+Warning: No valid image data. Proceeding with text-only query.
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Failed to get question analysis response
+Failed to get response for example 47c14eccb3142b9464a3583bd8ae4685
+
+Progress: 75.0% (6/8 examples)
+
+Intermediate results saved to results_qwen/Qwen/Qwen2.5-VL-7B-Instruct_validation_20250511_002819/predictions/validation_predictions.json
+
+Processing batch 7/8 with 1 examples
+STEP 1: INITIAL ANALYSIS
+Given the figure, caption, and question, analyze and answer step by step. Please think step by step, and regularly perform self-questioning, self-verification, self-correction to check your ongoing reasoning, using connectives such as "Wait a moment", "Wait, does it seem right?" etc.
+Figure Type: line chart
+1. What type of visualization is this?
+2. What are the key elements?
+
+Caption Analysis:
+Figure 6: Number of documents with an “attack”ing country per 3-month period, and coreference posterior uncertainty for that quantity. The dark line is the posterior mean, and the shaded region is the 95% posterior credible interval. See appendix for more examples.
+1. What is the main topic?
+2. What key information is provided?
+
+Question Analysis:
+What is the relationship between the number of documents mentioning an 'attacking' country and the coreference posterior uncertainty?
+1. What information is needed?
+2. Where can we find it in the figure?
+
+Integration Analysis:
+1. How do caption and question relate?
+2. Which parts of the figure are relevant?
+
+
+STEP 2: COMPOUND FIGURE NAVIGATION
+Navigate to the 1 graph in the compound figure:
+1. Locate the correct subfigure
+2. Proceed with analysis
+
+STEP 2: COT INFERENCE
+Answer the question with only the raw numerical value or single word/phrase, omitting all units, context words, and explanatory text. Approximations in the scale are allowed. For the question to provide the range, provide the [min - max] range in the answer.
+This is a line chart.
+Focus on the following aspects of the line chart:
+- Colors of different lines and their meanings
+- X and Y axis labels and their units
+- Scale and range of values
+- Trends and patterns in the lines
+
+What is the relationship between the number of documents mentioning an 'attacking' country and the coreference posterior uncertainty?
+This is a binary question requiring a Yes or No answer based on textual evidence.
+1. Identify the key elements in the question
+2. Examine the evidence
+3. Provide your Yes or No answer
+
+Warning: Image file not found at scivqa_data/images_validation/1508.05154v2-Figure6-1.png
+Warning: No valid image data. Proceeding with text-only query.
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Failed to get question analysis response
+Failed to get response for example 09b3b3fa0698b1ff9418353b6d2375f9
+
+Progress: 87.5% (7/8 examples)
+
+Intermediate results saved to results_qwen/Qwen/Qwen2.5-VL-7B-Instruct_validation_20250511_002819/predictions/validation_predictions.json
+
+Processing batch 8/8 with 1 examples
+STEP 1: INITIAL ANALYSIS
+Given the figure, caption, and question, analyze and answer step by step. Please think step by step, and regularly perform self-questioning, self-verification, self-correction to check your ongoing reasoning, using connectives such as "Wait a moment", "Wait, does it seem right?" etc.
+Figure Type: line chart
+1. What type of visualization is this?
+2. What are the key elements?
+
+Caption Analysis:
+Figure 5 Logistic function h(x) = 1 1+exp{−x} truncates polarity values to (0, 1) smoothly. The computed values are used as polarity probabilities.
+1. What is the main topic?
+2. What key information is provided?
+
+Question Analysis:
+What is the shape of the curve representing the logistic function?
+1. What information is needed?
+2. Where can we find it in the figure?
+
+Integration Analysis:
+1. How do caption and question relate?
+2. Which parts of the figure are relevant?
+
+STEP 2: COT INFERENCE
+Answer the question with only the raw numerical value or single word/phrase, omitting all units, context words, and explanatory text. Approximations in the scale are allowed. For the question to provide the range, provide the [min - max] range in the answer.
+This is a line chart.
+Focus on the following aspects of the line chart:
+- Colors of different lines and their meanings
+- X and Y axis labels and their units
+- Scale and range of values
+- Trends and patterns in the lines
+
+What is the shape of the curve representing the logistic function?
+This is a binary question requiring a Yes or No answer based on visual evidence.
+1. Identify the key elements in the question
+2. Examine the evidence
+3. Provide your Yes or No answer
+
+Warning: Image file not found at scivqa_data/images_validation/1401.6330v2-Figure5-1.png
+Warning: No valid image data. Proceeding with text-only query.
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Failed to get question analysis response
+Failed to get response for example bb604bafa63c2ee962816fb015e27c8d
+
+Progress: 100.0% (8/8 examples)
+
+Intermediate results saved to results_qwen/Qwen/Qwen2.5-VL-7B-Instruct_validation_20250511_002819/predictions/validation_predictions.json
+
+Final Results:
+Total examples processed: 0
+Overall accuracy: 0.00%

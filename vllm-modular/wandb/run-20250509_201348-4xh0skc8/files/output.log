@@ -1,0 +1,13 @@
+Loading dataset from HuggingFace...
+Initializing dataset with data_dir: scivqa_data and split: validation
+Raw dataset loaded with 1680 examples for split 'validation'
+Validating validation data: 100%|███████████████████████████████████| 1680/1680 [00:00<00:00, 23824.42it/s]
+Successfully loaded and validated 1680 items for split 'validation'
+Loaded 1680 examples
+
+Processing examples from 0 to 8 with batch size 8
+Processing batches:   0%|                                                            | 0/1 [00:41<?, ?it/s]
+
+Processing batch 1/1 with 8 examples
+Warning: Image file not found at scivqa_data/images_validation/1508.05154v2-Figure6-1.png
+Warning: No valid image data. Proceeding with text-only query.

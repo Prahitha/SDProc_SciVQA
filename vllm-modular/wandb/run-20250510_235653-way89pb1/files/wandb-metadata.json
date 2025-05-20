@@ -1,0 +1,44 @@
+{
+  "os": "macOS-15.4.1-arm64-arm-64bit",
+  "python": "CPython 3.11.11",
+  "startedAt": "2025-05-11T06:56:53.117405Z",
+  "program": "/Users/harshita/Documents/Paper/SDProc_SciVQA/vllm-modular/main.py",
+  "codePath": "vllm-modular/main.py",
+  "git": {
+    "remote": "https://github.com/Prahitha/SDProc_SciVQA.git",
+    "commit": "6293308a63fe2b30746d1b941a7308691ae6ccf7"
+  },
+  "email": "nagaharshitamarupaka@gmail.com",
+  "root": "/Users/harshita/Documents/Paper/SDProc_SciVQA/vllm-modular",
+  "host": "mac.lan",
+  "executable": "/Users/harshita/miniconda3/envs/paper/bin/python",
+  "codePathLocal": "main.py",
+  "cpu_count": 10,
+  "cpu_count_logical": 10,
+  "disk": {
+    "/": {
+      "total": "245107195904",
+      "used": "183579590656"
+    },
+    "/System/Volumes/Data": {
+      "total": "245107195904",
+      "used": "183579590656"
+    }
+  },
+  "memory": {
+    "total": "17179869184"
+  },
+  "cpu": {
+    "count": 10,
+    "countLogical": 10
+  },
+  "apple": {
+    "name": "Apple M4",
+    "ecpuCores": 6,
+    "pcpuCores": 4,
+    "gpuCores": 8,
+    "memoryGb": 16,
+    "swapTotalBytes": "3221225472",
+    "ramTotalBytes": "17179869184"
+  }
+}
