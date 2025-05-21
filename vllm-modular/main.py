@@ -7,6 +7,7 @@ import pandas as pd
 import time
 import wandb
 from vllm_inference import VLLMInference, VLLMConfig
+from prompts import PromptCreator
 from tqdm import tqdm
 from dataset import SciVQADataset
 from datetime import datetime
@@ -159,6 +160,7 @@ def main():
             vllm_url=config['vllm']['url']
         )
         vllm = VLLMInference(config=vllm_config)
+        prompt_creator = PromptCreator()
 
         # Load dataset
         dataset = SciVQADataset.from_huggingface(
@@ -193,9 +195,10 @@ def main():
 
             # Create prompts for batch
             image_paths = [example['image_path'] for example in batch]
+            prompts = prompt_creator.create_batch_prompts(batch)
 
             # Run inference
-            outputs = vllm.cot_batch_infer(batch, image_paths)
+            outputs = vllm.batch_infer(prompts, image_paths)
             import re
 
             def remove_all_tags(text):
@@ -204,15 +207,11 @@ def main():
 
             batch_results = []
             for example, output in zip(batch, outputs):
-                if output and 'question_analysis' in output and 'qa_type_analysis' in output:
-                    # Get initial analysis
-                    question_analysis = output['question_analysis']['choices'][0]['message']['content'].strip(
-                    )
-                    # Get final answer
-                    qa_type_analysis = output['qa_type_analysis']['choices'][0]['message']['content'].strip(
+                if output and 'choices' in output and len(output['choices']) > 0:
+                    final_answer = output['choices'][0]['message']['content'].strip(
                     )
 
-                    final_answer = remove_all_tags(qa_type_analysis)
+                    final_answer = remove_all_tags(final_answer)
                     if example['qa_pair_type'] == 'unanswerable':
                         final_answer = "It is not possible to answer this question based only on the provided data."
 
@@ -220,8 +219,6 @@ def main():
                     result = {
                         'id': example.get('id', ''),
                         'question': example['question'],
-                        'question_analysis': question_analysis,
-                        'qa_pair_type_analysis': qa_type_analysis,
                         'final_answer': final_answer,
                         'qa_pair_type': example['qa_pair_type'],
                         'fig_type': example['figure_type']
@@ -240,8 +237,6 @@ def main():
                         # Print example details for train/validation
                         print(f"\nExample {len(results)}:")
                         print(f"Question: {example['question']}")
-                        print(f"Question Analysis: {question_analysis}")
-                        print(f"QA Type Analysis: {qa_type_analysis}")
                         print(f"Final Answer: {final_answer}")
                         print(f"Ground Truth: {example['answer']}")
                         print(f"Correct: {'✅' if is_correct else '❌'}")
@@ -249,8 +244,6 @@ def main():
                         # Print only question and responses for test
                         print(f"\nExample {len(results)}:")
                         print(f"Question: {example['question']}")
-                        print(f"Question Analysis: {question_analysis}")
-                        print(f"QA Type Analysis: {qa_type_analysis}")
                         print(f"Final Answer: {final_answer}")
 
                     batch_results.append(result)

@@ -1,7 +1,7 @@
 # Dataset Configuration
 dataset:
   path: data  # Base path for dataset files
-  split: test # Dataset split to use (train/val/test)
+  split: validation # Dataset split to use (train/val/test)
   start_idx: 0  # Starting index for batch processing
   end_idx: null  # Ending index (null means process until end)
   batch_size: 8  # Number of examples to process in each batch
@@ -11,7 +11,7 @@ dataset:
 vllm:
   #model: "microsoft/Phi-4-multimodal-instruct"  # Model name for inference
   model: "Qwen/Qwen2.5-VL-7B-Instruct"
-  model_name: "bespoke_grpo"
+  model_name: "bespoke_single_validation"
   temperature: 0.0  # Sampling temperature
   max_tokens: 300  # Maximum number of tokens to generate
   batch_size: 8  # Batch size for processing
@@ -19,7 +19,7 @@ vllm:
 
 # Output Configuration
 output:
-  base_dir: "results_spoke"  # Base directory for all results
+  base_dir: "results_qwen_paper"  # Base directory for all results
   run_name: null  # Optional name for the run (will be appended to timestamp)
   save_format: "csv"  # Format to save results (json/csv)
   files:
@@ -29,10 +29,10 @@ output:
 
 # Wandb Configuration
 wandb:
-  project: "sci-vqa-bespoke-grpo-rethink"  # Project name
+  project: "bespoke-single-validation"  # Project name
   entity: null  # Your wandb username/team name if needed
   api_key: 'f44886150ae5e793c1b1bff8ee3f5d8593896fc1'  # Will be loaded from environment variable WANDB_API_KEY
-  run_name: "test-inference"
+  run_name: "validation-inference"
   mode: "online"  # Set to "online" to enable wandb logging, "disabled" to disable
   log_interval: 10  # Log every N examples
   log_examples: true  # Log individual examples

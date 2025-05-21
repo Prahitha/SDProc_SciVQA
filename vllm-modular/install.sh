@@ -7,6 +7,6 @@ cd scivqa_data
 git clone https://huggingface.co/datasets/katebor/SciVQA
 unzip SciVQA/images_validation
 unzip SciVQA/images_test
-unzip SciVQA/images_train
+# unzip SciVQA/images_train
 cd ..
-bash inference.sh
+# bash inference.sh

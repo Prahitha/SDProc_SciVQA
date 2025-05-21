@@ -39,11 +39,11 @@ class PromptCreator:
 
     def __init__(self):
         """Initialize the prompt creator."""
-        self.base_instruction = "Answer the question with only the raw numerical value or single word/phrase, omitting all units, context words, and explanatory text, remove <|end|> tag in the end answer."
+        self.base_instruction = "Answer the question with only the raw numerical value or single word/phrase, omitting all units, context words, and explanatory text"
 
     def _format_choices(self, choices: Dict[str, str]) -> List[str]:
         """Format choices into a readable format."""
-        return [f"Option {k}: {v}" for k, v in choices.items()]
+        return [f"{k}: {v}" for k, v in choices.items()]
 
     def _get_figure_type_instruction(self, figure_type: str) -> str:
         """Get specific instructions based on figure type."""
@@ -151,8 +151,25 @@ class PromptCreator:
         # Add choices if available
         if example.get('choices'):
             prompt_parts.extend(self._format_choices(example['choices']))
+            prompt_parts.append("Return only the corresponding letter(s) of the correct answer(s). "
+                "Only output the letter(s) corresponding to the correct choice. "
+                "If multiple letters are correct, separate them by commas without spaces (for example: B,C).")
+            
 
         return prompt_parts
+
+    def create_prompt(self, example: Dict[str, Any]) -> str:
+        """Create a prompt based on the example's QA pair type and figure type."""
+        prompt_parts = []
+        prompt_parts.append(f"{self.base_instruction}")
+        prompt_parts.extend(self._create_base_prompt(example))
+        
+
+        return "\n".join(prompt_parts)
+
+    def create_batch_prompts(self, examples: List[Dict[str, Any]]) -> List[str]:
+        """Create prompts for a batch of examples."""
+        return [self.create_prompt(example) for example in examples]
 
 
 class COTPromptCreator:
