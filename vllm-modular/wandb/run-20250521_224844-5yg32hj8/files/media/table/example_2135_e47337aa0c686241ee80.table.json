@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["0e67bbdd963139fc5091c1618a16c6f9", "Do the Zipfian curves in Figure 1 represent more than 10 corpora?", "Yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

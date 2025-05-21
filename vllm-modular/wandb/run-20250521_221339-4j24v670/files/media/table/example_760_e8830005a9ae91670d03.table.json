@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["44d0bd940f76e88d571f26479a73a68c", "Does the F1 average score for 'node-independent' decrease consistently over time for the 'askmen' category?", "No", "closed-ended finite answer set binary non-visual", "line chart", "Yes", false]]}

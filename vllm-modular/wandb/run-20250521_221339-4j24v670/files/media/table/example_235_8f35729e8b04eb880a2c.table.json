@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["5e0ee1fe15bc0abcd1d12126a1acf411", "Do all four scatter plots share the same x-axis range?", "No", "closed-ended finite answer set binary non-visual", "scatter plot", "No", true]]}

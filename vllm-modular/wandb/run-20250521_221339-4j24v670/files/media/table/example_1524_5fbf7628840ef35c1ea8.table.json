@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d2d3b1711fa8077f8aba024e14a01efc", "What is the value of the orange line when the number of relevant candidates is 6?", "0.4", "closed-ended infinite answer set visual", "line chart", "Approximately 0.6", false]]}

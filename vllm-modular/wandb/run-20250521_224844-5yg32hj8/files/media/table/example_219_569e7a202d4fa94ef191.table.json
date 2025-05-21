@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3937621960f6b098efd3fe53307835b0", "What is the relationship between 'V' and 'VP' in tree (b)?", "B", "closed-ended finite answer set non-binary non-visual", "tree", "A", false]]}

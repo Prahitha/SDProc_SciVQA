@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["cbe3aa9f3d7f5dd758a223704975f426", "What is the maximum win rate for the 'no_goal_attn' variant?", "0.6", "closed-ended infinite answer set non-visual", "line chart", "approximately 0.60", false]]}

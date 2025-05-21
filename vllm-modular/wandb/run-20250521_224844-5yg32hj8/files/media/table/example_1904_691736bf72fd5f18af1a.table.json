@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["52288a5f31f829b7d00f19aee5dfafa5", "Which line has the lowest value at a sentence length of approximately 6?", "A,C", "closed-ended finite answer set non-binary visual", "line chart", "A", false]]}

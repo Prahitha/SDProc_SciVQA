@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ff9228f359a56480ca8abcbf66ea019d", "How many different values are used for weights?", "0, 0.5, 1.0", "closed-ended infinite answer set non-visual", "line chart", "3", false]]}

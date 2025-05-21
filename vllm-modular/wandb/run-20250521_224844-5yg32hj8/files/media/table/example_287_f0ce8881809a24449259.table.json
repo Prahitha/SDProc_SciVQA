@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["0bfaa230cb4f93d72cf9f9b7cfea8e8d", "Are all the boxes representing quantiles in the figure colored in shades of blue?", "no", "closed-ended finite answer set binary visual", "box plot", "Yes", false]]}

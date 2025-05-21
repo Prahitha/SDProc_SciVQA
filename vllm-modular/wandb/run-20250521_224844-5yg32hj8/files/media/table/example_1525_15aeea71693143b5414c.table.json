@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["dea712d401233fe74411c8c756748436", "What is the number of examples seen in the test dataset when the number of valid answers is 4?", "8(6)", "closed-ended infinite answer set non-visual", "line chart", "25", false]]}

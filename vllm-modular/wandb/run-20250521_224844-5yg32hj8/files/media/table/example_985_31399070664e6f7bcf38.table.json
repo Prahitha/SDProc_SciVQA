@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["56dd4c9556907f7eda86d17b11847e3e", "Considering the bars select the correct option that describes its color and the number of examples for condition with number of labels 2?", "B", "closed-ended finite answer set non-binary visual", "bar chart", "A", false]]}

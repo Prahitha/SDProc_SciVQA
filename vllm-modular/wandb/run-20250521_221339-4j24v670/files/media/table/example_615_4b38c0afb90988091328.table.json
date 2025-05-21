@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d4d6edef8d501003982d1f58fc9b83fb", "How many blue squares with circles are present in the Lexical Units Attention Model?", "Four", "closed-ended infinite answer set visual", "neural networks", "3", false]]}

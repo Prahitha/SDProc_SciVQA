@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["9962585d4a285c23c8cdd1fe1911ea1c", "What shape are the data points marked with?", "C", "closed-ended finite answer set non-binary visual", "scatter plot", "C", true]]}

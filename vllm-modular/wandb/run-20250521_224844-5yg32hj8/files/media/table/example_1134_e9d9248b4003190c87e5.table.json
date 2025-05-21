@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["7d729924defabe49b85e1eaef3b94a33", "Which test data accuracy performs the best in the first two images?", "Adversarial Test Data Acc.", "closed-ended infinite answer set non-visual", "line chart", "Adversarial Test Data Accuracy", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["769a128534f461ba3ae2c7728b05323b", "How many knowledge sources does the LVCSR system utilize?", "3", "closed-ended infinite answer set non-visual", "architecture diagram", "3", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["edd3c31cc31093a2e2e45cdfa47e57b8", "What is the approximate maximum value of the green line?", "B", "closed-ended finite answer set non-binary visual", "line chart", "B", true]]}

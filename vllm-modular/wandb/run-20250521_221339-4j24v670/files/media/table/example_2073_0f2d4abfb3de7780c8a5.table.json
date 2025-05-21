@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["4c528bd3fe0789f45b043a6c3de2cc56", "Is the lowest value of the F1 scale (y-axis) on the subraph labeled (c) NER the same as on the subgraph labeled (b) CHUNK??", "No", "closed-ended finite answer set binary non-visual", "line chart", "No", true]]}

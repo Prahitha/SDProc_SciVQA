@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["0b778f0e891dff60df72468e35c8d836", "In which of the following plots does the blue line reach a value more than 20?", "B", "closed-ended finite answer set non-binary visual", "line chart", "B", true]]}

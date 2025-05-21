@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["4cbd4bce6c3e196b154f19f8bd948ba8", "What is the approximate value of the dashed line labeled 'Irreg' on the left graph at 20 epochs?", "20", "closed-ended infinite answer set visual", "line chart", "18", false]]}

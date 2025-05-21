@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["fd407b992dc7530970493f843d575968", "Which of the lines represent the predicted marks by the mathematical model?", "A", "closed-ended finite answer set non-binary visual", "line chart", "A", true]]}

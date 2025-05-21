@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["447534240a884036a76124775eb3080b", "Which of the following line colors have the lowest value at a temporal IoU of 0.2 in the third subplot from the left?", "B", "closed-ended finite answer set non-binary visual", "line chart", "A", false]]}

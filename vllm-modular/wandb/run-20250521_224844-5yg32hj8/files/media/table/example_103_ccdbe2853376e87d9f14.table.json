@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["40538da7374d4eacbb91ad8a0fd423b5", "Which line on the graph represents the epsilon value of 0.75?", "D", "closed-ended finite answer set non-binary visual", "line chart", "B", false]]}

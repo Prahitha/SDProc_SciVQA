@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3672aaa3b82accb1bb42d4b95570b82e", "Which strategies outperform LC Precission for around 3% points, on the multi extraction figure?", "A", "closed-ended finite answer set non-binary non-visual", "line chart", "A,B", false]]}

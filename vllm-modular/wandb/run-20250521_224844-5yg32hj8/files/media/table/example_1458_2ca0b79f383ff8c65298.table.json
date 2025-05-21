@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["44ff691d98787d957a99e2b12a4ce889", "Does the 'Ko\u00e7mi' model achieve a higher BLEU score than the 'Vanilla' model in both scenarios?", "No", "closed-ended finite answer set binary non-visual", "line chart", "No", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["455d1254501a686d3a103e634b2c21c3", "What is the approximate value of the dark blue line at K = 4 for the bottom figure?", "0.18", "closed-ended infinite answer set visual", "line chart", "0.4", false]]}

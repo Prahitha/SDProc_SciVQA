@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["8885b3e93fd0a381734ec8fa81685bed", "What is the approximate maximum value of F1 of constituent parsing?", "B", "closed-ended finite answer set non-binary non-visual", "line chart", "C", false]]}

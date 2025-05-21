@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c9b38128e457873ea05743340f2a3981", "What does the phrase 't\u00e0i m\u00f4i' mean in English?", "lips", "closed-ended infinite answer set non-visual", "Illustrative diagram", "pale lips", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["5d3b4558e1076ef01f316f40a3f960c4", "Is the performance of 'Computer science' on full datasets lower than that of 'Political science'?", "No", "closed-ended finite answer set binary non-visual", "line chart", "Yes", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["4e03c6cf36510ed2940ccc56b744a30e", "Which line represents the baseline model?", "B", "closed-ended finite answer set non-binary visual", "line chart", "B", true]]}

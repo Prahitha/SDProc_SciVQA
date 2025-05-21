@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["46c347527391f3ba1ff9861fb5dfe5d9", "Does pretraining consistently result in higher F1 scores across all held-out language families compared to no pretraining?", "Yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

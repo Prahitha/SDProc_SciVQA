@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["8c93d649f47933d7c7a354da2fe95982", "What is the value of the x-axis for the m=4 line when the y-axis=10^4?", "10000", "closed-ended infinite answer set non-visual", "line chart", "10^5", false]]}

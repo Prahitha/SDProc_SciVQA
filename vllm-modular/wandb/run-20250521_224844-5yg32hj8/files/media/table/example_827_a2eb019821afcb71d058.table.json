@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["9aa719bcbc41dc66807e1602abfa0c33", "In which year are all methods higher than 0.5 in the y-axis?", "D", "closed-ended finite answer set non-binary non-visual", "line chart", "D", true]]}

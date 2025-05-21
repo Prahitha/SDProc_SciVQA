@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["308d9e8f3a8b1f7c5721c752cf703e8a", "Which of the following regions has the lowest ratio of sarcasm?", "B", "closed-ended finite answer set non-binary non-visual", "pie chart", "B", true]]}

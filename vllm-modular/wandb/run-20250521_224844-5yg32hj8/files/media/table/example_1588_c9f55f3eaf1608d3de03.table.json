@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["399eb7851b8c32a222fbbc858bb3ce13", "What is the first step in the proposed approach?", "OOV query", "closed-ended infinite answer set non-visual", "Flow chart", "OOV query", true]]}

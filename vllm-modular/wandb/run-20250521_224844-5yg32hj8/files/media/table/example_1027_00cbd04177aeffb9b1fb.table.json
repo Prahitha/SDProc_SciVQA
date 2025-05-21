@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e2ddcbd08c884918fe0831918d1b1870", "Is the green in the left graph always increasing as the number of refinements increases?", "yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

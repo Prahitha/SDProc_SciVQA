@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ed8d1aa86041217e4e52aa4a6c65d75c", "Which of the following variants were trained with ablation on the simplest version of RTFM?", "B,C", "closed-ended finite answer set non-binary non-visual", "line chart", "A,B,C,D", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ebaa4aef18987d56edba21f75f7839dd", "Which of the following pie chart slices represent the training data instance share for OTH?", "C", "closed-ended finite answer set non-binary visual", "pie chart", "C", true]]}

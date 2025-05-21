@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["9a9c78b5e9129271f8d14b42c25ba919", "What is the lowest value of the mean relative cross-entropy loss difference (%) on PennTreebank for the bilinear map.", "-0.5", "closed-ended infinite answer set non-visual", "line chart", "-2", false]]}

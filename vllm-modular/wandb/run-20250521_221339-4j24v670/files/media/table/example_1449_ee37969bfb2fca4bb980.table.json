@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["65027e13942a9cb011f692efdb9e1c7c", "Does the 'Domain Similarity' selection method always achieve the highest average performance score?", "No", "closed-ended finite answer set binary non-visual", "line chart", "No", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["aab31cca0fbd6eb5433f1b4525e90b70", "In Figure (a), does the blue line represent the classification accuracy when the vocabulary size is 4052?", "yes", "closed-ended finite answer set binary visual", "line chart", "No", false]]}

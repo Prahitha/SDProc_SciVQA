@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["4150f05da5037bf4896d3da88bf2cfca", "Are the average marks of the two teachers (TM) consistently higher than the predicted marks by the mathematical model (MM)?", "Yes", "closed-ended finite answer set binary non-visual", "line chart", "No", false]]}

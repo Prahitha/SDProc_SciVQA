@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["81dc6ec2bfd739eebb58efcdeece38d5", "Based on the UM-IU@LING confusion matrix for subtask A, which of the following statements are true?", "B,D", "closed-ended finite answer set non-binary non-visual", "confusion matrix", "A,B,D", false]]}

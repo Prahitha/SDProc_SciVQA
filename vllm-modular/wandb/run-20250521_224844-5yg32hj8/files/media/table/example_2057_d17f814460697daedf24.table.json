@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2768980b1c8c91c66d99d512962a9205", "What is the value of the test error rate baseline (BERT BASE)?", "B", "closed-ended finite answer set non-binary non-visual", "line chart", "C", false]]}

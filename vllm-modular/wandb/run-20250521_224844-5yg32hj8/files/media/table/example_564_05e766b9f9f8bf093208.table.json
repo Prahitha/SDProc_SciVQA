@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d54dc950644b3e4a030156f9790596ae", "Is the shape of the 'Lambda' symbol above the 'AND' node in the rightmost structure of the image a triangle?", "no", "closed-ended finite answer set binary visual", "tree", "No", true]]}

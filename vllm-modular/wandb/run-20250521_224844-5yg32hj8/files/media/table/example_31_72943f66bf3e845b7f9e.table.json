@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d6616be735e75934a62c7b90f0a06d01", "Which line represents the training strategy 'Unfreeze All Layers'?", "C", "closed-ended finite answer set non-binary visual", "line chart", "C", true]]}

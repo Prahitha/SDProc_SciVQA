@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["dd64be2e152bf8264162a51b5cbb4eaf", "Which of the following steps are listed in the correct order according to the figure?", "D", "closed-ended finite answer set non-binary non-visual", "architecture diagram", "B,D", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["8c830466fca280a305c1d795e123eca8", "What is the model with the highest accuracy at 20 layers?", "multi-level head match", "closed-ended infinite answer set non-visual", "line chart", "Multi-level head match", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["9ff1a00d89bda92b54e120b3e081715c", "How many values of K are considered?", "D", "closed-ended finite answer set non-binary non-visual", "line chart", "B", false]]}

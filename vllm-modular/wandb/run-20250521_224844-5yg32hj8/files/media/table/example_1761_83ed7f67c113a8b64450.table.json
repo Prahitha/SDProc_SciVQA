@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c832adeb790c85ed71daf5dcab7f6a90", "Which line is positioned above the green dotted line at update value 10^4?", "B", "closed-ended finite answer set non-binary visual", "line chart", "B", true]]}

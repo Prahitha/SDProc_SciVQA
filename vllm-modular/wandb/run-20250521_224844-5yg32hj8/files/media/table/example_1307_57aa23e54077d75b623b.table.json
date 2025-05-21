@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["0cf963094b0fb5f1ad7f78dbaeea414e", "Which of the following components make up more than 20% of the pie chart?", "A,D", "closed-ended finite answer set non-binary visual", "pie chart", "A", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["092c2bd972ce6f7200e41866bb54fa6a", "Does the ROUGE-1 score of the PoDA method with pre-training exceed 30 for the largest number of training examples?", "Yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

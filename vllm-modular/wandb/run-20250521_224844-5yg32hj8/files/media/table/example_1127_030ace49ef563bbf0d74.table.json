@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["1a859d6dcd7e63337dd1b528fe1f6871", "Does the F1 score generally increase as the number of annotated tokens increases?", "yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

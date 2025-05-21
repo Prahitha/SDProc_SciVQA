@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["462b58bb2ddaf3f23e7de180b7d80903", "In which khard intervals does timer per epoch remain approximately constant?", "C,D", "closed-ended finite answer set non-binary non-visual", "line chart", "B,C", false]]}

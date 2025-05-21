@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ac515f625843a2cb439e5ae0505ba62e", "Which of the lines in the graph are below 60% accuracy when the value on the x-axis is 1?", "A,B", "closed-ended finite answer set non-binary visual", "line chart", "A", false]]}

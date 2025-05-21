@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b3e1a136bfd4d2b12011ad60832dfb87", "Does the time per epoch increase consistently as Khards increase?", "No", "closed-ended finite answer set binary non-visual", "line chart", "No", true]]}

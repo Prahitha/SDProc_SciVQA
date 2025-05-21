@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["87cd6add35e4927ca65f00e314c5326e", "What is the name of the parsing technique performing lower?", "Constituent Parsing", "closed-ended infinite answer set non-visual", "line chart", "Dependency", false]]}

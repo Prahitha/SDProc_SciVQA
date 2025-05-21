@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["a74ee1dc112be7b132e1ac7a03b80c5d", "For which of the following years is the median age of citations the highest?", "A", "closed-ended finite answer set non-binary non-visual", "box plot", "D", false]]}

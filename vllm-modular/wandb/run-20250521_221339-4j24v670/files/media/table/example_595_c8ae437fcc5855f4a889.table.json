@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["25c1c401a5cb96b0cbd80cbb2c19d9d9", "What is the specific type of sub-task C?", "It is not possible to answer this question based only on the provided data.", "unanswerable", "pie chart", "It is not possible to answer this question based only on the provided data.", true]]}

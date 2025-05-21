@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["65fe240325bcef0cb1e74e3884250bca", "Does the classifier accuracy reach a plateau after approximately 150 features are used?", "Yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["52a1e9d2ef5dd6608a678c7d887e26f5", "Does ELECTRA consistently outperform BERT for different model sizes?", "Yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

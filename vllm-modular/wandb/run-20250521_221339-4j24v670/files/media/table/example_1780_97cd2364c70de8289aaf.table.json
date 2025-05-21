@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["af6d106e5ed813d39db35abb6fce69e7", "Which industry has a lower average user-brand interaction than entertainment?", "B,C", "closed-ended finite answer set non-binary non-visual", "bar chart", "A,B,D", false]]}

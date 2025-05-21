@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["0408f5e6e6941e04c2c7a59507271a50", "Is the value of the black circle at 4800 sentences on the horizontal axis higher than the value of the black circle at 1600 sentences?", "yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

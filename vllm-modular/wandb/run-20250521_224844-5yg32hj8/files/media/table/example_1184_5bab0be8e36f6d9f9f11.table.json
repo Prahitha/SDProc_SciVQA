@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3db03eef3e6550eb47c845250b934823", "Which genre(s) had the highest proportion of the word 'mus' used for 'muscle'?", "B", "closed-ended finite answer set non-binary non-visual", "Line Chart,Bar Chart", "B", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["5d884192b1803fa88a3534bf0cd41a34", "What is the color of the arrow pointing from the encoded input to the NN box?", "blue", "closed-ended infinite answer set visual", "Neural Networks", "Blue", true]]}

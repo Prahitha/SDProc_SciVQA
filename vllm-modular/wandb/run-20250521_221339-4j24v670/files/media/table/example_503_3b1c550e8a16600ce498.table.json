@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["dd070ef96921144fa85ca85c4d69f0b7", "Which line in the plot has the highest value at answer length 10?", "A", "closed-ended finite answer set non-binary visual", "line chart", "A", true]]}

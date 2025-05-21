@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["262e121f64f74a66d03d56e0151afbe1", "What is the value of the green line with circle markers at 50% on the x-axis?", "49", "closed-ended infinite answer set visual", "line chart", "40 - 50", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["69a34b8453615daa39a05034fb25e3df", "Does the blue line representing ELECTRA reach a higher GLUE score than the orange line representing BERT at the hidden state size of 768?", "Yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

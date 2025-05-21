@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["862b701e5ae173585ced2823cfcc0fc1", "Does the learning curve for F1 score show a decreasing trend as the number of sentences in training data increases?", "No", "closed-ended finite answer set binary non-visual", "line chart", "No", true]]}

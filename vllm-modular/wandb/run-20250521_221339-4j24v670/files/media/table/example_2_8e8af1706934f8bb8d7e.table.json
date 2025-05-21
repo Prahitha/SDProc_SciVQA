@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["a635ada76a4f9093c8da14c0daa1eaa2", "Is the shaded region for 'NATO' consistently below that of 'Serbia/Yugo.' in the bottom plot?", "No", "closed-ended finite answer set binary visual", "line chart", "No", true]]}

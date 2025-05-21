@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e79b6a32d8d095b0b9bc36805147e671", "Is the the blue line consistently below the green line?", "Yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

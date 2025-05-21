@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2a34f365cf0265c7e937d5e2ce36c934", "Is q0 the start state of the automaton?", "yes", "closed-ended finite answer set binary non-visual", "Graph", "Yes", true]]}

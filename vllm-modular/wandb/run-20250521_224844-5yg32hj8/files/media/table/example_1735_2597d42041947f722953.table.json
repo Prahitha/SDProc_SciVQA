@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["4d6b4c74a4bf21780e393a7ddef996f5", "Is the probability of a character being numeric higher for uninformative tweets at values of transformed percentage (1\\5) above 1.5?", "No", "closed-ended finite answer set binary non-visual", "bar chart", "No", true]]}

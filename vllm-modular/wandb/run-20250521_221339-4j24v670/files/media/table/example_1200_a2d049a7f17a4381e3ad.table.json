@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["adb43eb163f923ee992fef6f03a30fcd", "Which method(s) show a decrease in accuracy as the levels of negation increase?", "B,C", "closed-ended finite answer set non-binary non-visual", "line chart", "D", false]]}

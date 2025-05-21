@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["f79cd1bef2cb91f040e37df229a0a3af", "Which of the following are components of the REAP model?", "C,D", "closed-ended finite answer set non-binary non-visual", "neural networks", "C,D", true]]}

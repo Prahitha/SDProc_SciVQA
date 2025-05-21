@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["0efcf2b228cd26d1be646db5a36d7669", "What is the approximate value of the performance of the green line at 50k episodes?", "0.8", "closed-ended infinite answer set visual", "line chart", "0.68", false]]}

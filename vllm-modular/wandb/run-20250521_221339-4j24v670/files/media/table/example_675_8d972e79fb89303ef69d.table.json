@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["be17dca4e0894b09eeeeab51de4f0944", "Which model has a BLEU score decrease closer to -5 when the maximum number of unknown words in the source and target sentence is 4?", "B", "closed-ended finite answer set non-binary non-visual", "line chart", "A", false]]}

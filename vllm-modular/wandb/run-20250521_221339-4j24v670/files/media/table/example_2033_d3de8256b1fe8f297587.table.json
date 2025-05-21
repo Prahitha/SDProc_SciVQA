@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["91a0116ede793a495b3be35e3156f1db", "What is the approximate value of the topic coherence (blue line) for the IDEA+Quality Score method?", "0.215", "closed-ended infinite answer set visual", "line chart", "0.215", true]]}

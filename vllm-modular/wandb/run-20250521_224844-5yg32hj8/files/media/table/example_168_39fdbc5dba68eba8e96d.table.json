@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d4dd9123069676c5573bfb2318f52296", "What is the approximate value of the green solid line in the 'rice' subplot in the bottom figure?", "-20", "closed-ended infinite answer set visual", "line chart", "0", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["893c5c78780d21f3866593a3624d1a01", "What is the standard deviation of the MathQA corpus?", "0.03", "closed-ended infinite answer set non-visual", "line chart", "0.07", false]]}

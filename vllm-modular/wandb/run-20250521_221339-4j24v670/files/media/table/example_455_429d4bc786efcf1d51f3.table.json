@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["7bb78e91e6b97f64a669a0a05c4817b0", "Does the solid black line representing 'Char + MorphChar Embeddings val' consistently increase across all epochs?", "No", "closed-ended finite answer set binary visual", "line chart", "No", true]]}

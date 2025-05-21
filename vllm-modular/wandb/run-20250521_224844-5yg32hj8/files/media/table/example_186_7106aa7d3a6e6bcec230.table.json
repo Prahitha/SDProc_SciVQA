@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["0916fda502a3920e24c237945ba3638c", "What is the approximate GLUE Score of the orange line at the hidden state size of 256?", "81", "closed-ended infinite answer set visual", "line chart", "76", false]]}

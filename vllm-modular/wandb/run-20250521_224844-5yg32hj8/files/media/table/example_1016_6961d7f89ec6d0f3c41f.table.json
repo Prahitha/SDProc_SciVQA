@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["66c0590fb461404feb5290d85b8ee601", "What are the two types of errors shown in the figure?", "training error, validation error", "closed-ended infinite answer set non-visual", "line chart", "Validation and training", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["15edaebd7819c81364821c70a2277729", "Which PCIO category constitutes the smalles proportion of the testing set?", "D", "closed-ended finite answer set non-binary non-visual", "pie chart", "D", true]]}

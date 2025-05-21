@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["55dce6baaffbd1b9f09885586e8d636e", "Which of the following are components of the Lexical Units Attention Model?", "A,B,C,D", "closed-ended finite answer set non-binary non-visual", "neural networks", "['A', 'B', 'C', 'D']", false]]}

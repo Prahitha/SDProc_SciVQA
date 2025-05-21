@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["47847f5790d33a988634364e137570c5", "Does the correlation remain constant after feature number 30?", "No", "closed-ended finite answer set binary non-visual", "line chart", "No", true]]}

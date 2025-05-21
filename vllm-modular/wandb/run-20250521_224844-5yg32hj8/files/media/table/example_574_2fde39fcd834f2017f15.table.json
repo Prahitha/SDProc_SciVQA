@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c51d808a10aeae0f3aefaa539c01be35", "Is the UI connected to the ASR component?", "No", "closed-ended finite answer set binary non-visual", "Architecture Diagram", "Yes", false]]}

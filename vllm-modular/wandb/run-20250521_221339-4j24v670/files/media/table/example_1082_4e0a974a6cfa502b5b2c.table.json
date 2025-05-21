@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["39576feb696b1f188f6a26cb4974c39c", "Does the blue line in the right graph show a consistent increase in value?", "Yes", "closed-ended finite answer set binary visual", "line chart", "No", false]]}

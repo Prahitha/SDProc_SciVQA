@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["74901585837f105320ea5df2f37a6745", "What is the approximate number of words at approximately hour 2 for the red line?", "16.5", "closed-ended infinite answer set visual", "line chart", "between 16.5 and 17", false]]}

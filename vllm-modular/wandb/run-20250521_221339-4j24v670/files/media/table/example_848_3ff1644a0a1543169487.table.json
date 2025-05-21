@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["1a8351965a28d3dde08570e570d274ae", "What is the maximum possible precision value in the y-axis?", "1.00", "closed-ended infinite answer set non-visual", "line chart", "100%", false]]}

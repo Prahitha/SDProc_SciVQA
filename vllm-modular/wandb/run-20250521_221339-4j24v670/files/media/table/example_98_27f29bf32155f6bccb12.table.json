@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c7092be7cdcaddee1870da5ff19c774c", "Is the green dotted line representing eps0.25 consistently higher than the orange dashed line representing eps0.1?", "No", "closed-ended finite answer set binary visual", "line chart", "No", true]]}

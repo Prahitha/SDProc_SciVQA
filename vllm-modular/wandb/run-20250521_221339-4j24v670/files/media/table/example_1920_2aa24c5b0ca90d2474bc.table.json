@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e41dddd4bbe59a339ff59134d02503aa", "Does the red line in graph B start at the point where x equals 0?", "Yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

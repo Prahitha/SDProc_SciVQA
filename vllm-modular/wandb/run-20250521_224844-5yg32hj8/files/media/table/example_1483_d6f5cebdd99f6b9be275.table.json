@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["331a6c17acfe9caab2e519deaf9f1b2f", "Does the blue line represent the value of the reward?", "No", "closed-ended finite answer set binary visual", "line chart", "No", true]]}

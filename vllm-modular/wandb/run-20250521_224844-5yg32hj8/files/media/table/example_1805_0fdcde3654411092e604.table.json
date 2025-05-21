@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["122392f6d83dfeabaa3a56992dcb4acc", "Are there three white boxes inside the yellow box?", "No", "closed-ended finite answer set binary visual", "neural networks", "Yes", false]]}

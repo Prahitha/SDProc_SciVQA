@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["14123355497db3e5a3d55a5aa639e2bb", "Which of the following is the performance of GPT-3 at around 10000M parameters?", "B", "closed-ended finite answer set non-binary non-visual", "line chart", "A", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d6803b4983616c40608a7fa8e8057aef", "What is the percentage of the testing set represented by the light green section with a grid pattern?", "11.3", "closed-ended infinite answer set visual", "pie chart", "61.6%", false]]}

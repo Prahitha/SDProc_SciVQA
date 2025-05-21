@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["f316564cc697906c39976767726a9d9c", "What is the highest accuracy achieved by the transformer model?", "D", "closed-ended finite answer set non-binary non-visual", "line chart", "D", true]]}

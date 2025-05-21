@@ -1,0 +1,567 @@
+Initialized wandb run: bespoke_single_validation_validation
+Loading dataset from HuggingFace...
+Initializing dataset with data_dir: scivqa_data and split: validation
+README.md: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 5.50k/5.50k [00:00<00:00, 13.4MB/s]
+train_2025-03-27_18-34-44.json: 100%|█████████████████████████████████████████████████████████████████████████| 14.7M/14.7M [00:00<00:00, 55.4MB/s]
+validation_2025-03-27_18-34-44.json: 100%|████████████████████████████████████████████████████████████████████| 1.63M/1.63M [00:00<00:00, 24.3MB/s]
+(…)st_without_answers_2025-04-14_15-30.json: 100%|████████████████████████████████████████████████████████████| 3.90M/3.90M [00:00<00:00, 39.9MB/s]
+Generating train split: 100%|██████████████████████████████████████████████████████████████████████| 15120/15120 [00:00<00:00, 35292.37 examples/s]
+Generating validation split: 100%|███████████████████████████████████████████████████████████████████| 1680/1680 [00:00<00:00, 39268.35 examples/s]
+Generating test split: 100%|█████████████████████████████████████████████████████████████████████████| 4200/4200 [00:00<00:00, 48405.26 examples/s]
+Raw dataset loaded with 1680 examples for split 'validation'
+Validating validation data: 100%|████████████████████████████████████████████████████████████████████████████| 1680/1680 [00:00<00:00, 4764.80it/s]
+Successfully loaded and validated 1680 items for split 'validation'
+Loaded 1680 examples
+
+Processing examples from 0 to 1680 with batch size 8
+Processing batches:   0%|▍                                                                                         | 1/210 [00:00<01:00,  3.44it/s]
+
+Processing batch 1/210 with 8 examples
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Failed to get response for example 795f4ef16511f4f3496aac9b62885a1c
+Failed to get response for example 52e8d789c0d9ce7e1ab2f379da7ada5a
+Failed to get response for example a635ada76a4f9093c8da14c0daa1eaa2
+Failed to get response for example 245acd477189c90de73f3e203bdaac4b
+Failed to get response for example c0774879c6c363397342aa618ece9a59
+Failed to get response for example 47c14eccb3142b9464a3583bd8ae4685
+Failed to get response for example 09b3b3fa0698b1ff9418353b6d2375f9
+Failed to get response for example bb604bafa63c2ee962816fb015e27c8d
+
+Progress: 0.5% (8/1680 examples)
+<wandb.sdk.wandb_run.Run object at 0x7ac3779ef9e0>
+
+Intermediate results saved to results_qwen_paper/bespoke_single_validation_validation/predictions/validation_predictions.json
+
+Processing batch 2/210 with 8 examples
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Failed to get response for example a68ab9204d5b33a082d95740357be109
+Failed to get response for example 37d72e680ccbb6e77170d8b81160299d
+Failed to get response for example 34bf899a5351f5a38045ce6d4e692738
+Failed to get response for example b2eeafd1ecb4a1ad0fe1365ff37e6908
+Failed to get response for example 2cf8e217725cc8ce34ea8ec3706240f7
+Failed to get response for example c1085cbd85d0322728ad39b71ebb539a
+Failed to get response for example dfc84746a77f1826f4428b525f0ad6cb
+Failed to get response for example 8696af9321fe3b85fc928f0f43da0cef
+
+Progress: 1.0% (16/1680 examples)
+<wandb.sdk.wandb_run.Run object at 0x7ac3779ef9e0>
+
+Intermediate results saved to results_qwen_paper/bespoke_single_validation_validation/predictions/validation_predictions.json
+
+Processing batch 3/210 with 8 examples
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Failed to get response for example 29e3147dab88e8a5c4a4ee7cb5bc510c
+Failed to get response for example 133b769bb2f74d35b8951d9f13961ef4
+Failed to get response for example ddd7d7b14748c89026fb14c7cf49de3f
+Failed to get response for example 474023184bc856cd55a246cd8b086e15
+Failed to get response for example d898e15c34a3dd10890f45ba93f9c299
+Failed to get response for example a9aabfe2880b2e317a028240f597b5bb
+Failed to get response for example f8eb4162479102f4fe8176be08ecb4bb
+Failed to get response for example 9aac3c5b3b175e0d0c46a4b87ef2f5c3
+
+Progress: 1.4% (24/1680 examples)
+<wandb.sdk.wandb_run.Run object at 0x7ac3779ef9e0>
+
+Intermediate results saved to results_qwen_paper/bespoke_single_validation_validation/predictions/validation_predictions.json
+
+Processing batch 4/210 with 8 examples
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Failed to get response for example 614da39b77210bc992512a7fddb6e9b2
+Failed to get response for example d6616be735e75934a62c7b90f0a06d01
+Failed to get response for example 1888d868b87f60174e10129f0083a996
+Failed to get response for example 7243c2017a77b011a51752ab145c847e
+Failed to get response for example 5fe86db41d235af229b308fa74bcfab3
+Failed to get response for example 85e1371d1faa12bdc6c64c4abf927d46
+Failed to get response for example decec01e4c9022e301e7bd08e576a583
+Failed to get response for example 5d3b4558e1076ef01f316f40a3f960c4
+
+Progress: 1.9% (32/1680 examples)
+<wandb.sdk.wandb_run.Run object at 0x7ac3779ef9e0>
+
+Intermediate results saved to results_qwen_paper/bespoke_single_validation_validation/predictions/validation_predictions.json
+
+Processing batch 5/210 with 8 examples
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Failed to get response for example e8b4daa26e1fdd45d0550cf3f072ab05
+Failed to get response for example f1e3092c2f9180fefb9d4e35262f5428
+Failed to get response for example 42b0547335dcb9443039fd439340c2c1
+Failed to get response for example b29e428236d7fe34ff06501887af1c60
+Failed to get response for example 56518be1b97e909a4969f8145e9a95e3
+Failed to get response for example 99b3965d3b3cebac2a597928c7a51997
+Failed to get response for example 87b83bb1bb503a00efe71673d8d43062
+Failed to get response for example ffeb1c9a68ac19fac9bdecf44a5d3e0d
+
+Progress: 2.4% (40/1680 examples)
+<wandb.sdk.wandb_run.Run object at 0x7ac3779ef9e0>
+
+Intermediate results saved to results_qwen_paper/bespoke_single_validation_validation/predictions/validation_predictions.json
+
+Processing batch 6/210 with 8 examples
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Failed to get response for example 66063feb7a8c7bf9d4e68cf716e8ec84
+Failed to get response for example 5473dedeb22a38d1a5125fcba852d938
+Failed to get response for example 18353667b816d223fa73101125bd30cd
+Failed to get response for example ff9228f359a56480ca8abcbf66ea019d
+Failed to get response for example e2150adcbb2b10854043b45958be7304
+Failed to get response for example 2da4b9e3a5dc34715ff41f090bcba4a9
+Failed to get response for example e894be4e8f80969aaf2890b67e71538c
+Failed to get response for example fe20aab6a13a31b0d86cea04d4ba6d08
+
+Progress: 2.9% (48/1680 examples)
+<wandb.sdk.wandb_run.Run object at 0x7ac3779ef9e0>
+
+Intermediate results saved to results_qwen_paper/bespoke_single_validation_validation/predictions/validation_predictions.json
+
+Processing batch 7/210 with 8 examples
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Failed to get response for example 53358d98dbba8ffd742751e339c4b4bd
+Failed to get response for example 2ebdefe86965265f23ea00cd9e6d5580
+Failed to get response for example 673751abc2e87a103afd3076b9c4b269
+Failed to get response for example c071632f6cef15ce464df82e7458cac6
+Failed to get response for example 85c26f76bd8d812ab0e5563937550ef7
+Failed to get response for example 34893c5b0bbeab7560ab976afedee91d
+Failed to get response for example bb85bd16cf135d4fe4b725564e16f09d
+Failed to get response for example 39424b637a0d0b37c7ce09ab7cd7a4f0
+
+Progress: 3.3% (56/1680 examples)
+<wandb.sdk.wandb_run.Run object at 0x7ac3779ef9e0>
+
+Intermediate results saved to results_qwen_paper/bespoke_single_validation_validation/predictions/validation_predictions.json
+
+Processing batch 8/210 with 8 examples
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Failed to get response for example 091bd44487d9115d89cd64bbf319c6f3
+Failed to get response for example 1a1053dc48a7ef59f49d15d5a0b7e422
+Failed to get response for example c57f7eca002655fe1c321a40350d1f99
+Failed to get response for example 4d3a883c55b3469cf73fb6e0ec926f66
+Failed to get response for example 865664b92f5c8cbe934b66db0a67ce26
+Failed to get response for example ca3abd6ccbc30e6fb630625bc1bac227
+Failed to get response for example 77d1d715e11a14657e5f8a76310e64dd
+Failed to get response for example 625e7f91a29dafca336878518ff6932a
+
+Progress: 3.8% (64/1680 examples)
+<wandb.sdk.wandb_run.Run object at 0x7ac3779ef9e0>
+
+Intermediate results saved to results_qwen_paper/bespoke_single_validation_validation/predictions/validation_predictions.json
+
+Processing batch 9/210 with 8 examples
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Failed to get response for example 930ef7121270ddbb3ac1edc6beb56fc6
+Failed to get response for example 59414c7052e87d62930a70e92a3cb34a
+Failed to get response for example ca27f9bce7afa786c6745acc7db83de4
+Failed to get response for example ad7f3c645aade3a31bce0ed637b4559d
+Failed to get response for example 66320a77f50fba55d0ec3c7311f14d13
+Failed to get response for example 924b21930d8cbf6ba62a97eb06ef8b14
+Failed to get response for example 6089db1a548de69485c00bfc72927d7e
+Failed to get response for example 9e5e740fbc34c0624a32d72173df3b9e
+
+Progress: 4.3% (72/1680 examples)
+<wandb.sdk.wandb_run.Run object at 0x7ac3779ef9e0>
+
+Intermediate results saved to results_qwen_paper/bespoke_single_validation_validation/predictions/validation_predictions.json
+
+Processing batch 10/210 with 8 examples
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Failed to get response for example bc68de12c1553fef3353fef980c2d59e
+Failed to get response for example 121ea724690c1e0d5a68173e1da96c02
+Failed to get response for example 990439e08c6e5201b3aa15417c3a09e3
+Failed to get response for example 2cb3c7fe30cf62be11a37df6dfe07d03
+Failed to get response for example ed5bf651c746b3649ebbbc3aafbf3c32
+Failed to get response for example ce5210873886847d790d1d73abd3f637
+Failed to get response for example bd538c2d161672f3527cf6b9f6e6b4d2
+Failed to get response for example c7092be7cdcaddee1870da5ff19c774c
+
+Progress: 4.8% (80/1680 examples)
+<wandb.sdk.wandb_run.Run object at 0x7ac3779ef9e0>
+
+Intermediate results saved to results_qwen_paper/bespoke_single_validation_validation/predictions/validation_predictions.json
+
+Processing batch 11/210 with 8 examples
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Failed to get response for example 71ddc4df69ad4386294e842a3e248788
+Failed to get response for example 40538da7374d4eacbb91ad8a0fd423b5
+Failed to get response for example 532940008f6b6510941fa1e98a592a8e
+Failed to get response for example 06b5ae31537219d350e7f216d8d2747d
+Failed to get response for example 2743b35599ba36a55a51140819888b38
+Failed to get response for example 99245580177e57b78189e3a23acc4682
+Failed to get response for example 6259f7179d4f0971f4a668323eb7c90d
+Failed to get response for example e49e31d9cd6c5a57564efda2266d98e7
+
+Progress: 5.2% (88/1680 examples)
+<wandb.sdk.wandb_run.Run object at 0x7ac3779ef9e0>
+
+Intermediate results saved to results_qwen_paper/bespoke_single_validation_validation/predictions/validation_predictions.json
+
+Processing batch 12/210 with 8 examples
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Failed to get response for example 70fd58b6497db8d031b8d11f334da03d
+Failed to get response for example 61a1b331a0be28f86d1b364bfcae5489
+Failed to get response for example 7d09f51b88a0314c0fca33afffa58ee6
+Failed to get response for example 3a2abc0ce149b56182dde60adfc3edbf
+Failed to get response for example a49bb654500ff3d972b34262bbd95e1f
+Failed to get response for example deae3248bc82258e3443e986c3655404
+Failed to get response for example 8c852f4cb76f51d69c3956b1b9829a65
+Failed to get response for example 1818093c7795414a5e84fb0d810eea75
+
+Progress: 5.7% (96/1680 examples)
+<wandb.sdk.wandb_run.Run object at 0x7ac3779ef9e0>
+
+Intermediate results saved to results_qwen_paper/bespoke_single_validation_validation/predictions/validation_predictions.json
+
+Processing batch 13/210 with 8 examples
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Failed to get response for example 546e2a87c89866198548e72a1c67519d
+Failed to get response for example 8d8a300d653ce0c53a656c8e6a7583fd
+Failed to get response for example 4cbd4bce6c3e196b154f19f8bd948ba8
+Failed to get response for example 584c79b47d1a0f606375f1f181c3fb48
+Failed to get response for example a9b2cef6b32b33654d3f41d644441c19
+Failed to get response for example 10a43cc380a7dd4a48497ec8e457f61c
+Failed to get response for example a6ca1e0a733b1942e8bdc86f4ef35b20
+Failed to get response for example bf5af7966427af9ba37d63713b428222
+
+Progress: 6.2% (104/1680 examples)
+<wandb.sdk.wandb_run.Run object at 0x7ac3779ef9e0>
+
+Intermediate results saved to results_qwen_paper/bespoke_single_validation_validation/predictions/validation_predictions.json
+
+Processing batch 14/210 with 8 examples
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Failed to get response for example 6e5e3f0a91c7ae9bf36366aa637b9e33
+Failed to get response for example 678bf6ceac9ba5de4aed5a4c591b9c9b
+Failed to get response for example 4703843589529922964a929799edf3ba
+Failed to get response for example 3ed04adbdbce48c49592421ff1a56164
+Failed to get response for example 66bec122df077de3e107f143a0cfa046
+Failed to get response for example af55f2376fd6adc687af492cc02934f3
+Failed to get response for example fb0346a5479848191496e0c448aa2601
+Failed to get response for example 1f04a7de5044af26edad66f96be13ef1
+
+Progress: 6.7% (112/1680 examples)
+<wandb.sdk.wandb_run.Run object at 0x7ac3779ef9e0>
+
+Intermediate results saved to results_qwen_paper/bespoke_single_validation_validation/predictions/validation_predictions.json
+
+Processing batch 15/210 with 8 examples
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Failed to get response for example bb796b79b311261081ca888034787e47
+Failed to get response for example 397ae7b874bfae3067231d2b962930fa
+Failed to get response for example 41da7fa7ed7ed6c5f205db07f8281b33
+Failed to get response for example 47847f5790d33a988634364e137570c5
+Failed to get response for example 61fdac019ed22c187f5ae835c53ed7f0
+Failed to get response for example dedfbefb46d396ccb1278986a7291b2d
+Failed to get response for example 9a0980973b1c2d7659c374fa34179258
+Failed to get response for example fcfde7116eb3387fc871e68116d8493d
+
+Progress: 7.1% (120/1680 examples)
+<wandb.sdk.wandb_run.Run object at 0x7ac3779ef9e0>
+
+Intermediate results saved to results_qwen_paper/bespoke_single_validation_validation/predictions/validation_predictions.json
+
+Processing batch 16/210 with 8 examples
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Failed to get response for example 9da33862496116ad567db63b65ab983f
+Failed to get response for example 53bf904d182043767b7d41f211682c8a
+Failed to get response for example d6fdf3b5ffc0246f4c1ef51b79ed246f
+Failed to get response for example 539698b9a62f26b97d44e1235c66687e
+Failed to get response for example 2f6ee89a995b34a7f8884b67be3af67d
+Failed to get response for example 0afc6008084b46a57adcba752b8c5f60
+Failed to get response for example e9f1a03bca8e1c6e43eb4b91fe29376a
+Failed to get response for example 9712af92ee843ce02759ed889cc28df0
+
+Progress: 7.6% (128/1680 examples)
+<wandb.sdk.wandb_run.Run object at 0x7ac3779ef9e0>
+
+Intermediate results saved to results_qwen_paper/bespoke_single_validation_validation/predictions/validation_predictions.json
+
+Processing batch 17/210 with 8 examples
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Failed to get response for example e79b6a32d8d095b0b9bc36805147e671
+Failed to get response for example fa2aebbb40064df4b617fc1eb0b316d4
+Failed to get response for example 964d2dabd5b5e18c79437d89c9f66d80
+Failed to get response for example b09de0eba43dfde0cf55331af193153f
+Failed to get response for example 3f4d400c8188e5fc6c9e5820bed86765
+Failed to get response for example d4dd9123069676c5573bfb2318f52296
+Failed to get response for example 75b0d8530d478e4d80d055a10430d120
+Failed to get response for example 294b04beb47bccf59a4e52ef4944e841
+
+Progress: 8.1% (136/1680 examples)
+<wandb.sdk.wandb_run.Run object at 0x7ac3779ef9e0>
+
+Intermediate results saved to results_qwen_paper/bespoke_single_validation_validation/predictions/validation_predictions.json
+
+Processing batch 18/210 with 8 examples
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Failed to get response for example 4fe3a6b124712c484d250204fa2e310f
+Failed to get response for example 8f88cdb511a44a5d0766399763066e4e
+Failed to get response for example 5da133e55452a191f6b46cdb7fdb76a2
+Failed to get response for example 249f91eca1cc650e3e5a75511bd87de9
+Failed to get response for example a7135d1987f8219d3fc513db02364955
+Failed to get response for example 23dc547821b5bcf30b9297796b2a5976
+Failed to get response for example 3f5cf2b010a43d3c6a598872716fecc8
+Failed to get response for example 9e19fcb044c0d878f11f43f71e003e8d
+
+Progress: 8.6% (144/1680 examples)
+<wandb.sdk.wandb_run.Run object at 0x7ac3779ef9e0>
+
+Intermediate results saved to results_qwen_paper/bespoke_single_validation_validation/predictions/validation_predictions.json
+
+Processing batch 19/210 with 8 examples
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Failed to get response for example 42afa1dfccc0b60fa966c19e3cbd96fa
+Failed to get response for example 22d2f676baccdf1fc9ca0b4e3d680b90
+Failed to get response for example 7b6eeaa97882a68bd9d54b7f54286955
+Failed to get response for example 0916fda502a3920e24c237945ba3638c
+Failed to get response for example a4d5cad52f25adba088a1fbe3686ef31
+Failed to get response for example 69a34b8453615daa39a05034fb25e3df
+Failed to get response for example 52a1e9d2ef5dd6608a678c7d887e26f5
+Failed to get response for example a5d33d35db0a2b3d4203fbb32a266532
+
+Progress: 9.0% (152/1680 examples)
+<wandb.sdk.wandb_run.Run object at 0x7ac3779ef9e0>
+
+Intermediate results saved to results_qwen_paper/bespoke_single_validation_validation/predictions/validation_predictions.json
+
+Processing batch 20/210 with 8 examples
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Failed to get response for example 457edef51c7bf26e2d0edaa5da18e8fe
+Failed to get response for example ca308fbc9f9dc728ce9b0506159ec65e
+Failed to get response for example 1add1818606f1f6d3d0f34b418152d73
+Failed to get response for example 7c8941d33eab491b361b86e2ee3c7caa
+Failed to get response for example da6756e35bf943b90e7fe2f1519ef9d1
+Failed to get response for example e9d27ebd130e8327566f49e509d8958d
+Failed to get response for example 12c1b3d9359c9d62bb11bbfd3801fe12
+Failed to get response for example 7a290faf20e0e4a7b48c5cb4439ac944
+
+Progress: 9.5% (160/1680 examples)
+<wandb.sdk.wandb_run.Run object at 0x7ac3779ef9e0>
+
+Intermediate results saved to results_qwen_paper/bespoke_single_validation_validation/predictions/validation_predictions.json
+
+Processing batch 21/210 with 8 examples
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Failed to get response for example 4e00de86feaba05966a1d59836d0baee
+Failed to get response for example 33685c8da34ce797ab1b82d05bb67db6
+Failed to get response for example 447fbaca5d257027edad210c3ffb5922
+Failed to get response for example a5ad107be0c60e79a4e3cc2ee7170f16
+Failed to get response for example e26f16352d18abf66197a479a8294512
+Failed to get response for example 556c8b108feb0ed868df4632b1efd66a
+Failed to get response for example 9f720a12fff9cbbc49b10e59484f497e
+Failed to get response for example 14b2877a9b7d6436f87bb0601bbf67be
+
+Progress: 10.0% (168/1680 examples)
+<wandb.sdk.wandb_run.Run object at 0x7ac3779ef9e0>
+
+Intermediate results saved to results_qwen_paper/bespoke_single_validation_validation/predictions/validation_predictions.json
+
+Processing batch 22/210 with 8 examples
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Failed to get response for example a3649241d0f486cc1c90096e604e49ae
+Failed to get response for example 5d3b8d060acce3684524ba0aec28ba74
+Failed to get response for example fa6d388ed652531ba867b78a92ec3de5
+Failed to get response for example 9b31d8cee8b227bd161c5d390b6fa711
+Failed to get response for example e5a355ffb5f36cc5d59ed359872a8d47
+Failed to get response for example 3937621960f6b098efd3fe53307835b0
+Failed to get response for example 816ca9d4039443f798fc0ea997ae457e
+Failed to get response for example 6a88ffeb409caf5509a5ae95499cd9a2
+
+Progress: 10.5% (176/1680 examples)
+<wandb.sdk.wandb_run.Run object at 0x7ac3779ef9e0>
+
+Intermediate results saved to results_qwen_paper/bespoke_single_validation_validation/predictions/validation_predictions.json
+
+Processing batch 23/210 with 8 examples
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Failed to get response for example 6671792028517335e3dfeb99f3685323
+Failed to get response for example 2c31bff58d12dda81b52a1369e15eda5
+Failed to get response for example 7ec24ca7d6a7ae41ccea4c75ee628c5b
+Failed to get response for example 09504f78f40230c7dfb87a0da7dd6fbc
+Failed to get response for example 89099685fe845b8c783f34a25e35837a
+Failed to get response for example 533803d3b3525d78569b573d14558e60
+Failed to get response for example 740d1b2cc5e0650ab4d00b5b797669b7
+Failed to get response for example 06ec1c19b3ea061c435248114a7b4269
+
+Progress: 11.0% (184/1680 examples)
+<wandb.sdk.wandb_run.Run object at 0x7ac3779ef9e0>
+
+Intermediate results saved to results_qwen_paper/bespoke_single_validation_validation/predictions/validation_predictions.json
+
+Processing batch 24/210 with 8 examples
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Error in API request: 404 Client Error: Not Found for url: http://localhost:8000/v1/chat/completions
+Failed to get response for example 58441089425fb00d3538c8d3555897cb
+Failed to get response for example 5e0ee1fe15bc0abcd1d12126a1acf411
+Failed to get response for example d556a09ae122163d78b31fcf24e3b3af
+Failed to get response for example e3724d33c31e11aae84b16e28fb604e3
+Failed to get response for example ddbdd5b8bbe926ca605cb20e3353a211
+Failed to get response for example 380e801ef3a96b912ad0d767d4a4d427
+Failed to get response for example 6cbb6a045aff979b01e55bada75eded2
+Failed to get response for example 2b4e2d32817e2a14d9daea95acda5c81
+
+Progress: 11.4% (192/1680 examples)
+<wandb.sdk.wandb_run.Run object at 0x7ac3779ef9e0>

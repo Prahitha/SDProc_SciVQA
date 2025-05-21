@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["0c5485515274c438e85dc2ef80ad3160", "Does the blue line representing 'Precision' in the left graph reach a value above 0.89?", "Yes", "closed-ended finite answer set binary visual", "line chart", "No", false]]}

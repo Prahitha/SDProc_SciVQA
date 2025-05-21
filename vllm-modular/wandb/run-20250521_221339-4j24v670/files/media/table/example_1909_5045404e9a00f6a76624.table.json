@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["79b89aaf4736d6f9051349cd1dcaecf5", "Which color has the line that is located at the bottom of the figure in the line chart on the left?", "Green", "closed-ended infinite answer set visual", "line chart", "Green", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["6567c207cb8d59cf994f6f75d38563d7", "In what range is the baseline score for the sentiment analysis dataset?", "0 to 45", "closed-ended infinite answer set non-visual", "line chart", "between 25 and 30", false]]}

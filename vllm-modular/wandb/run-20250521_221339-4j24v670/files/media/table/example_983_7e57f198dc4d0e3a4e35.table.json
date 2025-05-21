@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["5254303373c8c0f6c5bd31609ce9414d", "Is there a dark blue bar in with number of labels 4, 5, 6, and 7?", "Yes", "closed-ended finite answer set binary visual", "bar chart", "No", false]]}

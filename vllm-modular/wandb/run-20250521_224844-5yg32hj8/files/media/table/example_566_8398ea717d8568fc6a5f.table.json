@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e52c2af882025c2956f54c9f1896c09d", "Which of the following are directly connected to 'or' from the bottom in tree 'a'?", "A,B", "closed-ended finite answer set non-binary visual", "tree", "B", false]]}

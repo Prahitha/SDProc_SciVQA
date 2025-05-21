@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["7f715d93ea72ea3954dab7e00c523125", "Which line represents the learning curve for the model that was trained with the increased batch size of approximately 9K sentence pairs per batch?", "D", "closed-ended finite answer set non-binary visual", "line chart", "D", true]]}

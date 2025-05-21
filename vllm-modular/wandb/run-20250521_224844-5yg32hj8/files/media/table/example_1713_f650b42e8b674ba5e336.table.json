@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b42230830a737adc536c7796bda403e6", "Which of the two graphs contains the node 'S4' connected to 'S1' with a solid line?", "GA(K+1)", "closed-ended infinite answer set visual", "graph", "Both GA(K) and GA(K+1)", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["dbce24573797d42f07ca0cde8a95de85", "Does the performance of all methods improve when using more training data?", "No", "closed-ended finite answer set binary non-visual", "line chart", "Yes", false]]}

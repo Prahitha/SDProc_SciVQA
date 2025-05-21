@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["f04e1bc85d6697ff570cc17fc1bdc34e", "What are the three values of NX used in the experiments?", "30, 300, 15331", "closed-ended infinite answer set non-visual", "line chart", "30, 300, 1531", false]]}

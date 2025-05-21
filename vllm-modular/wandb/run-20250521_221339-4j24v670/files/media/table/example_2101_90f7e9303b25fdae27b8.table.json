@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["bb3fa8b485d3e4d8a1af6b304e5ffa61", "Does the BLEU-F1 score for SFOT reach a higher value than the BLEU-F1 score for MLE at any point on the graph?", "No", "closed-ended finite answer set binary non-visual", "line chart", "Yes", false]]}

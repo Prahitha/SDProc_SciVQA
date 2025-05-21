@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["11acfa9b7e9abfcc3724f513035aaec1", "What is the label of the circle that is positioned the furthest right and has a double line around it?", "B", "closed-ended finite answer set non-binary visual", "graph", "B", true]]}

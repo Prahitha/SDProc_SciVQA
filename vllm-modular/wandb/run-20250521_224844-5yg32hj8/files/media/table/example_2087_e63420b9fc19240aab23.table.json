@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["f265a11a79cd3f84c7dad31577213164", "Which supervised method achieves the highest BLEU score?", "superv. PBSMT", "closed-ended infinite answer set non-visual", "line chart", "Supervised NMT", false]]}

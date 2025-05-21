@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["97b6f8a7fc6b6f73729a52c57c1b8b03", "What is the shape of the dispersion ellipse for the sound /i/ in the 'Hypo' condition?", "Elliptical", "closed-ended infinite answer set visual", "Other", "Oval", false]]}

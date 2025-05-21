@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["aad56075214f592762563ee88b33a284", "Which model(s) were trained using the 'All' inputs?", "B,D", "closed-ended finite answer set non-binary non-visual", "line chart", "BCD", false]]}

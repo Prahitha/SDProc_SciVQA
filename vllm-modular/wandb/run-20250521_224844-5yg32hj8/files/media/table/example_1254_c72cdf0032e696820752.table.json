@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["f9c7de62ebd85c3d97d4a3ac36c03e58", "Which of the lines on the graph have a \u03c4 value of 100 or greater?", "B,D", "closed-ended finite answer set non-binary visual", "line chart", "B", false]]}

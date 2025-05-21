@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b6ae6d0836579a47498f2ac017ee4879", "Which line starts at 1200 seconds?", "A", "closed-ended finite answer set non-binary visual", "line chart", "A", true]]}

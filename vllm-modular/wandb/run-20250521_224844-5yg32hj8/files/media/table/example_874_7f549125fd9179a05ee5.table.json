@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["128034ab2c4ec8289e13168d82b18f7a", "What is the highest accuracy value of the dialogue session count SPARQL?", "0.72", "closed-ended infinite answer set non-visual", "line chart", "70%", false]]}

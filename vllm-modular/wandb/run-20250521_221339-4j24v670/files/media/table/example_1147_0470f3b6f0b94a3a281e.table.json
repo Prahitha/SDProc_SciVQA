@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["1a65ef346fda160147fc6f0c1d8c7144", "Which of the following factors are considered to be possibly correlated with Hostility-Anger?", "A,B,D", "closed-ended finite answer set non-binary non-visual", "line chart", "A,B,C", false]]}

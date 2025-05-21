@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["387ef2c359dfbbddd64ad5c241cc1f1a", "Is the box labeled 'Front-End Processing' located directly below the box labeled 'Contemporary Text Corpus'?", "yes", "closed-ended finite answer set binary visual", "architecture diagram", "No", false]]}

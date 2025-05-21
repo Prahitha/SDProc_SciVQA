@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["1888d868b87f60174e10129f0083a996", "What is the starting value of Relative IC Accuracy shown on the graph?", "B,D", "closed-ended finite answer set non-binary non-visual", "line chart", "D", false]]}

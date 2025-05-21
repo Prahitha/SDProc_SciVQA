@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["0f9c1c2a5da9db3ce60b0869ee36319e", "Does the inclusion of utterance embeddings always result in a higher \u2206P compared to not including them?", "No", "closed-ended finite answer set binary non-visual", "line chart", "No", true]]}

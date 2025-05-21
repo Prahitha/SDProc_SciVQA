@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ff22199f98c838c4805b4e0994f76780", "For which one does one performance score remain consistently higher than the other for all different values of included models?", "B,C", "closed-ended finite answer set non-binary non-visual", "line chart", "D", false]]}

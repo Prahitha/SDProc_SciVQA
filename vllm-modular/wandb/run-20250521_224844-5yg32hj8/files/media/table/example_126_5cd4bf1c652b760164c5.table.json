@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["a9b2cef6b32b33654d3f41d644441c19", "Does the solid line in the graph labeled 'A&H training data' represent the 'Reg' model?", "yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

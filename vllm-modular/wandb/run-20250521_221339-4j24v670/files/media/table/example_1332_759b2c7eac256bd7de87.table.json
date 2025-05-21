@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["6365c2b2df10875a7ec0c233d34dc794", "Does the 'Combined' results section always show the same conclusion as the 'Adequacy' results section?", "No", "closed-ended finite answer set binary non-visual", "confusion matrix", "No", true]]}

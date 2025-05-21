@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["740d1b2cc5e0650ab4d00b5b797669b7", "How many distinct colors are visible in each scatter plot?", "1, 2, 3, 4", "closed-ended infinite answer set visual", "scatter plot", "4", false]]}

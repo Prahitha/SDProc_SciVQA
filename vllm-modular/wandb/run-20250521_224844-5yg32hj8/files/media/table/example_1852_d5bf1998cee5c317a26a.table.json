@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["78ca2f9b2623baa65a10b52a751209a2", "What are the relationships between the nodes in the syntactic tree?", "D", "closed-ended finite answer set non-binary non-visual", "tree", "D", true]]}

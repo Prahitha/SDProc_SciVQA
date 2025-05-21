@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["4ac617b9cb8afaa916bdf717d7ad95cc", "Is the precision of the Attentive Reader always lower than that of the Impatient Reader?", "No", "closed-ended finite answer set binary non-visual", "line chart", "No", true]]}

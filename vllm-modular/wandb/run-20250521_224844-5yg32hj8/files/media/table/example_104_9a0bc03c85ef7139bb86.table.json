@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["532940008f6b6510941fa1e98a592a8e", "For which of the following epsilon values is the performance the highest when the cumulative cost is 5000?", "A", "closed-ended finite answer set non-binary non-visual", "line chart", "A", true]]}

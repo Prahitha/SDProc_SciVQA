@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["6d7b0ba2d6792debed6aa3e0f9104b60", "What does ESD stand for?", "It is not possible to answer this question based only on the provided data.", "unanswerable", "line chart", "It is not possible to answer this question based only on the provided data.", true]]}

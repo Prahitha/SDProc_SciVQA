@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["4bcd348106dc18ff34611e76161d9f85", "Is the attention weight of the token 'of' higher in RAM.T than in CMR?", "No", "closed-ended finite answer set binary non-visual", "line chart", "No", true]]}

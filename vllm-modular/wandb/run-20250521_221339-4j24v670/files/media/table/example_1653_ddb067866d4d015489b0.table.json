@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["6626bd55215d14dbafd32570b0e2465a", "Is the social score in the top center panel negative for all values of Airbnb penetration rate?", "No", "closed-ended finite answer set binary visual", "scatter plot", "No", true]]}

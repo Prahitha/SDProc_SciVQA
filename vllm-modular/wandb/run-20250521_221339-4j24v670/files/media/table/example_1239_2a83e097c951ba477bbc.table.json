@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["92878d7543cc2c2b347296e2bbe1c62d", "What is the value of the green solid line at x=2?", "0.6", "closed-ended infinite answer set visual", "line chart", "0.80", false]]}

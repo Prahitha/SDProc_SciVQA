@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["bb46ddf7a3142b73b1e044708d44d229", "Does the value of constituent parsing F1 measure reach 95.7?", "yes", "closed-ended finite answer set binary non-visual", "line chart", "No", false]]}

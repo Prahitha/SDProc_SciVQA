@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e2cf73c1b9a146c0e63f9ff1f9b2423d", "What is the approximate expected validation accuracy of the orange line at the training duration of 1 day?", "0.86", "closed-ended infinite answer set visual", "line chart", "0.87", false]]}

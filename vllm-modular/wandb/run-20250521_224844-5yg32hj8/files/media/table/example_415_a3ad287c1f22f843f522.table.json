@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["71cde3700d9a5f9d07e6480651ecd7f5", "Which of the following methods achieve a Hits@10 value more than 0.35?", "C,D", "closed-ended finite answer set non-binary non-visual", "line chart", "C,D", true]]}

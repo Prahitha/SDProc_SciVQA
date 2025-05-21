@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["34ac0fb12e00a622af3ccb407721426e", "What is the label of the y axis in the scatter plot of figure 1 B?", "A: bi", "closed-ended finite answer set non-binary non-visual", "Line Chart,Scatter Plot", "A", false]]}

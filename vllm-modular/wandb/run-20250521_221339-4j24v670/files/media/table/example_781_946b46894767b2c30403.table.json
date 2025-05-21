@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["5805bb0cc0b90fae3f951c78bd2d6807", "Which is the range of the average number of words?", "A, B", "closed-ended finite answer set non-binary non-visual", "line chart", "A", false]]}

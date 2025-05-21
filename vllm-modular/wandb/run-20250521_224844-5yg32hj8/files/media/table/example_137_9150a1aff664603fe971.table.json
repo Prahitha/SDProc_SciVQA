@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["af55f2376fd6adc687af492cc02934f3", "Which of the following best describes the lines shown in the graph?", "D", "closed-ended finite answer set non-binary visual", "line chart", "D", true]]}

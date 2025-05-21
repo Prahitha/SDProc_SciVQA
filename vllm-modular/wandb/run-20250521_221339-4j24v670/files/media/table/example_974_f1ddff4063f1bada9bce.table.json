@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["5982322a0aa50ddfcc2a857b6b705f8a", "Is the percentage value in the top right square of the confusion matrix greater than 50%?", "No", "closed-ended finite answer set binary visual", "confusion matrix", "No", true]]}

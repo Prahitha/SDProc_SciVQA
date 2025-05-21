@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b0c0127868449aa10d704c19b8aa07af", "What is the accuracy of the red line on the RT dataset for \u03c6 = 7?", "95.1", "closed-ended infinite answer set visual", "line chart", "94.9", false]]}

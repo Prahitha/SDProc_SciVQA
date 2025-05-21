@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2380af838d2608cf4fab3b0ca618cadf", "Does the BLI performance for 'de' ever exceed 0.4?", "No", "closed-ended finite answer set binary non-visual", "line chart", "No", true]]}

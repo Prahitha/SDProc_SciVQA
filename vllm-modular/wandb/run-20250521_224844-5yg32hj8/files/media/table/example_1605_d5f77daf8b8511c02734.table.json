@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["0e904773a391cc9e73e17067cd52e9cb", "What is the label of the arrow leading from state q0 to state q1?", "mod_rel", "closed-ended infinite answer set visual", "Graph", "mod_rel", true]]}

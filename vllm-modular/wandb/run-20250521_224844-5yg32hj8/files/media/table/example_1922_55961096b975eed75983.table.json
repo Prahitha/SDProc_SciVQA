@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["18843e8d972c23303cb65a3c0b3bf14b", "What is the maximum y-axis value of the red line in the figure labeled 'A'?", "B", "closed-ended finite answer set non-binary visual", "line chart", "B", true]]}

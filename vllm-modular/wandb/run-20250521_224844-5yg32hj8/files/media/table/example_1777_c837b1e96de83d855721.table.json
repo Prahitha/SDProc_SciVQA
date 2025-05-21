@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["846625cff51e54af97bfa5fe2575ff1f", "Is the bar representing 'heavy-equipment' colored in rose?", "no", "closed-ended finite answer set binary visual", "bar chart", "Yes", false]]}

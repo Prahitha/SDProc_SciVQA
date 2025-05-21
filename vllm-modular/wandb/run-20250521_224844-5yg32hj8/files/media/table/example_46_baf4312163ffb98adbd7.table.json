@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["87b83bb1bb503a00efe71673d8d43062", "Does the performance remain stable after the cutoff?", "Yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

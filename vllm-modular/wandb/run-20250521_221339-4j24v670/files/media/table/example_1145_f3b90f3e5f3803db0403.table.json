@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["5f576e46c2435a9ea1c5de1facb1c8fb", "Is the P-value for snow depth greater than 0.05?", "0.422", "closed-ended finite answer set binary non-visual", "line chart", "Yes", false]]}

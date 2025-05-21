@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["49a1e7cdc1ab0a0ede953668c02dba58", "What operation is applied right before producing the output h_m?", "D", "closed-ended finite answer set non-binary non-visual", "neural networks", "D", true]]}

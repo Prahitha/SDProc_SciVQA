@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["23ca4bb219d9d8df79f2d235afd09ef0", "Does the dark red line representing 3.00E-04 penalty factor reach an accuracy greater than 0.7?", "Yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

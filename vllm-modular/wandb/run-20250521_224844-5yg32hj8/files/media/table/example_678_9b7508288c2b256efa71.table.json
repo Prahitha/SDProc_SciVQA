@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["500d927149e8cb55354dbeab1ffbea2e", "What is the precision for the Neural@rating ranker (baseline) in all trainset sizes?", "0.85", "closed-ended infinite answer set non-visual", "line chart", "between 0.8 and 0.9", false]]}

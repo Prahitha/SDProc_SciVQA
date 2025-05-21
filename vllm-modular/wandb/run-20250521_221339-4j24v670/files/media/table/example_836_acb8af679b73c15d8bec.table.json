@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c22aef5822e2684a08116745ef01783e", "Which model has the highest accuracy using 15% of tokens?", "B,C,D", "closed-ended finite answer set non-binary non-visual", "line chart", "D", false]]}

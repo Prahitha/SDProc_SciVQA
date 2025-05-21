@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["1e0601bfdecaaaa0fea6594bfc0d4de6", "Does the performance of the blue line decrease when the sampling ratio is increased from 30% to 50% in the left graph?", "yes", "closed-ended finite answer set binary visual", "line chart", "No", false]]}

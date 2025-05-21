@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d40dc220ca5f8fd8b02c02cc63347b54", "Which of the following datasets show the highest proportion of best-summaries with a rank of z(%) between 0% and 5%? ", "B, D", "closed-ended finite answer set non-binary non-visual", "line chart", "D", false]]}

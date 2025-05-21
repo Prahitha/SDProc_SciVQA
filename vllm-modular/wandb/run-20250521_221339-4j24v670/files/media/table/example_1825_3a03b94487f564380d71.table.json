@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["06a3ed37bbdde93667025445f314137c", "What is the label of the arrow pointing right towards the Automatically Transcribed Broadcast News Corpus?", "B,C", "closed-ended finite answer set non-binary visual", "architecture diagram", "B", false]]}

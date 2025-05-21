@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["359fea3fadeb981bafc3366e0c12033a", "What is the approximate median age of citations in 2015, as indicated by the horizontal black line within the corresponding box plot?", "25", "closed-ended infinite answer set visual", "box plot", "24", false]]}

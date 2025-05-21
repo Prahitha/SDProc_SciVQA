@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["a81373372937e54f43586fb91ba87e2b", "Does the count for scrambled-snippet task surpass the number of 500 at anywhere?", "No", "closed-ended finite answer set binary non-visual", "line chart", "No", true]]}

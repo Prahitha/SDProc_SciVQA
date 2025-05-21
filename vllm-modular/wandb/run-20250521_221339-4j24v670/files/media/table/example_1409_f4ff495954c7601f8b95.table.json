@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["fa87155093dc4ac95c91480bde84e789", "What is the approximate maximum value of the probability density for the green line in the plot labeled \"AG News: 10K labeled instances\"?", "1.0", "closed-ended infinite answer set visual", "line chart", "1.2", false]]}

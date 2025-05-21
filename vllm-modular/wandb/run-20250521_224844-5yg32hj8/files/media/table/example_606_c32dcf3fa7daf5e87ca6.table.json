@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e67d55c6999a5216cd53ee55b2a98d64", "What is the input to Wavelet Transform Decomposition?", "Input Speech Signals", "closed-ended infinite answer set non-visual", "architecture diagram", "Input Speech Signals", true]]}

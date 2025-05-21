@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2db029e96e8792a6b999052c34b93b6a", "Which line in the right graph shows the highest BLEU score for the DALI-U method with a training size of 14M?", "A", "closed-ended finite answer set non-binary visual", "line chart", "A", true]]}

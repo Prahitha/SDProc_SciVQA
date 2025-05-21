@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["bfd7cc7386c1cf2cae6b473e0c31e01d", "What is the label of the triangle directly below the 'AND' label in the lower-right structure in tree 'c'?", "B1", "closed-ended infinite answer set visual", "tree", "A", false]]}

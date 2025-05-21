@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["f6237328477f3731f953c7adaf1fc336", "Which of the following states is directly connected to other state with a No label? ", "B", "closed-ended finite answer set non-binary non-visual", "architecture diagram", "C", false]]}

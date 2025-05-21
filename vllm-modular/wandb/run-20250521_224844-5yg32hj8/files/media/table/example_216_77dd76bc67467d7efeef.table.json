@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["fa6d388ed652531ba867b78a92ec3de5", "Does tree (a) have 3 branches directly extending from the root node?", "yes", "closed-ended finite answer set binary visual", "tree", "No", false]]}

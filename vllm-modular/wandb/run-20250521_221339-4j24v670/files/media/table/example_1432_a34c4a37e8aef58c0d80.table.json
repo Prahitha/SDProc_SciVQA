@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["80c1297bb5f72898167c33e537d03d77", "Which subfigure has a range of 0% to 15% marked on the y axis?", "B", "closed-ended finite answer set non-binary visual", "line chart", "C", false]]}

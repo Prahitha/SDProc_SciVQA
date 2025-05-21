@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d556a09ae122163d78b31fcf24e3b3af", "Which of the following colours are used to display the data points?", "A", "closed-ended finite answer set non-binary visual", "scatter plot", "A", true]]}

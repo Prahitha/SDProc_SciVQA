@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e8921347ace55d989584007478fa0877", "How many boxes are connected to the bottom box in the right image?", "4", "closed-ended infinite answer set visual", "graph", "3", false]]}

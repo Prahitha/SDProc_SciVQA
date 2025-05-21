@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["42ce94b03be87ab791f620e3925ca5cd", "What is the difference between the values of two adjacent ticks on the y axis?", "B,C", "closed-ended finite answer set non-binary non-visual", "bar chart", "B", false]]}

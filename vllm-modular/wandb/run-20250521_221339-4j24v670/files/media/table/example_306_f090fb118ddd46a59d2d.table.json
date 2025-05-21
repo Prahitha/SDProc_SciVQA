@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d5a148a1b64dc151de16037aeda8dceb", "Is the value on the diagonal of the confusion matrix higher than any other value in the corresponding row?", "True", "closed-ended finite answer set binary visual", "confusion matrix", "Yes", false]]}

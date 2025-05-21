@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3dcaabaa2c99bf2f697c6c76d6be514f", "Which of the following regions has the highest percentage of sarcasm represented in grey?", "D", "closed-ended finite answer set non-binary visual", "pie chart", "D", true]]}

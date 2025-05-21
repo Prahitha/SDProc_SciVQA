@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["38949af8fc227c56d35ff3d8dd7b22f9", "What is the filter size for the 33M model at layer 6?", "55", "closed-ended infinite answer set non-visual", "line chart", "30", false]]}

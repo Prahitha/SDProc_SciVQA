@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["6e2beca97317a60fa3a06674c97f021c", "If a data point is close to the origin on the graph, what does that indicate?", "B,C", "closed-ended finite answer set non-binary non-visual", "scatter plot", "A,B", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["42afa1dfccc0b60fa966c19e3cbd96fa", "Which line in figure (b) has the highest value at the point where the x-axis value is 80 in the right graph?", "D", "closed-ended finite answer set non-binary visual", "Line Chart,Table", "D", true]]}

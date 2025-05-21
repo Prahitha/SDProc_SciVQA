@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["0e8043f6c26a437e1d214a7ebde0bc46", "What is the highest value of the F1 score for CER on EmoryNLP?", "60", "closed-ended infinite answer set non-visual", "line chart", "39", false]]}

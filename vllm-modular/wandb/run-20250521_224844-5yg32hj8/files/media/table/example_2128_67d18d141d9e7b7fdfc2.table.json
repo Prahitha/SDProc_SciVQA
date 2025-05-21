@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["36c12aa78df43224a17f45e597940e59", "On what year does the x-axis start?", "A", "closed-ended finite answer set non-binary non-visual", "line chart", "C", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["0f36a11cec066bfd26bfbc701548feda", "Which task type shows the highest recall@1 for the 'k=1' ConvSE filter across all values of Temporal IoU?", "Task Type: VCMR", "closed-ended infinite answer set non-visual", "line chart", "SVMR", false]]}

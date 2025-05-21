@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["36de4874c81f873ca75925ba076b9da7", "Which category has a nonzero probability of a character being numeric at values of transformed percentage (1\\5) above 2.0?", "A", "closed-ended finite answer set non-binary non-visual", "bar chart", "D", false]]}

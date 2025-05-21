@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["1fb063e8dc6afa7eccf1e5e09d0da7a9", "What is the accuracy percentage of the blue line at window size 29?", "76", "closed-ended infinite answer set visual", "line chart", "Approximately 77", false]]}

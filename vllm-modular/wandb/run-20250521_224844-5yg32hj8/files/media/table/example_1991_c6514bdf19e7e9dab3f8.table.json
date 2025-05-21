@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c270ccdb1ba931e60ea707c449fbeb0f", "How many sub-posteriors are present in the figure?", "3", "closed-ended infinite answer set non-visual", "line chart", "3", true]]}

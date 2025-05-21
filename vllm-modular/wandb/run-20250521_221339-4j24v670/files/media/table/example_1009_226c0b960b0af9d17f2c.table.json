@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["7ef0e85fb9a535393eb2f5b38d3fdc52", "How many runs were the results averaged over?", "3", "closed-ended infinite answer set non-visual", "line chart", "3", true]]}

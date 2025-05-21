@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["cb0ad8a77d169c83d7dd13563be3f613", "Is the accuracy of DiSAN consistently higher than the accuracy of Tree-LSTM for different sentence lengths?", "yes", "closed-ended finite answer set binary non-visual", "line chart", "No", false]]}

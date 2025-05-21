@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["9babbbfe774f8f653198097de38cfc77", "What is the approximate value of the blue line at the interval [2.5K-5K]?", "2.5", "closed-ended infinite answer set visual", "line chart", "-1", false]]}

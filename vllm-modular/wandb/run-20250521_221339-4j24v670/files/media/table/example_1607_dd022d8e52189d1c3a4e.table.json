@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["eae3ed914558453770270fc9f7441893", "Does the arrow labeled 'mod_rel' point from the leftmost circle to the rightmost circle?", "Yes", "closed-ended finite answer set binary visual", "Graph", "Yes", true]]}

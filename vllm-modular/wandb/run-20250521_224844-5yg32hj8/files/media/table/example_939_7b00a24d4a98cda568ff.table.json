@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["13c4056c6c02f5c8d3e70d523fc284a8", "Is the percentage of participants who answered \"Yes\" to the question larger than the percentage who answered \"No\"?", "No", "closed-ended finite answer set binary visual", "pie chart", "No", true]]}

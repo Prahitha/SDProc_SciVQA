@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["fe9664f241330fb89cda63832031875d", "Does the dashed line representing 'With segm.' have a consistently higher BLEU score decrease than the solid line representing 'Without segm.'?", "No.", "closed-ended finite answer set binary visual", "line chart", "No", false]]}

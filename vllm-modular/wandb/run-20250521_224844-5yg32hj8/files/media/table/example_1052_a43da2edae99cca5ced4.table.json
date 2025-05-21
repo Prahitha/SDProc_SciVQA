@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["773fdf1eabf0b3f242893e42bb69d232", "What is the value of the red dashed line in the third subplot at sentence length 10?", "89", "closed-ended infinite answer set visual", "line chart", "88", false]]}

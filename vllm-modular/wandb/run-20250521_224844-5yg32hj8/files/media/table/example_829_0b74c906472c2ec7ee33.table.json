@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["213f5113954519e75e771a281fabd130", "What is the model accuracy of the red line at 35% token selected?", "79", "closed-ended infinite answer set visual", "line chart", "between 79% and 85%", false]]}

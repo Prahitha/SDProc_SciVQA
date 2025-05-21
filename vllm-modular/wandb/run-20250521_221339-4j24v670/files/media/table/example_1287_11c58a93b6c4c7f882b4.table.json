@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["08c858447d23af1e04536aba1e356e32", "Are there more square boxes labeled with the number 1 than square boxes labeled with the number 2 in the figure?", "Yes", "closed-ended finite answer set binary visual", "tree", "No", false]]}

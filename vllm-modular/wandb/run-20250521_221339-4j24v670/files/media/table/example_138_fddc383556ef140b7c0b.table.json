@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["fb0346a5479848191496e0c448aa2601", "What is the value of 'Twitter' at 80000 Weibos processed?", "A,B", "closed-ended finite answer set non-binary non-visual", "line chart", "A", false]]}

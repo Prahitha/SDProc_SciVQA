@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["93f8fcd8295104cf507a44c24bcacabf", "Which module is part of Textual Event Extraction?", "A,B", "closed-ended finite answer set non-binary non-visual", "architecture diagram", "A", false]]}

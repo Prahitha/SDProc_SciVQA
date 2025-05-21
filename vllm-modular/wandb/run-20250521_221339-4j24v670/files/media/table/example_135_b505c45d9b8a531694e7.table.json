@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3ed04adbdbce48c49592421ff1a56164", "Is the value of the red line (our approach) consistently higher than the green line (Sina Weibo) throughout the x-axis?", "Yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

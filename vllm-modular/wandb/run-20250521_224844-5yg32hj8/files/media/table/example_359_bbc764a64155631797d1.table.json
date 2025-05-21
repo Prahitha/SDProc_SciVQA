@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["303cd64f2658b3f1ad38f7d1a9f2a2e8", "Is the test accuracy for the blue data points higher at the scaling factor 32 than at 8 in the right plot?", "yes", "closed-ended finite answer set binary visual", "line chart", "No", false]]}

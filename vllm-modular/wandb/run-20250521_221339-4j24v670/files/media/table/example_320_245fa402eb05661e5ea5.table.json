@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["5e4a99031b1928ae032f2726be5d71bf", "What is the approximate value of the orange bar in the graph labeled (a) coach for the year 1930?", "0.3", "closed-ended infinite answer set visual", "bar chart", "0.7", false]]}

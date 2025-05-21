@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["a783b57b15e7d8d7168b56bcda23eead", "What is the highest F1 score of the purple line in the bottom right subplot?", "C", "closed-ended finite answer set non-binary visual", "line chart", "C", true]]}

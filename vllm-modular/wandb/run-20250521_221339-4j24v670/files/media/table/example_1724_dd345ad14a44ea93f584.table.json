@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["7993258c918f509cf839374d1fad261e", "Is the lighter gray bar for 'rejection%' taller than the darker gray bar for 'confScore'?", "No", "closed-ended finite answer set binary visual", "bar chart", "No", true]]}

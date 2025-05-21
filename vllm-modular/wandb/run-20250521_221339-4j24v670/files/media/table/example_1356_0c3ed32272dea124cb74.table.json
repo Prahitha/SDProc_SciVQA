@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["82dc8ab20458105e534bbb53f0948d29", "Are there more arrows pointing to the right or left?", "Left", "closed-ended infinite answer set visual", "graph", "Right", false]]}

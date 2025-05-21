@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["5ac5b411e99faa98f23eb9e8a25450c2", "Does the dashed circle for /a/ have a F1(Hz) between 600 and 700?", "yes", "closed-ended finite answer set binary visual", "Other", "Yes", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["bdb00525491f916c8f54131113c62538", "What components of the system are part of the dashed box labeled Algorithm Pool, located at center height on the left side of the figure? ", "A", "closed-ended finite answer set non-binary visual", "architecture diagram", "A", true]]}

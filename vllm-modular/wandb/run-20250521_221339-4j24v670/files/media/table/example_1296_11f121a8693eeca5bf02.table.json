@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d69ceb86417d4d107915e9f9d93fd5d1", "Are most of the blue points located above the red line?", "Yes", "closed-ended finite answer set binary visual", "scatter plot", "Yes", true]]}

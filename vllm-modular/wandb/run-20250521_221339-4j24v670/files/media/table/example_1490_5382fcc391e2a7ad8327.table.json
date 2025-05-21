@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b09281b6dfc517fc9ae690920d803a6f", "What is the approximate value of the black line at 1000 training samples in the bottom center graph?", "250", "closed-ended infinite answer set visual", "line chart", "Between 40 and 50", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["db31e944caaa2e41797750f244f1cc78", "What is the highest possible training duration represented in the chart?", "10 hours", "closed-ended infinite answer set non-visual", "line chart", "10 days", false]]}

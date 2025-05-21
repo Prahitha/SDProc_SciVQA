@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["02c4ad8273362d921150bbe7471f4ccb", "Which method shows the lowest SER when using 1000 training samples on SNIPS?", "ELMo+ST", "closed-ended infinite answer set non-visual", "line chart", "ELMo", false]]}

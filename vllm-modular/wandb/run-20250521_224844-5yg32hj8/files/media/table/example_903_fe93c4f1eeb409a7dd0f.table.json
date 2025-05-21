@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["4c43fe16f3d70dec17469345b0f7ae69", "Does the model's performance improve with a larger vocabulary?", "yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

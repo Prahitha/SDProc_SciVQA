@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["33685c8da34ce797ab1b82d05bb67db6", "Does the arrow pointing to 'purpose' originate from the left or right 'conjunction' node?", "right", "closed-ended infinite answer set visual", "tree", "Right", true]]}

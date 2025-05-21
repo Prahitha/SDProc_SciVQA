@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["7afd2891054c7ba3bef31ea384f48f8a", "What is the highest value marked on the y axis?", "1.4", "closed-ended infinite answer set non-visual", "bar chart", "1.4", true]]}

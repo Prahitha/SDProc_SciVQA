@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["92b9fdb78357cb0650d2a508cd7741ae", "Which of the following is NOT a node in the construction?", "D", "closed-ended finite answer set non-binary non-visual", "tree", "D", true]]}

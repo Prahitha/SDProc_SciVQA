@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["17148e17e8fefa6d37170f75457d2bf3", "Are the green lines in the bottom plot representing the mean finishing times for 'Target' and 'Competitor'?", "Yes", "closed-ended finite answer set binary visual", "line chart", "No", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["9e19fcb044c0d878f11f43f71e003e8d", "Does the Oracle condition have a precision value of 1?", "Yes", "closed-ended finite answer set binary non-visual", "Line Chart,Table", "Yes", true]]}

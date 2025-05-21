@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["807fe80dbd64330f298af4c418b20083", "Which method has a higher BLEU score when updates is 10^3?", "A", "closed-ended finite answer set non-binary non-visual", "line chart", "C", false]]}

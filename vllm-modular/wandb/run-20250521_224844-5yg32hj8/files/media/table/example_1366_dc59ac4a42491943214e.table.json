@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["df797179374bc54a7d8ac51849de5cb2", "Which relation is missing between 'ripping' and 'ordered'?", "BEFORE", "closed-ended infinite answer set non-visual", "graph", "BEFORE", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["726773b31f52a0a8a797b6ced2aacb74", "What is the approximate value of the reward at the end of ML pre-training for the dashed red line?", "2.5", "closed-ended infinite answer set visual", "line chart", "Between 0.5 and 0.6", false]]}

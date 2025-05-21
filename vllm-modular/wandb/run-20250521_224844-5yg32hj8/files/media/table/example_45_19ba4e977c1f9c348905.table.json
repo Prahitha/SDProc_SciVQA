@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["99b3965d3b3cebac2a597928c7a51997", "Is the cyan vertical line on the graph representing the SP method located at a training percentage value of 10?", "Yes", "closed-ended finite answer set binary visual", "line chart", "No", false]]}

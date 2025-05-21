@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ab0fe38024c70a3b3a8d935ba22c9637", "Is the precision of the Neural@rating model consistently higher than the precision of the VW@length model?", "yes", "closed-ended finite answer set binary non-visual", "line chart", "No", false]]}

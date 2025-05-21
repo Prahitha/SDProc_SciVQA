@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e39e333f8e99f56d12edb62c6e824e76", "Are the F1 scores for the baseline model consistently higher than those of the BERT model?", "No", "closed-ended finite answer set binary non-visual", "line chart", "No", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c0a41214a0507822b494bf5a218c4cdc", "Does the accuracy of the models when under no attack decrease as the epsilon value increases?", "No", "closed-ended finite answer set binary non-visual", "line chart", "Yes", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ddab4c895322fb1eb948847d1093c5c3", "Which datasets are included in the figure?", "A,D", "closed-ended finite answer set non-binary non-visual", "Graph", "A", false]]}

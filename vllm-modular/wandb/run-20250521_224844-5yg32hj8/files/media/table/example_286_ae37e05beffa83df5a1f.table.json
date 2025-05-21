@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["86291d5b31b21094201ea9bf08d9d5fd", "What is the time period covered by the data presented in Figure 8?", "10 years", "closed-ended infinite answer set non-visual", "box plot", "2010-2019", false]]}

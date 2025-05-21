@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["00f7e518753d493e786133ae26bbdccc", "Based on Figure 4, which ROUGE-1 (recall) score bin ranges contain more than 200 examples in the 'full data' category?", "B,C", "closed-ended finite answer set non-binary non-visual", "bar chart", "D", false]]}

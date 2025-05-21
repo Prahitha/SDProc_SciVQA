@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["0063a9ac7b4522d2f21c8e2e6c5e4722", "Which of the following metrics are represented in the figure?", "A,B", "closed-ended finite answer set non-binary non-visual", "line chart", "AB", false]]}

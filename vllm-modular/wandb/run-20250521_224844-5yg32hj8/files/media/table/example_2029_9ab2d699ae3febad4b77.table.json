@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3f69c8c46acd69e1dbdaa8f0a5f4b36f", "Is the percentage of MWPs for KAZB higher than that for ASDiv at a syntactic pattern diversity of 0.2?", "yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

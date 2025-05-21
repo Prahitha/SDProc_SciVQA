@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["bb58c55956cdf5012b01f3be70ea4b40", "What are the two labels of the curved arrows pointing from circle 1 to circle 2?", "G!W", "closed-ended infinite answer set visual", "graph", "eps:this and eps:that", false]]}

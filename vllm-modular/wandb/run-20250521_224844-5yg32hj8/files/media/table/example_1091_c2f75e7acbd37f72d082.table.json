@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["8a31b2e1f3f2cd994f701f623e236789", "Does the green line representing SSID initialization consistently have a higher value than the blue line representing RANDOM initialization?", "yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

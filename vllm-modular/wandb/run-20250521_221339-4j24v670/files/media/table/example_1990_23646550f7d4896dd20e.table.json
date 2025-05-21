@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["4a8267ecb9de43aab2c260384c8af4eb", "How many different lines are plotted in this figure?", "Three", "closed-ended infinite answer set visual", "line chart", "4", false]]}

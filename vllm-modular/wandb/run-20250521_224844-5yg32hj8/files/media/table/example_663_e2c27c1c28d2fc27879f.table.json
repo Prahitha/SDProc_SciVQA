@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["5bbbd6eb59ec9bcc555130fabf03356a", "In the fourth graph (titled 'Accuracy'), is the green line representing 'SF-Graph' consistently higher than the orange line representing 'Ptr-Net'?", "no", "closed-ended finite answer set binary visual", "line chart", "No", true]]}

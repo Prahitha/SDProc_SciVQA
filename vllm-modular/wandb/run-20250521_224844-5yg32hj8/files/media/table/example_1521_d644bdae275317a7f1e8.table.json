@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["9d4fb8cf6a7eda26e2416a9594a13800", "Which line has the highest F1 score when the boundary is 'Add Arg.'?", "C", "closed-ended finite answer set non-binary visual", "line chart", "C", true]]}

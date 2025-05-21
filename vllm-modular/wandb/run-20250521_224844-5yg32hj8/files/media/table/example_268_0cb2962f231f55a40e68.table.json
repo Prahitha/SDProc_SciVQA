@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["09dab5a715034cebb2a62f0f1c2a75c9", "What percentage of sarcastic tweets are positive?", "5.3%", "closed-ended infinite answer set non-visual", "pie chart", "52,3%", false]]}

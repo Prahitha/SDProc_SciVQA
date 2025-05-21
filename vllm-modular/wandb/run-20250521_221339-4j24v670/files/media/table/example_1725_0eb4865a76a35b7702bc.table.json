@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["1a7d213b2359eb3f663b01777f13d9f7", "Is the rejection percentage for 'real' speech higher than that for 'subject' speech?", "No", "closed-ended finite answer set binary non-visual", "bar chart", "No", true]]}

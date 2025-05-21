@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["7282b3f6df897ac1b8aa70a1d416394a", "What is the accuracy for the black line at the bottom right corner?", "C", "closed-ended finite answer set non-binary visual", "line chart", "B", false]]}

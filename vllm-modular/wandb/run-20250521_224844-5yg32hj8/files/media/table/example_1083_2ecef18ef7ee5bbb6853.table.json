@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["219655f3365950baeafcb6139da9ddc4", "Does the BLEU score for the 'semi+DALI-U' training method increase with increasing in-domain size?", "yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

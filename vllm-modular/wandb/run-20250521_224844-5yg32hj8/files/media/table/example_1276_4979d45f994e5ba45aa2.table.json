@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["6dd167f2bdb2cd578a62d0903b239e17", "What is the label of the node directly below the green node labelled 'NP'?", "NC", "closed-ended infinite answer set visual", "tree", "NC", true]]}

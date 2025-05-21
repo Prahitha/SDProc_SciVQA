@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d1da82d871bd39bf6ace82340c757fa5", "What is the approximante computational cost in CO2 Emssion at a sequence length of 256?", "0.0065", "closed-ended infinite answer set non-visual", "line chart", "0.0045", false]]}

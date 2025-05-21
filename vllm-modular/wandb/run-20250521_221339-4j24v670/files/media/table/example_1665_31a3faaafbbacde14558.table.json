@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d66a798d91276df06f6f7b6b1dd38e43", "For which language was the Lookahead-2 method tested?", "A,B", "closed-ended finite answer set non-binary non-visual", "scatter plot", "C", false]]}

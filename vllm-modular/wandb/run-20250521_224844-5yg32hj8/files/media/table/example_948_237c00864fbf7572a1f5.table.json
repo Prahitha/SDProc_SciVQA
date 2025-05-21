@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["21f09c528b7f98bcaf5487db3452b5d5", "Is the blue section of the pie chart in the bottom left corner smaller than the blue section of the pie chart in the top left corner?", "yes", "closed-ended finite answer set binary visual", "pie chart", "No", false]]}

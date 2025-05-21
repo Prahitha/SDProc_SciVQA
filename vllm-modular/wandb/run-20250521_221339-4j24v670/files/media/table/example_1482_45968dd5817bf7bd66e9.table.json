@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["33b52e430c7c3a82c133bb92bd0384b2", "What is the approximate reward of R BERT-gram after 1.4 training steps?", "0.4", "closed-ended infinite answer set non-visual", "line chart", "Approximately 0.4", false]]}

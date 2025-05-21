@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["66320a77f50fba55d0ec3c7311f14d13", "Which of the following plots shows the highest peak value?", "A,B,C", "closed-ended finite answer set non-binary non-visual", "line chart", "B", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d62b935f4ec336940aa4834a535a21c6", "What is the value of T when the blue line with crosses reaches its highest point?", "5", "closed-ended infinite answer set visual", "line chart", "3", false]]}

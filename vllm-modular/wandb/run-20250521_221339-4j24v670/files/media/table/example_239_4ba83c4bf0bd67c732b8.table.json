@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["380e801ef3a96b912ad0d767d4a4d427", "With what colour is 'also' represented in the graph?", "Blue", "closed-ended infinite answer set visual", "scatter plot", "yellow", false]]}

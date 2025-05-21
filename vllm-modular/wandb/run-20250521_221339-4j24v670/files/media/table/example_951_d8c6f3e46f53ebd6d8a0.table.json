@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["1f0821e4e47dc43aadb4c0218d3e7f3e", "In the survey results, which of the following questions had a response option of 'Don't remember'?", "B,D", "closed-ended finite answer set non-binary non-visual", "pie chart", "C", false]]}

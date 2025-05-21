@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d292d5a1fccb58771415b6da8c38954f", "What is the approximate value of the green line at 'Total elapsed time' at 8000?", "B", "closed-ended finite answer set non-binary visual", "line chart", "C", false]]}

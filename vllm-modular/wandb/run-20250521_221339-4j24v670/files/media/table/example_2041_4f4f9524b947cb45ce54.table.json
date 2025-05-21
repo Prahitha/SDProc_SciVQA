@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b1c4298d2172f1833e2a71f2ddebb664", "Which of the following methods has the highest topic coherence value ?", "A,C", "closed-ended finite answer set non-binary non-visual", "line chart", "D", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["982176cd45aff7498be5bcb5840a5f16", "How many outgoing arrows does the circle with a double border have?", "B", "closed-ended finite answer set non-binary visual", "Graph", "A", false]]}

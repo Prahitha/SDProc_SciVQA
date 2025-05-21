@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["eb2ccdb85c35e6074340548a068121b9", "What is the title of the figure?", "Calibration plot for Calibrator Probability", "closed-ended infinite answer set non-visual", "line chart", "Calibration plot for Calibrator Probability", true]]}

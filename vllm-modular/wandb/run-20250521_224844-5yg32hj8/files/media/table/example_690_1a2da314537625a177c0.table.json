@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["a7196450d8c9af5fd4f4778e96b769e1", "Which line presents the lowest value at  \u03bb=0 in UPUC dataset?", "B", "closed-ended finite answer set non-binary visual", "line chart", "A", false]]}

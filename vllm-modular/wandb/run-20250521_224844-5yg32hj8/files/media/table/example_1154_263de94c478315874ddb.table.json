@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["35dd73ef4bb3812d1ef8c13966a95a1a", "Is the mean relative cross-entropy loss difference consistently lower for dual nonlinear map than for bilinear map?", "yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

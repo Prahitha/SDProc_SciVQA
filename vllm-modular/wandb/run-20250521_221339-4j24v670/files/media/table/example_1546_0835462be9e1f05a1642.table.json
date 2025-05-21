@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3821be0db40f63a962b503265133f337", "Does the performance of 'Oracle' remain constant as the number of hypotheses increases?", "Yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

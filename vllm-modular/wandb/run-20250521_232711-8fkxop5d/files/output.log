@@ -1,0 +1,12 @@
+Initialized wandb run: internvl-single-validation_validation
+Loading dataset from HuggingFace...
+Initializing dataset with data_dir: scivqa_data and split: validation
+Raw dataset loaded with 1680 examples for split 'validation'
+Validating validation data: 100%|████████████████████████████████████████████████████████████████████████████| 1680/1680 [00:00<00:00, 4352.81it/s]
+Successfully loaded and validated 1680 items for split 'validation'
+Loaded 1680 examples
+
+Processing examples from 0 to 1680 with batch size 8
+Processing batches:   0%|                                                                                                  | 0/210 [00:00<?, ?it/s]
+
+Processing batch 1/210 with 8 examples

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["9a8c586d3b3fda142cf47eb0c9360858", "What is the shape of the figures presented in the confusion matrix?", "D", "closed-ended finite answer set non-binary visual", "confusion matrix", "D", true]]}

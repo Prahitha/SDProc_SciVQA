@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["495985d061b20416c95d00b7d45509c3", "Does the m=1 line is always lower than m=4 and m=2 starting at M=10^1?", "yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

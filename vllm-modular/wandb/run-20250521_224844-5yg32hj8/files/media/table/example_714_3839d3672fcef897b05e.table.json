@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2c830f024f3396173cf2be00b82a37d3", "What is the approximate density value of the green dashed line at 50 annotated examples?", "0.02", "closed-ended infinite answer set visual", "line chart", "0.005", false]]}

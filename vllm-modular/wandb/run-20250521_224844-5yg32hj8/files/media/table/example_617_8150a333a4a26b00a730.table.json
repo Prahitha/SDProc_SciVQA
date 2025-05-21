@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["158eddfc6bf619e7be14d2f3a0889bb3", "Are there more blue squares than green squares in the image?", "Yes", "closed-ended finite answer set binary visual", "neural networks", "Yes", true]]}

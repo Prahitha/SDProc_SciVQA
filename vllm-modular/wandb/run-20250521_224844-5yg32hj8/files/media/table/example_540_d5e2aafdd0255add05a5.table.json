@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["78e320d9c2d01b4f9052bdf9d52cac5d", "Which line in the figure is associated with the language Tamil?", "B", "closed-ended finite answer set non-binary visual", "line chart", "B", true]]}

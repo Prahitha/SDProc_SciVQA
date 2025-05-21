@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["132dcda3d22d78ff984a3c9e4ee1945a", "What is the input of the Acoustic Model Training?", "Online, Unsupervised Acoustic Model Training", "closed-ended infinite answer set non-visual", "architecture diagram", "Automatically Transcribed Broadcast News Corpus", false]]}

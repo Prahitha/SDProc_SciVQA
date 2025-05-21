@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["f7c13bc72917fb4f4c2f7bb2d6413899", "What is the number of test dataset examples seen for a question with 4 relevant candidates?", "D", "closed-ended finite answer set non-binary non-visual", "line chart", "C", false]]}

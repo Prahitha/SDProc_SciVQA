@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["930ef7121270ddbb3ac1edc6beb56fc6", "What is the maximum value shown on the y-axis of the 'Training Loss' plot?", "6", "closed-ended infinite answer set non-visual", "line chart", "0.6", false]]}

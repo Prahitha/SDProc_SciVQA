@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["52a734659f778a3fc7ab2c00d32a629a", "Which penalty factor is represented by a yellow line?", "B,D", "closed-ended finite answer set non-binary visual", "line chart", "B", false]]}

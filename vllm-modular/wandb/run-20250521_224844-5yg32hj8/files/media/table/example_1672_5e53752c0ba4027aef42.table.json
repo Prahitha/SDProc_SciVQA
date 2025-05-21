@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3aca80d15d6419389a593437e2718823", "Does EVIDENCEMINER utilize multiple algorithms?", "Yes", "closed-ended finite answer set binary non-visual", "architecture diagram", "Yes", true]]}

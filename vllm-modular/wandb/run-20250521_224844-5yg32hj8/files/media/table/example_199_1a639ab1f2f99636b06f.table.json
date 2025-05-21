@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["12c1b3d9359c9d62bb11bbfd3801fe12", "What kind of line is used to connect the two NP nodes to the top part of the graph?", "C", "closed-ended finite answer set non-binary visual", "tree", "C", true]]}

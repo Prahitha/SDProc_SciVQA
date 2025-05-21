@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3e475dffcef66aa540d3b5b95336967a", "Which case achieves higher than 28 BLUE for En to Vi for any average lagging?", "D", "closed-ended finite answer set non-binary non-visual", "line chart", "B", false]]}

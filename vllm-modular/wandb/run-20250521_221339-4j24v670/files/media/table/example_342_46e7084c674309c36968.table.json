@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["fb816798c10345cb3f383ad72c28508c", "What is the colour of the bars representing 'Adversarial Training Set Distribution'?", "C", "closed-ended finite answer set non-binary visual", "bar chart", "C", true]]}

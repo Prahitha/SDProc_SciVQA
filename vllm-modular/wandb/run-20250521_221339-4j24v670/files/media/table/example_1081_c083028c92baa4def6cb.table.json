@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["cb9fab8b1afa528a9918d35f2c1c2eca", "Which training method had the highest BLEU score for the 'Subtitles-Medical' dataset with an out-of-domain size of 14M?", "DALI-U", "closed-ended infinite answer set non-visual", "line chart", "BT+DALI-U", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["aec63671d91ef3cf30b172afa69ed943", "In what range is the BLEU score of the dashed red line?", "28 to 33", "closed-ended infinite answer set visual", "line chart", "between 20 and 30", false]]}

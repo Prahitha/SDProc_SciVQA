@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ff08e334a6334ab3fcc6bb57132739ab", "What is the industry with the lowest average user-brand interaction?", "mining", "closed-ended infinite answer set non-visual", "bar chart", "Heavy-equipment and mining-and-metals", false]]}

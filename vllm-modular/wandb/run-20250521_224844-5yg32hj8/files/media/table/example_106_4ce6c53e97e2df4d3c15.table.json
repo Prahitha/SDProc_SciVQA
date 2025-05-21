@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2743b35599ba36a55a51140819888b38", "What is the approximate value of the dotted line at 6 sentences in left graph?", "0.2", "closed-ended infinite answer set visual", "line chart", "0.24", false]]}

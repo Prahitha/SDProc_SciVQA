@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["245acd477189c90de73f3e203bdaac4b", "Is the number of documents with an \"attacking\" country per 3-month period for the USA consistently higher than that of Serbia/Yugoslavia?", "yes", "closed-ended finite answer set binary non-visual", "line chart", "No", false]]}

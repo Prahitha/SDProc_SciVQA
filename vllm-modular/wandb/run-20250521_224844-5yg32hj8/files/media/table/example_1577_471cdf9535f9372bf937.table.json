@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["9101c3bc7572828d745e5e1645846223", "What is the approximate value of precision at recall = 0.01 for the green line in the lower left quadrant?", "0.65", "closed-ended infinite answer set visual", "line chart", "Approximately 0.69", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["1f03fde238f15358119911a6b21df218", "Is the accuracy of the blue line at the value of 0.4, 0.4 for 'lambda Loss, lambda Enc' lower than the accuracy of the green line at the same value?", "yes", "closed-ended finite answer set binary visual", "line chart", "No", false]]}

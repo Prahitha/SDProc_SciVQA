@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["65188e2a32bb6742e07d7c3706a60297", "Is the 'negation tree' positioned to the right of the 'semantic tree' in the figure?", "No", "closed-ended finite answer set binary visual", "tree", "Yes", false]]}

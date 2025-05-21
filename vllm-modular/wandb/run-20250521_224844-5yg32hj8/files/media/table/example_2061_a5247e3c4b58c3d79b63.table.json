@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e8fd769e0a9a1004006854675f500eff", "What is the approximante value of the red line at the sequence length of 128?", "0.0075", "closed-ended infinite answer set visual", "line chart", "6k", false]]}

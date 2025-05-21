@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2dc57e4992e9ea8552ca15868a154772", "How many languages are included in the analysis?", "Five", "closed-ended infinite answer set non-visual", "scatter plot", "5", false]]}

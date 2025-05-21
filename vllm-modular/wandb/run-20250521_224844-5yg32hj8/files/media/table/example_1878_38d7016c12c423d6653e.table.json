@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c0ecaed83c7fab1bce3ffd5245b68199", "Which of the following languages is represented by a green line?", "D", "closed-ended finite answer set non-binary visual", "line chart", "D", true]]}

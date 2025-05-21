@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c81c69958b4153054d40955c1f15a1fc", "In which figure do we see intersection of green and red curves at a distribution value greater than 0.4?", "B", "closed-ended finite answer set non-binary visual", "line chart", "A", false]]}

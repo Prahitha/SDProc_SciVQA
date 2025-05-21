@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["dc5b64b9e87426797b6bfce160188bbf", "What is the F1 score of the solid green line at the 'Move Core Arg' point?", "96.8", "closed-ended infinite answer set visual", "line chart", "Approximately 90", false]]}

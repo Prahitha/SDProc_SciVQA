@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["85c6379ef079b51aa3461cac201f923b", "Does the black line representing AliNet always have a higher value than the grey line representing GCN for the first 200 training epochs?", "yes", "closed-ended finite answer set binary visual", "line chart", "No", false]]}

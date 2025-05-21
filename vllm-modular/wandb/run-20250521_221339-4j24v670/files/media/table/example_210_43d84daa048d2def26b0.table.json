@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["9f720a12fff9cbbc49b10e59484f497e", "Which of the following are direct descendants of 'purpose'?", "B,D", "closed-ended finite answer set non-binary non-visual", "tree", "B,D", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["dfc84746a77f1826f4428b525f0ad6cb", "What is the approximate maximum value of the blue solid line in the lower right plot?", "2.6", "closed-ended infinite answer set visual", "line chart", "0.58", false]]}

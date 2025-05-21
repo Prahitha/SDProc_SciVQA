@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2fc67d1eb74982a7469719ccc1c096c3", "Does MTL-1k reach a fscore more than 20?", "yes", "closed-ended finite answer set binary non-visual", "line chart", "No", false]]}

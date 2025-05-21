@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["0cdf9e4df33ad155cb6d52d060e3777f", "What is the method with the highest total execution time?", "SQL Server", "closed-ended infinite answer set non-visual", "line chart", "SQL Server", true]]}

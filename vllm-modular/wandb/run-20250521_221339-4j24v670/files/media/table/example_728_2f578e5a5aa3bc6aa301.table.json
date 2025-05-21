@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3061e39b270edc2f6795c6e7280a5065", "What is the approximate value of the point positioned at K=10?", "A", "closed-ended finite answer set non-binary non-visual", "Scatter Plot", "A", true]]}

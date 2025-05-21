@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["474023184bc856cd55a246cd8b086e15", "Which model has the highest F1 score at epoch 10 in the 'test' set?", "A,B", "closed-ended finite answer set non-binary non-visual", "line chart", "C", false]]}

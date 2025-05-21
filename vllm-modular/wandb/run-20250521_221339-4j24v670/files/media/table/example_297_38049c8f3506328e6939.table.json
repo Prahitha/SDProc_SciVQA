@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c86b6de60a95e17a9500c26ca1701a67", "Is h_m\u22121 used in more than one part of the architecture?", "Yes, h_m\u22121 is used in more than one part of the architecture.", "closed-ended finite answer set binary non-visual", "neural networks", "Yes", false]]}

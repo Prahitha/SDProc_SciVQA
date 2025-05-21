@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3345042d4d905814a8cd86169bc2b4df", "Does the green line representing K=256 show a consistently higher Meteor score than the orange line representing K=128 across all values of M?", "no", "closed-ended finite answer set binary visual", "line chart", "Yes", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["486ba14e14b5133b527989a79e3ce900", "Does the training entropy for the simple RNN converge to a higher value than the training entropy of the LSTM?", "No", "closed-ended finite answer set binary non-visual", "line chart", "Yes", false]]}

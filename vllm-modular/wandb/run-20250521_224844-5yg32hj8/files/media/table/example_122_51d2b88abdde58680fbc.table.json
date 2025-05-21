@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["546e2a87c89866198548e72a1c67519d", "Which of the following shows the highest UAS value at 5 iterations?", "C", "closed-ended finite answer set non-binary non-visual", "line chart", "C", true]]}

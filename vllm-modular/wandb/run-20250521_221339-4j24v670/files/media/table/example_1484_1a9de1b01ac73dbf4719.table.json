@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b6dbd738ff8433de28b57f7a59718451", "Has the entropy of the generative model increased by the end of ML pre-training compared to the beginning of the range on the training steps axis?", "Yes", "closed-ended finite answer set binary non-visual", "line chart", "No", false]]}

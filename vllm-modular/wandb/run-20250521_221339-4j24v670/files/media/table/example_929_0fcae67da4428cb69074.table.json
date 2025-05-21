@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c958bc3988f6ab0d5ec8f6f1624fe469", "What are the three degrees presented in the plot?", "Hyper, Neutral, Hypo", "closed-ended infinite answer set non-visual", "Other", "Hyper, Neutral, Hypo", true]]}

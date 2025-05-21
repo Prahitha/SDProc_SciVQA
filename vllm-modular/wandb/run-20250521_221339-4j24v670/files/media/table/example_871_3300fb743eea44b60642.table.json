@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["809348c682e0506f88f8fb297a31b14b", "What are three methods presented in the plot?", "A", "closed-ended finite answer set non-binary non-visual", "line chart", "A", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["65a9a757a7a9651485693bb166284a2e", "How many 'B1' blocks are in tree 'b'?", "2", "closed-ended infinite answer set non-visual", "tree", "2", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3b119c7dfa8ed62214875a8688c22e02", "How many numbered rectangular boxes are present in the leftmost tree structure in Figure 11?", "3", "closed-ended infinite answer set visual", "tree", "2", false]]}

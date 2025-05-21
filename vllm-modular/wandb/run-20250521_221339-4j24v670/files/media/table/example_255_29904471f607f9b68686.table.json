@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["9f46577c629aa0f10de30d59b02449d2", "What is the approximate degree value of the lowest black dot shown in the graph?", "B", "closed-ended finite answer set non-binary visual", "scatter plot", "A", false]]}

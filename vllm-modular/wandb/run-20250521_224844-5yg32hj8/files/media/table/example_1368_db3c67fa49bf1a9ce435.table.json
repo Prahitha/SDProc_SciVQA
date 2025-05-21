@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ffdd433e5f3ee8826d10acdd022b4d42", "Are there any relations between 'ripping' and 'monitor' that were not originally annotated?", "Yes", "closed-ended finite answer set binary non-visual", "graph", "Yes", true]]}

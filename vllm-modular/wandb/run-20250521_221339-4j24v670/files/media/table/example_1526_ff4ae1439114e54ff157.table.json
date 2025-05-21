@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c567527d950b026559fea09a670849cc", "Does the blue line reach its maximum value at 2 (30) on the x-axis?", "No", "closed-ended finite answer set binary visual", "line chart", "Yes", false]]}

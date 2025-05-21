@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["92617d2175740733e201d3603c9703a6", "Does the left graph show a strictly linear path?", "No", "closed-ended finite answer set binary visual", "graph", "Yes", false]]}

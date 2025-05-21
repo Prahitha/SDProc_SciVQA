@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["78e4b48f5f53b56687d055443f2bee85", "What is the output of the classifier in the figure?", "Cold", "closed-ended infinite answer set non-visual", "neural networks", "Cold", true]]}

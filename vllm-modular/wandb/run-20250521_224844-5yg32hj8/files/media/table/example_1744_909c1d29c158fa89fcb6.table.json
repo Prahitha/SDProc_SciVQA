@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["0181fab9f1674fec9ef7f1eac9dc5177", "Are the aggregate scores for paragraph-unit analysis consistently higher than that for article-unit analysis?", "No", "closed-ended finite answer set binary non-visual", "Line Chart", "No", true]]}

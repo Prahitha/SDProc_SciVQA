@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c0fbf4a69005e7ff47f164adeb266786", "Is the highest acceptance rate policy associated with the highest expected computation time?", "No", "closed-ended finite answer set binary non-visual", "line chart", "Yes", false]]}

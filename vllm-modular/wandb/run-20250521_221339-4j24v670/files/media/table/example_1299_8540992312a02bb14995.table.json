@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["cd3fdd13abc0f6c4d9f05551c200cb4e", "What is exactly being compared in the graph?", "A,B", "closed-ended finite answer set non-binary non-visual", "scatter plot", "A", false]]}

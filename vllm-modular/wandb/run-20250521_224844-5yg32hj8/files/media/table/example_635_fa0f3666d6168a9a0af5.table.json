@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ac86e27436740193f7aa3a99ff2707b4", "Are the arrows representing the 'Logician' relationships between 'S' and '{F_i}'  solid?", "No", "closed-ended finite answer set binary visual", "graph", "No", true]]}

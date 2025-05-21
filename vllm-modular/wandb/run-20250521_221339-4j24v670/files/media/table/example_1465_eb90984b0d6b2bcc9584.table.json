@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2caa20df5d866835301d8fc58f8ba1b4", "Does the accuracy of the 'around-right' model decrease consistently from 'bottom1' to 'top1'?", "No", "closed-ended finite answer set binary non-visual", "line chart", "No", true]]}

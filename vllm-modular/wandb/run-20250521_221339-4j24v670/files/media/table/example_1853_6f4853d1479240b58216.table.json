@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["f096692c7736ae783076afc34d37e472", "How was the syntactic tree generated?", "It is not possible to answer this question based only on the provided data.", "unanswerable", "tree", "It is not possible to answer this question based only on the provided data.", true]]}

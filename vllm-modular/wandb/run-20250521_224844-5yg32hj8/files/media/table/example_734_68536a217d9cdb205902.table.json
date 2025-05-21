@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["4330558a6b18a778b7016bbfcae23cb1", "Does the blue line representing BPE reach a higher value than the orange line representing SST CCG at the iteration point of 100,000?", "no", "closed-ended finite answer set binary visual", "line chart", "No", true]]}

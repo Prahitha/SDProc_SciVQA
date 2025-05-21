@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["1b0617e29134e263b3be0d228032426b", "Which of the following tags has the highest proportion value for 'Original Training Set Distribution'?", "C,B", "closed-ended finite answer set non-binary non-visual", "bar chart", "B", false]]}

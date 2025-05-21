@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["99cfaea7570e54aa52d096ccb3f91bf4", "Did the word 'basketball' have a higher word rank score than 'basket ball' in 1920?", "yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

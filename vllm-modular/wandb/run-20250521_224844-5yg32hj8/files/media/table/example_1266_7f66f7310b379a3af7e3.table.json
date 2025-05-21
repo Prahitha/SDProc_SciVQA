@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["76d9db6e224b73b3e87f2e997e2d5acc", "Which latin letters are there just below the first sigma?", "J A C O B", "closed-ended infinite answer set visual", "tree", "O, N", false]]}

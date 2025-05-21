@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["21dbd8fefe782623cace412ed51fd405", "Is the value of the blue line at 'ft iter1' higher than the value of the red line at the same point?", "yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

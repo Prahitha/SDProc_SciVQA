@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["57f140ea589835b5e7b9ddd27089bab2", "Are the F2 values between 500 and 2300?", "Yes", "closed-ended finite answer set binary non-visual", "Other", "No", false]]}

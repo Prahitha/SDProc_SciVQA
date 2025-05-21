@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["0c6a053ffabfce91e7116ceb9d1d0f5b", "How many models were plotted?", "Four", "closed-ended infinite answer set non-visual", "line chart", "6", false]]}

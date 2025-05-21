@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["01a2b6c26b876cbec3a94cd03abbb77c", "What is the approximate PPL for the red line when the PPL for baseline is 70?", "90", "closed-ended infinite answer set visual", "scatter plot", "70", false]]}

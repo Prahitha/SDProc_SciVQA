@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["550d76859d2616292168606c0272891e", "Which initialization method shows a higher log-likelihood value after 100 training iterations?", "B", "closed-ended finite answer set non-binary non-visual", "line chart", "B", true]]}

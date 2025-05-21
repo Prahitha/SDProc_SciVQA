@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["bb796b79b311261081ca888034787e47", "What is the value of the correlation at feature number 1 for the black line in the bottom plot?", "0.3", "closed-ended infinite answer set visual", "line chart", "0.65", false]]}

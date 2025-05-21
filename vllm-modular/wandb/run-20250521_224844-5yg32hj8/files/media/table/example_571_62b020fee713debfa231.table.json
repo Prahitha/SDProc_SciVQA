@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ce93a64cbe9a9fd7045599bef9421a74", "What is the name of the component directly below UI, to the right?", "Gesture Recognizer", "closed-ended infinite answer set visual", "Architecture Diagram", "Gesture Recognizer", true]]}

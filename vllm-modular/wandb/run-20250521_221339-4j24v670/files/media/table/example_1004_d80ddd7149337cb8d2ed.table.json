@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["1d65cb55b34624e21a3adfd2ebe31d39", "Which methods show a performance of aproximately 0.75? ", "A, B, C", "closed-ended finite answer set non-binary non-visual", "line chart", "A", false]]}

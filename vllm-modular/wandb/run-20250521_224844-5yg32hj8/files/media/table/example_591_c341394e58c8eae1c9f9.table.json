@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ddf417d80997e48612ca2f12d98d7ed1", "Is the red slice of the pie chart larger than the gray slice?", "yes", "closed-ended finite answer set binary visual", "pie chart", "Yes", true]]}

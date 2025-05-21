@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["03ecb03710abcc19576b5813cee47401", "What is the highest amount of training data used for full network adaptation according to figure 4?", "50%", "closed-ended infinite answer set non-visual", "line chart", "50%", true]]}

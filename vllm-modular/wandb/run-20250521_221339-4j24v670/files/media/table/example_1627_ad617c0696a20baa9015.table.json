@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["cac32fa084e745b1e8a271e587282db7", "What is the direction of the arrow in the figure?", "B", "closed-ended finite answer set non-binary visual", "Illustrative diagram", "B", true]]}

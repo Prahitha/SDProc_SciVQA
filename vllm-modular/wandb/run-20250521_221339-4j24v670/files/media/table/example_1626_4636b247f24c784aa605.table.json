@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["acd080846529fe287a25225efd88acd3", "Does the Vietnamese word 't\u1ed1i' contain two syllables?", "No", "closed-ended finite answer set binary non-visual", "Illustrative diagram", "No", true]]}

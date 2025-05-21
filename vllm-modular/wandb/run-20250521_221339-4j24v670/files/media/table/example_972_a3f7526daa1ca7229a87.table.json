@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["be30de72f2e8d0b440c29344dd450633", "What is the value of the darkest blue square in the confusion matrix?", "The value of the darkest blue square in the confusion matrix is 560.", "closed-ended infinite answer set visual", "confusion matrix", "560", false]]}

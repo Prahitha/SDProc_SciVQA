@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["1c47ba0841d67050724db7b8d96fd8e2", "Which model initialization methods were compared?", "C", "closed-ended finite answer set non-binary non-visual", "line chart", "C", true]]}

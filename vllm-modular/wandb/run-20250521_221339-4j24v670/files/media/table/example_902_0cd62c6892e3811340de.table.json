@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b9ffbbfb5ed286b860955ef4dcbf4aa7", "Does the performance of the green line consistently exceed the performance of the red line throughout the training process?", "No", "closed-ended finite answer set binary visual", "line chart", "No", true]]}

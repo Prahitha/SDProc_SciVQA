@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["734e62d8b990482307f9ce2e1a893718", "Does the blue line representing DiSAN have a higher accuracy than the green line representing Bi-LSTM at the sentence length of 35?", "yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

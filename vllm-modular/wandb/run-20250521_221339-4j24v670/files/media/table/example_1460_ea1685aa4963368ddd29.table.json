@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c13e3902ec62051f3482cd5ca86bd120", "Which of the following language pairs always has a BLEU score higher than 5 for all values of training batches (K)?", "B", "closed-ended finite answer set non-binary non-visual", "line chart", "A", false]]}

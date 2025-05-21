@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2c0842e98ec7ddb40026e959a7623f2e", "Which of the following sentences are not stored in the monolingual trie?", "A,C", "closed-ended finite answer set non-binary non-visual", "tree", "B", false]]}

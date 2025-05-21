@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2d5af3644696a0102a3b0c86f5b4dd84", "In Figure 2(a), does the dashed blue line representing the upper bound Bk(4) reach a value greater than 15?", "No", "closed-ended finite answer set binary visual", "line chart", "Yes", false]]}

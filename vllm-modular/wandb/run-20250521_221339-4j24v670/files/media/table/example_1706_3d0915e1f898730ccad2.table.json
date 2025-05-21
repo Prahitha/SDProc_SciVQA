@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["058861a2adb34f7747501ba1b2f82a23", "Is the width of the matrix larger than its height?", "No", "closed-ended finite answer set binary visual", "Heat Map", "Yes", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2f6ee89a995b34a7f8884b67be3af67d", "Which of the following has the highest Spearman's Correlation value at 8 references?", "C", "closed-ended finite answer set non-binary non-visual", "line chart", "A", false]]}

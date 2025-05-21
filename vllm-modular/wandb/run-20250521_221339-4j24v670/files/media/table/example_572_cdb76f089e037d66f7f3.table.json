@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["400ac90e5ad9c089b3f4a6db4ef38576", "How many blocks does figure 1 have?", "6", "closed-ended infinite answer set non-visual", "Architecture Diagram", "5", false]]}

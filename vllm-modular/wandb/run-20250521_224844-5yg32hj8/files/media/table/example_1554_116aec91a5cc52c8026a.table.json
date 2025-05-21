@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e3ff6c629b11c4a55687f09e9d9db130", "Is the red line higher than the blue line for the Letter Rank of 10?", "yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

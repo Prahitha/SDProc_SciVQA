@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["27bef2205eb31fbe8afcf3f82004dc5d", "Is the height of the blue bar in the 80-100 bin taller than the height of the orange bar in the same bin?", "yes", "closed-ended finite answer set binary visual", "bar chart", "Yes", true]]}

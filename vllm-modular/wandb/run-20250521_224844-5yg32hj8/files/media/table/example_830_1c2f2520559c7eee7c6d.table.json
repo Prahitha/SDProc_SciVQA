@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2507cdb3a35a322a0abd87ae967e426f", "What is the model accuracy for the Attention model when 35% of tokens are used as rationales?", "79.8", "closed-ended infinite answer set non-visual", "line chart", "approximately 72%", false]]}

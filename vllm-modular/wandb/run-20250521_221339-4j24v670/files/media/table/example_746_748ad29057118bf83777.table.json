@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["f99492d65c165254e7a6b504ac018573", "What are all possible values for average accuracy in y-axis?", "B,C", "closed-ended finite answer set non-binary non-visual", "line chart", "C", false]]}

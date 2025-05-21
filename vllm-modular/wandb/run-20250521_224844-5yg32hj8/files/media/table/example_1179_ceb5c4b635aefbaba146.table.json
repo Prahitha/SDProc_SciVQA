@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["a7c95e81c2ff1baafabd69040963465f", "Is the orange bar consistently higher than the purple bar?", "No", "closed-ended finite answer set binary visual", "Line Chart,Bar Chart", "Yes", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d335c548fc048845e19a720c291dd1f5", "What is the maximum value of the x-axis representing the calibrator probability?", "D", "closed-ended finite answer set non-binary non-visual", "line chart", "D", true]]}

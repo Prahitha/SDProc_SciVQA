@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["7bb4a195cb9016a28b8896857ee63ce1", "Does the supervised PBSMT approach always yield a higher BLEU score than the unsupervised NMT approach?", "No", "closed-ended finite answer set binary non-visual", "line chart", "No", true]]}

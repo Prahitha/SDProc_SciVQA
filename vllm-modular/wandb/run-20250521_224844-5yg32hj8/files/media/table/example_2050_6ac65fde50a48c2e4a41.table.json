@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["0fc3834d9110adcaa4a5a48777919dae", "What is the maximum value reached by the line E=200 p=seqatlama on the subgraph labeled \"Actual search time'?", "D", "closed-ended finite answer set non-binary non-visual", "line chart", "D", true]]}

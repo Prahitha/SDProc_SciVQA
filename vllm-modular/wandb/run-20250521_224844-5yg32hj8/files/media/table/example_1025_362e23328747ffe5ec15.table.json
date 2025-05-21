@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["127b661886e9207c429382e2a5fdf2d5", "What is the color of the line representing the 'highest acceptance rate' policy in the right plot?", "cyan", "closed-ended infinite answer set visual", "line chart", "Cyan", true]]}

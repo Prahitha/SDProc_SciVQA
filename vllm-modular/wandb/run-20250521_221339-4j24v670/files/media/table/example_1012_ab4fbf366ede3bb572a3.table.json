@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["4408273216fc2fbd9751118d6a65275f", "Which bolded lines on the graph start over 0.5 of Average Cumulative Loss Energy?", "A: Orange and Green", "closed-ended finite answer set non-binary visual", "line chart", "A,C", false]]}

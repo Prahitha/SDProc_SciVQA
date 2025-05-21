@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["a5fd157fb82b189be51c4fd52d4bb391", "Is the label of the root node #?", "yes", "closed-ended finite answer set binary non-visual", "tree", "Yes", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["7510d2ea32f28ccc23157816cbdabdad", "What is the value in the top-left cell of the confusion matrix?", "5852", "closed-ended infinite answer set visual", "confusion matrix", "5852", true]]}

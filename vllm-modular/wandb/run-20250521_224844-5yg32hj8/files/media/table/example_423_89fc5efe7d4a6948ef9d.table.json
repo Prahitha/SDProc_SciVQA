@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b8e5f9f2a0b548711e55a6ae7456591b", "Which of the following is true about the blue line representing GPT-3 in the figure?", "B", "closed-ended finite answer set non-binary visual", "line chart", "A,B,C", false]]}

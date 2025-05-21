@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["51bf4258bcf0fc85387b20f41569cafd", "Are 4 different particle types presented in the graph?", "No, only 3 different particle types are presented in the graph.", "closed-ended finite answer set binary non-visual", "scatter plot", "Yes", false]]}

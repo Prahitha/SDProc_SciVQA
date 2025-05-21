@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["30c2d68543134368f620c679f6687b5c", "Does changing the number of unlabeled data affect the classification accuracy?", "Yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

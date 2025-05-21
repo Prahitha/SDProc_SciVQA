@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["f1bd75b0a99c82015a52daed9daea0dc", "Which sentence representation scores the highest F1 score at L3?", "The highest F1 score at L3 is represented by the orange line.", "closed-ended infinite answer set non-visual", "line chart", "fr", false]]}

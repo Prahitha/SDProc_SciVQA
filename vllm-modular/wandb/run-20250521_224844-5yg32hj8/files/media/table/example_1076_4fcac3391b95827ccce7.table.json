@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["5421f7985d6b10dd5aa700cba558068b", "What is the lowest accuracy achieved by any of the experiments?", "B", "closed-ended finite answer set non-binary non-visual", "line chart", "B", true]]}

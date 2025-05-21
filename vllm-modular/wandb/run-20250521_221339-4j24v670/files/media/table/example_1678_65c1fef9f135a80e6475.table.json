@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["4030feb4a87c28d11e5c22e070c6098e", "Is the 'Textual Event Coreference' box positioned below the 'Textual KB' box?", "Yes", "closed-ended finite answer set binary visual", "architecture diagram", "Yes", true]]}

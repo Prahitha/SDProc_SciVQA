@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2010eea6a1ea256b1dd0432b8dbef3ff", "Which system, BPE or SST\u2013CCG, performs better at the final iteration?", "SST\u2013CCG", "closed-ended infinite answer set non-visual", "line chart", "SST\u2013CCG", true]]}

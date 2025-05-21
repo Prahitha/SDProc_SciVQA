@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["bb604bafa63c2ee962816fb015e27c8d", "What is the shape of the curve representing the logistic function?", "S-shaped", "closed-ended infinite answer set visual", "line chart", "S-shaped", true]]}

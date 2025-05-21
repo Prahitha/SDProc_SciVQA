@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["6f6904d2957e0c079523be9e2ea89c4a", "Is the broadcasting revenue stream the largest source of revenue for Liverpool FC?", "No", "closed-ended finite answer set binary non-visual", "line chart", "Yes", false]]}

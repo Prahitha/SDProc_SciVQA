@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["294b04beb47bccf59a4e52ef4944e841", "In graph (b), is the green solid line in the 'rice' subplot higher than the green dashed line in the 'immune' subplot?", "no", "closed-ended finite answer set binary visual", "line chart", "Yes", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ae4b24ccffe65b3dafa4ac051462d62c", "Does the top-k accuracy increase when the k values are between 1 and 8?", "yes", "closed-ended finite answer set binary non-visual", "Scatter Plot", "Yes", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["09ad79ce3092b690887fe363d71b894d", "Does the red line with label 'all' in the figure labeled (a) reach a value above 70?", "Yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

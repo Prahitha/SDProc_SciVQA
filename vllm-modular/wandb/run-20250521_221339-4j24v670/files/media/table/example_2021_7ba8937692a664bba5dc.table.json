@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3949144ed5e389e1b804de08b6088b73", "Which line in the left plot has the highest value at 1000 examples?", "B", "closed-ended finite answer set non-binary visual", "line chart", "A", false]]}

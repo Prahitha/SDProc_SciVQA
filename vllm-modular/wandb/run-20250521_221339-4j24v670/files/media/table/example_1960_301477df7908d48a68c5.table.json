@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["79832b3cb7e4f7e513e5bf19db4a3701", "Which of the following task and pre-training domains are combined in the provided figure?", "A, D", "closed-ended finite answer set non-binary non-visual", "line chart", "D", false]]}

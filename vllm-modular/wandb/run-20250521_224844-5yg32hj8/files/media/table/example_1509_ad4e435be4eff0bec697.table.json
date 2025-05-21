@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["399af776e8796e5236d049ef22c8a15c", "What is the accuracy percentage on the SST2 dataset for the 'Correct Ordering' method when the window size is 29?", "76", "closed-ended infinite answer set non-visual", "line chart", "Approximately 78.5", false]]}

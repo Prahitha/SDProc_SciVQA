@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["95d2e5a2b4499cb848e0feb4fd9a628f", "What is the value of the classification accuracy for the Bi-LSTM model (blue line) at the epsilon value of 1.2 on the top left subgraph?", "0.85", "closed-ended infinite answer set visual", "line chart", "0.85", true]]}

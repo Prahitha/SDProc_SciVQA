@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["a1512771fe35d90298875a78575ba0d9", "What is the approximate value of the red line at n-Nearest Neighbors = 100?", "The approximate value of the red line at n-Nearest Neighbors = 100 is 1000.", "closed-ended infinite answer set visual", "line chart", "1000", false]]}

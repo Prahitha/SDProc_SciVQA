@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["0e69aa0b8b03671b53c3062d3f06a84d", "What is the dimension of Q-values shown in figure 3?", "K", "closed-ended infinite answer set non-visual", "neural networks", "K", true]]}

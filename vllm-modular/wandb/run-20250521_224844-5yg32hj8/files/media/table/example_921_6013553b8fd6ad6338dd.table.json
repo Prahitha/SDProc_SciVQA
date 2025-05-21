@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d98656b39f50a34ce76d0c65b690709b", "Are there any black lines connecting the dimension 3 label 'nom-invert' to beta4?", "No", "closed-ended finite answer set binary visual", "tree", "Yes", false]]}

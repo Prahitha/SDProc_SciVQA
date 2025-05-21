@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["46313fa9c091fffaa5dd1fe08eaf7a79", "Is the Acc@10 in the range of 0 to 0.5?", "No", "closed-ended finite answer set binary non-visual", "line chart", "Yes", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["447fbaca5d257027edad210c3ffb5922", "What is the  parent node of the node labeled 'fire_fighting'?", "purpose", "closed-ended infinite answer set non-visual", "tree", "purpose", true]]}

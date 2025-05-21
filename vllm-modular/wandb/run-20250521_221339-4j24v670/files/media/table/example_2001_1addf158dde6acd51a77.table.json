@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["466fbac17fb47e812822ef1e6479f333", "Is the red circle in the first graph consistently above the blue square?", "No", "closed-ended finite answer set binary visual", "line chart", "Yes", false]]}

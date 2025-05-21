@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e8457ae7d43a386ea3f1316142bded24", "Does OpenTag with tag flip (TF) consistently outperform the least confidence (LC) strategy?", "Yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

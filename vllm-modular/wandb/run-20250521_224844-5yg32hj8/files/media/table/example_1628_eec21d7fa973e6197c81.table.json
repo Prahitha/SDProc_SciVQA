@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e5bb98a212b5ac5794476c49464ebd36", "Which of the following represents the word 't\u00e1i'?", "C", "closed-ended finite answer set non-binary non-visual", "Illustrative diagram", "A", false]]}

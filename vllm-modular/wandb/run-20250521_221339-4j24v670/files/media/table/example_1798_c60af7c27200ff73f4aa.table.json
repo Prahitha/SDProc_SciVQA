@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["084c135adb8c74b9154caf95859f90a6", "What color is the box that represents the encoder?", "B", "closed-ended finite answer set non-binary visual", "neural networks", "D", false]]}

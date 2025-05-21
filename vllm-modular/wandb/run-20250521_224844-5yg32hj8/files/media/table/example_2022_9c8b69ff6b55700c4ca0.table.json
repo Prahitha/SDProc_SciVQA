@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["9362fe6d7d0066a33d1c90703e2d5317", "What metric is used to score performance in Figure 1?", "B", "closed-ended finite answer set non-binary non-visual", "line chart", "B", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["9ca3136c4851425367a239da84323b23", "Does the brown line representing GloVe + ELMo (FT) reach the highest expected validation accuracy at 10 days of training?", "No", "closed-ended finite answer set binary visual", "line chart", "Yes", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e73d8401f2b990d3650389a0af273626", "Does the abstract syntax tree on the left side of Figure 6 have a vertical height greater than the word alignment on the right side?", "yes", "closed-ended finite answer set binary visual", "Tree,Graph", "Yes", true]]}

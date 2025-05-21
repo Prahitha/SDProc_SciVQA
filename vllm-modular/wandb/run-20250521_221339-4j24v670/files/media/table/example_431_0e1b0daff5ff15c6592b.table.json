@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["f20ac4acadfe6829ee414aef759396f3", "Does the HRG model with 1 subgraph sample have the highest model size?", "No", "closed-ended finite answer set binary non-visual", "line chart", "No", true]]}

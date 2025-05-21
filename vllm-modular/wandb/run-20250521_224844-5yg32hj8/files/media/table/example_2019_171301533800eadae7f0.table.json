@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["dca28e49467b3ddec6da7e6c131a28a1", "Does the blue line on the right graph represent the 'Extract Only' method?", "No", "closed-ended finite answer set binary visual", "line chart", "Yes", false]]}

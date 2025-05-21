@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["a68ab9204d5b33a082d95740357be109", "Which functions are represented in the graph?", "Logistic function, Linear function", "closed-ended infinite answer set non-visual", "line chart", "Linear function and Logistic function", false]]}

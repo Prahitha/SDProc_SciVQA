@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["a27880d13ab83381cee5e698cdefbc5f", "At what percentage of data is the difference between the precision and recall values the smallest?", "A", "closed-ended finite answer set non-binary non-visual", "line chart", "D", false]]}

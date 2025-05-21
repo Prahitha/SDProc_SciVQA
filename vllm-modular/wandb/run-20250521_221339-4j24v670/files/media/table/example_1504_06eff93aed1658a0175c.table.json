@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["857c74594602f757548fc1ba0b3c1d58", "For which task does recall@1 consistently decrease with Temporal IoU across all  moment generation methods and filters with different kernel sizes?", "B", "closed-ended finite answer set non-binary non-visual", "line chart", "C", false]]}

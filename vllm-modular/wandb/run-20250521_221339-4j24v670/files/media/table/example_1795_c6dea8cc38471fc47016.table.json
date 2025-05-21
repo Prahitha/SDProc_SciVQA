@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["458c288d1ea6b38425da5cab2f68a13a", "What are the input tokens in the figure?", "1 2 3 4", "closed-ended infinite answer set non-visual", "neural networks", "Clippers won the game", false]]}

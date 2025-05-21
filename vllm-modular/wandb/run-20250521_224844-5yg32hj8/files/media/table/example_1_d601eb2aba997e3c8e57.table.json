@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["52e8d789c0d9ce7e1ab2f379da7ada5a", "Which country is referenced in the first plot?", "USA", "closed-ended infinite answer set non-visual", "line chart", "USA", true]]}

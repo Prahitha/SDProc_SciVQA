@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["a6083a39b24caf059105c766fa31e030", "Is IDEA higher on the line of the topic coherence than OLDA?", "Yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["92d310828308b960ac2aef2d54f9df2e", "What is the approximate value of the blue 'in-domain' line at the calibrator probability of 0.6?", "0.6", "closed-ended infinite answer set visual", "line chart", "0.65", false]]}

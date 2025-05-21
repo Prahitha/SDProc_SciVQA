@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["890319a1896e06b6192b278c6f181b0a", "Which training types are included in the figure?", "B", "closed-ended finite answer set non-binary non-visual", "line chart", "A", false]]}

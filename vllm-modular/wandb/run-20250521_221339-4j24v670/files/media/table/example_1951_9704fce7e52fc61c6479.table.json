@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["4cfea70614479b3e1566d68754de5efb", "What is the approximate highest relative weight change of the sentence encoder with encoder size 256 and decoder size 1024?", "D", "closed-ended finite answer set non-binary non-visual", "line chart", "C", false]]}

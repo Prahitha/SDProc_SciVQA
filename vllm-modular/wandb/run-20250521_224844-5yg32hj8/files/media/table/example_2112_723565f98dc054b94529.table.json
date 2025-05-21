@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2783452297f7df9d3df0413e415f9347", "What is the approximate accuracy of identifying emotion causes decrease when the ratio of -1 emotional causes approaches 35%?", "C", "closed-ended finite answer set non-binary non-visual", "line chart", "C", true]]}

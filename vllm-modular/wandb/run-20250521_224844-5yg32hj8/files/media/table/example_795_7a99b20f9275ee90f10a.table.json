@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b12d045ce77a6e3a6f6a896db3ea5f9a", "What are the three different tasks being compared in this figure?", "MT, LM, MLM", "closed-ended infinite answer set non-visual", "line chart", "MT, LM, MLM", true]]}

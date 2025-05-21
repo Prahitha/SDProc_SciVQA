@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["96c1e84433d4dd52ffacef0bd26a6dab", "Which model initialization has the highest sensitivity value for the red dashed line at 1 - Specificity of 0.2?", "Pneumothorax", "closed-ended infinite answer set visual", "line chart", "ResNet", false]]}

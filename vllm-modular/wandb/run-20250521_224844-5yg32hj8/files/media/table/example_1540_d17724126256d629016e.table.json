@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["5643c4a827af5c31a7cbbb45e3737ccd", "Which of the following lines has the highest value at #Topic 9?", "A", "closed-ended finite answer set non-binary visual", "line chart", "A", true]]}

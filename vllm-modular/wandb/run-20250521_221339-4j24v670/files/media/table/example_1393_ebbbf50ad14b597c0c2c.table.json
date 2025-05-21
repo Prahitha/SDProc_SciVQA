@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["464d3f6a797e5ffa26adb183aeea5720", "Does the accuracy of the left graph increase with the number of CNNs before reaching a plateau?", "Yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

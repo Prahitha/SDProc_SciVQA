@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["1ecb89f221972a30ade2367162baedad", "What is the approximate minimal F1 score for the LAS baseline at the first image?", "B", "closed-ended finite answer set non-binary non-visual", "line chart", "A", false]]}

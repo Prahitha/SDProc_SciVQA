@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["f1e3092c2f9180fefb9d4e35262f5428", "Which of the following datasets have a dashed line representing the result obtained on full datasets?", "B,C", "closed-ended finite answer set non-binary non-visual", "line chart", "A,C", false]]}

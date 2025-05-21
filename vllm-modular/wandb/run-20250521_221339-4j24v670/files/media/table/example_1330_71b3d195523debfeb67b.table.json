@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["43366b45caa7c34f90a9bc963e0eb37c", "What metrics are used ?", "Accuracy, Precision, Recall, F1 Score", "closed-ended infinite answer set non-visual", "confusion matrix", "Adecuacy, fluency and combination", false]]}

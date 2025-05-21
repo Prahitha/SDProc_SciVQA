@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["854008f8cbbe40355cb7c3d901448043", "Does the orange box labeled 'Encoder' have arrows pointing to both the left and right?", "yes", "closed-ended finite answer set binary visual", "neural networks", "No", false]]}

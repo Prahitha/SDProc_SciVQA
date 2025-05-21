@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["865664b92f5c8cbe934b66db0a67ce26", "What is the general shape of the accuracy curves in both plots as the number of sentences increases?", "B", "closed-ended finite answer set non-binary visual", "line chart", "B", true]]}

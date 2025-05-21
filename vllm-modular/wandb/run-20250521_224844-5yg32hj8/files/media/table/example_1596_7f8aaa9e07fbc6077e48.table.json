@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["4611b515b657d780bef75b7841509cb4", "What is the numerical label in the rectangle at the bottom left of the dependency graph in the top figure?", "2", "closed-ended infinite answer set visual", "Tree", "2", true]]}

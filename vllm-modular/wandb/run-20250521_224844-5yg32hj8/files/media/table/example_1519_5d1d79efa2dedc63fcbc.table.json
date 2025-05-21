@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c34b01a73dd713001dfb42501c900847", "Does the blue line reach a higher F1 score than the green line at the 'Add Arg.' boundary?", "yes", "closed-ended finite answer set binary visual", "line chart", "No", false]]}

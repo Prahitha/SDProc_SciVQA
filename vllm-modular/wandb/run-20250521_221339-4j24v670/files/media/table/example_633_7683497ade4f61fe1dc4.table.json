@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["44258bb6594671d710f5b263a857e837", "What is the label of the circle that has a dashed arrow pointing to the right?", "{Fj}", "closed-ended infinite answer set visual", "graph", "{Sj}", false]]}

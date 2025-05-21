@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["6e098f4f7129229fb7f3bd99fe7949b5", "Are S1 and S4 connected to each other by a line in the graph on the right?", "No", "closed-ended finite answer set binary visual", "graph", "Yes", false]]}

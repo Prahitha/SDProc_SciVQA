@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e28325f5d0eb20ac5612fdee13d1797e", "Does the frequency of the most common character in Voynichese (Maximal) exceed 10%?", "Yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["6d5b5664e599c0129a2e3ae7954d8ae0", "Does the x-axis values for SPARQL plot are between 0 ad 250?", "Yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

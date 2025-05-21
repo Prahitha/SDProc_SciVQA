@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c4d0b1bea2b500569e135f5151305479", "What does RMSE stand for?", "It is not possible to answer this question based only on the provided data.", "unanswerable", "line chart", "It is not possible to answer this question based only on the provided data.", true]]}

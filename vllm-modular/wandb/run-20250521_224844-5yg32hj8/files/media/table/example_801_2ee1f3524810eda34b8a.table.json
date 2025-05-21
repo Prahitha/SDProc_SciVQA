@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["be926f468e7a9c4b453c7516c7c1b444", "What is the Rouge-L score for the green line at epoch 5?", "0.34", "closed-ended infinite answer set visual", "line chart", "between 0.30 and 0.35", false]]}

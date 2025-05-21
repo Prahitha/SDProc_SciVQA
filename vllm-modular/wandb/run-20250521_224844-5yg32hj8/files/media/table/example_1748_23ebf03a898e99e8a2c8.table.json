@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["12ec67fa9c9576f4dff26a4c172eb767", "What is the approximate Micro F1 score of the green line at a training size of 1500?", "0.62", "closed-ended infinite answer set visual", "line chart", "0.59", false]]}

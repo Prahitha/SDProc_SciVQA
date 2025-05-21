@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["116fe3f198a6c56b7f36e9466b60f816", "Which corner of the matrix has the highest value?", "B", "closed-ended finite answer set non-binary visual", "Heat Map", "B", true]]}

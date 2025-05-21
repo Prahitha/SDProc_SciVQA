@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["6e99f91d4a42af2be52494ffe379ab27", "Which line has the highest value at layer 6?", "C", "closed-ended finite answer set non-binary visual", "line chart", "C", true]]}

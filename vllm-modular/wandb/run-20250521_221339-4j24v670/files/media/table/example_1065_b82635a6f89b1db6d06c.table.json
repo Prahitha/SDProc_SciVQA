@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["28465ac8767fd03e4e93e1d08d9eb9dd", "What is the color of the line representing 'Micro-F' in the graph labeled 'RCV1-v2'?", "A", "closed-ended finite answer set non-binary visual", "Graph", "A", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["58bff5a95ba1614f57fc962d500a2a8c", "What color is the node labeled 'born'?", "purple", "closed-ended infinite answer set visual", "tree", "pink", false]]}

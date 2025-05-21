@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["daae5fc9e1dfb2068b6a7f8d3b4ec12e", "Which of the following lines reach a delta P value more than 0% before 10 labeled supervised learning training dialogs?", "A, C", "closed-ended finite answer set non-binary visual", "line chart", "C,D", false]]}

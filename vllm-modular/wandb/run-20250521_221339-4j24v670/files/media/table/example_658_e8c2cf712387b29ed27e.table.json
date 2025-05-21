@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["44dd3f237726f3036a95436d48225395", "What is the maximum value for the green line in the plot labeled 'Accuracy' in the second panel?", "0.60", "closed-ended infinite answer set visual", "line chart", "approximately 0.6", false]]}

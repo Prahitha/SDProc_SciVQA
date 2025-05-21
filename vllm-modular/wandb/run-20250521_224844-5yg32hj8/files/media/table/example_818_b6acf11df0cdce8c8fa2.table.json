@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d2c006f52568535739d95bfa3bbc0c2e", "What is the highest F1 score achieved on MELD?", "B", "closed-ended finite answer set non-binary non-visual", "line chart", "A", false]]}

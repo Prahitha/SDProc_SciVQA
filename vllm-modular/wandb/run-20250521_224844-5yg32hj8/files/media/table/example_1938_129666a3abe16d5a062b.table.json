@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["7eeb06aecf648bf13402567f005bfae2", "According to Figure 2, what is the highest Meteor score achieved when K=256?", "11.0", "closed-ended infinite answer set non-visual", "line chart", "11.0", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["f969fa03807d24ecf27b72f32b723998", "Which y interval has fewest data points for the x interval [10, 15]?", "B,C", "closed-ended finite answer set non-binary non-visual", "scatter plot", "A", false]]}

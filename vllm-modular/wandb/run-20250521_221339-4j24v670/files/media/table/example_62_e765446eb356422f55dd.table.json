@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2ebdefe86965265f23ea00cd9e6d5580", "What is the approximate value of the red line at the 30th iteration?", "2.5", "closed-ended infinite answer set visual", "line chart", "-15.3", false]]}

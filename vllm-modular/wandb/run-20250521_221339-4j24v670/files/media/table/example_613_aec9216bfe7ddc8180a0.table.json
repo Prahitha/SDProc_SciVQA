@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["9ee80becedaa718c818bdd2146593b77", "What is the final step in the structure of FCGMM?", "C,D", "closed-ended finite answer set non-binary non-visual", "architecture diagram", "D", false]]}

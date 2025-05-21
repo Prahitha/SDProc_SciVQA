@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["835b4216eb8790797deaee52ea085cb3", "Is the average OC of the AliNet model higher than the average OC of the GCN model across the three datasets?", "Yes", "closed-ended finite answer set binary non-visual", "line chart", "No", false]]}

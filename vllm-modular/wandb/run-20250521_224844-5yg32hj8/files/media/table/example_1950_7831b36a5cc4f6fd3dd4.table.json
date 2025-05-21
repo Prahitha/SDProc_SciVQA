@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c87a57fdddc72c55a4de420ccb61a401", "Which of the following lines shows the highest weight change in the Document Encoder section?", "A,B", "closed-ended finite answer set non-binary visual", "line chart", "B", false]]}

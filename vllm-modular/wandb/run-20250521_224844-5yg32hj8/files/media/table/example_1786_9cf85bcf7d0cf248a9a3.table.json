@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["7a27023890dfd3be030f724b1ce43ca8", "What is the input of the Prototype c?", "Prototype c", "closed-ended infinite answer set non-visual", "neural networks", "Support Set S", false]]}

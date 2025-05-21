@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["a0b5b90cd8d85d5c8c4bdddf886d6970", "Does the CCG has the lowest precision value at recall between 0.6 and 0.8?", "yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ab2ab2fdad400ae1ed5a86557571a956", "Does the red circle with a diagonal line inside receive an input arrow from a green rectangle?", "Yes", "closed-ended finite answer set binary visual", "neural networks", "Yes", true]]}

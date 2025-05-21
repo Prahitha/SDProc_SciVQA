@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["438ddc99968665c3c7a1c4919eed9b0c", "What is the approximate success rate (%) of ACER on summary action space, represented by the black line, at 3500 training dialogues?", "95", "closed-ended infinite answer set visual", "line chart", "97%", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ccb01397a034444b6eb51154434b6571", "Which line has a maximum value of less than 0.90 in the leftmost graph?", "A", "closed-ended finite answer set non-binary visual", "line chart", "C", false]]}

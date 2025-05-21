@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e574c0d963457e5c23f17a4efed46271", "Does the red dashed line reach a precision value of between 98% and 100% at any point?", "no", "closed-ended finite answer set binary visual", "line chart", "Yes", false]]}

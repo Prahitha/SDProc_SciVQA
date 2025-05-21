@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["fdb3919ff0a591d84a392ba71a84698d", "What is the value of the orange line between k=3 and k=4 in the left graph?", "3", "closed-ended infinite answer set visual", "line chart", "0 - 5", false]]}

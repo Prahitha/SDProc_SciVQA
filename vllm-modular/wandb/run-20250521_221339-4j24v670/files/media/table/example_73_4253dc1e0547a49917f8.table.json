@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c57f7eca002655fe1c321a40350d1f99", "Is the accuracy of the blue line generally higher than that of the green line in the top figure?", "Yes", "closed-ended finite answer set binary visual", "line chart", "No", false]]}

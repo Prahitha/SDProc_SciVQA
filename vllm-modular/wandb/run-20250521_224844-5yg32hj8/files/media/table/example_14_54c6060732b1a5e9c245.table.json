@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2cf8e217725cc8ce34ea8ec3706240f7", "At what value do both the logistic and linear functions meet the halfway point?", "B", "closed-ended finite answer set non-binary non-visual", "line chart", "B", true]]}

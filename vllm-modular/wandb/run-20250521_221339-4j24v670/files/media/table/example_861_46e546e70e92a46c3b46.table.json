@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["57d8858bfdf501808cf2a97a0b740312", "Which models are presented in the figure?", "B", "closed-ended finite answer set non-binary non-visual", "line chart", "B", true]]}

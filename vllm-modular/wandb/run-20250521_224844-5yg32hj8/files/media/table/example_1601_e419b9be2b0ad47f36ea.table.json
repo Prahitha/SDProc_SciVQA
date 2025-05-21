@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["a08940feaffa5b9a88cace322a606c2c", "Does the reduction tree have exactly as many leaf nodes as words in the phrase under analysis?", "Yes", "closed-ended finite answer set binary non-visual", "Tree", "No", false]]}

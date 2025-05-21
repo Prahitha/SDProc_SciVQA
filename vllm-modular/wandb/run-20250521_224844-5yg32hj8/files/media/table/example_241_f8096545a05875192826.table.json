@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2b4e2d32817e2a14d9daea95acda5c81", "Is there a noticeable difference in the density of yellow triangles above and below the diagonal dashed line?", "Yes", "closed-ended finite answer set binary visual", "scatter plot", "Yes", true]]}

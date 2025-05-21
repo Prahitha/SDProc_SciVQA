@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["915eef70b4feceeda0db83d9d576356e", "Does the accuracy of the single-level head match model consistently surpass the accuracy of the classic match model?", "No", "closed-ended finite answer set binary non-visual", "line chart", "Yes", false]]}

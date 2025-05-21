@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["51ed8a2e13fb397a0991bad608eb1103", "Is there a transition from state 3 to state 2?", "No", "closed-ended finite answer set binary non-visual", "graph", "No", true]]}

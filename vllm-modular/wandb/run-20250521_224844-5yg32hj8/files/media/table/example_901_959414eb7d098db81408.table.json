@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["0b4f06a59bfdec2b324d841a398b2fbb", "What is the range of episodes?", "0 to 50k", "closed-ended infinite answer set non-visual", "line chart", "0 to 50k", true]]}

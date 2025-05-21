@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2301e8cc9a6db430c1d87cdf5a112469", "Is the mean of PMI(i, j) values greater than zero?", "No", "closed-ended finite answer set binary non-visual", "Line Chart,Scatter Plot", "No", true]]}

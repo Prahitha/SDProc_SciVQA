@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d90a16fb77dadc025f303bae6059e23c", "Which of the four graphs displays the highest success rate for the model with transfer learning after 50 epochs?", "C", "closed-ended finite answer set non-binary visual", "line chart", "C", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d5c22be8309d73d840dd60b7196c88ca", "Does the green area exceed a height of 20% in the top left subfigure?", "no", "closed-ended finite answer set binary visual", "line chart", "Yes", false]]}

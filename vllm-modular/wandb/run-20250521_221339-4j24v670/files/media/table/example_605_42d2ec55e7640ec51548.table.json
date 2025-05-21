@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["31d0036642c95cdd5993fd64b36e23ff", "How many boxes are labeled 'Extract LPCC'?", "Two", "closed-ended infinite answer set visual", "architecture diagram", "3", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["abd1b92678c6f33498dbb5d4d46d6cb6", "According to Figure 5 and its caption, which of the following statements are true?", "B,D", "closed-ended finite answer set non-binary non-visual", "tree", "BCD", false]]}

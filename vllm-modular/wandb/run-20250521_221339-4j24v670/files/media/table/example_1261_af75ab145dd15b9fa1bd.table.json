@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["66d8a5b7ea4b44a5d55eb51769b67daf", "Which of the lines represent PCFG models trained with the GS algorithm with random initialization?", "A", "closed-ended finite answer set non-binary visual", "line chart", "D", false]]}

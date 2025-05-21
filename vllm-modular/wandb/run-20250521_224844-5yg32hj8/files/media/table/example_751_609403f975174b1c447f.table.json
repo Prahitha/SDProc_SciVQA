@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["359bb2cad249c214c97281ed3bb15817", "Is the retrieval accuracy for the en-fr pair using BERT consistently higher than the retrieval accuracy for the en-fr pair using LASER?", "yes", "closed-ended finite answer set binary non-visual", "line chart", "No", false]]}

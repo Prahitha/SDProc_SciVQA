@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["a9903cbef17bc88bddd26ebb5d482922", "Is the model size for the line with star markers greater than the model size for the line with diamond markers at a subgraph size of 300?", "No", "closed-ended finite answer set binary visual", "line chart", "Yes", false]]}

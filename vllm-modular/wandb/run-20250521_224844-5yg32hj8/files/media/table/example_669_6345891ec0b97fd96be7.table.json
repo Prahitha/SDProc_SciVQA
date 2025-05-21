@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["1be27d9ff404ca5b2c8b7305c776f909", "What is the maximum value of BLEU score decrease when translating with the RNNenc model without segmentation?", "8", "closed-ended infinite answer set non-visual", "line chart", "between -8 and -9", false]]}

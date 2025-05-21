@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c5774e1a9e8aa9525c49eccec2ad6154", "Which are the names of the subplots?", "A,B,C", "closed-ended finite answer set non-binary non-visual", "line chart", "B", false]]}

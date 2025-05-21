@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2e84e27c7f314c72c66d6bfe76abdbfa", "Does the performance of the PLE-NoCo improve with an increase in sampling ratio?", "Yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["4dd2fca04908046417a8b364d09c65e6", "Which model has approximately the highest accuracy for sentence length of 1?", "LSTM", "closed-ended infinite answer set non-visual", "line chart", "DiSAN", false]]}

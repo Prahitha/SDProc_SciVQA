@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ff0857ea0ef46d950ec179f8fed3ece1", "Which of the following plots show a decrease in both solid blue and dashed blue lines from left to right?", "B,C", "closed-ended finite answer set non-binary visual", "line chart", "C", false]]}

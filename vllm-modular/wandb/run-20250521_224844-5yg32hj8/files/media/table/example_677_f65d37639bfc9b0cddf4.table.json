@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["610bb6f9f9c7e9e7fa27240c0dd0f182", "What is the precision@1 value of the orange line at the trainset size of 7.10^5?", "0.86", "closed-ended infinite answer set visual", "line chart", "approximately 0.73", false]]}

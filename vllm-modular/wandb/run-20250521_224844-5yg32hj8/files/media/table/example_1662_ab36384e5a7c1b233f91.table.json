@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b2340dd4132c4a43861ba753a239d4bd", "Are the legends of the two subplots positioned at the same corner of the graph frame?", "No", "closed-ended finite answer set binary visual", "scatter plot", "Yes", false]]}

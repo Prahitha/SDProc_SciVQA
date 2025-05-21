@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["07a642e0d2e24761496b7e0a3b41d5fd", "Is 'Q-keys' the output of 'Q-network'?", "No", "closed-ended finite answer set binary non-visual", "neural networks", "No", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["5a38f0b1235d5d0e3898db855c0d17ea", "What is the direction of the arrow labeled W2?", "B", "closed-ended finite answer set non-binary visual", "Neural Networks", "C", false]]}

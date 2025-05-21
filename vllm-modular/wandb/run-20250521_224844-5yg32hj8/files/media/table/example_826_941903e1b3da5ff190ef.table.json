@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b3f9ba1f7b256557c06f2becf67986a1", "Which of the line graphs reach a value of 0.7 or higher?", "A,B,C", "closed-ended finite answer set non-binary visual", "line chart", "A", false]]}

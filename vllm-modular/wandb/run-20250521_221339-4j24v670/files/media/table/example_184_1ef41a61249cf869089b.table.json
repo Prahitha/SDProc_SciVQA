@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["22d2f676baccdf1fc9ca0b4e3d680b90", "Which of the following goal imagination heuristics have a coverage score of 0.44?", "A,C", "closed-ended finite answer set non-binary non-visual", "Line Chart,Table", "C", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["dfbcd8b7c0adec3a31ef4676047dacbb", "In the third plot (labeled \"(c) Data augmentation compare\"), what color is the line representing 'Adversarial Test Data Acc. (Pair-wise)'?", "C", "closed-ended finite answer set non-binary visual", "line chart", "A", false]]}

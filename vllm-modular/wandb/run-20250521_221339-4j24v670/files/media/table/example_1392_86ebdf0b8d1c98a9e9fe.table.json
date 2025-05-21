@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["79683152767e9413f9c4fab6fdfc56c1", "What is the approximate overall accuracy for the binary classification problem using 45 CNNs?", "88", "closed-ended infinite answer set non-visual", "line chart", "87%", false]]}

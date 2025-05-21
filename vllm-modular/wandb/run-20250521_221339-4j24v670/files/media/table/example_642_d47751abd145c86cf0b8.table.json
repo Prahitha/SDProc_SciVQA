@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["1218699bb9c083b623bee9db52a7ea4c", "What is the x-value at the gray bars representing the 'ideal binary tree' reach a maximum?", "0.6", "closed-ended infinite answer set visual", "histogram", "0.1 - 0.2", false]]}

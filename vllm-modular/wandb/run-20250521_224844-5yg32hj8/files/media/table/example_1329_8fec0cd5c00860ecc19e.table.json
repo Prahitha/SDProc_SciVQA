@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ad7f77885e802babf2e2ac00fe4618c4", "In which corner are the green squares mostly located?", "Top-left", "closed-ended infinite answer set visual", "confusion matrix", "Top right corner", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["cf6c1cc66c8402cf7edb7bf3bd216a83", "Does the blue dashed line representing RMSE@10 reach a value greater than 1.1?", "Yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

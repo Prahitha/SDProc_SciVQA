@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["56665e9a5cf69298d17e487a32841858", "Which of the lines represents 'sub-posterior 2'?", "C", "closed-ended finite answer set non-binary visual", "line chart", "D", false]]}

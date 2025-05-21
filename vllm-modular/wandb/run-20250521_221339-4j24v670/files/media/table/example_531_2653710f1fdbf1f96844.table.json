@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c2ab935a1ade7df5d526f7509f2bb5d6", "In the bottom figure, which of the four lines has the highest accuracy for the value of the x-axis equal to 0.1, 0.1?", "B", "closed-ended finite answer set non-binary visual", "line chart", "B", true]]}

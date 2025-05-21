@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c9a72d4b47170e15f2ff9c606f0fb0fe", "Which lines on the left graph have a maximum value greater than 35?", "C,D", "closed-ended finite answer set non-binary visual", "line chart", "B,C,D", false]]}

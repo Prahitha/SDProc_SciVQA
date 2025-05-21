@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["9647faded01dafd920728ab326f1a883", "What type of RMSE is not shown in Figure 3?", "A,B,C", "closed-ended finite answer set non-binary non-visual", "line chart", "D", false]]}

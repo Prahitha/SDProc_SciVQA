@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["be790724e6e9de04efb06163d5d6726d", "Which T value leads to the best effective count?", "A,B", "closed-ended finite answer set non-binary non-visual", "line chart", "B", false]]}

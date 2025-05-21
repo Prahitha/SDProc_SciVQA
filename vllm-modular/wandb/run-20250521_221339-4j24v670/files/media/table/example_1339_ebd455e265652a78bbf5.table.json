@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["426956402935c0c80f17e2828537263d", "What is the value of the cell \"Not\" classified correctly?", "The value of the cell \"Not\" classified correctly is 555.", "closed-ended infinite answer set non-visual", "confusion matrix", "555", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["822c0fe290dd7480b996aac96ec91251", "What is the range of possible values in x-axis for the SQL plot?", "D", "closed-ended finite answer set non-binary non-visual", "line chart", "D", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2ec919c9759b1e0ffa61f7e8fe734f4b", "Is the number of predictions in the yellow (Latent) region greater than in the blue (Rules) region?", "No", "closed-ended finite answer set binary visual", "venn diagram", "Yes", false]]}

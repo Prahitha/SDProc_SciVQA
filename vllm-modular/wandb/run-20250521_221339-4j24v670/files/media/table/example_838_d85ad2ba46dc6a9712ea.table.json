@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2c82941b228c3466e9a21fb12532efce", "What is the approximate value of N(M) for the gray line with M=10^1?", "0.63", "closed-ended infinite answer set visual", "line chart", "between 10^0 and 10^1", false]]}

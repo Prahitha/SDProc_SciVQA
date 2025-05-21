@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["742f16970bc19920e10b0b65fd501e98", "Does the blue line representing GPT-3 performance have a steeper slope in the first two datapoints points compared to the last two datapoints?", "No.", "closed-ended finite answer set binary visual", "line chart", "Yes", false]]}

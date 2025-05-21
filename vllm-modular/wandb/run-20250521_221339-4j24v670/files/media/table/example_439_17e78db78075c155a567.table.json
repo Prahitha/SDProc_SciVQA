@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["4127cb4e9904dbfc94cf93349de27fba", "Is the blue line for the \"forget\" gate of the input LSTM always lower than the red line for the same gate in the middle subplot?", "Yes", "closed-ended finite answer set binary visual", "line chart", "No", false]]}

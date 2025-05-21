@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["341b8d053f4ad303a6cbcf8a66f2fea1", "How many stars can be found at the beginning of the graph, in the very bottom left part of the image?", "A", "closed-ended finite answer set non-binary visual", "line chart", "A", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["0b9544917217a248336cd4f743420828", "What is the approximate value of chrF++ of Guo\u201919 (blue line) at 4-5 at Graph Reentrancies?", "C", "closed-ended finite answer set non-binary visual", "line chart", "D", false]]}

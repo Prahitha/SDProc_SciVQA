@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b515f4bc3bb6bc19074bf6432b1e2c85", "Is the percentage of the dataset with strong equivalence greater than the percentage of the dataset with regular and weak equivalence combined?", "Yes", "closed-ended finite answer set binary non-visual", "pie chart", "Yes", true]]}

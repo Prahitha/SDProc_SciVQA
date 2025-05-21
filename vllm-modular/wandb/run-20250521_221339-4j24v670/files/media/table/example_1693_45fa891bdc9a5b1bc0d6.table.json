@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["7ef24116d1650bfe3841bf0bfd92f1ad", "Which of the following are inputs to the encoder? ", "A,B,D", "closed-ended finite answer set non-binary non-visual", "neural networks", "A,D", false]]}

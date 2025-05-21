@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["94708cc0940d4c406059709da5e60398", "Which line is the highest at its peak in the figure labeled (a)?", "C", "closed-ended finite answer set non-binary non-visual", "line chart", "A", false]]}

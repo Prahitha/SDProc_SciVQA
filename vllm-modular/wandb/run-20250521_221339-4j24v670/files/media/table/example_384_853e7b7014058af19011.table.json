@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["bb58c96c479dc1cb4eee24bbbe1c95cd", "Does the red line in the bottom plot represent the LSTM model?", "No", "closed-ended finite answer set binary visual", "line chart", "No", true]]}

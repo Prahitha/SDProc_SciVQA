@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["cbf98c8c99cb9114fab97d1d576221a7", "What is the approximate value of the test error rate for the black line at \u03bb = 4.0?", "0.58", "closed-ended infinite answer set visual", "line chart", "5.6%", false]]}

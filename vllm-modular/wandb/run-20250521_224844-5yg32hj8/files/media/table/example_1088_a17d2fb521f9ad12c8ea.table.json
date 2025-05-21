@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["fef9bdb1fb874e19865e927397e2561b", "What are the two types of initialization used?", "random, SSID", "closed-ended infinite answer set non-visual", "line chart", "RANDOM and SSID", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["5a300ccdcce8cbb4611a7672083ccec0", "What is the approximate value of the blue bar corresponding to the Penn Treebank POS Tag 'VB' in the bottom graph?", "0.11", "closed-ended infinite answer set visual", "bar chart", "0.05", false]]}

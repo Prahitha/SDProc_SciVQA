@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["5963bd14ea69b99dde587bad2ef31ef7", "Which of the following models achieves the highest WLCS-1 score on the Economist dataset with a set size of 10?", "A,D", "closed-ended finite answer set non-binary non-visual", "line chart", "C", false]]}

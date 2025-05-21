@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b2eeafd1ecb4a1ad0fe1365ff37e6908", "Which line in the graph represents the logistic function?", "A", "closed-ended finite answer set non-binary visual", "line chart", "A", true]]}

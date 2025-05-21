@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3a1ac78b1fe669b6f0ed99052210e63e", "Occurrences of which word are represented in the graph (a)?", "coach", "closed-ended infinite answer set non-visual", "bar chart", "Coach", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["09504f78f40230c7dfb87a0da7dd6fbc", "Which of the following node are shown within a box?", "A,C", "closed-ended finite answer set non-binary visual", "tree", "A,B,C", false]]}

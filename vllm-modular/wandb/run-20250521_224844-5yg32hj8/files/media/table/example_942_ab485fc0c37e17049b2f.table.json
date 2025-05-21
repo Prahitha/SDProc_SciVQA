@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["1282cbab35e4c3c5f1a9aaa24204aab9", "What percentage of participants are familiar with flooding?", "C", "closed-ended finite answer set non-binary non-visual", "pie chart", "C", true]]}

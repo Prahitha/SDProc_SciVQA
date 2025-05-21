@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["a04617105c4b0e16b1c231cce3172dd7", "What is the approximate topic coherence value of OnlineLDA at x=20 in Figure (b)?", "B,C", "closed-ended finite answer set non-binary visual", "line chart", "D", false]]}

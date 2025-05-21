@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c3c37d3bf829d85962b4c3a1097d413a", "How many boxes with the numer 1 inside are there in the figure?", "B", "closed-ended finite answer set non-binary visual", "tree", "D", false]]}

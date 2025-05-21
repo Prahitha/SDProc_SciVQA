@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["aea56b371f804926eef7d4350cc010f1", "Is the density of annotated examples higher for the individuals than for the teammates with annotated examples between 200 and 300?", "No", "closed-ended finite answer set binary non-visual", "line chart", "No", true]]}

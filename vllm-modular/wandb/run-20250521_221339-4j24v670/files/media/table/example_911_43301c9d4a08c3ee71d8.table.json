@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c254c1757fcdb9a99ce95f08bf49d87c", "Are all the rectangular boxes in the dependency syntax tree the same size?", "No", "closed-ended finite answer set binary visual", "tree", "No", true]]}

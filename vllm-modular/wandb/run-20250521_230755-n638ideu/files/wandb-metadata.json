@@ -1,0 +1,42 @@
+{
+  "os": "Linux-6.8.0-52-generic-x86_64-with-glibc2.39",
+  "python": "CPython 3.12.3",
+  "startedAt": "2025-05-21T23:07:55.718778Z",
+  "program": "/workspace/SDProc_SciVQA/vllm-modular/main.py",
+  "codePath": "vllm-modular/main.py",
+  "git": {
+    "remote": "https://github.com/Prahitha/SDProc_SciVQA",
+    "commit": "2c1d9d82079d4cec75b6bff0cc41be323671a86a"
+  },
+  "email": "prahitha.movva03@gmail.com",
+  "root": "/workspace/SDProc_SciVQA/vllm-modular",
+  "host": "d0d149e72c07",
+  "executable": "/venv/main/bin/python",
+  "codePathLocal": "main.py",
+  "cpu_count": 64,
+  "cpu_count_logical": 128,
+  "gpu": "NVIDIA A40",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "75161927680",
+      "used": "55149731840"
+    }
+  },
+  "memory": {
+    "total": "270069477376"
+  },
+  "cpu": {
+    "count": 64,
+    "countLogical": 128
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA A40",
+      "memoryTotal": "48305799168",
+      "cudaCores": 10752,
+      "architecture": "Ampere"
+    }
+  ],
+  "cudaVersion": "12.8"
+}

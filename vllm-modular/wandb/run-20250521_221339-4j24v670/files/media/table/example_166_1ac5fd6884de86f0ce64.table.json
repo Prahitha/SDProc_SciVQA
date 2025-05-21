@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b09de0eba43dfde0cf55331af193153f", "On which of the following tasks does PETAL have the most stable performance?", "B", "closed-ended finite answer set non-binary non-visual", "line chart", "A", false]]}

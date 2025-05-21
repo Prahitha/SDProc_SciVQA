@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ca99fda55b6bddc29c661d0091e26fa0", "Are the values of correct classified values higher than the incorrect classified values?", "yes", "closed-ended finite answer set binary non-visual", "confusion matrix", "Yes", true]]}

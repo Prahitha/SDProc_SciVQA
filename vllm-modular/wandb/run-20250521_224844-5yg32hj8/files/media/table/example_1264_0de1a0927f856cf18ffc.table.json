@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ec38e5bae5c8f0c66ac1f06b6b1bf328", "Which of the following model sizes are associated with the test-data perplexity shown in the figure?", "D", "closed-ended finite answer set non-binary non-visual", "line chart", "ABC", false]]}

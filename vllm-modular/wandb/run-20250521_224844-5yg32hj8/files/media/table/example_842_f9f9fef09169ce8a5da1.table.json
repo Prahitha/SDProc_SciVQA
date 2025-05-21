@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["318b963aea889f8522fdd9dae5643e1d", "Which line corresponds to the equation \"\u221d lnM\"?", "C", "closed-ended finite answer set non-binary visual", "line chart", "D", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3833fc2eadbb7d9fdc072b039f3ec7e7", "Which of the following colors represents the sentiment with the highest percentage?", "A", "closed-ended finite answer set non-binary visual", "pie chart", "A", true]]}

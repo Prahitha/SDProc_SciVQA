@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["8f9ea26e4d28b787a6c411c89f4df0df", "In the bottom left graph, what is the highest approximate value on the y-axis for the blue line?", "B,C", "closed-ended finite answer set non-binary visual", "line chart", "A", false]]}

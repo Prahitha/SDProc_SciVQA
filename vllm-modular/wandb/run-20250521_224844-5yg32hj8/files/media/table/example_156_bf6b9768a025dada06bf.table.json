@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["539698b9a62f26b97d44e1235c66687e", "Which line has the lowest value for Spearman's Correlation at 4 human references?", "C", "closed-ended finite answer set non-binary visual", "line chart", "C", true]]}

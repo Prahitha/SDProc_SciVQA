@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d43f0326c81f8d85c2bf671fdeb554ef", "What is the approximate y-axis value of the green dotted line at 4 deviated steps in figure d?", "0.97", "closed-ended infinite answer set visual", "Line Chart", "0", false]]}

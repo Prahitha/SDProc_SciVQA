@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c5ec2e87b476cc2a2eddc731dda1a220", "Which of the following colors are used to represent the nodes in the image?", "B", "closed-ended finite answer set non-binary visual", "tree", "B", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["11fcb261ab657c9aa32e70e93986856d", "For around how many steps was the DistilBERT model trained per penalty factor?", "12000", "closed-ended infinite answer set non-visual", "line chart", "12000", true]]}

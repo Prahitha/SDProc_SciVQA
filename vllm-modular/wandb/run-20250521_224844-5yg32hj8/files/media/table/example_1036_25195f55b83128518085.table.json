@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["9b4cba966ae867d6e600d2fabfaaea3e", "Does the red line reach a higher value than the blue line at the end of the x-axis?", "yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

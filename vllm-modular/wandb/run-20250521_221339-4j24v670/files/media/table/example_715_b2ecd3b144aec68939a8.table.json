@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["5ed05ecdc1413c2e4a9707b3ca4ea807", "What is the highest density value for the 'Largest Team'?", "0.020", "closed-ended infinite answer set non-visual", "line chart", "between 0 and 0.005", false]]}

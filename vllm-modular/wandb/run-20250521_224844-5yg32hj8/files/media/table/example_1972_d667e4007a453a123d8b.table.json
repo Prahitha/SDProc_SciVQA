@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c48331a9ac752260072d71ad39b11050", "Which languages are included in the study?", "French, German, Russian, Japanese", "closed-ended infinite answer set non-visual", "line chart", "French, German, Russian, Japanese", true]]}

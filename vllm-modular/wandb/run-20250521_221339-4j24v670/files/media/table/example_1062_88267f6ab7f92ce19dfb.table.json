@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e88f72fcf82f1ee16c03a2fd68870551", "What are the different datasets used to evaluate the method's performance?", "20NewsGroups, Reuters2157, 215578, RCV1-v2, RCV1-v2", "closed-ended infinite answer set non-visual", "Graph", "20Newsgroups, Reuters21578, RCV1-v2", false]]}

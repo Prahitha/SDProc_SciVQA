@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["157c9707c4941e1e0140de20b522931c", "Which of the following are considered knowledge sources in an LVCSR system?", "A,B,C", "closed-ended finite answer set non-binary non-visual", "architecture diagram", "['A', 'B', 'C']", false]]}

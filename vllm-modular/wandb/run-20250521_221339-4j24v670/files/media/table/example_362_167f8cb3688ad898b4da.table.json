@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["402905e79bceca41ac2a40e2e1b1a513", "What are the values of the scaling factor 'n' used in the graphs?", "A", "closed-ended finite answer set non-binary non-visual", "line chart", "A", true]]}

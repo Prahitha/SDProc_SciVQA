@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["0321e547047e28e7ffb9f32ddb842cb5", "What is the approximate value of the line in the lower figure for khard = 80?", "80", "closed-ended infinite answer set visual", "line chart", "12", false]]}

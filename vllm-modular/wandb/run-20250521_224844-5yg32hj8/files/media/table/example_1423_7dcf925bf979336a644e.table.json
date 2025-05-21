@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["66ad5ebd1934b409bac075d90191ba1e", "At what approximate retrieval time does the target distribution become maximum?", "C", "closed-ended finite answer set non-binary non-visual", "line chart", "B", false]]}

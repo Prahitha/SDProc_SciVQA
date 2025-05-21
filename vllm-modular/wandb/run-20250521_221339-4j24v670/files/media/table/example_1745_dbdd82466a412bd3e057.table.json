@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c943a77295d7b3624785e468fb96ffcb", "What is the approximate maximum value of the dotted line in the center graph?", "B,C", "closed-ended finite answer set non-binary visual", "Line Chart", "B", false]]}

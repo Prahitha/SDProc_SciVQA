@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["782b4fc0288262834b715b548d551c02", "Is the purple horizontal line in the right plot positioned higher than the purple horizontal line in the left plot?", "yes", "closed-ended finite answer set binary visual", "line chart", "No", false]]}

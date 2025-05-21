@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3f46a95b3e120354e5ce9611956d1a82", "Does the right graph represents more than one line?", "Yes", "closed-ended finite answer set binary visual", "line chart", "No", false]]}

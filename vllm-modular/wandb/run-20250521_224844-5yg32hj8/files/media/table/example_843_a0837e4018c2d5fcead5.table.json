@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["cb560852b36bff8e270c1be9d410a981", "Which of the following values of *m* are presented in the plot?", "D", "closed-ended finite answer set non-binary non-visual", "line chart", "D", true]]}

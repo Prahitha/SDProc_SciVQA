@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2ad71987e445de2331cbeaea28ad6764", "What is the value of \u2206P for the dashed line without markers at 10 labeled supervised learning training dialogs in the right graph?", "20%", "closed-ended infinite answer set visual", "line chart", "-10 - 0", false]]}

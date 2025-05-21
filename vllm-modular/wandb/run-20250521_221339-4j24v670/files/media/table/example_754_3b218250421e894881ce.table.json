@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d80861f9111d518e35c5de956ca3a770", "Which of the lines show a consistently decreasing accuracy trend for the BERT model between layers 0 and 6?", "B,C", "closed-ended finite answer set non-binary visual", "line chart", "C", false]]}

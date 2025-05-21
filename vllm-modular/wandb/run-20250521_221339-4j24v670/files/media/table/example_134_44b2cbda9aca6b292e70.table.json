@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["4703843589529922964a929799edf3ba", "What does the x-axis represent?", "Webs processed", "closed-ended infinite answer set non-visual", "line chart", "Weibos processed", false]]}

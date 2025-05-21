@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b0c18ed8c8ae3650deecda55f5d49f09", "What is the largest portion of the testing set based on PCIO?", "61.6%", "closed-ended infinite answer set non-visual", "pie chart", "Symptoms", false]]}

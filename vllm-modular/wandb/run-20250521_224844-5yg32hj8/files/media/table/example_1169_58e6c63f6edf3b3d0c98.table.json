@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["a48fdd38b2f2b1f6596dabc942eeaa4d", "After epoch 70 does the black line have a constant shape?", "yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

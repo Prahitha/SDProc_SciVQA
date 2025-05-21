@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c0a2f1c3527f4dd640944f22b77dc2e4", "What is the highest recorded precision for OpenTag with tag flip?", "0.99", "closed-ended infinite answer set non-visual", "line chart", "91.5%", false]]}

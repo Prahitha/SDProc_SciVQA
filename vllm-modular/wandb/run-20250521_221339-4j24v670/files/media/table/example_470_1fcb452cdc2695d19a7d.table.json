@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d551d5886122a369cdb16cbeee17a151", "Which of the following texts are shown in figure 4?", "A,B,D", "closed-ended finite answer set non-binary non-visual", "line chart", "A,B,C,D", false]]}

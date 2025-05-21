@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["f2bdcbb297ec42531ded37a6f75b07b3", "Which is  line represents the Maxent classifier?", "D", "closed-ended finite answer set non-binary visual", "line chart", "D", true]]}

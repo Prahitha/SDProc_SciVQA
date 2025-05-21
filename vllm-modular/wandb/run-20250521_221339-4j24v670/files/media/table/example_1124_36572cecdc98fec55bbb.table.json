@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2a8627e1b5ec1041dea7279ee3e7e2cb", "What is the F1 score of the solid green line at the intersection with the x-axis label of 200 in the Spanish CoNLL subplot?", "0.85", "closed-ended infinite answer set visual", "line chart", "35", false]]}

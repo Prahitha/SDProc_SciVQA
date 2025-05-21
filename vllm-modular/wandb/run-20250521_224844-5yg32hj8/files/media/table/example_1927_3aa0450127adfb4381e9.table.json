@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c8834a0523e744dbf61deb233e36c0c5", "What is the approximate accuracy of the green dashed line at 10000 steps?", "0.65", "closed-ended infinite answer set visual", "line chart", "0.65", true]]}

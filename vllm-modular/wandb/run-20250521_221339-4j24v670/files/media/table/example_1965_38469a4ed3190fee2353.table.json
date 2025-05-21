@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["be8efb12af3c3f462127bcd8cf049799", "Does the RMSE@20 value remain constant across all system ranks?", "No", "closed-ended finite answer set binary non-visual", "line chart", "No", true]]}

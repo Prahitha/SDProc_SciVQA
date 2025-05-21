@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["449ddea697791a10ed35b55bd7fc8a2d", "What is the maximum density value shown for the figure labelled (b)?", "10", "closed-ended infinite answer set non-visual", "line chart", "15", false]]}

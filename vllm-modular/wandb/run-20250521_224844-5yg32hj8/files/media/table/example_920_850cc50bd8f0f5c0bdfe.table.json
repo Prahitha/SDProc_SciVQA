@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["a9ea43dcd2439e8ec6449508e88296da", "How many Supertags correspond to inheritance patterns?", "5", "closed-ended infinite answer set non-visual", "tree", "7", false]]}

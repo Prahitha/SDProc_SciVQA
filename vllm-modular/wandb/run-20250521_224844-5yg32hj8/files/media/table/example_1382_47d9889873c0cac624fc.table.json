@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3b687519f009271dca51c2b568154b00", "What is the F1 score of the green circle at 20% in-family training?", "0.95", "closed-ended infinite answer set visual", "line chart", "approximately 1", false]]}

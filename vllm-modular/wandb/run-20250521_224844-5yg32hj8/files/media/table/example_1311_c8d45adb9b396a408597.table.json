@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ce08d7311a5a744c02372a890ed08629", "What is the percentage of the dataset classified as 'weak equivalence'?", "4.7", "closed-ended infinite answer set non-visual", "pie chart", "4.7%", false]]}

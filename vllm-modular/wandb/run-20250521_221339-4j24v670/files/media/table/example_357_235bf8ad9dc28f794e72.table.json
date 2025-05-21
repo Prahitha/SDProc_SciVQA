@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["9009dcbb27e10b50c58ce234ababbb1f", "What is the test accuracy of the blue line for a scaling factor of 8 in the left graph?", "85", "closed-ended infinite answer set visual", "line chart", "84.5 - 85", false]]}

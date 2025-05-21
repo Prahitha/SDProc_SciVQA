@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["77e9789c23eafa0606ffef0c14a0d24b", "What is the line in the right figure representing?", "A", "closed-ended finite answer set non-binary visual", "line chart", "A", true]]}

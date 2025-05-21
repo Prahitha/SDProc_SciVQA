@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["9bad2e7fdca7ba54588203d9fec9d8d5", "What can be said about the performance of ELMo embeddings compared to GLoVe embeddings?", "C,D", "closed-ended finite answer set non-binary non-visual", "line chart", "A", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e25478cf1f9a0eb374c65b2130e42238", "Is the real posterior represented by a solid line?", "Yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

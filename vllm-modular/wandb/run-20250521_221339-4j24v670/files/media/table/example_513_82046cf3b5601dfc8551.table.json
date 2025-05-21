@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["0cf8ca5d00f3433ca31b296c761ce313", "Which line represents the method that does not use pre-training?", "A", "closed-ended finite answer set non-binary visual", "line chart", "A", true]]}

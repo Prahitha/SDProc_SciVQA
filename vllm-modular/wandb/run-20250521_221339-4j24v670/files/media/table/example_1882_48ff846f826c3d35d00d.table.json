@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["874c11ec49fd463e31440ccb38e3ea34", "What is the highest recall value achieved?", "0.8", "closed-ended infinite answer set non-visual", "line chart", "0.7", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d4e11a86ab5710961a9aac9f3fb8ad48", "What is the highest number of uninformative tweets observed for any transformed percentage?", "2.0", "closed-ended infinite answer set non-visual", "bar chart", "Approximately 350", false]]}

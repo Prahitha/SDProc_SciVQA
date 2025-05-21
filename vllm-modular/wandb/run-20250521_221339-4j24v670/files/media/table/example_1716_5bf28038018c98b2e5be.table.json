@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["479dda26d97011c71538dd279d8c5c39", "Does the subgraph restricted to vertices {S1, S2, S3, S4, S5} remain the same from GA(K) to GA(K+1)?", "No", "closed-ended finite answer set binary non-visual", "graph", "Yes", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3c76a8d4d7ab270ee5f0222f0dc05c3e", "What is the value of the blue line at \u03bb = 1.5 for the UPUC dataset?", "0.88", "closed-ended infinite answer set visual", "line chart", "approximately 0.87", false]]}

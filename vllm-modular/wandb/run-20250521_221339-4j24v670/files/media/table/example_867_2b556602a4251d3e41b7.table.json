@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["99b16a31618f07cae7629a728c55c657", "What is the length of queries for Multi-channel with acc@10 of 0.4?", "6-10", "closed-ended infinite answer set non-visual", "line chart", "1-2", false]]}

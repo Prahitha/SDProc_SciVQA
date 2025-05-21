@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["fe2ca932d77150fcd35e66cab91effc3", "What is the approximate maximum value of the blue line on the y-axis in the top right part of the image?", "0.9", "closed-ended infinite answer set visual", "line chart", "1.0", false]]}

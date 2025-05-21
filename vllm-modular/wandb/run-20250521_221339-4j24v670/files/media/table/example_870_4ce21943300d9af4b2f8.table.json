@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["fa578c4251f72175774ecb22e9c5d420", "Which line is the highest for the query length range of 6-10?", "A", "closed-ended finite answer set non-binary visual", "line chart", "A", true]]}

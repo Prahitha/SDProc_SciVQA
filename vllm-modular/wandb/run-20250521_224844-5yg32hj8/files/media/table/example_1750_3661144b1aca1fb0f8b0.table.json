@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["49710f07d57a54215b26898639acaec8", "Is the green line representing 'Extended Pseudo Headlines' consistently higher than the blue line representing 'Original Headlines'?", "yes", "closed-ended finite answer set binary visual", "line chart", "No", false]]}

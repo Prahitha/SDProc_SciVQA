@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e9017d1b329b7fe80dcc14c3b927ba87", "Is 1.0 the maximum z1 value shown in figure 1's x-axis?", "No", "closed-ended finite answer set binary non-visual", "Vector plot", "Yes", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e5c465df94371d0d2d0488dd96718e1c", "Which graph-based method has the highest Spearman correlation in 2011?", "Ext Jaccard RD (I+O)", "closed-ended infinite answer set non-visual", "line chart", "Ext Jaccard RD (I+O)", true]]}

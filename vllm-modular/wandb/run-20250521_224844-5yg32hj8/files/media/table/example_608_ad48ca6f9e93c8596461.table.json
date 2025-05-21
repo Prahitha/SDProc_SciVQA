@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["68536d9235e196a392eeac962ac1e0ae", "Is LPCC extracted from both full-band and sub-bands?", "Yes", "closed-ended finite answer set binary non-visual", "architecture diagram", "Yes", true]]}

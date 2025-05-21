@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["36e4d4c9304d1ee407e231a79db83fb3", "Does the green line representing Recall@10 reach a value of 1.0?", "Yes", "closed-ended finite answer set binary visual", "line chart", "No", false]]}

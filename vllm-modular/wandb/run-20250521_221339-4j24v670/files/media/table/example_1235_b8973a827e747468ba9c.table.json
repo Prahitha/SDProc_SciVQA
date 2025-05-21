@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["345657d3de73b789f524903182437aaf", "Is the average task accuracy for 'Fine-tuning with Pretraining' consistently higher than that of 'Sparse-Meta-Net'?", "Yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

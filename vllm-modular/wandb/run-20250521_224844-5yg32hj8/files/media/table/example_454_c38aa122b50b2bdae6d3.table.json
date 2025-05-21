@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["a16ac3de9dd4254b4641e719254f211a", "What is the training F1-Measure at epoch e50 for Char + MorphChar Embeddings?", "0.96", "closed-ended infinite answer set non-visual", "line chart", "More than 0.975", false]]}

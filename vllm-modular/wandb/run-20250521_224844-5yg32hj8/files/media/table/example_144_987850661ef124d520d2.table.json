@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["41da7fa7ed7ed6c5f205db07f8281b33", "In the top plot, is the RMSE value of the black line at 11th feature number than at 31st feature number?", "less\n```", "closed-ended finite answer set binary visual", "line chart", "No", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b948a66a8d53d408232ce9664bbfa1f8", "What is the variable measured on the y-axis?", "The variable measured on the y-axis is the percentage.", "closed-ended infinite answer set non-visual", "line chart", "RErr (%)", false]]}

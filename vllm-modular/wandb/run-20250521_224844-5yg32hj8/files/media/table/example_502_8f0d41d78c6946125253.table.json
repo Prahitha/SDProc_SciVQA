@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ac082e37c75cdfd4e5ae517b8db0ee52", "Is the percentage performance change for MCScript lower than that of RACE-M?", "No", "closed-ended finite answer set binary non-visual", "line chart", "Yes", false]]}

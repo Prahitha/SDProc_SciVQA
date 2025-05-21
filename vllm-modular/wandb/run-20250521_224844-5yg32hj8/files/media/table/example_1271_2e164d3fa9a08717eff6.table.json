@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["aa019662e8238b622e2846d9fd28a255", "Which of the following syllables have a sub-syllabification marked by a 'V'?", "A,B", "closed-ended finite answer set non-binary non-visual", "tree", "A,B", true]]}

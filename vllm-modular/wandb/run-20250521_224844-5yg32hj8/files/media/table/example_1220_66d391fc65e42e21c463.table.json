@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["309c714e818dce04ea95b1ee32dd1f6b", "What is the maximum value of the red diamond line in the right graph?", "0.95", "closed-ended infinite answer set visual", "line chart", "74.3%", false]]}

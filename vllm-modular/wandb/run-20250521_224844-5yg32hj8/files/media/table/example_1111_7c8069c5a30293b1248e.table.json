@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["899727d47b3171f4b8285b1c3c5d6291", "What is the shape of the line in the left plot?", "C", "closed-ended finite answer set non-binary visual", "line chart", "C", true]]}

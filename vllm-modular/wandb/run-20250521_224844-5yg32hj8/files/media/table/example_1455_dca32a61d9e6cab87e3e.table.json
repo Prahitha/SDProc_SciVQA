@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["36993d155f8804050052127efbbe3bb5", "Does the green line in the left graph reach the highest value at the end of the x-axis?", "yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

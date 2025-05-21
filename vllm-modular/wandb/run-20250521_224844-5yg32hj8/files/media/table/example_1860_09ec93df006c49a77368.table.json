@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["a0b82e8f5b854f4768b8ac59e5ee0296", "Which of the following are entities in the graph?", "D", "closed-ended finite answer set non-binary visual", "tree", "D", true]]}

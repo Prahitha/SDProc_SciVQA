@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["fefde9b5202512147d97b2c91546ab13", "Which of the following statements concerning the classifier with original headlines is true?", "D", "closed-ended finite answer set non-binary non-visual", "line chart", "A,C", false]]}

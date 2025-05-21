@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["01d245b41c14ed837b36f2b75f031981", "In the left plot, is the MLM-SQuAD line lower than the QA-SQuAD-2 line with x-axis between 0 and 5?", "yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

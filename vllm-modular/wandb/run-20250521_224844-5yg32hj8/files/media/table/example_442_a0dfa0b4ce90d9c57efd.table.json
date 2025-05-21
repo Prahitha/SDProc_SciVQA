@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["5c3fb78c9a8f3f05e006d0765c69c65b", "Which of the following gates approximately reach a value of 1 for the vector norm for 'nap' in the contradiction sample?", "A,B", "closed-ended finite answer set non-binary non-visual", "line chart", "A,B,C", false]]}

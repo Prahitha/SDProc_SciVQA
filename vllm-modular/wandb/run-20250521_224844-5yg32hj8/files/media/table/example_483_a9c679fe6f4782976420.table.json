@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["5ddcca70103044e0e374ea82bfea0650", "Does the orange line representing 'ru' reach its highest value at the 'L8' label on the horizontal axis?", "yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["54f99fc102c292cb6e158ae8a54b52f7", "What is the maximum precision value marked on the y axes?", "0.7", "closed-ended infinite answer set non-visual", "line chart", "0.7", true]]}

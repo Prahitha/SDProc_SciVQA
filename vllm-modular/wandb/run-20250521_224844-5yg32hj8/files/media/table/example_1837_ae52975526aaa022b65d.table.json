@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["f7a30f72e103c2776867cc2bbbeab937", "Did the analysis include stop words?", "It is not possible to answer this question based only on the provided data.", "unanswerable", "scatter plot", "It is not possible to answer this question based only on the provided data.", true]]}

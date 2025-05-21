@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["1add1818606f1f6d3d0f34b418152d73", "What are the labels of the two triangles shown in the graph?", "Sue, Bill", "closed-ended infinite answer set visual", "tree", "Sue and Bill", false]]}

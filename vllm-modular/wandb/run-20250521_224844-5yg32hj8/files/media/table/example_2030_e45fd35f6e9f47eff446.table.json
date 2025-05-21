@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["77de78c4628803d8c2c7615826f92bf1", "Which of the following lines have a peak percentage of MWPs at a syntactic pattern diversity value between 0.1 and 0.3?", "B,D", "closed-ended finite answer set non-binary visual", "line chart", "B", false]]}

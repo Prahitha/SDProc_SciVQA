@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e57b2f71f534352f673a6cb6c659146b", "Which of the following embedding approaches has the highest expected maximum performance for a training duration of 6 hours?", "C", "closed-ended finite answer set non-binary non-visual", "line chart", "B", false]]}

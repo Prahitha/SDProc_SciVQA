@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["8f1b31e5b2dee89675ec6dc26b3882ef", "Are all the red circles, representing Shakespearean clusters, located closer to the x-axis than the blue ellipse encompassing the 'unknown' clusters?", "No", "closed-ended finite answer set binary visual", "scatter plot", "No", true]]}

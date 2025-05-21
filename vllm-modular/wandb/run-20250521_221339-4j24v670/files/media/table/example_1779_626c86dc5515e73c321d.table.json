@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["464774006426509ea1bfc7615f694496", "What are the labels of the three smallest bars?", "A", "closed-ended finite answer set non-binary visual", "bar chart", "A", true]]}

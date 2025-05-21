@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["12c4b53bba0c8a5595f248e7479d1880", "Is the arrow representing Rating 1 positioned in the same direction as the arrow representing Rating 5?", "No", "closed-ended finite answer set binary visual", "Vector plot", "No", true]]}

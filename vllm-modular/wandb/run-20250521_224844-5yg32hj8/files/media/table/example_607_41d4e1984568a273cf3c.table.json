@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["9f93d54ed0cd8380de825039fcb3ccb8", "Is the 'Extract LPCC' box present only once in the diagram?", "No", "closed-ended finite answer set binary visual", "architecture diagram", "No", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["7ef41f3e4cdc28277d8c829ae62740ec", "Does the blue line, representing validation loss, plateau at around 0.25?", "yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["6b81a93e1cce9b999b05564beda9ba52", "What is the approximate value of log(f/N) for the blue line labeled 'DCR' at a log(rank) value of 3.5?", "-5.0", "closed-ended infinite answer set visual", "line chart", "-5", false]]}

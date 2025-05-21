@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["27abd0f6b1f21a0301981be3c9604902", "How many vertices do each of the graphs in figure 4.2 have?", "The graphs in figure 4.2 have 5 vertices each.", "closed-ended infinite answer set non-visual", "graph", "Both have 6 vertices.", false]]}

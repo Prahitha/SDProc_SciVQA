@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["6694bb3d5d29c2d89991867e38bebde8", "What is the approximate value of the function in B when x=0.4?", "0.4", "closed-ended infinite answer set non-visual", "line chart", "0.4", true]]}

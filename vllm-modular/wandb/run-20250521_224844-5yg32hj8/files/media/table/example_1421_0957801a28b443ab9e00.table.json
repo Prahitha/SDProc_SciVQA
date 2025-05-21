@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["9a7f192530802aa024e2d3a67a3912db", "Does the x axis use a linear scale for retrieval and finishing times?", "no", "closed-ended finite answer set binary non-visual", "line chart", "No", true]]}

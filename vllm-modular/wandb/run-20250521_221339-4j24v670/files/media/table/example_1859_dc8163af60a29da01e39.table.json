@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["f05df432ee06cd523c44ec005e979d1f", "Is the city name associated with the 'want' graph the same as the city name associated with the '\u60f3' graph?", "No", "closed-ended finite answer set binary non-visual", "tree", "Yes", false]]}

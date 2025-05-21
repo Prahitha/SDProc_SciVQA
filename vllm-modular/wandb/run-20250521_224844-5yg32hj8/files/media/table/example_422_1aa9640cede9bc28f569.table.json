@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["680c9984a0ad4b8dcdc818f7f4eab78e", "Does GPT-3 scores the highest ever SuperGLUE performance?", "No", "closed-ended finite answer set binary non-visual", "line chart", "No", true]]}

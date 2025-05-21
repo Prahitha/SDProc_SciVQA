@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["4c62f1966fb955c8669ef6836f36a778", "Does the accuracy of 'Correct Ordering' exceed the accuracy of 'Alternate Shuffle' for all window sizes?", "No", "closed-ended finite answer set binary non-visual", "line chart", "No", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["0135dd31f7050889056b6a2b5a2bd69d", "Which are possible direct transitions?", "A,D", "closed-ended finite answer set non-binary non-visual", "graph", "A,C", false]]}

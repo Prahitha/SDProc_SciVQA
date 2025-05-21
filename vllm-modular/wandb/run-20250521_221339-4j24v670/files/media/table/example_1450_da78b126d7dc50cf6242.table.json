@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2c646ae826829d8a92bfd8e5407d758a", "Which plot has the highest average performance score for models selected by training size (black line)?", "C", "closed-ended finite answer set non-binary visual", "line chart", "C", true]]}

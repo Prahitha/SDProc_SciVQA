@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e8d6b943df0873f0fe91ebb00a0e1f3f", "What is the approximate F1 average of the red line in the 'askwomen' subplot at a time of 100?", "50", "closed-ended infinite answer set visual", "line chart", "between 45 and 50 ", false]]}

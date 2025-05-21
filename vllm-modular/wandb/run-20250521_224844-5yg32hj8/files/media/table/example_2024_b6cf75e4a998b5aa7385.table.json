@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["a55fc429b6affff00b308a61e716840a", "In what range is the value of the sky blue line at the syntactic pattern diversity of 0.25?", "19", "closed-ended infinite answer set visual", "line chart", "between 10 and 20", false]]}

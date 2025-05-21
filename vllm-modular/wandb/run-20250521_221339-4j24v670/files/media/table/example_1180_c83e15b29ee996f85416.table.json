@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["04cb3ed0ed5cae595c5b43c3a3917a8e", "Is the proportion of 'mus' as 'muscle' higher in the 4th century than the proportion of 'mus' as 'mouse' in the 3rd century?", "No", "closed-ended finite answer set binary non-visual", "Line Chart,Bar Chart", "Yes", false]]}

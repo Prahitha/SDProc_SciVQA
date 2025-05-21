@@ -8,7 +8,7 @@ uv pip install vllm
 
 # Step 3: Launch vLLM OpenAI-compatible API server with Phi-4-multimodal-instruct
 python -m vllm.entrypoints.openai.api_server \
-  --model "Qwen/Qwen2.5-VL-7B-Instruct" \
+  --model "Bespoke-MiniChart-7B" \
   --dtype auto \
   --trust-remote-code \
   --max-model-len 32768 

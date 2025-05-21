@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["85e1371d1faa12bdc6c64c4abf927d46", "What is the approximate F1 score for 'Chemistry' when using full datasets?", "0.65", "closed-ended infinite answer set non-visual", "line chart", "0.65", true]]}

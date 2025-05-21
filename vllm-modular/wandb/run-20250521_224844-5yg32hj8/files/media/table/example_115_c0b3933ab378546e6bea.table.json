@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3a2abc0ce149b56182dde60adfc3edbf", "What is the approximate UAS value for the red line at 6 iterations?", "91.8", "closed-ended infinite answer set visual", "line chart", "92.2", false]]}

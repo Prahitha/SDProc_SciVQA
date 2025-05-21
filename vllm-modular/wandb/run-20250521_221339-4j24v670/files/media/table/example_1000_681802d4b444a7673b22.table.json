@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b46169cc368b5f481a3e9eab600577f2", "At which aproximate lambda PLE has Micro-F1 score of 0.45?", "0.45", "closed-ended infinite answer set non-visual", "line chart", "1", false]]}

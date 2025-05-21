@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3de5c7365d042859772a007120cd8b9b", "What is the color of the line representing 'Impatient Reader'?", "C", "closed-ended finite answer set non-binary visual", "line chart", "C", true]]}

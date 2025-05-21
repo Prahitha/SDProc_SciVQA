@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d05d25d6332ffb616f8ef0be562a6fcb", "Which of these are components of the model?", "A,B,C,D", "closed-ended finite answer set non-binary non-visual", "graph", "ABCD", false]]}

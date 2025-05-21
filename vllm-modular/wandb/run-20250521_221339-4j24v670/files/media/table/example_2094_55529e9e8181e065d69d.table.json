@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["906f6e1b48d4a0b229e537186d907327", "Which is the minimum number of parallel training sentences shown in the plot?", "A,B", "closed-ended finite answer set non-binary non-visual", "line chart", "D", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["19bd88e2da104a4edfd5fbee9e6cc6d5", "Which line(s) reach a F1 score value lower than 20 regardless of the layer?", "C,D", "closed-ended finite answer set non-binary visual", "line chart", "A,B,C,D", false]]}

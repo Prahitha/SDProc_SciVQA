@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["61ad138ac6befd9b2a6a8ad43181fc53", "Does the figure show the distribution of support scores on JAMUL for both 'full data' and 'filtered+pseudo' categories?", "Yes", "closed-ended finite answer set binary non-visual", "bar chart", "Yes", true]]}

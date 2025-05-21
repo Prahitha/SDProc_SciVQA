@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["6f7a30fc4f109e5f3d1376643b5464c6", "What is the approximate value of the test-data perplexity for the line with triangles when the model size is 10 and N_x = 1531?", "7.5", "closed-ended infinite answer set visual", "line chart", "6.5", false]]}

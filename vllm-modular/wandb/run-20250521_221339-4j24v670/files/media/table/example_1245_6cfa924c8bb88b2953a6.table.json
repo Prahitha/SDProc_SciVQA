@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["f83b579e4ed130673f6b397ffb72e4ae", "Which line, if any, represents the performance metric of Recall@5 on the provided figure?", "B", "closed-ended finite answer set non-binary visual", "line chart", "B", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["57ef1b0959207cfceb3a4876e1e7ad59", "Which line represents the 'Attention (T=0.1)' model?", "B", "closed-ended finite answer set non-binary visual", "line chart", "C", false]]}

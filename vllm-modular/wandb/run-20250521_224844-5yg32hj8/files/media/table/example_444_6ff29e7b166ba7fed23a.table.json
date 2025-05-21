@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["89b8998b1932f14eb914baa1f8428e1f", "What is the approximate value of the dashed orange line at a window size of 7 in the right subplot?", "0.705", "closed-ended infinite answer set visual", "line chart", "15", false]]}

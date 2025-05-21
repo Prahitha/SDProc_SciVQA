@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["9051f5651c47c1c200c8cf61c2e12263", "Does the accuracy of the 150-dimensional LDA model consistently decrease as the number of neighbors increases?", "yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

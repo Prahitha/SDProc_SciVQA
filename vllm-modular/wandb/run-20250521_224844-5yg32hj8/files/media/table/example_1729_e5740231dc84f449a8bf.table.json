@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3c82a9ce1d3ac9f408827758202e9785", "What is the approximate height of the orange bar at a transformed percentage (1/5) of 0.0?", "800", "closed-ended infinite answer set visual", "bar chart", "800", true]]}

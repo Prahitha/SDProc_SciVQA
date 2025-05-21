@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e540a997a64d4c1579034954c22254c9", "Is the value of the red line at 3 hypotheses greater than 30?", "No", "closed-ended finite answer set binary visual", "line chart", "No", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2469c225a16c3b464b54eecf85a326ae", "Is Multi-News among the datasets represented in the figure?", "Yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

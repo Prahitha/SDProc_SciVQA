@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["be696c019c8f6d656721f05e56102e7c", "Is there anything in the image above the label 'Vietnamese Word' and to the left of T1 and C1V1C1?", "T1", "closed-ended finite answer set binary visual", "Illustrative diagram", "No", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["783d29fdea397ba1bd27ae5c0bd05946", "Does the classifier accuracy increase monotonically with the number of best features used?", "True", "closed-ended finite answer set binary non-visual", "line chart", "Yes", false]]}

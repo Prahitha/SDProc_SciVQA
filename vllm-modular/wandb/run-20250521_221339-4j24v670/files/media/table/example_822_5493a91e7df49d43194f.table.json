@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e29d6e352173b4ae6b8994eb30be3593", "Does the orange line with circles has a higher Spearman Correlation in 2010 than the purple line with crosses?", "No", "closed-ended finite answer set binary visual", "line chart", "Yes", false]]}

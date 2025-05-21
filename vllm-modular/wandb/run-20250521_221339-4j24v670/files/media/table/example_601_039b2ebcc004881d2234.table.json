@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["7961f8be16b7764174b60ff5fe0c76b0", "Is the percentage of sarcasm in Levant higher than that of Gulf?", "No", "closed-ended finite answer set binary non-visual", "pie chart", "No", true]]}

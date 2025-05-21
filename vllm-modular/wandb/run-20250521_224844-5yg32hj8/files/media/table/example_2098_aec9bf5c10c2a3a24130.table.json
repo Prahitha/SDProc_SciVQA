@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["0238fb26dbe4d860440cd5a6b8b32b82", "Does the yellow line representing SFOT reach a higher BLEU-F1 score than the red line representing MLE at a reverse temperature of 1.4?", "yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

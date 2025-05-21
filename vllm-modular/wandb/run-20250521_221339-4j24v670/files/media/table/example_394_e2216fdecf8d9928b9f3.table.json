@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2037b3c1dab435099c77e8e25ace67aa", "Does the representation similarity between NAT and AT encoder (NAT-AT) reach a plateau during the learning course?", "No", "closed-ended finite answer set binary non-visual", "line chart", "Yes", false]]}

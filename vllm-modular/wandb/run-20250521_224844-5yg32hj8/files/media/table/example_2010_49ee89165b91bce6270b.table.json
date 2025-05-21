@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["33404bb89d92ff2fa7a8bb6577fa4c60", "Is the filter size for the orange line consistently decreasing across the encoder layers?", "No", "closed-ended finite answer set binary visual", "line chart", "No", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["79d18250cc14eeee9387666095077cd9", "In the trie, are connections between nodes represented as black arrows?", "No", "closed-ended finite answer set binary visual", "tree", "No", true]]}

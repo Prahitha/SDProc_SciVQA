@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3545f2d7ecc83ae91afa68e4fe36644c", "Which of the following values are present in the confusion matrix?", "A: 5852\nC: 227\nD: 1858", "closed-ended finite answer set non-binary non-visual", "confusion matrix", "['A', 'C', 'D']", false]]}

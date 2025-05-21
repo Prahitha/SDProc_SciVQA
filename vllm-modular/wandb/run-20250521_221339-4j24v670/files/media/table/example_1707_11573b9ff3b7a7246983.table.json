@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d049add34a7ae2cf28a025cee99c26c0", "Is the frequency-based classification accuracy for layer 6 and bin 10 higher than 0.6?", "Yes", "closed-ended finite answer set binary non-visual", "Heat Map", "Yes", true]]}

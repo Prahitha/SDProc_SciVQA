@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b1cb1659c56fbe4cf77a80ebd601371e", "What is the F1 score for the +Gold method after the 'Merge Spans' correction?", "0.92", "closed-ended infinite answer set non-visual", "line chart", "Approximately 94.5", false]]}

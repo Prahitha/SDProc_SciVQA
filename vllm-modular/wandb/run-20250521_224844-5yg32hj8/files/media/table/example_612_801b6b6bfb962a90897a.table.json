@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2f9bdc2700c9e737fa9bb1a292248027", "Which block(s) are directly connected (incoming and outgoing) to the Full-band block?", "B,C", "closed-ended finite answer set non-binary visual", "architecture diagram", "A,D", false]]}

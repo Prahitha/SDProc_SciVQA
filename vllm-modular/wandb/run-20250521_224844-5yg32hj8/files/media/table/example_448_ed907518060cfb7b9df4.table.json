@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e4e895192143bda9cc51c927716a00ce", "Does the blue line representing accuracy reach its highest point at the window size of 3 in the left subplot?", "yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e5dfb05875d89ef0d98d5c00829b9c4b", "Is the precision of the LSTM model at 1.0 Recall more than 0.4?", "Yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

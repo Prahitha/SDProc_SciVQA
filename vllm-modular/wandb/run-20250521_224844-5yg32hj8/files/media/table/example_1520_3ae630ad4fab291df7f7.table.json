@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3b8b4bc24342a0d4147005379b752605", "Does the F1 score for LISA consistently increase after each incremental correction?", "yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

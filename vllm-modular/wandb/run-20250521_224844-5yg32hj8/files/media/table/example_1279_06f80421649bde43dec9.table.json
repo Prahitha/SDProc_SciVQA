@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c6782f6f9d563aae7993ca3c1f959ba6", "Does the figure depict a construction of NP?", "Yes", "closed-ended finite answer set binary non-visual", "tree", "Yes", true]]}

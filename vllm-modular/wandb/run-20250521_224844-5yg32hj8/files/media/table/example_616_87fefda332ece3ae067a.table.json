@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["8575fa51f06b6f7c07efb4778c29b6ef", "What is the final output of the Lexical Units Attention Model?", "Fm", "closed-ended infinite answer set non-visual", "neural networks", "Fm", true]]}

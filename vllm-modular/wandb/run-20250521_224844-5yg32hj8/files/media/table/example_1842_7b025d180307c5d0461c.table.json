@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["f27d83e82702af9b1474c14e526a7bf5", "Which of the following options are true for the three graphs located in the middle of the image?", "C", "closed-ended finite answer set non-binary visual", "Line Chart", "A,B,C", false]]}

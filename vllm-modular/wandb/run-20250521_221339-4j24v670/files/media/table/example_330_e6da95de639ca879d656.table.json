@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["9187ba086ccc05db5c5448e13cc6beae", "What does the y-axis represent?", "Density", "closed-ended infinite answer set non-visual", "Histogram", "Density", true]]}

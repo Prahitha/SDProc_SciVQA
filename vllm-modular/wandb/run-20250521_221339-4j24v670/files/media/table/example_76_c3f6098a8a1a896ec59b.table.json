@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ca3abd6ccbc30e6fb630625bc1bac227", "At what number of sentences does the Unigram model reach 1.0 accuracy?", "A,B", "closed-ended finite answer set non-binary non-visual", "line chart", "D", false]]}

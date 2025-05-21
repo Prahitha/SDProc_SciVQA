@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["9e029070c95f8d17d0b722d4d244e7cf", "What is the color of the line representing MLE?", "A: Blue", "closed-ended finite answer set non-binary visual", "line chart", "A", false]]}

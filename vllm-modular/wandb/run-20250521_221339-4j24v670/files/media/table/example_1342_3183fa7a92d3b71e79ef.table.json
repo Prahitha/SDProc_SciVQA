@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["5ea58a3697f4b3a25dcef3d0e85d0e76", "Considering the color intensity of the cells in the confusion matrix shown in Figure 4, which of the following statements are true?", "B", "closed-ended finite answer set non-binary visual", "confusion matrix", "A", false]]}

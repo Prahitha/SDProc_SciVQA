@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e6d27eba14126d7864397ec816ee6ea2", "What is the value of BLEU score decrease for the RNNenc model without segmentation, solid line,  at 4 unknown words?", "-4", "closed-ended infinite answer set visual", "line chart", "approximately -7", false]]}

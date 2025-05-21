@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["736136e9d3f768d3103c4fcd6d9bc371", "What happens at each step as we move downward in diagram (a)?", "A", "closed-ended finite answer set non-binary visual", "graph", "B", false]]}

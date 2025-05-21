@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d533c28ee61ed8c132b0853191087aa9", "What is the approximante value of the red line at the point where the x-axis value is 1000 on the right plot?", "42", "closed-ended infinite answer set visual", "line chart", "35", false]]}

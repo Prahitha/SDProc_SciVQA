@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["582c157d763f02ea08f0afa5fa5764cb", "Is the mutual information value for the LM approximately 5.5 at layer 0?", "No", "closed-ended finite answer set binary non-visual", "line chart", "Yes", false]]}

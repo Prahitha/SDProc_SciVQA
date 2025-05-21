@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["92ce419d7a3d377a4d2005b62bacf53c", "What is the colour of the circle in the diagram that has an arrow pointing towards it from the box labeled 'h_m'?", "Red", "closed-ended infinite answer set visual", "neural networks", "Purple", false]]}

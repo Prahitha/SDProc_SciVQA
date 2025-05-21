@@ -1,0 +1,16 @@
+{"time":"2025-05-21T22:13:39.940899096Z","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/workspace/SDProc_SciVQA/vllm-modular/wandb/run-20250521_221339-4j24v670/logs/debug-core.log"}
+{"time":"2025-05-21T22:13:40.165334678Z","level":"INFO","msg":"created new stream","id":"4j24v670"}
+{"time":"2025-05-21T22:13:40.165419048Z","level":"INFO","msg":"stream: started","id":"4j24v670"}
+{"time":"2025-05-21T22:13:40.165481366Z","level":"INFO","msg":"writer: Do: started","stream_id":"4j24v670"}
+{"time":"2025-05-21T22:13:40.165519008Z","level":"INFO","msg":"handler: started","stream_id":"4j24v670"}
+{"time":"2025-05-21T22:13:40.165691806Z","level":"INFO","msg":"sender: started","stream_id":"4j24v670"}
+{"time":"2025-05-21T22:13:40.411461895Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-21T22:43:34.764500187Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-21T22:43:34.76461255Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-21T22:43:35.954861597Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-4j24v670-example","runtime_seconds":38.464850549},{"desc":"uploading artifact run-4j24v670-example","runtime_seconds":37.382152938},{"desc":"uploading artifact run-4j24v670-example","runtime_seconds":36.228600812},{"desc":"uploading artifact run-4j24v670-example","runtime_seconds":35.125308412},{"desc":"uploading artifact run-4j24v670-example","runtime_seconds":33.963601057},{"desc":"uploading artifact run-4j24v670-example","runtime_seconds":32.929535006},{"desc":"uploading artifact run-4j24v670-example","runtime_seconds":31.848013198},{"desc":"uploading artifact run-4j24v670-example","runtime_seconds":30.763011801},{"desc":"uploading artifact run-4j24v670-example","runtime_seconds":29.513837148},{"desc":"uploading artifact run-4j24v670-example","runtime_seconds":28.45469537}],"total_operations":34}}
+{"time":"2025-05-21T22:44:15.503297064Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-21T22:44:16.371337821Z","level":"INFO","msg":"stream: closing","id":"4j24v670"}
+{"time":"2025-05-21T22:44:16.371374781Z","level":"INFO","msg":"handler: closed","stream_id":"4j24v670"}
+{"time":"2025-05-21T22:44:16.371408665Z","level":"INFO","msg":"writer: Close: closed","stream_id":"4j24v670"}
+{"time":"2025-05-21T22:44:16.371428873Z","level":"INFO","msg":"sender: closed","stream_id":"4j24v670"}
+{"time":"2025-05-21T22:44:16.371680411Z","level":"INFO","msg":"stream: closed","id":"4j24v670"}

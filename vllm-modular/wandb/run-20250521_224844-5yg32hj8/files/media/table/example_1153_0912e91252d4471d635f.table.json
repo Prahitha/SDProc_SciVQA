@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["dd7398352b7b1d59b6a08f1b1f787de5", "Is the value of the blue star at the interval [1-50] greater than 10?", "No", "closed-ended finite answer set binary visual", "line chart", "No", true]]}

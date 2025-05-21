@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b91a48e1a0efffe0470f5e4447de1d54", "What is the color of the points?", "D", "closed-ended finite answer set non-binary visual", "Scatter Plot", "B", false]]}

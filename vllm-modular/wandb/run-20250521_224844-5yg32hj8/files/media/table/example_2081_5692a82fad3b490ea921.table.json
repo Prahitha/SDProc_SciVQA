@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["0eb866b3eaf914aae8ff90c4f10e9c1d", "Is the line with the highest accuracy value for Word-CNN under no attack greater than 0.87?", "yes", "closed-ended finite answer set binary visual", "line chart", "No", false]]}

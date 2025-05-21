@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b840df47132275c3dce5d517d8f58ad2", "Which words are components of V?", "B", "closed-ended finite answer set non-binary non-visual", "tree", "A", false]]}

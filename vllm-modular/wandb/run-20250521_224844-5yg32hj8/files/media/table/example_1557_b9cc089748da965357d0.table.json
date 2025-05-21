@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["6a79ebe8f32da40a2075728f28e61590", "Which of these text types has the lowest frequency for its first ranked character?", "C", "closed-ended finite answer set non-binary non-visual", "line chart", "A", false]]}

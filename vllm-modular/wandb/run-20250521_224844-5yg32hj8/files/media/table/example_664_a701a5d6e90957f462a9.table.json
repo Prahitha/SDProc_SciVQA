@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["20477c75daf70f528e34d4757c72ed8d", "Does ATTOrderNet show a consistently better performance than LSTM+PtrNet on all mini datasets?", "No", "closed-ended finite answer set binary non-visual", "line chart", "No", true]]}

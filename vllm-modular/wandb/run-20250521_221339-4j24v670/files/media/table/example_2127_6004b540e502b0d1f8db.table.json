@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["abd6a80909e66d55a2fec48adce51c63", "Which line represents the word rank score for \"basket ball\"?", "A: The blue line", "closed-ended finite answer set non-binary visual", "line chart", "A", false]]}

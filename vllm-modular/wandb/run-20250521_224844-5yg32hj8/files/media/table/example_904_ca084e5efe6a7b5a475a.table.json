@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["4bd00a4bb343aac862613a5482682213", "Which line in the plot represents the model performance when a vocabulary of sixteen words was used?", "C", "closed-ended finite answer set non-binary visual", "line chart", "D", false]]}

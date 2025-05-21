@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b5b592ddef93f16938eae17e0612db86", "Which of the following show the highest F1 score in the BUCC task at layer L12?", "A,B,C,D", "closed-ended finite answer set non-binary non-visual", "line chart", "B", false]]}

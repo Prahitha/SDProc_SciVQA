@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["4e3818d4065fc8150ddf0dcbb27f21c0", "Is the blue line in the top left plot representing the success rate of the transfer learning model higher than the red line for the number of epochs 20?", "yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["01e961c43af0030846bcdb75db2433b3", "What is the maximum classifier accuracy?", "0.9", "closed-ended infinite answer set non-visual", "line chart", "1.0", false]]}

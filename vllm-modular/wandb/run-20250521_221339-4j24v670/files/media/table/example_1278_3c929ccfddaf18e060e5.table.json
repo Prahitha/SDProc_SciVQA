@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["71310d7a3bcae70ad77b9a71eec6b662", "Is the blue node labeled 'de' directly connected to the green node labeled 'PP'?", "No", "closed-ended finite answer set binary visual", "tree", "No", true]]}

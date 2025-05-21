@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["9aac3c5b3b175e0d0c46a4b87ef2f5c3", "Is the purple line representing the 'Multi-task Model in [10]' consistently above the red line representing the 'Model in [9] - No Unfreezing'?", "Yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

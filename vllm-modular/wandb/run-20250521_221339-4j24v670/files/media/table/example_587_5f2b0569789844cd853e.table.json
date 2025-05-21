@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["860f64f3cb49e72aae8347b64eed785c", "What percentage of the pie chart is represented by the grey section?", "27.7", "closed-ended infinite answer set visual", "pie chart", "27.7%", false]]}

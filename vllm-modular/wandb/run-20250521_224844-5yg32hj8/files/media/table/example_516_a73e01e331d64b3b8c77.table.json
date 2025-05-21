@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["99b315515a85fe0ba7ba1b2739bbe0d7", "What is the approximate value of the training entropy for the green line at epoch 20?", "-7.5", "closed-ended infinite answer set visual", "line chart", "-7 - -6", false]]}

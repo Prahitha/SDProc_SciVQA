@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e36fed7081f702f62095b989fdd03dc6", "Which pie chart represents the question 'Have you heard about \"Bayesian Hypothesis Testing\"?'", "B", "closed-ended finite answer set non-binary visual", "pie chart", "B", true]]}

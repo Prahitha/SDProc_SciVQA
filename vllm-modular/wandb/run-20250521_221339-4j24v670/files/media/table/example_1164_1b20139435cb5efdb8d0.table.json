@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["7ae0d94e8dc8d2c634b896bca399bf57", "How many circles share the same F1 score?", "B,C", "closed-ended finite answer set non-binary visual", "line chart", "B", false]]}

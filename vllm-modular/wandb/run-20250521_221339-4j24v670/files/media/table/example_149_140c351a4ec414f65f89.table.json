@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["fcfde7116eb3387fc871e68116d8493d", "What is the value of the orange line in the left subplot when the number of references is 6?", "0.55", "closed-ended infinite answer set visual", "line chart", "Between 0.55 and 0.65", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["bd2cdee595c6ae6ae6e9930afaf26c93", "Is the tallest bar in the figure green?", "Yes", "closed-ended finite answer set binary visual", "Histogram", "Yes", true]]}

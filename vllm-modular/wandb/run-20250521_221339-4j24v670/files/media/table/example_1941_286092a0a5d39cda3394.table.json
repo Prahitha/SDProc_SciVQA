@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["804576581d818094b4c3c0b0d6991b26", "Considering the green line in Figure 2, which of the following statements is not true regarding its shape, position, and value?", "B,C", "closed-ended finite answer set non-binary visual", "line chart", "A", false]]}

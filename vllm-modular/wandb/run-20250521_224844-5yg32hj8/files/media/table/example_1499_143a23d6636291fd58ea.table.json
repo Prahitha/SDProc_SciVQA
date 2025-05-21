@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["64ed7e57c61cecc223e5977e644f4473", "What is the value of the green line at a temporal IoU of 0.6 in the leftmost figure?", "4", "closed-ended infinite answer set visual", "line chart", "Between 2 and 3", false]]}

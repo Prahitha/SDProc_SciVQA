@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2c3e548da18665a9b52b875f4780f10f", "Considering the red line, does the average number of words at hour 7 exceed the average number of words at hour 10?", "yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

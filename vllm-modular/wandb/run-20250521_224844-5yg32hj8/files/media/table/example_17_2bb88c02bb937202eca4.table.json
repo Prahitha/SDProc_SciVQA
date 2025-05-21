@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["8696af9321fe3b85fc928f0f43da0cef", "Besides 'with sa' and 'w/o sa', what other method is being compared in the graph?", "L2RW", "closed-ended infinite answer set non-visual", "line chart", "L2RW", true]]}

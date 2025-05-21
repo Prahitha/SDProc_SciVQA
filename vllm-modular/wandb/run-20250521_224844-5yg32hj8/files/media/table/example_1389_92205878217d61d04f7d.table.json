@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["f1284cc3d8c3647ffe946393fd2d5af3", "Which case achieves higher than 0.8 F1 score at 10% in-family training?", "B", "closed-ended finite answer set non-binary non-visual", "line chart", "B", true]]}

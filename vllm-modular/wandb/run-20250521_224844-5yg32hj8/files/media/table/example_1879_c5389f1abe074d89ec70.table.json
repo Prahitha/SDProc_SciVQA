@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["501350d5f5c4559e92bd8dd26fe078b9", "Which of the following languages has the lowest percentage of subtitles conforming to CPL<42 after segmenting with the 'None' model?", "C", "closed-ended finite answer set non-binary non-visual", "line chart", "B", false]]}

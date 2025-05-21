@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2c1f4f17bddfc6628a79a9c8c74e5496", "Which of the following are true about the success rate of ACER on summary and master action spaces? (Select all that apply)", "A,C", "closed-ended finite answer set non-binary non-visual", "line chart", "A,B", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["4f1034d7d92e8964c6604f7f47fc8501", "Which of the following rating corresponds to 'weak negative'?", "B", "closed-ended finite answer set non-binary non-visual", "Vector plot", "B", true]]}

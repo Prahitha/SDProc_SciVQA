@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["515e7145e2ab806038dd722c596aa708", "How many dimensions are presented?", "C", "closed-ended finite answer set non-binary non-visual", "tree", "C", true]]}

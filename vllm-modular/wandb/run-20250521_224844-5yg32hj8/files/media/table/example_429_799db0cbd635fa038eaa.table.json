@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d1febf2f9b66e864326005a30736812d", "Which number of subgraph samples for HRG reaches the highest model size?", "32", "closed-ended infinite answer set non-visual", "line chart", "32", true]]}

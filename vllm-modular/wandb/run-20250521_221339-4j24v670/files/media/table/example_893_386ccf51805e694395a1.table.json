@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c5f5ce090dd33517b87264ad5844c019", "Does the red line show a higher runtime than the green line at a time budget of 5 minutes?", "No", "closed-ended finite answer set binary visual", "line chart", "Yes", false]]}

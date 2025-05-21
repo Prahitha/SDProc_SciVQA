@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["509889159cbc2acf5aa927936f80b811", "What is the number of time-steps for MLE with 0.3 accuracy?", "5", "closed-ended infinite answer set non-visual", "line chart", "15", false]]}

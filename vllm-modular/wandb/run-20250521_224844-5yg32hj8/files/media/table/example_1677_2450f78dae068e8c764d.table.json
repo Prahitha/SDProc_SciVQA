@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["907f2602237c5efd87a5b056559f2cce", "What is the starting module in the architecture?", "Multimedia News", "closed-ended infinite answer set non-visual", "architecture diagram", "Multimedia News", true]]}

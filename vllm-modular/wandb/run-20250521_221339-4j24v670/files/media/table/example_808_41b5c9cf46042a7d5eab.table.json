@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["25250b73c1a9262e62c330c73fe7607d", "Which of the following models achieve a Rouge-L score of 0.35 at the 10th epoch?", "A,C,D", "closed-ended finite answer set non-binary non-visual", "line chart", "C", false]]}

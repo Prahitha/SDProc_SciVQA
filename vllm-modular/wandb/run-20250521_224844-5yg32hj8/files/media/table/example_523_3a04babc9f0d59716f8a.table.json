@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["353f7af6daa5c6560e17502997f995fb", "Which of the following represents the highest entropy value after 40 epochs?", "D", "closed-ended finite answer set non-binary non-visual", "line chart", "D", true]]}

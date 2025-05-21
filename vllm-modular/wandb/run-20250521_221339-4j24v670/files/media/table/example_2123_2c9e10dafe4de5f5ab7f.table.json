@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ec4befc58ad4d173093475e1d806fe0f", "What is the approximate value of the black line at the year 1920?", "1920", "closed-ended infinite answer set visual", "line chart", "2.00e-5", false]]}

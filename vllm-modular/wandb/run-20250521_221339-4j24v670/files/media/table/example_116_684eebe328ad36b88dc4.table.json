@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["a49bb654500ff3d972b34262bbd95e1f", "Which training method reaches the lowest UAS value at 8 iterations?", "L2+AR", "closed-ended infinite answer set non-visual", "line chart", "CLL", false]]}

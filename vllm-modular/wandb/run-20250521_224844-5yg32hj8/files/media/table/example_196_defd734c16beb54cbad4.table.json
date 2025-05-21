@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["7c8941d33eab491b361b86e2ee3c7caa", "What is the semantic (SEM) representation of the clause?", "love(s,b)", "closed-ended infinite answer set non-visual", "tree", "love(s,b)", true]]}

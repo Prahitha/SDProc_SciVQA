@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3892f5957d7ce408beb65427a365ad63", "In which graph is the blue line lower than the other curves?", "D", "closed-ended finite answer set non-binary visual", "line chart", "A", false]]}

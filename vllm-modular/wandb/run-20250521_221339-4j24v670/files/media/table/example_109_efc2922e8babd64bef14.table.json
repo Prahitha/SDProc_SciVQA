@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e49e31d9cd6c5a57564efda2266d98e7", "Does the mean coverage increase as the number of sentences increases for both 'Powered by Post-Processing' and 'Graph Centrality'?", "Yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

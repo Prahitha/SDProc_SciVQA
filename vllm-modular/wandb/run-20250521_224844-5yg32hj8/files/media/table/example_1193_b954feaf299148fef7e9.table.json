@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["f4769cebefc5376d29de930f46c4965b", "Which of the following revenue streams is the medium for Liverpool FC in 2018/2019?", "C", "closed-ended finite answer set non-binary non-visual", "line chart", "B", false]]}

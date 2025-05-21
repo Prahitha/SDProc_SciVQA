@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["224816fe9f715106b645622367d910da", "Does the Emission Scorer with L-TapNet utilize a projection space M as an input to linear error nulling?", "No", "closed-ended finite answer set binary non-visual", "neural networks", "No", true]]}

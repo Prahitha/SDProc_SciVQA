@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["74cfe61b40122b2f7d3bd3cb77a40d8f", "Which colors of the lines have their highest values at iteration 1?", "D", "closed-ended finite answer set non-binary visual", "line chart", "D", true]]}

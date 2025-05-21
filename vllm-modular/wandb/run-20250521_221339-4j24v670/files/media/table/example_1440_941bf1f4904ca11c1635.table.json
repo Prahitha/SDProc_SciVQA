@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["44c75edfe2502524509f85ae662af5c3", "Does sensitivity increase with specificity for different model initializations?", "Yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["15f48f1ab37d20368f5b6a3ac7511d94", "Is the highest accuracy observed when there are 3 valid answers?", "No", "closed-ended finite answer set binary non-visual", "line chart", "No", true]]}

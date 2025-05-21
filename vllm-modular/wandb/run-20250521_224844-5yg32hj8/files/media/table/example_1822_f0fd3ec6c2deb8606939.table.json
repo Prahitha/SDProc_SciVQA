@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b8b89e901da7287ecf70b082fad1f29f", "Does the system utilize both automatically and manually transcribed broadcast news corpus?", "Yes", "closed-ended finite answer set binary non-visual", "architecture diagram", "Yes", true]]}

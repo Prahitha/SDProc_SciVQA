@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["db801444b0b421e86bc07199fa465997", "Is the social score negatively correlated with Airbnb penetration rate in every city?", "Yes", "closed-ended finite answer set binary non-visual", "scatter plot", "Yes", true]]}

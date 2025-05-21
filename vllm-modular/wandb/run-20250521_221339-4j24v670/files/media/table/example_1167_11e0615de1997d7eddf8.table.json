@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3a747ffe00b617fca8af779f4c9f0ee1", "How many circles are there with an accuracy of 96% or more?", "2", "closed-ended infinite answer set visual", "line chart", "4", false]]}

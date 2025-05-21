@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["9b9fa9df313fbb6dba28016196a034c3", "Did the filtering process reduce the number of examples with more than one emotion label?", "yes", "closed-ended finite answer set binary non-visual", "bar chart", "Yes", true]]}

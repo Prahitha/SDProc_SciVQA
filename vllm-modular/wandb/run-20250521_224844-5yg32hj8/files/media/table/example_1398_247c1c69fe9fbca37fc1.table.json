@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["de0466e1cf6ba17dcbad11f0da7b58bd", "Does the overall accuracy of the ensemble increase with the number of CNNs for the binary classification problem?", "A", "closed-ended finite answer set non-binary non-visual", "line chart", "A", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["86db13a5dd083ba7373b19cecbce56c1", "Which line in the (d) NYT METEOR plot represents the \"pointer-generator\" model?", "B", "closed-ended finite answer set non-binary visual", "line chart", "C", false]]}

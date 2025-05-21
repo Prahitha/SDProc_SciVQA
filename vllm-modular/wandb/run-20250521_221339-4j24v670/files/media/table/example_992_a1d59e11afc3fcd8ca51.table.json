@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ffe24af264d0113b0cee318dde386131", "Is the value of the leftmost data point on the right graph greater than 0.8?", "No", "closed-ended finite answer set binary visual", "line chart", "No", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["5bdf4de2b8b6369c6c65c954d6bd12ed", "What is the shape of the box containing \"Speech Recognition\"?", "Rectangle", "closed-ended infinite answer set visual", "architecture diagram", "Rectangle", true]]}

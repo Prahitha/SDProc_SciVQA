@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d20a0aab472bb758e1115e18f5d42bc0", "Is the solid red line in the first plot higher than the dashed red line at the value 10 on the x-axis?", "No", "closed-ended finite answer set binary visual", "line chart", "Yes", false]]}

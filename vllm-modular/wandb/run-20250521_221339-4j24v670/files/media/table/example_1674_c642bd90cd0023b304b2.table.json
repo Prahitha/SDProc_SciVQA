@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["91a504b8a6ae25118f48dc9acd5ab9ae", "Which of the following is NOT a component of EVIDENCEMINER's system architecture?", "D: User Interface", "closed-ended finite answer set non-binary non-visual", "architecture diagram", "D", false]]}

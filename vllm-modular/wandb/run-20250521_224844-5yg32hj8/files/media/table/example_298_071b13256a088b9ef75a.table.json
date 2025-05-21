@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["a5e0039267c39bec00b4f01b14d9df60", "What is the colour of the circle representing the gate in the top side of the graph?", "B", "closed-ended finite answer set non-binary visual", "neural networks", "B", true]]}

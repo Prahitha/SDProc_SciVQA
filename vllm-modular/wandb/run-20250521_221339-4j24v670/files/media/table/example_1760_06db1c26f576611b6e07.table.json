@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["bc675f946fd0842ef162ab07f3e869dc", "Does the BLEU score achieved using critic-aware exploration initially increase with updates?", "Yes", "closed-ended finite answer set binary non-visual", "line chart", "No", false]]}

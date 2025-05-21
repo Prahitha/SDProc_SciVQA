@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["fdd6f998a05a9d159c020fcd32010da4", "How many different entities are compared in graph (c)?", "5", "closed-ended infinite answer set non-visual", "line chart", "5", true]]}

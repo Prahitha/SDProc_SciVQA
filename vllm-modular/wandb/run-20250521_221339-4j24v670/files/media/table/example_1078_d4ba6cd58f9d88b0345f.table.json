@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["6b7cb6b8fb5e7bc11840701313b8fcc4", "What is the approximate BLEU score of the green method at 480K in-domain size?", "The approximate BLEU score of the green method at 480K in-domain size is 24.", "closed-ended infinite answer set visual", "line chart", "37", false]]}

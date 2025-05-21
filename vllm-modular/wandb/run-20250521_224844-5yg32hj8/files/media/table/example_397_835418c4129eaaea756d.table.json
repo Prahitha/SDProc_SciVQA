@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d883a0546dfcb40216ea0d36d3d92ae1", "Which line has the highest similarity value around 250 training steps?", "A", "closed-ended finite answer set non-binary visual", "line chart", "A", true]]}

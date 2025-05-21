@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ad7f3c645aade3a31bce0ed637b4559d", "Which line(s) remain relatively constant throughout training?", "C,D", "closed-ended finite answer set non-binary visual", "line chart", "A,B,C", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d1d2282e9c74f468ff90e3cc4fbbae92", "Is the green circle corresponding to 20% in-family training higher than the purple circle corresponding to 20% in-family training?", "yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["82dcffe43a0a2914efdf79565911815c", "Does the fully supervised PALE LAGER model achieve a higher Mean Average Precision than the unsupervised model for all senses?", "Yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["150c40a4513ff43d356b6485206c0ff8", "Which of the following structures are included in the generation of concentrated modification structure?", "A", "closed-ended finite answer set non-binary non-visual", "tree", "A,B", false]]}

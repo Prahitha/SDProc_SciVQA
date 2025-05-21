@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c9a44231bf4d1035399409529c0fd719", "Which of the following connections have a dashed line indicating a missing relation between the nodes?", "A, D", "closed-ended finite answer set non-binary visual", "graph", "C,D", false]]}

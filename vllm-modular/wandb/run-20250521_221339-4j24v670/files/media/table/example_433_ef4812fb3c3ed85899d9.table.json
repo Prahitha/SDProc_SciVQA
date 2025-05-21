@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["fa5f977f2919a1f65998e18d8e73bede", "Which of the following number of subgraph samples for the HRG model has the smallest model size?", "A,B", "closed-ended finite answer set non-binary non-visual", "line chart", "A", false]]}

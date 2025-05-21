@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["1393c240577fecc028ed0a66598f8976", "Is the value of the top left square in the confusion matrix greater than 5000?", "Yes", "closed-ended finite answer set binary visual", "confusion matrix", "Yes", true]]}

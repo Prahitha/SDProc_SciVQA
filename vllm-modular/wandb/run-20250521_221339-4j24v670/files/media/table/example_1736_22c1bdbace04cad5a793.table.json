@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["34844030f51fe02ee8116386d1d7e264", "In which corner of the figure does the legend appear?", "B", "closed-ended finite answer set non-binary visual", "bar chart", "B", true]]}

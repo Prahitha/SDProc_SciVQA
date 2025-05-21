@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["450ea67458928b0a6b12705a23f15a82", "What is the name of the knowledge source left of 'Acoustic model'?", "Language Model", "closed-ended infinite answer set visual", "architecture diagram", "Pronunciation Lexicon", false]]}

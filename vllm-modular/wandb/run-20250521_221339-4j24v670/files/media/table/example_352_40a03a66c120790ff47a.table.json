@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["42a3d2e14c494d8291278b34712018c4", "What is the total number of predictions made by the Latent model?", "B,D", "closed-ended finite answer set non-binary non-visual", "venn diagram", "C", false]]}

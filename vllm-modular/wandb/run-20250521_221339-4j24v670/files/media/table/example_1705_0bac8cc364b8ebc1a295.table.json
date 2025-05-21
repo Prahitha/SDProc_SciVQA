@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e3de1ad798e7cf78a2aecb67393541d5", "What is the classification accuracy for layer 6, bin 10?", "0.660", "closed-ended infinite answer set non-visual", "Heat Map", "0.660", true]]}

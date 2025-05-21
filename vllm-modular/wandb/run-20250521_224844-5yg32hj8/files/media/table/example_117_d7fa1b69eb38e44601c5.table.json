@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["deae3248bc82258e3443e986c3655404", "Is the value of the red square at iteration 4 higher than the value of the blue diamond at iteration 7?", "no", "closed-ended finite answer set binary visual", "line chart", "Yes", false]]}

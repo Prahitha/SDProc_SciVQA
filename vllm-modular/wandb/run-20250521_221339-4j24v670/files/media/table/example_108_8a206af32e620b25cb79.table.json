@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["6259f7179d4f0971f4a668323eb7c90d", "Is the dotted line consistently above the solid line in both graphs?", "No", "closed-ended finite answer set binary visual", "line chart", "No", true]]}

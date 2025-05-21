@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["91c78f851bb59a577f2a68dda56df305", "Which is the maximum value for the P@10 in the y-axis in subplot (d)?", "D", "closed-ended finite answer set non-binary non-visual", "line chart", "C", false]]}

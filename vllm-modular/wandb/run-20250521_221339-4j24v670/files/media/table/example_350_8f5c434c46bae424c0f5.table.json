@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["812c1f4c659c2c0eb834755e0b83ab6a", "Is the total number of predictions made by the Feature-based model 50? ", "No", "closed-ended finite answer set binary non-visual", "venn diagram", "No", true]]}

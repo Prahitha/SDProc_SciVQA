@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["81108f96b618ee0f917afd7b161e6c34", "Which of the following reach a fscore more than 0.5 in graph (c)?", "A,C", "closed-ended finite answer set non-binary non-visual", "line chart", "A,B,C", false]]}

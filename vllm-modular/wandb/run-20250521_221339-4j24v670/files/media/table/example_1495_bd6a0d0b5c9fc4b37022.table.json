@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["47aaf8743210628ab064ce264fd2fd7a", "Which methods are being compared in Figure 3?", "B, C", "closed-ended finite answer set non-binary non-visual", "line chart", "A", false]]}

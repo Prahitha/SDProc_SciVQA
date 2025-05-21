@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["964d2dabd5b5e18c79437d89c9f66d80", "Which line in the graph has the highest accuracy at 1 verbalization per label?", "B", "closed-ended finite answer set non-binary visual", "line chart", "D", false]]}

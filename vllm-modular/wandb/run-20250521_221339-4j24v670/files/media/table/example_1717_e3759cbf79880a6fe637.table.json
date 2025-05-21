@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["0b3051419a5c47f6151c4c5e542982fc", "Which of the following statements are true about the dashed lines in figure 4.2?", "B, C, D", "closed-ended finite answer set non-binary visual", "graph", "A,B", false]]}

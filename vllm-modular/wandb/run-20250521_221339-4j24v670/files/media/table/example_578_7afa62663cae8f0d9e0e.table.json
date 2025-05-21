@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3bc87daeadc8453b4fc748ff5d94c80e", "What is the color of the arrow representing a rating of 1?", "Blue", "closed-ended infinite answer set visual", "Vector plot", "Blue", true]]}

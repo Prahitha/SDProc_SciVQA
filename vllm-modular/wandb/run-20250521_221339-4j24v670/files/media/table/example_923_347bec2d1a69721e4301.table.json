@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["da1507e504eec64c65b87d05ec5a0590", "Which of the following supertags are directly connected with black solid lines to the node 'no-redistrib.' under Dimension 2?", "B,C", "closed-ended finite answer set non-binary visual", "tree", "B", false]]}

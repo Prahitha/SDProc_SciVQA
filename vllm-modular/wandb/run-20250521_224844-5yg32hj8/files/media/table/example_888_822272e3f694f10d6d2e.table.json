@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d54b3a9c5f1bcd6b316e47d48c2f7dce", "Which line represents 'Weak Training-mix'?", "B", "closed-ended finite answer set non-binary visual", "line chart", "B", true]]}

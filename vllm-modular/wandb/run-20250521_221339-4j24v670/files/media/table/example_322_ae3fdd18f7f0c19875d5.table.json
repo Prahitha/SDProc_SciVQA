@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["fc7766c441f0aa65c3d8906b27a0bc5d", "In the figure labelled '(b) tenure', is the value of the brown bar for the year 1960 greater than that of the year 1990?", "No", "closed-ended finite answer set binary visual", "bar chart", "Yes", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["00742319a0628dd0463f0e6f4ac9c1a4", "Which line represents the BERT SDA model with K=T-1?", "D", "closed-ended finite answer set non-binary visual", "line chart", "D", true]]}

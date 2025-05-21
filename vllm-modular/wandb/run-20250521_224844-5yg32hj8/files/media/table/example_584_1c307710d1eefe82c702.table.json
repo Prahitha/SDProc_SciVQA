@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["317e9d2301b63db82347c05561fb8e5b", "Which arrow is the closest in direction to the arrow labeled 'strong negative'?", "A", "closed-ended finite answer set non-binary visual", "Vector plot", "A", true]]}

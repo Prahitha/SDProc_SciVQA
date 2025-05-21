@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["8b9e8eddd155fe599ef2de8b1234dd39", "The error bars of which bar do not include or even touch the value 1.0?", "A, C", "closed-ended finite answer set non-binary visual", "bar chart", "D", false]]}

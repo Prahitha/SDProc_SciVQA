@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["a702489bacd3fba342f0e89602fcef0c", "Which line represents the reward from BERT-grams?", "B", "closed-ended finite answer set non-binary visual", "line chart", "B", true]]}

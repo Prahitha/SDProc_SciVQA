@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["9b0c46dd93c5d9627bc94da1483f1a24", "Which of these is not a method depicted in Figure 1?", "D", "closed-ended finite answer set non-binary non-visual", "line chart", "D", true]]}

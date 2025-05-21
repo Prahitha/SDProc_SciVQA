@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["15e6da8857826757c041cec89cbd4cb4", "Which line in the figure has a value of lower than 0.70 when the \"Ratio of '-1' emotional causes (%)\" is 55?", "C", "closed-ended finite answer set non-binary visual", "line chart", "B", false]]}

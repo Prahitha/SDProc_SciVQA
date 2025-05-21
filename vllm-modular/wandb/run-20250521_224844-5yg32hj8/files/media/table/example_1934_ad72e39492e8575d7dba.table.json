@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["27e227d827e63dd8340e8497e958721e", "What is the number of categories K represented by the purple line with stars?", "1024", "closed-ended infinite answer set visual", "line chart", "1024", true]]}

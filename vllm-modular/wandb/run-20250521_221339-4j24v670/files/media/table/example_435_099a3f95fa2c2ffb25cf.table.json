@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2133af4e0aaef19fa8e8de607ae69b28", "What is the approximate value of the red dashed line corresponding to the word \"family\" in the top row of the middle column?", "0.5", "closed-ended infinite answer set visual", "line chart", "1", false]]}

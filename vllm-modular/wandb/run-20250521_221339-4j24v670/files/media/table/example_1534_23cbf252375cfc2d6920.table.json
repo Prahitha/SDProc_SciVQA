@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["8f752726a1b21dff0d89b299365a1cdc", "What is the value of the red line at 10 on the x-axis?", "7.5", "closed-ended infinite answer set visual", "line chart", "Between 12 and 12.5", false]]}

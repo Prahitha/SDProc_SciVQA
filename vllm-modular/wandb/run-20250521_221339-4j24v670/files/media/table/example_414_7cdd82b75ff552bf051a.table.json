@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["8f8a2882e1ef670f22cf226fa866c423", "Which line has the lowest MRR value for K = 4?", "B", "closed-ended finite answer set non-binary visual", "line chart", "B", true]]}

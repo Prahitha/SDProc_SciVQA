@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["152c143d841e7aa0cb2e0aae02d1fd61", "What is the approximate value of the black line at epoch 150 for DBP_{JA-EN}?", "0.68", "closed-ended infinite answer set visual", "line chart", "0.72", false]]}

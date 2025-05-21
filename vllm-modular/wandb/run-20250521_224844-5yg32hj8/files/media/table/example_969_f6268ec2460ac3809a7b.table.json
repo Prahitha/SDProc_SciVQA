@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["78c7e47f331e203e655d36124ca825c1", "Which stem type has the highest mean?", "C", "closed-ended finite answer set non-binary visual", "box plot", "C", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3fb843c42d72bfb11e86cca94f3f70d4", "Which penalty factors are used for retraining accuracy on MNLI dataset?", "A,B", "closed-ended finite answer set non-binary non-visual", "line chart", "A", false]]}

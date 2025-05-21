@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b8533c3fc064b179b552503ad1bb2285", "Are the green circles connected to the blue circles by black arrows?", "Yes.", "closed-ended finite answer set binary visual", "neural networks", "Yes", false]]}

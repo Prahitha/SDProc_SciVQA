@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["6cbb6a045aff979b01e55bada75eded2", "Which two models are used in the experiment?", "CLM and SLM", "closed-ended infinite answer set non-visual", "scatter plot", "CLM and SLM", true]]}

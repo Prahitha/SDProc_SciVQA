@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["6a1bdf59c9ef1eac9c097393a9eb4be3", "Does the retraining accuracy increase with the number of steps?", "Yes, the retraining accuracy increases with the number of steps.", "closed-ended finite answer set binary non-visual", "line chart", "Yes", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["99caba2996d13d13a271b484f6ba4672", "What is the value of the solid dark black line at epoch e31?", "0.900", "closed-ended infinite answer set visual", "line chart", "0.900 - 0.925", false]]}

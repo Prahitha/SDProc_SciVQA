@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["714de617f36e1e0acc1b47bbb93dbc39", "In the (b) CNN/DM METEOR plot, which model has consistently the lowest scores?", "A", "closed-ended finite answer set non-binary non-visual", "line chart", "B", false]]}

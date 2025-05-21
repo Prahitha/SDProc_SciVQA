@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["abb8e82f7d8f7726ac14df276715edea", "Which of the following NMT systems achieved a BLEU score of 20 at a specific number of iterations?", "C", "closed-ended finite answer set non-binary non-visual", "line chart", "C", true]]}

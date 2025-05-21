@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["68bf653bcba253bcd31f939731514559", "Is the box labeled \"Input Speech Signals\" on the left directly connected by a red arrow to the box labeled \"Subband-L\"?", "Yes", "closed-ended finite answer set binary visual", "architecture diagram", "No", false]]}

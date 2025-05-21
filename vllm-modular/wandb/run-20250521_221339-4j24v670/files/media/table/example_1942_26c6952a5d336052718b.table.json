@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["7559bdb1654b74b4b152f49be0328b96", "For which value of K is the Meteor Score not at it's highest at M=8?", "B,C", "closed-ended finite answer set non-binary non-visual", "line chart", "A", false]]}

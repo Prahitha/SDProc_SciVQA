@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["f775e310fea8f8d67ab56bc6b63cf46c", "What is the value of R2 for figure d?", "B", "closed-ended finite answer set non-binary non-visual", "Line Chart", "B", true]]}

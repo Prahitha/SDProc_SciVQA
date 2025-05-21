@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["f159da3fd912dd63c62a7dfacd552653", "Does SSID initialization achieve a higher log-likelihood than random initialization after 100 training iterations?", "Yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

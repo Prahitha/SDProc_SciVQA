@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c5486f6f6032c76a80aea45293ca1055", "Does the red line in the third graph (snow depth) intersect with the black line?", "Yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

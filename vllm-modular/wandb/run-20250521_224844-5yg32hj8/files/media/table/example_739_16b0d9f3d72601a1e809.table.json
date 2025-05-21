@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["a104f3b00dd5d9b4adbcc7035202ff64", "What is the highest average accuracy of the green line?", "0.45", "closed-ended infinite answer set visual", "line chart", "between 0.4 and 0.5", false]]}

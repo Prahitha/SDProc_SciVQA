@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["938a5aee41b0a2c61c35cc218fad1522", "For which method is the aggregate score for paragraph-unit analysis the lowest?", "A,B", "closed-ended finite answer set non-binary non-visual", "Line Chart", "A", false]]}

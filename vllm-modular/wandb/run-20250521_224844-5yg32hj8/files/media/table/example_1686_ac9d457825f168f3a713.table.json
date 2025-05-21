@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["732f71aeaec6e1056236bdfec2ea6fe7", "What is the color of the box that represents the Classifier?", "Gray", "closed-ended infinite answer set visual", "neural networks", "Gray", true]]}

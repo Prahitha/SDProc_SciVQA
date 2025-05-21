@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["6a88ffeb409caf5509a5ae95499cd9a2", "What is the node located below the 'DA labels' node?", "shared utterance encoder", "closed-ended infinite answer set visual", "tree", "DiCoh model", false]]}

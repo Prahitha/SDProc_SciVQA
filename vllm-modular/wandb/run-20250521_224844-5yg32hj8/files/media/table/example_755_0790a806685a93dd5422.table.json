@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["884fdcb8ff3621dca688e4140a23c783", "Which language pair shows the highest retrieval accuracy for the LASER model?", "B", "closed-ended finite answer set non-binary non-visual", "line chart", "B", true]]}

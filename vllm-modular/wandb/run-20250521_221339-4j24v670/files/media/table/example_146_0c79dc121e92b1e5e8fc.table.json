@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["61fdac019ed22c187f5ae835c53ed7f0", "What happens to the black line in the RMSE plot as the feature number increases?", "A,D", "closed-ended finite answer set non-binary visual", "line chart", "D", false]]}

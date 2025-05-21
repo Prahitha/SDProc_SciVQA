@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b60b4006d4baaf3037d8e0a0a70e79c6", "Considering the position and shape of the trees in Figure 5, which statements are correct?", "B,C", "closed-ended finite answer set non-binary visual", "tree", "D", false]]}

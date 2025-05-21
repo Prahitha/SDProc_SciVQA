@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c5625876a5ad8d651e4d1be9c5506d54", "Which metric is represented on the third image of Figure 4?", "Interference Rate", "closed-ended infinite answer set non-visual", "line chart", "Interference rate", true]]}

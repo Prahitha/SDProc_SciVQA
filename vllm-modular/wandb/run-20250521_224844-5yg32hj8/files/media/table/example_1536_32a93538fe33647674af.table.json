@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2b3f2c74f77aaf92db0e512b82e660b0", "Does the green line increase from #Topic 2 to #Topic 10?", "no", "closed-ended finite answer set binary visual", "line chart", "Yes", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b8ad650195e6b1ab549d0b0997d35b65", "Is the value of the orange line at an answer length of 9 higher than the value of the blue line at the same answer length?", "yes", "closed-ended finite answer set binary visual", "line chart", "No", false]]}

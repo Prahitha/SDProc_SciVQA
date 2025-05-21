@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["34893c5b0bbeab7560ab976afedee91d", "Which line represents a fixed step size of 0.01?", "A", "closed-ended finite answer set non-binary visual", "line chart", "A", true]]}

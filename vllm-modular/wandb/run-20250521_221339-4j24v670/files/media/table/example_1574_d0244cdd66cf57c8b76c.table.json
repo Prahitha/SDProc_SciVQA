@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["a809bfddd2440e77aefe5883882c9507", "Which line is highest at 250 additional hierarchical premach training examples?", "B", "closed-ended finite answer set non-binary visual", "line chart", "A", false]]}

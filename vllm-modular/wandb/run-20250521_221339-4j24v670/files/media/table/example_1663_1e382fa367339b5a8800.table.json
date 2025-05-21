@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["f978ff2f3faac172b0fc242c5d94fe78", "Are the sentence length ranges the same for English and Chinese?", "No, the sentence length ranges are not the same for English and Chinese.", "closed-ended finite answer set binary non-visual", "scatter plot", "No", false]]}

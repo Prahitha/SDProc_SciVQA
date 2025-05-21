@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["13c479fbf5f38c93c57015738c924aad", "What is the color of the box labeled \"Decoder\"?", "The color of the box labeled \"Decoder\" is blue.", "closed-ended infinite answer set visual", "neural networks", "Blue", false]]}

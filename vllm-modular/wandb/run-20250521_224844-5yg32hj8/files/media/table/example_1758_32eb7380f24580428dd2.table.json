@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["935a6bcc647e5d078506134e0120f109", "What is the maximum value of the y-axis?", "20.0", "closed-ended infinite answer set non-visual", "line chart", "20.0", true]]}

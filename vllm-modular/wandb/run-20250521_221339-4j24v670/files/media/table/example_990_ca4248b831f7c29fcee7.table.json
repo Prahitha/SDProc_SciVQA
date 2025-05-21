@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["52f35f68a8253f24275c48f7bbe99448", "What is approximately the value on the y-axis corresponding to the point marked with an 'x' at the rightmost end of the blue line on the left plot?", "0.85", "closed-ended infinite answer set visual", "line chart", "0.67", false]]}

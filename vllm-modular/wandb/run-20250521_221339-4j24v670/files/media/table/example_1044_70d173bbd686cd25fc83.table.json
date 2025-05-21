@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c49bd61eccfe7c1bddfc04c8f99353ee", "In the second graph which languages are considered for DBP?", "Chinese, English, Japanese, Korean, Thai, Vietnamese, and Turkish", "closed-ended infinite answer set non-visual", "line chart", "Japanese and English", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3ba2ebc4baaa7b5af9564404638b0e61", "Which line represents unsupervised PBSMT?", "C", "closed-ended finite answer set non-binary visual", "line chart", "C", true]]}

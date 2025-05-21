@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["81c066d29ece8d02c685938751ebd7f8", "Which of the lines is labeled as 'AliNet'?", "A", "closed-ended finite answer set non-binary visual", "line chart", "A", true]]}

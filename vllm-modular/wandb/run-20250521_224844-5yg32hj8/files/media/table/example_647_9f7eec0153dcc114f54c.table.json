@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["f8922895b5aa64b4f710bf250e3379c1", "Which type of tree has the highest ratio of tree-based decoding steps with respect to sequential decoding?", "B", "closed-ended finite answer set non-binary non-visual", "histogram", "A", false]]}

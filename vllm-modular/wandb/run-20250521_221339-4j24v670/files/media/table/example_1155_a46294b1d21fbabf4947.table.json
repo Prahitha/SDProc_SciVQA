@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["8188bb03a88c84c20c82bba7a9b0caac", "Which of the following word frequency intervals has the highest value for the blue line in the figure?", "C, D", "closed-ended finite answer set non-binary visual", "line chart", "A", false]]}

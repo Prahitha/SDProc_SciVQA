@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["bcac0a9ff74163f44f6d93460e54f608", "Which method has the highest attention weight for the word 'of'?", "RAM_T", "closed-ended infinite answer set non-visual", "line chart", "CMR", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ef60218bc976d8acd68fd6b9e2e8a405", "Which ID is represented in third graph?", "ID: PAS", "closed-ended infinite answer set non-visual", "line chart", "PSD", false]]}

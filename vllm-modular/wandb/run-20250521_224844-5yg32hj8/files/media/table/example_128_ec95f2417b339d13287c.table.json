@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["a6ca1e0a733b1942e8bdc86f4ef35b20", "Which of the lines on the left graph has the highest value at 30 epochs?", "A,B", "closed-ended finite answer set non-binary visual", "line chart", "A", false]]}

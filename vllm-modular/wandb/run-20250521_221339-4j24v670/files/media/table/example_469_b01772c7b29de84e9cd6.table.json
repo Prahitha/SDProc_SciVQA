@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["f884ca0fcf29ffa86591a465dca3d0ce", "Which of the following subplots have red lines that reach above 5?", "B", "closed-ended finite answer set non-binary visual", "line chart", "D", false]]}

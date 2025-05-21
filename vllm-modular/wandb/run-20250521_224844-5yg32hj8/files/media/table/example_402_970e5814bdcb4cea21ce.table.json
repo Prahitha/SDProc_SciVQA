@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["be29f88f80e1827ce6b4526167dc5ac8", "Does the dashed line representing HCN+sampled consistently have a higher value than the solid line representing HCN in the left graph?", "yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

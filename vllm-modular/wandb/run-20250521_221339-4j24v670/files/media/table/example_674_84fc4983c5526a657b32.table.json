@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["82a3d687d8f68afdde1e38966accf17d", "Which line represents the BLEU score loss with segmentation?", "B", "closed-ended finite answer set non-binary visual", "line chart", "B", true]]}

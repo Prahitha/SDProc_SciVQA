@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["0f923c5fecc08f511c493af288cdda79", "What is the starting state?", "The starting state is INIT.", "closed-ended infinite answer set non-visual", "architecture diagram", "INIT", false]]}

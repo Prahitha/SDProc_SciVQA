@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["a8a0a44e63ad2dc589f4e0302b3b7441", "Which is the maximum y-value achieved?", "A", "closed-ended finite answer set non-binary non-visual", "line chart", "A", true]]}

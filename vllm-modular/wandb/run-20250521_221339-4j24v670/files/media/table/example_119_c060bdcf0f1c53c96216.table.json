@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["1818093c7795414a5e84fb0d810eea75", "Which line represents the UAS value for approximation-aware training with an L2 objective?", "C", "closed-ended finite answer set non-binary visual", "line chart", "B", false]]}

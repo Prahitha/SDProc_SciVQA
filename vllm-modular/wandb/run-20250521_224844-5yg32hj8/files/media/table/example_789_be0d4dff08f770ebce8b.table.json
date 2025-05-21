@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["1287ea4bfe5b7799bc991096c0ac6957", "Which line represents the average win rate for the 'no_text_mod' variant?", "C", "closed-ended finite answer set non-binary visual", "line chart", "A", false]]}

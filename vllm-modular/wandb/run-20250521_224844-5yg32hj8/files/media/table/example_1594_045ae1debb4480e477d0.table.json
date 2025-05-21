@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["cbc3bbccf37b1ed78b73eb80d4034be1", "Which of the following are steps involved in the proposed approach? ", "A,B,C,D", "closed-ended finite answer set non-binary non-visual", "Flow chart", "ABCD", false]]}

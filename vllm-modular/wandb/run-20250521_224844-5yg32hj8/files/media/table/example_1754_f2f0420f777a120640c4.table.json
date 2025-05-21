@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e871642a3f4a0dc4526911bcb3111216", "What can be said about the relationship between the blue and green line?", "B,C", "closed-ended finite answer set non-binary visual", "line chart", "B,C,D", false]]}

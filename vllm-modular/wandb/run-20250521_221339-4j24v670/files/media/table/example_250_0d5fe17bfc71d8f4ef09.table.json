@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["5cd6610807cee0e9fc0140852175133d", "Are the data points on the graph primarily clustered towards the bottom left of the graph?", "No", "closed-ended finite answer set binary visual", "scatter plot", "No", true]]}

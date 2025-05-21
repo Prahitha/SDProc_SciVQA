@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["31edb21ae72d3319888adfa9b7ebd1ce", "What is the System Rank value of BASELINE?", "50", "closed-ended infinite answer set non-visual", "line chart", "33", false]]}

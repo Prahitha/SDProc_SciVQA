@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["8f88cdb511a44a5d0766399763066e4e", "What is the colour of the line representing 'Optimizing from current' approach?", "D", "closed-ended finite answer set non-binary visual", "line chart", "B", false]]}

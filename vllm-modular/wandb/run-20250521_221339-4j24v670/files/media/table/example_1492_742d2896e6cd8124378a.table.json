@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["5ba8ea0bb5b72d99a0e590d1a8023ace", "In the top center graph, is the performance of the red line higher than the performance of the green line at the training sample size of 2000?", "No", "closed-ended finite answer set binary visual", "line chart", "Yes", false]]}

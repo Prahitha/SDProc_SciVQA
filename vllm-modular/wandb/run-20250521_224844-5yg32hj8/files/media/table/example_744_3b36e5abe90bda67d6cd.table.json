@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["7676c9b22fa78b8332bd2f982b599f1e", "Does the MLE and GOLD-s have an average accuracy of approximatley 0.3 with time-step= 15?", "No", "closed-ended finite answer set binary non-visual", "line chart", "Yes", false]]}

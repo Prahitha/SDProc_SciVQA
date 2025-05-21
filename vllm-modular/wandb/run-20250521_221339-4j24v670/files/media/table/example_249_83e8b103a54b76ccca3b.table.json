@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["cab3f564632b8aa7ea0dd128573f8c6d", "What does the x-axis represent?", "The x-axis represents rank.", "closed-ended infinite answer set non-visual", "scatter plot", "Rank", false]]}

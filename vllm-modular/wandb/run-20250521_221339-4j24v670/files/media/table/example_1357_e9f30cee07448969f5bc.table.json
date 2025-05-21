@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["727f05c2371c653436faa415cd60f817", "What is the input of U?", "u", "closed-ended infinite answer set non-visual", "graph", "S and F", false]]}

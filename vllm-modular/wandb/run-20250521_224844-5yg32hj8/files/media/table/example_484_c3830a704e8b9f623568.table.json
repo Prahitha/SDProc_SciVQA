@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["8dd0fae94e854b88a11dc1b5646260ca", "Does the 'ru' line achieve the highest F1 score at any point in the figure?", "No", "closed-ended finite answer set binary non-visual", "line chart", "No", true]]}

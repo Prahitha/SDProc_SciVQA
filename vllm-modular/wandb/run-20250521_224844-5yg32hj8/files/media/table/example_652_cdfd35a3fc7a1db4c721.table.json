@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d0a08cc652f3582a24419edd83280bcd", "What are the two dimensional topic distributions for LDA models?", "12-dimensional and 150-dimensional", "closed-ended infinite answer set non-visual", "line chart", "12 and 150", false]]}

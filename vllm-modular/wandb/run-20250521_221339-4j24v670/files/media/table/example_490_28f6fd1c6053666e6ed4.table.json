@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["439df80402e847ed32a097aafcea5b2b", "What is the highest attention weights value of the red line?", "0.30", "closed-ended infinite answer set visual", "line chart", "More than 0.30", false]]}

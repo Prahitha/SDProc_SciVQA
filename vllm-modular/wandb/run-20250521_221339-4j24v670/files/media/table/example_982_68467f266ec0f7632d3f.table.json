@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c544def77e6c1583508e6ce7d0f7200d", "What is the total number of emotion labels with post-filtering?", "7", "closed-ended infinite answer set non-visual", "bar chart", "45000", false]]}

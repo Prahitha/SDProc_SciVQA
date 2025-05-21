@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d6c442ac6dfae6e4dc268d64789cc75f", "What is the second label from the left of the x-axis?", "Sentence Length", "closed-ended infinite answer set visual", "line chart", "5", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["bb6d615682a900cbe431e00177b26afd", "Considering the provided dependency syntax tree, which of the following options correctly describe the visual attributes of the node 'obloze' (sky)?", "A", "closed-ended finite answer set non-binary visual", "tree", "A", true]]}

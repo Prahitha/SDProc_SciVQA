@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["539f81227c641534775f46bfc4fad4c8", "Which of the following posteriors are approximations of the real posterior?", "A,B,C", "closed-ended finite answer set non-binary non-visual", "line chart", "D", false]]}

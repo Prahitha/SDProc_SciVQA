@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e90e4c6cf4d69542f046f8a7e54cfa85", "What is the maximum density of retrieval times for targets?", "0.8", "closed-ended infinite answer set non-visual", "line chart", "Approximately 0.8", false]]}

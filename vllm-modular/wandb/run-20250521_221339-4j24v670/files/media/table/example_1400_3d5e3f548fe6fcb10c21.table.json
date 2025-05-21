@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b85917281c067991d22f3ea7d58e2228", "What is the value of the blue circle at the average lagging of 6 in the figure on the left?", "23", "closed-ended infinite answer set visual", "line chart", "between 30 and 31", false]]}

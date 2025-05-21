@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["bb235e1d6e7af38e4862644504d6b9c4", "What is the maximum value of F1 average represented in 'politics'?", "70", "closed-ended infinite answer set non-visual", "line chart", "75", false]]}

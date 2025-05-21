@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c86a67f85519d61c205e84f5ce142f1b", "Does the blue dashed line representing 'Dependency' reach a peak value at the x-axis value of 0.5?", "yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3cef1c857194bc33f79c6d8c91565cc6", "What color represents the encoder-decoder pair where the encoder and decoder have the same hidden size?", "Blue", "closed-ended infinite answer set visual", "line chart", "Blue", true]]}

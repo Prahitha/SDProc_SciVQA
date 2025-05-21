@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["aef348069567ab99a8e6aed6419f6026", "Does the ROUGE-SU4 F score of LocalLDA+DomSum (One) consistently increase with the number of topics?", "no", "closed-ended finite answer set binary non-visual", "line chart", "Yes", false]]}

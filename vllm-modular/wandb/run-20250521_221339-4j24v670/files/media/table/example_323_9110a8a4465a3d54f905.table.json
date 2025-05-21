@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["f6683d795aeaa23ba9b55d4d892e4f0c", "Is the usage type 'employment and tenure' consistently higher than 'tenure of office' in Figure 2 (b)?", "No", "closed-ended finite answer set binary non-visual", "bar chart", "No", true]]}

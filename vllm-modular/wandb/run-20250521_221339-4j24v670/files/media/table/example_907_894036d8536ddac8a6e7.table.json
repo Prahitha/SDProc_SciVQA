@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["4455ebeff78e72b7d492202b90264a24", "What is the baseline performance of the asking-agent?", "C", "closed-ended finite answer set non-binary non-visual", "line chart", "B", false]]}

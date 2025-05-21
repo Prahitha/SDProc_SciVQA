@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["4b4e7e1325e11d0623fab170c5c058fb", "What percentage of respondents know the definition of Bayes Factor?", "21.8%", "closed-ended infinite answer set non-visual", "pie chart", "21.8%", true]]}

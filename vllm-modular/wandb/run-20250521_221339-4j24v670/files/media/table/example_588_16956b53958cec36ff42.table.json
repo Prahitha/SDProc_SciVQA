@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["da0f387e345151f98a9f44316c099287", "What percentage of the training data instance share is represented by GRP?", "27.7", "closed-ended infinite answer set non-visual", "pie chart", "27.7%", false]]}

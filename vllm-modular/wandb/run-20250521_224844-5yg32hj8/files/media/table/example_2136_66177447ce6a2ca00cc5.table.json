@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c5797c78a8e23a35e46e9c5caeecdd3c", "Which line is the closest to the green line at the x-axis value of 4?", "C", "closed-ended finite answer set non-binary visual", "line chart", "B", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["af44d01c683dea61c5efa2bcf4483efd", "Which matching models have an accuracy of above 86 at Layer 18?", "C,D", "closed-ended finite answer set non-binary non-visual", "line chart", "B,C", false]]}

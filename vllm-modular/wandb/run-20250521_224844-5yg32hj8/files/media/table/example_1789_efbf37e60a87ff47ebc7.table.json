@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["a2181927c5e5585bdfbbdbc141a091db", "Based on Figure 4 and its caption, which colors are used to represent the 'Linear Error Nulling' and 'Projection Space' blocks, respectively?", "D", "closed-ended finite answer set non-binary visual", "neural networks", "C", false]]}

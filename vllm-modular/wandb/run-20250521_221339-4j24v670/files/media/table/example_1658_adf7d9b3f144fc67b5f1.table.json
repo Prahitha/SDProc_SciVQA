@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["7ccff6107c70d574b30a8a35372f9c0b", "What is the approximate latency of the black point at a phoneme number of 175?", "0.8", "closed-ended infinite answer set visual", "scatter plot", "2.2 seconds", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ff784cacf0408f6567dc0a54dd5f4582", "What is the approximate cosine similarity range of the 'Shakespeare 5'?", "0.15 to 0.25", "closed-ended infinite answer set non-visual", "scatter plot", "0.32-0.52", false]]}

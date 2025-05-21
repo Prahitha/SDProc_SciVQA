@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["14318d418031d16aff56df8dfbd1bdda", "Does the process involve extracting LPCC for each subband?", "Yes, the process involves extracting LPCC for each subband.", "closed-ended finite answer set binary non-visual", "architecture diagram", "Yes", false]]}

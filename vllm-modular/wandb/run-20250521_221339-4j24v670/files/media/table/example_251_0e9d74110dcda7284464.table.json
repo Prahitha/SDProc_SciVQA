@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2c1284ab327152c61ce4d05b5a89abd9", "Is the highest degree value shown on the y-axis 100?", "No", "closed-ended finite answer set binary non-visual", "scatter plot", "Yes", false]]}

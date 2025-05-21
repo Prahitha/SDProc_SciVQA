@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["7ec24ca7d6a7ae41ccea4c75ee628c5b", "Does the approach involve a shared utterance encoder?", "yes", "closed-ended finite answer set binary non-visual", "tree", "Yes", true]]}

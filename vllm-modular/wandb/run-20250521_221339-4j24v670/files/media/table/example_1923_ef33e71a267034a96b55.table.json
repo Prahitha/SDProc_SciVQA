@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d98fa6d6440a05a7be70659e32c08046", "What is the highest x-axis value in Figure B?", "A", "closed-ended finite answer set non-binary non-visual", "line chart", "A", true]]}

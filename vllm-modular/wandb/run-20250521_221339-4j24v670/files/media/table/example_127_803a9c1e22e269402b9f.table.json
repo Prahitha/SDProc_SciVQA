@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["10a43cc380a7dd4a48497ec8e457f61c", "Does the accuracy of the model for training set A&H stabilize after 10 epochs?", "Yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

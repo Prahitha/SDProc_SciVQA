@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3e26cc290f3fd18bfcdd8821aa247762", "What is the ROUGE-1 score of the blue line at 10,000 training examples?", "31", "closed-ended infinite answer set visual", "line chart", "20 - 25", false]]}

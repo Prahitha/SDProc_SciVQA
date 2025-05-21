@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["46d7cc10167b4582ca41b2606afc7a99", "What is the value of the highest point on the dashed line in the rightmost graph?", "4.5", "closed-ended infinite answer set visual", "Line Chart", "Approximately 4.4", false]]}

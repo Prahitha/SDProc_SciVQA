@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["f37edfdfe7661d481ae296ee40eb5efd", "Is the overall accuracy for the binary problem higher than the multi-classification problem at the maximum number of CNNs?", "Yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

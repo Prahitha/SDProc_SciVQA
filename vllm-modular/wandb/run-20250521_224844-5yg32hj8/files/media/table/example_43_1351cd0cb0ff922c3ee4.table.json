@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b29e428236d7fe34ff06501887af1c60", "What is the approximate value of the purple vertical line on the x-axis?", "10", "closed-ended infinite answer set visual", "line chart", "10", true]]}

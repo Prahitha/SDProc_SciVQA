@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["8f6d2963d4df137c5e5871e3e148d4f4", "Is the average user-brand interaction higher in the 'heavy-equipment' industry than in the 'internet' industry?", "Yes", "closed-ended finite answer set binary non-visual", "bar chart", "No", false]]}

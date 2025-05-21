@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["bb85bd16cf135d4fe4b725564e16f09d", "Which step sizes correspond to the lines in the graph?", "A, D", "closed-ended finite answer set non-binary non-visual", "line chart", "A", false]]}

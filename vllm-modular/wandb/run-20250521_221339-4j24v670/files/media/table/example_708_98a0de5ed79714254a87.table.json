@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["1bb25e01eff69bf37a03cc483eebd381", "Which of the graphs shows the highest maximum value of P@10 for purple line?", "C,d", "closed-ended finite answer set non-binary visual", "line chart", "B", false]]}

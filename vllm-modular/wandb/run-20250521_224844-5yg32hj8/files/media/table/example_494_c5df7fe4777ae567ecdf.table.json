@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["8aec7cbe37e92f2231e22cf1ffabeda3", "Which of the following has the highest attention weight for the method shown in red line?", "C", "closed-ended finite answer set non-binary visual", "line chart", "C", true]]}

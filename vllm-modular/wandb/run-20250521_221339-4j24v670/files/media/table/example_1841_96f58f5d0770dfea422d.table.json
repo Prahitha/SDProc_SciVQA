@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ffa4230843998c3c87fdb24a96dd00fc", "Is the percentage share of opinion portions decreasing with an increasing number of deviated steps in figure a?", "No", "closed-ended finite answer set binary non-visual", "Line Chart", "Yes", false]]}

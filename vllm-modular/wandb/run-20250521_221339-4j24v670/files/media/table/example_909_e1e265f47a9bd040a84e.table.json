@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["5a79cd6b97ac75b0e0a6be1ab30670c0", "What is the color of the rectangular boxes containing the grammatical information in the lower left corner of Figure 4?", "Blue", "closed-ended infinite answer set visual", "tree", "Light teal", false]]}

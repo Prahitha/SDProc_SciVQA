@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["bdb23c326d55c4671f278b55f3c46ab3", "What is the name of the root node in the syntactic tree?", "born", "closed-ended infinite answer set non-visual", "tree", "born", true]]}

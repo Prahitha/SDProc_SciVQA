@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["5eb38e3980bf330012eb1aeb224c5009", "Does the 'exact value rtk' ever reach a value of 20 in Kari primitive set?", "No", "closed-ended finite answer set binary non-visual", "line chart", "No", true]]}

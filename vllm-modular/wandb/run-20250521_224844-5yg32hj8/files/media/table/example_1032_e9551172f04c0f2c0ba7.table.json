@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["256dfa50ee894d8151d8e46ad15f7025", "Which refinement policy has the lowest acceptance probability?", "A", "closed-ended finite answer set non-binary non-visual", "line chart", "B", false]]}

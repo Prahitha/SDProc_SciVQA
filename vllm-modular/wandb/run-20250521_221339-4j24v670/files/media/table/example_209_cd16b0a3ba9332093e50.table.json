@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["556c8b108feb0ed868df4632b1efd66a", "What are the nodes that the node labeled 'conjunction' on the top of the figure points to?", "A,B", "closed-ended finite answer set non-binary visual", "tree", "B", false]]}

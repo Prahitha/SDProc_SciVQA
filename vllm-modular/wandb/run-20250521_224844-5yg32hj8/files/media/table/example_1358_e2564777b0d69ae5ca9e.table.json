@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["4b75e5fcac60804ac2888c5f211e0f1d", "Is the arrow pointing to the circle labeled 'S' coming from a circle labeled 'G'?", "no", "closed-ended finite answer set binary visual", "graph", "Yes", false]]}

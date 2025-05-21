@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["fd20d0a10cfa1fdba9e4f4fa32681be1", "What is the maximum relative weight change for the encoder with size 1024 and decoder with size 256 in graph (a)?", "13%", "closed-ended infinite answer set non-visual", "line chart", "5%", false]]}

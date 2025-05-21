@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e09a7692fd0ad926ffcbe6a743968cf2", "Which of the following categories represent more than 50% of the data instance share? ", "A,D", "closed-ended finite answer set non-binary non-visual", "pie chart", "A", false]]}

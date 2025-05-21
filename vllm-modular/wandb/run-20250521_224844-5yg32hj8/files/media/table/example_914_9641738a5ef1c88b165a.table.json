@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d283eadd1fcc3e9ebcb3bace22e7ef40", "According to the provided dependency syntax tree, which of the following grammatical roles are assigned to the word 'sebou'?", "C", "closed-ended finite answer set non-binary non-visual", "tree", "B", false]]}

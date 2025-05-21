@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["0ae0cbf14bb7ceaab2ac1f425df7011f", "Is the tree in Figure 4 binary?", "Yes", "closed-ended finite answer set binary non-visual", "tree", "No", false]]}

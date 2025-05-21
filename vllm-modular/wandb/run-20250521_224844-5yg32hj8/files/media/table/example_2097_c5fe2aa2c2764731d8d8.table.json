@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["dc0d39325a041c5f178cd7d0a33aadc0", "What is the maximum Reverse Temperature shown in the plot?", "1.5", "closed-ended infinite answer set non-visual", "line chart", "1.5", true]]}

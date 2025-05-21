@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["4d3a883c55b3469cf73fb6e0ec926f66", "Is the average accuracy of unigram (SRI) lower than the average accuracy of 4gram (NNLM) for 2 sentences?", "Yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

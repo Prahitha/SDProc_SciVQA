@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e2d0a72524be5577604ab8fd82e4eece", "What is the maximum value of the orange line in the right plot?", "5", "closed-ended infinite answer set visual", "line chart", "Between 17 and 18", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e16fd77fa9ee796aaec618bca55a9546", "Is the blue dot plotted at iteration 5 positioned lower than other dots plotted at iteration 5?", "Yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["5bbc82084bfd2584b2a92e7aee8a0c47", "Which of the following subplots has the lowest number of squares?", "A,C,D", "closed-ended finite answer set non-binary visual", "confusion matrix", "A", false]]}

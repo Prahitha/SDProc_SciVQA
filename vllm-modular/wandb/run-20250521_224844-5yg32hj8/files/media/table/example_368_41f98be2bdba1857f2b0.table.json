@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b872ecf36aff6cc67aa45ac29257cca0", "Is the blue line representing Conf-T2LSTM consistently higher than the orange line representing BERT-to-LSTM?", "yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

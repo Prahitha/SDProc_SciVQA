@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["54a767da5db5aa8aa6f3eb6ae7981d58", "Which line represents the model with more changes in predictions when the source vectors are set to 0 during decoding?", "A", "closed-ended finite answer set non-binary visual", "line chart", "A", true]]}

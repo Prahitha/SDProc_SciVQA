@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["8490d243f612be0c472eb5d23bf02d76", "Does the red line in the first graph (CNN/DM ROUGE-L)  have a higher value at n=0 than the green line in the same graph?", "Yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

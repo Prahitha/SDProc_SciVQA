@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d2f8c0c1c196d065abf06c3246b1ca1b", "In which subplot is the negative correlation between social score and Airbnb penetration the weakest?", "C", "closed-ended finite answer set non-binary visual", "scatter plot", "B", false]]}

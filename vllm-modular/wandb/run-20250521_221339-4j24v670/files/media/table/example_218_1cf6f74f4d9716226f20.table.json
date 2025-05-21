@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e5a355ffb5f36cc5d59ed359872a8d47", "Which tree diagram has the word 'to' directly below the node 'P'?", "B", "closed-ended finite answer set non-binary visual", "tree", "B,C", false]]}

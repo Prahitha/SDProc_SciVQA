@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["9c4376e050791715bcfd8adfb9e08ac0", "Did both models have more than 50% difference in predictions changed before a noise level of 0.025?", "Yes", "closed-ended finite answer set binary non-visual", "line chart", "No", false]]}

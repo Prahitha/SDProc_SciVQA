@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["bbbab5d2f1af46a108e888389306f5a6", "Which of the lines in Figure (a) have a higher classification accuracy when there are 2000 unlabeled data points?", "A", "closed-ended finite answer set non-binary visual", "line chart", "B", false]]}

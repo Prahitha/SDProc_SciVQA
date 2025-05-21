@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["dcbd0ad5bbcafc1651584c549b304d83", "Does the blue line in the center graph represent perseveration error rate of the Online Fine-tuning of CIFAR?", "Yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["8910aaa326d428f8d9daf70f4b869c5a", "What is the approximate value of \"reasons for short term leases and insecurity of tenure\" in 1910?", "B", "closed-ended finite answer set non-binary non-visual", "bar chart", "A", false]]}

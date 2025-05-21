@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b59fabc813028f7c1aa9b746a529bd76", "Which states in the automaton have a self-loop?", "A", "closed-ended finite answer set non-binary non-visual", "Graph", "A", true]]}

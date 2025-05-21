@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["83f4d6773ab474ba154f87d3b04b5e73", "What are the total number of nodes in the negation tree?", "4", "closed-ended infinite answer set non-visual", "tree", "3", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["07daeff44eead8f8b12baa214e9731c2", "Is the section representing 'Evaluation' larger than the section representing 'Etiology'?", "yes", "closed-ended finite answer set binary visual", "pie chart", "No", false]]}

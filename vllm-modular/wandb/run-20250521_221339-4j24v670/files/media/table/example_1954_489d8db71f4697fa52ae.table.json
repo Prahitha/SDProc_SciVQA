@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["db0857eff3f7a0a25ee025ed1af6add1", "What domain is the model used for Restaurant Booking pre-trained on?", "Movie Booking", "closed-ended infinite answer set non-visual", "line chart", "Movie Booking", true]]}

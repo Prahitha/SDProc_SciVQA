@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e66d0dbfa2b5e2931547b362584ea47a", "Which tasks have a mutual information value of approximately 5.2 for layer 0?", "B,D", "closed-ended finite answer set non-binary non-visual", "line chart", "D", false]]}

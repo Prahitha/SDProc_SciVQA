@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["5404a562f0c1e5c9c28e4923fd81670d", "Is the color of the bottom-right cell (OFF, OFF) in the confusion matrix different than the one of the top-right cell (NOT, OFF)?", "yes", "closed-ended finite answer set binary visual", "confusion matrix", "Yes", true]]}

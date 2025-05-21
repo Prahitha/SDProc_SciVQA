@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["9bdbae9cb32cbb9ccd6a7d59e1e0e702", "What is the value of d in the second plot?", "4096", "closed-ended infinite answer set non-visual", "line chart", "600", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["1c9e1837a2a3736b2fc5dd356cada3b5", "Which models are being evaluated?", "A", "closed-ended finite answer set non-binary non-visual", "line chart", "A", true]]}

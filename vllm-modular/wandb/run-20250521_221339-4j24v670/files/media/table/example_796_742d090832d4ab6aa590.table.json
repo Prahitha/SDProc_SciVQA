@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["59468e3c94c93d8875d1900950c3e56d", "Does the mutual information decrease as the layer number increases for the blue solid line?", "Yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

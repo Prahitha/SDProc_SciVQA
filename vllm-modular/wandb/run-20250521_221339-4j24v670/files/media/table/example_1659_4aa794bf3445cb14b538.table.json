@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["1e1de84c8ef6cb5c45d83edb5f4b7129", "What is the label of the x axis in both subplots?", "Phoneme Numbers", "closed-ended infinite answer set non-visual", "scatter plot", "Phoneme Numbers", true]]}

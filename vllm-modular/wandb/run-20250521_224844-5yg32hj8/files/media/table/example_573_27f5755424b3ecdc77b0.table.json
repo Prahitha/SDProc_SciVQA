@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c2733052e0720d2f60ee0d73381ef43a", "Does the UI component have direct arrows pointing to the Backend component?", "No", "closed-ended finite answer set binary visual", "Architecture Diagram", "No", true]]}

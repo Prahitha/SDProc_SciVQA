@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["990439e08c6e5201b3aa15417c3a09e3", "At 10 tokens, which of the lines is the highest?", "A, B", "closed-ended finite answer set non-binary visual", "line chart", "A", false]]}

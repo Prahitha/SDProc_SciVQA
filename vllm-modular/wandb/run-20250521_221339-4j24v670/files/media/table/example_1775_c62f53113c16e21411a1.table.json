@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ec6ecbb843672d846397ed739e731408", "Where is the bar labeled \"internet\" located?", "Second from last", "closed-ended infinite answer set visual", "bar chart", "The last bar on the right ", false]]}

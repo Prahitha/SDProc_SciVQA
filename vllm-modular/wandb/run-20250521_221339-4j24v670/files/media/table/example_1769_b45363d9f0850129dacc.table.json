@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["7c4a17e77374e9a109ae3d0b21aaacde", "Do the in-domain examples have consistently lower values for probability of correctness than out-of-domain examples?", "No", "closed-ended finite answer set binary non-visual", "line chart", "No", true]]}

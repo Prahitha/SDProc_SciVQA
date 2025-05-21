@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["63cb6f70fa19da463e58b5464da8d42b", "Which variable denotes 'weight'?", "w", "closed-ended infinite answer set non-visual", "Neural Networks", "w", true]]}

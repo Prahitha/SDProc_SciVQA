@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ff8fd2a0ff60413a46a5de4debd143fb", "What is the approximate maximum value of the distribution in the left subplot?", "5", "closed-ended infinite answer set visual", "Line Chart,Scatter Plot", "215k", false]]}

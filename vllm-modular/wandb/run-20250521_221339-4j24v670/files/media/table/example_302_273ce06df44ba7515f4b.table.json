@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["29d370c63c51d4235a5d4763d7dfaaa6", "What is the total number of trigger classes represented in the confusion matrix?", "7", "closed-ended infinite answer set non-visual", "confusion matrix", "20", false]]}

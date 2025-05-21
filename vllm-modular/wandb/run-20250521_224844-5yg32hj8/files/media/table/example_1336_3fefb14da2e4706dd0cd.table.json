@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["550dec05188166b0a1d2a5a49a5e6b42", "Which language pairs were compared for significance of adequacy or fluency?", "A,D", "closed-ended finite answer set non-binary non-visual", "confusion matrix", "A", false]]}

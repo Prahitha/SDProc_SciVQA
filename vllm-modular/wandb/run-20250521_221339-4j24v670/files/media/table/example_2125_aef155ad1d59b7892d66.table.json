@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["823b4fa82cb5e0287799cb9f838ce1f2", "Is the blue line representing 'basket ball (caa)' consistently lower than the black line representing 'basketball (caa)' after the year 1908?", "Yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

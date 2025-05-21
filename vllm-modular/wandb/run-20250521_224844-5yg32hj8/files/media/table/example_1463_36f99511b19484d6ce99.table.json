@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["01249522f3972b9652bbb43eb36df123", "What is the model accuracy of the \"around-right\" approach when considering only the last two layers?", "98", "closed-ended infinite answer set non-visual", "line chart", "Between 40 and 50", false]]}

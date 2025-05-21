@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d06b14045d0d57eb46231e9334e0daae", "Is the y-axis representing min/max values?", "No", "closed-ended finite answer set binary non-visual", "scatter plot", "Yes", false]]}

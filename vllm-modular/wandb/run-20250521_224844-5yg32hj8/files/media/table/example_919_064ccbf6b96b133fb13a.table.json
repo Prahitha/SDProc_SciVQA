@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["6da2a33810dcbd0e52cae78616cd7567", "Which two elements are directly connected with gray lines to Dimension 2?", "no-redistrib., \u00e0-obj-empty", "closed-ended infinite answer set visual", "tree", "no-redistrib. and a-obj-empty", false]]}

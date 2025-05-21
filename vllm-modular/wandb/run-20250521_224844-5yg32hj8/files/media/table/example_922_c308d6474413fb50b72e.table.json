@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["6948eed879894eac2a5aee08cf9a653d", "Are there any supertags corresponding to inheritance patterns that do not have a corresponding tree?", "2", "closed-ended finite answer set binary non-visual", "tree", "Yes", false]]}

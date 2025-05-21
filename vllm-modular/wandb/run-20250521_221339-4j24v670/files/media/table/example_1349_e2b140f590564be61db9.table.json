@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["f8df1f180489043c58c39108ec776e61", "Is there a curved arrow pointing from circle 0 to circle 2?", "Yes.", "closed-ended finite answer set binary visual", "graph", "No", false]]}

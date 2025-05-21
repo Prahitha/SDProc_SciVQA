@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["7a6676381e5af23849f998ece5c461fa", "What is the value of the cell in the row labeled \"LOC\" and the column labeled \"DEV\"?", "D", "closed-ended finite answer set non-binary non-visual", "confusion matrix", "D", true]]}

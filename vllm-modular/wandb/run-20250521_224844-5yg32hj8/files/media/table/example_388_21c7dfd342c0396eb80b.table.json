@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["dd8e37f4f0a13dbe1dc2604d0d83fb51", "Which line in the bottom plot represents 'Random'?", "C", "closed-ended finite answer set non-binary visual", "line chart", "C", true]]}

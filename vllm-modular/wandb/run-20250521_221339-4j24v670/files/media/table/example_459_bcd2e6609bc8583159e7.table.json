@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ceec9813b70cb2eac2054ed254cd2bef", "Does the performance of \"Char + MorphChar Embeddings tr\" exceed the performance of \"Char Embeddings tr\" for all epochs?", "No", "closed-ended finite answer set binary non-visual", "line chart", "Yes", false]]}

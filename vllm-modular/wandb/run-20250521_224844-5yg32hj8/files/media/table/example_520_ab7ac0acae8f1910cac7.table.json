@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["8146188b49710c2a6c2b9fa49f915c4a", "Does the green line labeled 'RNN-EM' show a higher entropy value than the dotted line labeled 'simple RNN' at Epoch 10?", "no", "closed-ended finite answer set binary visual", "line chart", "No", true]]}

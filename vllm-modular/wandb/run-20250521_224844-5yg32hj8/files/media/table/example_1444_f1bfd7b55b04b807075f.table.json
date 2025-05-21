@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["75cf626aff18dcb3ec5fc139cb8343e4", "What is the maximum value of the red line in the first plot from the left?", "0.625", "closed-ended infinite answer set visual", "line chart", "Approximately 0.57", false]]}

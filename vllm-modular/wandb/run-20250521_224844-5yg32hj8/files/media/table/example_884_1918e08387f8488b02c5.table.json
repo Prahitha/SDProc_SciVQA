@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["67a5be5817e257a1bce36337d6e8a6b1", "Does the green line consistently have a lower EER value than the red dashed line ?", "yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

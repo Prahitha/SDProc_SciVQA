@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["761c8681c432702a4c1533e8f8f49df4", "What is the value of the red line at the x-axis value of 0.4?", "0.65", "closed-ended infinite answer set visual", "line chart", "0.4", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["bcba950cfa716d864971a74646eb69e6", "What slice presents the percentage of participants who answered yes to the question on the top right plot?", "Blue", "closed-ended infinite answer set visual", "pie chart", "blue", true]]}

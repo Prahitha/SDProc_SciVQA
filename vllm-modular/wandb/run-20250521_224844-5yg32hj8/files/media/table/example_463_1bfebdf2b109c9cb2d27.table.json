@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["857fff4c574f345982822c524955a9a6", "What is the value of L(N) for the black line in 'Der Zauberberg' (DE) when N is approximately 100?", "3.5", "closed-ended infinite answer set visual", "line chart", "5 - 6", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2ee734362874d69b95262ee3b4434f6b", "Is the highest aggregate score for the paragraph-unit analysis in the leftmost plot lower than 4.6?", "Yes", "closed-ended finite answer set binary visual", "Line Chart", "Yes", true]]}

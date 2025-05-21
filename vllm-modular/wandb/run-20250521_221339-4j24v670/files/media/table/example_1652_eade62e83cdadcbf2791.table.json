@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d7d0befa2f105c3adb7d8ae1c99c9e41", "What is the correlation coefficient between Airbnb penetration and social score in New York City?", "-0.43", "closed-ended infinite answer set non-visual", "scatter plot", "-0.43", true]]}

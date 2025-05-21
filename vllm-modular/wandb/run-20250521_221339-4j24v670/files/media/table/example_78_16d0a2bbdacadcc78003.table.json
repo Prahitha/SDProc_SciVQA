@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["625e7f91a29dafca336878518ff6932a", "What is the approximate value of the gradient norm for the blue line for the top BERT layer at training step 25k?", "0.2", "closed-ended infinite answer set visual", "line chart", "8", false]]}

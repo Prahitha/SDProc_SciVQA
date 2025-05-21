@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["a2c6e7b58765067e187f1d986248b70b", "What is the approximate value of the average cumulative loss for the green solid line at 2,500 iterations?", "0.15", "closed-ended infinite answer set visual", "line chart", "0.45", false]]}

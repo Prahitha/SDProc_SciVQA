@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["241018e0752525e2b8ea48a28022289c", "Which of the following describes the line representing simple RNN?", "D", "closed-ended finite answer set non-binary visual", "line chart", "D", true]]}

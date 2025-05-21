@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d6fdf3b5ffc0246f4c1ef51b79ed246f", "Does the Kendall's correlation value generally increase as the number of human references increases?", "yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

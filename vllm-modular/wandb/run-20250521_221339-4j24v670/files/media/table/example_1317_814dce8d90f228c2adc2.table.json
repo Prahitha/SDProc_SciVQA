@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["80afc0452cb99d485137c1eeeafc8cfc", "Which of the following are present in the manually created dataset?", "A,B,C", "closed-ended finite answer set non-binary non-visual", "pie chart", "D", false]]}

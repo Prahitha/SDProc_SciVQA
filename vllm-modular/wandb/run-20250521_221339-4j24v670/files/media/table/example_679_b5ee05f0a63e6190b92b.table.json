@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["54f441e2724373bb4b31e4bad376a394", "Does the orange line representing 'VV@length' have a higher value than the red line representing 'Neural@length' at the trainset size of 9e5?", "No", "closed-ended finite answer set binary visual", "line chart", "No", true]]}

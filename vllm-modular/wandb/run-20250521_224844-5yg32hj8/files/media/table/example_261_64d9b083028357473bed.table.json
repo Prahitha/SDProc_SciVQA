@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["5830dd6ed49a3dcd5daf36c047dfbb96", "Is one of the languages being analysed Portuguese?", "No", "closed-ended finite answer set binary non-visual", "scatter plot", "No", true]]}

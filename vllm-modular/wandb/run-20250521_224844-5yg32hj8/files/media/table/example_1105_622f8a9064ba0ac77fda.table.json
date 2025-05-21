@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["998ff861d8e5f6d706f44bdb6cb2baa0", "What is the approximate value of the y-axis at the point where the blue line in the left plot crosses the x-axis?", "1", "closed-ended infinite answer set visual", "line chart", "1", true]]}

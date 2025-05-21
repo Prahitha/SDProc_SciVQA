@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3fbe8083ebbd991fe72caf6f4bb674cc", "What is the title of the plot?", "D", "closed-ended finite answer set non-binary non-visual", "scatter plot", "D", true]]}

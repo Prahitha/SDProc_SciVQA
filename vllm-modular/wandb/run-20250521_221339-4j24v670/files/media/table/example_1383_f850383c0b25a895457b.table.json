@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b41ddf80b5f9af1cfd5a6393942908c8", "At what value of in-family training do the F1 scores for pretraining and no pretraining become equal?", "0", "closed-ended infinite answer set non-visual", "line chart", "at approximately 0 %", false]]}

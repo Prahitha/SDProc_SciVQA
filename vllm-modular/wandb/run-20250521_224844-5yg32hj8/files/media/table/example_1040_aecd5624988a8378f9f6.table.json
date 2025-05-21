@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["061fc8355f7f72bcf048ac6d4a4ad5d9", "Which line in the figure reaches 1000 samples when n-Nearest Neighbors is around 100?", "A", "closed-ended finite answer set non-binary visual", "line chart", "A", true]]}

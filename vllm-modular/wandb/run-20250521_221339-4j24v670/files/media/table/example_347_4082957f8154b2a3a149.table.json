@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["27d8fd87fa0ad9cd02b47003895fc19c", "What is the value represented in the blue circle?", "2", "closed-ended infinite answer set visual", "venn diagram", "2", true]]}

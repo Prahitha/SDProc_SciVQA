@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["1ff89f36b804683ac65209d26d7163cd", "What is approximately the highest difference seen for the Conf-T2LSTM model?", "10%", "closed-ended infinite answer set non-visual", "line chart", "70%", false]]}

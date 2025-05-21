@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["75d4259badd9ec2a678e28a0147c41f1", "What is the color of the box labeled 'CARNN'?", "Yellow", "closed-ended infinite answer set visual", "neural networks", "Yellow", true]]}

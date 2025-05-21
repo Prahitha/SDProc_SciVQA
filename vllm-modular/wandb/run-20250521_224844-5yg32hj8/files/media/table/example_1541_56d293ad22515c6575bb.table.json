@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["23ce75c7de7bf2083e4c5daaa1b97731", "Which summarization methods are used in the experiment?", "A,B,C", "closed-ended finite answer set non-binary non-visual", "line chart", "A,B,C", true]]}

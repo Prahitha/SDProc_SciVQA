@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["feb10c48fd2cfa935bbf2fd1476219ea", "Is the median value of the 'stem' boxplot for the 'and' query model higher than the median value of the 'raw' boxplot for the same query model?", "no", "closed-ended finite answer set binary non-visual", "box plot", "Yes", false]]}

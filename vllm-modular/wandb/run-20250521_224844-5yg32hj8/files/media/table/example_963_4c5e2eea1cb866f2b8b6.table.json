@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["aa548dbf3a2029689ea1915427d60158", "What are the three query models shown in Figure 3?", "raw, deplural, stem", "closed-ended infinite answer set non-visual", "box plot", "and, or, mlt", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["0d360ecbcac3326d9a0a9e213bcb9921", "What POS tag has the highest proportion value for 'Original Distribution'?", "NNP", "closed-ended infinite answer set non-visual", "bar chart", "NN", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["42ef4adc8141193b3ed2ff643bb42cff", "Which prior has the highest precision with verb morphology grammar and a recall of 0.6?", "C", "closed-ended finite answer set non-binary non-visual", "line chart", "C", true]]}

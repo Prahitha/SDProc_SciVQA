@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ca27f9bce7afa786c6745acc7db83de4", "Does the gradient norm for the top BERT layers decrease as training progresses?", "Yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

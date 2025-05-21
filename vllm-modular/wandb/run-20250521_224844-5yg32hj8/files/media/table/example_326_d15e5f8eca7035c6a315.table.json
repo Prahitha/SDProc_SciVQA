@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b07ebfe9b9c185b1d01dcd82ddac8957", "What does the blue bar in the top right corner represent?", "C,D", "closed-ended finite answer set non-binary visual", "bar chart", "C", false]]}

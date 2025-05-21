@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["da4a859611f0ea9ef28f9b1c0de93e42", "Is the green line higher than the red line at the x-axis value of 13?", "yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

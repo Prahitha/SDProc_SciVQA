@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["73d2b157374e86b7a6aa2201069658db", "Which of the following sentiments were expressed in the sarcastic tweets?", "C", "closed-ended finite answer set non-binary non-visual", "pie chart", "D", false]]}

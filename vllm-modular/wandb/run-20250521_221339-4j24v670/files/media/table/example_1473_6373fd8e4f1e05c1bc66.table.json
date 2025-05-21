@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e15a053d9aa3bbde32c2092de6db0a7b", "Does the red line reach a higher validation BLEU score than any other line in the figure?", "No", "closed-ended finite answer set binary visual", "line chart", "No", true]]}

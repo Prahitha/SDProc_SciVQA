@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["6c9f004ce6907ab856ed4ab80395cb44", "What is the value of the purple horizontal line in the left graph?", "60", "closed-ended infinite answer set visual", "line chart", "68", false]]}

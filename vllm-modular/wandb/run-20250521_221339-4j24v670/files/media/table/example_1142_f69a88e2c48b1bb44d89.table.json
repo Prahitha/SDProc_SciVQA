@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["66c41dffc1944e811825da206b9ad620", "What is the value of the red horizontal line in the graph labeled (d) Weekday Effect?", "0.422", "closed-ended infinite answer set visual", "line chart", "0", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["a5ad107be0c60e79a4e3cc2ee7170f16", "Is there a direct arrow connecting the node labeled 'purpose' to the node labeled 'fitted_with'?", "no", "closed-ended finite answer set binary visual", "tree", "No", true]]}

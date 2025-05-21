@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["9f6ed8f7120541cf9fad98d7c072c3ef", "Which graph depicts a more consistent F1 average for the yellow line?", "A", "closed-ended finite answer set non-binary visual", "line chart", "C", false]]}

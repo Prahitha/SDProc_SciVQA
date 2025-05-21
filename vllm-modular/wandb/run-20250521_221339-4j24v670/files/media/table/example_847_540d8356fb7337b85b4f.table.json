@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2075703a98a1dcb9c64e19fc1532b437", "What is the approximate precision of the orange solid line at a recall value of 0.6?", "0.94", "closed-ended infinite answer set visual", "line chart", "approximately 0.98", false]]}

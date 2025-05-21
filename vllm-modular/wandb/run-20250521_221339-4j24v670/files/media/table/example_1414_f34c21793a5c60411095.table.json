@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2b2c3845a57a908538cfbc8f8b23506f", "Which of the following classifiers is NOT used in the experiment?", "B", "closed-ended finite answer set non-binary non-visual", "line chart", "B", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["df22f31ced74f723e8bc3a6c7563d061", "Is the topic coherence score for OnlineLDA higher in Figure (b) than in Figure (a) at x=10?", "no", "closed-ended finite answer set binary non-visual", "line chart", "Yes", false]]}

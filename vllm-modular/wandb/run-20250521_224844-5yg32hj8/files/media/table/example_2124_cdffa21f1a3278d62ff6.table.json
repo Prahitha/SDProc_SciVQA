@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ef112fe0963905169594ae9a40e9ac46", "What is the highest value of Word Rank Score shown in the y-axis?", "2e-5", "closed-ended infinite answer set non-visual", "line chart", "2.50e-5", false]]}

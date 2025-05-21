@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["08e563cc0d14ecab622cc5137db37bf9", "Does the LVCSR system recognize word sequences?", "Yes, the LVCSR system recognizes word sequences.", "closed-ended finite answer set binary non-visual", "architecture diagram", "Yes", false]]}

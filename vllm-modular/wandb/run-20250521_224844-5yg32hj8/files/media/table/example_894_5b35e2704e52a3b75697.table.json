@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ee989b8726cf16b110224c35f0f9d457", "Does the 'doc2vecOnSQL' method consistently produce a faster runtime than the 'SQL Server' method?", "No", "closed-ended finite answer set binary non-visual", "line chart", "No", true]]}

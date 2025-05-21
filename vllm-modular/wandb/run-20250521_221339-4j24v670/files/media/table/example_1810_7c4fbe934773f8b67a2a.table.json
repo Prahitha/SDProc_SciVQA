@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["dda8c9a96cdf97edbb8245c43d4914a3", "How many labels of rectangular boxes contain 'GMM'?", "Three", "closed-ended infinite answer set visual", "architecture diagram", "3", false]]}

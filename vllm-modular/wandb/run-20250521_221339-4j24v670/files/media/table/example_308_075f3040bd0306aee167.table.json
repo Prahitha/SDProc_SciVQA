@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b7275c67295ccfbe7fc3b7842bbe156f", "In the topmost row what square has the highest value?", "A", "closed-ended finite answer set non-binary visual", "confusion matrix", "A", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["7a0f73ec88f17f31e2a08376d23dca84", "Is the blue line labeled 'SJ' consistently higher than the orange line labeled 'LCSJ'?", "yes", "closed-ended finite answer set binary visual", "line chart", "No", false]]}

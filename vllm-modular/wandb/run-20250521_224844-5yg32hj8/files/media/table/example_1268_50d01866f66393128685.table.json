@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2f58f24942ab1648dfd43598115d4c59", "Are there more vertical lines than upside-down triangles in the 'Syllabification' section?", "Yes", "closed-ended finite answer set binary visual", "tree", "Yes", true]]}

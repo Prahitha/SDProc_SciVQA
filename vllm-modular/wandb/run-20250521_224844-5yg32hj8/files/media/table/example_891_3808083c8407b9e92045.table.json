@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3aded2da527d0d1bbbdfbd87cae30268", "What is the runtime for the blue line at a time budget of 5 minutes?", "850", "closed-ended infinite answer set visual", "line chart", "between 800 and 1000", false]]}

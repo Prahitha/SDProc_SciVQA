@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["44e0ab1ab21334918c30db37234adc72", "Which city has the lowest p-value?", "A", "closed-ended finite answer set non-binary non-visual", "scatter plot", "C", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["397ae7b874bfae3067231d2b962930fa", "What is the highest approximate correlation value achieved by the model?", "0.9", "closed-ended infinite answer set non-visual", "line chart", "0.9", true]]}

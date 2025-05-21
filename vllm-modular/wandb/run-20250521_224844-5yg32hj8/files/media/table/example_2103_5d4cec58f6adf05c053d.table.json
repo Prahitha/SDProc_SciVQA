@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d14038bef0183b0cdca8283ab9eed13b", "What value of Reverse Temperature achieves an approximate value of 0.40 of BLEU-F1 Score for SFOT?", "C,D", "closed-ended finite answer set non-binary non-visual", "line chart", "C", false]]}

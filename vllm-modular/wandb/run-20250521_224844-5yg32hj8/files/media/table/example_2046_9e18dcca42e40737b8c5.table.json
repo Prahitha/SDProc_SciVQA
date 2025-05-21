@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c3e34a8e7531cba31f24be3638cff019", "Is the value of the line p=seqsatlama above 68 at actual search time 6000?", "No", "closed-ended finite answer set binary non-visual", "line chart", "Yes", false]]}

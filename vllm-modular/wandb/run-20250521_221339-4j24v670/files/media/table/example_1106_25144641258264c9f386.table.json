@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["5eab9b52f6d971def6886d56bfefc5fa", "For what values of k do surprise values hardly change?", "Large values of k", "closed-ended infinite answer set non-visual", "line chart", "Large values of k", true]]}

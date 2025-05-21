@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["6be4c1b594d4b48139fa6b70fe2107f0", "Does the BLEU score consistently increase with amount of data seen on any one of the training processes starting from its point of initialization?", "No", "closed-ended finite answer set binary non-visual", "line chart", "No", true]]}

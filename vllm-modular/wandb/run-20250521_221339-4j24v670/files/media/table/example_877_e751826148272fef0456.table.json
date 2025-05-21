@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["19a2173f76a79cc6d0256fea5e62b9e7", "Is the highest accuracy value for the rightmost plot between 70% and 80%?", "No", "closed-ended finite answer set binary visual", "line chart", "Yes", false]]}

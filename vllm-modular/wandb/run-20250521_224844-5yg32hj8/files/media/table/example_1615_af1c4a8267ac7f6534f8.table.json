@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["36a3dec317ba06f9d4f004fbb7daefce", "What label is used for numbers like 2 and 13, represented by i_2 and i_13 in the abstract syntax tree respectively?", "iconst", "closed-ended infinite answer set non-visual", "Tree,Graph", "Const", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["7c9d04430466522a970218f39b7975e4", "What is the approximate value of ROUGE-L score for red line ('Ours' model) when 4 irrelevant sentences are added to the CNN/DM dataset?", "15.8", "closed-ended infinite answer set visual", "line chart", "32", false]]}

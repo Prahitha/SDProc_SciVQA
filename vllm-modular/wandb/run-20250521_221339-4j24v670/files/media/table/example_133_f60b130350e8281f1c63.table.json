@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["678bf6ceac9ba5de4aed5a4c591b9c9b", "What is the approximate value of the red square at 20000 Weibos processed?", "20000", "closed-ended infinite answer set visual", "line chart", "7000", false]]}

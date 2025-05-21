@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["4bcf27419d6e7cc923acccc4e64714b2", "Is the red line (QA-SQuAD-2) consistently higher than the purple line (MLM-SQuAD) in the plot labeled (a) ConceptNet?", "Yes", "closed-ended finite answer set binary visual", "line chart", "No", false]]}

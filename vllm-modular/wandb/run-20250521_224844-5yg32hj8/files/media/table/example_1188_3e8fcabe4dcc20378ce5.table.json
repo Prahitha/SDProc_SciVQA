@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["6e06f8859d3bbf247bf293f3c75488a2", "Is the blue line representing the 'Matchday' revenue higher than the green line representing 'Commercial' revenue for the season 2018/19?", "No", "closed-ended finite answer set binary visual", "line chart", "No", true]]}

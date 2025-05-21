@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["53bf904d182043767b7d41f211682c8a", "Does the green line representing MoverScore have a consistently higher value than the orange line representing METEOR in the left graph?", "Yes", "closed-ended finite answer set binary visual", "line chart", "No", false]]}

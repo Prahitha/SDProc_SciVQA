@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b504381a58da261166dd9a00bb36817c", "What is the value on the y-axis at iteration 3 for the black line?", "0.3", "closed-ended infinite answer set visual", "line chart", "0.1", false]]}

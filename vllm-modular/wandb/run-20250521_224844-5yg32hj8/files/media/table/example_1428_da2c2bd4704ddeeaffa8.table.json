@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["24413ad9ec72432a46b765a29095d60f", "What is the maximum of the enveloping curve of the green area in the bottom left subfigure?", "10%", "closed-ended infinite answer set visual", "line chart", "40%", false]]}

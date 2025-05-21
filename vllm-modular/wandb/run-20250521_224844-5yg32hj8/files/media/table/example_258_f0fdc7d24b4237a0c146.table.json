@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["8765ead07ff4290dc77e9b8a5e9e874e", "What is the approximate European Integration positioning of the blue dot in the FR plot that is furthest to the right?", "0.9", "closed-ended infinite answer set visual", "scatter plot", "0.8", false]]}

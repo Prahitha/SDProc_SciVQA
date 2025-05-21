@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["6bf7a71037e439d5a3ff7b85a1d00a97", "Are there five nodes connected to node F | F2?", "No", "closed-ended finite answer set binary non-visual", "graph", "No", true]]}

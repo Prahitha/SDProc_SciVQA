@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["9bf86bc9c5d3d2a1cf574432764ef288", "How many red circles are present in the smaller blue oval form?", "1", "closed-ended infinite answer set visual", "scatter plot", "Three red circles", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["37d72e680ccbb6e77170d8b81160299d", "Does the red line, representing the logistic function,  approach the blue dashed line, representing the linear function, as the x-axis values increase?", "No", "closed-ended finite answer set binary visual", "line chart", "No", true]]}

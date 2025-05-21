@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d3aba2fed439f452916b3cbe9b911111", "What is the approximate number of examples in the blue bar for the 80-100 ROUGE-1 score bin?", "700", "closed-ended infinite answer set visual", "bar chart", "700", true]]}

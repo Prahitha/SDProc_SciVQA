@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["44bb5e36350c48eb7a2efb5a1d9489e7", "In the plot labeled 'SE Travel', does the red line representing 'Domain Similarity' always trend upwards?", "No", "closed-ended finite answer set binary visual", "line chart", "No", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["194effb6d16511b7e7b755a8cb89ed5c", "Which line in the second graph represents 'V-Ptr-Net'?", "C", "closed-ended finite answer set non-binary visual", "line chart", "A", false]]}

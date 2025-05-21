@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["711bff7dbfdaa1d565c13c1c85e3145a", "Which datasets were used to compare the effect of data augmentation with adversarial training on the accuracy of models?", "C", "closed-ended finite answer set non-binary non-visual", "line chart", "C", true]]}

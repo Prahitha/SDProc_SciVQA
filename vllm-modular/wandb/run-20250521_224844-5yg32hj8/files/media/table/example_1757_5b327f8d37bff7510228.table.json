@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["0062283f9c422fa5313765d29a69ffed", "What is the approximate maximum BLEU value of the blue line representing \"without Critic-Aware Learning\"?", "19.85", "closed-ended infinite answer set visual", "line chart", "19.9", false]]}

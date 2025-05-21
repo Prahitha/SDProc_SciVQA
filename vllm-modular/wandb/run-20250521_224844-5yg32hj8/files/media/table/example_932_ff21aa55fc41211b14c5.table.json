@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b1e1b91b5cc99384fedd883c46016102", "Which lines represent the \"Hypo\" condition in the vocalic triangle?", "C", "closed-ended finite answer set non-binary visual", "Other", "D", false]]}

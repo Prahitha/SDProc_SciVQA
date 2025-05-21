@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["cd03ae0e283b23c287760ca19285fe95", "What is the Y-axis representing?", "Accuracy (%)", "closed-ended infinite answer set non-visual", "line chart", "Classification accuracy", false]]}

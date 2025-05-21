@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b5b801be62cef3dc49a36f59a753608a", "Which of the following models have an accuracy of at least 0.70 for sentence lengths of less than 5?", "A,B,C,D", "closed-ended finite answer set non-binary non-visual", "line chart", "D", false]]}

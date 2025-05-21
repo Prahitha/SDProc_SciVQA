@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["be5c20561e2b1260bf8a4000cf263c6f", "Does the BLEU score decrease more rapidly with segmentation than without segmentation?", "yes", "closed-ended finite answer set binary non-visual", "line chart", "No", false]]}

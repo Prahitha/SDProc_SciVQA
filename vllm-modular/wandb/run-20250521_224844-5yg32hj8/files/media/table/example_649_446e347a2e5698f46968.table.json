@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["7472ffa021062636ed4cd1011df1e196", "What is the approximate accuracy of the red line, DBN model, with 1 neighbor?", "63", "closed-ended infinite answer set visual", "line chart", "68%", false]]}

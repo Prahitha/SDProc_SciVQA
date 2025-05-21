@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b8bf2d4f87f9f6d43b1bf739f1922f5a", "How many corpora are represented in Figure 1?", "14", "closed-ended infinite answer set non-visual", "line chart", "14", true]]}

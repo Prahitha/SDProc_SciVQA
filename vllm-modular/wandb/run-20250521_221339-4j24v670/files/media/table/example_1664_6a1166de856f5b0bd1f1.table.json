@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["da964f4ff7747edda358bd1b3250cd17", "Which color represents Lookahead-1 in the figure?", "A", "closed-ended finite answer set non-binary visual", "scatter plot", "A", true]]}

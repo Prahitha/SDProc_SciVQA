@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c0caf2c2c0510b8b018b41075e925fa1", "Does the EmoryNLP model have a higher F1 score for CER on EmoryNLP than the MELD model for all values of T?", "No", "closed-ended finite answer set binary non-visual", "line chart", "No", true]]}

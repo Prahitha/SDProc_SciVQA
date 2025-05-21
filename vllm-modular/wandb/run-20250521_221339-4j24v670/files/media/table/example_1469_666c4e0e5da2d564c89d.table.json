@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["51124511909216b48882c368080e80f8", "Which of the following models have an accuracy greater than 60% when attention comes from the top three layers?", "B,C", "closed-ended finite answer set non-binary non-visual", "line chart", "A,C", false]]}

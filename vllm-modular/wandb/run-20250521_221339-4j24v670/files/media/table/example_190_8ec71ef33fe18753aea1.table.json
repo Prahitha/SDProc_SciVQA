@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["a5d33d35db0a2b3d4203fbb32a266532", "Which model does the orange represent?", "A", "closed-ended finite answer set non-binary visual", "line chart", "B", false]]}

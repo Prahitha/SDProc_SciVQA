@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["6ef3c469d298194e0d38423c89fc022d", "Does the accuracy of the red line decrease as the percentage of tokens selected increases?", "No", "closed-ended finite answer set binary visual", "line chart", "No", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e879c0bc98bb8f224527937a47f1cf45", "Is the blue line higher than the orange line  at a recall of 50%?", "No", "closed-ended finite answer set binary visual", "line chart", "No", true]]}

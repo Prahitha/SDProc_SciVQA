@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ce5210873886847d790d1d73abd3f637", "What is the approximate value of the blue line at a cumulative cost of 20000?", "The approximate value of the blue line at a cumulative cost of 20000 is 28.6.", "closed-ended infinite answer set visual", "line chart", "28.65", false]]}

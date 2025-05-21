@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["74f91e19b31d55d06c85df7848290389", "Which output layer type shows the lowest cross-entropy loss difference (%) for words with frequency between 1K and 2.5K?", "B", "closed-ended finite answer set non-binary non-visual", "line chart", "C", false]]}

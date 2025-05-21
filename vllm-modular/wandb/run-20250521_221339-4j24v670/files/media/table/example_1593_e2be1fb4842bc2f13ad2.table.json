@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["af2786a3451fe447c7f6cc61e3b7e5bd", "What is the label of the oval that the 'Feature extraction' arrow points to?", "A", "closed-ended finite answer set non-binary visual", "Flow chart", "A", true]]}

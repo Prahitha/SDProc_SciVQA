@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["1b67288bc1aa3b25eae0c168e7ba567e", "What is the F1 score for the light orange line at layer L8?", "62", "closed-ended infinite answer set visual", "line chart", "50 - 60", false]]}

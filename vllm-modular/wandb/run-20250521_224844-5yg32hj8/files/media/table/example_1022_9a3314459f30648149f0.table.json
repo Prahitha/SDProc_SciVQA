@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["11e86db9402827625007e9c6311f3da3", "Which line represents the validation error?", "A", "closed-ended finite answer set non-binary visual", "line chart", "A", true]]}

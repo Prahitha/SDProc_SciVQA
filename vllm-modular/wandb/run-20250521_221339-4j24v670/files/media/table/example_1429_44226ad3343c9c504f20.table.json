@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["7dbee68b42868de4acfe0aab27b04fef", "For which dataset does proportion consistently decrease with ranking of Best-Summary?", "XSum", "closed-ended infinite answer set non-visual", "line chart", "XSum", true]]}

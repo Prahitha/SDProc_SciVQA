@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["465b06ee223597d98b17feaef3692022", "What is the value of the red line at layer 6?", "4.4", "closed-ended infinite answer set visual", "line chart", "4", false]]}

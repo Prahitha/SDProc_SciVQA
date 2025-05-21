@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["351d578c34f431f4d6ef150f6ade9ec2", "Which of the following rankers have a consistent precision value across all trainset sizes?", "A,B", "closed-ended finite answer set non-binary non-visual", "line chart", "A", false]]}

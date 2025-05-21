@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2bf562ea56b65ad6daaa950814ad08d7", "Which node has the highest number of dependents in the dependency graph?", "C", "closed-ended finite answer set non-binary non-visual", "Tree", "C", true]]}

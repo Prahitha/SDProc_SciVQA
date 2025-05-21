@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b819beb97228105bfb0174d1148f0cf7", "What is the value of the blue line at 160,000 iterations?", "22.5", "closed-ended infinite answer set visual", "line chart", "between 20 and 25", false]]}

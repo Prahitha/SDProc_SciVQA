@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3b79dae6ce42ac7b90c825b730470c80", "Which data point on the graph represents the highest F1 score when pretraining is used?", "B,C", "closed-ended finite answer set non-binary visual", "line chart", "B", false]]}

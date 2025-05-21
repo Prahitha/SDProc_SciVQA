@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["9f1f8c33832a15003276bcacfdecc386", "What is the value of the highest point on the x-axis?", "B,C", "closed-ended finite answer set non-binary non-visual", "scatter plot", "A", false]]}

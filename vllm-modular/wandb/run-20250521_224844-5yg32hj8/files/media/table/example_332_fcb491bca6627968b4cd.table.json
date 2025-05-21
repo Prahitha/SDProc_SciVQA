@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["02d99d694f8f9a7947f5df7d959a9d4a", "Do ELEA scores have a higher peak density than GAP scores?", "Yes", "closed-ended finite answer set binary non-visual", "Histogram", "Yes", true]]}

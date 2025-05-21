@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e4a9cab574e14a0fcae3f2e36bbbdd1b", "For which of the following bins does accuracy conssitently descend with layer?", "C,D", "closed-ended finite answer set non-binary non-visual", "Heat Map", "D", false]]}

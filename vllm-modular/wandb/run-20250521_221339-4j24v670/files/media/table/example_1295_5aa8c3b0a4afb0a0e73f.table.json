@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["0e2f04bbccf712bc9aa6335d8044e75c", "What is being depicted by line red?", "The red line separates where our approach is better (left) or worse (right).", "closed-ended infinite answer set non-visual", "scatter plot", "x=y", false]]}

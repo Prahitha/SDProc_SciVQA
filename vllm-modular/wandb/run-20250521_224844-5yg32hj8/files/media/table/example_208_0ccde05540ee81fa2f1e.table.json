@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e26f16352d18abf66197a479a8294512", "Is the node labeled 'solid bulk carrier' a parent node of the node 'fitted_with'?", "no", "closed-ended finite answer set binary non-visual", "tree", "Yes", false]]}

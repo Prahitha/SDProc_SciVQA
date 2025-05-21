@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2f129a382d15ad3443274ede1ccc95f7", "Do all subplots have the same number of squares?", "Yes", "closed-ended finite answer set binary visual", "confusion matrix", "No", false]]}

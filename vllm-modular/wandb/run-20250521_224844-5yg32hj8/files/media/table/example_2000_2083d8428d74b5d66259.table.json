@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["6cd30585d19bf898d281aa882934e083", "What is the approximate CHRF++ score of Guo'19 for a graph with a diameter between 8 and 14?", "57.6", "closed-ended infinite answer set non-visual", "line chart", "58", false]]}

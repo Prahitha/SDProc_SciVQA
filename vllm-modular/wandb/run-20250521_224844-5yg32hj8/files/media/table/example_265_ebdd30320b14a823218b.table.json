@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["6e6f07a133e152db993d9773b21062f0", "Which of the following languages are depicted in the figure?", "B,F,D,E", "closed-ended finite answer set non-binary non-visual", "scatter plot", "A,B,C,D", false]]}

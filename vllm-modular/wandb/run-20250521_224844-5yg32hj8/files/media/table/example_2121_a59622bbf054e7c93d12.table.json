@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["55363140511e44268a52c5d1fb9f4422", "What is the maximum value of grades in this graph?", "A", "closed-ended finite answer set non-binary non-visual", "line chart", "C", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["89967517b4f387cd5264bfc9d3a126e4", "Is the number of correctly predicted 'Non Sug' instances greater than the number of correctly predicted 'Sug' instances?", "yes", "closed-ended finite answer set binary non-visual", "confusion matrix", "Yes", true]]}

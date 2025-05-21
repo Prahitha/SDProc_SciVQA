@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["1d4785601dc3361428b38c998f118459", "Which of the following are inputs to the Speech Recognition component in the NTNU broadcast news system?", "A,B,C,D", "closed-ended finite answer set non-binary non-visual", "architecture diagram", "A,B,C,D", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3cbbca7cffa1dc70808fc01920c4c076", "For which task is the F1 score the highest when the number of hidden units is 500?", "SRL", "closed-ended infinite answer set non-visual", "line chart", "POS", false]]}

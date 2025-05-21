@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b22dd4f39df50e4c68d168428f3b85f0", "What are the different training dialogs compared in figure 3?", "100, 200, 300, 400, 500", "closed-ended infinite answer set non-visual", "line chart", "HCN+embed+samples, HCN+samples, HCN+embed, HCN", false]]}

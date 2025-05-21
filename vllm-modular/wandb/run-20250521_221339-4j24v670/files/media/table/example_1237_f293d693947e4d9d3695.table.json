@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["d12f11c89b2b9e7ceb9f9e2d67723b25", "Which of the following methods show a decreasing trend for the average task accuracy over the test stream?", "B,C", "closed-ended finite answer set non-binary non-visual", "line chart", "D", false]]}

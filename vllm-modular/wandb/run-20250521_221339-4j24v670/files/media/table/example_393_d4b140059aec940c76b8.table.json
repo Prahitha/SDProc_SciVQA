@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c00051518397d5f1bbdee7b7a38e3452", "Does the blue line representing NAT similarity reach a value greater than 0.65?", "Yes", "closed-ended finite answer set binary visual", "line chart", "No", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["1179345160960c4b9c9cb082441947ba", "Does the GAIA multimedia knowledge extraction architecture include an applications module?", "yes", "closed-ended finite answer set binary non-visual", "architecture diagram", "Yes", true]]}

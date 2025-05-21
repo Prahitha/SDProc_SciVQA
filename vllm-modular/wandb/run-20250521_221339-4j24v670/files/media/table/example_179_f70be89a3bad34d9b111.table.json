@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3f5cf2b010a43d3c6a598872716fecc8", "Is the yellow line representing 'Random' consistently below the purple line representing 'Oracle' in the graph labeled (b)?", "Yes", "closed-ended finite answer set binary visual", "Line Chart,Table", "Yes", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["bcb1f79a33bd8bc5d11bcc59d0c38c5a", "Does Fscore in the left plot is consistently higher than the Fscore in the right plot?", "No", "closed-ended finite answer set binary non-visual", "line chart", "No", true]]}

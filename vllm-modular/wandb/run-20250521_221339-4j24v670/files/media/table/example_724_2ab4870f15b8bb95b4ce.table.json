@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["844b2054a9bfa5989d95be58fc3881fd", "What is the value of K at which the top-k accuracy is approximately 98%?", "22", "closed-ended infinite answer set non-visual", "Scatter Plot", "between 7 and 9 ", false]]}

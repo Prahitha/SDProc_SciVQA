@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["924f1bcfe41e019dd356701da2ac9783", "What is represented by the 'MM' line?", "Predicted marks by the mathematical model", "closed-ended infinite answer set non-visual", "line chart", "Mathematical model", false]]}

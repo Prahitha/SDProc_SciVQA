@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["a43f56780dc6fd3e82d68ea0a9d130b0", "Does the distribution curve in the left subplot look roughly symmetrical?", "no", "closed-ended finite answer set binary visual", "Line Chart,Scatter Plot", "Yes", false]]}

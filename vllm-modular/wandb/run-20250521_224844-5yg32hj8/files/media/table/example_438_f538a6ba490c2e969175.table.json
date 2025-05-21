@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b13ea28d27be8e06e642caa9d0e5fc26", "What is the exact example shown for the neutral sample?", "h2", "closed-ended infinite answer set non-visual", "line chart", "A kid is having fun in a garden with her family", false]]}

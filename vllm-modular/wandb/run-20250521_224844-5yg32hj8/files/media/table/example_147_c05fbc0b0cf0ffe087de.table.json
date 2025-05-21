@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["dedfbefb46d396ccb1278986a7291b2d", "What is the highest feature number value shown in the graph?", "B", "closed-ended finite answer set non-binary non-visual", "line chart", "B", true]]}

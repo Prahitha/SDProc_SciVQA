@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b21347f2b7a199861d3765118912f807", "What is the color of the line representing the 'no pretrain' model?", "green", "closed-ended infinite answer set visual", "line chart", "Green", true]]}

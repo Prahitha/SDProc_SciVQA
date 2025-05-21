@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["ece446e1d201a405a11a0bb819e74fe5", "Approximatevely how much revenue did Liverpool FC earn from commercial and broadcasting in 2018/2019?", "299.3", "closed-ended infinite answer set non-visual", "line chart", "550 million euros", false]]}

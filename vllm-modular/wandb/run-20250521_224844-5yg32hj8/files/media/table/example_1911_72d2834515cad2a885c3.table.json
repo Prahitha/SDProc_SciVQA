@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["51e5a4e805cc82914eb6c1056519e0c0", "Is the purple line located at the top of the right figure, but at the bottom of the left figure?", "No", "closed-ended finite answer set binary visual", "line chart", "No", true]]}

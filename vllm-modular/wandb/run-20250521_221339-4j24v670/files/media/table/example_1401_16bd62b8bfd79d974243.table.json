@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["6e1b65cfd6befe4bc9326e10c776f8e6", "What is the range of BLEU scores for which data was collected for the En to Vi task?", "20 to 30", "closed-ended infinite answer set non-visual", "line chart", "from 18 to 29", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e94b814ec9d240651948cbf0ad6791ca", "Does the plot present 3 different types of answers?", "Yes, the plot presents 3 different types of answers: I don't know, Yes, No.", "closed-ended finite answer set binary non-visual", "pie chart", "Yes", false]]}

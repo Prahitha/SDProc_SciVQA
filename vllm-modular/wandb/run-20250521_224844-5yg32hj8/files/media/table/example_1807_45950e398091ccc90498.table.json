@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["bacd8f2af75cea2fc40cb4ccdf3b33d8", "What are the shapes of the boxes labeled with 'h' inside the yellow box labeled CARNN?", "D", "closed-ended finite answer set non-binary visual", "neural networks", "D", true]]}

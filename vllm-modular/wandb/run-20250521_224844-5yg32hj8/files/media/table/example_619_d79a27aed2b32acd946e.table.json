@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["4a18dbe4cb2d041b7fee94a508f031bb", "Which of the blue boxes labeled with 'LU' has a connecting arrow pointing to the box labeled 'Fm'?", "A", "closed-ended finite answer set non-binary visual", "neural networks", "D", false]]}

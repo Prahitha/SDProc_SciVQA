@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["7bbb9537fc8040232fcbf52bf6a006da", "What is the location where the girl wants to study?", "New York", "closed-ended infinite answer set non-visual", "tree", "New York", true]]}

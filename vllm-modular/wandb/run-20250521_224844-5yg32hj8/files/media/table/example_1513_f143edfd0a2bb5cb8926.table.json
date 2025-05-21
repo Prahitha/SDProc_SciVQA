@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["6a374129dfd166ad70b6f48cbe457a0f", "Which ordering method has a consistently decreasing accuracy on the SST2 dataset with window size?", "A", "closed-ended finite answer set non-binary non-visual", "line chart", "D", false]]}

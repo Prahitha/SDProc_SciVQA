@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c4fa3faf17b773a7b254e5e42bcee5e1", "Does the line in the graph labeled 'SRL' have a steeper incline than the line in the graph labeled 'POS'?", "yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

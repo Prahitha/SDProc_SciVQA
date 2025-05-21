@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b697a04dc0444a36ba769b18f284ba38", "What is the number of true positives for the 'OFF' class in the UM-IU@LING confusion matrix for subtask A?", "161", "closed-ended infinite answer set non-visual", "confusion matrix", "161", true]]}

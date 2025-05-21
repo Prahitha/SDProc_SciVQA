@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["0efa8dd3ed83c9b1d1dc071e75037140", "What is the maximum success rate reached by the blue line in the top left graph?", "0.4", "closed-ended infinite answer set visual", "line chart", "0.32", false]]}

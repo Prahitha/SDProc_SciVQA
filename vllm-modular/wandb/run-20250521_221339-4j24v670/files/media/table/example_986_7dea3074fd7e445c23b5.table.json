@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["7aa3806f4a83c91aa42a05913d7f0d7d", "What two conditions of filtering are presented in the plot?", "A", "closed-ended finite answer set non-binary non-visual", "bar chart", "A", true]]}

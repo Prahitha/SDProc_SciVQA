@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["39fe78cf936b41fbd5cd234f6bcc2561", "What is the value when nb_words is at its peak?", "19", "closed-ended infinite answer set non-visual", "line chart", "18.5", false]]}

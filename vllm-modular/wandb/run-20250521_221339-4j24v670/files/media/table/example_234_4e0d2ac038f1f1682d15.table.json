@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["58441089425fb00d3538c8d3555897cb", "Are the dots in the second plot from the left clustered more tightly together than the dots in the fourth plot from the left?", "No", "closed-ended finite answer set binary visual", "scatter plot", "Yes", false]]}

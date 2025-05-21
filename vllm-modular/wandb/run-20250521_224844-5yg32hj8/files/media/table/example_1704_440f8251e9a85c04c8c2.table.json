@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["68ef5e800a81a199c4e68694611a1791", "What color corresponds to an accuracy of 1.0?", "Red", "closed-ended infinite answer set visual", "Heat Map", "Red", true]]}

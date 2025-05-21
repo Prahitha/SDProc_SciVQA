@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["fcbabcb28d0cc02d253ba7b1025764d2", "Is the gray segment labeled 'MSA, Sarcastic' smaller than the blue segment for Maghreb?", "yes", "closed-ended finite answer set binary visual", "pie chart", "No", false]]}

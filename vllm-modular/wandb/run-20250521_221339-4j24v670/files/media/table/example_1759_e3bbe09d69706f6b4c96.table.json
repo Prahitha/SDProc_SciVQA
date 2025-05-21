@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["fc8f48093c338c8f8224e44eb516f248", "Does the blue line show a higher BLEU score at the update value of 1000 than the red line?", "Yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

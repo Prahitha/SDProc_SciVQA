@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["7fd679e808b368deaa56aa33bc6a470e", "What are the words in the terminal nodes?", "un6, num\u00e9ro7, P, NP, deg, NC, code9", "closed-ended infinite answer set non-visual", "tree", "un, numero, de, code", false]]}

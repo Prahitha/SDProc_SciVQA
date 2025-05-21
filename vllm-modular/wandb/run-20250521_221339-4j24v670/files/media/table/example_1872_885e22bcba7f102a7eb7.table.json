@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["8ead6776f3262db4241e4c3328a8c0fb", "What language is represented by the orange line?", "English", "closed-ended infinite answer set visual", "line chart", "Romanian", false]]}

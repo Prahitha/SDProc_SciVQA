@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["9a40296d9cc93a48de93fa919ea6f91b", "Is the shape of 'Selected features' an oval?", "Yes", "closed-ended finite answer set binary visual", "Flow chart", "Yes", true]]}

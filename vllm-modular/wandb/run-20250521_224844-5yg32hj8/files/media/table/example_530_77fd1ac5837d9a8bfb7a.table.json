@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["f09a038c79748cccc7b090b242247504", "Does the 'cNLI' method and the 'cHypoth, retrained' method have the same accuracy at 0.4, 1 for 'lambda Loss, lambda Enc' in graph (b)?", "No", "closed-ended finite answer set binary non-visual", "line chart", "Yes", false]]}

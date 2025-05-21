@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["8f74fa7c000158ae647c211ece16861e", "Is the average number of words per hour at hour 21 higher than the average number of words per hour at hour 1?", "yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

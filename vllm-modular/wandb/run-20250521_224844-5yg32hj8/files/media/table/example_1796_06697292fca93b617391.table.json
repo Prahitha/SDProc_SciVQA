@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["93da57689dc3ad9a0499985db6cfcd08", "Does the second layer positioned above the input tokens consider the original order of the tokens?", "No", "closed-ended finite answer set binary visual", "neural networks", "Yes", false]]}

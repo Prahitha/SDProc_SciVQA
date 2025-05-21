@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["584c79b47d1a0f606375f1f181c3fb48", "Which training sets are shown in the figure?", "A&H training data, K&C training data", "closed-ended infinite answer set non-visual", "line chart", "A&H; K&C", false]]}

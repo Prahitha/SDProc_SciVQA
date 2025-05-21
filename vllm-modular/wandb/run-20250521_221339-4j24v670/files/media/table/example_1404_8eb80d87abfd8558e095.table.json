@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["4ae06f39f154a990877c03f9453b1098", "Which line on the left graph represents the results of the transformer model with a unidirectional encoder trained on the wait-7 decoding path?", "B", "closed-ended finite answer set non-binary visual", "line chart", "C", false]]}

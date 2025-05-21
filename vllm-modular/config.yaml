@@ -9,9 +9,8 @@ dataset:
 
 # VLLM Configuration
 vllm:
-  #model: "microsoft/Phi-4-multimodal-instruct"  # Model name for inference
-  model: "Qwen/Qwen2.5-VL-7B-Instruct"
-  model_name: "bespoke_single_validation"
+  model: "OpenGVLab/InternVL3-8B"  # Model name for inference
+  model_name: "internvl-single-validation"
   temperature: 0.0  # Sampling temperature
   max_tokens: 300  # Maximum number of tokens to generate
   batch_size: 8  # Batch size for processing
@@ -29,7 +28,7 @@ output:
 
 # Wandb Configuration
 wandb:
-  project: "bespoke-single-validation"  # Project name
+  project: "internvl-single-validation"  # Project name
   entity: null  # Your wandb username/team name if needed
   api_key: 'f44886150ae5e793c1b1bff8ee3f5d8593896fc1'  # Will be loaded from environment variable WANDB_API_KEY
   run_name: "validation-inference"

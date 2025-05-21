@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["45dfcbf33b73122ddbf47d1db017285c", "Which of the following are direct inputs to the Q-network?", "A,B,C", "closed-ended finite answer set non-binary visual", "neural networks", "B", false]]}

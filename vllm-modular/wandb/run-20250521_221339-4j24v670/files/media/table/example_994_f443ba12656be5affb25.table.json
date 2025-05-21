@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e0cafca8a061883cfa5b7e56d064731b", "Which of the plots shows a higher maximum value on the y-axis?", "B", "closed-ended finite answer set non-binary visual", "line chart", "B", true]]}

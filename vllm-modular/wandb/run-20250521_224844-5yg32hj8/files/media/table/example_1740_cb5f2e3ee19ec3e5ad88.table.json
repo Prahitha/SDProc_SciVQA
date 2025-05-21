@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e623ea3c7a9e0a66994087d846e27762", "What does 'P' and 'A' stand for in the figure?", "P stands for Paragraph-Unit, A stands for Article-Unit", "closed-ended infinite answer set non-visual", "Line Chart", "Paragraph-Unit and Article-Unit", false]]}

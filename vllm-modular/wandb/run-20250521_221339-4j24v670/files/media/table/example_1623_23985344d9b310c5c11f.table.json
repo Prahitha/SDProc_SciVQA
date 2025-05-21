@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["6a2cc545106dff61faf1b3dc44df658e", "What is the sequence of the symbols in the topmost row?", "C, V, T, S", "closed-ended infinite answer set visual", "Illustrative diagram", "T1 T2 T1 T2", false]]}

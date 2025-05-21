@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["bd8c9addcbd57817c2a8fa791ada3b6f", "What is the approximate value of the red line at the sampling ratio of 50% in the leftmost figure?", "0.68", "closed-ended infinite answer set visual", "line chart", "0.7", false]]}

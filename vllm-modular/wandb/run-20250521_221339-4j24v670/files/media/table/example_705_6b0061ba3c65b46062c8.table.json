@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["2611f017187562b952eac3eba2e54536", "In subplot (b), what is the  P@10 value for 'QA-SQuAD-2' with value 5 in the x-axis?", "0.5", "closed-ended infinite answer set non-visual", "line chart", "approximately 10", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["79b087aceaef9a2ff75ae302f3c37e71", "What is the right child of 't' in the middle tree?", "read", "closed-ended infinite answer set visual", "tree", "<e, t>", false]]}

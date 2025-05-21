@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["bc68de12c1553fef3353fef980c2d59e", "Is the value of the dotted red line higher than the dashed blue line at the token value 30?", "No", "closed-ended finite answer set binary visual", "line chart", "No", true]]}

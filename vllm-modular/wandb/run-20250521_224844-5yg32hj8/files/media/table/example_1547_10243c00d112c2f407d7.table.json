@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["6d35e24b75f1ad2ed8d9ebc676aeb9bd", "Which line(s) show an increase in values as the number of hypotheses increases?", "A,B,D", "closed-ended finite answer set non-binary visual", "line chart", "A,B,C", false]]}

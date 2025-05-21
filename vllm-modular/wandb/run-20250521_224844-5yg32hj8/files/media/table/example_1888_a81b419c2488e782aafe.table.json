@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["fe0f3e2e9ca4b969d5e30b3069dcdef5", "What is the approximate value of the redd line on the y-axis at 20% of data?", "C", "closed-ended finite answer set non-binary visual", "line chart", "C", true]]}

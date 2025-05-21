@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["58a5f3903b252e5e757dd656b481c71f", "Which line represents the 'highest bound improvement on rejected sample'?", "A", "closed-ended finite answer set non-binary visual", "line chart", "D", false]]}

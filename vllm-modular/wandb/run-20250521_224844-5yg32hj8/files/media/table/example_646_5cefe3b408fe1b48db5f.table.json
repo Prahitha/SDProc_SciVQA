@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["6696bb28a749ba56ac8a1810130ef1f5", "Which histogram has the most bars that are taller than the rest of the bars in their respective histograms?", "B", "closed-ended finite answer set non-binary visual", "histogram", "C", false]]}

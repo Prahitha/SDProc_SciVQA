@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["250e7a040c0432ef03dcc0d8c54d019c", "What is the finishing time of the vertical solid red line that intersects the peak of the red curve in the middle figure?", "1500", "closed-ended infinite answer set visual", "line chart", "between 1000 and 5000", false]]}

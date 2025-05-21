@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["e1e4f6c1a0e020442c5e51bbe42981f0", "What is the maximum value of the orange line?", "34", "closed-ended infinite answer set visual", "line chart", "Between 30 and 35", false]]}

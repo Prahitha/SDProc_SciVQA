@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["dcf1a3c7412234b6878350d189f89081", "Does the blue line representing PAE show a decreasing trend as the ratio of '-1' emotional causes increases?", "Yes", "closed-ended finite answer set binary visual", "line chart", "Yes", true]]}

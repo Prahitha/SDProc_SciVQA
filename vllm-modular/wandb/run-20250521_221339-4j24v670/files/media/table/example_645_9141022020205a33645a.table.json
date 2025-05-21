@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["bfe73e739146433ed914b3120e0b3743", "Does the binarized tree have a higher ratio of decoding steps with respect to sequential decoding than the ideal binary tree?", "No", "closed-ended finite answer set binary non-visual", "histogram", "No", true]]}

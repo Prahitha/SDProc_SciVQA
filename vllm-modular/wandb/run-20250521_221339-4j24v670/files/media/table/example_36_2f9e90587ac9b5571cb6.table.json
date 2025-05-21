@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["decec01e4c9022e301e7bd08e576a583", "Does the dashed line representing 'Overall' fall above the dashed line representing 'Chemistry' at the training size of 500?", "Yes", "closed-ended finite answer set binary visual", "line chart", "No", false]]}

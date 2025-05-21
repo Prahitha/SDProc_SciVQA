@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["51dc29080624498b5d9d6ae091820928", "In what range is the black line that indicates the F1 score for the SRL task when the number of hidden units is 500?", "500 to 900", "closed-ended infinite answer set visual", "line chart", "between 68.5 and 69", false]]}

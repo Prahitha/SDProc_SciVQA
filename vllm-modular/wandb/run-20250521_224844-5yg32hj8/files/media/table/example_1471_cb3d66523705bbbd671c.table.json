@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["8b31afb2f259b7222f6bdc6c87e3596c", "What is the approximate batch size of the model represented by the blue line?", "22K", "closed-ended infinite answer set visual", "line chart", "13K sentence pairs/batch", false]]}

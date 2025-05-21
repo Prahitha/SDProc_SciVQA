@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b060e413958092fa16e59719aa2b4d5c", "Is the Jaccard (O)\u2019s spearman correlation  always bellow the other methods in all years?", "No", "closed-ended finite answer set binary non-visual", "line chart", "No", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b8bf7810cdb803efef58461d3d66a31a", "What is the highest level of negation shown on the x-axis?", "I3", "closed-ended infinite answer set non-visual", "line chart", "l6", false]]}

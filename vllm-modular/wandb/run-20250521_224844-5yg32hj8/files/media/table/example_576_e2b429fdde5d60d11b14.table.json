@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["53ea2e2ba45a59da5f7b3dc7509408e6", "Which of the following components interact directly with the Multimodal Parser/Understander?", "B,C", "closed-ended finite answer set non-binary non-visual", "Architecture Diagram", "B,C", true]]}

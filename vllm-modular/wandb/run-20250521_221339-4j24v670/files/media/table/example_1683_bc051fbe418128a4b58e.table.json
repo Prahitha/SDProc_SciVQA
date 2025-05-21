@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["9bb8aaa99f3f2b59b9388e2da9be1ffe", "Which of the following tasks is not represented by a blue box in the architecture diagram?", "A,B,C,D", "closed-ended finite answer set non-binary visual", "architecture diagram", "C", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["23f789d3e7e84f24db5b36439a9e8a87", "Which line represents the performance of ELMo with ST?", "C", "closed-ended finite answer set non-binary visual", "line chart", "C", true]]}

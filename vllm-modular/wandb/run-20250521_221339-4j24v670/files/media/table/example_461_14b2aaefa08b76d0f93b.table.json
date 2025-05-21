@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["28976f1c35d2104f1fbd2e27a9d86363", "Which of the models achieves the best performance at the end of training?", "D", "closed-ended finite answer set non-binary non-visual", "line chart", "C", false]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["441a9baa92d28e6db2771f55426ab1e4", "Which line represents the method that had the lowest 'average performance' at task length 20-35?", "C", "closed-ended finite answer set non-binary visual", "line chart", "C", true]]}

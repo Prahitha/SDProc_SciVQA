@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["3fb9bdcd24264f6b87bf739f08d44d87", "At approximately which training step does the representation similarity of the AT encoder reach its maximum?", "250", "closed-ended infinite answer set non-visual", "line chart", "300", false]]}

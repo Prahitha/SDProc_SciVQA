@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["804ae9b89aaa5e996d244afcb89cd4ab", "Does the value of MRR mostly increase as K increases for the MetaR method?", "yes", "closed-ended finite answer set binary non-visual", "line chart", "Yes", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["c0feaf7a04f1e797e22d61d8098eef2c", "Based on the red line, where is our approach worse than the baseline?", "A,D", "closed-ended finite answer set non-binary visual", "scatter plot", "D", false]]}

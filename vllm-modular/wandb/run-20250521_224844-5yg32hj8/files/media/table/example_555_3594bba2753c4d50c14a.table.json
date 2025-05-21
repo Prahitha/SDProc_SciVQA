@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["43ec790f30da118593fd9fc55145bf09", "Is the Autoencoder block connected to 'label'?", "No", "closed-ended finite answer set binary non-visual", "Neural Networks", "No", true]]}

@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["16c542f1ff1bc2fddc7efa0b1a758d9a", "What is the approximate value of the blue line in 2009?", "0.65", "closed-ended infinite answer set visual", "line chart", "between 0.5 and 0.6", false]]}

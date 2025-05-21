@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type", "answer", "correct"], "data": [["b4d7e972a77509078173d935b282fa0e", "Which classifier has the highest probability density for the IMDB dataset with 10K labeled instances?", "Deep Averaging Network", "closed-ended infinite answer set non-visual", "line chart", "Deep Averaging Network", true]]}
