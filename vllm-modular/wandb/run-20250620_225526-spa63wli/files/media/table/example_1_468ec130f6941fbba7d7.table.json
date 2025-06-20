@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type"], "data": [["a73335d8352c93f9ac1956c190bd8cbe", "What are all the labels for the slices of the pie chart?", "Not humor, 1, 2, 3, 4, 5", "closed-ended infinite answer set non-visual", "pie chart"]]}

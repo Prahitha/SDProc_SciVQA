@@ -1,0 +1,43 @@
+{
+  "os": "Linux-5.15.0-138-generic-x86_64-with-glibc2.39",
+  "python": "CPython 3.12.3",
+  "startedAt": "2025-06-20T22:55:27.098070Z",
+  "program": "/workspace/SDProc_SciVQA/vllm-modular/main.py",
+  "codePath": "vllm-modular/main.py",
+  "git": {
+    "remote": "https://github.com/Prahitha/SDProc_SciVQA",
+    "commit": "8972a97f385f3150901c9931f127e096140951b3"
+  },
+  "email": "prahitha.movva03@gmail.com",
+  "root": "/workspace/SDProc_SciVQA/vllm-modular",
+  "host": "75ab57a9cf62",
+  "executable": "/venv/main/bin/python",
+  "codePathLocal": "main.py",
+  "cpu_count": 96,
+  "cpu_count_logical": 192,
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "75161927680",
+      "used": "20106072064"
+    }
+  },
+  "memory": {
+    "total": "540838948864"
+  },
+  "cpu": {
+    "count": 96,
+    "countLogical": 192
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA A100-SXM4-40GB",
+      "memoryTotal": "42949672960",
+      "cudaCores": 6912,
+      "architecture": "Ampere",
+      "uuid": "GPU-e78a3a5c-9388-62ee-80cb-c74ea7e8de72"
+    }
+  ],
+  "cudaVersion": "12.8"
+}

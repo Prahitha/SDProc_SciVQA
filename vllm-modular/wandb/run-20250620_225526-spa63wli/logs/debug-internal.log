@@ -1,0 +1,7 @@
+{"time":"2025-06-20T22:55:27.103731923Z","level":"INFO","msg":"stream: starting","core version":"0.20.1","symlink path":"/workspace/SDProc_SciVQA/vllm-modular/wandb/run-20250620_225526-spa63wli/logs/debug-core.log"}
+{"time":"2025-06-20T22:55:27.30268792Z","level":"INFO","msg":"stream: created new stream","id":"spa63wli"}
+{"time":"2025-06-20T22:55:27.30275419Z","level":"INFO","msg":"stream: started","id":"spa63wli"}
+{"time":"2025-06-20T22:55:27.302775181Z","level":"INFO","msg":"writer: Do: started","stream_id":"spa63wli"}
+{"time":"2025-06-20T22:55:27.302794611Z","level":"INFO","msg":"sender: started","stream_id":"spa63wli"}
+{"time":"2025-06-20T22:55:27.302834081Z","level":"INFO","msg":"handler: started","stream_id":"spa63wli"}
+{"time":"2025-06-20T22:55:27.470993532Z","level":"INFO","msg":"Starting system monitor"}

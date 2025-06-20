@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type"], "data": [["c551d1f0a7b2c5a68d02abc3be1eed41", "Is the percentage of tweets considered 'not humor' greater than the percentage of tweets with a score of 2?", "yes", "closed-ended finite answer set binary non-visual", "pie chart"]]}

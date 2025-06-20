@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type"], "data": [["3cf8604eff230ce0530582a2203a5d53", "Which score was given most often by annotators?", "Not humor", "closed-ended finite answer set non-binary non-visual", "pie chart"]]}

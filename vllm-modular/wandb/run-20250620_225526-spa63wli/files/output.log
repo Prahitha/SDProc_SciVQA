@@ -1,0 +1,56 @@
+Initialized wandb run: internvl-baseline_test
+Loading dataset from HuggingFace...
+Initializing dataset with data_dir: scivqa_data and split: test
+README.md: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 5.88k/5.88k [00:00<00:00, 18.5MB/s]
+train_2025-03-27_18-34-44.json: 100%|██████████████████████████████████████████████████████████████████████████| 14.7M/14.7M [00:00<00:00, 133MB/s]
+validation_2025-03-27_18-34-44.json: 100%|████████████████████████████████████████████████████████████████████| 1.63M/1.63M [00:00<00:00, 27.9MB/s]
+(…)st_without_answers_2025-04-14_15-30.json: 100%|████████████████████████████████████████████████████████████| 3.90M/3.90M [00:00<00:00, 24.3MB/s]
+Generating train split: 100%|██████████████████████████████████████████████████████████████████████| 15120/15120 [00:00<00:00, 39524.42 examples/s]
+Generating validation split: 100%|███████████████████████████████████████████████████████████████████| 1680/1680 [00:00<00:00, 43117.48 examples/s]
+Generating test split: 100%|█████████████████████████████████████████████████████████████████████████| 4200/4200 [00:00<00:00, 50025.49 examples/s]
+Raw dataset loaded with 4200 examples for split 'test'
+Validating test data: 100%|██████████████████████████████████████████████████████████████████████████████████| 4200/4200 [00:00<00:00, 5866.72it/s]
+Successfully loaded and validated 4200 items for split 'test'
+Loaded 4200 examples
+
+Processing examples from 0 to 4200 with batch size 8
+Processing batches:   0%|                                                                                                  | 0/525 [00:00<?, ?it/s]
+
+Processing batch 1/525 with 8 examples
+
+Example 0:
+Question: What percentage of the votes corresponds to the smallest slice of the pie chart?
+Final Answer: 2%
+
+Example 1:
+Question: What are all the labels for the slices of the pie chart?
+Final Answer: Not humor, 1, 2, 3, 4, 5
+
+Example 2:
+Question: Is the green slice labeled '3' smaller than the green slice labeled '5'?
+Final Answer: no
+
+Example 3:
+Question: Is the percentage of tweets considered 'not humor' greater than the percentage of tweets with a score of 2?
+Final Answer: yes
+
+Example 4:
+Question: Which section of the pie chart represents the highest percentage?
+Final Answer: 5
+
+Example 5:
+Question: Which score was given most often by annotators?
+Final Answer: Not humor
+
+Example 6:
+Question: What is the mean score assigned by the annotators to the humorous tweets, and how is it presented in the figure?
+Final Answer: It is not possible to answer this question based only on the provided data.
+
+Example 7:
+Question: What is the value of the light blue slice?
+Final Answer: 249
+
+Progress: 0.2% (8/4200 examples)
+<wandb.sdk.wandb_run.Run object at 0x7f745630b410>
+
+Processing batch 2/525 with 8 examples

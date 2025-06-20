@@ -11,7 +11,7 @@ python -m vllm.entrypoints.openai.api_server \
   --model "OpenGVLab/InternVL3-8B" \
   --dtype auto \
   --trust-remote-code \
-  --max-model-len 4024 
+  --max-model-len 32768 
   # --gpu-memory-utilization 0.95 \
   # --max-num-batched-tokens 4096 \
   # --max-num-seqs 256 \

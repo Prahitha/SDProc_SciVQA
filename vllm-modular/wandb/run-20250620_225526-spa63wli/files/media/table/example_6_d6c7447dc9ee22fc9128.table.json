@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type"], "data": [["e404565c67a4037a36f41c11aed3a894", "What is the mean score assigned by the annotators to the humorous tweets, and how is it presented in the figure?", "It is not possible to answer this question based only on the provided data.", "unanswerable", "pie chart"]]}

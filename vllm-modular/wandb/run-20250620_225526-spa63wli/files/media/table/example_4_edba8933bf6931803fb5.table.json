@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type"], "data": [["e5fe50886ea6512fd2e13ebbc43289cf", "Which section of the pie chart represents the highest percentage?", "5", "closed-ended finite answer set non-binary visual", "pie chart"]]}

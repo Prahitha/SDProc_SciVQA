@@ -1,0 +1,1 @@
+{"columns": ["id", "question", "final_answer", "qa_pair_type", "fig_type"], "data": [["21b0f38822e386f952d628dce0d5006b", "What percentage of the votes corresponds to the smallest slice of the pie chart?", "2%", "closed-ended infinite answer set visual", "pie chart"]]}
